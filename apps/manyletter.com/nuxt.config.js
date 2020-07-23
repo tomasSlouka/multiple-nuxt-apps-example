@@ -3,7 +3,7 @@ export default {
   srcDir: __dirname,
   buildDir: 'apps/manyletter.com/.nuxt/manyletter.com',
   server: {
-      port: 4000, // default: 3000
+      port: 8081, // default: 3000
       host: 'localhost' // default: localhost
   },
   /*
