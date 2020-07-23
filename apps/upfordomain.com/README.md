@@ -1,6 +1,4 @@
-# ManyLetter
-
-> Top-notch list of newsletter
+# upfordomain.com
 
 ## Build Setup
 
