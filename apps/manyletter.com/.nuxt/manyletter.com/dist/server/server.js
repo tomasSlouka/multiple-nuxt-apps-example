@@ -1462,7 +1462,7 @@ if (false) {}
 
 
 
-const _5c0a4802 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 1).then(__webpack_require__.bind(null, 31))); // TODO: remove in Nuxt 3
+const _7e18076a = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 1).then(__webpack_require__.bind(null, 31))); // TODO: remove in Nuxt 3
 
 
 const emptyFn = () => {};
@@ -1482,7 +1482,7 @@ const routerOptions = {
   scrollBehavior: router_scrollBehavior,
   routes: [{
     path: "/",
-    component: _5c0a4802,
+    component: _7e18076a,
     name: "index"
   }],
   fallback: false
@@ -1658,7 +1658,7 @@ var nuxt_error_component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   null,
-  "0e4a5581"
+  "3da36718"
   
 )
 
@@ -1962,7 +1962,7 @@ var nuxt_loading_component = Object(componentNormalizer["a" /* default */])(
   false,
   nuxt_loading_injectStyles,
   null,
-  "1b61f675"
+  "4e860368"
   
 )
 
@@ -1993,7 +1993,7 @@ var default_component = Object(componentNormalizer["a" /* default */])(
   false,
   default_injectStyles,
   null,
-  "39dc8868"
+  "aea17d9e"
   
 )
 

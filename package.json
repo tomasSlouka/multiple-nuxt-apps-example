@@ -9,17 +9,14 @@
     "admin.upfordomain.com:dev": "nuxt --config-file apps/admin.upfordomain.com/nuxt.config.js",
     "manyletter.com:dev": "nuxt --config-file apps/manyletter.com/nuxt.config.js",
     "dev": "concurrently \"npm run upfordomain.com:dev\" \"npm run manyletter.com:dev\" \"npm run admin.upfordomain.com:dev\"",
-
     "upfordomain.com:build": "nuxt build --config-file apps/upfordomain.com/nuxt.config.js",
     "admin.upfordomain.com:build": "nuxt build --config-file apps/admin.upfordomain.com/nuxt.config.js",
     "manyletter.com:build": "nuxt build --config-file apps/manyletter.com/nuxt.config.js",
     "build": "concurrently \"npm run upfordomain.com:build\" \"npm run manyletter.com:build\" \"npm run admin.upfordomain.com:build\"",
-
     "upfordomain.com:start": "nuxt start --config-file apps/upfordomain.com/nuxt.config.js",
     "admin.upfordomain.com:start": "nuxt start --config-file apps/admin.upfordomain.com/nuxt.config.js",
     "manyletter.com:start": "nuxt start --config-file apps/manyletter.com/nuxt.config.js",
     "start": "concurrently \"npm run upfordomain.com:start\" \"npm run manyletter.com:start\" \"npm run admin.upfordomain.com:start\"",
-
     "generate": "nuxt generate"
   }
 }

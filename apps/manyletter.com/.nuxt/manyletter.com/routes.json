@@ -2,8 +2,7 @@
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\maylday-app\\\\apps\\\\manyletter.com\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_5c0a4802"
+    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\manyletter.com\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
   }
 ]
