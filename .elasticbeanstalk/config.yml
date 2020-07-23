@@ -1,9 +1,9 @@
 branch-defaults:
   default:
-    environment: multiple-nuxt-js-server
+    environment: Upforwebeb-env
     group_suffix: null
   master:
-    environment: multiple-nuxt-js-server
+    environment: Upforwebeb-env
 global:
   application_name: upforwebEB
   branch: null
