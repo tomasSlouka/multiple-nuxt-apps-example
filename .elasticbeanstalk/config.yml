@@ -1,9 +1,9 @@
 branch-defaults:
   default:
-    environment: Upforweb-env
+    environment: upforweb
     group_suffix: null
   master:
-    environment: Upforweb-env
+    environment: upforweb
 global:
   application_name: upforweb
   branch: null
