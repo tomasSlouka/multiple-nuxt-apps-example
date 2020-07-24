@@ -5,7 +5,7 @@
             <div class='grid gap-20'>
                 <h2 class='maxw500 h1'>Can't find a free domain name for your next project?</h2>
                 <p class='maxw500'>Consider renting a domain with upfordomain—secure way of getting your dream domain name.</p>
-                <button class='cta justify-self-start'>Browse domains up for rent</button>
+                <nuxt-link tag='button' to='/domains-up-for-rent/browse' class='cta justify-self-start'>Browse domains up for rent</nuxt-link>
             </div>
         </div>
 
