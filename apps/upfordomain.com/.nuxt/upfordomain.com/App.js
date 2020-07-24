@@ -1,12 +1,25 @@
 import Vue from 'vue'
 
 import { getMatchedComponentsInstances, getChildrenComponentInstancesUsingFetch, promisify, globalHandleError, urlJoin, sanitizeComponent } from './utils'
-
+import NuxtError from '..\\..\\layouts\\error.vue'
 import NuxtLoading from './components/nuxt-loading.vue'
 
-import _6f6c098b from '..\\..\\layouts\\default.vue'
+import '..\\..\\assets\\css\\global.css'
 
-const layouts = { "_default": sanitizeComponent(_6f6c098b) }
+import '..\\..\\assets\\css\\_system\\flex.css'
+
+import '..\\..\\assets\\css\\_system\\grid.css'
+
+import '..\\..\\assets\\css\\_system\\webbase.css'
+
+import '..\\..\\assets\\css\\_system\\animations.css'
+
+import _6f6c098b from '..\\..\\layouts\\default.vue'
+import _be740904 from '..\\..\\layouts\\defaultClean.vue'
+import _600c22ba from '..\\..\\layouts\\defaultPage.vue'
+import _815bd174 from '..\\..\\layouts\\error-default.vue'
+
+const layouts = { "_default": sanitizeComponent(_6f6c098b),"_defaultClean": sanitizeComponent(_be740904),"_defaultPage": sanitizeComponent(_600c22ba),"_error-default": sanitizeComponent(_815bd174) }
 
 export default {
   render (h, props) {
