@@ -29,11 +29,12 @@ export default {
             this.$store.dispatch('auth/loginUser', {
                 email: this.email,
                 password: this.password,
-                endpoint: '/api/v1/auth/login'
+                endpoint: '/auth/login'
             })
             .then(() => {
+                console.log("jooooohaaaa");
                 this.$store.dispatch('auth/setUser', {
-                    endpoint: '/api/v1/user'
+                    endpoint: '/user'
                 })
                 this.$router.push('/admin/home')
             })

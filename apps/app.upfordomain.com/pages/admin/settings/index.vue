@@ -25,13 +25,13 @@ export default {
             level: this.$store.state ? this.$store.state.auth.userData.level : "",
         }
     },
-    async asyncData({ $axios, params }) {
-        console.log('asyncData executed');
-        const [userList] = await Promise.all ([
-            $axios.$get('/api/v1/user/all'),
-        ])
-        return { userList }
-    },
+    // async asyncData({ $axios, params }) {
+    //     console.log('asyncData executed');
+    //     const [userList] = await Promise.all ([
+    //         $axios.$get('/api/v1/user/all'),
+    //     ])
+    //     return { userList }
+    // },
 }
 </script>
 

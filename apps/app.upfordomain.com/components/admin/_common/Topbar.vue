@@ -99,11 +99,11 @@ export default {
     transition: 0.3s;
 }
 .nav > ul > li > a:hover {
-    color: #0fb0ac;
+    color: #39ac37;
     text-decoration: underline;
 }
 .nav > ul > li > a.nuxt-link-active {
-    color: #0fb0ac;
+    color: #39ac37;
     text-decoration: underline;
 }
 .nav > ul > li > a.nuxt-link-active.no-active {
@@ -111,7 +111,7 @@ export default {
     text-decoration: initial;
 }
 .nav > ul > li > a.nuxt-link-active.no-active:hover {
-    color: #0fb0ac;
+    color: #39ac37;
     text-decoration: underline;
 }
 .nav > ul > li.sidenavtoggle {

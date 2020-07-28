@@ -121,7 +121,7 @@ p.gray {color: #000;}
 
 /* Buttons */
 p > a {
-    color: #0fb0ac;
+    color: #39ac37;
     text-decoration: underline;
     font-weight: 400;
     transition: 0.3s;
@@ -143,8 +143,8 @@ button, .button {
     line-height: 1.4em;
 }
 button.cta, .button.cta {
-    background: #0fb0ac;
-    border: 1px solid #0fb0ac;
+    background: #39ac37;
+    border: 1px solid #39ac37;
     color: #fff;
     border-radius: 4px;
     padding: 10px 30px;
@@ -155,7 +155,7 @@ button.cta, .button.cta {
 }
 button.cta.white, .button.cta.white {
     background: #fff;
-    border: 1px solid #0fb0ac;
+    border: 1px solid #39ac37;
     color: #000;
     border-radius: 4px;
     padding: 10px 30px;
@@ -190,7 +190,7 @@ button.big, .button.big {
 input, select {
     background: #f4f8f68c;
     border: 1px solid transparent;
-    border-left: 2px solid rgba(15, 176, 172, 0.31);
+    border-left: 2px solid rgba(59, 172, 55, 0.31);
     color: #000;
     border-radius: 4px;
     padding: 10px 10px;
@@ -211,7 +211,7 @@ textarea {
     position: relative;
     background: #f4f8f68c;
     border: 1px solid transparent;
-    border-left: 2px solid rgba(15, 176, 172, 0.31);
+    border-left: 2px solid rgba(59, 172, 55, 0.31);
     color: #000;
     border-radius: 4px;
     padding: 10px 10px;
@@ -238,7 +238,7 @@ input:focus, textarea:focus, select:focus {
     font-weight: 400;
     font-family: 'Open sans', sans-serif;
     border: 1px solid transparent;
-    border-left: 3px solid #0fb0ac;
+    border-left: 3px solid #39ac37;
 }
 
 
@@ -321,7 +321,7 @@ a {
 .admin-layout .wrapper {
     /* background-color: rgba(255,255,255,0.7); */
     background-color: rgba(255,255,255,1);
-    /* background-color: #0fb0ac;
+    /* background-color: #39ac37;
     color: #fff; */
     box-shadow: 0px 15px 10px -20px rgba(226,226,226,0.63922);
     padding-bottom: 50px;
@@ -418,7 +418,7 @@ a {
 
 /* info */
 .admin-layout p.info {
-    color: #0fb0ac;
+    color: #39ac37;
     padding: 6px 15px;
     border-radius: 4px;
 }

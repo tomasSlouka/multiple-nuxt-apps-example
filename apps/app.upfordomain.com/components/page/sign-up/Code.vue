@@ -31,11 +31,11 @@ export default {
             this.$store.dispatch('loginUser', {
                 email: this.email,
                 password: this.password,
-                endpoint: '/api/v1/auth/login'
+                endpoint: '/auth/login'
             })
             .then(() => {
                 this.$store.dispatch('setUser', {
-                    endpoint: '/api/v1/user'
+                    endpoint: '/user'
                 })
                 this.$router.push('/admin/home')
             })
@@ -58,7 +58,7 @@ export default {
     border-radius: 8px;
 }
 span.email {
-    color: #0fb0ac;
+    color: #39ac37;
     font-weight: 400;
 }
 

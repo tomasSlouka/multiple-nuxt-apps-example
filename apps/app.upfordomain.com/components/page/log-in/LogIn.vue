@@ -26,7 +26,7 @@ export default {
     },
     methods: {
         async submitForm() {
-            await this.$axios.$post('/api/v1/auth/code', {
+            await this.$axios.$post('/auth/code', {
                 "email": this.email
             })
             .then((response) => {

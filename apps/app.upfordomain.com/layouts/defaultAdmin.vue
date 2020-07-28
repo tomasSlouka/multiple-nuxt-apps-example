@@ -22,6 +22,6 @@ export default {
 <style>
 #layout_default_admin_home {
     margin-top: 68px;
-    background-color: #0fb0ac0d;
+    background-color: #39ac370d;
 }
 </style>

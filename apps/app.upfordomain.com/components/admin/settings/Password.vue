@@ -49,13 +49,13 @@ export default {
     methods: {
         async submitForm() {
             if(this.password_1 === this.password_2) {
-                await this.$axios.$put('/api/v1/user/setpassword', {
+                await this.$axios.$put('/user/setpassword', {
                     "password": this.password_1,
                 })
                 .then((response) => {
                     console.log(response);
                     this.$store.dispatch('auth/setUser', {
-                        endpoint: '/api/v1/user'
+                        endpoint: '/user'
                     })
                     this.submitSuccess = true;
                     this.submitText = 'Saved!';
@@ -76,12 +76,12 @@ export default {
             }
         },
         async removePassword() {
-            await this.$axios.$put('/api/v1/user/removepassword', {
+            await this.$axios.$put('/user/removepassword', {
             })
             .then((response) => {
                 console.log(response);
                 this.$store.dispatch('auth/setUser', {
-                    endpoint: '/api/v1/user'
+                    endpoint: '/user'
                 })
                 this.password_locked = 0
                 this.password_1 = ''

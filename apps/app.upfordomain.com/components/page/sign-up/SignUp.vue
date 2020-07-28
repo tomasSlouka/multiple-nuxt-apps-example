@@ -31,7 +31,7 @@ export default {
     },
     methods: {
         async submitForm() {
-            await this.$axios.$post('/api/v1/signup', {
+            await this.$axios.$post('/signup', {
                 "email": this.email,
                 "referrer": this.referrer || ''
             })

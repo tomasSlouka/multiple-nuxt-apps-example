@@ -84,7 +84,7 @@ export default {
     },
     methods: {
         async submitForm() {
-            await this.$axios.$post('/api/v1/user', {
+            await this.$axios.$post('/user', {
                 "email": this.email,
                 "name": this.name,
                 "level": this.level
@@ -120,7 +120,7 @@ export default {
         },
         async removeUser(email) {
             console.log(email)
-            await this.$axios.$delete('/api/v1/user', { 
+            await this.$axios.$delete('/user', { 
                 data: {
                     "email": email,
                 }
