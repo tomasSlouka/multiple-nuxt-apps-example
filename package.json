@@ -1,28 +1,28 @@
 {
   "dependencies": {
     "concurrently": "^5.2.0",
-    "@nuxtjs/axios": "^5.11.0",
-    "nuxt": "^2.13.3"
+    "@nuxtjs/axios": "^5.12.0",
+    "nuxt": "^2.14.0",
+    "js-cookie": "^2.2.1",
+    "cookie-universal-nuxt": "^2.1.4",
+    "vue-scrollto": "^2.18.1"
   },
   "scripts": {
     "upfordomain.com:dev": "nuxt --config-file apps/upfordomain.com/nuxt.config.js",
-    "admin.upfordomain.com:dev": "nuxt --config-file apps/admin.upfordomain.com/nuxt.config.js",
+    "app.upfordomain.com:dev": "nuxt --config-file apps/app.upfordomain.com/nuxt.config.js",
     "manyletter.com:dev": "nuxt --config-file apps/manyletter.com/nuxt.config.js",
     "upforweb.com:dev": "nuxt --config-file apps/upforweb.com/nuxt.config.js",
-    "dev": "concurrently \"npm run upforweb.com:dev\" \"npm run upfordomain.com:dev\" \"npm run manyletter.com:dev\" \"npm run admin.upfordomain.com:dev\"",
-    
+    "dev": "concurrently \"npm run upforweb.com:dev\" \"npm run upfordomain.com:dev\" \"npm run manyletter.com:dev\" \"npm run app.upfordomain.com:dev\"",
     "upfordomain.com:build": "nuxt build --config-file apps/upfordomain.com/nuxt.config.js",
-    "admin.upfordomain.com:build": "nuxt build --config-file apps/admin.upfordomain.com/nuxt.config.js",
+    "app.upfordomain.com:build": "nuxt build --config-file apps/app.upfordomain.com/nuxt.config.js",
     "manyletter.com:build": "nuxt build --config-file apps/manyletter.com/nuxt.config.js",
     "upforweb.com:build": "nuxt build --config-file apps/upforweb.com/nuxt.config.js",
-    "build": "concurrently \"npm run upforweb.com:build\" \"npm run upfordomain.com:build\" \"npm run manyletter.com:build\" \"npm run admin.upfordomain.com:build\"",
-    
+    "build": "concurrently \"npm run upforweb.com:build\" \"npm run upfordomain.com:build\" \"npm run manyletter.com:build\" \"npm run app.upfordomain.com:build\"",
     "upfordomain.com:start": "nuxt start --config-file apps/upfordomain.com/nuxt.config.js",
-    "admin.upfordomain.com:start": "nuxt start --config-file apps/admin.upfordomain.com/nuxt.config.js",
+    "app.upfordomain.com:start": "nuxt start --config-file apps/app.upfordomain.com/nuxt.config.js",
     "manyletter.com:start": "nuxt start --config-file apps/manyletter.com/nuxt.config.js",
     "upforweb.com:start": "nuxt start --config-file apps/upforweb.com/nuxt.config.js",
-    "start": "concurrently \"npm run upforweb.com:start\" \"npm run upfordomain.com:start\" \"npm run manyletter.com:start\" \"npm run admin.upfordomain.com:start\"",
-    
+    "start": "concurrently \"npm run upforweb.com:start\" \"npm run upfordomain.com:start\" \"npm run manyletter.com:start\" \"npm run app.upfordomain.com:start\"",
     "generate": "nuxt generate"
   }
 }

@@ -185,7 +185,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(2);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "#header_clean[data-v-57ae1544]{position:fixed;top:0;left:0;background-color:#fff;width:100%}.container[data-v-57ae1544]{padding:20px;box-shadow:0 .125rem .125rem rgba(0,0,0,.1)}.logo a[data-v-57ae1544]{font-size:24px;line-height:30px;font-weight:700;font-family:MuseoModerno,cursive;text-decoration:none;color:#39ac37}", ""]);
+exports.push([module.i, "#header_clean[data-v-57ae1544]{position:fixed;top:0;left:0;background-color:#fff;width:100%}.container[data-v-57ae1544]{padding:20px;box-shadow:0 .125rem .125rem rgba(0,0,0,.1)}.logo a[data-v-57ae1544]{font-size:24px;line-height:30px;font-weight:700;font-family:\"MuseoModerno\",cursive;text-decoration:none;color:#39ac37}", ""]);
 // Exports
 module.exports = exports;
 

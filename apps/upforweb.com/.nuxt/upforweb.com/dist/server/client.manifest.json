@@ -4,18 +4,18 @@
     "../server/index.spa.html",
     "../server/index.ssr.html",
     "LICENSES",
-    "app.cf56755.js",
-    "commons/app.d2a4324.js",
-    "pages/index.e0b19af.js",
-    "runtime.c063bf4.js"
+    "app.6af0618.js",
+    "commons/app.7ee05a7.js",
+    "pages/index.9918e5c.js",
+    "runtime.a5f7890.js"
   ],
   "initial": [
-    "runtime.c063bf4.js",
-    "commons/app.d2a4324.js",
-    "app.cf56755.js"
+    "runtime.a5f7890.js",
+    "commons/app.7ee05a7.js",
+    "app.6af0618.js"
   ],
   "async": [
-    "pages/index.e0b19af.js"
+    "pages/index.9918e5c.js"
   ],
   "modules": {
     "28181685": [
@@ -315,9 +315,6 @@
     "69b2a034": [
       4
     ],
-    "0d0ff2aa": [
-      4
-    ],
     "367d3ce2": [
       4
     ],
@@ -411,6 +408,9 @@
     "45f92aad": [
       4
     ],
+    "0d0ff2aa": [
+      4
+    ],
     "69bab433": [
       4
     ],
@@ -486,9 +486,6 @@
     "4ec18fb7": [
       4
     ],
-    "6eb6f53f": [
-      4
-    ],
     "6b0b942d": [
       4
     ],
@@ -496,6 +493,9 @@
       4
     ],
     "0033f3b9": [
+      4
+    ],
+    "6eb6f53f": [
       4
     ],
     "21c9be46": [
@@ -672,16 +672,16 @@
   },
   "assetsMapping": {
     "1a3ae26b": [
-      "app.cf56755.js"
+      "app.6af0618.js"
     ],
     "085a35c4": [
-      "commons/app.d2a4324.js"
+      "commons/app.7ee05a7.js"
     ],
     "2a130dde": [
-      "pages/index.e0b19af.js"
+      "pages/index.9918e5c.js"
     ],
     "6fca0322": [
-      "runtime.c063bf4.js"
+      "runtime.a5f7890.js"
     ]
   }
 }
