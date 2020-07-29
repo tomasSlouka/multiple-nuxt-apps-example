@@ -10,7 +10,7 @@
                     </div>
                     <div class='nav'>
                         <ul class='flex wrap show-md align-items-center'>
-                            <li><nuxt-link to='/admin/home'>Dashboard</nuxt-link></li>
+                            <li><nuxt-link to='/'>My domains</nuxt-link></li>
                             <li><nuxt-link to='/admin/settings'>Settings</nuxt-link></li>
                             <li>|</li>
                             <li><a @click.prevent='logout()'>Log out</a></li>

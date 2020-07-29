@@ -109,7 +109,7 @@ export default {
     },
     methods: {
         async submitForm() {
-            await this.$axios.$post('/api/upfordomain/domain', {
+            await this.$axios.$post('/open', {
                 'name': this.domain_name,
                 'price_renting': this.price_renting,
                 'price_buyout': this.price_buyout,
@@ -126,7 +126,7 @@ export default {
                 this.submitText = 'Saved!';
                 setTimeout(() => this.submitSuccess = false, 4000)
 
-                this.$router.push('/add/domain-up-for-rent/success');
+                this.$router.push('/domains-up-for-rent/add/success');
             }, (error) => {
                 // console.log(error.response.data.message)
                 this.submitError = true;

@@ -18,7 +18,7 @@ export default {
     },
     async asyncData({ $axios, params }) {
         const [domainStats] = await Promise.all ([
-            $axios.$get('/api/upfordomain/domain/stats')
+            $axios.$get('/open/stats')
         ])
         return { domainStats }
     },

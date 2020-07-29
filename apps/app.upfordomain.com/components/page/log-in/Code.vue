@@ -36,7 +36,7 @@ export default {
                 this.$store.dispatch('auth/setUser', {
                     endpoint: '/user'
                 })
-                this.$router.push('/admin/home')
+                this.$router.push('/')
             })
         }
     }

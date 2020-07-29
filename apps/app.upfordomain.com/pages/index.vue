@@ -1,18 +1,20 @@
 <template>
     <div class='page'>
         <Home />
-        <div class='container-standard grid gap-60'>
+        <div class='container-narrow grid gap-60'>
+            <Domains :domainList='domainList' />
         </div>
     </div>
 </template>
 
 <script>
 import Home from '@/components/admin/home/Home.vue'
+import Domains from '@/components/admin/home/Domains.vue'
 
 export default {
     layout: 'defaultAdmin',
     components: {
-        Home
+        Home, Domains
     },
     // data() {
     //     return {

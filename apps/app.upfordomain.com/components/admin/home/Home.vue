@@ -2,9 +2,9 @@
     <div class='component'>
         
         <div class='wrapper'>
-            <div class='container-standard grid gap-20'>
-                <h2>Dashboard</h2>
-                <p>Check what's new and other stats about your domains.</p>
+            <div class='container-narrow grid gap-20'>
+                <h2>My domains</h2>
+                <p>Manage your domains. Update prices, description, tags, visibility and see statistics for each of your domains. </p>
             </div>
         </div>
     </div>

@@ -34,7 +34,7 @@ export default {
     },           
     methods: {
         async submitForm() {
-            await this.$axios.$post('/api/upfordomain/auth/login', {
+            await this.$axios.$post('/auth/login', {
                 'email': this.email,
 				'password': this.password
             })

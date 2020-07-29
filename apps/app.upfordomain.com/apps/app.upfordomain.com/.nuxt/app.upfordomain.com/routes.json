@@ -42,12 +42,6 @@
     "chunkName": "pages/sign-up/index"
   },
   {
-    "name": "admin-home",
-    "path": "/admin/home",
-    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.upfordomain.com\\\\pages\\\\admin\\\\home\\\\index.vue",
-    "chunkName": "pages/admin/home/index"
-  },
-  {
     "name": "admin-settings",
     "path": "/admin/settings",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.upfordomain.com\\\\pages\\\\admin\\\\settings\\\\index.vue",

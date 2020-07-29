@@ -32,7 +32,7 @@ export default {
             })
             .then(() => {
                 this.$store.dispatch('setUser')
-                this.$router.push('/admin/home')
+                this.$router.push('/')
             })
         }
     }

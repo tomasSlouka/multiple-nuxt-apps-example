@@ -22,8 +22,8 @@ export default {
     },
     async asyncData({ $axios, params }) {
         const [domainListNewest, domainListPremium] = await Promise.all ([
-            $axios.$get('/api/upfordomain/domain/newest'),
-            $axios.$get('/api/upfordomain/domain/premium')
+            $axios.$get('/open/newest'),
+            $axios.$get('/open/premium')
         ])
         return { domainListNewest, domainListPremium }
     },

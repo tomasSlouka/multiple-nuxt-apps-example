@@ -3,7 +3,7 @@
 
         <div class="box grid auto align-self-center gap-20">
             <h3>Verification code</h3>
-            <p>We sent an email to you at <span class='email'>{{ email }}</span>. <br></p>
+            <!-- <p>We sent an email to you at <span class='email'>{{ email }}</span>. <br></p> -->
             <p>Click the link or paste the code from email to verify your account.</p>
             <form class="grid gap-10" @submit.prevent='submitForm'>
                 <div>
@@ -28,16 +28,16 @@ export default {
     },
     methods: {
         submitForm() {
-            this.$store.dispatch('loginUser', {
+            this.$store.dispatch('auth/loginUser', {
                 email: this.email,
                 password: this.password,
                 endpoint: '/auth/login'
             })
             .then(() => {
-                this.$store.dispatch('setUser', {
+                this.$store.dispatch('auth/setUser', {
                     endpoint: '/user'
                 })
-                this.$router.push('/admin/home')
+                this.$router.push('/')
             })
         }
     }

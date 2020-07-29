@@ -19,8 +19,8 @@ export default {
     async asyncData({ $axios, params }) {
         console.log('asyncData executed');
         const [domainDetail, domainListMore] = await Promise.all ([
-            $axios.$get('/api/upfordomain/domain/detail/' + params.name),
-            $axios.$get('/api/upfordomain/domain/more/' + params.name)
+            $axios.$get('/open/detail/' + params.name),
+            $axios.$get('/open/more/' + params.name)
         ])
         return { domainDetail, domainListMore }
     },

@@ -11,7 +11,7 @@
               </div>
 
               <ul @click="$emit('close')" class='grid col-1 gap-20'>
-                  <li><nuxt-link to="/admin/home">Dashboard</nuxt-link></li>
+                  <li><nuxt-link to='/'>My domains</nuxt-link></li>
                   <li><nuxt-link to='/admin/settings'>Settings</nuxt-link></li>
               </ul>
 
