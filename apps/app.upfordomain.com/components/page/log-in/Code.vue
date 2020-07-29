@@ -32,7 +32,6 @@ export default {
                 endpoint: '/auth/login'
             })
             .then(() => {
-                console.log("jooooohaaaa");
                 this.$store.dispatch('auth/setUser', {
                     endpoint: '/user'
                 })

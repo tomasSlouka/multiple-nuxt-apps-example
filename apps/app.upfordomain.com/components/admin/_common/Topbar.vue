@@ -102,18 +102,18 @@ export default {
     color: #39ac37;
     text-decoration: underline;
 }
-.nav > ul > li > a.nuxt-link-active {
+.nav > ul > li > a.nuxt-link-exact-active {
     color: #39ac37;
     text-decoration: underline;
 }
-.nav > ul > li > a.nuxt-link-active.no-active {
+/* .nav > ul > li > a.nuxt-link-active.no-active {
     color: initial;
     text-decoration: initial;
 }
 .nav > ul > li > a.nuxt-link-active.no-active:hover {
     color: #39ac37;
     text-decoration: underline;
-}
+} */
 .nav > ul > li.sidenavtoggle {
     cursor: pointer;
 }
@@ -124,9 +124,7 @@ export default {
     margin: 5px 0;
 }
 .nav > ul > li > a {
-    font-family: 'Source Sans Pro', sans-serif;
     color: #000;
-    font-size: 16px;
     line-height: 24px;
     font-weight: 500;
     text-decoration: none;

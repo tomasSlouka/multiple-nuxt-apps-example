@@ -17,7 +17,8 @@
                     <!-- <li><nuxt-link to="/pricing">Pricing</nuxt-link></li> -->
                     <!-- <li><nuxt-link to="/about">About</nuxt-link></li> -->
                     <!-- <li><nuxt-link to="/referral-program">Referral Program</nuxt-link></li> -->
-                    <!-- <span>|</span> -->
+                    <span>|</span>
+                    <li><a href="https://app.upfordomain.com/">Log in</a></li>
                     <!-- {{ this.$store.state }} -->
                     <!-- <div v-if='$store.getters.isUserLoggedIn' class='flex wrap show-md align-items-center'>
                         <li><nuxt-link to="/admin/home" class='flex nowrap align-items-center'> {{ ($store.state.userData == null) ? "Go to Admin" : "Continue as " + $store.state.userData.name + "" }}</nuxt-link></li>

@@ -284,9 +284,17 @@ a {
     line-height: 18px;
     text-decoration: none;
 }
+.admin-layout .container-wide {
+    /* max-width: 976px; */
+    max-width: 100%;
+    margin: 0px auto;
+    padding: 20px;
 
+    margin-top: -90px;
+    margin-bottom: 40px;
+}
 .admin-layout .container-standard {
-    max-width: 976px;
+    max-width: 1200px;
     margin: 0px auto;
     padding: 20px;
 
@@ -294,14 +302,14 @@ a {
     margin-bottom: 40px;
 }
 .admin-layout .container-narrow {
-    max-width: 768px;
+    max-width: 976px;
     margin: 0px auto;
     padding: 20px;
     margin-top: -90px;
     margin-bottom: 40px;
 }
 .admin-layout .container-narrow.bread {
-    max-width: 768px;
+    max-width: 976px;
     margin: 0px auto;
     padding: 0px 20px;
 

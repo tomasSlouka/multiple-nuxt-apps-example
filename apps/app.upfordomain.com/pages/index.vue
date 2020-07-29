@@ -31,13 +31,12 @@ export default {
     //         this.dataList = this.$store.state.deals.filteredList
     //     }
     // }
-    // async asyncData({ $axios, params }) {
-    //     console.log('asyncData executed');
-    //     const [dataList] = await Promise.all ([
-    //         $axios.$get('/api/v1/freshsales/test'),
-    //     ])
-    //     return { dataList }
-    // },
+    async asyncData({ $axios, params }) {
+        const [domainList] = await Promise.all ([
+            $axios.$get('/domain'),
+        ])
+        return { domainList }
+    },
 }
 </script>
 
