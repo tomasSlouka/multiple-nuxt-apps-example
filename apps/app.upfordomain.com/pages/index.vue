@@ -2,7 +2,8 @@
     <div class='page'>
         <Home />
         <div class='container-narrow grid gap-60'>
-            <Domains :domainList='domainList' />
+            <Domains v-if='domainList.count > 0' :domainList='domainList' />
+            <Empty v-else text='You have not submitted any domain yet.' />
         </div>
     </div>
 </template>
@@ -10,11 +11,12 @@
 <script>
 import Home from '@/components/admin/home/Home.vue'
 import Domains from '@/components/admin/home/Domains.vue'
+import Empty from '@/components/admin/_common/Empty.vue'
 
 export default {
     layout: 'defaultAdmin',
     components: {
-        Home, Domains
+        Home, Domains, Empty
     },
     // data() {
     //     return {

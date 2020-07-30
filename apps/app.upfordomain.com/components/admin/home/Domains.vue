@@ -2,25 +2,27 @@
     <div class='component grid gap-20'>
         <div class="box grid gap-20">
             
-            <h3>Domain list</h3>
-            <p>Browse the user list. Add new users or change the user info.</p>
-            <div class='mt30 mb30'>
-                <div v-for="item in domainList.data" :key="item.id" class="user-box grid gap-20 md-col-4 align-items-center justify-content-space-between" >
-                    <div class='minw250'>
-                        <h3>{{item.name}}</h3>
-                        <p class='small'>{{item.status == "0" ? "Waiting for approval" : "Listed"}}</p>
-                    </div>
-                    <div>
-                        <label>Rering price</label>
-                        <p>${{item.price_renting}}/month</p>
-                    </div>
-                    <div>
-                        <label>Buyout price</label>
-                        <p>${{item.price_buyout}}</p>
-                    </div>
-                    <div>
-                        <nuxt-link :to='"/domain/detail/"+item.id' class='button small cta'>Edit details</nuxt-link>
-                    </div>
+            <!-- <h3>Domain list</h3> -->
+            <!-- <p>Browse the user list. Add new users or change the user info.</p> -->
+            <div class=''>
+                <div v-for="item in domainList.data" :key="item.id" class="user-box" >
+                    <nuxt-link :to='"/admin/domain/detail/"+item.id' tag='div' class="pointer grid gap-20 md-col-4 align-items-center justify-content-space-between">
+                        <div class='minw250'>
+                            <h3>{{item.name}}</h3>
+                            <p class='small'>{{item.status == "0" ? "Waiting for approval" : "Listed"}}</p>
+                        </div>
+                        <div>
+                            <label>Rering price</label>
+                            <p>${{item.price_renting}}/month</p>
+                        </div>
+                        <div>
+                            <label>Buyout price</label>
+                            <p>${{item.price_buyout}}</p>
+                        </div>
+                        <div>
+                            <nuxt-link :to='"/admin/domain/detail/"+item.id' class='button small cta'>Edit details</nuxt-link>
+                        </div>
+                    </nuxt-link>
                 </div>
             </div>
                 <!-- <div class="grid table-wrapper justify-items-start">
@@ -147,7 +149,10 @@ export default {
 .user-box:hover {
     background-color: rgba(15,176,172,0.025098);
 }
+.user-box:first-child {
+    border-top: 0px solid #eee;
+}
 .user-box:last-child {
-    border-bottom: 1px solid #eee;
+    border-bottom: 0px solid #eee;
 }
 </style>

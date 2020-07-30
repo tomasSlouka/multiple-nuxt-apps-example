@@ -13,6 +13,7 @@ const _6a8dac50 = () => interopDefault(import('..\\..\\pages\\sign-up\\index.vue
 const _0d4766f1 = () => interopDefault(import('..\\..\\pages\\admin\\settings\\index.vue' /* webpackChunkName: "pages/admin/settings/index" */))
 const _4d515b0c = () => interopDefault(import('..\\..\\pages\\log-in\\code.vue' /* webpackChunkName: "pages/log-in/code" */))
 const _25de1652 = () => interopDefault(import('..\\..\\pages\\sign-up\\code.vue' /* webpackChunkName: "pages/sign-up/code" */))
+const _3cab08bb = () => interopDefault(import('..\\..\\pages\\admin\\domain\\detail\\_id\\index.vue' /* webpackChunkName: "pages/admin/domain/detail/_id/index" */))
 const _d629945e = () => interopDefault(import('..\\..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 // TODO: remove in Nuxt 3
@@ -71,6 +72,10 @@ export const routerOptions = {
     path: "/sign-up/code",
     component: _25de1652,
     name: "sign-up-code"
+  }, {
+    path: "/admin/domain/detail/:id?",
+    component: _3cab08bb,
+    name: "admin-domain-detail-id"
   }, {
     path: "/",
     component: _d629945e,

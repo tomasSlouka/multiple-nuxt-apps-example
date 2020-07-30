@@ -20,7 +20,7 @@
                     <div class='mt40 grid gap-20'>
                         <div class='grid gap-5'>
                             <h4>Domain story</h4>
-                            <p>🔨 Under construction</p>
+                            <p>{{domainDetail.description}}</p>
                         </div>
                         <div class='grid gap-5'>
                             <h4>Perfect for</h4>
@@ -84,51 +84,51 @@ export default {
     
     data() {
         return {
-            domain_name: "",
-            price_renting: "",
-            price_buyout: "",
-            email: "",
+            // domain_name: "",
+            // price_renting: "",
+            // price_buyout: "",
+            // email: "",
 
-            submitSuccess: false,
-            submitError: false,
-            submitText: 'Saved!',
-            suggest: false,
+            // submitSuccess: false,
+            // submitError: false,
+            // submitText: 'Saved!',
+            // suggest: false,
         }
     },
     methods: {
-        async submitForm() {
-            await this.$axios.$post('/open/message', {
-                'name': this.domain_name,
-                'price_renting': this.price_renting,
-                'price_buyout': this.price_buyout,
-                'email': this.email,
-            })
-            .then((response) => {
-                // console.log(response)
-                this.domain_name = ""
-                this.price_renting = ""
-                this.price_buyout = ""
-                this.email = ""
+        // async submitForm() {
+        //     await this.$axios.$post('/open/message', {
+        //         'name': this.domain_name,
+        //         'price_renting': this.price_renting,
+        //         'price_buyout': this.price_buyout,
+        //         'email': this.email,
+        //     })
+        //     .then((response) => {
+        //         // console.log(response)
+        //         this.domain_name = ""
+        //         this.price_renting = ""
+        //         this.price_buyout = ""
+        //         this.email = ""
 
-                this.submitSuccess = true;
-                this.submitText = 'Saved!';
-                setTimeout(() => this.submitSuccess = false, 4000)
+        //         this.submitSuccess = true;
+        //         this.submitText = 'Saved!';
+        //         setTimeout(() => this.submitSuccess = false, 4000)
 
-                this.$router.push('/add/domain-up-for-rent/success');
-            }, (error) => {
-                // console.log(error.response.data.message)
-                this.submitError = true;
-                this.submitText = error.response.data.message;
-                setTimeout(() => {
-                    this.submitError = false, 
-                    this.submitText = ''
-                }, 4000)
-            });
-        },
-        calculateBuyout() {
-            this.price_buyout = this.price_renting*12*5*3
-            this.suggest = true
-        }
+        //         this.$router.push('/add/domain-up-for-rent/success');
+        //     }, (error) => {
+        //         // console.log(error.response.data.message)
+        //         this.submitError = true;
+        //         this.submitText = error.response.data.message;
+        //         setTimeout(() => {
+        //             this.submitError = false, 
+        //             this.submitText = ''
+        //         }, 4000)
+        //     });
+        // },
+        // calculateBuyout() {
+        //     this.price_buyout = this.price_renting*12*5*3
+        //     this.suggest = true
+        // }
     },
 }
 </script>
