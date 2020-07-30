@@ -6,7 +6,7 @@
     "LICENSES",
     "app.deb7c53.js",
     "commons/app.cff3010.js",
-    "domains-up-for-rent.add.index.5dc6f0f.js",
+    "domains-up-for-rent.add.index.33406ff.js",
     "domains-up-for-rent.detail.name.index.57ab4dc.js",
     "img/twitter-1.7c01614.png",
     "img/twitter-2.18f2c4b.png",
@@ -22,15 +22,15 @@
     "pages/log-out/index.0bf6e4b.js",
     "pages/sign-up/code.ed4d228.js",
     "pages/sign-up/index.69766a5.js",
-    "runtime.3690b62.js"
+    "runtime.7c77abd.js"
   ],
   "initial": [
-    "runtime.3690b62.js",
+    "runtime.7c77abd.js",
     "commons/app.cff3010.js",
     "app.deb7c53.js"
   ],
   "async": [
-    "domains-up-for-rent.add.index.5dc6f0f.js",
+    "domains-up-for-rent.add.index.33406ff.js",
     "domains-up-for-rent.detail.name.index.57ab4dc.js",
     "index.2815408.js",
     "pages/blog/index.81b2732.js",
@@ -48,6 +48,11 @@
   "modules": {
     "26058769": [
       4
+    ],
+    "30921540": [
+      5,
+      7,
+      8
     ],
     "31591337": [
       3
@@ -823,7 +828,7 @@
     "ef888796": [
       20
     ],
-    "1ce15be0": [
+    "11e4a63e": [
       5,
       7,
       8
@@ -910,12 +915,12 @@
       7,
       8
     ],
-    "6b431f88": [
+    "b6ea7d86": [
       5,
       7,
       8
     ],
-    "e50cddc0": [
+    "67a5e221": [
       5,
       7,
       8
@@ -1319,17 +1324,12 @@
       7,
       8
     ],
-    "54759b81": [
-      5,
-      7,
-      8
-    ],
     "12eaa207": [
       5,
       7,
       8
     ],
-    "7d43c722": [
+    "549f764e": [
       5,
       7,
       8
@@ -1495,7 +1495,7 @@
       "commons/app.cff3010.js"
     ],
     "47def91c": [
-      "domains-up-for-rent.add.index.5dc6f0f.js"
+      "domains-up-for-rent.add.index.33406ff.js"
     ],
     "fa6c6ace": [
       "domains-up-for-rent.detail.name.index.57ab4dc.js"
@@ -1537,7 +1537,7 @@
       "pages/sign-up/index.69766a5.js"
     ],
     "6fca0322": [
-      "runtime.3690b62.js"
+      "runtime.7c77abd.js"
     ]
   }
 }

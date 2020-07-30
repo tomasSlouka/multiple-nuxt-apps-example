@@ -10,7 +10,7 @@
                     
                     <div class='grid col-1 gap-30'>
                         <div class='testimonial grid gap-20 justify-self-start mt40'>
-                            <p class='small'><span class='font20'>🔥</span> Upfordomain service has not launched yet, but there are already <span class='strong underline'>{{domainStats.count}} domains up for rent</span>.</p>
+                            <p class='small'><span class='font20'>🔥</span> Upfordomain service has not launched yet, but there are already <nuxt-link to='/domains-up-for-rent/browse' tag='span' class='pointer strong underline'>{{domainStats.count}} domains up for rent</nuxt-link>.</p>
                             <!-- <div class='grid gap-10 auto col-2 justify-content-start align-items-center'>
                                 <img src="@/assets/img/manyletter_founder.png" alt="manyletter founder" />
                                 <div>
