@@ -9,7 +9,7 @@
                     <div class='grid col-2'>
                         <div>
                             <p>Renting price</p>
-                            <h2>${{domainDetail.price_renting}} / month</h2>
+                            <h2>${{domainDetail.price_renting}}<span class='font12'>/month</span></h2>
                         </div>
                         <div>
                             <p>Buyout price</p>
@@ -19,8 +19,8 @@
                     
                     <div class='mt40 grid gap-20'>
                         <div class='grid gap-5'>
-                            <h4>Domain story</h4>
-                            <p>{{domainDetail.description}}</p>
+                            <h4>✨ Domain story</h4>
+                            <p>{{domainDetail.description || "Once upon a time, there was a website. But the website had nowhere to live. The website was looking for a domain. But all domain names, that she wanted, were expensive. So she rented a domain. End of story."}}</p>
                         </div>
                         <div class='grid gap-5'>
                             <h4>Perfect for</h4>
