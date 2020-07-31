@@ -1,51 +1,22 @@
 <template>
     <div class="component">
-
         <div class="container-narrow mt80">
-            <div class='grid md-col-2 gap-80'>
-                <div class='grid gap-20 align-content-start align-items-start'>
-                    <h1 class='maxw500'>{{domainDetail.name}}</h1>
-
-                    <div class='grid col-2'>
-                        <div>
-                            <p>Renting price</p>
-                            <h2>${{domainDetail.price_renting}}<span class='font12'>/month</span></h2>
-                        </div>
-                        <div>
-                            <p>Buyout price</p>
-                            <h2>${{domainDetail.price_buyout}}</h2>
-                        </div>
-                    </div>
-                    
-                    <div class='mt40 grid gap-20'>
-                        <div class='grid gap-5'>
-                            <h4>✨ Domain story</h4>
-                            <p>{{domainDetail.description || "Once upon a time, there was a website. But the website had nowhere to live. The website was looking for a domain. But all domain names, that she wanted, were expensive. So she rented a domain. End of story."}}</p>
-                        </div>
-                        <div class='grid gap-5'>
-                            <h4>Perfect for</h4>
-                            <p>🔨 Under construction</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class='box grid gap-20 align-content-start align-self-end justify-self-center'>
-                    <h3 class=''>Get in touch</h3>
-                    <form @submit.prevent @submit='submitForm()'>
-                        <div class="grid gap-20">
+            <div class='grid gap-20'>
+                <h2>More domain names from the seller</h2>
+                <div class='grid md-col-3 gap-20 align-items-start justify-content-start'>
+                    <nuxt-link tag='div' v-for='item in domainListMore.data' :key='item.id' :to='"/domains-up-for-rent/detail/" + item.name' class="box-domain grid gap-10"> 
+                        <h4> {{item.name}}</h4>
+                        <div class='grid col-2'>
                             <div>
-                                <label for="email">Your email</label>
-                                <input v-model='email' name='email' type="text" placeholder="eg. yourname@email.com" autocomplete="on">
+                                <label for="">Renting price</label>
+                                <p>${{item.price_renting}}/month</p>
                             </div>
                             <div>
-                                <label for="message">Your message</label>
-                                <textarea v-model='message' name='message' type="text" placeholder="Type your message here" autocomplete="off"></textarea>
+                                <label for="">Buyout price</label>
+                                <p>${{item.price_buyout}}</p>
                             </div>
-                            <p class='info p0' v-show='submitSuccess'> {{ submitText }} </p>
-                            <p class='error p0' v-show='submitError'> {{ submitText }} </p>
-                            <button type='submit' class='cta justify-self-start align-self-start'>Send</button>
                         </div>
-                    </form>
+                    </nuxt-link>
                 </div>
 
             </div>
@@ -58,19 +29,19 @@
 
 export default {
     
-    props: ['domainDetail'],
+    props: ['domainListMore'],
     
     data() {
         return {
             // domain_name: "",
             // price_renting: "",
-            message: "",
-            email: "",
+            // price_buyout: "",
+            // email: "",
 
-            submitSuccess: false,
-            submitError: false,
-            submitText: 'Saved!',
-            suggest: false,
+            // submitSuccess: false,
+            // submitError: false,
+            // submitText: 'Saved!',
+            // suggest: false,
         }
     },
     methods: {
