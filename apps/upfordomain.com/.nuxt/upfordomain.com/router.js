@@ -15,6 +15,7 @@ const _4931eae1 = () => interopDefault(import('..\\..\\pages\\faq\\owner\\index.
 const _7cebb05f = () => interopDefault(import('..\\..\\pages\\log-in\\code.vue' /* webpackChunkName: "pages/log-in/code" */))
 const _9e7d6c38 = () => interopDefault(import('..\\..\\pages\\sign-up\\code.vue' /* webpackChunkName: "pages/sign-up/code" */))
 const _d2722942 = () => interopDefault(import('..\\..\\pages\\domains-up-for-rent\\add\\success.vue' /* webpackChunkName: "pages/domains-up-for-rent/add/success" */))
+const _1f5ffb4a = () => interopDefault(import('..\\..\\pages\\domains-up-for-rent\\detail\\message\\success.vue' /* webpackChunkName: "pages/domains-up-for-rent/detail/message/success" */))
 const _11a18296 = () => interopDefault(import('..\\..\\pages\\domains-up-for-rent\\detail\\_name\\index.vue' /* webpackChunkName: "pages/domains-up-for-rent/detail/_name/index" */))
 const _78183044 = () => interopDefault(import('..\\..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
@@ -82,6 +83,10 @@ export const routerOptions = {
     path: "/domains-up-for-rent/add/success",
     component: _d2722942,
     name: "domains-up-for-rent-add-success"
+  }, {
+    path: "/domains-up-for-rent/detail/message/success",
+    component: _1f5ffb4a,
+    name: "domains-up-for-rent-detail-message-success"
   }, {
     path: "/domains-up-for-rent/detail/:name?",
     component: _11a18296,

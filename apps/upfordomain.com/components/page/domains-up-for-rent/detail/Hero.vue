@@ -17,8 +17,8 @@
                         </div>
                     </div>
                     
-                    <div class='mt40 grid gap-20'>
-                        <div class='grid gap-5'>
+                    <div class='mt40 grid gap-20' >
+                        <div class='grid gap-5' v-if='domainDetail.description'>
                             <h4>✨ Domain story</h4>
                             <p>{{domainDetail.description || "Once upon a time, there was a website. But the website had nowhere to live. The website was looking for a domain. But all domain names, that she wanted, were expensive. So she rented a domain. End of story."}}</p>
                         </div>
@@ -34,8 +34,8 @@
                     <form @submit.prevent @submit='submitForm()'>
                         <div class="grid gap-20">
                             <div>
-                                <label for="email">Your email</label>
-                                <input v-model='email' name='email' type="text" placeholder="eg. yourname@email.com" autocomplete="on">
+                                <label for="email_buyer">Your email</label>
+                                <input v-model='email_buyer' name='email_buyer' type="text" placeholder="eg. yourname@email.com" autocomplete="on">
                             </div>
                             <div>
                                 <label for="message">Your message</label>
@@ -65,7 +65,7 @@ export default {
             // domain_name: "",
             // price_renting: "",
             message: "",
-            email: "",
+            email_buyer: "",
 
             submitSuccess: false,
             submitError: false,
@@ -74,35 +74,34 @@ export default {
         }
     },
     methods: {
-        // async submitForm() {
-        //     await this.$axios.$post('/open/message', {
-        //         'name': this.domain_name,
-        //         'price_renting': this.price_renting,
-        //         'price_buyout': this.price_buyout,
-        //         'email': this.email,
-        //     })
-        //     .then((response) => {
-        //         // console.log(response)
-        //         this.domain_name = ""
-        //         this.price_renting = ""
-        //         this.price_buyout = ""
-        //         this.email = ""
+        async submitForm() {
+            await this.$axios.$post('/open/message', {
+                'user_id': this.domainDetail.user_id,
+                'id': this.domainDetail.id,
+                'name': this.domainDetail.name,
+                'email_buyer': this.email_buyer,
+                'message': this.message
+            })
+            .then((response) => {
+                // console.log(response)
+                this.email_buyer = ""
+                this.message = ""
 
-        //         this.submitSuccess = true;
-        //         this.submitText = 'Saved!';
-        //         setTimeout(() => this.submitSuccess = false, 4000)
+                this.submitSuccess = true;
+                this.submitText = 'Saved!';
+                setTimeout(() => this.submitSuccess = false, 4000)
 
-        //         this.$router.push('/add/domain-up-for-rent/success');
-        //     }, (error) => {
-        //         // console.log(error.response.data.message)
-        //         this.submitError = true;
-        //         this.submitText = error.response.data.message;
-        //         setTimeout(() => {
-        //             this.submitError = false, 
-        //             this.submitText = ''
-        //         }, 4000)
-        //     });
-        // },
+                this.$router.push('/domains-up-for-rent/detail/message/success');
+            }, (error) => {
+                // console.log(error.response.data.message)
+                this.submitError = true;
+                this.submitText = error.response.data.message;
+                setTimeout(() => {
+                    this.submitError = false, 
+                    this.submitText = ''
+                }, 4000)
+            });
+        },
         // calculateBuyout() {
         //     this.price_buyout = this.price_renting*12*5*3
         //     this.suggest = true

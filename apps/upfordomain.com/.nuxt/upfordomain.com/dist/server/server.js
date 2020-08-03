@@ -43,7 +43,7 @@ module.exports =
 /******/
 /******/ 		// "0" is the signal for "already loaded"
 /******/ 		if(installedChunks[chunkId] !== 0) {
-/******/ 			var chunk = require("./" + ({"1":"pages/blog/index","2":"pages/domains-up-for-rent/add/index","3":"pages/domains-up-for-rent/add/success","4":"pages/domains-up-for-rent/browse/index","5":"pages/domains-up-for-rent/detail/_name/index","6":"pages/faq/buyer/index","7":"pages/faq/index","8":"pages/faq/owner/index","9":"pages/index","10":"pages/log-in/code","11":"pages/log-in/index","12":"pages/log-out/index","13":"pages/sign-up/code","14":"pages/sign-up/index"}[chunkId]||chunkId) + ".js");
+/******/ 			var chunk = require("./" + ({"1":"pages/blog/index","2":"pages/domains-up-for-rent/add/index","3":"pages/domains-up-for-rent/add/success","4":"pages/domains-up-for-rent/browse/index","5":"pages/domains-up-for-rent/detail/_name/index","6":"pages/domains-up-for-rent/detail/message/success","7":"pages/faq/buyer/index","8":"pages/faq/index","9":"pages/faq/owner/index","10":"pages/index","11":"pages/log-in/code","12":"pages/log-in/index","13":"pages/log-out/index","14":"pages/sign-up/code","15":"pages/sign-up/index"}[chunkId]||chunkId) + ".js");
 /******/ 			var moreModules = chunk.modules, chunkIds = chunk.ids;
 /******/ 			for(var moduleId in moreModules) {
 /******/ 				modules[moduleId] = moreModules[moduleId];
@@ -1841,31 +1841,33 @@ if (false) {}
 
 const _32ccfc7c = () => interopDefault(__webpack_require__.e(/* import() | pages/blog/index */ 1).then(__webpack_require__.bind(null, 133)));
 
-const _f7e355c0 = () => interopDefault(__webpack_require__.e(/* import() | pages/faq/index */ 7).then(__webpack_require__.bind(null, 129)));
+const _f7e355c0 = () => interopDefault(__webpack_require__.e(/* import() | pages/faq/index */ 8).then(__webpack_require__.bind(null, 129)));
 
-const _3635df50 = () => interopDefault(__webpack_require__.e(/* import() | pages/log-in/index */ 11).then(__webpack_require__.bind(null, 134)));
+const _3635df50 = () => interopDefault(__webpack_require__.e(/* import() | pages/log-in/index */ 12).then(__webpack_require__.bind(null, 134)));
 
-const _eb5fdcde = () => interopDefault(__webpack_require__.e(/* import() | pages/log-out/index */ 12).then(__webpack_require__.bind(null, 135)));
+const _eb5fdcde = () => interopDefault(__webpack_require__.e(/* import() | pages/log-out/index */ 13).then(__webpack_require__.bind(null, 135)));
 
-const _7d13766b = () => interopDefault(__webpack_require__.e(/* import() | pages/sign-up/index */ 14).then(__webpack_require__.bind(null, 136)));
+const _7d13766b = () => interopDefault(__webpack_require__.e(/* import() | pages/sign-up/index */ 15).then(__webpack_require__.bind(null, 136)));
 
 const _3ee4d4a4 = () => interopDefault(__webpack_require__.e(/* import() | pages/domains-up-for-rent/add/index */ 2).then(__webpack_require__.bind(null, 137)));
 
 const _545945fb = () => interopDefault(__webpack_require__.e(/* import() | pages/domains-up-for-rent/browse/index */ 4).then(__webpack_require__.bind(null, 138)));
 
-const _54cb083e = () => interopDefault(__webpack_require__.e(/* import() | pages/faq/buyer/index */ 6).then(__webpack_require__.bind(null, 130)));
+const _54cb083e = () => interopDefault(__webpack_require__.e(/* import() | pages/faq/buyer/index */ 7).then(__webpack_require__.bind(null, 130)));
 
-const _4931eae1 = () => interopDefault(__webpack_require__.e(/* import() | pages/faq/owner/index */ 8).then(__webpack_require__.bind(null, 131)));
+const _4931eae1 = () => interopDefault(__webpack_require__.e(/* import() | pages/faq/owner/index */ 9).then(__webpack_require__.bind(null, 131)));
 
-const _7cebb05f = () => interopDefault(__webpack_require__.e(/* import() | pages/log-in/code */ 10).then(__webpack_require__.bind(null, 139)));
+const _7cebb05f = () => interopDefault(__webpack_require__.e(/* import() | pages/log-in/code */ 11).then(__webpack_require__.bind(null, 139)));
 
-const _9e7d6c38 = () => interopDefault(__webpack_require__.e(/* import() | pages/sign-up/code */ 13).then(__webpack_require__.bind(null, 140)));
+const _9e7d6c38 = () => interopDefault(__webpack_require__.e(/* import() | pages/sign-up/code */ 14).then(__webpack_require__.bind(null, 140)));
 
 const _d2722942 = () => interopDefault(__webpack_require__.e(/* import() | pages/domains-up-for-rent/add/success */ 3).then(__webpack_require__.bind(null, 141)));
 
+const _1f5ffb4a = () => interopDefault(__webpack_require__.e(/* import() | pages/domains-up-for-rent/detail/message/success */ 6).then(__webpack_require__.bind(null, 142)));
+
 const _11a18296 = () => interopDefault(__webpack_require__.e(/* import() | pages/domains-up-for-rent/detail/_name/index */ 5).then(__webpack_require__.bind(null, 132)));
 
-const _78183044 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 9).then(__webpack_require__.bind(null, 128))); // TODO: remove in Nuxt 3
+const _78183044 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 10).then(__webpack_require__.bind(null, 128))); // TODO: remove in Nuxt 3
 
 
 const emptyFn = () => {};
@@ -1931,6 +1933,10 @@ const routerOptions = {
     path: "/domains-up-for-rent/add/success",
     component: _d2722942,
     name: "domains-up-for-rent-add-success"
+  }, {
+    path: "/domains-up-for-rent/detail/message/success",
+    component: _1f5ffb4a,
+    name: "domains-up-for-rent-detail-message-success"
   }, {
     path: "/domains-up-for-rent/detail/:name?",
     component: _11a18296,

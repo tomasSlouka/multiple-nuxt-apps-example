@@ -1,57 +1,31 @@
-exports.ids = [7];
+exports.ids = [6];
 exports.modules = {
 
-/***/ 106:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Faq_vue_vue_type_style_index_0_id_b170f48e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(75);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Faq_vue_vue_type_style_index_0_id_b170f48e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Faq_vue_vue_type_style_index_0_id_b170f48e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Faq_vue_vue_type_style_index_0_id_b170f48e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Faq_vue_vue_type_style_index_0_id_b170f48e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
- /* harmony default export */ __webpack_exports__["default"] = (_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Faq_vue_vue_type_style_index_0_id_b170f48e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
-
-/***/ }),
-
-/***/ 107:
-/***/ (function(module, exports, __webpack_require__) {
-
-// Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(2);
-exports = ___CSS_LOADER_API_IMPORT___(false);
-// Module
-exports.push([module.i, "p[data-v-b170f48e]{max-width:400px}", ""]);
-// Exports
-module.exports = exports;
-
-
-/***/ }),
-
-/***/ 130:
+/***/ 142:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/upfordomain.com/pages/faq/buyer/index.vue?vue&type=template&id=e6f3fbd0&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"page"},[_c('Header'),_vm._ssrNode(" "),_c('Hero'),_vm._ssrNode(" "),_c('Faq'),_vm._ssrNode(" "),_c('Footer')],2)}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/upfordomain.com/pages/domains-up-for-rent/detail/message/success.vue?vue&type=template&id=87cbaac4&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"page"},[_c('Header'),_vm._ssrNode(" "),_c('Success'),_vm._ssrNode(" "),_c('Footer')],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./apps/upfordomain.com/pages/faq/buyer/index.vue?vue&type=template&id=e6f3fbd0&
+// CONCATENATED MODULE: ./apps/upfordomain.com/pages/domains-up-for-rent/detail/message/success.vue?vue&type=template&id=87cbaac4&
 
 // EXTERNAL MODULE: ./apps/upfordomain.com/components/page/_common/Header.vue + 14 modules
 var Header = __webpack_require__(61);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/upfordomain.com/components/page/faq/faq_buyer/Hero.vue?vue&type=template&id=03d3e0c6&scoped=true&
-var Herovue_type_template_id_03d3e0c6_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component"},[_vm._ssrNode("<div class=\"container-narrow mt80\" data-v-03d3e0c6><div class=\"grid gap-20 align-content-start align-items-start\" data-v-03d3e0c6><h1 data-v-03d3e0c6>Frequently Asked Questions</h1> <p class=\"maxw500\" data-v-03d3e0c6>Find answers to your questions about renting a domain name with upfordomain.</p></div></div>")])}
-var Herovue_type_template_id_03d3e0c6_scoped_true_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/upfordomain.com/components/page/domains-up-for-rent/detail/message/Success.vue?vue&type=template&id=0344ca5a&scoped=true&
+var Successvue_type_template_id_0344ca5a_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component"},[_vm._ssrNode("<div class=\"container-narrow mt80\" data-v-0344ca5a>","</div>",[_vm._ssrNode("<div class=\"grid md-col-2 gap-80\" data-v-0344ca5a>","</div>",[_vm._ssrNode("<div class=\"grid gap-20 align-content-start align-items-start justify-items-start\" data-v-0344ca5a>","</div>",[_vm._ssrNode("<h1 class=\"maxw500\" data-v-0344ca5a>Your message has been sent.</h1> <p class=\"maxw500\" data-v-0344ca5a>Thank you for your interest in renting domain name for your next project. We want to provide prime quality service. Make sure you confirm your email address so we can contact you back with confidence. </p> "),_c('nuxt-link',{staticClass:"cta",attrs:{"to":"/domains-up-for-rent/browse","tag":"button"}},[_vm._v("Browse more domain names")])],2)])])])}
+var Successvue_type_template_id_0344ca5a_scoped_true_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./apps/upfordomain.com/components/page/faq/faq_buyer/Hero.vue?vue&type=template&id=03d3e0c6&scoped=true&
+// CONCATENATED MODULE: ./apps/upfordomain.com/components/page/domains-up-for-rent/detail/message/Success.vue?vue&type=template&id=0344ca5a&scoped=true&
 
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./apps/upfordomain.com/components/page/faq/faq_buyer/Hero.vue?vue&type=script&lang=js&
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./apps/upfordomain.com/components/page/domains-up-for-rent/detail/message/Success.vue?vue&type=script&lang=js&
 //
 //
 //
@@ -65,13 +39,16 @@ var Herovue_type_template_id_03d3e0c6_scoped_true_staticRenderFns = []
 //
 //
 //
-/* harmony default export */ var Herovue_type_script_lang_js_ = ({});
-// CONCATENATED MODULE: ./apps/upfordomain.com/components/page/faq/faq_buyer/Hero.vue?vue&type=script&lang=js&
- /* harmony default export */ var faq_buyer_Herovue_type_script_lang_js_ = (Herovue_type_script_lang_js_); 
+//
+//
+//
+/* harmony default export */ var Successvue_type_script_lang_js_ = ({});
+// CONCATENATED MODULE: ./apps/upfordomain.com/components/page/domains-up-for-rent/detail/message/Success.vue?vue&type=script&lang=js&
+ /* harmony default export */ var message_Successvue_type_script_lang_js_ = (Successvue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
 var componentNormalizer = __webpack_require__(1);
 
-// CONCATENATED MODULE: ./apps/upfordomain.com/components/page/faq/faq_buyer/Hero.vue
+// CONCATENATED MODULE: ./apps/upfordomain.com/components/page/domains-up-for-rent/detail/message/Success.vue
 
 
 
@@ -83,106 +60,21 @@ function injectStyles (context) {
 /* normalize component */
 
 var component = Object(componentNormalizer["a" /* default */])(
-  faq_buyer_Herovue_type_script_lang_js_,
-  Herovue_type_template_id_03d3e0c6_scoped_true_render,
-  Herovue_type_template_id_03d3e0c6_scoped_true_staticRenderFns,
+  message_Successvue_type_script_lang_js_,
+  Successvue_type_template_id_0344ca5a_scoped_true_render,
+  Successvue_type_template_id_0344ca5a_scoped_true_staticRenderFns,
   false,
   injectStyles,
-  "03d3e0c6",
-  "ac1e9320"
+  "0344ca5a",
+  "190371a8"
   
 )
 
-/* harmony default export */ var Hero = (component.exports);
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/upfordomain.com/components/page/faq/faq_buyer/Faq.vue?vue&type=template&id=b170f48e&scoped=true&
-var Faqvue_type_template_id_b170f48e_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component"},[_vm._ssrNode("<div class=\"container-narrow\" data-v-b170f48e>","</div>",[_vm._ssrNode("<div class=\"grid md-col-2 gap-60 align-items-start\" data-v-b170f48e>","</div>",[_vm._ssrNode("<div class=\"grid gap-20\" data-v-b170f48e><h3 data-v-b170f48e>Why should I rent a domain?</h3> <p data-v-b170f48e>You don't have to pay a full price. Renting a domain is a great alternative to get the domain name that would be otherwise hard to acquire.</p></div> "),_vm._ssrNode("<div class=\"grid gap-20\" data-v-b170f48e>","</div>",[_vm._ssrNode("<h3 data-v-b170f48e>How to add my domain up for rent?</h3> "),_vm._ssrNode("<p data-v-b170f48e>","</p>",[_vm._ssrNode("Everyone can add their domain up for rent for FREE. Go to "),_c('nuxt-link',{attrs:{"to":"/add/domain-up-for-rent"}},[_vm._v(" list your domain")]),_vm._ssrNode(" and fill in a simple form where you define a monthly renting price, and buyout price for your domain.")],2)],2),_vm._ssrNode(" <div class=\"grid gap-20\" data-v-b170f48e><h3 data-v-b170f48e>Do I need to transfer ownership of a domain to a renterer?</h3> <p data-v-b170f48e>No. You will remain the only owner of the domain.</p></div> <div class=\"grid gap-20\" data-v-b170f48e><h3 data-v-b170f48e>Do I need to change a domain registrar?</h3> <p data-v-b170f48e>Yes. Change of the domain registrar to upfordomain is mandatory.</p></div> <div class=\"grid gap-20\" data-v-b170f48e><h3 data-v-b170f48e>For what period can I rent a domain?</h3> <p data-v-b170f48e>It depends on contract. You can rent your domain from 2 years to up to 10 years.</p></div> <div class=\"grid gap-20\" data-v-b170f48e><h3 data-v-b170f48e>Can I change a renting price?</h3> <p data-v-b170f48e>You can change the renting price while your domain is not renting. Once you rent your domain, you can not change the price until the end of renting period.</p></div> <div class=\"grid gap-20\" data-v-b170f48e><h3 data-v-b170f48e>What happens if a renter stop paying?</h3> <p data-v-b170f48e>If the renter stop paying for the domain rent for a 3 consequent months, the domain will release back to the owner.</p></div>")],2)])])}
-var Faqvue_type_template_id_b170f48e_scoped_true_staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./apps/upfordomain.com/components/page/faq/faq_buyer/Faq.vue?vue&type=template&id=b170f48e&scoped=true&
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./apps/upfordomain.com/components/page/faq/faq_buyer/Faq.vue?vue&type=script&lang=js&
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ var Faqvue_type_script_lang_js_ = ({});
-// CONCATENATED MODULE: ./apps/upfordomain.com/components/page/faq/faq_buyer/Faq.vue?vue&type=script&lang=js&
- /* harmony default export */ var faq_buyer_Faqvue_type_script_lang_js_ = (Faqvue_type_script_lang_js_); 
-// CONCATENATED MODULE: ./apps/upfordomain.com/components/page/faq/faq_buyer/Faq.vue
-
-
-
-function Faq_injectStyles (context) {
-  
-  var style0 = __webpack_require__(106)
-if (style0.__inject__) style0.__inject__(context)
-
-}
-
-/* normalize component */
-
-var Faq_component = Object(componentNormalizer["a" /* default */])(
-  faq_buyer_Faqvue_type_script_lang_js_,
-  Faqvue_type_template_id_b170f48e_scoped_true_render,
-  Faqvue_type_template_id_b170f48e_scoped_true_staticRenderFns,
-  false,
-  Faq_injectStyles,
-  "b170f48e",
-  "52a06e10"
-  
-)
-
-/* harmony default export */ var Faq = (Faq_component.exports);
+/* harmony default export */ var Success = (component.exports);
 // EXTERNAL MODULE: ./apps/upfordomain.com/components/page/_common/Footer.vue + 2 modules
 var Footer = __webpack_require__(62);
 
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./apps/upfordomain.com/pages/faq/buyer/index.vue?vue&type=script&lang=js&
-//
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./apps/upfordomain.com/pages/domains-up-for-rent/detail/message/success.vue?vue&type=script&lang=js&
 //
 //
 //
@@ -194,41 +86,39 @@ var Footer = __webpack_require__(62);
 
 
 
-
-/* harmony default export */ var buyervue_type_script_lang_js_ = ({
+/* harmony default export */ var successvue_type_script_lang_js_ = ({
   layout: 'defaultPage',
   components: {
     Header: Header["a" /* default */],
-    Hero: Hero,
-    Faq: Faq,
+    Success: Success,
     Footer: Footer["a" /* default */]
   }
 });
-// CONCATENATED MODULE: ./apps/upfordomain.com/pages/faq/buyer/index.vue?vue&type=script&lang=js&
- /* harmony default export */ var faq_buyervue_type_script_lang_js_ = (buyervue_type_script_lang_js_); 
-// CONCATENATED MODULE: ./apps/upfordomain.com/pages/faq/buyer/index.vue
+// CONCATENATED MODULE: ./apps/upfordomain.com/pages/domains-up-for-rent/detail/message/success.vue?vue&type=script&lang=js&
+ /* harmony default export */ var message_successvue_type_script_lang_js_ = (successvue_type_script_lang_js_); 
+// CONCATENATED MODULE: ./apps/upfordomain.com/pages/domains-up-for-rent/detail/message/success.vue
 
 
 
-function buyer_injectStyles (context) {
+function success_injectStyles (context) {
   
   
 }
 
 /* normalize component */
 
-var buyer_component = Object(componentNormalizer["a" /* default */])(
-  faq_buyervue_type_script_lang_js_,
+var success_component = Object(componentNormalizer["a" /* default */])(
+  message_successvue_type_script_lang_js_,
   render,
   staticRenderFns,
   false,
-  buyer_injectStyles,
+  success_injectStyles,
   null,
-  "0322ea84"
+  "bf176c06"
   
 )
 
-/* harmony default export */ var buyer = __webpack_exports__["default"] = (buyer_component.exports);
+/* harmony default export */ var success = __webpack_exports__["default"] = (success_component.exports);
 
 /***/ }),
 
@@ -683,24 +573,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /* harmony default export */ var Footer = __webpack_exports__["a"] = (component.exports);
 
-/***/ }),
-
-/***/ 75:
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(107);
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add CSS to SSR context
-var add = __webpack_require__(3).default
-module.exports.__inject__ = function (context) {
-  add("72187ebc", content, true, context)
-};
-
 /***/ })
 
 };;
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=success.js.map

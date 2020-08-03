@@ -84,6 +84,13 @@
     "_name": "_d2722942"
   },
   {
+    "name": "domains-up-for-rent-detail-message-success",
+    "path": "/domains-up-for-rent/detail/message/success",
+    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\upfordomain.com\\\\pages\\\\domains-up-for-rent\\\\detail\\\\message\\\\success.vue",
+    "chunkName": "pages/domains-up-for-rent/detail/message/success",
+    "_name": "_1f5ffb4a"
+  },
+  {
     "name": "domains-up-for-rent-detail-name",
     "path": "/domains-up-for-rent/detail/:name?",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\upfordomain.com\\\\pages\\\\domains-up-for-rent\\\\detail\\\\_name\\\\index.vue",
