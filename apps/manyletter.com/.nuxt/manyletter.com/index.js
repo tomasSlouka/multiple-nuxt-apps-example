@@ -4,15 +4,21 @@ import ClientOnly from 'vue-client-only'
 import NoSsr from 'vue-no-ssr'
 import { createRouter } from './router.js'
 import NuxtChild from './components/nuxt-child.js'
-import NuxtError from './components/nuxt-error.vue'
+import NuxtError from '..\\..\\layouts\\error.vue'
 import Nuxt from './components/nuxt.js'
 import App from './App.js'
 import { setContext, getLocation, getRouteData, normalizeError } from './utils'
+import { createStore } from './store.js'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_be3c173c from 'nuxt_plugin_plugin_be3c173c' // Source: .\\components\\plugin.js (mode: 'all')
+import nuxt_plugin_vuescrollto_00958ae4 from 'nuxt_plugin_vuescrollto_00958ae4' // Source: .\\vue-scrollto.js (mode: 'client')
+import nuxt_plugin_cookieuniversalnuxt_21a13da6 from 'nuxt_plugin_cookieuniversalnuxt_21a13da6' // Source: .\\cookie-universal-nuxt.js (mode: 'all')
 import nuxt_plugin_axios_482b6b85 from 'nuxt_plugin_axios_482b6b85' // Source: .\\axios.js (mode: 'all')
+import nuxt_plugin_axios_5659d192 from 'nuxt_plugin_axios_5659d192' // Source: ..\\..\\plugins\\axios.js (mode: 'all')
+import nuxt_plugin_ga_34d435b2 from 'nuxt_plugin_ga_34d435b2' // Source: ..\\..\\plugins\\ga.js (mode: 'client')
+import nuxt_plugin_vue2touchevents_147d6945 from 'nuxt_plugin_vue2touchevents_147d6945' // Source: ..\\..\\plugins\\vue2-touch-events.js (mode: 'client')
+import nuxt_plugin_fullstory_fc144232 from 'nuxt_plugin_fullstory_fc144232' // Source: ..\\..\\plugins\\fullstory.js (mode: 'client')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -41,18 +47,27 @@ Vue.component(Nuxt.name, Nuxt)
 
 Vue.use(Meta, {"keyName":"head","attribute":"data-n-head","ssrAttribute":"data-n-head-ssr","tagIDKeyName":"hid"})
 
-const defaultTransition = {"name":"page","mode":"out-in","appear":false,"appearClass":"appear","appearActiveClass":"appear-active","appearToClass":"appear-to"}
+const defaultTransition = {"name":"layout","mode":"out-in","appear":false,"appearClass":"appear","appearActiveClass":"appear-active","appearToClass":"appear-to"}
 
 async function createApp(ssrContext, config = {}) {
   const router = await createRouter(ssrContext)
+
+  const store = createStore(ssrContext)
+  // Add this.$router into store actions/mutations
+  store.$router = router
+
+  // Fix SSR caveat https://github.com/nuxt/nuxt.js/issues/3757#issuecomment-414689141
+  const registerModule = store.registerModule
+  store.registerModule = (path, rawModule, options) => registerModule.call(store, path, rawModule, Object.assign({ preserveState: process.client }, options))
 
   // Create Root instance
 
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"\u003E Top-notch list of newsletter"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"}],"style":[],"script":[]},
+    head: {"title":"ManyLetter - Get email newsletters under your control","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1, shrink-to-fit=no"},{"hid":"title","name":"title","content":"ManyLetter - Get email newsletters under your control"},{"hid":"description","name":"description","content":"ManyLetter makes it easy to find and join any newsletter, as well as to create one and share it."},{"hid":"og-type","property":"og:type","content":"website"},{"hid":"og-url","property":"og:url","content":"https:\u002F\u002Fmanyletter.com\u002F"},{"hid":"og-title","property":"og:title","content":"ManyLetter - Get email newsletters under your control"},{"hid":"og-description","property":"og:description","content":"ManyLetter makes it easy to find and join any newsletter, as well as to create one and share it."},{"hid":"og-image","property":"og:image","content":"https:\u002F\u002Fmanyletter.com\u002F_static\u002Fcover-1200.png"},{"hid":"og-image:type","property":"og:image:type","content":"image\u002Fpng"},{"hid":"og-image:width","property":"og:image:width","content":"1200"},{"hid":"og-image:height","property":"og:image:height","content":"628"},{"hid":"twitter-card","property":"twitter:card","content":"summary_large_image"},{"hid":"twitter-url","property":"twitter:url","content":"https:\u002F\u002Fmanyletter.com\u002F"},{"hid":"twitter-title","property":"twitter:title","content":"ManyLetter - Get email newsletters under your control"},{"hid":"twitter-description","property":"twitter:description","content":"ManyLetter makes it easy to find and join any newsletter, as well as to create one, and share it."},{"hid":"twitter-image","property":"twitter:image","content":"https:\u002F\u002Fmanyletter.com\u002F_static\u002Fcover-1200.png"},{"hid":"apple-mobile-web-app-title","name":"apple-mobile-web-app-title","content":"ManyLetter"},{"hid":"application-name","name":"application-name","content":"ManyLetter"},{"hid":"msapplication-TileColor","name":"msapplication-TileColor","content":"#00a300"},{"hid":"theme-color","name":"theme-color","content":"#ffffff"}],"link":[{"hid":"apple-touch-icon","rel":"apple-touch-icon","sizes":"180x180","href":"\u002F_static\u002Fapple-touch-icon.png"},{"hid":"android-chrome-192x192","rel":"icon","type":"image\u002Fpng","sizes":"192x192","href":"\u002F_static\u002Fandroid-chrome-192x192.png"},{"hid":"android-chrome-512x512","rel":"icon","type":"image\u002Fpng","sizes":"512x512","href":"\u002F_static\u002Fandroid-chrome-512x512.png"},{"hid":"favicon-32x32","rel":"icon","type":"image\u002Fpng","sizes":"32x32","href":"\u002F_static\u002Ffavicon-32x32.png"},{"hid":"favicon-16x16","rel":"icon","type":"image\u002Fpng","sizes":"16x16","href":"\u002F_static\u002Ffavicon-16x16.png"},{"hid":"manifest","rel":"manifest","href":"\u002F_static\u002Fsite.webmanifest"},{"hid":"mask-icon","rel":"mask-icon","href":"\u002F_static\u002Fsafari-pinned-tab.svg","color":"#39ac37"}],"script":[],"style":[]},
 
+    store,
     router,
     nuxt: {
       defaultTransition,
@@ -97,6 +112,9 @@ async function createApp(ssrContext, config = {}) {
     ...App
   }
 
+  // Make app available into store via this.app
+  store.app = app
+
   const next = ssrContext ? ssrContext.next : location => app.router.push(location)
   // Resolve route
   let route
@@ -109,6 +127,7 @@ async function createApp(ssrContext, config = {}) {
 
   // Set context to app.context
   await setContext(app, {
+    store,
     route,
     next,
     error: app.nuxt.error.bind(app),
@@ -135,6 +154,9 @@ async function createApp(ssrContext, config = {}) {
       app.context[key] = value
     }
 
+    // Add into store
+    store[key] = app[key]
+
     // Check if plugin not already installed
     const installKey = '__nuxt_' + key + '_installed__'
     if (Vue[installKey]) {
@@ -156,6 +178,13 @@ async function createApp(ssrContext, config = {}) {
   // Inject runtime config as $config
   inject('config', config)
 
+  if (process.client) {
+    // Replace store state before plugins execution
+    if (window.__NUXT__ && window.__NUXT__.state) {
+      store.replaceState(window.__NUXT__.state)
+    }
+  }
+
   // Add enablePreview(previewData = {}) in context for plugins
   if (process.static && process.client) {
     app.context.enablePreview = function (previewData = {}) {
@@ -165,12 +194,32 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_be3c173c === 'function') {
-    await nuxt_plugin_plugin_be3c173c(app.context, inject)
+  if (process.client && typeof nuxt_plugin_vuescrollto_00958ae4 === 'function') {
+    await nuxt_plugin_vuescrollto_00958ae4(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_cookieuniversalnuxt_21a13da6 === 'function') {
+    await nuxt_plugin_cookieuniversalnuxt_21a13da6(app.context, inject)
   }
 
   if (typeof nuxt_plugin_axios_482b6b85 === 'function') {
     await nuxt_plugin_axios_482b6b85(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_axios_5659d192 === 'function') {
+    await nuxt_plugin_axios_5659d192(app.context, inject)
+  }
+
+  if (process.client && typeof nuxt_plugin_ga_34d435b2 === 'function') {
+    await nuxt_plugin_ga_34d435b2(app.context, inject)
+  }
+
+  if (process.client && typeof nuxt_plugin_vue2touchevents_147d6945 === 'function') {
+    await nuxt_plugin_vue2touchevents_147d6945(app.context, inject)
+  }
+
+  if (process.client && typeof nuxt_plugin_fullstory_fc144232 === 'function') {
+    await nuxt_plugin_fullstory_fc144232(app.context, inject)
   }
 
   // Lock enablePreview in context
@@ -198,6 +247,7 @@ async function createApp(ssrContext, config = {}) {
   }
 
   return {
+    store,
     app,
     router
   }

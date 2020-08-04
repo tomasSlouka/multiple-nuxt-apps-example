@@ -1,73 +1,62 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">
-        manyletter.com
-      </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+    <div class='page'>
+        <Header />
+        <Hero />
+        <HeroImg />
+        <SocialProof :newsletterList="newsletterList" :newslettersCount="newslettersCount.data" />
+        <CTA1 />
+        <Features />
+        <Tools />
+        <CTA2 />
     </div>
-  </div>
 </template>
 
 <script>
-export default {}
+import Header from '@/components/page/_common/Header.vue'
+import Hero from '@/components/page/index_C/Hero.vue'
+import HeroImg from '@/components/page/index_C/HeroImg.vue'
+import SocialProof from '@/components/page/index_C/SocialProof.vue'
+import CTA1 from '@/components/page/index_C/CTA1.vue'
+import Features from '@/components/page/index_C/Features.vue'
+import Tools from '@/components/page/index_C/Tools.vue'
+import CTA2 from '@/components/page/index_C/CTA2.vue'
+
+export default {
+    layout: 'default-page',
+        components: {
+        Header, Hero, HeroImg, SocialProof, CTA1, Features, Tools, CTA2
+    },
+    data() {
+        return {
+            referrer: this.$route.query.r || ''
+        }
+    },
+    async asyncData({ $axios, params }) {
+        console.log('asyncData executed');
+        const [newsletterList, newslettersCount, usersCount] = await Promise.all ([
+            // $axios.$get('/api/maylday/user'),
+            $axios.$get('/api/maylday/open/newsletters/latest'),
+            $axios.$get('/api/maylday/open/newsletters/count'),
+            $axios.$get('/api/maylday/open/users/count')
+        ])
+        return { newsletterList, newslettersCount, usersCount }
+    },
+    created() {
+        // this.$store.dispatch('setPosts', this.newsletterList)
+        // console.log(this.$store.getters.loadedPosts)
+        // client
+        if (this.referrer !== '') {
+            if (this.$cookies.get('manyletter.referrer') === undefined) {
+                this.$cookies.set('manyletter.referrer', this.referrer, {
+                    path: '/',
+                    maxAge: 60 * 60 * 24 * 30 * 3
+                })
+            }
+        }
+    }
+}
 </script>
 
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
+<style scoped>
 
-.title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
 </style>
