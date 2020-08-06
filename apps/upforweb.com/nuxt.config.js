@@ -2,6 +2,9 @@
 export default {
   srcDir: __dirname,
   buildDir: 'apps/upforweb.com/.nuxt/upforweb.com',
+  generate: {
+    dir: 'apps/upforweb.com/generate',
+  },
   server: {
       port: 4000, // default: 3000 for localhost | for production server default is 8080 // has to be the same as the port that is using in custom.conf
       host: 'localhost' // default: localhost

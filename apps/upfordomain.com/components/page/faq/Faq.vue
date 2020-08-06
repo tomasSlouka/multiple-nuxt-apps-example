@@ -12,8 +12,13 @@
                     </div>
                     
                     <div class='grid gap-10'>
-                        <h4>Do I need to change domain registrar?</h4>
-                        <p>No. You will remain the only owner of the domain.</p>
+                        <h4>Do I need to transfer domain ownership?</h4>
+                        <p>Yes. Anyone who wants to provide a domain for rent must change the domain owner to upfordomain.com. Thanks to this, we can ensure that the renter of the domain regularly pays you for the domain and protects you from the loss of the domain in case the renter ceases to pay his obligation.</p>
+                    </div>
+
+                    <div class='grid gap-10'>
+                        <h4>Do I need to transfer domain ownership before the renting period start?</h4>
+                        <p>No. Ownership transfer is needed only when we find the renter for your domain.</p>
                     </div>
 
                     <div class='grid gap-10'>
@@ -39,11 +44,30 @@
                         <p>You don't have to pay the full price. Domain renting is a great alternative to get the domain name that would be otherwise hard to acquire.</p>
                     </div>
 
-                    <div class='grid gap-10'>
+                    <!-- <div class='grid gap-10'>
                         <h4>For what period can I rent a domain?</h4>
-                        <p>It depends on the contract. You can rent your domain from 2 years to up to 10 years.</p>
+                        <p>It depends on the contract. You can rent your domain from 2 years to up to 5 years.</p>
+                    </div> -->
+
+                    <div class='grid gap-10'>
+                        <h4>Can owner of the domain change the domain renting and buyout price?</h4>
+                        <p>No. The renting price and buyout price will remain the same and cannot be changed.</p>
                     </div>
 
+                    <div class='grid gap-10'>
+                        <h4>Who will be the domain owner?</h4>
+                        <p>The owner of the domain during the rental period will be upfordomain.com. If the domain is repaid, ownership of the domain will be transferred to you as the buyer and the domain will be under your full control.</p>
+                    </div>
+
+                    <div class='grid gap-10'>
+                        <h4>What is rental period?</h4>
+                        <p>The rental period is the period during which the tenant pays the owner of the domain. The rental period depends on the rental price and the buyout price of the domain. The rental period ends as soon as the renter pays the buyout price of the domain.</p>
+                    </div>
+
+                    <div class='grid gap-10'>
+                        <h4>What about DNS access?</h4>
+                        <p>You will get full access to the domain DNS settings.</p>
+                    </div>
                     <!-- <div class='grid gap-10'>
                         <h4>Who decides the contract terms?</h4>
                         <p>It depends on the contract. You can rent your domain from 2 years to up to 10 years.</p>

@@ -68,14 +68,38 @@ var component = Object(componentNormalizer["a" /* default */])(
 )
 
 /* harmony default export */ var Hero = (component.exports);
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/upfordomain.com/components/page/faq/Faq.vue?vue&type=template&id=5c51350f&scoped=true&
-var Faqvue_type_template_id_5c51350f_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component"},[_vm._ssrNode("<div class=\"container-narrow\" data-v-5c51350f>","</div>",[_vm._ssrNode("<div class=\"grid md-col-2 gap-60 align-items-start\" data-v-5c51350f>","</div>",[_vm._ssrNode("<div class=\"grid gap-60\" data-v-5c51350f>","</div>",[_vm._ssrNode("<h2 data-v-5c51350f>Owner questions</h2> "),_vm._ssrNode("<div class=\"grid gap-10\" data-v-5c51350f>","</div>",[_vm._ssrNode("<h4 data-v-5c51350f>How to add my domain up for rent?</h4> "),_vm._ssrNode("<p data-v-5c51350f>","</p>",[_vm._ssrNode("Everyone can add their domain up for rent for FREE. Go to "),_c('nuxt-link',{attrs:{"to":"/add/domain-up-for-rent"}},[_vm._v(" list your domain")]),_vm._ssrNode(" and fill in a simple form where you define the monthly renting price, and the buyout price for your domain.")],2)],2),_vm._ssrNode(" <div class=\"grid gap-10\" data-v-5c51350f><h4 data-v-5c51350f>Do I need to change domain registrar?</h4> <p data-v-5c51350f>No. You will remain the only owner of the domain.</p></div> <div class=\"grid gap-10\" data-v-5c51350f><h4 data-v-5c51350f>Do I need to change domain registrar?</h4> <p data-v-5c51350f>Yes. Change of the domain registrar to upfordomain is mandatory.</p></div> <div class=\"grid gap-10\" data-v-5c51350f><h4 data-v-5c51350f>Can I change the renting price?</h4> <p data-v-5c51350f>You can change the renting price while domain is not rented. Once you rent your domain, you can not change the price until the end of renting period.</p></div> <div class=\"grid gap-10\" data-v-5c51350f><h4 data-v-5c51350f>What happens if a renter stop paying?</h4> <p data-v-5c51350f>If the renter stop paying for the domain rent for a 3 consequent months, the domain will release back to the owner.</p></div>")],2),_vm._ssrNode(" <div class=\"grid gap-60\" data-v-5c51350f><h2 data-v-5c51350f>Buyer questions</h2> <div class=\"grid gap-10\" data-v-5c51350f><h4 data-v-5c51350f>Why should I rent a domain?</h4> <p data-v-5c51350f>You don't have to pay the full price. Domain renting is a great alternative to get the domain name that would be otherwise hard to acquire.</p></div> <div class=\"grid gap-10\" data-v-5c51350f><h4 data-v-5c51350f>For what period can I rent a domain?</h4> <p data-v-5c51350f>It depends on the contract. You can rent your domain from 2 years to up to 10 years.</p></div></div>")],2)])])}
-var Faqvue_type_template_id_5c51350f_scoped_true_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/upfordomain.com/components/page/faq/Faq.vue?vue&type=template&id=c635fba0&scoped=true&
+var Faqvue_type_template_id_c635fba0_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component"},[_vm._ssrNode("<div class=\"container-narrow\" data-v-c635fba0>","</div>",[_vm._ssrNode("<div class=\"grid md-col-2 gap-60 align-items-start\" data-v-c635fba0>","</div>",[_vm._ssrNode("<div class=\"grid gap-60\" data-v-c635fba0>","</div>",[_vm._ssrNode("<h2 data-v-c635fba0>Owner questions</h2> "),_vm._ssrNode("<div class=\"grid gap-10\" data-v-c635fba0>","</div>",[_vm._ssrNode("<h4 data-v-c635fba0>How to add my domain up for rent?</h4> "),_vm._ssrNode("<p data-v-c635fba0>","</p>",[_vm._ssrNode("Everyone can add their domain up for rent for FREE. Go to "),_c('nuxt-link',{attrs:{"to":"/add/domain-up-for-rent"}},[_vm._v(" list your domain")]),_vm._ssrNode(" and fill in a simple form where you define the monthly renting price, and the buyout price for your domain.")],2)],2),_vm._ssrNode(" <div class=\"grid gap-10\" data-v-c635fba0><h4 data-v-c635fba0>Do I need to transfer domain ownership?</h4> <p data-v-c635fba0>Yes. Anyone who wants to provide a domain for rent must change the domain owner to upfordomain.com. Thanks to this, we can ensure that the renter of the domain regularly pays you for the domain and protects you from the loss of the domain in case the renter ceases to pay his obligation.</p></div> <div class=\"grid gap-10\" data-v-c635fba0><h4 data-v-c635fba0>Do I need to transfer domain ownership before the renting period start?</h4> <p data-v-c635fba0>No. Ownership transfer is needed only when we find the renter for your domain.</p></div> <div class=\"grid gap-10\" data-v-c635fba0><h4 data-v-c635fba0>Do I need to change domain registrar?</h4> <p data-v-c635fba0>Yes. Change of the domain registrar to upfordomain is mandatory.</p></div> <div class=\"grid gap-10\" data-v-c635fba0><h4 data-v-c635fba0>Can I change the renting price?</h4> <p data-v-c635fba0>You can change the renting price while domain is not rented. Once you rent your domain, you can not change the price until the end of renting period.</p></div> <div class=\"grid gap-10\" data-v-c635fba0><h4 data-v-c635fba0>What happens if a renter stop paying?</h4> <p data-v-c635fba0>If the renter stop paying for the domain rent for a 3 consequent months, the domain will release back to the owner.</p></div>")],2),_vm._ssrNode(" <div class=\"grid gap-60\" data-v-c635fba0><h2 data-v-c635fba0>Buyer questions</h2> <div class=\"grid gap-10\" data-v-c635fba0><h4 data-v-c635fba0>Why should I rent a domain?</h4> <p data-v-c635fba0>You don't have to pay the full price. Domain renting is a great alternative to get the domain name that would be otherwise hard to acquire.</p></div> <div class=\"grid gap-10\" data-v-c635fba0><h4 data-v-c635fba0>Can owner of the domain change the domain renting and buyout price?</h4> <p data-v-c635fba0>No. The renting price and buyout price will remain the same and cannot be changed.</p></div> <div class=\"grid gap-10\" data-v-c635fba0><h4 data-v-c635fba0>Who will be the domain owner?</h4> <p data-v-c635fba0>The owner of the domain during the rental period will be upfordomain.com. If the domain is repaid, ownership of the domain will be transferred to you as the buyer and the domain will be under your full control.</p></div> <div class=\"grid gap-10\" data-v-c635fba0><h4 data-v-c635fba0>What is rental period?</h4> <p data-v-c635fba0>The rental period is the period during which the tenant pays the owner of the domain. The rental period depends on the rental price and the buyout price of the domain. The rental period ends as soon as the renter pays the buyout price of the domain.</p></div> <div class=\"grid gap-10\" data-v-c635fba0><h4 data-v-c635fba0>What about DNS access?</h4> <p data-v-c635fba0>You will get full access to the domain DNS settings.</p></div></div>")],2)])])}
+var Faqvue_type_template_id_c635fba0_scoped_true_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./apps/upfordomain.com/components/page/faq/Faq.vue?vue&type=template&id=5c51350f&scoped=true&
+// CONCATENATED MODULE: ./apps/upfordomain.com/components/page/faq/Faq.vue?vue&type=template&id=c635fba0&scoped=true&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./apps/upfordomain.com/components/page/faq/Faq.vue?vue&type=script&lang=js&
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -155,11 +179,11 @@ if (style0.__inject__) style0.__inject__(context)
 
 var Faq_component = Object(componentNormalizer["a" /* default */])(
   faq_Faqvue_type_script_lang_js_,
-  Faqvue_type_template_id_5c51350f_scoped_true_render,
-  Faqvue_type_template_id_5c51350f_scoped_true_staticRenderFns,
+  Faqvue_type_template_id_c635fba0_scoped_true_render,
+  Faqvue_type_template_id_c635fba0_scoped_true_staticRenderFns,
   false,
   Faq_injectStyles,
-  "5c51350f",
+  "c635fba0",
   "b83d8cbc"
   
 )
@@ -684,7 +708,7 @@ if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
 var add = __webpack_require__(3).default
 module.exports.__inject__ = function (context) {
-  add("54cfc2ac", content, true, context)
+  add("0c922124", content, true, context)
 };
 
 /***/ }),
@@ -694,10 +718,10 @@ module.exports.__inject__ = function (context) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Faq_vue_vue_type_style_index_0_id_5c51350f_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(66);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Faq_vue_vue_type_style_index_0_id_5c51350f_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Faq_vue_vue_type_style_index_0_id_5c51350f_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Faq_vue_vue_type_style_index_0_id_5c51350f_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Faq_vue_vue_type_style_index_0_id_5c51350f_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
- /* harmony default export */ __webpack_exports__["default"] = (_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Faq_vue_vue_type_style_index_0_id_5c51350f_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Faq_vue_vue_type_style_index_0_id_c635fba0_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(66);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Faq_vue_vue_type_style_index_0_id_c635fba0_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Faq_vue_vue_type_style_index_0_id_c635fba0_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Faq_vue_vue_type_style_index_0_id_c635fba0_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Faq_vue_vue_type_style_index_0_id_c635fba0_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Faq_vue_vue_type_style_index_0_id_c635fba0_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -708,7 +732,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(2);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "p[data-v-5c51350f]{max-width:400px}", ""]);
+exports.push([module.i, "p[data-v-c635fba0]{max-width:400px}", ""]);
 // Exports
 module.exports = exports;
 

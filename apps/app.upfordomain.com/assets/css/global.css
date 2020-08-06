@@ -412,6 +412,14 @@ a {
     background-color: #E7883079;
     color: rgba(87, 47, 11, 0.75);
 }
+.admin-layout span.tag.red {
+    background-color: #e73c3079;
+    color: rgba(87, 20, 11, 0.75);
+}
+.admin-layout span.tag.blue {
+    background-color: #309ee779;
+    color: rgba(11, 53, 87, 0.75);
+}
 .admin-layout span.tag.yellow {
     background-color: #e7d53099;
     color: rgb(102, 94, 23);

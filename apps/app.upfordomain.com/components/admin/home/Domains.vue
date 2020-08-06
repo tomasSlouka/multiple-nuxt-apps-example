@@ -8,8 +8,13 @@
                 <div v-for="item in domainList.data" :key="item.id" class="user-box" >
                     <nuxt-link :to='"/admin/domain/detail/"+item.id' tag='div' class="pointer grid gap-20 md-col-4 align-items-center justify-content-space-between">
                         <div class='minw250'>
-                            <h3>{{item.name}}</h3>
-                            <p class='small'>{{item.status == "0" ? "Waiting for approval" : "Listed"}}</p>
+                            <h3>
+                                {{item.name}}
+                                <span v-if='item.tier == 1' class='font14'>🔥</span>
+                            </h3>
+                            <p class='small'>
+                                {{item.status == "0" ? "Not approved" : "Approved"}}
+                            </p>
                         </div>
                         <div>
                             <label>Rering price</label>

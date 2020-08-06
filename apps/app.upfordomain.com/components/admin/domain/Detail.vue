@@ -2,21 +2,24 @@
     <div class='component grid gap-20'>
         <div class="box grid gap-20">
             
-            <h3>{{domainDetail.data.name}}</h3>
+            <h3>{{domainDetail.data.name}} <span v-if='domainDetail.data.tier == 1' class='font14'>🔥</span></h3>
                 
                 <form @submit.prevent='submitForm()' class='grid gap-20 '>
                     <div class='grid gap-20 align-items-start'>
                         <div>
-                            <label for="title">Domain name</label>
-                            <input type="text" name='name' v-model='domainDetail.data.name' />
+                            <label for="title">Domain name (cannot be changed)</label>
+                            <input v-if='$store.state.auth.userData.id == 1' type="text" name='name' v-model='domainDetail.data.name' />
+                            <input v-else type="text" name='name' v-model='domainDetail.data.name' readonly />
                         </div>
-                        <div>
-                            <label for="title">Renting price</label>
-                            <input type="text" name='price_renting' v-model='domainDetail.data.price_renting' />
-                        </div>
-                        <div>
-                            <label for="title">Buyout price</label>
-                            <input type="text" name='price_buyout' v-model='domainDetail.data.price_buyout' />
+                        <div class='grid gap-20 md-col-2'>
+                            <div>
+                                <label for="title">Renting price</label>
+                                <input type="text" name='price_renting' v-model='domainDetail.data.price_renting' />
+                            </div>
+                            <div>
+                                <label for="title">Buyout price</label>
+                                <input type="text" name='price_buyout' v-model='domainDetail.data.price_buyout' />
+                            </div>
                         </div>
                         <div>
                             <label for="title">Domain story</label>

@@ -4,7 +4,9 @@
         <div class='container-narrow grid gap-60'>
             <!-- <Users v-if='this.level == "101"' :userList="userList"/> -->
             <Detail :domainDetail='domainDetail'/>
+            <Verify :domainDetail='domainDetail'/>
             <!-- {{this.$store.state}} -->
+            <Admin v-if='$store.state.auth.userData.id == 1' :domainDetail='domainDetail'/>
             <DangerZone />
         </div>
     </div>
@@ -12,13 +14,15 @@
 
 <script>
 import Domain from '@/components/admin/domain/Domain.vue'
+import Admin from '@/components/admin/domain/Admin.vue'
 import Detail from '@/components/admin/domain/Detail.vue'
+import Verify from '@/components/admin/domain/Verify.vue'
 import DangerZone from '@/components/admin/domain/DetailDangerZone.vue'
 
 export default {
     layout: 'defaultAdmin',
         components: {
-        Domain, Detail, DangerZone
+        Domain, Detail, Admin, Verify, DangerZone
     },
     data() {
         return {
