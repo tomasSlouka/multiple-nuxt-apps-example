@@ -22,7 +22,6 @@
                         <li><nuxt-link to="/domains-up-for-rent/add">List your domain</nuxt-link></li>
                         <li><nuxt-link to="/blog">Blog</nuxt-link></li>
                         <!-- <li><nuxt-link to="/get-domain-price">Get domain price</nuxt-link></li> -->
-                        <!-- <li><nuxt-link to="/log-in">Log in</nuxt-link></li> -->
                         <!-- <li><nuxt-link to="/sign-up">Sign up</nuxt-link></li> -->
                         <!-- <li><nuxt-link to="/blog">Blog</nuxt-link></li> -->
                         <!-- <li><nuxt-link to="/api-reference">API References</nuxt-link></li> -->
@@ -33,6 +32,7 @@
                     <h5>Service</h5>
                     <ul>
                         <li><nuxt-link to="/faq">FAQ</nuxt-link></li>
+                        <li><a href="https://app.upfordomain.com/">Log in</a></li>
                         <!-- <li><nuxt-link to="/creator">For creator</nuxt-link></li> -->
                         <!-- <li><nuxt-link to="/subscriber">Subscriber</nuxt-link></li> -->
                         <!-- <li><nuxt-link to="/pricing">Pricing</nuxt-link></li> -->

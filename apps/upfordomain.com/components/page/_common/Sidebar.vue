@@ -20,15 +20,16 @@
                   <!-- <li><nuxt-link to="/pricing">Pricing</nuxt-link></li> -->
               </ul>
 
-              <!-- <div class='hr mt40 mb40'></div> -->
+              <div class='hr mt40 mb40'></div>
               
-              <!-- <ul @click="$emit('close')" class='grid col-1 gap-20'>
-                  <li v-if='$store.getters.isUserLoggedIn'><nuxt-link to="/admin/home" class='flex nowrap align-items-center'> {{ ($store.state.userData == null) ? "Go to Admin" : "Continue as " + $store.state.userData.name + "" }}</nuxt-link></li>
-                  <li v-else><nuxt-link to="/log-in">Log in</nuxt-link></li>
+              <ul @click="$emit('close')" class='grid col-1 gap-20'>
+                  <li><a href="https://app.upfordomain.com/">Log in</a></li>
+                  <!-- <li v-if='$store.getters.isUserLoggedIn'><nuxt-link to="/admin/home" class='flex nowrap align-items-center'> {{ ($store.state.userData == null) ? "Go to Admin" : "Continue as " + $store.state.userData.name + "" }}</nuxt-link></li> -->
+                  <!-- <li v-else><nuxt-link to="/log-in">Log in</nuxt-link></li> -->
                   
-                  <li v-if='$store.getters.isUserLoggedIn'><a @click.prevent='$store.dispatch("logout")'>Log out</a></li>
-                  <li v-else><nuxt-link to="/sign-up">Sign Up</nuxt-link></li>
-              </ul> -->
+                  <!-- <li v-if='$store.getters.isUserLoggedIn'><a @click.prevent='$store.dispatch("logout")'>Log out</a></li> -->
+                  <!-- <li v-else><nuxt-link to="/sign-up">Sign Up</nuxt-link></li> -->
+              </ul>
 
               <div class='hr mt40 mb40'></div>
 
