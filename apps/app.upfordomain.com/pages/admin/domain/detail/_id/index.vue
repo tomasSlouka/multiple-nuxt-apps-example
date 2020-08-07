@@ -6,8 +6,9 @@
             <Detail :domainDetail='domainDetail'/>
             <Verify :domainDetail='domainDetail'/>
             <!-- {{this.$store.state}} -->
-            <Admin v-if='$store.state.auth.userData.id == 1' :domainDetail='domainDetail'/>
             <DangerZone />
+            <div class="hr"></div>
+            <Admin v-if='$store.state.auth.userData.id == 1' :domainDetail='domainDetail'/>
         </div>
     </div>
 </template>

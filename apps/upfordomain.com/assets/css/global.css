@@ -388,26 +388,34 @@ a {
 /* Tables */
 
 /* tags */
-.admin-layout span.tag {
+span.tag {
     font-size: 12px;
     line-height: 18px;
     font-weight: 400;
     border-radius: 4px;
     padding: 4px 8px;
 }
-.admin-layout span.tag.orange {
+span.tag.orange {
     background-color: #E7883079;
     color: rgba(87, 47, 11, 0.75);
 }
-.admin-layout span.tag.yellow {
+span.tag.red {
+    background-color: #e73c3079;
+    color: rgba(87, 20, 11, 0.75);
+}
+span.tag.blue {
+    background-color: #309ee779;
+    color: rgba(11, 53, 87, 0.75);
+}
+span.tag.yellow {
     background-color: #e7d53099;
     color: rgb(102, 94, 23);
 }
-.admin-layout span.tag.green {
+span.tag.green {
     background-color: #30e7b69e;
     color: #167159;
 }
-.admin-layout span.tag.gray {
+span.tag.gray {
     background-color: #f1f1f1;
 }
 

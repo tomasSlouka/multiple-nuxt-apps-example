@@ -28,7 +28,7 @@
 
                     <div class='grid gap-10'>
                         <h4>Can I change the renting price?</h4>
-                        <p>You can change the renting price while domain is not rented. Once you rent your domain, you can not change the price until the end of renting period.</p>
+                        <p>You can change the renting price while domain is not in rental period. Once the rent period starts, you won't be able to change the price.</p>
                     </div>
                     
                     <div class='grid gap-10'>
@@ -51,17 +51,17 @@
 
                     <div class='grid gap-10'>
                         <h4>Can owner of the domain change the domain renting and buyout price?</h4>
-                        <p>No. The renting price and buyout price will remain the same and cannot be changed.</p>
+                        <p>No. The renting price and buyout price will remain the same and cannot be changed during the rental period.</p>
                     </div>
 
                     <div class='grid gap-10'>
                         <h4>Who will be the domain owner?</h4>
-                        <p>The owner of the domain during the rental period will be upfordomain.com. If the domain is repaid, ownership of the domain will be transferred to you as the buyer and the domain will be under your full control.</p>
+                        <p>The owner of the domain during the rental period will be upfordomain.com. If the total amount of rent payments will reach the buyout price of the domain, the ownership of the domain will transfer to the buyer.</p>
                     </div>
 
                     <div class='grid gap-10'>
                         <h4>What is rental period?</h4>
-                        <p>The rental period is the period during which the tenant pays the owner of the domain. The rental period depends on the rental price and the buyout price of the domain. The rental period ends as soon as the renter pays the buyout price of the domain.</p>
+                        <p>The rental period is the period during which the renter pays the owner of the domain. The rental period depends on the rental price and the buyout price of the domain. The rental period ends as soon as the renter pays the buyout price of the domain.</p>
                     </div>
 
                     <div class='grid gap-10'>

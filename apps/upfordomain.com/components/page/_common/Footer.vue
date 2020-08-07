@@ -3,7 +3,7 @@
         <div class="container-narrow mb40 mt40 pt40">
 
 
-            <div class='grid xs-col-2 sm-col-2 md-col-4 lg-col-4 auto gap-30 align-items-start'>
+            <div class='grid xs-col-2 sm-col-2 md-col-4 lg-col-5 auto gap-30 align-items-start'>
 
                 <div class='grid gap-10 xs-order-5 xs-span-2'>
                     <div class='logo'>
@@ -18,7 +18,7 @@
                 <div class='grid gap-10 xs-order-1'>
                     <h5>Links</h5>
                     <ul>
-                        <li><nuxt-link to="/domains-up-for-rent/browse">Browse domain names</nuxt-link></li>
+                        <li><nuxt-link to="/domains-up-for-rent/browse">Browse domains</nuxt-link></li>
                         <li><nuxt-link to="/domains-up-for-rent/add">List your domain</nuxt-link></li>
                         <li><nuxt-link to="/blog">Blog</nuxt-link></li>
                         <!-- <li><nuxt-link to="/get-domain-price">Get domain price</nuxt-link></li> -->
@@ -41,18 +41,19 @@
                     </ul>
                 </div>
 
-                <!-- <div class='grid gap-10 xs-order-3'> -->
-                    <!-- <h5>Social media</h5> -->
-                    <!-- <ul> -->
+                <div class='grid gap-10 xs-order-3'>
+                    <h5>Social media</h5>
+                    <ul>
                         <!-- <li><nuxt-link to="/forum">Comunity Forum</nuxt-link></li> -->
-                        <!-- <li><a href="https://www.facebook.com/manylettercom/" target='_blank'>Facebook</a></li> -->
-                        <!-- <li><a href="https://twitter.com/manylettercom" target='_blank'>Twitter</a></li> -->
-                    <!-- </ul> -->
-                <!-- </div> -->
+                        <li><a href="https://www.facebook.com/upfordomain" target='_blank'>Facebook</a></li>
+                        <li><a href="https://twitter.com/upfordomainHQ" target='_blank'>Twitter</a></li>
+                    </ul>
+                </div>
 
                 <div class='grid gap-10 xs-order-4'>
                     <h5>Help & Contact</h5>
                     <p class='contact small'>Feel free to contact us at <br><a href='mailto:hello@upfordomain.com'>hello@upfordomain.com</a>.</p>
+                    
                     <!-- <ul>
                         <li><nuxt-link to="/knowledgebase">Guides & FAQs</nuxt-link></li>
                         <li><nuxt-link to="/contact">Chat with Us</nuxt-link></li>

@@ -2,36 +2,36 @@
     <div class='component grid gap-20'>
         <div class="box grid gap-20">
             
-            <h3>Admin</h3>
-                <div>
-                    <span v-if='domainDetail.data.last_online_at !== domainDetail.data.created_at' class='tag green'>{{domainDetail.data.email}} - active</span>
-                    <span v-else class='tag red'>{{domainDetail.data.email}} - not active</span>
+            <h3 class='grid gap-20 col-2 auto align-items-center'>
+                <span>Admin domain settings</span>
+                <span v-if='domainDetail.data.last_online_at !== domainDetail.data.created_at' class='tag gray justify-self-end'>Email verified</span>
+                <span v-else class='tag orange justify-self-end'>Email not verified</span>
+            </h3>
+            <form @submit.prevent='submitForm()' class='grid gap-20 '>
+                <div class='grid gap-20 md-col-2 align-items-start'>
+                    <div>
+                        <!-- {{domainDetail.data.status}} - {{statusOld}} -->
+                        <label for="status">Domain status</label>
+                        <select name="status" id="status" v-model='domainDetail.data.status'>
+                            <option value="0">Not approved</option>
+                            <option value="1">Approved</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="tier">Domain tier</label>
+                        <select name="tier" id="tier" v-model='domainDetail.data.tier'>
+                            <option value="0">Normal</option>
+                            <option value="1">Premium</option>
+                        </select>
+                    </div>
                 </div>
-                <form @submit.prevent='submitForm()' class='grid gap-20 '>
-                    <div class='grid gap-20 md-col-2 align-items-start'>
-                        <div>
-                            <!-- {{domainDetail.data.status}} - {{statusOld}} -->
-                            <label for="status">Domain name</label>
-                            <select name="status" id="status" v-model='domainDetail.data.status'>
-                                <option value="0">Not approved</option>
-                                <option value="1">Approved</option>
-                            </select>
-                        </div>
-                        <div>
-                            <label for="tier">Domain tier</label>
-                            <select name="tier" id="tier" v-model='domainDetail.data.tier'>
-                                <option value="0">Normal</option>
-                                <option value="1">Premium</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="hr"></div>
-                    <div class='grid col-2 gap-10 auto justify-content-start align-items-center'>
-                        <button type='submit' class='cta'>Save</button>
-                        <p class='info' v-show='submitSuccess'> {{ submitText }} </p>
-                        <p class='error' v-show='submitError'> {{ submitText }} </p>
-                    </div>
-                </form> 
+                <div class="hr"></div>
+                <div class='grid col-2 gap-10 auto justify-content-start align-items-center'>
+                    <button type='submit' class='cta'>Save</button>
+                    <p class='info' v-show='submitSuccess'> {{ submitText }} </p>
+                    <p class='error' v-show='submitError'> {{ submitText }} </p>
+                </div>
+            </form> 
         </div>
     </div>
 </template>
