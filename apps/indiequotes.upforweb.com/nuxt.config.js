@@ -49,6 +49,7 @@ export default {
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
+    { src: '~/plugins/ga.js', ssr: false, defer: true },
   ],
   /*
   ** Auto import components

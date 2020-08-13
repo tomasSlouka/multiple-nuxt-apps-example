@@ -538,7 +538,7 @@ module.exports = require("defu");
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(15);
-module.exports = __webpack_require__(30);
+module.exports = __webpack_require__(31);
 
 
 /***/ }),
@@ -763,6 +763,12 @@ module.exports = exports;
 
 /***/ }),
 /* 30 */
+/***/ (function(module, exports) {
+
+// This file is intentionally left empty for noop aliases
+
+/***/ }),
+/* 31 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1556,7 +1562,7 @@ if (false) {}
 
 
 
-const _89042d70 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 1).then(__webpack_require__.bind(null, 34))); // TODO: remove in Nuxt 3
+const _89042d70 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 1).then(__webpack_require__.bind(null, 35))); // TODO: remove in Nuxt 3
 
 
 const emptyFn = () => {};
@@ -2479,6 +2485,9 @@ const setupProgress = axios => {
   ctx.$axios = axios;
   inject('axios', axios);
 });
+// EXTERNAL MODULE: ./apps/indiequotes.upforweb.com/.nuxt/indiequotes.upforweb.com/empty.js
+var indiequotes_upforweb_com_empty = __webpack_require__(30);
+
 // CONCATENATED MODULE: ./apps/indiequotes.upforweb.com/.nuxt/indiequotes.upforweb.com/index.js
 
 
@@ -2495,6 +2504,8 @@ const setupProgress = axios => {
  // Source: .\\components\\plugin.js (mode: 'all')
 
  // Source: .\\axios.js (mode: 'all')
+
+ // Source: ..\\..\\plugins\\ga.js (mode: 'client')
 // Component: <ClientOnly>
 
 external_vue_default.a.component(external_vue_client_only_default.a.name, external_vue_client_only_default.a); // TODO: Remove in Nuxt 3: <NoSsr>
@@ -2681,7 +2692,9 @@ async function createApp(ssrContext, config = {}) {
 
   if (typeof indiequotes_upforweb_com_axios === 'function') {
     await indiequotes_upforweb_com_axios(app.context, inject);
-  } // Lock enablePreview in context
+  }
+
+  if (false) {} // Lock enablePreview in context
 
 
   if (false) {} // If server-side, wait for async component to be resolved first

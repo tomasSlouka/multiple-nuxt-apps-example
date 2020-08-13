@@ -12,7 +12,7 @@
 		<iframe src="https://www.indiehackers.com/read/more/quotes" title="W3Schools Free Online Web Tutorials"></iframe>
 		<div class="hr"></div>
 		<div class='footer text-center'>
-			Created by <a href='https://twitter.com/TomasSlouka'>@TomasSlouka 🧩</a> in 15 minutes, during the lanch break, for fun.<br>
+			Created by <a href='https://twitter.com/TomasSlouka'>@TomasSlouka 🧩</a> in 15 minutes, during the lunch break, for fun.<br>
 			All ❤️ should go to <a href='https://indiehackers.com'>indiehackers.com 👈</a>
 		</div>
 	</div>
