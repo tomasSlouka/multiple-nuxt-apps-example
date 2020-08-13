@@ -38,6 +38,11 @@ export default {
   ** Global CSS
   */
   css: [
+    "~assets/css/global.css",
+    "~assets/css/_system/flex.css",
+    "~assets/css/_system/grid.css",
+    "~assets/css/_system/webbase.css",
+    "~assets/css/_system/animations.css",
   ],
   /*
   ** Plugins to load before mounting the App

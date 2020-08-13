@@ -3,72 +3,84 @@
     "name": "200",
     "path": "/200",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.upfordomain.com\\\\pages\\\\200.vue",
-    "chunkName": "pages/200"
+    "chunkName": "pages/200",
+    "_name": "_6a250c71"
   },
   {
     "name": "403",
     "path": "/403",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.upfordomain.com\\\\pages\\\\403.vue",
-    "chunkName": "pages/403"
+    "chunkName": "pages/403",
+    "_name": "_57c86d14"
   },
   {
     "name": "404",
     "path": "/404",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.upfordomain.com\\\\pages\\\\404.vue",
-    "chunkName": "pages/404"
+    "chunkName": "pages/404",
+    "_name": "_57ac3e12"
   },
   {
     "name": "500",
     "path": "/500",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.upfordomain.com\\\\pages\\\\500.vue",
-    "chunkName": "pages/500"
+    "chunkName": "pages/500",
+    "_name": "_08d7be34"
   },
   {
     "name": "log-in",
     "path": "/log-in",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.upfordomain.com\\\\pages\\\\log-in\\\\index.vue",
-    "chunkName": "pages/log-in/index"
+    "chunkName": "pages/log-in/index",
+    "_name": "_72858a43"
   },
   {
     "name": "log-out",
     "path": "/log-out",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.upfordomain.com\\\\pages\\\\log-out\\\\index.vue",
-    "chunkName": "pages/log-out/index"
+    "chunkName": "pages/log-out/index",
+    "_name": "_50147604"
   },
   {
     "name": "sign-up",
     "path": "/sign-up",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.upfordomain.com\\\\pages\\\\sign-up\\\\index.vue",
-    "chunkName": "pages/sign-up/index"
+    "chunkName": "pages/sign-up/index",
+    "_name": "_6a8dac50"
   },
   {
     "name": "admin-settings",
     "path": "/admin/settings",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.upfordomain.com\\\\pages\\\\admin\\\\settings\\\\index.vue",
-    "chunkName": "pages/admin/settings/index"
+    "chunkName": "pages/admin/settings/index",
+    "_name": "_0d4766f1"
   },
   {
     "name": "log-in-code",
     "path": "/log-in/code",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.upfordomain.com\\\\pages\\\\log-in\\\\code.vue",
-    "chunkName": "pages/log-in/code"
+    "chunkName": "pages/log-in/code",
+    "_name": "_4d515b0c"
   },
   {
     "name": "sign-up-code",
     "path": "/sign-up/code",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.upfordomain.com\\\\pages\\\\sign-up\\\\code.vue",
-    "chunkName": "pages/sign-up/code"
+    "chunkName": "pages/sign-up/code",
+    "_name": "_25de1652"
   },
   {
     "name": "admin-domain-detail-id",
     "path": "/admin/domain/detail/:id?",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.upfordomain.com\\\\pages\\\\admin\\\\domain\\\\detail\\\\_id\\\\index.vue",
-    "chunkName": "pages/admin/domain/detail/_id/index"
+    "chunkName": "pages/admin/domain/detail/_id/index",
+    "_name": "_3cab08bb"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.upfordomain.com\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_d629945e"
   }
 ]
