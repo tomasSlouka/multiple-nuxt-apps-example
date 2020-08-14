@@ -8,12 +8,16 @@
                     <p>Do you have a startup idea, want to create a landing page, product site, write a blog, or launch a newsletter?</p>
                 </div>
                 <div class="box grid gap-10">
-                    <h3>Rent your domain from other makers</h3>
+                    <h3>Rent your domain from other makers.</h3>
                     <p>Get a domain name for your project, which you wouldn't be able to have otherwise.</p>
                 </div>
                 <div class="box grid gap-10">
-                    <h3>Find out more</h3>
-                    <p>Do you want to know more? Check out the <nuxt-link to='/faq'>FAQ</nuxt-link> page.</p>
+                    <h3>It's easy and affortable.</h3>
+                    <p>Make full use of your dream domain without fear of overpaying its price.</p>
+                </div>
+                <div class="box grid gap-10">
+                    <h3>Find out more.</h3>
+                    <p>Do you want to know more? Check out the <nuxt-link to='/faq'>FAQ</nuxt-link> page or learn more at our <nuxt-link to='/blog'>Blog</nuxt-link>.</p>
                 </div>
             </div>
         </div>
