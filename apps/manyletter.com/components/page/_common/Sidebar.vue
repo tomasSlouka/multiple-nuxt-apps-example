@@ -6,30 +6,30 @@
 
               <div class='logo mb40'>
                   <nuxt-link to="/" @click="$emit('close')">
-                      ManyLetter
+                      Manyletter
                   </nuxt-link>
               </div>
 
               <ul @click="$emit('close')" class='grid col-1 gap-20'>
-                  <li><nuxt-link to="/">Home</nuxt-link></li>
-                  <!-- <li><nuxt-link to="/creator">Add your newsletter</nuxt-link></li> -->
-                  <!-- <li><nuxt-link to="/subscriber">Subscriber</nuxt-link></li> -->
-                  <!-- <li><nuxt-link to="/pricing">Pricing</nuxt-link></li> -->
+                  <li><a href='https://app.manyletter.com/sign-up'>Request access</a></li>
+                  <!-- <li><nuxt-link to='/about'>About</nuxt-link></li> -->
               </ul>
 
               <div class='hr mt40 mb40'></div>
               
               <ul @click="$emit('close')" class='grid col-1 gap-20'>
-                  <li v-if='$store.getters.isUserLoggedIn'><nuxt-link to="/admin/home" class='flex nowrap align-items-center'> {{ ($store.state.userData == null) ? "Go to Admin" : "Continue as " + $store.state.userData.name + "" }}</nuxt-link></li>
-                  <li v-else><nuxt-link to="/log-in">Log in</nuxt-link></li>
+                  <li><a href="https://app.manyletter.com/sign-up">Sign up</a></li>
+                  <li><a href="https://app.manyletter.com/">Log in</a></li>
+                  <!-- <li v-if='$store.getters.isUserLoggedIn'><nuxt-link to="/admin/home" class='flex nowrap align-items-center'> {{ ($store.state.userData == null) ? "Go to Admin" : "Continue as " + $store.state.userData.name + "" }}</nuxt-link></li> -->
+                  <!-- <li v-else><nuxt-link to="/log-in">Log in</nuxt-link></li> -->
                   
-                  <li v-if='$store.getters.isUserLoggedIn'><a @click.prevent='$store.dispatch("logout")'>Log out</a></li>
-                  <li v-else><nuxt-link to="/sign-up">Sign Up</nuxt-link></li>
+                  <!-- <li v-if='$store.getters.isUserLoggedIn'><a @click.prevent='$store.dispatch("logout")'>Log out</a></li> -->
+                  <!-- <li v-else><nuxt-link to="/sign-up">Sign Up</nuxt-link></li> -->
               </ul>
 
               <div class='hr mt40 mb40'></div>
 
-              <p class='small'>© {{ new Date().getFullYear() }} ManyLetter</p>
+              <p class='small'>© {{ new Date().getFullYear() }} manyletter.com</p>
 
             </div>
         </transition>
@@ -101,7 +101,7 @@ export default {
 }
 
 .logo a {
-    font-size: 30px;
+    font-size: 24px;
     line-height: 30px;
     font-weight: 700;
     /* font-family: 'Open sans', sans-serif; */
@@ -109,6 +109,7 @@ export default {
     font-family: 'Caveat', cursive;
     /* font-family: 'Concert One', cursive; */
     /* font-family: 'Patrick Hand', cursive; */
+    /* font-family: 'MuseoModerno', cursive; */
     text-decoration: none;
     color: #39ac37;
 }

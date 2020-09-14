@@ -1,6 +1,6 @@
 <template>
     <div class='page'>
-        <Header />
+        <!-- <Header /> -->
         <SignUp />
     </div>
 </template>

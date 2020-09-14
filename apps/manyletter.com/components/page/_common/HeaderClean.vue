@@ -3,7 +3,7 @@
         <div class='container grid justify-items-center'>
             <div class='logo'>
                 <nuxt-link to="/">
-                    ManyLetter
+                    Manyletter
                 </nuxt-link>
             </div>
         </div>
@@ -23,7 +23,7 @@ export default {
     top: 0px;
     left: 0px;
     /* height: 75px; */
-    background-color: #fff;
+    background-color: #000;
     width: 100%;
 }
 .container {
@@ -35,7 +35,7 @@ export default {
 }
 
 .logo a {
-    font-size: 30px;
+    font-size: 24px;
     line-height: 30px;
     font-weight: 700;
     /* font-family: 'Open sans', sans-serif; */
@@ -43,7 +43,8 @@ export default {
     font-family: 'Caveat', cursive;
     /* font-family: 'Concert One', cursive; */
     /* font-family: 'Patrick Hand', cursive; */
+    /* font-family: 'MuseoModerno', cursive; */
     text-decoration: none;
-    color: #39ac37;
+    color: #fff;
 }
 </style>

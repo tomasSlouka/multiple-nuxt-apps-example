@@ -117,8 +117,14 @@ h5, .h5 {
 p.small {font-size: 0.813em; line-height: 1.769em;}
 p, p.normal {font-size: 1em; line-height: 1.688em;}
 p.big {font-size: 1.25em; line-height: 1.65em;}
-p.gray {color: #000;}
-
+p.gray, .gray {color: #bbb;}
+p.error {
+    color: #d73a4a;
+    border: 1px solid #d73a4a38;
+    background-color: rgb(215 58 74 / 8%);
+    padding: 6px 15px;
+    border-radius: 2px;
+}
 /* Buttons */
 p > a {
     color: #39ac37;
@@ -146,7 +152,7 @@ button.cta, .button.cta {
     background: #39ac37;
     border: 1px solid #39ac37;
     color: #fff;
-    border-radius: 4px;
+    border-radius: 2px;
     padding: 10px 30px;
     font-size: 16px;
     font-weight: 600;
@@ -157,7 +163,18 @@ button.cta.white, .button.cta.white {
     background: #fff;
     border: 1px solid #39ac37;
     color: #000;
-    border-radius: 4px;
+    border-radius: 2px;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    outline: none;
+    text-decoration: none;
+}
+button.cta.black, .button.cta.black {
+    background: #000;
+    border: 1px solid #000;
+    color: #fff;
+    border-radius: 2px;
     padding: 10px 30px;
     font-size: 16px;
     font-weight: 600;
@@ -171,6 +188,11 @@ button.cta:hover, .button.cta:hover {
 button.cta.white:hover, .button.cta.white:hover {
     background: #000;
     border: 1px solid #000;
+    color: #fff;
+}
+button.cta.black:hover, .button.cta.black:hover {
+    background: #333;
+    border: 1px solid #333;
     color: #fff;
 }
 button.small, .button.small {
@@ -188,11 +210,10 @@ button.big, .button.big {
 
 /* Inputs */
 input, select {
-    background: #f4f8f68c;
-    border: 1px solid transparent;
-    border-left: 2px solid rgba(59, 172, 55, 0.31);
+    background: rgb(245 248 252 / 40%);
     color: #000;
-    border-radius: 4px;
+    border: 1px solid #e2e4e7;
+    border-radius: 2px;
     padding: 10px 10px;
     font-size: 16px;
     font-weight: 400;
@@ -209,11 +230,10 @@ input, select {
 
 textarea {
     position: relative;
-    background: #f4f8f68c;
-    border: 1px solid transparent;
-    border-left: 2px solid rgba(59, 172, 55, 0.31);
+    background: rgb(245 248 252 / 40%);
     color: #000;
-    border-radius: 4px;
+    border: 1px solid #e2e4e7;
+    border-radius: 2px;
     padding: 10px 10px;
     font-size: 16px;
     font-weight: 400;
@@ -237,13 +257,14 @@ input:focus, textarea:focus, select:focus {
     /* background-color: #fff; */
     font-weight: 400;
     font-family: 'Open sans', sans-serif;
-    border: 1px solid transparent;
-    border-left: 3px solid #39ac37;
+    background: #fff;
+    color: #000;
+    border: 1px solid #39ac37;
 }
 
 
 /* form labels */
-label {font-size: 12px; line-height: 18px; color: #000;}
+label {font-size: 12px; line-height: 30px; font-weight: 400;}
 
 /* Images */
 img {
@@ -258,7 +279,8 @@ img {
 
 .hr {
     width: 100%;
-    border-bottom: 1px solid #F5F5F5;
+    border-bottom: 1px solid #eee;
+    /* border-bottom: 1px solid #F5F5F5; */
     /* margin-bottom: 60px;
     margin-top: 60px; */
 }
@@ -323,12 +345,13 @@ a {
     /* box-shadow: 0 0.25rem 0.75rem rgba(0,0,0,.15); */
     /* box-shadow: 0 0px 4px 0 rgba(14,30,37,.12); */
     box-shadow: 0 1px 6px 0 rgba(14,30,37,.12);
-    border-radius: 8px;
+    border-radius: 4px;
 }
 
 .admin-layout .wrapper {
     /* background-color: rgba(255,255,255,0.7); */
-    background-color: rgba(255,255,255,1);
+    /* background-color: rgba(255,255,255,1); */
+    /* background-color: rgb(251 251 251); */
     /* background-color: #39ac37;
     color: #fff; */
     box-shadow: 0px 15px 10px -20px rgba(226,226,226,0.63922);
@@ -337,12 +360,14 @@ a {
 .admin-layout .wrapper > .container-standard {
     margin-bottom: 20px;
     margin-top: 20px;
-    padding: 40px;
+    padding-top: 70px;
+    padding-bottom: 40px;
 }
 .admin-layout .wrapper > .container-narrow {
     margin-bottom: 20px;
-    margin-top: 20px;
-    padding: 40px;
+    margin-top: 0px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 /* Tables */
@@ -411,6 +436,14 @@ a {
 .admin-layout span.tag.orange {
     background-color: #E7883079;
     color: rgba(87, 47, 11, 0.75);
+}
+.admin-layout span.tag.red {
+    background-color: #e73c3079;
+    color: rgba(87, 20, 11, 0.75);
+}
+.admin-layout span.tag.blue {
+    background-color: #309ee779;
+    color: rgba(11, 53, 87, 0.75);
 }
 .admin-layout span.tag.yellow {
     background-color: #e7d53099;

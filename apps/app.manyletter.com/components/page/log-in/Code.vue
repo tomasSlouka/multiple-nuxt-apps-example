@@ -1,15 +1,19 @@
 <template>
     <div class='component grid'>
 
-        <div class="box grid auto align-self-center gap-20">
-            <h3>Verification code</h3>
+        <div class="box grid auto align-self-start gap-20">
+            <div class='grid col-2 auto align-items-center'>
+                <h3>Verification code</h3>
+                <nuxt-link to='/' class='justify-self-end'><img src="@/assets/img/logo.png" alt="" class='logo' /></nuxt-link>
+            </div>
+            <!-- <div class="hr"></div> -->
             <form class="grid gap-10" @submit.prevent='submitForm'>
                 <div>
                     <label for="password" class='small gray'>Code</label>
                     <input id="password" name="password" type="password" v-model="password" placeholder='Enter your code here...'>
                 </div>
 
-                <button class="cta" type="submit">Verify and Log In</button>
+                <button class="cta black" type="submit">Verify and Log In</button>
             </form>
         </div>
 
@@ -45,15 +49,20 @@ export default {
 <style scoped>
 .component {
     height: 100%;
-    padding: 20px;
+    padding: 40px 20px;
 }
 .box {
     background-color: #fff;
     padding: 30px;
     margin: 0px auto;
-    max-width: 320px;
+    width: 320px;
+    max-width: 100%;
     box-shadow: 0 1px 6px 0 rgba(14,30,37,.12);
-    border-radius: 8px;
+    border-radius: 4px;
 }
-
+.logo {
+    width: 32px;
+    height: 32px;
+    border-radius: 32px;
+}
 </style>

@@ -2,7 +2,7 @@
     <div id='footer_clean' class='grid align-items-center'>
         <div class='container grid justify-items-center'>
 
-            <p class='small'>© {{ new Date().getFullYear() }} upfordomain.com</p>
+            <p class='small'>© {{ new Date().getFullYear() }} manyletter.com</p>
 
         </div>
     </div>

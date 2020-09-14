@@ -1,7 +1,7 @@
 <template>
     <div id='header'>
         <div class='container'>
-            <Topbar @sidenavToggle="displaySidebar = !displaySidebar"/>
+            <Topbar @sidenavtoggle="displaySidebar = !displaySidebar"/>
             <Sidebar :show="displaySidebar" @close="displaySidebar = false"/>
         </div>
     </div>

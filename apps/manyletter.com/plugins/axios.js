@@ -1,7 +1,7 @@
 export default function ({ $axios, store, redirect }) {
     
     // $axios.setToken(false)
-    $axios.setBaseURL('https://storage.manyletter.com')
+    $axios.setBaseURL('https://secure.upfordomain.com/api/upfordomain')
     $axios.setHeader('APITOKEN', 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjAiLCJkb21haW4iOiJ3d3cubWF5bGRheS5jb20ifQ.Q60cVHr7wOWRDgWKe9MvdxFFPAMyvwtqByuOGJqRqzg')
     $axios.setHeader('AUTHTOKEN', store.state.token)
     // console.log(store.state);

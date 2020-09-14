@@ -6,7 +6,7 @@
 
               <div class='logo mb40'>
                   <nuxt-link to="/">
-                    upfordomain
+                    Manyletter
                 </nuxt-link>
               </div>
 
@@ -23,7 +23,7 @@
 
               <div class='hr mt40 mb40'></div>
 
-              <p class='small'>© {{ new Date().getFullYear() }} upforweb.com</p>
+              <p class='small'>© {{ new Date().getFullYear() }} manyletter.com</p>
 
             </div>
         </transition>
@@ -104,10 +104,10 @@ export default {
     font-weight: 700;
     /* font-family: 'Open sans', sans-serif; */
     /* font-family: 'Exo 2', sans-serif; */
-    /* font-family: 'Caveat', cursive; */
+    font-family: 'Caveat', cursive;
     /* font-family: 'Concert One', cursive; */
     /* font-family: 'Patrick Hand', cursive; */
-    font-family: 'MuseoModerno', cursive;
+    /* font-family: 'MuseoModerno', cursive; */
     text-decoration: none;
     color: #39ac37;
 }

@@ -1,7 +1,7 @@
 <template>
     <div id='header'>
         <div class='container'>
-            <Topbar @sidenavToggle="displaySidebar = !displaySidebar"/>
+            <Topbar @sidenavtoggle="displaySidebar = !displaySidebar"/>
             <Sidebar :show="displaySidebar" @close="displaySidebar = false"/>
         </div>
     </div>
@@ -27,5 +27,6 @@ export default {
     .container {
         padding-bottom: 0px;
         box-shadow: 0 0.125rem 0.125rem rgba(0,0,0,.1);
+        background-color: #000;
     }
 </style>

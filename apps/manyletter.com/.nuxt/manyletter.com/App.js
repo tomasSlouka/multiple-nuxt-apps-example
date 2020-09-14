@@ -14,16 +14,12 @@ import '..\\..\\assets\\css\\_system\\webbase.css'
 
 import '..\\..\\assets\\css\\_system\\animations.css'
 
-import _268674ac from '..\\..\\layouts\\default-admin-blocked.vue'
-import _651c12ec from '..\\..\\layouts\\default-admin-creator.vue'
-import _986b4bc2 from '..\\..\\layouts\\default-admin-home.vue'
-import _b9d77cb0 from '..\\..\\layouts\\default-admin-subscriber.vue'
-import _cf0b59e6 from '..\\..\\layouts\\default-page-clean.vue'
-import _c0dc8cde from '..\\..\\layouts\\default-page.vue'
 import _6f6c098b from '..\\..\\layouts\\default.vue'
+import _be740904 from '..\\..\\layouts\\defaultClean.vue'
+import _600c22ba from '..\\..\\layouts\\defaultPage.vue'
 import _815bd174 from '..\\..\\layouts\\error-default.vue'
 
-const layouts = { "_default-admin-blocked": sanitizeComponent(_268674ac),"_default-admin-creator": sanitizeComponent(_651c12ec),"_default-admin-home": sanitizeComponent(_986b4bc2),"_default-admin-subscriber": sanitizeComponent(_b9d77cb0),"_default-page-clean": sanitizeComponent(_cf0b59e6),"_default-page": sanitizeComponent(_c0dc8cde),"_default": sanitizeComponent(_6f6c098b),"_error-default": sanitizeComponent(_815bd174) }
+const layouts = { "_default": sanitizeComponent(_6f6c098b),"_defaultClean": sanitizeComponent(_be740904),"_defaultPage": sanitizeComponent(_600c22ba),"_error-default": sanitizeComponent(_815bd174) }
 
 export default {
   render (h, props) {

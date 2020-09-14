@@ -19,6 +19,8 @@ export default {
 <style scoped>
 #layout_default_page_clean {
     height: 100vh;
-    background-color: #39ac370d;
+    /* background-color: #39ac370d; */
+    background-color: #f5f8fc;
+    /* background-color: rgb(251 251 251); */
 }
 </style>

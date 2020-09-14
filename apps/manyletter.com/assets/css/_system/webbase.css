@@ -298,6 +298,7 @@
 .maxh200 {max-height: 200px;}
 .maxh300 {max-height: 300px;}
 .maxh400 {max-height: 400px;}
+.maxh450 {max-height: 450px;}
 .maxh500 {max-height: 500px;}
 /*min-width*/
 .minw30 {min-width: 30px;}
@@ -323,9 +324,13 @@
 .maxw200 {max-width: 200px;}
 .maxw250 {max-width: 250px;}
 .maxw300 {max-width: 300px;}
+.maxw350 {max-width: 350px;}
 .maxw400 {max-width: 400px;}
+.maxw450 {max-width: 450px;}
 .maxw500 {max-width: 500px;}
+.maxw550 {max-width: 550px;}
 .maxw600 {max-width: 600px;}
+.maxw650 {max-width: 650px;}
 /*line-height*/
 .line10 {line-height: 10px !important;}
 .line11 {line-height: 11px !important;}

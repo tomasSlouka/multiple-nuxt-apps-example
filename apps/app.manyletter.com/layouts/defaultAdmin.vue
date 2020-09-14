@@ -22,6 +22,9 @@ export default {
 <style>
 #layout_default_admin_home {
     margin-top: 68px;
-    background-color: #39ac370d;
+    /* background-color: #39ac370d; */
+    background-color: #f5f8fc;
+    /* background-color: #f0f2f5; */
+    /* background-color: rgb(251 251 251); */
 }
 </style>
