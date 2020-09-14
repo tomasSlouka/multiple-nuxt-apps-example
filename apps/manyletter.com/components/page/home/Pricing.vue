@@ -7,7 +7,7 @@
                 <p class='maxw500'>No hidden fees. You get what you paid for. Every penny converts into credits. You can then use your credits at any time as part of the service for anything.</p>
                 <a href='https://app.manyletter.com/sign-up' class='cta button justify-self-start'>Request access</a>
             </div>
-            <div class='align-self-end relative show-md'>
+            <div class='align-self-end relative'>
                 <div class='dots dots1'></div>
                 <div class='dots dots2'></div>
                 <div class='box'>

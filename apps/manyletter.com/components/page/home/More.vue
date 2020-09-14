@@ -9,8 +9,8 @@
                     <p>Choose a template for your newsletter, add content and send it to a group of subscribers—hassle free.</p>
                 </div>
                 <div class="box grid gap-10">
-                    <h3>Subsciber groups.</h3>
-                    <p>Segment your subscibers to groups and target each group with tailor-made newsletter message.</p>
+                    <h3>Subscriber groups.</h3>
+                    <p>Segment your subscribers to groups and target each group with tailor-made newsletter message.</p>
                 </div>
                 <div class="box grid gap-10">
                     <h3>Plan ahead.</h3>

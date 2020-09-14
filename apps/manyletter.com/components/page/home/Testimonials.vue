@@ -45,7 +45,7 @@
                 <img src="@/assets/img/logo-indiestack.png" alt="" class='logo' />
                 <img src="@/assets/img/logo-indiestack.png" alt="" class='logo' />
                 <img src="@/assets/img/logo-indiestack.png" alt="" class='logo' />
-                <img src="@/assets/img/logo-indiestack.png" alt="" class='logo' />
+                <img src="@/assets/img/logo-indiestack.png" alt="" class='logo show-md' />
             </div>
         </div>
 
