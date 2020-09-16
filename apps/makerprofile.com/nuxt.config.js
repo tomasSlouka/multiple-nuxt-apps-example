@@ -24,25 +24,25 @@ export default {
 	** See https://nuxtjs.org/api/configuration-head
 	*/
 	head: {
-        title: 'Manyletter | All-in-one platform for your newsletter.',
+        title: 'MakerProfile | Beautiful personal website in a snap',
         meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1, shrink-to-fit=no' },
-            { hid: 'title', name: "title", content: "Manyletter | All-in-one platform for your newsletter." },
-            { hid: 'description', name: "description", content: "Level up your productivity and branding with ManyLetter. Create a newsletter, send messages, build a website—everything in one place." },
+            { hid: 'title', name: "title", content: "MakerProfile | Beautiful personal website in a snap." },
+            { hid: 'description', name: "description", content: "Create a beautiful responsive personal website on a custom domain in a snap. Choose a template, enable a simple blog with comments, set up a contact form, or capture emails of your page visitors—all for $4.99." },
             { hid: 'og-type', property: "og:type", content: "website" },
-            { hid: 'og-url', property: "og:url", content: "https://manyletter.com/" },
-            { hid: 'og-title', property: "og:title", content: "Manyletter | All-in-one platform for your newsletter." },
-            { hid: 'og-description', property: "og:description", content: "Level up your productivity and branding with ManyLetter. Create a newsletter, send messages, build a website—everything in one place." },
-            { hid: 'og-image', property: "og:image", content: "https://manyletter.com/_static/manyletter/cover-twitter.png" },
+            { hid: 'og-url', property: "og:url", content: "https://makerprofile.com/" },
+            { hid: 'og-title', property: "og:title", content: "MakerProfile | Beautiful personal website in a snap." },
+            { hid: 'og-description', property: "og:description", content: "Create a beautiful responsive personal website on a custom domain in a snap. Choose a template, enable a simple blog with comments, set up a contact form, or capture emails of your page visitors—all for $4.99." },
+            { hid: 'og-image', property: "og:image", content: "https://makerprofile.com/_static/makerprofile/cover-twitter.png" },
             { hid: 'og-image:type', property: 'og:image:type', content: 'image/png' },
             { hid: 'og-image:width', property: 'og:image:width', content: '1200' },
             { hid: 'og-image:height', property: 'og:image:height', content: '628' },
             { hid: 'twitter-card', property: "twitter:card", content: "summary_large_image" },
-            { hid: 'twitter-url', property: "twitter:url", content: "https://manyletter.com/" },
-            { hid: 'twitter-title', property: "twitter:title", content: "Manyletter | All-in-one platform for your newsletter." },
-            { hid: 'twitter-description', property: "twitter:description", content: "Level up your productivity and branding with ManyLetter. Create a newsletter, send messages, build a website—everything in one place." },
-            { hid: 'twitter-image', property: "twitter:image", content: "https://manyletter.com/_static/manyletter/cover-twitter.png" },
+            { hid: 'twitter-url', property: "twitter:url", content: "https://makerprofile.com/" },
+            { hid: 'twitter-title', property: "twitter:title", content: "MakerProfile | Beautiful personal website in a snap." },
+            { hid: 'twitter-description', property: "twitter:description", content: "Create a beautiful responsive personal website on a custom domain in a snap. Choose a template, enable a simple blog with comments, set up a contact form, or capture emails of your page visitors—all for $4.99." },
+            { hid: 'twitter-image', property: "twitter:image", content: "https://makerprofile.com/_static/makerprofile/cover-twitter.png" },
 
             { hid: 'apple-mobile-web-app-title', name: "apple-mobile-web-app-title", content: "Upfordomain" },
             { hid: 'application-name', name: "application-name", content: "Upfordomain" },
@@ -50,13 +50,13 @@ export default {
             { hid: 'theme-color', name: "theme-color", content: "#ffffff" }
         ],
         link: [
-            { hid: 'apple-touch-icon', rel: "apple-touch-icon", sizes: "180x180", href: "/_static/manyletter/apple-icon-180x180.png" },
-            { hid: 'android-chrome-192x192', rel: 'icon', type: 'image/png', sizes: '192x192', href: '/_static/manyletter/android-icon-192x192.png' },
-            { hid: 'favicon-16x16', rel: "icon", type: "image/png", sizes: "16x16", href: "/_static/manyletter/favicon-16x16.png" },
-            { hid: 'favicon-32x32', rel: "icon", type: "image/png", sizes: "32x32", href: "/_static/manyletter/favicon-32x32.png" },
-            { hid: 'favicon-96x96', rel: "icon", type: "image/png", sizes: "96x96", href: "/_static/manyletter/favicon-96x96.png" },
-            { hid: 'manifest', rel: "manifest", href: "/_static/manyletter/manifest.json" },
-            { hid: 'mask-icon', rel: "mask-icon", href: "/_static/manyletter/safari-pinned-tab.svg", color: "#39ac37" }
+            { hid: 'apple-touch-icon', rel: "apple-touch-icon", sizes: "180x180", href: "/_static/makerprofile/apple-icon-180x180.png" },
+            { hid: 'android-chrome-192x192', rel: 'icon', type: 'image/png', sizes: '192x192', href: '/_static/makerprofile/android-icon-192x192.png' },
+            { hid: 'favicon-16x16', rel: "icon", type: "image/png", sizes: "16x16", href: "/_static/makerprofile/favicon-16x16.png" },
+            { hid: 'favicon-32x32', rel: "icon", type: "image/png", sizes: "32x32", href: "/_static/makerprofile/favicon-32x32.png" },
+            { hid: 'favicon-96x96', rel: "icon", type: "image/png", sizes: "96x96", href: "/_static/makerprofile/favicon-96x96.png" },
+            { hid: 'manifest', rel: "manifest", href: "/_static/makerprofile/manifest.json" },
+            { hid: 'mask-icon', rel: "mask-icon", href: "/_static/makerprofile/safari-pinned-tab.svg", color: "#39ac37" }
         ],
         script: [
             // { src: 'https://unpkg.com/ionicons@5.0.0/dist/ionicons.js' }

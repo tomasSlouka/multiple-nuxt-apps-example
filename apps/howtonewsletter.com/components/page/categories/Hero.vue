@@ -2,32 +2,14 @@
     <div class="component">
 
         <div class='container-narrow mt20 mb20'>
-            <img src="@/assets/img/logo.png" alt="" class='logo' />
+            <img src="@/assets/img/logo-white.png" alt="" class='logo' />
         </div>
 
         <div class="container-narrow mt20 grid">
             <div class='grid gap-20'>
                 <!-- <h1 class='maxw500'>Do you subscribe to too many newsletters?</h1> -->
-                <h1>Beautiful personal website in a snap.</h1>
-                <h2 class='strong big'>Start for free or go premium for $4.99/month</h2>
-                <!-- <p class="maxw500">
-                    Create a beautiful responsive personal website on a custom domain in a snap. Choose a template, enable a simple blog with comments, set up a contact form, or capture emails of your page visitors—all for $4.99.
-                </p> -->
-                <p class='maxw500'>
-                    <ul class='ml20'>
-                        <li>Choose from many responsive templates</li>
-                        <li>Simple blog with comments</li>
-                        <li>Custom domain</li>
-                        <li>Contact form</li>
-                        <li>Email capture form</li>
-                    </ul>
-                </p>
-                <div class='mt30 grid gap-10'>
-                    <div>
-                        <a href='https://app.makerprofile.com/sign-up' class='button black cta'>Start for FREE</a>
-                    </div>
-                    <p class="small">No credit card required.</p>
-                </div>
+                <h1>Articles categories about how to newsletter</h1>
+                <p class='maxw500'>Browse articles by categories or search by a keyword.</p>
             </div>
             
         </div>
@@ -48,9 +30,7 @@ h1 {
     font-size: 2.5em;
 }
 .logo {
-    height: 50px;
-    width: 50px;
-    border-radius: 50px;
+    height: 70px;
 }
 img.computer {
     width: 135%;

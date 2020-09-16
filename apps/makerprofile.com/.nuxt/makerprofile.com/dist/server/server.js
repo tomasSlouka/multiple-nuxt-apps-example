@@ -3069,7 +3069,7 @@ async function createApp(ssrContext, config = {}) {
 
   const app = {
     head: {
-      "title": "Manyletter | All-in-one platform for your newsletter.",
+      "title": "MakerProfile | Beautiful personal website in a snap",
       "meta": [{
         "charset": "utf-8"
       }, {
@@ -3078,11 +3078,11 @@ async function createApp(ssrContext, config = {}) {
       }, {
         "hid": "title",
         "name": "title",
-        "content": "Manyletter | All-in-one platform for your newsletter."
+        "content": "MakerProfile | Beautiful personal website in a snap."
       }, {
         "hid": "description",
         "name": "description",
-        "content": "Level up your productivity and branding with ManyLetter. Create a newsletter, send messages, build a website—everything in one place."
+        "content": "Create a beautiful responsive personal website on a custom domain in a snap. Choose a template, enable a simple blog with comments, set up a contact form, or capture emails of your page visitors—all for $4.99."
       }, {
         "hid": "og-type",
         "property": "og:type",
@@ -3090,19 +3090,19 @@ async function createApp(ssrContext, config = {}) {
       }, {
         "hid": "og-url",
         "property": "og:url",
-        "content": "https:\u002F\u002Fmanyletter.com\u002F"
+        "content": "https:\u002F\u002Fmakerprofile.com\u002F"
       }, {
         "hid": "og-title",
         "property": "og:title",
-        "content": "Manyletter | All-in-one platform for your newsletter."
+        "content": "MakerProfile | Beautiful personal website in a snap."
       }, {
         "hid": "og-description",
         "property": "og:description",
-        "content": "Level up your productivity and branding with ManyLetter. Create a newsletter, send messages, build a website—everything in one place."
+        "content": "Create a beautiful responsive personal website on a custom domain in a snap. Choose a template, enable a simple blog with comments, set up a contact form, or capture emails of your page visitors—all for $4.99."
       }, {
         "hid": "og-image",
         "property": "og:image",
-        "content": "https:\u002F\u002Fmanyletter.com\u002F_static\u002Fmanyletter\u002Fcover-twitter.png"
+        "content": "https:\u002F\u002Fmakerprofile.com\u002F_static\u002Fmakerprofile\u002Fcover-twitter.png"
       }, {
         "hid": "og-image:type",
         "property": "og:image:type",
@@ -3122,19 +3122,19 @@ async function createApp(ssrContext, config = {}) {
       }, {
         "hid": "twitter-url",
         "property": "twitter:url",
-        "content": "https:\u002F\u002Fmanyletter.com\u002F"
+        "content": "https:\u002F\u002Fmakerprofile.com\u002F"
       }, {
         "hid": "twitter-title",
         "property": "twitter:title",
-        "content": "Manyletter | All-in-one platform for your newsletter."
+        "content": "MakerProfile | Beautiful personal website in a snap."
       }, {
         "hid": "twitter-description",
         "property": "twitter:description",
-        "content": "Level up your productivity and branding with ManyLetter. Create a newsletter, send messages, build a website—everything in one place."
+        "content": "Create a beautiful responsive personal website on a custom domain in a snap. Choose a template, enable a simple blog with comments, set up a contact form, or capture emails of your page visitors—all for $4.99."
       }, {
         "hid": "twitter-image",
         "property": "twitter:image",
-        "content": "https:\u002F\u002Fmanyletter.com\u002F_static\u002Fmanyletter\u002Fcover-twitter.png"
+        "content": "https:\u002F\u002Fmakerprofile.com\u002F_static\u002Fmakerprofile\u002Fcover-twitter.png"
       }, {
         "hid": "apple-mobile-web-app-title",
         "name": "apple-mobile-web-app-title",
@@ -3156,39 +3156,39 @@ async function createApp(ssrContext, config = {}) {
         "hid": "apple-touch-icon",
         "rel": "apple-touch-icon",
         "sizes": "180x180",
-        "href": "\u002F_static\u002Fmanyletter\u002Fapple-icon-180x180.png"
+        "href": "\u002F_static\u002Fmakerprofile\u002Fapple-icon-180x180.png"
       }, {
         "hid": "android-chrome-192x192",
         "rel": "icon",
         "type": "image\u002Fpng",
         "sizes": "192x192",
-        "href": "\u002F_static\u002Fmanyletter\u002Fandroid-icon-192x192.png"
+        "href": "\u002F_static\u002Fmakerprofile\u002Fandroid-icon-192x192.png"
       }, {
         "hid": "favicon-16x16",
         "rel": "icon",
         "type": "image\u002Fpng",
         "sizes": "16x16",
-        "href": "\u002F_static\u002Fmanyletter\u002Ffavicon-16x16.png"
+        "href": "\u002F_static\u002Fmakerprofile\u002Ffavicon-16x16.png"
       }, {
         "hid": "favicon-32x32",
         "rel": "icon",
         "type": "image\u002Fpng",
         "sizes": "32x32",
-        "href": "\u002F_static\u002Fmanyletter\u002Ffavicon-32x32.png"
+        "href": "\u002F_static\u002Fmakerprofile\u002Ffavicon-32x32.png"
       }, {
         "hid": "favicon-96x96",
         "rel": "icon",
         "type": "image\u002Fpng",
         "sizes": "96x96",
-        "href": "\u002F_static\u002Fmanyletter\u002Ffavicon-96x96.png"
+        "href": "\u002F_static\u002Fmakerprofile\u002Ffavicon-96x96.png"
       }, {
         "hid": "manifest",
         "rel": "manifest",
-        "href": "\u002F_static\u002Fmanyletter\u002Fmanifest.json"
+        "href": "\u002F_static\u002Fmakerprofile\u002Fmanifest.json"
       }, {
         "hid": "mask-icon",
         "rel": "mask-icon",
-        "href": "\u002F_static\u002Fmanyletter\u002Fsafari-pinned-tab.svg",
+        "href": "\u002F_static\u002Fmakerprofile\u002Fsafari-pinned-tab.svg",
         "color": "#39ac37"
       }],
       "script": [],

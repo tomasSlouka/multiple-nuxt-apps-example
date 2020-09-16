@@ -2,17 +2,17 @@
     <div class="component">
 
         <div class='container-narrow mt20 mb20'>
-            <img src="@/assets/img/logo.png" alt="" class='logo' />
+            <img src="@/assets/img/logo-white.png" alt="" class='logo' />
         </div>
 
-        <div class="container-narrow mt40 grid">
+        <div class="container-narrow mt20 grid">
             <div class='grid gap-20'>
                 <!-- <h1 class='maxw500'>Do you subscribe to too many newsletters?</h1> -->
-                <h1>You are not alone!</h1>
-                <h2 class='strong big maxw500'>Join the community of makers and ship your digital product faster.</h2>
-                <p class='maxw500'>Let's face it. Building a digital product as a solo-maker is difficult. But it doesn't have to be that way. Imagine you have support from dozens of people. Wouldn't that be awesome?</p>
+                <h1>Actionable tips for your newsletter.</h1>
+                <!-- <h2 class='strong big maxw500'></h2> -->
+                <p class='maxw500'>Learn how to create, manage and grow your newsletter from other newsletter creators. Learn about tools they use and how to use them—all in one place.</p>
                 <div class='mt30'>
-                    <a href='https://app.makerprofile.com/sign-up' class='button black cta'>Start your journey</a>
+                    <nuxt-link to='/categories' class='button black cta'>Browse articles by categories</nuxt-link>
                 </div>
             </div>
             
@@ -34,9 +34,7 @@ h1 {
     font-size: 2.5em;
 }
 .logo {
-    height: 50px;
-    width: 50px;
-    border-radius: 50px;
+    height: 70px;
 }
 img.computer {
     width: 135%;

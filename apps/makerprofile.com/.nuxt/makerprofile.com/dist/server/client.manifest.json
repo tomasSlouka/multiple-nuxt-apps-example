@@ -4,20 +4,20 @@
     "../server/index.spa.html",
     "../server/index.ssr.html",
     "LICENSES",
-    "app.da46d29.js",
+    "app.b35f779.js",
     "commons/app.2777f9b.js",
     "img/logo.c7c9031.png",
     "img/plant.60d724f.svg",
-    "index.22b8f29.js",
-    "runtime.925891d.js"
+    "index.0886a65.js",
+    "runtime.ff37b9c.js"
   ],
   "initial": [
-    "runtime.925891d.js",
+    "runtime.ff37b9c.js",
     "commons/app.2777f9b.js",
-    "app.da46d29.js"
+    "app.b35f779.js"
   ],
   "async": [
-    "index.22b8f29.js"
+    "index.0886a65.js"
   ],
   "modules": {
     "32701354": [
@@ -778,7 +778,7 @@
       5,
       6
     ],
-    "725a91f6": [
+    "57a5c189": [
       7,
       5,
       6
@@ -818,12 +818,12 @@
       5,
       6
     ],
-    "da892b3e": [
+    "238e74e5": [
       7,
       5,
       6
     ],
-    "beac8776": [
+    "317cc6c9": [
       7,
       5,
       6
@@ -903,7 +903,7 @@
       5,
       6
     ],
-    "791a7740": [
+    "7285155c": [
       7,
       5,
       6
@@ -928,7 +928,7 @@
       5,
       6
     ],
-    "de757664": [
+    "3fd795ca": [
       7,
       5,
       6
@@ -996,16 +996,16 @@
   },
   "assetsMapping": {
     "1a3ae26b": [
-      "app.da46d29.js"
+      "app.b35f779.js"
     ],
     "085a35c4": [
       "commons/app.2777f9b.js"
     ],
     "777ba69c": [
-      "index.22b8f29.js"
+      "index.0886a65.js"
     ],
     "6fca0322": [
-      "runtime.925891d.js"
+      "runtime.ff37b9c.js"
     ]
   }
 }
