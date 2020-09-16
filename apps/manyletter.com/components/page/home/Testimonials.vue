@@ -42,7 +42,7 @@
 
             <div class='logos grid md-col-5 sm-col-3 xs-col-2 gap-60 mt20'>
                 <img src="@/assets/img/logo-indiestack.png" alt="" class='logo' />
-                <img src="@/assets/img/logo-indiestack.png" alt="" class='logo' />
+                <img src="@/assets/img/logo-newsletter-crew.png" alt="" class='logo' />
                 <img src="@/assets/img/logo-indiestack.png" alt="" class='logo' />
                 <img src="@/assets/img/logo-indiestack.png" alt="" class='logo' />
                 <img src="@/assets/img/logo-indiestack.png" alt="" class='logo show-md' />
