@@ -1,4 +1,4 @@
-# upforweb.com
+# upfordomain.com
 
 ## Build Setup
 

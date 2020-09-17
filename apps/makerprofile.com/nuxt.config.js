@@ -44,8 +44,8 @@ export default {
             { hid: 'twitter-description', property: "twitter:description", content: "Create a beautiful responsive personal website on a custom domain in a snap. Choose a template, enable a simple blog with comments, set up a contact form, or capture emails of your page visitors—all for $4.99." },
             { hid: 'twitter-image', property: "twitter:image", content: "https://makerprofile.com/_static/makerprofile/cover-twitter.png" },
 
-            { hid: 'apple-mobile-web-app-title', name: "apple-mobile-web-app-title", content: "Upfordomain" },
-            { hid: 'application-name', name: "application-name", content: "Upfordomain" },
+            { hid: 'apple-mobile-web-app-title', name: "apple-mobile-web-app-title", content: "MakerProfile" },
+            { hid: 'application-name', name: "application-name", content: "MakerProfile" },
             { hid: 'msapplication-TileColor', name: "msapplication-TileColor", content: "#00a300" },
             { hid: 'theme-color', name: "theme-color", content: "#ffffff" }
         ],

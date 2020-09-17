@@ -44,8 +44,8 @@ export default {
             { hid: 'twitter-description', property: "twitter:description", content: "Learn how to sueate a, nage n and grow yourewsletters rom other newsletter creators. Learn about tools they use and how to use them—all in one place." },
             { hid: 'twitter-image', property: "twitter:image", content: "https://howtonewsletter.com/_static/howtonewsletter/cover-twitter.png" },
 
-            { hid: 'apple-mobile-web-app-title', name: "apple-mobile-web-app-title", content: "Upfordomain" },
-            { hid: 'application-name', name: "application-name", content: "Upfordomain" },
+            { hid: 'apple-mobile-web-app-title', name: "apple-mobile-web-app-title", content: "How to Newsletter" },
+            { hid: 'application-name', name: "application-name", content: "How to Newsletter" },
             { hid: 'msapplication-TileColor', name: "msapplication-TileColor", content: "#00a300" },
             { hid: 'theme-color', name: "theme-color", content: "#ffffff" }
         ],

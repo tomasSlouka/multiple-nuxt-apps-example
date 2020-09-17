@@ -43,7 +43,7 @@ div {
 
 body {
     font-family: 'Open sans', sans-serif; /* for all texts */
-    color: #000;
+    color: #333;
     font-size: 16px;
     line-height: 1.688em;
     font-weight: 400;
@@ -70,7 +70,7 @@ h1, .h1 {
 }
 h2, .h2 {
     font-size: 1.625em;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 1.615em;
 }
 h3, .h3 {
@@ -117,11 +117,12 @@ h5, .h5 {
     margin-bottom: 80px;
 }
 /* Paragraphs */
+p {color: rgba(0,0,0,.72);}
 p.smaller {font-size: 0.713em; line-height: 1.569em;}
 p.small {font-size: 0.813em; line-height: 1.769em;}
 p, p.normal {font-size: 1em; line-height: 1.688em;}
 p.big {font-size: 1.25em; line-height: 1.65em;}
-p.gray {color: #000;}
+p.gray, .gray {color: #bbb;}
 
 /* Buttons */
 p > a {
@@ -167,6 +168,17 @@ button.cta.white, .button.cta.white {
     outline: none;
     text-decoration: none;
 }
+button.cta.black, .button.cta.black {
+    background: #000;
+    border: 1px solid #000;
+    color: #fff;
+    border-radius: 2px;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    outline: none;
+    text-decoration: none;
+}
 button.cta:hover, .button.cta:hover {
     background: #000;
     border: 1px solid #000;
@@ -174,6 +186,11 @@ button.cta:hover, .button.cta:hover {
 button.cta.white:hover, .button.cta.white:hover {
     background: #000;
     border: 1px solid #000;
+    color: #fff;
+}
+button.cta.black:hover, .button.cta.black:hover {
+    background: #333;
+    border: 1px solid #333;
     color: #fff;
 }
 button.small, .button.small {
