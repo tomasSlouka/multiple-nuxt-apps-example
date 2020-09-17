@@ -3,14 +3,12 @@
     "name": "categories",
     "path": "/categories",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\howtonewsletter.com\\\\pages\\\\categories.vue",
-    "chunkName": "pages/categories",
-    "_name": "_1e055664"
+    "chunkName": "pages/categories"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\howtonewsletter.com\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_b43c1fe0"
+    "chunkName": "pages/index"
   }
 ]

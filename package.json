@@ -29,7 +29,7 @@
     "app.makerprofile.com:build": "nuxt build --config-file apps/app.makerprofile.com/nuxt.config.js",
     "upforweb.com:build": "nuxt build --config-file apps/upforweb.com/nuxt.config.js",
     "indiequotes.upforweb.com:build": "nuxt build --config-file apps/indiequotes.upforweb.com/nuxt.config.js",
-    "build": "concurrently \"npm run upfordomain.com:build\" \"npm run howtonewsletter.com:build\" \"npm run manyletter.com:build\" \"npm run app.manyletter.com:build\" \"npm run makerprofile.com:build\" \"npm run app.makerprofile.com:build\" \"npm run app.upfordomain.com:build\" \"npm run indiequotes.upforweb.com:build\"",
+    "build": "concurrently \"npm run upfordomain.com:build\" \"npm run howtonewsletter.com:build\" \"npm run manyletter.com:build\" \"npm run app.manyletter.com:build\" \"npm run makerprofile.com:build\" \"npm run app.makerprofile.com:build\" \"npm run app.upfordomain.com:build\" \"npm run indiequotes.upforweb.com:build\" \"npm run upforweb.com:build\"",
     
     "upfordomain.com:start": "nuxt start --config-file apps/upfordomain.com/nuxt.config.js",
     "app.upfordomain.com:start": "nuxt start --config-file apps/app.upfordomain.com/nuxt.config.js",
