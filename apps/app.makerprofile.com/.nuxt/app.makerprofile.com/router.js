@@ -14,19 +14,10 @@ const _75015036 = () => interopDefault(import('..\\..\\pages\\log-in\\code.vue' 
 const _7aa2931e = () => interopDefault(import('..\\..\\pages\\sign-up\\code.vue' /* webpackChunkName: "pages/sign-up/code" */))
 const _71f559e0 = () => interopDefault(import('..\\..\\pages\\admin\\account\\credits\\index.vue' /* webpackChunkName: "pages/admin/account/credits/index" */))
 const _26fed517 = () => interopDefault(import('..\\..\\pages\\admin\\account\\settings\\index.vue' /* webpackChunkName: "pages/admin/account/settings/index" */))
-const _7dd3f57d = () => interopDefault(import('..\\..\\pages\\admin\\newsletter\\automation\\index.vue' /* webpackChunkName: "pages/admin/newsletter/automation/index" */))
-const _350ffe0a = () => interopDefault(import('..\\..\\pages\\admin\\newsletter\\avatar\\index.vue' /* webpackChunkName: "pages/admin/newsletter/avatar/index" */))
-const _328540a8 = () => interopDefault(import('..\\..\\pages\\admin\\newsletter\\messages\\index.vue' /* webpackChunkName: "pages/admin/newsletter/messages/index" */))
-const _5ba0334a = () => interopDefault(import('..\\..\\pages\\admin\\newsletter\\overview\\index.vue' /* webpackChunkName: "pages/admin/newsletter/overview/index" */))
-const _0fb12971 = () => interopDefault(import('..\\..\\pages\\admin\\newsletter\\settings\\index.vue' /* webpackChunkName: "pages/admin/newsletter/settings/index" */))
-const _2f5d7a35 = () => interopDefault(import('..\\..\\pages\\admin\\newsletter\\subscribers\\index.vue' /* webpackChunkName: "pages/admin/newsletter/subscribers/index" */))
-const _0f3590a8 = () => interopDefault(import('..\\..\\pages\\admin\\website\\domain\\index.vue' /* webpackChunkName: "pages/admin/website/domain/index" */))
-const _8d42c026 = () => interopDefault(import('..\\..\\pages\\admin\\website\\integrations\\index.vue' /* webpackChunkName: "pages/admin/website/integrations/index" */))
-const _34379858 = () => interopDefault(import('..\\..\\pages\\admin\\website\\navigation\\index.vue' /* webpackChunkName: "pages/admin/website/navigation/index" */))
-const _65c06f69 = () => interopDefault(import('..\\..\\pages\\admin\\website\\settings\\index.vue' /* webpackChunkName: "pages/admin/website/settings/index" */))
-const _5beb8b42 = () => interopDefault(import('..\\..\\pages\\admin\\website\\social\\index.vue' /* webpackChunkName: "pages/admin/website/social/index" */))
-const _3a453dcf = () => interopDefault(import('..\\..\\pages\\admin\\website\\templates\\index.vue' /* webpackChunkName: "pages/admin/website/templates/index" */))
-const _03379ea8 = () => interopDefault(import('..\\..\\pages\\admin\\newsletter\\messages\\create\\index.vue' /* webpackChunkName: "pages/admin/newsletter/messages/create/index" */))
+const _0321e6e2 = () => interopDefault(import('..\\..\\pages\\admin\\maker\\details\\index.vue' /* webpackChunkName: "pages/admin/maker/details/index" */))
+const _6c8a4c09 = () => interopDefault(import('..\\..\\pages\\admin\\maker\\portfolio\\index.vue' /* webpackChunkName: "pages/admin/maker/portfolio/index" */))
+const _55f5bdfc = () => interopDefault(import('..\\..\\pages\\admin\\team\\details\\index.vue' /* webpackChunkName: "pages/admin/team/details/index" */))
+const _06c1246a = () => interopDefault(import('..\\..\\pages\\admin\\team\\members\\index.vue' /* webpackChunkName: "pages/admin/team/members/index" */))
 const _7e270b18 = () => interopDefault(import('..\\..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 // TODO: remove in Nuxt 3
@@ -90,57 +81,21 @@ export const routerOptions = {
     component: _26fed517,
     name: "admin-account-settings"
   }, {
-    path: "/admin/newsletter/automation",
-    component: _7dd3f57d,
-    name: "admin-newsletter-automation"
+    path: "/admin/maker/details",
+    component: _0321e6e2,
+    name: "admin-maker-details"
   }, {
-    path: "/admin/newsletter/avatar",
-    component: _350ffe0a,
-    name: "admin-newsletter-avatar"
+    path: "/admin/maker/portfolio",
+    component: _6c8a4c09,
+    name: "admin-maker-portfolio"
   }, {
-    path: "/admin/newsletter/messages",
-    component: _328540a8,
-    name: "admin-newsletter-messages"
+    path: "/admin/team/details",
+    component: _55f5bdfc,
+    name: "admin-team-details"
   }, {
-    path: "/admin/newsletter/overview",
-    component: _5ba0334a,
-    name: "admin-newsletter-overview"
-  }, {
-    path: "/admin/newsletter/settings",
-    component: _0fb12971,
-    name: "admin-newsletter-settings"
-  }, {
-    path: "/admin/newsletter/subscribers",
-    component: _2f5d7a35,
-    name: "admin-newsletter-subscribers"
-  }, {
-    path: "/admin/website/domain",
-    component: _0f3590a8,
-    name: "admin-website-domain"
-  }, {
-    path: "/admin/website/integrations",
-    component: _8d42c026,
-    name: "admin-website-integrations"
-  }, {
-    path: "/admin/website/navigation",
-    component: _34379858,
-    name: "admin-website-navigation"
-  }, {
-    path: "/admin/website/settings",
-    component: _65c06f69,
-    name: "admin-website-settings"
-  }, {
-    path: "/admin/website/social",
-    component: _5beb8b42,
-    name: "admin-website-social"
-  }, {
-    path: "/admin/website/templates",
-    component: _3a453dcf,
-    name: "admin-website-templates"
-  }, {
-    path: "/admin/newsletter/messages/create",
-    component: _03379ea8,
-    name: "admin-newsletter-messages-create"
+    path: "/admin/team/members",
+    component: _06c1246a,
+    name: "admin-team-members"
   }, {
     path: "/",
     component: _7e270b18,

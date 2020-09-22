@@ -5,14 +5,14 @@
                 <div class='flex wrap align-items-center justify-content-space-between'>
                     <div class='logo'>
                         <nuxt-link to="/">
-                            Manyletter
+                            MakerProfile
                         </nuxt-link>
                     </div>
                     <div class='nav'>
                         <ul class='flex wrap show-md align-items-center'>
                             <li><nuxt-link to='/'>Dashboard</nuxt-link></li>
-                            <li><nuxt-link to='/admin/newsletter/overview'>Newsletter</nuxt-link></li>
-                            <li><nuxt-link to='/admin/website/navigation'>Website</nuxt-link></li>
+                            <li><nuxt-link to='/admin/maker/details'>My profile</nuxt-link></li>
+                            <li><nuxt-link to='/admin/team/details'>My teams</nuxt-link></li>
                             <li><nuxt-link to='/admin/account/settings'>Account</nuxt-link></li>
                         </ul>
                         <ul>

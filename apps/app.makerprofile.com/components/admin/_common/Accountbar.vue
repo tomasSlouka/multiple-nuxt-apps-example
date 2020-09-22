@@ -7,8 +7,8 @@
                     </div>
                     <div class='nav'>
                         <ul class='flex wrap show-md align-items-center'>
-                            <li><nuxt-link to='/admin/account/credits'>Credit balance</nuxt-link></li>
                             <li><nuxt-link to='/admin/account/settings'>Settings</nuxt-link></li>
+                            <li><nuxt-link to='/admin/account/credits'>Credit balance</nuxt-link></li>
                         </ul>
                     </div>
                 </div>

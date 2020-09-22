@@ -77,95 +77,32 @@
     "_name": "_26fed517"
   },
   {
-    "name": "admin-newsletter-automation",
-    "path": "/admin/newsletter/automation",
-    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.makerprofile.com\\\\pages\\\\admin\\\\newsletter\\\\automation\\\\index.vue",
-    "chunkName": "pages/admin/newsletter/automation/index",
-    "_name": "_7dd3f57d"
+    "name": "admin-maker-details",
+    "path": "/admin/maker/details",
+    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.makerprofile.com\\\\pages\\\\admin\\\\maker\\\\details\\\\index.vue",
+    "chunkName": "pages/admin/maker/details/index",
+    "_name": "_0321e6e2"
   },
   {
-    "name": "admin-newsletter-avatar",
-    "path": "/admin/newsletter/avatar",
-    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.makerprofile.com\\\\pages\\\\admin\\\\newsletter\\\\avatar\\\\index.vue",
-    "chunkName": "pages/admin/newsletter/avatar/index",
-    "_name": "_350ffe0a"
+    "name": "admin-maker-portfolio",
+    "path": "/admin/maker/portfolio",
+    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.makerprofile.com\\\\pages\\\\admin\\\\maker\\\\portfolio\\\\index.vue",
+    "chunkName": "pages/admin/maker/portfolio/index",
+    "_name": "_6c8a4c09"
   },
   {
-    "name": "admin-newsletter-messages",
-    "path": "/admin/newsletter/messages",
-    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.makerprofile.com\\\\pages\\\\admin\\\\newsletter\\\\messages\\\\index.vue",
-    "chunkName": "pages/admin/newsletter/messages/index",
-    "_name": "_328540a8"
+    "name": "admin-team-details",
+    "path": "/admin/team/details",
+    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.makerprofile.com\\\\pages\\\\admin\\\\team\\\\details\\\\index.vue",
+    "chunkName": "pages/admin/team/details/index",
+    "_name": "_55f5bdfc"
   },
   {
-    "name": "admin-newsletter-overview",
-    "path": "/admin/newsletter/overview",
-    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.makerprofile.com\\\\pages\\\\admin\\\\newsletter\\\\overview\\\\index.vue",
-    "chunkName": "pages/admin/newsletter/overview/index",
-    "_name": "_5ba0334a"
-  },
-  {
-    "name": "admin-newsletter-settings",
-    "path": "/admin/newsletter/settings",
-    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.makerprofile.com\\\\pages\\\\admin\\\\newsletter\\\\settings\\\\index.vue",
-    "chunkName": "pages/admin/newsletter/settings/index",
-    "_name": "_0fb12971"
-  },
-  {
-    "name": "admin-newsletter-subscribers",
-    "path": "/admin/newsletter/subscribers",
-    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.makerprofile.com\\\\pages\\\\admin\\\\newsletter\\\\subscribers\\\\index.vue",
-    "chunkName": "pages/admin/newsletter/subscribers/index",
-    "_name": "_2f5d7a35"
-  },
-  {
-    "name": "admin-website-domain",
-    "path": "/admin/website/domain",
-    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.makerprofile.com\\\\pages\\\\admin\\\\website\\\\domain\\\\index.vue",
-    "chunkName": "pages/admin/website/domain/index",
-    "_name": "_0f3590a8"
-  },
-  {
-    "name": "admin-website-integrations",
-    "path": "/admin/website/integrations",
-    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.makerprofile.com\\\\pages\\\\admin\\\\website\\\\integrations\\\\index.vue",
-    "chunkName": "pages/admin/website/integrations/index",
-    "_name": "_8d42c026"
-  },
-  {
-    "name": "admin-website-navigation",
-    "path": "/admin/website/navigation",
-    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.makerprofile.com\\\\pages\\\\admin\\\\website\\\\navigation\\\\index.vue",
-    "chunkName": "pages/admin/website/navigation/index",
-    "_name": "_34379858"
-  },
-  {
-    "name": "admin-website-settings",
-    "path": "/admin/website/settings",
-    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.makerprofile.com\\\\pages\\\\admin\\\\website\\\\settings\\\\index.vue",
-    "chunkName": "pages/admin/website/settings/index",
-    "_name": "_65c06f69"
-  },
-  {
-    "name": "admin-website-social",
-    "path": "/admin/website/social",
-    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.makerprofile.com\\\\pages\\\\admin\\\\website\\\\social\\\\index.vue",
-    "chunkName": "pages/admin/website/social/index",
-    "_name": "_5beb8b42"
-  },
-  {
-    "name": "admin-website-templates",
-    "path": "/admin/website/templates",
-    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.makerprofile.com\\\\pages\\\\admin\\\\website\\\\templates\\\\index.vue",
-    "chunkName": "pages/admin/website/templates/index",
-    "_name": "_3a453dcf"
-  },
-  {
-    "name": "admin-newsletter-messages-create",
-    "path": "/admin/newsletter/messages/create",
-    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.makerprofile.com\\\\pages\\\\admin\\\\newsletter\\\\messages\\\\create\\\\index.vue",
-    "chunkName": "pages/admin/newsletter/messages/create/index",
-    "_name": "_03379ea8"
+    "name": "admin-team-members",
+    "path": "/admin/team/members",
+    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.makerprofile.com\\\\pages\\\\admin\\\\team\\\\members\\\\index.vue",
+    "chunkName": "pages/admin/team/members/index",
+    "_name": "_06c1246a"
   },
   {
     "name": "index",

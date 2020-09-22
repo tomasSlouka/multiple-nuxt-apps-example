@@ -181,6 +181,17 @@ button.cta.black, .button.cta.black {
     outline: none;
     text-decoration: none;
 }
+button.cta.gray, .button.cta.gray {
+    background: #fff;
+    border: 1px solid #e2e4e7;
+    color: #bbb;
+    border-radius: 2px;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    outline: none;
+    text-decoration: none;
+}
 button.cta:hover, .button.cta:hover {
     background: #000;
     border: 1px solid #000;
@@ -191,6 +202,11 @@ button.cta.white:hover, .button.cta.white:hover {
     color: #fff;
 }
 button.cta.black:hover, .button.cta.black:hover {
+    background: #333;
+    border: 1px solid #333;
+    color: #fff;
+}
+button.cta.gray:hover, .button.cta.gray:hover {
     background: #333;
     border: 1px solid #333;
     color: #fff;
@@ -491,40 +507,40 @@ a {
     text-decoration: none;
 }
 
-.admin-layout button.cta.gray, .admin-layout .button.cta.gray {
+/* .admin-layout button.cta.gray, .admin-layout .button.cta.gray {
     background: #ffffff;
     border: 1px solid #ccc;
     color: #ccc;
-    border-radius: 4px;
+    border-radius: 2px;
     padding: 10px 30px;
     font-size: 16px;
     font-weight: 600;
     outline: none;
     box-shadow:rgba(15, 15, 15, 0.06) 0px 1px 2px, rgb(247, 247, 247) 0px 0px 0px 1px inset;
     text-decoration: none;
-}
+} */
 .admin-layout button.cta.orange, .admin-layout .button.cta.orange {
     background: #ffffff;
     border: 1px solid rgba(231, 136, 48, 0.75);
     color: rgba(231, 136, 48, 0.75);
-    border-radius: 4px;
+    border-radius: 2px;
     padding: 10px 30px;
     font-size: 16px;
     font-weight: 600;
     outline: none;
-    box-shadow:rgba(15, 15, 15, 0.06) 0px 1px 2px, rgb(247, 247, 247) 0px 0px 0px 1px inset;
+    /* box-shadow:rgba(15, 15, 15, 0.06) 0px 1px 2px, rgb(247, 247, 247) 0px 0px 0px 1px inset; */
     text-decoration: none;
 }
 .admin-layout button.cta.red, .admin-layout .button.cta.red {
     background: #ffffff;
     border: 1px solid #d73a4a7c;
     color: #d73a4a7c;
-    border-radius: 4px;
+    border-radius: 2px;
     padding: 10px 30px;
     font-size: 16px;
     font-weight: 600;
     outline: none;
-    box-shadow:rgba(15, 15, 15, 0.06) 0px 1px 2px, rgb(247, 247, 247) 0px 0px 0px 1px inset;
+    /* box-shadow:rgba(15, 15, 15, 0.06) 0px 1px 2px, rgb(247, 247, 247) 0px 0px 0px 1px inset; */
     text-decoration: none;
 }
 .admin-layout button.cta.red:hover, .admin-layout .button.cta.red:hover {
@@ -532,6 +548,11 @@ a {
     border: 1px solid #d73a4a7c;
     color: #ffffff;
 }
+/* .admin-layout button.cta.gray:hover, .admin-layout .button.cta.red:hover {
+    background: #d73a4a;
+    border: 1px solid #d73a4a7c;
+    color: #ffffff;
+} */
 .admin-layout .locked {
     filter: grayscale(100%);
 }

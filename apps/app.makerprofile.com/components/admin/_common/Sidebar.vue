@@ -6,13 +6,15 @@
 
               <div class='logo mb40'>
                   <nuxt-link to="/">
-                    Manyletter
+                    MakerProfile
                 </nuxt-link>
               </div>
 
               <ul @click="$emit('close')" class='grid col-1 gap-20'>
-                  <li><nuxt-link to='/'>My domains</nuxt-link></li>
-                  <li><nuxt-link to='/admin/settings'>Settings</nuxt-link></li>
+                  <li><nuxt-link to='/'>Dashboard</nuxt-link></li>
+                  <li><nuxt-link to='/admin/maker/details'>My profile</nuxt-link></li>
+                  <li><nuxt-link to='/admin/team/details'>My teams</nuxt-link></li>
+                  <li><nuxt-link to='/admin/account/settings'>Account</nuxt-link></li>
               </ul>
 
               <div class='hr mt40 mb40'></div>

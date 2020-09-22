@@ -56,7 +56,8 @@ export default {
       { hid: 'favicon-32x32', rel: "icon", type: "image/png", sizes: "32x32", href: "/_static/manyletter/favicon-32x32.png" },
       { hid: 'favicon-96x96', rel: "icon", type: "image/png", sizes: "96x96", href: "/_static/manyletter/favicon-96x96.png" },
       { hid: 'manifest', rel: "manifest", href: "/_static/manyletter/manifest.json" },
-      { hid: 'mask-icon', rel: "mask-icon", href: "/_static/manyletter/safari-pinned-tab.svg", color: "#39ac37" }
+      { hid: 'mask-icon', rel: "mask-icon", href: "/_static/manyletter/safari-pinned-tab.svg", color: "#39ac37" },
+      { hid: 'ionicons', rel: "stylesheet", href: "https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" }
     ],
     script: [
         // { src: 'https://unpkg.com/ionicons@5.0.0/dist/ionicons.js' }

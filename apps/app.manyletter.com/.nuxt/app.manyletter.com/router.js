@@ -27,6 +27,10 @@ const _80a89f6e = () => interopDefault(import('..\\..\\pages\\admin\\website\\se
 const _14df9982 = () => interopDefault(import('..\\..\\pages\\admin\\website\\social\\index.vue' /* webpackChunkName: "pages/admin/website/social/index" */))
 const _1dc218ef = () => interopDefault(import('..\\..\\pages\\admin\\website\\templates\\index.vue' /* webpackChunkName: "pages/admin/website/templates/index" */))
 const _0f3cb868 = () => interopDefault(import('..\\..\\pages\\admin\\newsletter\\messages\\create\\index.vue' /* webpackChunkName: "pages/admin/newsletter/messages/create/index" */))
+const _059ef950 = () => interopDefault(import('..\\..\\pages\\admin\\website\\page\\editor\\index.vue' /* webpackChunkName: "pages/admin/website/page/editor/index" */))
+const _2375ffcc = () => interopDefault(import('..\\..\\pages\\admin\\website\\page\\settings\\index.vue' /* webpackChunkName: "pages/admin/website/page/settings/index" */))
+const _4310f066 = () => interopDefault(import('..\\..\\pages\\admin\\website\\navigation\\_lvl2\\index.vue' /* webpackChunkName: "pages/admin/website/navigation/_lvl2/index" */))
+const _024fb612 = () => interopDefault(import('..\\..\\pages\\admin\\website\\navigation\\_lvl2\\_lvl3\\index.vue' /* webpackChunkName: "pages/admin/website/navigation/_lvl2/_lvl3/index" */))
 const _709cb810 = () => interopDefault(import('..\\..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 // TODO: remove in Nuxt 3
@@ -141,6 +145,22 @@ export const routerOptions = {
     path: "/admin/newsletter/messages/create",
     component: _0f3cb868,
     name: "admin-newsletter-messages-create"
+  }, {
+    path: "/admin/website/page/editor",
+    component: _059ef950,
+    name: "admin-website-page-editor"
+  }, {
+    path: "/admin/website/page/settings",
+    component: _2375ffcc,
+    name: "admin-website-page-settings"
+  }, {
+    path: "/admin/website/navigation/:lvl2",
+    component: _4310f066,
+    name: "admin-website-navigation-lvl2"
+  }, {
+    path: "/admin/website/navigation/:lvl2/:lvl3",
+    component: _024fb612,
+    name: "admin-website-navigation-lvl2-lvl3"
   }, {
     path: "/",
     component: _709cb810,
