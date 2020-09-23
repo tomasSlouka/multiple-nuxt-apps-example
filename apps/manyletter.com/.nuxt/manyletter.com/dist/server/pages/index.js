@@ -682,12 +682,12 @@ module.exports = exports;
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/manyletter.com/pages/index.vue?vue&type=template&id=2a1b8547&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"page"},[_c('Header'),_vm._ssrNode(" "),_c('Hero'),_vm._ssrNode(" "),_c('Testimonials'),_vm._ssrNode(" "),_c('More'),_vm._ssrNode(" "),_c('Pricing'),_vm._ssrNode(" "),_c('Footer')],2)}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/manyletter.com/pages/index.vue?vue&type=template&id=0bf0780c&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"page"},[_c('Header'),_vm._ssrNode(" "),_c('Hero'),_vm._ssrNode(" "),_c('More'),_vm._ssrNode(" "),_c('Pricing'),_vm._ssrNode(" "),_c('Footer')],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./apps/manyletter.com/pages/index.vue?vue&type=template&id=2a1b8547&
+// CONCATENATED MODULE: ./apps/manyletter.com/pages/index.vue?vue&type=template&id=0bf0780c&
 
 // EXTERNAL MODULE: ./apps/manyletter.com/components/page/_common/Header.vue + 14 modules
 var Header = __webpack_require__(70);

@@ -2,7 +2,7 @@
     <div class='page'>
         <Header />
         <Hero />
-        <Testimonials />
+        <!-- <Testimonials /> -->
         <More />
         <Pricing />
         <Footer />
