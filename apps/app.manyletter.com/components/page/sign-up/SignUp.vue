@@ -8,7 +8,7 @@
             </div>
             <!-- <div class="hr"></div> -->
             <form class="grid gap-10" @submit.prevent='submitForm'>
-                <p v-if="error" class="error small">{{ error }}</p>
+                <p v-if="error" class="error-box small">{{ error }}</p>
                 <div>
                     <!-- {{referrer}} -->
                     <label for="email" class='small gray'>Your email address</label>

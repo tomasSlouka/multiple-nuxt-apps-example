@@ -2983,6 +2983,11 @@ const setupProgress = axios => {
     currentRequests--;
 
     if (external_axios_default.a.isCancel(error)) {
+      if (currentRequests <= 0) {
+        currentRequests = 0;
+        $loading().finish();
+      }
+
       return;
     }
 

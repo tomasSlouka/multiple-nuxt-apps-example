@@ -12,11 +12,11 @@
             <div class='grid gap-2'>
                 <div class="link-wrapper grid justify-content-space-between align-items-center relative">
                     <nuxt-link tag='div' to='/admin/website/navigation/1' class='link' replace> Home</nuxt-link>
-                    <nuxt-link tag='div' to='/admin/website/page/editor' class='editor absolute-right'> <i class="icon ion-ios-create"></i></nuxt-link>
+                    <nuxt-link tag='div' to='/admin/website/page/editor' class='editor absolute-right'> edit</nuxt-link>
                 </div>
                 <div class="link-wrapper grid justify-content-space-between align-items-center relative">
                     <nuxt-link tag='div' to='/admin/website/navigation/2' class='link' replace> Contact</nuxt-link>
-                    <nuxt-link tag='div' to='/admin/website/page/editor' class='editor absolute-right'> <i class="icon ion-ios-create"></i></nuxt-link>
+                    <nuxt-link tag='div' to='/admin/website/page/editor' class='editor absolute-right'> edit</nuxt-link>
                 </div>
             </div>
 
@@ -45,7 +45,7 @@
 
             <!-- <div class='link-wrapper'>
                 <nuxt-link tag='div' to='/admin/website/page/editor' class='link grid col-2 auto justify-content-start gap-20'> 
-                    <i class="icon ion-ios-create"></i> 
+                    edit 
                     <span>Open page editor</span>
                 </nuxt-link>
             </div> -->
@@ -55,11 +55,11 @@
             <div class='grid gap-2'>
                 <div class="link-wrapper grid justify-content-space-between align-items-center relative">
                     <nuxt-link tag='div' :to="'/admin/website/navigation/' + $route.params.lvl2 + '/1'" replace class='link'> Test page</nuxt-link>
-                    <nuxt-link tag='div' to='/admin/website/page/editor' class='editor absolute-right'> <i class="icon ion-ios-create"></i></nuxt-link>
+                    <nuxt-link tag='div' to='/admin/website/page/editor' class='editor absolute-right'> edit</nuxt-link>
                 </div>
                 <div class="link-wrapper grid justify-content-space-between align-items-center relative">
                     <nuxt-link tag='div' :to="'/admin/website/navigation/' + $route.params.lvl2 + '/2'" replace class='link'> Page test with very long text</nuxt-link>
-                    <nuxt-link tag='div' to='/admin/website/page/editor' class='editor absolute-right'> <i class="icon ion-ios-create"></i></nuxt-link>
+                    <nuxt-link tag='div' to='/admin/website/page/editor' class='editor absolute-right'> edit</nuxt-link>
                 </div>
             </div>
 
@@ -86,13 +86,18 @@
 
             <!-- <div class='link-wrapper'>
                 <nuxt-link tag='div' to='/admin/website/page/editor' class='link grid col-2 auto justify-content-start gap-20'> 
-                    <i class="icon ion-ios-create"></i> 
+                    edit 
                     <span>Open page editor</span>
                 </nuxt-link>
             </div> -->
 
             <!-- <div class="hr"></div> -->
             
+            <div class="link-wrapper grid justify-content-space-between align-items-center relative">
+                <div class='link'> Contact</div>
+                <nuxt-link tag='div' to='/admin/website/page/editor' class='editor absolute-right'> edit</nuxt-link>
+            </div>
+
             <div>
                 <form>
                     <label for="page">Create subpage</label>

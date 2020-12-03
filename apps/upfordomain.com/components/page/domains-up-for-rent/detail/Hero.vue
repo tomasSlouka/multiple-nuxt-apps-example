@@ -18,19 +18,22 @@
                     </div>
                     
                     <div class='mt40 grid gap-20' >
-                        <div class='grid gap-5' v-if='domainDetail.description'>
-                            <h4>✨ Domain story</h4>
-                            <p>{{domainDetail.description || "Once upon a time, there was a website. But the website had nowhere to live. The website was looking for a domain. But all domain names, that she wanted, were expensive. So she rented a domain. End of story."}}</p>
-                        </div>
                         <div class='grid gap-5'>
+                        <!-- <div class='grid gap-5' v-if='domainDetail.description'> -->
+                            <h4>✨ About domain</h4>
+                            <!-- <p>{{domainDetail.description || "Once upon a time, there was a website. But the website had nowhere to live. The website was looking for a domain. But all domain names, that she wanted, were expensive. So she rented a domain. End of story."}}</p> -->
+                            <p>{{domainDetail.description || "Nothing here yet."}}</p>
+                        </div>
+                        <!-- <div class='grid gap-5'>
                             <h4>Perfect for</h4>
                             <p>🔨 Under construction</p>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
 
                 <div class='box grid gap-20 align-content-start align-self-end justify-self-center'>
                     <h3 class=''>Get in touch</h3>
+                    <p>Do you like the domain but the price is to high? Start the conversation.</p>
                     <form @submit.prevent @submit='submitForm()'>
                         <div class="grid gap-20">
                             <div>

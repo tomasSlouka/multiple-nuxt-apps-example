@@ -1839,7 +1839,7 @@ if (false) {}
 
 
 
-const _30349aab = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 1).then(__webpack_require__.bind(null, 67))); // TODO: remove in Nuxt 3
+const _30349aab = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 1).then(__webpack_require__.bind(null, 64))); // TODO: remove in Nuxt 3
 
 
 const emptyFn = () => {};
@@ -2899,6 +2899,11 @@ const setupProgress = axios => {
     currentRequests--;
 
     if (external_axios_default.a.isCancel(error)) {
+      if (currentRequests <= 0) {
+        currentRequests = 0;
+        $loading().finish();
+      }
+
       return;
     }
 

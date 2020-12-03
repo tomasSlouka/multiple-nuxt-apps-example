@@ -4,7 +4,7 @@
     "../server/index.spa.html",
     "../server/index.ssr.html",
     "LICENSES",
-    "app.5f61cde.js",
+    "app.722cc10.js",
     "commons/app.23681ea.js",
     "img/logo.bf95f19.png",
     "img/plant.60d724f.svg",
@@ -15,7 +15,7 @@
   "initial": [
     "runtime.3310dc7.js",
     "commons/app.23681ea.js",
-    "app.5f61cde.js"
+    "app.722cc10.js"
   ],
   "async": [
     "index.540b73b.js",
@@ -893,7 +893,7 @@
   },
   "assetsMapping": {
     "1a3ae26b": [
-      "app.5f61cde.js"
+      "app.722cc10.js"
     ],
     "085a35c4": [
       "commons/app.23681ea.js"

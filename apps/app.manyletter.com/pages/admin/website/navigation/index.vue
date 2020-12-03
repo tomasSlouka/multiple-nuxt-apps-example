@@ -18,6 +18,7 @@ export default {
         components: {
         Bar, Intro, Navigation
     },
+    // scrollToTop: false,
     data() {
         return {
 

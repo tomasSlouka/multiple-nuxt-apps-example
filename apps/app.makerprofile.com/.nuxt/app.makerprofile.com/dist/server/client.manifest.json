@@ -3,7 +3,7 @@
   "all": [
     "../server/index.spa.html",
     "LICENSES",
-    "app.2eedb85.js",
+    "app.d79b250.js",
     "commons/app.3662dd6.js",
     "img/logo.c7c9031.png",
     "pages/200.13a31bd.js",
@@ -29,7 +29,7 @@
     "runtime.dfbf05e.js",
     "commons/app.3662dd6.js",
     "vendors~app.b1e1ba4.js",
-    "app.2eedb85.js"
+    "app.d79b250.js"
   ],
   "async": [
     "pages/200.13a31bd.js",
@@ -1573,7 +1573,7 @@
   },
   "assetsMapping": {
     "1a3ae26b": [
-      "app.2eedb85.js"
+      "app.d79b250.js"
     ],
     "085a35c4": [
       "commons/app.3662dd6.js"

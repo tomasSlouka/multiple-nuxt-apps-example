@@ -1,19 +1,19 @@
 <template>
     <div class="component">
 
-        <div class='container-narrow mt20 mb20'>
+        <!-- <div class='container-narrow mt20 mb20 grid justify-items-center'>
             <img src="@/assets/img/logo-white.png" alt="" class='logo' />
-        </div>
+        </div> -->
 
-        <div class="container-narrow mt20 grid">
-            <div class='grid gap-20'>
+        <div class="container-narrow  grid">
+            <div class='grid gap-20 justify-items-start'>
                 <!-- <h1 class='maxw500'>Do you subscribe to too many newsletters?</h1> -->
                 <h1>Actionable tips for your newsletter.</h1>
                 <!-- <h2 class='strong big maxw500'></h2> -->
                 <p class='maxw500'>Learn how to create, manage and grow your newsletter from other newsletter creators. Learn about tools they use and how to use them—all in one place.</p>
-                <div class='mt30'>
+                <!-- <div class='mt30'>
                     <nuxt-link to='/categories' class='button black cta'>Browse articles by categories</nuxt-link>
-                </div>
+                </div> -->
             </div>
             
         </div>
@@ -30,6 +30,11 @@ export default {
 </script>
 
 <style scoped>
+.component {
+    padding: 1px;
+    background-color: #f5f8fc;
+}
+
 h1 {
     font-size: 2.5em;
 }

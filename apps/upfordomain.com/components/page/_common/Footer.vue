@@ -20,7 +20,7 @@
                     <ul>
                         <li><nuxt-link to="/domains-up-for-rent/browse">Browse domains</nuxt-link></li>
                         <li><nuxt-link to="/domains-up-for-rent/add">List your domain</nuxt-link></li>
-                        <li><nuxt-link to="/blog">Blog</nuxt-link></li>
+                        <!-- <li><nuxt-link to="/blog">Blog</nuxt-link></li> -->
                         <!-- <li><nuxt-link to="/get-domain-price">Get domain price</nuxt-link></li> -->
                         <!-- <li><nuxt-link to="/sign-up">Sign up</nuxt-link></li> -->
                         <!-- <li><nuxt-link to="/blog">Blog</nuxt-link></li> -->

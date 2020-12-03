@@ -4,7 +4,7 @@
     "../server/index.spa.html",
     "../server/index.ssr.html",
     "LICENSES",
-    "app.edac6fe.js",
+    "app.00884ee.js",
     "commons/app.23681ea.js",
     "img/avatar.94a98f8.png",
     "img/logo-indiestack.ef78164.png",
@@ -19,7 +19,7 @@
   "initial": [
     "runtime.bcf1898.js",
     "commons/app.23681ea.js",
-    "app.edac6fe.js"
+    "app.00884ee.js"
   ],
   "async": [
     "index.41f8247.js",
@@ -1165,7 +1165,7 @@
   },
   "assetsMapping": {
     "1a3ae26b": [
-      "app.edac6fe.js"
+      "app.00884ee.js"
     ],
     "085a35c4": [
       "commons/app.23681ea.js"

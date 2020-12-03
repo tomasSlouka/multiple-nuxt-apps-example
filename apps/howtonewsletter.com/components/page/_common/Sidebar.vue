@@ -6,20 +6,20 @@
 
               <div class='logo mb40'>
                   <nuxt-link to="/" @click="$emit('close')">
-                      Manyletter
+                      <img src="@/assets/img/logo-white.png" alt="" class='logo' />
                   </nuxt-link>
               </div>
 
               <ul @click="$emit('close')" class='grid col-1 gap-20'>
-                  <li><a href='https://app.manyletter.com/sign-up'>Request access</a></li>
+                  <!-- <li><a href='https://app.manyletter.com/sign-up'>Request access</a></li> -->
                   <!-- <li><nuxt-link to='/about'>About</nuxt-link></li> -->
               </ul>
 
-              <div class='hr mt40 mb40'></div>
+              <!-- <div class='hr mt40 mb40'></div> -->
               
               <ul @click="$emit('close')" class='grid col-1 gap-20'>
-                  <li><a href="https://app.manyletter.com/sign-up">Sign up</a></li>
-                  <li><a href="https://app.manyletter.com/">Log in</a></li>
+                  <!-- <li><a href="https://app.manyletter.com/sign-up">Sign up</a></li> -->
+                  <!-- <li><a href="https://app.manyletter.com/">Log in</a></li> -->
                   <!-- <li v-if='$store.getters.isUserLoggedIn'><nuxt-link to="/admin/home" class='flex nowrap align-items-center'> {{ ($store.state.userData == null) ? "Go to Admin" : "Continue as " + $store.state.userData.name + "" }}</nuxt-link></li> -->
                   <!-- <li v-else><nuxt-link to="/log-in">Log in</nuxt-link></li> -->
                   
@@ -27,9 +27,9 @@
                   <!-- <li v-else><nuxt-link to="/sign-up">Sign Up</nuxt-link></li> -->
               </ul>
 
-              <div class='hr mt40 mb40'></div>
+              <!-- <div class='hr mt40 mb40'></div> -->
 
-              <p class='small'>© {{ new Date().getFullYear() }} manyletter.com</p>
+              <p class='small'>© {{ new Date().getFullYear() }} howtonewsletter.com</p>
 
             </div>
         </transition>

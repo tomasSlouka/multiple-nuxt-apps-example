@@ -3,11 +3,13 @@
   "files": {
     "pages/categories.js": "pages/categories.js",
     "pages/index.js": "pages/index.js",
+    "pages/r/how-to-start-a-newsletter.js": "pages/r/how-to-start-a-newsletter.js",
     "server.js": "server.js"
   },
   "maps": {
     "pages/categories.js": "pages/categories.js.map",
     "pages/index.js": "pages/index.js.map",
+    "pages/r/how-to-start-a-newsletter.js": "pages/r/how-to-start-a-newsletter.js.map",
     "server.js": "server.js.map"
   }
 }

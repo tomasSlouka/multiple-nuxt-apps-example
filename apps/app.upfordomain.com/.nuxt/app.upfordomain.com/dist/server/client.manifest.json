@@ -4,7 +4,7 @@
     "../server/index.spa.html",
     "LICENSES",
     "admin.domain.detail.id.index.13d7ea3.js",
-    "app.a6e5bdc.js",
+    "app.41d6d2d.js",
     "commons/app.6590581.js",
     "img/sad-smile.b7dbe7c.png",
     "pages/200.582cf3b.js",
@@ -25,7 +25,7 @@
     "runtime.c807197.js",
     "commons/app.6590581.js",
     "vendors~app.12df75d.js",
-    "app.a6e5bdc.js"
+    "app.41d6d2d.js"
   ],
   "async": [
     "admin.domain.detail.id.index.13d7ea3.js",
@@ -1494,7 +1494,7 @@
       "admin.domain.detail.id.index.13d7ea3.js"
     ],
     "1a3ae26b": [
-      "app.a6e5bdc.js"
+      "app.41d6d2d.js"
     ],
     "085a35c4": [
       "commons/app.6590581.js"

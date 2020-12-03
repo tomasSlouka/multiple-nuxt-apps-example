@@ -1,18 +1,18 @@
 <template>
     <div>
         <div id="topbar">
-            <div class="container-narrow">
+             <div class="container-narrow">
                 <div class='flex wrap align-items-center justify-content-space-between'>
-                    <div class='logo'>
+                    <div class='logo mt10'>
                         <nuxt-link to="/">
-                            Manyletter
+                            <img src="@/assets/img/logo-white.png" alt="" class='logo' />
                         </nuxt-link>
                     </div>
                     <div class='nav'>
                         <ul class='flex wrap show-md align-items-center'>
-                            <li><a href='https://app.manyletter.com/sign-up'>Request access</a></li>
+                            <!-- <li><a href='https://app.manyletter.com/sign-up'>Request access</a></li> -->
                             <!-- <li><nuxt-link to='/about'>About</nuxt-link></li> -->
-                            <li><a href='https://app.manyletter.com'>Log in</a></li>
+                            <!-- <li><a href='https://app.manyletter.com'>Log in</a></li> -->
                         </ul>
                         <ul>
                             <li class='sidenavtoggle hidden-md' @click="$emit('sidenavtoggle')">
@@ -45,14 +45,14 @@ export default {
 
 <style scoped>
 #topbar {
-    box-shadow: 0 0.125rem 0.125rem rgba(0,0,0,.1);
+    /* box-shadow: 0 0.125rem 0.125rem rgba(0,0,0,.1); */
     position: relative;
     top: 0px;
     left: 0px;
     width: 100%;
-    background-color: #000;
+    background-color: #fff;
     z-index: 100;
-    height: 68px;
+    height: 80px;
 }
 /* #setup {
     background-color: #30E7B6;
@@ -69,18 +69,8 @@ export default {
     height: 100%;
 }
 
-.logo a {
-    font-size: 24px;
-    line-height: 30px;
-    font-weight: 700;
-    /* font-family: 'Open sans', sans-serif; */
-    /* font-family: 'Exo 2', sans-serif; */
-    font-family: 'Caveat', cursive;
-    /* font-family: 'Concert One', cursive; */
-    /* font-family: 'Patrick Hand', cursive; */
-    /* font-family: 'MuseoModerno', cursive; */
-    text-decoration: none;
-    color: #fff;
+.logo img {
+    max-height: 30px;
 }
 
 .nav > ul {
@@ -96,12 +86,12 @@ export default {
     transition: transform .2s;
 }
 .nav > ul > li > a:hover {
-    color: #fff;
+    color: #000;
     text-decoration: none;
     transform: scale(1.5);
 }
 .nav > ul > li > a.nuxt-link-exact-active {
-    color: #fff;
+    color: #000;
     text-decoration: none;
 }
 /* .nav > ul > li > a.nuxt-link-active.no-active {
@@ -118,12 +108,12 @@ export default {
 .nav > ul > li.sidenavtoggle > div {
     width: 30px;
     height: 3px;
-    background-color: #fff;
+    background-color: #000;
     margin: 5px 0;
     border-radius: 4px;
 }
 .nav > ul > li > a {
-    color: #ffffffb8;
+    color: #000000b8;
     line-height: 24px;
     font-weight: 500;
     text-decoration: none;
