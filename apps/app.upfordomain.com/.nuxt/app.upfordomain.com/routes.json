@@ -71,7 +71,7 @@
   },
   {
     "name": "admin-domain-detail-id",
-    "path": "/admin/domain/detail/:id?",
+    "path": "/admin/domain/detail/:id",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.upfordomain.com\\\\pages\\\\admin\\\\domain\\\\detail\\\\_id\\\\index.vue",
     "chunkName": "pages/admin/domain/detail/_id/index",
     "_name": "_3cab08bb"

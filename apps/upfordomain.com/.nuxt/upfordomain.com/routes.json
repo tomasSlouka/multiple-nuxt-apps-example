@@ -92,7 +92,7 @@
   },
   {
     "name": "domains-up-for-rent-detail-name",
-    "path": "/domains-up-for-rent/detail/:name?",
+    "path": "/domains-up-for-rent/detail/:name",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\upfordomain.com\\\\pages\\\\domains-up-for-rent\\\\detail\\\\_name\\\\index.vue",
     "chunkName": "pages/domains-up-for-rent/detail/_name/index",
     "_name": "_11a18296"

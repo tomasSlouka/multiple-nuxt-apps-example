@@ -10,10 +10,10 @@
     "serve": "nuxt serve"
   },
   "dependencies": {
-    "@nuxtjs/axios": "5.12.1",
+    "@nuxtjs/axios": "5.12.3",
     "cookie-universal-nuxt": "^2.1.4",
     "js-cookie": "^2.2.1",
-    "nuxt": "^2.14.7",
+    "nuxt": "^2.14.9",
     "vue-scrollto": "^2.20.0"
   },
   "devDependencies": {}
