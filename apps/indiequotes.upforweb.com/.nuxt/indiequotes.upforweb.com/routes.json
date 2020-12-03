@@ -3,7 +3,6 @@
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\indiequotes.upforweb.com\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_89042d70"
+    "chunkName": "pages/index"
   }
 ]
