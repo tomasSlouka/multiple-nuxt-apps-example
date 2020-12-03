@@ -8,6 +8,7 @@
     "vue-scrollto": "^2.18.1",
     "vue2-touch-events": "^2.2.1"
   },
+
   "scripts": {
     "upfordomain.com:dev": "nuxt --config-file apps/upfordomain.com/nuxt.config.js",
     "app.upfordomain.com:dev": "nuxt --config-file apps/app.upfordomain.com/nuxt.config.js",
@@ -19,7 +20,9 @@
     "upforweb.com:dev": "nuxt --config-file apps/upforweb.com/nuxt.config.js",
     "indiequotes.upforweb.com:dev": "nuxt --config-file apps/indiequotes.upforweb.com/nuxt.config.js",
     "tulaveknizky.sk:dev": "nuxt --config-file apps/tulaveknizky.sk/nuxt.config.js",
+    
     "dev": "concurrently \"npm run upforweb.com:dev\" \"npm run howtonewsletter.com:dev\" \"npm run upfordomain.com:dev\" \"npm run manyletter.com:dev\" \"npm run makerprofile.com:dev\" \"npm run app.manyletter.com:dev\" \"npm run app.makerprofile.com:dev\" \"npm run app.upfordomain.com:dev\" \"npm run indiequotes.upforweb.com:dev\" \"npm run tulaveknizky.sk:dev\"",
+
     "upfordomain.com:build": "nuxt build --config-file apps/upfordomain.com/nuxt.config.js",
     "app.upfordomain.com:build": "nuxt build --config-file apps/app.upfordomain.com/nuxt.config.js",
     "manyletter.com:build": "nuxt build --config-file apps/manyletter.com/nuxt.config.js",
@@ -29,8 +32,9 @@
     "app.makerprofile.com:build": "nuxt build --config-file apps/app.makerprofile.com/nuxt.config.js",
     "upforweb.com:build": "nuxt build --config-file apps/upforweb.com/nuxt.config.js",
     "indiequotes.upforweb.com:build": "nuxt build --config-file apps/indiequotes.upforweb.com/nuxt.config.js",
-    "tulaveknizky.sk:build": "nuxt build --config-file apps/tulaveknizky.sk/nuxt.config.js",
-    "build": "concurrently \"npm run upfordomain.com:build\" \"npm run howtonewsletter.com:build\" \"npm run manyletter.com:build\" \"npm run app.manyletter.com:build\" \"npm run makerprofile.com:build\" \"npm run app.makerprofile.com:build\" \"npm run app.upfordomain.com:build\" \"npm run tulaveknizky.sk:build\" \"npm run upforweb.com:build\" \"npm run indiequotes.upforweb.com:build\"",
+    
+    "build": "concurrently \"npm run upfordomain.com:build\" \"npm run howtonewsletter.com:build\" \"npm run manyletter.com:build\" \"npm run app.manyletter.com:build\" \"npm run makerprofile.com:build\" \"npm run app.makerprofile.com:build\" \"npm run app.upfordomain.com:build\" \"npm run upforweb.com:build\" \"npm run indiequotes.upforweb.com:build\"",
+
     "upfordomain.com:start": "nuxt start --config-file apps/upfordomain.com/nuxt.config.js",
     "app.upfordomain.com:start": "nuxt start --config-file apps/app.upfordomain.com/nuxt.config.js",
     "manyletter.com:start": "nuxt start --config-file apps/manyletter.com/nuxt.config.js",
@@ -40,8 +44,10 @@
     "app.makerprofile.com:start": "nuxt start --config-file apps/app.makerprofile.com/nuxt.config.js",
     "upforweb.com:start": "nuxt start --config-file apps/upforweb.com/nuxt.config.js",
     "indiequotes.upforweb.com:start": "nuxt start --config-file apps/indiequotes.upforweb.com/nuxt.config.js",
-    "tulaveknizky.sk:start": "nuxt start --config-file apps/tulaveknizky.sk/nuxt.config.js",
-    "start": "concurrently \"npm run upforweb.com:start\" \"npm run howtonewsletter.com:start\" \"npm run upfordomain.com:start\" \"npm run manyletter.com:start\" \"npm run app.manyletter.com:start\" \"npm run makerprofile.com:start\" \"npm run app.makerprofile.com:start\"  \"npm run app.upfordomain.com:start\" \"npm run tulaveknizky.sk:start\" \"npm run indiequotes.upforweb.com:start\"",
+    
+    
+    "start": "concurrently \"npm run upforweb.com:start\" \"npm run howtonewsletter.com:start\" \"npm run upfordomain.com:start\" \"npm run manyletter.com:start\" \"npm run app.manyletter.com:start\" \"npm run makerprofile.com:start\" \"npm run app.makerprofile.com:start\"  \"npm run app.upfordomain.com:start\"  \"npm run indiequotes.upforweb.com:start\"",
+
     "generate": "nuxt generate"
   }
 }
