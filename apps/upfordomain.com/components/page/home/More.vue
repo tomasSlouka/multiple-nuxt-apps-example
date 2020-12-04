@@ -8,7 +8,7 @@
                     <p>Do you have a startup idea, want to create a landing page, product site, write a blog, or launch a newsletter?</p>
                 </div>
                 <div class="box grid gap-10">
-                    <h3>Rent your domain from other makers.</h3>
+                    <h3>Rent/buy your domain from other makers.</h3>
                     <p>Get a domain name for your project, which you wouldn't be able to have otherwise.</p>
                 </div>
                 <div class="box grid gap-10">

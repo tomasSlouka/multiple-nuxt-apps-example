@@ -33,7 +33,7 @@
 
                 <div class='box grid gap-20 align-content-start align-self-end justify-self-center'>
                     <h3 class=''>Get in touch</h3>
-                    <p>Do you like the domain but the price is to high? Start the conversation.</p>
+                    <p>Do you like the domain, but the price is too high (or low)? Start the negotiation. 🧐</p>
                     <form @submit.prevent @submit='submitForm()'>
                         <div class="grid gap-20">
                             <div>

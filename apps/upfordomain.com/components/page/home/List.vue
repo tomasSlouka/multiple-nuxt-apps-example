@@ -4,7 +4,7 @@
         <div class="container-narrow">
             <div class='grid gap-40'>
                 <div>
-                    <h1 class='h2'>Domains up for rent</h1>
+                    <h1 class='h2'>Domains up for rent/buy</h1>
                 </div>
 
                 <div class='grid gap-20'>
