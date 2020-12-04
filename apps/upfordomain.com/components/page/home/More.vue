@@ -17,7 +17,8 @@
                 </div>
                 <div class="box grid gap-10">
                     <h3>Find out more.</h3>
-                    <p>Do you want to know more? Check out the <nuxt-link to='/faq'>FAQ</nuxt-link> page or learn more at our <nuxt-link to='/blog'>Blog</nuxt-link>.</p>
+                    <p>Do you want to know more? Check out the <nuxt-link to='/faq'>FAQ</nuxt-link> page.</p>
+                    <!-- <p>Do you want to know more? Check out the <nuxt-link to='/faq'>FAQ</nuxt-link> page or learn more at our <nuxt-link to='/blog'>Blog</nuxt-link>.</p> -->
                 </div>
             </div>
         </div>
