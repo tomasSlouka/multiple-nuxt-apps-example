@@ -19,6 +19,7 @@
                     <h5>Links</h5>
                     <ul>
                         <li><nuxt-link to="/domains-up-for-rent/browse">Browse domains</nuxt-link></li>
+                        <li><nuxt-link to="/domain-appraisal/add" class='new'>Domain appraisal<span class='new-label'>new</span></nuxt-link></li>
                         <li><nuxt-link to="/domains-up-for-rent/add">List your domain</nuxt-link></li>
                         <!-- <li><nuxt-link to="/blog">Blog</nuxt-link></li> -->
                         <!-- <li><nuxt-link to="/get-domain-price">Get domain price</nuxt-link></li> -->
@@ -105,5 +106,21 @@ li > a:hover {
 }
 p.contact {
     line-height: 24px;
+}
+
+.new {
+    position: relative;
+}
+.new > span.new-label {
+    position: absolute;
+    top: 0px;
+    right: 13px;
+    background-color: #39ac37;
+    border: 0px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 10px;
+    padding: 4px 8px;
+    line-height: 12px;
 }
 </style>

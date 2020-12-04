@@ -9,6 +9,7 @@
             <div class='nav'>
                 <ul class='flex wrap show-md align-items-center'>
                     <li><nuxt-link to="/domains-up-for-rent/browse">Browse domain names</nuxt-link></li>
+                    <li><nuxt-link to="/domain-appraisal/add" class='new mr10'>Domain appraisal<span class='new-label'>new</span></nuxt-link></li>
                     <li><nuxt-link to="/domains-up-for-rent/add">List your domain</nuxt-link></li>
                     <!-- <li><nuxt-link to="/get-domain-price">Get domain price</nuxt-link></li> -->
                     <!-- <li><nuxt-link to="/blog">Blog</nuxt-link></li> -->
@@ -35,7 +36,7 @@
 
                 </ul>
                 <ul>
-                    <li class='sidenavtoggle hidden-md' @click="$emit('sidenavToggle')">
+                    <li class='sidenavtoggle hidden-md' @click="$emit('sidenav-toggle')">
                         <div></div>
                         <div></div>
                         <div></div>
@@ -96,13 +97,14 @@ export default {
 .nav > ul > div > li > a:hover 
 {
     color: #39ac37;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 .nav > ul > li > a.nuxt-link-active,
 .nav > ul > div > li > a.nuxt-link-active 
 {
     color: #39ac37;
-    text-decoration: underline;
+    font-weight: 600;
+    /* text-decoration: underline; */
 }
 
 .nav > ul > li.sidenavtoggle {
@@ -123,5 +125,21 @@ export default {
     line-height: 24px;
     font-weight: 500;
     text-decoration: none;
+}
+
+.new {
+    position: relative;
+}
+.new > span.new-label {
+    position: absolute;
+    top: -10px;
+    right: -38px;
+    background-color: #39ac37;
+    border: 0px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 10px;
+    padding: 4px 8px;
+    line-height: 12px;
 }
 </style>

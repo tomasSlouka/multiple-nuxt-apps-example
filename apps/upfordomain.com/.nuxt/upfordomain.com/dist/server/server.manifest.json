@@ -2,6 +2,8 @@
   "entry": "server.js",
   "files": {
     "pages/blog/index.js": "pages/blog/index.js",
+    "pages/domain-appraisal/add/index.js": "pages/domain-appraisal/add/index.js",
+    "pages/domain-appraisal/add/success.js": "pages/domain-appraisal/add/success.js",
     "pages/domains-up-for-rent/add/index.js": "pages/domains-up-for-rent/add/index.js",
     "pages/domains-up-for-rent/add/success.js": "pages/domains-up-for-rent/add/success.js",
     "pages/domains-up-for-rent/browse/index.js": "pages/domains-up-for-rent/browse/index.js",
@@ -20,6 +22,8 @@
   },
   "maps": {
     "pages/blog/index.js": "pages/blog/index.js.map",
+    "pages/domain-appraisal/add/index.js": "pages/domain-appraisal/add/index.js.map",
+    "pages/domain-appraisal/add/success.js": "pages/domain-appraisal/add/success.js.map",
     "pages/domains-up-for-rent/add/index.js": "pages/domains-up-for-rent/add/index.js.map",
     "pages/domains-up-for-rent/add/success.js": "pages/domains-up-for-rent/add/success.js.map",
     "pages/domains-up-for-rent/browse/index.js": "pages/domains-up-for-rent/browse/index.js.map",

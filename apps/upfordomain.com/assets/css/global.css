@@ -126,7 +126,7 @@ p.gray {color: #000;}
 /* Buttons */
 p > a {
     color: #39ac37;
-    text-decoration: underline;
+    text-decoration: none;
     font-weight: 400;
     transition: 0.3s;
 }

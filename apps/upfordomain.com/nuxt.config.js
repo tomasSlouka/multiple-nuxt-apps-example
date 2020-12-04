@@ -83,6 +83,7 @@ export default {
 	*/
 	plugins: [
 		{ src: '~/plugins/axios.js' },
+		{ src: '~plugins/vue-scrollto.js', ssr: false, defer: true },
 		{ src: '~/plugins/ga.js', ssr: false, defer: true },
 	],
 	/*

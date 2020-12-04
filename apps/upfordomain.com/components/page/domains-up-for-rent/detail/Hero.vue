@@ -78,7 +78,7 @@ export default {
     },
     methods: {
         async submitForm() {
-            await this.$axios.$post('/open/message', {
+            await this.$axios.$post('/open/send/message', {
                 'user_id': this.domainDetail.user_id,
                 'id': this.domainDetail.id,
                 'name': this.domainDetail.name,

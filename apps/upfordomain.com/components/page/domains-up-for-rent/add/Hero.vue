@@ -109,7 +109,7 @@ export default {
     },
     methods: {
         async submitForm() {
-            await this.$axios.$post('/open', {
+            await this.$axios.$post('/open/send/domain', {
                 'name': this.domain_name,
                 'price_renting': this.price_renting,
                 'price_buyout': this.price_buyout,
