@@ -31,7 +31,7 @@
 
                     <div class='testimonial grid gap-20 justify-self-start'>
                         <h4><span class='font20'>🎯</span> Expert appraisal</h4>
-                        <h3>$49.99 <span class='font12'>/ domain</span></h3>
+                        <h3>$69.99 <span class='font12'>/ domain</span></h3>
                         <div class='grid gap-5'>
                             <p class="small">
                                 Domain appraisal sent to you by email within <span class='strong'>5 business days</span> includes:
