@@ -11,7 +11,7 @@
                             upfordomain
                         </nuxt-link>
                     </div>
-                    <p class='small'>Domains up for rent.</p>
+                    <p class='small'>Rent, sell, buy your domains with confidence.</p>
                     <p class='small mt40'>© {{ new Date().getFullYear() }} upfordomain.com</p>
                 </div>
 
@@ -114,7 +114,7 @@ p.contact {
 .new > span.new-label {
     position: absolute;
     top: 0px;
-    right: 13px;
+    left: 124px;
     background-color: #39ac37;
     border: 0px;
     border-radius: 4px;

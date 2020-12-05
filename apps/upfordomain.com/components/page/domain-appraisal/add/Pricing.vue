@@ -4,14 +4,29 @@
         <div class="container-narrow">
 
             <div class='grid gap-30'>
-                <h3>Appraisal pricing</h3>
-                <div class='grid col-2 auto gap-30'>
+                <h3>Appraisal pricing plans</h3>
+                <div class='grid md-col-3 auto gap-30'>
                     <div class='testimonial grid gap-20 justify-self-start align-content-start'>
                         <h4><span class='font20'>🔥</span> Fast appraisal</h4>
                         <h3>$4.99 <span class='font12'>/ domain</span></h3>
                         <p class='small'>
-                            Fast individual appraisal for single domain or domains portfolio sent to you by email within 2 business days.
+                            Fast individual appraisal for single domain or domains portfolio sent to you by email within <span class='strong'>2 business days</span>.
                         </p>
+                    </div>
+
+                    <div class='testimonial best grid gap-20 justify-self-start align-content-start'>
+                        <h4><span class='font20'>🤝</span> Standard appraisal</h4>
+                        <h3>$14.99 <span class='font12'>/ domain</span></h3>
+                        <div class='grid gap-5'>
+                            <p class="small">
+                                Domain appraisal sent to you by email within <span class='strong'>2 business days</span> includes:
+                            </p>
+                            <p class='small'>
+                                <ul class='ml20 grid gap-5'>
+                                    <li><span class='strong'>certificate</span> of domain appraisal for further negotiation about the price with potential buyers.</li>
+                                </ul> 
+                            </p>
+                        </div>
                     </div>
 
                     <div class='testimonial grid gap-20 justify-self-start'>
@@ -19,13 +34,12 @@
                         <h3>$49.99 <span class='font12'>/ domain</span></h3>
                         <div class='grid gap-5'>
                             <p class="small">
-                                Domain appraisal by the experts includes:
+                                Domain appraisal sent to you by email within <span class='strong'>5 business days</span> includes:
                             </p>
                             <p class='small'>
                                 <ul class='ml20 grid gap-5'>
+                                    <li>all from the Standard plan</li>
                                     <li>domain analysis based on 5 factors such as search engine suitability, advertising, selling/buying prospects.</li>
-                                    <li><span class='strong'>certificate</span> of domain appraisal for further negotiation about the price with potential buyers.</li>
-                                    <li>appraisal sent to you by email within 5 business days.</li>
                                 </ul> 
                             </p>
                         </div>
@@ -111,6 +125,9 @@ export default {
     background-color: #fbf7ed;
     width: 100%;
     /* max-width: 400px; */
+}
+.testimonial.best {
+    border: 1px solid rgb(231 136 48 / 59%)
 }
 img {
     /* border-radius: 100px; */

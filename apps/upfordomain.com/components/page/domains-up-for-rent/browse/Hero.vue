@@ -4,7 +4,7 @@
         <div class="container-narrow mt80">
             <div class='grid md-col-2 gap-80 align-content-center align-items-center'>
                 <div class='grid gap-20'>
-                    <h1 class='maxw500'>Browse all domains up for rent/buy</h1>
+                    <h1 class='maxw500'>Browse all domains up for rent/sell.</h1>
                     <p>All domain names have been manualy checked. You can filter domains by the TLD, renting price, buyout price and domain tier and tags.</p>
                 </div>
                 <div>

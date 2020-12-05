@@ -2,7 +2,7 @@
     <div class="component">
         <div class="container-narrow mt80">
             <div class='grid gap-20'>
-                <h2>More domain names from the seller</h2>
+                <h2>More domain names from the seller.</h2>
                 <div class='grid md-col-3 gap-20 align-items-start justify-content-start'>
                     <nuxt-link tag='div' v-for='item in domainListMore.data' :key='item.id' :to='"/domains-up-for-rent/detail/" + item.name' class="box-domain grid gap-10"> 
                         <h4> {{item.name}}</h4>

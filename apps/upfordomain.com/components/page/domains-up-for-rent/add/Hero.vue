@@ -4,13 +4,13 @@
         <div class="container-narrow mt80">
             <div class='grid md-col-2 gap-80'>
                 <div class='grid gap-20 align-content-start align-items-start'>
-                    <h1 class='maxw500'>Rent your domain like you would rent your house.</h1>
+                    <h1 class='maxw500'>Rent or sell your domain like you would rent or sell your house.</h1>
                     <!-- <h1 class='maxw500'>Why sell your domain when you can rent it?</h1> -->
-                    <p class='maxw500'>Do you own a domain that costs you money and is doing nothing? List your domain up for rent and lease it to someone else for a recurring monthly payment directly to you.</p>
+                    <p class='maxw500'>Do you own a domain that costs you money and is doing nothing? List your domain up for sell or rent, and lease it to someone else for a recurring monthly payment directly to you.</p>
                     
                     <div class='grid col-1 gap-30'>
                         <div class='testimonial grid gap-20 justify-self-start mt40'>
-                            <p class='small'><span class='font20'>🔥</span> Upfordomain service has not launched yet, but there are already <nuxt-link to='/domains-up-for-rent/browse' tag='span' class='pointer strong underline'>{{domainStats.count}} domains up for rent</nuxt-link>.</p>
+                            <p class='small'><span class='font20'>🔥</span> Upfordomain service has not launched yet, but there are already <nuxt-link to='/domains-up-for-rent/browse' tag='span' class='pointer strong underline'>{{domainStats.count}} domains ready for you</nuxt-link>.</p>
                             <!-- <div class='grid gap-10 auto col-2 justify-content-start align-items-center'>
                                 <img src="@/assets/img/manyletter_founder.png" alt="manyletter founder" />
                                 <div>
@@ -41,7 +41,7 @@
                 </div>
 
                 <div class='box grid gap-20 align-content-start align-self-end justify-self-center'>
-                    <h3 class=''>List your domain up for rent</h3>
+                    <h3 class=''>List your domain up for rent/sell.</h3>
                     <form @submit.prevent @submit='submitForm()'>
                         <div class="grid gap-20">
                             <div>

@@ -24,24 +24,24 @@ export default {
 	** See https://nuxtjs.org/api/configuration-head
 	*/
 	head: {
-        title: 'Domains up for rent.',
+        title: 'Upfordomain - rent, sell, buy domains',
         meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1, shrink-to-fit=no' },
-            { hid: 'title', name: "title", content: "Domains up for rent." },
-            { hid: 'description', name: "description", content: "Upfordomain - a secure way of renting domains." },
+            { hid: 'title', name: "title", content: "Rent, sell, buy your domains with confidence." },
+            { hid: 'description', name: "description", content: "Upfordomain - Rent, sell, buy your domains with confidence." },
             { hid: 'og-type', property: "og:type", content: "website" },
             { hid: 'og-url', property: "og:url", content: "https://upfordomain.com/" },
-            { hid: 'og-title', property: "og:title", content: "Domains up for rent." },
-            { hid: 'og-description', property: "og:description", content: "Upfordomain - a secure way of renting domains." },
+            { hid: 'og-title', property: "og:title", content: "Rent, sell, buy your domains with confidence." },
+            { hid: 'og-description', property: "og:description", content: "Upfordomain - Rent, sell, buy your domains with confidence." },
             { hid: 'og-image', property: "og:image", content: "https://upfordomain.com/_static/upfordomain/cover-twitter.png" },
             { hid: 'og-image:type', property: 'og:image:type', content: 'image/png' },
             { hid: 'og-image:width', property: 'og:image:width', content: '1200' },
             { hid: 'og-image:height', property: 'og:image:height', content: '628' },
             { hid: 'twitter-card', property: "twitter:card", content: "summary_large_image" },
             { hid: 'twitter-url', property: "twitter:url", content: "https://upfordomain.com/" },
-            { hid: 'twitter-title', property: "twitter:title", content: "Domains up for rent." },
-            { hid: 'twitter-description', property: "twitter:description", content: "Upfordomain - a secure way of renting domains." },
+            { hid: 'twitter-title', property: "twitter:title", content: "Rent, sell, buy your domains with confidence." },
+            { hid: 'twitter-description', property: "twitter:description", content: "Upfordomain - Rent, sell, buy your domains with confidence." },
             { hid: 'twitter-image', property: "twitter:image", content: "https://upfordomain.com/_static/upfordomain/cover-twitter.png" },
 
             { hid: 'apple-mobile-web-app-title', name: "apple-mobile-web-app-title", content: "Upfordomain" },

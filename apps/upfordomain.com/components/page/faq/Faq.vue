@@ -8,7 +8,7 @@
                     <h2>Owner questions</h2>
                     <div class='grid gap-10'>
                         <h4>How to add my domain up for rent?</h4>
-                        <p>Everyone can add their domain up for rent for FREE. Go to <nuxt-link to='/add/domain-up-for-rent'> list your domain</nuxt-link> and fill in a simple form where you define the monthly renting price, and the buyout price for your domain.</p>
+                        <p>Everyone can add their domain up for rent for FREE. Go to <nuxt-link to='/domains-up-for-rent/add'> list your domain</nuxt-link> and fill in a simple form where you define the monthly renting price, and the buyout price for your domain.</p>
                     </div>
                     
                     <div class='grid gap-10'>

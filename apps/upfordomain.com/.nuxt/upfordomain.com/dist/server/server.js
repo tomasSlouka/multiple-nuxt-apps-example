@@ -3230,7 +3230,7 @@ async function createApp(ssrContext, config = {}) {
 
   const app = {
     head: {
-      "title": "Domains up for rent.",
+      "title": "Upfordomain - rent, sell, buy domains",
       "meta": [{
         "charset": "utf-8"
       }, {
@@ -3239,11 +3239,11 @@ async function createApp(ssrContext, config = {}) {
       }, {
         "hid": "title",
         "name": "title",
-        "content": "Domains up for rent."
+        "content": "Rent, sell, buy your domains with confidence."
       }, {
         "hid": "description",
         "name": "description",
-        "content": "Upfordomain - a secure way of renting domains."
+        "content": "Upfordomain - Rent, sell, buy your domains with confidence."
       }, {
         "hid": "og-type",
         "property": "og:type",
@@ -3255,11 +3255,11 @@ async function createApp(ssrContext, config = {}) {
       }, {
         "hid": "og-title",
         "property": "og:title",
-        "content": "Domains up for rent."
+        "content": "Rent, sell, buy your domains with confidence."
       }, {
         "hid": "og-description",
         "property": "og:description",
-        "content": "Upfordomain - a secure way of renting domains."
+        "content": "Upfordomain - Rent, sell, buy your domains with confidence."
       }, {
         "hid": "og-image",
         "property": "og:image",
@@ -3287,11 +3287,11 @@ async function createApp(ssrContext, config = {}) {
       }, {
         "hid": "twitter-title",
         "property": "twitter:title",
-        "content": "Domains up for rent."
+        "content": "Rent, sell, buy your domains with confidence."
       }, {
         "hid": "twitter-description",
         "property": "twitter:description",
-        "content": "Upfordomain - a secure way of renting domains."
+        "content": "Upfordomain - Rent, sell, buy your domains with confidence."
       }, {
         "hid": "twitter-image",
         "property": "twitter:image",

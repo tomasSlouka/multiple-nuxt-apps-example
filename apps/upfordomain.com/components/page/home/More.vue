@@ -13,7 +13,7 @@
                 </div>
                 <div class="box grid gap-10">
                     <h3>It's easy and affortable.</h3>
-                    <p>Make full use of your dream domain without fear of overpaying its price.</p>
+                    <p>Make full use of your new domain without fear of overpaying its price.</p>
                 </div>
                 <div class="box grid gap-10">
                     <h3>Find out more.</h3>

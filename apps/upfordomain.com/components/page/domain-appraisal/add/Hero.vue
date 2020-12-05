@@ -4,10 +4,10 @@
         <div class="container-narrow mt80">
             <div class='grid md-col-2 gap-80'>
                 <div class='grid gap-20 align-content-start align-items-start'>
-                    <h1 class='maxw500'>Domain appraisal</h1>
+                    <h1 class='maxw500'>Domain appraisal.</h1>
                     <h2 class='maxw500 h3'>Be confident about the right domain price.</h2>
                     <!-- <h1 class='maxw500'>Why sell your domain when you can rent it?</h1> -->
-                    <p class='maxw500'>There are millions of domain names on the internet. Some are more valuable than others. Let us appraise your domain name for you, so you can lease/sell your domain at the right price.</p>
+                    <p class='maxw500'>There are millions of domain names on the internet. Some are more valuable than others. Let us appraise your domain name for you, so you can rent/sell your domain at the right price.</p>
                     <p>
                         <a class='' href="" v-scroll-to="{
 								el: '#pricing',
@@ -25,7 +25,7 @@
                 </div>
 
                 <div class='box grid gap-20 align-content-start align-self-start justify-self-center'>
-                    <h3 class=''>Send us your domain for appraisal</h3>
+                    <h3 class=''>Send us your domain for appraisal.</h3>
                     <form @submit.prevent @submit='submitForm()'>
                         <div class="grid gap-20">
                             <div>
