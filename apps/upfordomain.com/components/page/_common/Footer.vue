@@ -46,6 +46,7 @@
                     <h5>Social media</h5>
                     <ul>
                         <!-- <li><nuxt-link to="/forum">Comunity Forum</nuxt-link></li> -->
+                        <li><a href="https://discord.gg/5TmNWAQJbF" target='_blank' class='new'>Community<span class='new-label-2'>new</span></a></li>
                         <li><a href="https://www.facebook.com/upfordomain" target='_blank'>Facebook</a></li>
                         <li><a href="https://twitter.com/upfordomainHQ" target='_blank'>Twitter</a></li>
                     </ul>
@@ -115,6 +116,18 @@ p.contact {
     position: absolute;
     top: 0px;
     left: 124px;
+    background-color: #39ac37;
+    border: 0px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 10px;
+    padding: 4px 8px;
+    line-height: 12px;
+}
+.new > span.new-label-2 {
+    position: absolute;
+    top: 0px;
+    left: 85px;
     background-color: #39ac37;
     border: 0px;
     border-radius: 4px;

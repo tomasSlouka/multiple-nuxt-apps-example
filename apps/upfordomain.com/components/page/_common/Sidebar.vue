@@ -21,18 +21,19 @@
                   <!-- <li><nuxt-link to="/pricing">Pricing</nuxt-link></li> -->
               </ul>
 
-              <div class='hr mt40 mb40'></div>
+              <div class='hr mt25 mb25'></div>
               
               <ul @click="$emit('close')" class='grid col-1 gap-20'>
                   <li><a href="https://app.upfordomain.com/">Log in</a></li>
-                  <!-- <li v-if='$store.getters.isUserLoggedIn'><nuxt-link to="/admin/home" class='flex nowrap align-items-center'> {{ ($store.state.userData == null) ? "Go to Admin" : "Continue as " + $store.state.userData.name + "" }}</nuxt-link></li> -->
-                  <!-- <li v-else><nuxt-link to="/log-in">Log in</nuxt-link></li> -->
-                  
-                  <!-- <li v-if='$store.getters.isUserLoggedIn'><a @click.prevent='$store.dispatch("logout")'>Log out</a></li> -->
-                  <!-- <li v-else><nuxt-link to="/sign-up">Sign Up</nuxt-link></li> -->
               </ul>
 
-              <div class='hr mt40 mb40'></div>
+              <div class='hr mt25 mb25'></div>
+              
+              <ul @click="$emit('close')" class='grid col-1 gap-20'>
+                  <li><a href="https://discord.gg/5TmNWAQJbF" class='new'>Community<span class='new-label-2'>new</span></a></li>
+              </ul>
+
+              <div class='hr mt25 mb25'></div>
 
               <p class='small'>© {{ new Date().getFullYear() }} upfordomain.com</p>
 
@@ -124,7 +125,19 @@ export default {
 .new > span.new-label {
     position: absolute;
     top: -10px;
-    right: -38px;
+    left: 135px;
+    background-color: #39ac37;
+    border: 0px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 10px;
+    padding: 4px 8px;
+    line-height: 12px;
+}
+.new > span.new-label-2 {
+    position: absolute;
+    top: -10px;
+    left: 92px;
     background-color: #39ac37;
     border: 0px;
     border-radius: 4px;
