@@ -18,12 +18,12 @@ var staticRenderFns = []
 // EXTERNAL MODULE: ./apps/upfordomain.com/components/page/_common/Header.vue + 14 modules
 var Header = __webpack_require__(60);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/upfordomain.com/components/page/domain/appraisal/add/Success.vue?vue&type=template&id=2428f21e&scoped=true&
-var Successvue_type_template_id_2428f21e_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component"},[_vm._ssrNode("<div class=\"container-narrow mt80\" data-v-2428f21e>","</div>",[_vm._ssrNode("<div class=\"grid md-col-2 gap-80\" data-v-2428f21e>","</div>",[_vm._ssrNode("<div class=\"grid gap-20 align-content-start align-items-start justify-items-start\" data-v-2428f21e>","</div>",[_vm._ssrNode("<span class=\"tag orange\" data-v-2428f21e>If you haven't yet, please verify your email address.</span> <h1 class=\"maxw500\" data-v-2428f21e>Your domain has been submited for appraisal.</h1> <p class=\"maxw500\" data-v-2428f21e>As soon as I receive the payment, I will start to appraise your domain. I will send the appraisal of the domain and analysis to your email. <br data-v-2428f21e><br data-v-2428f21e>When entering the payment, please, provide your email address and domain name in the message so that I can match the payment.<br data-v-2428f21e><br data-v-2428f21e>Thank you so much.</p> <p class=\"mt20\" data-v-2428f21e><a href=\"https://www.buymeacoffee.com/upfortomas\" target=\"_blank\" class=\"button cta\" data-v-2428f21e>Pay with buymeacoffee</a></p><p class=\"small\" data-v-2428f21e>and then</p> "),_vm._ssrNode("<p data-v-2428f21e>","</p>",[_c('nuxt-link',{staticClass:"button cta white",attrs:{"to":"/domain/appraisal/add","tag":"a"}},[_vm._v("Send another domain for appraisal")])],1),_vm._ssrNode(" <p data-v-2428f21e></p> <p data-v-2428f21e></p>")],2)])])])}
-var Successvue_type_template_id_2428f21e_scoped_true_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/upfordomain.com/components/page/domain/appraisal/add/Success.vue?vue&type=template&id=83b54aae&scoped=true&
+var Successvue_type_template_id_83b54aae_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component"},[_vm._ssrNode("<div class=\"container-narrow mt80\" data-v-83b54aae>","</div>",[_vm._ssrNode("<div class=\"grid md-col-2 gap-80\" data-v-83b54aae>","</div>",[_vm._ssrNode("<div class=\"grid gap-20 align-content-start align-items-start justify-items-start\" data-v-83b54aae>","</div>",[_vm._ssrNode("<span class=\"tag orange\" data-v-83b54aae>If you haven't yet, please verify your email address.</span> <h1 class=\"maxw500\" data-v-83b54aae>Your domain has been submited for appraisal.</h1> <p class=\"maxw500\" data-v-83b54aae>As soon as I receive the payment, I will start to appraise your domain. I will send the appraisal of the domain and analysis to your email. <br data-v-83b54aae><br data-v-83b54aae>When entering the payment, please, provide your email address and domain name in the message to match the payment.<br data-v-83b54aae><br data-v-83b54aae>Thank you so much.</p> <p class=\"mt20\" data-v-83b54aae><a href=\"https://www.buymeacoffee.com/upfortomas\" target=\"_blank\" class=\"button cta\" data-v-83b54aae>Pay with buymeacoffee</a></p><p class=\"small\" data-v-83b54aae>and then</p> "),_vm._ssrNode("<p data-v-83b54aae>","</p>",[_c('nuxt-link',{staticClass:"button cta white",attrs:{"to":"/domain/appraisal/add","tag":"a"}},[_vm._v("Send another domain for appraisal")])],1),_vm._ssrNode(" <p data-v-83b54aae></p>")],2)])])])}
+var Successvue_type_template_id_83b54aae_scoped_true_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./apps/upfordomain.com/components/page/domain/appraisal/add/Success.vue?vue&type=template&id=2428f21e&scoped=true&
+// CONCATENATED MODULE: ./apps/upfordomain.com/components/page/domain/appraisal/add/Success.vue?vue&type=template&id=83b54aae&scoped=true&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./apps/upfordomain.com/components/page/domain/appraisal/add/Success.vue?vue&type=script&lang=js&
 //
@@ -70,11 +70,11 @@ function injectStyles (context) {
 
 var component = Object(componentNormalizer["a" /* default */])(
   add_Successvue_type_script_lang_js_,
-  Successvue_type_template_id_2428f21e_scoped_true_render,
-  Successvue_type_template_id_2428f21e_scoped_true_staticRenderFns,
+  Successvue_type_template_id_83b54aae_scoped_true_render,
+  Successvue_type_template_id_83b54aae_scoped_true_staticRenderFns,
   false,
   injectStyles,
-  "2428f21e",
+  "83b54aae",
   "d79be6d2"
   
 )

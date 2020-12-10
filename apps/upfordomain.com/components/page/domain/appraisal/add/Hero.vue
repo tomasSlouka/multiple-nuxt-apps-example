@@ -81,7 +81,7 @@ export default {
         async submitForm() {
             await this.$axios.$post('/open/send/appraisal', {
                 'name': this.domain_name,
-                'email': this.email,
+                'email_buyer': this.email,
                 'appraisal_type': this.appraisal_type,
             })
             .then((response) => {
