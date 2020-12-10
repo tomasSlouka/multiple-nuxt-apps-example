@@ -7,7 +7,7 @@
                     <h1 class='maxw500'>Domain appraisal.</h1>
                     <h2 class='maxw500 h3'>Be confident about the right domain price.</h2>
                     <!-- <h1 class='maxw500'>Why sell your domain when you can rent it?</h1> -->
-                    <p class='maxw500'>There are millions of domain names on the internet. Some are more valuable than others. Let us appraise your domain name for you, so you can list your domain up for sale with confidence.</p>
+                    <p class='maxw500'>There are millions of domain names on the internet. Some are more valuable than others. Let me appraise your domain name for you, so you can list your domain up for sale with confidence.</p>
                     <p>
                         <a class='' href="" v-scroll-to="{
 								el: '#pricing',
@@ -25,7 +25,7 @@
                 </div>
 
                 <div class='box grid gap-20 align-content-start align-self-start justify-self-center'>
-                    <h3 class=''>Send us your domain for appraisal.</h3>
+                    <h3 class=''>Send me your domain for appraisal.</h3>
                     <form @submit.prevent @submit='submitForm()'>
                         <div class="grid gap-20">
                             <div>
@@ -42,7 +42,7 @@
                                 <label for="domain_name">Appraisal type</label>
                                 <select v-model='appraisal_type' name="appraisal_type" id="appraisal_type" placeholder='Choose one'>
                                     <option value="fast">Coffee domain appraisal / $3.99</option>
-                                    <option value="standard">Standard domain appraisal / $9.99</option>
+                                    <option value="standard">Standard domain appraisal / $7.99</option>
                                     <option value="expert">Expert domain appraisal / $69.99</option>
                                 </select>
                             </div>
@@ -50,7 +50,7 @@
                             <p class='info p0' v-show='submitSuccess'> {{ submitText }} </p>
                             <p class='error p0' v-show='submitError'> {{ submitText }} </p>
                             <button type='submit' class='cta justify-self-start align-self-start'>Appraise my domain</button>
-                            <p class="small">No credit card required. We will contact you with payment options.</p>
+                            <p class="small">No credit card required. I will contact you with payment options.</p>
                         </div>
                     </form>
                 </div>

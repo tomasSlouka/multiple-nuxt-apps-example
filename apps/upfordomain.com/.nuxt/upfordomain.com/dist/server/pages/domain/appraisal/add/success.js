@@ -1,7 +1,7 @@
 exports.ids = [5];
 exports.modules = {
 
-/***/ 149:
+/***/ 152:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18,14 +18,22 @@ var staticRenderFns = []
 // EXTERNAL MODULE: ./apps/upfordomain.com/components/page/_common/Header.vue + 14 modules
 var Header = __webpack_require__(60);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/upfordomain.com/components/page/domain/appraisal/add/Success.vue?vue&type=template&id=02a1e216&scoped=true&
-var Successvue_type_template_id_02a1e216_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component"},[_vm._ssrNode("<div class=\"container-narrow mt80\" data-v-02a1e216>","</div>",[_vm._ssrNode("<div class=\"grid md-col-2 gap-80\" data-v-02a1e216>","</div>",[_vm._ssrNode("<div class=\"grid gap-20 align-content-start align-items-start justify-items-start\" data-v-02a1e216>","</div>",[_vm._ssrNode("<span class=\"tag orange\" data-v-02a1e216>If you haven't yet, please verify your email address.</span> <h1 class=\"maxw500\" data-v-02a1e216>Your domain has been submited for appraisal.</h1> <p class=\"maxw500\" data-v-02a1e216>We want to provide prime quality service. That's why we are checking each submission individually. We will contact you as soon as possible with payment details. <br data-v-02a1e216><span class=\"font12\" data-v-02a1e216>(Our payment gateways is under developing 😅). Thank you for your patience.</span></p> "),_c('nuxt-link',{staticClass:"cta",attrs:{"to":"/domain/appraisal/add","tag":"button"}},[_vm._v("Send another domain for appraisal")])],2)])])])}
-var Successvue_type_template_id_02a1e216_scoped_true_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/upfordomain.com/components/page/domain/appraisal/add/Success.vue?vue&type=template&id=2428f21e&scoped=true&
+var Successvue_type_template_id_2428f21e_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component"},[_vm._ssrNode("<div class=\"container-narrow mt80\" data-v-2428f21e>","</div>",[_vm._ssrNode("<div class=\"grid md-col-2 gap-80\" data-v-2428f21e>","</div>",[_vm._ssrNode("<div class=\"grid gap-20 align-content-start align-items-start justify-items-start\" data-v-2428f21e>","</div>",[_vm._ssrNode("<span class=\"tag orange\" data-v-2428f21e>If you haven't yet, please verify your email address.</span> <h1 class=\"maxw500\" data-v-2428f21e>Your domain has been submited for appraisal.</h1> <p class=\"maxw500\" data-v-2428f21e>As soon as I receive the payment, I will start to appraise your domain. I will send the appraisal of the domain and analysis to your email. <br data-v-2428f21e><br data-v-2428f21e>When entering the payment, please, provide your email address and domain name in the message so that I can match the payment.<br data-v-2428f21e><br data-v-2428f21e>Thank you so much.</p> <p class=\"mt20\" data-v-2428f21e><a href=\"https://www.buymeacoffee.com/upfortomas\" target=\"_blank\" class=\"button cta\" data-v-2428f21e>Pay with buymeacoffee</a></p><p class=\"small\" data-v-2428f21e>and then</p> "),_vm._ssrNode("<p data-v-2428f21e>","</p>",[_c('nuxt-link',{staticClass:"button cta white",attrs:{"to":"/domain/appraisal/add","tag":"a"}},[_vm._v("Send another domain for appraisal")])],1),_vm._ssrNode(" <p data-v-2428f21e></p> <p data-v-2428f21e></p>")],2)])])])}
+var Successvue_type_template_id_2428f21e_scoped_true_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./apps/upfordomain.com/components/page/domain/appraisal/add/Success.vue?vue&type=template&id=02a1e216&scoped=true&
+// CONCATENATED MODULE: ./apps/upfordomain.com/components/page/domain/appraisal/add/Success.vue?vue&type=template&id=2428f21e&scoped=true&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./apps/upfordomain.com/components/page/domain/appraisal/add/Success.vue?vue&type=script&lang=js&
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -62,11 +70,11 @@ function injectStyles (context) {
 
 var component = Object(componentNormalizer["a" /* default */])(
   add_Successvue_type_script_lang_js_,
-  Successvue_type_template_id_02a1e216_scoped_true_render,
-  Successvue_type_template_id_02a1e216_scoped_true_staticRenderFns,
+  Successvue_type_template_id_2428f21e_scoped_true_render,
+  Successvue_type_template_id_2428f21e_scoped_true_staticRenderFns,
   false,
   injectStyles,
-  "02a1e216",
+  "2428f21e",
   "d79be6d2"
   
 )

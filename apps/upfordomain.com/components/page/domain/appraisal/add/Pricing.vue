@@ -5,13 +5,13 @@
 
             <div class='grid gap-30'>
                 <h3>Appraisal pricing plans.</h3>
-                <p>Increase your chance to get an offer from a buyer with domain name appraisal experts.</p>
+                <p>Increase your chance to get an offer from a buyer with expert domain name appraisal.</p>
                 <div class='mt20 grid md-col-3 auto gap-30'>
 
                     <div class='testimonial best grid gap-20 justify-self-start align-content-start md-order-2'>
                         <div class='popular'>Most popular</div>
                         <h4><span class='font20'>🤝</span> Standard appraisal</h4>
-                        <h3>$9.99 <span class='font12'>/ domain</span></h3>
+                        <h3>$7.99 <span class='font12'>/ domain</span></h3>
                         <div class='grid gap-5'>
                             <p class="small">
                                 Domain appraisal sent to you by email within <span class='strong'>2 business days</span> includes:

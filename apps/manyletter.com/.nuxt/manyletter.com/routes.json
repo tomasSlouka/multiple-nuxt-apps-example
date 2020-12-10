@@ -3,14 +3,12 @@
     "name": "subscribers",
     "path": "/subscribers",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\manyletter.com\\\\pages\\\\subscribers.vue",
-    "chunkName": "pages/subscribers",
-    "_name": "_d15db978"
+    "chunkName": "pages/subscribers"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\manyletter.com\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_7e18076a"
+    "chunkName": "pages/index"
   }
 ]

@@ -1867,41 +1867,41 @@ if (false) {}
 
 
 
-const _32ccfc7c = () => interopDefault(__webpack_require__.e(/* import() | pages/blog/index */ 1).then(__webpack_require__.bind(null, 141)));
+const _32ccfc7c = () => interopDefault(__webpack_require__.e(/* import() | pages/blog/index */ 1).then(__webpack_require__.bind(null, 144)));
 
-const _f7e355c0 = () => interopDefault(__webpack_require__.e(/* import() | pages/faq/index */ 11).then(__webpack_require__.bind(null, 136)));
+const _f7e355c0 = () => interopDefault(__webpack_require__.e(/* import() | pages/faq/index */ 11).then(__webpack_require__.bind(null, 140)));
 
-const _3635df50 = () => interopDefault(__webpack_require__.e(/* import() | pages/log-in/index */ 15).then(__webpack_require__.bind(null, 142)));
+const _3635df50 = () => interopDefault(__webpack_require__.e(/* import() | pages/log-in/index */ 15).then(__webpack_require__.bind(null, 145)));
 
-const _eb5fdcde = () => interopDefault(__webpack_require__.e(/* import() | pages/log-out/index */ 16).then(__webpack_require__.bind(null, 143)));
+const _eb5fdcde = () => interopDefault(__webpack_require__.e(/* import() | pages/log-out/index */ 16).then(__webpack_require__.bind(null, 146)));
 
-const _7d13766b = () => interopDefault(__webpack_require__.e(/* import() | pages/sign-up/index */ 18).then(__webpack_require__.bind(null, 144)));
+const _7d13766b = () => interopDefault(__webpack_require__.e(/* import() | pages/sign-up/index */ 18).then(__webpack_require__.bind(null, 147)));
 
-const _df42020e = () => interopDefault(__webpack_require__.e(/* import() | pages/domain/add/index */ 2).then(__webpack_require__.bind(null, 145)));
+const _df42020e = () => interopDefault(__webpack_require__.e(/* import() | pages/domain/add/index */ 2).then(__webpack_require__.bind(null, 148)));
 
-const _76c554d0 = () => interopDefault(__webpack_require__.e(/* import() | pages/domain/browse/index */ 6).then(__webpack_require__.bind(null, 151)));
+const _76c554d0 = () => interopDefault(__webpack_require__.e(/* import() | pages/domain/browse/index */ 6).then(__webpack_require__.bind(null, 154)));
 
-const _ad08d9c6 = () => interopDefault(__webpack_require__.e(/* import() | pages/domains/browse/index */ 9).then(__webpack_require__.bind(null, 152)));
+const _ad08d9c6 = () => interopDefault(__webpack_require__.e(/* import() | pages/domains/browse/index */ 9).then(__webpack_require__.bind(null, 155)));
 
-const _54cb083e = () => interopDefault(__webpack_require__.e(/* import() | pages/faq/buyer/index */ 10).then(__webpack_require__.bind(null, 137)));
+const _54cb083e = () => interopDefault(__webpack_require__.e(/* import() | pages/faq/buyer/index */ 10).then(__webpack_require__.bind(null, 141)));
 
-const _4931eae1 = () => interopDefault(__webpack_require__.e(/* import() | pages/faq/owner/index */ 12).then(__webpack_require__.bind(null, 138)));
+const _4931eae1 = () => interopDefault(__webpack_require__.e(/* import() | pages/faq/owner/index */ 12).then(__webpack_require__.bind(null, 142)));
 
-const _7cebb05f = () => interopDefault(__webpack_require__.e(/* import() | pages/log-in/code */ 14).then(__webpack_require__.bind(null, 146)));
+const _7cebb05f = () => interopDefault(__webpack_require__.e(/* import() | pages/log-in/code */ 14).then(__webpack_require__.bind(null, 149)));
 
-const _9e7d6c38 = () => interopDefault(__webpack_require__.e(/* import() | pages/sign-up/code */ 17).then(__webpack_require__.bind(null, 147)));
+const _9e7d6c38 = () => interopDefault(__webpack_require__.e(/* import() | pages/sign-up/code */ 17).then(__webpack_require__.bind(null, 150)));
 
-const _d039a42c = () => interopDefault(__webpack_require__.e(/* import() | pages/domain/add/success */ 3).then(__webpack_require__.bind(null, 148)));
+const _d039a42c = () => interopDefault(__webpack_require__.e(/* import() | pages/domain/add/success */ 3).then(__webpack_require__.bind(null, 151)));
 
-const _1b2862be = () => interopDefault(__webpack_require__.e(/* import() | pages/domain/appraisal/add/index */ 4).then(__webpack_require__.bind(null, 139)));
+const _1b2862be = () => interopDefault(__webpack_require__.e(/* import() | pages/domain/appraisal/add/index */ 4).then(__webpack_require__.bind(null, 138)));
 
-const _d43a9722 = () => interopDefault(__webpack_require__.e(/* import() | pages/domain/appraisal/add/success */ 5).then(__webpack_require__.bind(null, 149)));
+const _d43a9722 = () => interopDefault(__webpack_require__.e(/* import() | pages/domain/appraisal/add/success */ 5).then(__webpack_require__.bind(null, 152)));
 
-const _c1647556 = () => interopDefault(__webpack_require__.e(/* import() | pages/domain/detail/message/success */ 8).then(__webpack_require__.bind(null, 150)));
+const _c1647556 = () => interopDefault(__webpack_require__.e(/* import() | pages/domain/detail/message/success */ 8).then(__webpack_require__.bind(null, 153)));
 
-const _5c840a21 = () => interopDefault(__webpack_require__.e(/* import() | pages/domain/detail/_name/index */ 7).then(__webpack_require__.bind(null, 140)));
+const _5c840a21 = () => interopDefault(__webpack_require__.e(/* import() | pages/domain/detail/_name/index */ 7).then(__webpack_require__.bind(null, 143)));
 
-const _78183044 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 13).then(__webpack_require__.bind(null, 135))); // TODO: remove in Nuxt 3
+const _78183044 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 13).then(__webpack_require__.bind(null, 139))); // TODO: remove in Nuxt 3
 
 
 const emptyFn = () => {};
