@@ -43,7 +43,7 @@ module.exports =
 /******/
 /******/ 		// "0" is the signal for "already loaded"
 /******/ 		if(installedChunks[chunkId] !== 0) {
-/******/ 			var chunk = require("./" + ({"1":"pages/blog/index","2":"pages/domain-appraisal/add/index","3":"pages/domain-appraisal/add/success","4":"pages/domains-up-for-rent/add/index","5":"pages/domains-up-for-rent/add/success","6":"pages/domains-up-for-rent/browse/index","7":"pages/domains-up-for-rent/detail/_name/index","8":"pages/domains-up-for-rent/detail/message/success","9":"pages/faq/buyer/index","10":"pages/faq/index","11":"pages/faq/owner/index","12":"pages/index","13":"pages/log-in/code","14":"pages/log-in/index","15":"pages/log-out/index","16":"pages/sign-up/code","17":"pages/sign-up/index"}[chunkId]||chunkId) + ".js");
+/******/ 			var chunk = require("./" + ({"1":"pages/blog/index","2":"pages/domain/add/index","3":"pages/domain/add/success","4":"pages/domain/appraisal/add/index","5":"pages/domain/appraisal/add/success","6":"pages/domain/browse/index","7":"pages/domain/detail/_name/index","8":"pages/domain/detail/message/success","9":"pages/domains/browse/index","10":"pages/faq/buyer/index","11":"pages/faq/index","12":"pages/faq/owner/index","13":"pages/index","14":"pages/log-in/code","15":"pages/log-in/index","16":"pages/log-out/index","17":"pages/sign-up/code","18":"pages/sign-up/index"}[chunkId]||chunkId) + ".js");
 /******/ 			var moreModules = chunk.modules, chunkIds = chunk.ids;
 /******/ 			for(var moduleId in moreModules) {
 /******/ 				modules[moduleId] = moreModules[moduleId];
@@ -1867,39 +1867,41 @@ if (false) {}
 
 
 
-const _32ccfc7c = () => interopDefault(__webpack_require__.e(/* import() | pages/blog/index */ 1).then(__webpack_require__.bind(null, 140)));
+const _32ccfc7c = () => interopDefault(__webpack_require__.e(/* import() | pages/blog/index */ 1).then(__webpack_require__.bind(null, 141)));
 
-const _f7e355c0 = () => interopDefault(__webpack_require__.e(/* import() | pages/faq/index */ 10).then(__webpack_require__.bind(null, 135)));
+const _f7e355c0 = () => interopDefault(__webpack_require__.e(/* import() | pages/faq/index */ 11).then(__webpack_require__.bind(null, 136)));
 
-const _3635df50 = () => interopDefault(__webpack_require__.e(/* import() | pages/log-in/index */ 14).then(__webpack_require__.bind(null, 141)));
+const _3635df50 = () => interopDefault(__webpack_require__.e(/* import() | pages/log-in/index */ 15).then(__webpack_require__.bind(null, 142)));
 
-const _eb5fdcde = () => interopDefault(__webpack_require__.e(/* import() | pages/log-out/index */ 15).then(__webpack_require__.bind(null, 142)));
+const _eb5fdcde = () => interopDefault(__webpack_require__.e(/* import() | pages/log-out/index */ 16).then(__webpack_require__.bind(null, 143)));
 
-const _7d13766b = () => interopDefault(__webpack_require__.e(/* import() | pages/sign-up/index */ 17).then(__webpack_require__.bind(null, 143)));
+const _7d13766b = () => interopDefault(__webpack_require__.e(/* import() | pages/sign-up/index */ 18).then(__webpack_require__.bind(null, 144)));
 
-const _a32fbf5e = () => interopDefault(__webpack_require__.e(/* import() | pages/domain-appraisal/add/index */ 2).then(__webpack_require__.bind(null, 136)));
+const _df42020e = () => interopDefault(__webpack_require__.e(/* import() | pages/domain/add/index */ 2).then(__webpack_require__.bind(null, 145)));
 
-const _3ee4d4a4 = () => interopDefault(__webpack_require__.e(/* import() | pages/domains-up-for-rent/add/index */ 4).then(__webpack_require__.bind(null, 144)));
+const _76c554d0 = () => interopDefault(__webpack_require__.e(/* import() | pages/domain/browse/index */ 6).then(__webpack_require__.bind(null, 151)));
 
-const _545945fb = () => interopDefault(__webpack_require__.e(/* import() | pages/domains-up-for-rent/browse/index */ 6).then(__webpack_require__.bind(null, 145)));
+const _ad08d9c6 = () => interopDefault(__webpack_require__.e(/* import() | pages/domains/browse/index */ 9).then(__webpack_require__.bind(null, 152)));
 
-const _54cb083e = () => interopDefault(__webpack_require__.e(/* import() | pages/faq/buyer/index */ 9).then(__webpack_require__.bind(null, 137)));
+const _54cb083e = () => interopDefault(__webpack_require__.e(/* import() | pages/faq/buyer/index */ 10).then(__webpack_require__.bind(null, 137)));
 
-const _4931eae1 = () => interopDefault(__webpack_require__.e(/* import() | pages/faq/owner/index */ 11).then(__webpack_require__.bind(null, 138)));
+const _4931eae1 = () => interopDefault(__webpack_require__.e(/* import() | pages/faq/owner/index */ 12).then(__webpack_require__.bind(null, 138)));
 
-const _7cebb05f = () => interopDefault(__webpack_require__.e(/* import() | pages/log-in/code */ 13).then(__webpack_require__.bind(null, 146)));
+const _7cebb05f = () => interopDefault(__webpack_require__.e(/* import() | pages/log-in/code */ 14).then(__webpack_require__.bind(null, 146)));
 
-const _9e7d6c38 = () => interopDefault(__webpack_require__.e(/* import() | pages/sign-up/code */ 16).then(__webpack_require__.bind(null, 147)));
+const _9e7d6c38 = () => interopDefault(__webpack_require__.e(/* import() | pages/sign-up/code */ 17).then(__webpack_require__.bind(null, 147)));
 
-const _58295942 = () => interopDefault(__webpack_require__.e(/* import() | pages/domain-appraisal/add/success */ 3).then(__webpack_require__.bind(null, 148)));
+const _d039a42c = () => interopDefault(__webpack_require__.e(/* import() | pages/domain/add/success */ 3).then(__webpack_require__.bind(null, 148)));
 
-const _d2722942 = () => interopDefault(__webpack_require__.e(/* import() | pages/domains-up-for-rent/add/success */ 5).then(__webpack_require__.bind(null, 149)));
+const _1b2862be = () => interopDefault(__webpack_require__.e(/* import() | pages/domain/appraisal/add/index */ 4).then(__webpack_require__.bind(null, 139)));
 
-const _1f5ffb4a = () => interopDefault(__webpack_require__.e(/* import() | pages/domains-up-for-rent/detail/message/success */ 8).then(__webpack_require__.bind(null, 150)));
+const _d43a9722 = () => interopDefault(__webpack_require__.e(/* import() | pages/domain/appraisal/add/success */ 5).then(__webpack_require__.bind(null, 149)));
 
-const _11a18296 = () => interopDefault(__webpack_require__.e(/* import() | pages/domains-up-for-rent/detail/_name/index */ 7).then(__webpack_require__.bind(null, 139)));
+const _c1647556 = () => interopDefault(__webpack_require__.e(/* import() | pages/domain/detail/message/success */ 8).then(__webpack_require__.bind(null, 150)));
 
-const _78183044 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 12).then(__webpack_require__.bind(null, 134))); // TODO: remove in Nuxt 3
+const _5c840a21 = () => interopDefault(__webpack_require__.e(/* import() | pages/domain/detail/_name/index */ 7).then(__webpack_require__.bind(null, 140)));
+
+const _78183044 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 13).then(__webpack_require__.bind(null, 135))); // TODO: remove in Nuxt 3
 
 
 const emptyFn = () => {};
@@ -1938,17 +1940,17 @@ const routerOptions = {
     component: _7d13766b,
     name: "sign-up"
   }, {
-    path: "/domain-appraisal/add",
-    component: _a32fbf5e,
-    name: "domain-appraisal-add"
+    path: "/domain/add",
+    component: _df42020e,
+    name: "domain-add"
   }, {
-    path: "/domains-up-for-rent/add",
-    component: _3ee4d4a4,
-    name: "domains-up-for-rent-add"
+    path: "/domain/browse",
+    component: _76c554d0,
+    name: "domain-browse"
   }, {
-    path: "/domains-up-for-rent/browse",
-    component: _545945fb,
-    name: "domains-up-for-rent-browse"
+    path: "/domains/browse",
+    component: _ad08d9c6,
+    name: "domains-browse"
   }, {
     path: "/faq/buyer",
     component: _54cb083e,
@@ -1966,21 +1968,25 @@ const routerOptions = {
     component: _9e7d6c38,
     name: "sign-up-code"
   }, {
-    path: "/domain-appraisal/add/success",
-    component: _58295942,
+    path: "/domain/add/success",
+    component: _d039a42c,
+    name: "domain-add-success"
+  }, {
+    path: "/domain/appraisal/add",
+    component: _1b2862be,
+    name: "domain-appraisal-add"
+  }, {
+    path: "/domain/appraisal/add/success",
+    component: _d43a9722,
     name: "domain-appraisal-add-success"
   }, {
-    path: "/domains-up-for-rent/add/success",
-    component: _d2722942,
-    name: "domains-up-for-rent-add-success"
+    path: "/domain/detail/message/success",
+    component: _c1647556,
+    name: "domain-detail-message-success"
   }, {
-    path: "/domains-up-for-rent/detail/message/success",
-    component: _1f5ffb4a,
-    name: "domains-up-for-rent-detail-message-success"
-  }, {
-    path: "/domains-up-for-rent/detail/:name",
-    component: _11a18296,
-    name: "domains-up-for-rent-detail-name"
+    path: "/domain/detail/:name",
+    component: _5c840a21,
+    name: "domain-detail-name"
   }, {
     path: "/",
     component: _78183044,
@@ -3239,11 +3245,11 @@ async function createApp(ssrContext, config = {}) {
       }, {
         "hid": "title",
         "name": "title",
-        "content": "Rent, sell, buy your domains with confidence."
+        "content": "Trade your domains with confidence."
       }, {
         "hid": "description",
         "name": "description",
-        "content": "Upfordomain - Rent, sell, buy your domains with confidence."
+        "content": "Upfordomain - Trade your domains with confidence."
       }, {
         "hid": "og-type",
         "property": "og:type",
@@ -3255,11 +3261,11 @@ async function createApp(ssrContext, config = {}) {
       }, {
         "hid": "og-title",
         "property": "og:title",
-        "content": "Rent, sell, buy your domains with confidence."
+        "content": "Trade your domains with confidence."
       }, {
         "hid": "og-description",
         "property": "og:description",
-        "content": "Upfordomain - Rent, sell, buy your domains with confidence."
+        "content": "Upfordomain - Trade your domains with confidence."
       }, {
         "hid": "og-image",
         "property": "og:image",
@@ -3287,11 +3293,11 @@ async function createApp(ssrContext, config = {}) {
       }, {
         "hid": "twitter-title",
         "property": "twitter:title",
-        "content": "Rent, sell, buy your domains with confidence."
+        "content": "Trade your domains with confidence."
       }, {
         "hid": "twitter-description",
         "property": "twitter:description",
-        "content": "Upfordomain - Rent, sell, buy your domains with confidence."
+        "content": "Upfordomain - Trade your domains with confidence."
       }, {
         "hid": "twitter-image",
         "property": "twitter:image",

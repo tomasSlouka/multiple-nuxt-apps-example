@@ -11,16 +11,16 @@
                             upfordomain
                         </nuxt-link>
                     </div>
-                    <p class='small'>Rent, sell, buy your domains with confidence.</p>
+                    <p class='small'>Trade your domains with confidence.</p>
                     <p class='small mt40'>© {{ new Date().getFullYear() }} upfordomain.com</p>
                 </div>
 
                 <div class='grid gap-10 xs-order-1'>
                     <h5>Links</h5>
                     <ul>
-                        <li><nuxt-link to="/domains-up-for-rent/browse">Browse domains</nuxt-link></li>
-                        <li><nuxt-link to="/domain-appraisal/add" class='new'>Domain appraisal<span class='new-label'>new</span></nuxt-link></li>
-                        <li><nuxt-link to="/domains-up-for-rent/add">List your domain</nuxt-link></li>
+                        <li><nuxt-link to="/domains/browse">Browse domains</nuxt-link></li>
+                        <li><nuxt-link to="/domain/appraisal/add" class='new'>Domain appraisal<span class='new-label'>new</span></nuxt-link></li>
+                        <li><nuxt-link to="/domain/add">List your domain</nuxt-link></li>
                         <!-- <li><nuxt-link to="/blog">Blog</nuxt-link></li> -->
                         <!-- <li><nuxt-link to="/get-domain-price">Get domain price</nuxt-link></li> -->
                         <!-- <li><nuxt-link to="/sign-up">Sign up</nuxt-link></li> -->
@@ -32,7 +32,7 @@
                 <div class='grid gap-10 xs-order-2'>
                     <h5>Service</h5>
                     <ul>
-                        <li><nuxt-link to="/faq">FAQ</nuxt-link></li>
+                        <!-- <li><nuxt-link to="/faq">FAQ</nuxt-link></li> -->
                         <li><a href="https://app.upfordomain.com/">Log in</a></li>
                         <!-- <li><nuxt-link to="/creator">For creator</nuxt-link></li> -->
                         <!-- <li><nuxt-link to="/subscriber">Subscriber</nuxt-link></li> -->

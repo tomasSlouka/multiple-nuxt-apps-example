@@ -12,11 +12,11 @@
 
               <ul @click="$emit('close')" class='grid col-1 gap-20'>
                   <li><nuxt-link to="/">Home</nuxt-link></li>
-                  <li><nuxt-link to="/domains-up-for-rent/browse">Browse domain names</nuxt-link></li>
-                  <li><nuxt-link to="/domain-appraisal/add" class='new mr10'>Domain appraisal<span class='new-label'>new</span></nuxt-link></li>
-                  <li><nuxt-link to="/domains-up-for-rent/add">List your domain</nuxt-link></li>
+                  <li><nuxt-link to="/domains/browse">Browse domain names</nuxt-link></li>
+                  <li><nuxt-link to="/domain/add" class='new mr10'>Domain appraisal<span class='new-label'>new</span></nuxt-link></li>
+                  <li><nuxt-link to="/domain/add">List your domain</nuxt-link></li>
                   <!-- <li><nuxt-link to="/get-domain-price">get domain price</nuxt-link></li> -->
-                  <li><nuxt-link to="/faq">FAQ</nuxt-link></li>
+                  <!-- <li><nuxt-link to="/faq">FAQ</nuxt-link></li> -->
                   <!-- <li><nuxt-link to="/subscriber">Subscriber</nuxt-link></li> -->
                   <!-- <li><nuxt-link to="/pricing">Pricing</nuxt-link></li> -->
               </ul>

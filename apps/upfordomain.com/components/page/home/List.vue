@@ -10,7 +10,7 @@
                 <div class='grid gap-20'>
                     <h3>🆕 New domains</h3>
                     <div class='grid md-col-3 gap-20 align-items-start justify-content-start'>
-                        <nuxt-link tag='div' v-for='item in domainListNewest.data' :key='item.id' :to='"/domains-up-for-rent/detail/" + item.name' class="box-domain grid gap-10"> 
+                        <nuxt-link tag='div' v-for='item in domainListNewest.data' :key='item.id' :to='"/domain/detail/" + item.name' class="box-domain grid gap-10"> 
                             <h4> {{item.name}}</h4>
                             <div class='grid col-2'>
                                 <div>
@@ -29,7 +29,7 @@
                 <div class='grid gap-20'>
                     <h3>💯 Premium domains</h3>
                     <div class='grid md-col-3 gap-20 align-items-start justify-content-start'>
-                        <nuxt-link tag='div' v-for='item in domainListPremium.data' :key='item.id' :to='"/domains-up-for-rent/detail/" + item.name' class="box-domain grid gap-10"> 
+                        <nuxt-link tag='div' v-for='item in domainListPremium.data' :key='item.id' :to='"/domain/detail/" + item.name' class="box-domain grid gap-10"> 
                             <h4> {{item.name}}</h4>
                             <div class='grid col-2'>
                                 <div>

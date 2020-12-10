@@ -4,10 +4,16 @@
         <div class="container-narrow mt80">
             <div class='grid gap-20'>
                 <!-- <h2 class='maxw500 h1'>Can't find a free domain name for your next project?</h2> -->
-                <h1 class='maxw450 h1'>Rent, sell, buy your dream domain name with confidence.</h1>
+                <!-- <h1 class='maxw450 h1'>Trade your domain names with confidence at the best possible price.</h1> -->
+                <h1 class='maxw500 h1'>Are you up for a new domain or want to sell your domain portfolio?</h1>
+                <!-- <h2 class='maxw450 h2'>Make it worth.</h2> -->
                 <!-- <h2 class='maxw450 h1'>Can't find an available domain name for your next project?</h2> -->
-                <p class='maxw500'>Consider renting, selling or buying domains with upfordomain—secure way of domain names trading.</p>
-                <nuxt-link tag='button' to='/domains-up-for-rent/browse' class='cta justify-self-start'>Browse all domains</nuxt-link>
+                <!-- <p class='maxw500'>Consider renting, selling or buying domains with upfordomain—secure way of domain names trading.</p> -->
+                <p class='maxw500'>Upfordomain is the only domain name marketplace for makers, and indie hackers. Using our services, you can quickly create your online domain name portfolio and receive offers from buyers worldwide while taking advantage of non-existing selling fees. 🤫</p>
+                <p>
+                    <nuxt-link tag='button' to='/domain/add' class='cta mb10 justify-self-start'>I want to sell my domain</nuxt-link><br> or 
+                    <nuxt-link tag='a' to='/domain/browse' class='justify-self-start'>browse all domains and make offer</nuxt-link>
+                </p>
             </div>
         </div>
 

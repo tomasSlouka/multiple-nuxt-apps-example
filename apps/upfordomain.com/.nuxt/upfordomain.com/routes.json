@@ -35,25 +35,25 @@
     "_name": "_7d13766b"
   },
   {
-    "name": "domain-appraisal-add",
-    "path": "/domain-appraisal/add",
-    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\upfordomain.com\\\\pages\\\\domain-appraisal\\\\add\\\\index.vue",
-    "chunkName": "pages/domain-appraisal/add/index",
-    "_name": "_a32fbf5e"
+    "name": "domain-add",
+    "path": "/domain/add",
+    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\upfordomain.com\\\\pages\\\\domain\\\\add\\\\index.vue",
+    "chunkName": "pages/domain/add/index",
+    "_name": "_df42020e"
   },
   {
-    "name": "domains-up-for-rent-add",
-    "path": "/domains-up-for-rent/add",
-    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\upfordomain.com\\\\pages\\\\domains-up-for-rent\\\\add\\\\index.vue",
-    "chunkName": "pages/domains-up-for-rent/add/index",
-    "_name": "_3ee4d4a4"
+    "name": "domain-browse",
+    "path": "/domain/browse",
+    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\upfordomain.com\\\\pages\\\\domain\\\\browse\\\\index.vue",
+    "chunkName": "pages/domain/browse/index",
+    "_name": "_76c554d0"
   },
   {
-    "name": "domains-up-for-rent-browse",
-    "path": "/domains-up-for-rent/browse",
-    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\upfordomain.com\\\\pages\\\\domains-up-for-rent\\\\browse\\\\index.vue",
-    "chunkName": "pages/domains-up-for-rent/browse/index",
-    "_name": "_545945fb"
+    "name": "domains-browse",
+    "path": "/domains/browse",
+    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\upfordomain.com\\\\pages\\\\domains\\\\browse\\\\index.vue",
+    "chunkName": "pages/domains/browse/index",
+    "_name": "_ad08d9c6"
   },
   {
     "name": "faq-buyer",
@@ -84,32 +84,39 @@
     "_name": "_9e7d6c38"
   },
   {
+    "name": "domain-add-success",
+    "path": "/domain/add/success",
+    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\upfordomain.com\\\\pages\\\\domain\\\\add\\\\success.vue",
+    "chunkName": "pages/domain/add/success",
+    "_name": "_d039a42c"
+  },
+  {
+    "name": "domain-appraisal-add",
+    "path": "/domain/appraisal/add",
+    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\upfordomain.com\\\\pages\\\\domain\\\\appraisal\\\\add\\\\index.vue",
+    "chunkName": "pages/domain/appraisal/add/index",
+    "_name": "_1b2862be"
+  },
+  {
     "name": "domain-appraisal-add-success",
-    "path": "/domain-appraisal/add/success",
-    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\upfordomain.com\\\\pages\\\\domain-appraisal\\\\add\\\\success.vue",
-    "chunkName": "pages/domain-appraisal/add/success",
-    "_name": "_58295942"
+    "path": "/domain/appraisal/add/success",
+    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\upfordomain.com\\\\pages\\\\domain\\\\appraisal\\\\add\\\\success.vue",
+    "chunkName": "pages/domain/appraisal/add/success",
+    "_name": "_d43a9722"
   },
   {
-    "name": "domains-up-for-rent-add-success",
-    "path": "/domains-up-for-rent/add/success",
-    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\upfordomain.com\\\\pages\\\\domains-up-for-rent\\\\add\\\\success.vue",
-    "chunkName": "pages/domains-up-for-rent/add/success",
-    "_name": "_d2722942"
+    "name": "domain-detail-message-success",
+    "path": "/domain/detail/message/success",
+    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\upfordomain.com\\\\pages\\\\domain\\\\detail\\\\message\\\\success.vue",
+    "chunkName": "pages/domain/detail/message/success",
+    "_name": "_c1647556"
   },
   {
-    "name": "domains-up-for-rent-detail-message-success",
-    "path": "/domains-up-for-rent/detail/message/success",
-    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\upfordomain.com\\\\pages\\\\domains-up-for-rent\\\\detail\\\\message\\\\success.vue",
-    "chunkName": "pages/domains-up-for-rent/detail/message/success",
-    "_name": "_1f5ffb4a"
-  },
-  {
-    "name": "domains-up-for-rent-detail-name",
-    "path": "/domains-up-for-rent/detail/:name",
-    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\upfordomain.com\\\\pages\\\\domains-up-for-rent\\\\detail\\\\_name\\\\index.vue",
-    "chunkName": "pages/domains-up-for-rent/detail/_name/index",
-    "_name": "_11a18296"
+    "name": "domain-detail-name",
+    "path": "/domain/detail/:name",
+    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\upfordomain.com\\\\pages\\\\domain\\\\detail\\\\_name\\\\index.vue",
+    "chunkName": "pages/domain/detail/_name/index",
+    "_name": "_5c840a21"
   },
   {
     "name": "index",

@@ -11,7 +11,7 @@
 
                 <div class='grid gap-20'>
                     <h3>How to add my domain up for rent?</h3>
-                    <p>Everyone can add their domain up for rent for FREE. Go to <nuxt-link to='/domains-up-for-rent/add'> list your domain</nuxt-link> and fill in a simple form where you define a monthly renting price, and buyout price for your domain.</p>
+                    <p>Everyone can add their domain up for rent for FREE. Go to <nuxt-link to='/domain/add'> list your domain</nuxt-link> and fill in a simple form where you define a monthly renting price, and buyout price for your domain.</p>
                 </div>
 
                 <div class='grid gap-20'>

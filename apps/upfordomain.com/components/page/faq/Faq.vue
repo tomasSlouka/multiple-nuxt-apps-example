@@ -7,34 +7,34 @@
                 <div class='grid gap-60'>
                     <h2>Owner questions</h2>
                     <div class='grid gap-10'>
-                        <h4>How to add my domain up for rent?</h4>
-                        <p>Everyone can add their domain up for rent for FREE. Go to <nuxt-link to='/domains-up-for-rent/add'> list your domain</nuxt-link> and fill in a simple form where you define the monthly renting price, and the buyout price for your domain.</p>
+                        <h4>How to add my domain up for sale?</h4>
+                        <p>Everyone can add their domain up for sale for FREE. Go to <nuxt-link to='/domain/add'> list your domain</nuxt-link> and fill in a simple form where you define the monthly renting price, and the buyout price for your domain.</p>
                     </div>
                     
-                    <div class='grid gap-10'>
+                    <!-- <div class='grid gap-10'>
                         <h4>Do I need to transfer domain ownership?</h4>
                         <p>Yes. Anyone who wants to provide a domain for rent must change the domain owner to upfordomain.com. Thanks to this, we can ensure that the renter of the domain regularly pays you for the domain and protects you from the loss of the domain in case the renter ceases to pay his obligation.</p>
-                    </div>
+                    </div> -->
 
-                    <div class='grid gap-10'>
+                    <!-- <div class='grid gap-10'>
                         <h4>Do I need to transfer domain ownership before the renting period start?</h4>
                         <p>No. Ownership transfer is needed only when we find the renter for your domain.</p>
-                    </div>
+                    </div> -->
 
-                    <div class='grid gap-10'>
+                    <!-- <div class='grid gap-10'>
                         <h4>Do I need to change domain registrar?</h4>
                         <p>Yes. Change of the domain registrar to upfordomain is mandatory.</p>
-                    </div>
+                    </div> -->
 
-                    <div class='grid gap-10'>
+                    <!-- <div class='grid gap-10'>
                         <h4>Can I change the renting price?</h4>
                         <p>You can change the renting price while domain is not in rental period. Once the rent period starts, you won't be able to change the price.</p>
-                    </div>
+                    </div> -->
                     
-                    <div class='grid gap-10'>
+                    <!-- <div class='grid gap-10'>
                         <h4>What happens if a renter stop paying?</h4>
                         <p>If the renter stop paying for the domain rent for a 3 consequent months, the domain will release back to the owner.</p>
-                    </div>
+                    </div> -->
                 </div>
 
                 <div class='grid gap-60'>
