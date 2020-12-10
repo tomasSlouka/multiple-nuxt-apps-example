@@ -41,8 +41,8 @@
                             <div>
                                 <label for="domain_name">Appraisal type</label>
                                 <select v-model='appraisal_type' name="appraisal_type" id="appraisal_type" placeholder='Choose one'>
-                                    <option value="fast">Fast domain appraisal / $4.99</option>
-                                    <option value="standard">Standard domain appraisal / $12.99</option>
+                                    <option value="fast">Coffee domain appraisal / $3.99</option>
+                                    <option value="standard">Standard domain appraisal / $9.99</option>
                                     <option value="expert">Expert domain appraisal / $69.99</option>
                                 </select>
                             </div>
