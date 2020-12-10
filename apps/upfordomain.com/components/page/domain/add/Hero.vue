@@ -114,7 +114,7 @@ export default {
                 'name': this.domain_name,
                 'price_renting': this.price_renting,
                 'price_buyout': this.price_buyout,
-                'email_buyer': this.email,
+                'email_seller': this.email,
             })
             .then((response) => {
                 // console.log(response)
