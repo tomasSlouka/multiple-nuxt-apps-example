@@ -4,7 +4,7 @@
             
             <h3 class='grid gap-20 col-2 auto align-items-center'>
                 <span>Admin domain settings</span>
-                <span v-if='domainDetail.data.last_online_at !== domainDetail.data.created_at' class='tag gray justify-self-end'>Email verified</span>
+                <span v-if='domainDetail.data.last_online_at !== domainDetail.data.created_at' class='tag gray justify-self-end'>Email verified {{ domainDetail.data.email }}</span>
                 <span v-else class='tag orange justify-self-end'>Email not verified {{ domainDetail.data.email }}</span>
             </h3>
             <form @submit.prevent='submitForm()' class='grid gap-20 '>
