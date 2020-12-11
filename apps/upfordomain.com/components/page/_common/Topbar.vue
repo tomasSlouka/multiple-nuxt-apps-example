@@ -10,7 +10,7 @@
                 <ul class='flex wrap show-md align-items-center'>
                     <li><nuxt-link to="/domains/browse">Browse domain names</nuxt-link></li>
                     <li><nuxt-link to="/domain/appraisal/add" class='new mr10'>Domain appraisal<span class='new-label'>new</span></nuxt-link></li>
-                    <li><nuxt-link to="/domain/add">List your domain</nuxt-link></li>
+                    <li><nuxt-link to="/domain/add">List my domain</nuxt-link></li>
                     <!-- <li><nuxt-link to="/get-domain-price">Get domain price</nuxt-link></li> -->
                     <!-- <li><nuxt-link to="/blog">Blog</nuxt-link></li> -->
                     <!-- <li><nuxt-link to="/faq">FAQ</nuxt-link></li> -->

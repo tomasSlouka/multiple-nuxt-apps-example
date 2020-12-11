@@ -14,7 +14,7 @@
                   <li><nuxt-link to="/">Home</nuxt-link></li>
                   <li><nuxt-link to="/domains/browse">Browse domain names</nuxt-link></li>
                   <li><nuxt-link to="/domain/add" class='new mr10'>Domain appraisal<span class='new-label'>new</span></nuxt-link></li>
-                  <li><nuxt-link to="/domain/add">List your domain</nuxt-link></li>
+                  <li><nuxt-link to="/domain/add">List my domain</nuxt-link></li>
                   <!-- <li><nuxt-link to="/get-domain-price">get domain price</nuxt-link></li> -->
                   <!-- <li><nuxt-link to="/faq">FAQ</nuxt-link></li> -->
                   <!-- <li><nuxt-link to="/subscriber">Subscriber</nuxt-link></li> -->

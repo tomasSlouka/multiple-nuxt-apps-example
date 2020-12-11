@@ -25,7 +25,7 @@
                         </div>
                     </div>
                     <div class='testimonial grid gap-20 justify-self-start align-content-start md-order-1'>
-                        <h4><span class='font20'>🔥</span> Coffee appraisal</h4>
+                        <h4><span class='font20'>🔥</span> Appraisal for coffee</h4>
                         <h3>$3.99 <span class='font12'>/ domain</span></h3>
                         <p class='small'>
                             Fast individual appraisal for single domain or domains portfolio sent to you by email within <span class='strong'>1 business day</span>.
