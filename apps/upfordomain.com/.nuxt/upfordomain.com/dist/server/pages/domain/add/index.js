@@ -1,21 +1,21 @@
 exports.ids = [2];
 exports.modules = {
 
-/***/ 106:
+/***/ 107:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/twitter-1.7c01614.png";
 
 /***/ }),
 
-/***/ 107:
+/***/ 108:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/twitter-2.18f2c4b.png";
 
 /***/ }),
 
-/***/ 108:
+/***/ 109:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27,7 +27,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 109:
+/***/ 110:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -41,7 +41,7 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ 148:
+/***/ 149:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -59,7 +59,7 @@ var staticRenderFns = []
 var Header = __webpack_require__(60);
 
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/upfordomain.com/components/page/domain/add/Hero.vue?vue&type=template&id=081a5c3c&scoped=true&
-var Herovue_type_template_id_081a5c3c_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component"},[_vm._ssrNode("<div class=\"container-narrow mt80\" data-v-081a5c3c>","</div>",[_vm._ssrNode("<div class=\"grid md-col-2 gap-80\" data-v-081a5c3c>","</div>",[_vm._ssrNode("<div class=\"grid gap-20 align-content-start align-items-start\" data-v-081a5c3c>","</div>",[_vm._ssrNode("<h1 class=\"maxw500\" data-v-081a5c3c>Create your personal portfolio of domain names up for sale. </h1> <p class=\"maxw500\" data-v-081a5c3c>Do you own a domain that costs you money and is doing nothing? List your domain up for sale, and receive offers from domain brokers or business owners who search for new domains.</p> "),_vm._ssrNode("<div class=\"grid col-1 gap-30\" data-v-081a5c3c>","</div>",[_vm._ssrNode("<div class=\"testimonial grid gap-20 justify-self-start mt40\" data-v-081a5c3c>","</div>",[_vm._ssrNode("<p class=\"small\" data-v-081a5c3c>","</p>",[_vm._ssrNode("<span class=\"font20\" data-v-081a5c3c>🔥</span> Upfordomain service has not launched yet, but there are already "),_c('nuxt-link',{staticClass:"pointer strong underline",attrs:{"to":"/domains/browse","tag":"span"}},[_vm._v(_vm._s(_vm.domainStats.count)+" domains ready for you")]),_vm._ssrNode(".")],2)])])],2),_vm._ssrNode(" <div class=\"box grid gap-20 align-content-start align-self-end justify-self-center\" data-v-081a5c3c><h3 data-v-081a5c3c>Add your domain</h3> <form data-v-081a5c3c><div class=\"grid gap-20\" data-v-081a5c3c><div data-v-081a5c3c><label for=\"domain_name\" data-v-081a5c3c>Domain name</label> <input name=\"domain_name\" type=\"text\" placeholder=\"eg. example.com\" autocomplete=\"off\""+(_vm._ssrAttr("value",(_vm.domain_name)))+" data-v-081a5c3c></div> <div data-v-081a5c3c><label for=\"price_renting\" data-v-081a5c3c>Renting price ($/month)</label> <input name=\"price_renting\" type=\"text\" placeholder=\"eg. 300\" autocomplete=\"off\""+(_vm._ssrAttr("value",(_vm.price_renting)))+" data-v-081a5c3c></div> <div data-v-081a5c3c><label for=\"price_buyout\""+(_vm._ssrStyle(null,null, { display: (_vm.suggest) ? '' : 'none' }))+" data-v-081a5c3c>Suggested buyout price ($) </label> <label for=\"price_buyout\""+(_vm._ssrStyle(null,null, { display: (!_vm.suggest) ? '' : 'none' }))+" data-v-081a5c3c>Buyout price ($) </label> <input name=\"price_buyout\" type=\"text\" placeholder=\"eg. 9000\" autocomplete=\"off\""+(_vm._ssrAttr("value",(_vm.price_buyout)))+" data-v-081a5c3c></div> <div data-v-081a5c3c><label for=\"email\" data-v-081a5c3c>Your email</label> <input name=\"email\" type=\"text\" placeholder=\"eg. yourname@email.com\" autocomplete=\"on\""+(_vm._ssrAttr("value",(_vm.email)))+" data-v-081a5c3c></div> <p class=\"info p0\""+(_vm._ssrStyle(null,null, { display: (_vm.submitSuccess) ? '' : 'none' }))+" data-v-081a5c3c>"+_vm._ssrEscape(" "+_vm._s(_vm.submitText)+" ")+"</p> <p class=\"error p0\""+(_vm._ssrStyle(null,null, { display: (_vm.submitError) ? '' : 'none' }))+" data-v-081a5c3c>"+_vm._ssrEscape(" "+_vm._s(_vm.submitText)+" ")+"</p> <button type=\"submit\" class=\"cta justify-self-start align-self-start\" data-v-081a5c3c>Add my domain</button> <p class=\"small\" data-v-081a5c3c>No credit card required. It's free.</p></div></form></div>")],2)]),_vm._ssrNode(" <div class=\"container-narrow mt80\" data-v-081a5c3c><div class=\"grid gap-20\" data-v-081a5c3c><h2 data-v-081a5c3c>Who have mentioned upfordomain?</h2> <div class=\"grid md-col-3\" data-v-081a5c3c><img"+(_vm._ssrAttr("src",__webpack_require__(106)))+" alt=\"twitter-mention-1\" data-v-081a5c3c> <img"+(_vm._ssrAttr("src",__webpack_require__(107)))+" alt=\"twitter-mention-2\" data-v-081a5c3c></div></div></div>")],2)}
+var Herovue_type_template_id_081a5c3c_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component"},[_vm._ssrNode("<div class=\"container-narrow mt80\" data-v-081a5c3c>","</div>",[_vm._ssrNode("<div class=\"grid md-col-2 gap-80\" data-v-081a5c3c>","</div>",[_vm._ssrNode("<div class=\"grid gap-20 align-content-start align-items-start\" data-v-081a5c3c>","</div>",[_vm._ssrNode("<h1 class=\"maxw500\" data-v-081a5c3c>Create your personal portfolio of domain names up for sale. </h1> <p class=\"maxw500\" data-v-081a5c3c>Do you own a domain that costs you money and is doing nothing? List your domain up for sale, and receive offers from domain brokers or business owners who search for new domains.</p> "),_vm._ssrNode("<div class=\"grid col-1 gap-30\" data-v-081a5c3c>","</div>",[_vm._ssrNode("<div class=\"testimonial grid gap-20 justify-self-start mt40\" data-v-081a5c3c>","</div>",[_vm._ssrNode("<p class=\"small\" data-v-081a5c3c>","</p>",[_vm._ssrNode("<span class=\"font20\" data-v-081a5c3c>🔥</span> Upfordomain service has not launched yet, but there are already "),_c('nuxt-link',{staticClass:"pointer strong underline",attrs:{"to":"/domains/browse","tag":"span"}},[_vm._v(_vm._s(_vm.domainStats.count)+" domains ready for you")]),_vm._ssrNode(".")],2)])])],2),_vm._ssrNode(" <div class=\"box grid gap-20 align-content-start align-self-end justify-self-center\" data-v-081a5c3c><h3 data-v-081a5c3c>Add your domain</h3> <form data-v-081a5c3c><div class=\"grid gap-20\" data-v-081a5c3c><div data-v-081a5c3c><label for=\"domain_name\" data-v-081a5c3c>Domain name</label> <input name=\"domain_name\" type=\"text\" placeholder=\"eg. example.com\" autocomplete=\"off\""+(_vm._ssrAttr("value",(_vm.domain_name)))+" data-v-081a5c3c></div> <div data-v-081a5c3c><label for=\"price_renting\" data-v-081a5c3c>Renting price ($/month)</label> <input name=\"price_renting\" type=\"text\" placeholder=\"eg. 300\" autocomplete=\"off\""+(_vm._ssrAttr("value",(_vm.price_renting)))+" data-v-081a5c3c></div> <div data-v-081a5c3c><label for=\"price_buyout\""+(_vm._ssrStyle(null,null, { display: (_vm.suggest) ? '' : 'none' }))+" data-v-081a5c3c>Suggested buyout price ($) </label> <label for=\"price_buyout\""+(_vm._ssrStyle(null,null, { display: (!_vm.suggest) ? '' : 'none' }))+" data-v-081a5c3c>Buyout price ($) </label> <input name=\"price_buyout\" type=\"text\" placeholder=\"eg. 9000\" autocomplete=\"off\""+(_vm._ssrAttr("value",(_vm.price_buyout)))+" data-v-081a5c3c></div> <div data-v-081a5c3c><label for=\"email\" data-v-081a5c3c>Your email</label> <input name=\"email\" type=\"text\" placeholder=\"eg. yourname@email.com\" autocomplete=\"on\""+(_vm._ssrAttr("value",(_vm.email)))+" data-v-081a5c3c></div> <p class=\"info p0\""+(_vm._ssrStyle(null,null, { display: (_vm.submitSuccess) ? '' : 'none' }))+" data-v-081a5c3c>"+_vm._ssrEscape(" "+_vm._s(_vm.submitText)+" ")+"</p> <p class=\"error p0\""+(_vm._ssrStyle(null,null, { display: (_vm.submitError) ? '' : 'none' }))+" data-v-081a5c3c>"+_vm._ssrEscape(" "+_vm._s(_vm.submitText)+" ")+"</p> <button type=\"submit\" class=\"cta justify-self-start align-self-start\" data-v-081a5c3c>Add my domain</button> <p class=\"small\" data-v-081a5c3c>No credit card required. It's free.</p></div></form></div>")],2)]),_vm._ssrNode(" <div class=\"container-narrow mt80\" data-v-081a5c3c><div class=\"grid gap-20\" data-v-081a5c3c><h2 data-v-081a5c3c>Who have mentioned upfordomain?</h2> <div class=\"grid md-col-3\" data-v-081a5c3c><img"+(_vm._ssrAttr("src",__webpack_require__(107)))+" alt=\"twitter-mention-1\" data-v-081a5c3c> <img"+(_vm._ssrAttr("src",__webpack_require__(108)))+" alt=\"twitter-mention-2\" data-v-081a5c3c></div></div></div>")],2)}
 var Herovue_type_template_id_081a5c3c_scoped_true_staticRenderFns = []
 
 
@@ -218,7 +218,7 @@ var componentNormalizer = __webpack_require__(1);
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(108)
+  var style0 = __webpack_require__(109)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -762,7 +762,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(109);
+var content = __webpack_require__(110);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context

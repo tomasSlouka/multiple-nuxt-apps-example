@@ -1,71 +1,71 @@
 exports.ids = [13];
 exports.modules = {
 
-/***/ 132:
+/***/ 133:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Hero_vue_vue_type_style_index_0_id_37cda760_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(89);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Hero_vue_vue_type_style_index_0_id_37cda760_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Hero_vue_vue_type_style_index_0_id_37cda760_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Hero_vue_vue_type_style_index_0_id_37cda760_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Hero_vue_vue_type_style_index_0_id_37cda760_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-
-
-/***/ }),
-
-/***/ 133:
-/***/ (function(module, exports, __webpack_require__) {
-
-// Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(2);
-exports = ___CSS_LOADER_API_IMPORT___(false);
-// Module
-exports.push([module.i, ".box-guess[data-v-37cda760]{border-color:#c8e6c2 #ffecc7 #ffecc7 #c8e6c2;border-style:solid;border-width:2px;padding:30px;border-radius:4px;background:#fff}input[data-v-37cda760]{border:1px solid #f1f2f1}.box1[data-v-37cda760]{background-color:#fcf7ed;position:absolute;width:200px;height:150px;z-index:-1;bottom:-25px;right:-25px}.box2[data-v-37cda760]{width:100px;height:100px;top:-39px;left:-29px}.box2[data-v-37cda760],.box3[data-v-37cda760]{background-color:rgba(57,172,55,.05098);position:absolute;z-index:-1}.box3[data-v-37cda760]{width:306px;height:205px;top:-12px;left:-12px}#guess-button[data-v-37cda760]{position:absolute;right:4px;top:4px;font-size:12px;padding:10px;background-color:#fff;color:#39ac37;border:1px solid rgba(59,172,55,.31)}", ""]);
-// Exports
-module.exports = exports;
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Hero_vue_vue_type_style_index_0_id_03e52228_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(90);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Hero_vue_vue_type_style_index_0_id_03e52228_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Hero_vue_vue_type_style_index_0_id_03e52228_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Hero_vue_vue_type_style_index_0_id_03e52228_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Hero_vue_vue_type_style_index_0_id_03e52228_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
 
 /***/ 134:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_More_vue_vue_type_style_index_0_id_75c75d88_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(90);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_More_vue_vue_type_style_index_0_id_75c75d88_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_More_vue_vue_type_style_index_0_id_75c75d88_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_More_vue_vue_type_style_index_0_id_75c75d88_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_More_vue_vue_type_style_index_0_id_75c75d88_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-
-
-/***/ }),
-
-/***/ 135:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(2);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".component[data-v-75c75d88]{background-color:#fbf7ed;padding:1px}", ""]);
+exports.push([module.i, ".box-guess[data-v-03e52228]{border-color:#c8e6c2 #ffecc7 #ffecc7 #c8e6c2;border-style:solid;border-width:2px;padding:30px;border-radius:4px;background:#fff}input[data-v-03e52228]{border:1px solid #f1f2f1}.box1[data-v-03e52228]{background-color:#fcf7ed;position:absolute;width:200px;height:150px;z-index:-1;bottom:-25px;right:-25px}.box2[data-v-03e52228]{width:100px;height:100px;top:-39px;left:-29px}.box2[data-v-03e52228],.box3[data-v-03e52228]{background-color:rgba(57,172,55,.05098);position:absolute;z-index:-1}.box3[data-v-03e52228]{width:306px;height:205px;top:-12px;left:-12px}#guess-button[data-v-03e52228]{position:absolute;right:4px;top:4px;font-size:12px;padding:10px;background-color:#fff;color:#39ac37;border:1px solid rgba(59,172,55,.31)}", ""]);
 // Exports
 module.exports = exports;
 
 
 /***/ }),
 
-/***/ 136:
+/***/ 135:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_List_vue_vue_type_style_index_0_id_d6ff145c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(91);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_More_vue_vue_type_style_index_0_id_7f8b9fa9_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(91);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_More_vue_vue_type_style_index_0_id_7f8b9fa9_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_More_vue_vue_type_style_index_0_id_7f8b9fa9_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_More_vue_vue_type_style_index_0_id_7f8b9fa9_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_More_vue_vue_type_style_index_0_id_7f8b9fa9_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+
+
+/***/ }),
+
+/***/ 136:
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(2);
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".component[data-v-7f8b9fa9]{background-color:#fbf7ed;padding:1px}", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ 137:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_List_vue_vue_type_style_index_0_id_d6ff145c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(92);
 /* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_List_vue_vue_type_style_index_0_id_d6ff145c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_List_vue_vue_type_style_index_0_id_d6ff145c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
 /* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_List_vue_vue_type_style_index_0_id_d6ff145c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_List_vue_vue_type_style_index_0_id_d6ff145c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
 
-/***/ 137:
+/***/ 138:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -79,7 +79,7 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ 139:
+/***/ 140:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -96,14 +96,15 @@ var staticRenderFns = []
 // EXTERNAL MODULE: ./apps/upfordomain.com/components/page/_common/Header.vue + 14 modules
 var Header = __webpack_require__(60);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/upfordomain.com/components/page/home/Hero.vue?vue&type=template&id=37cda760&scoped=true&
-var Herovue_type_template_id_37cda760_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component"},[_vm._ssrNode("<div class=\"container-narrow mt80\" data-v-37cda760>","</div>",[_vm._ssrNode("<div class=\"grid gap-20\" data-v-37cda760>","</div>",[_vm._ssrNode("<h1 class=\"maxw500 h1\" data-v-37cda760>Are you up for a new domain or want to sell your domain portfolio?</h1> <p class=\"maxw500\" data-v-37cda760>Upfordomain is the only domain name marketplace for makers, and indie hackers. Using our services, you can quickly create your online domain name portfolio and receive offers from buyers worldwide while taking advantage of non-existing selling fees. 🤫</p> "),_vm._ssrNode("<p data-v-37cda760>","</p>",[_c('nuxt-link',{staticClass:"cta mb10 justify-self-start",attrs:{"tag":"button","to":"/domain/add"}},[_vm._v("I want to sell my domain")]),_vm._ssrNode("<br data-v-37cda760> or \n                "),_c('nuxt-link',{staticClass:"justify-self-start",attrs:{"tag":"a","to":"/domain/browse"}},[_vm._v("browse all domains and make offer")])],2)],2)])])}
-var Herovue_type_template_id_37cda760_scoped_true_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/upfordomain.com/components/page/home/Hero.vue?vue&type=template&id=03e52228&scoped=true&
+var Herovue_type_template_id_03e52228_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component"},[_vm._ssrNode("<div class=\"container-narrow mt80\" data-v-03e52228>","</div>",[_vm._ssrNode("<div class=\"grid gap-20\" data-v-03e52228>","</div>",[_vm._ssrNode("<h1 class=\"maxw500 h1\" data-v-03e52228>Domain names marketplace. Free. Private. No middleman</h1> <p class=\"maxw500\" data-v-03e52228>Upfordomain is the only domain name marketplace for startups, and indie hackers. Quickly create your online domain name portfolio and receive offers from buyers worldwide while taking advantage of free service and no middleman. 🤫</p> "),_vm._ssrNode("<p data-v-03e52228>","</p>",[_c('nuxt-link',{staticClass:"cta mb10 justify-self-start",attrs:{"tag":"button","to":"/domain/add"}},[_vm._v("I want to sell my domain")]),_vm._ssrNode("<br data-v-03e52228> or \n                "),_c('nuxt-link',{staticClass:"justify-self-start",attrs:{"tag":"a","to":"/domain/browse"}},[_vm._v("browse all domains and make offer")])],2)],2)])])}
+var Herovue_type_template_id_03e52228_scoped_true_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./apps/upfordomain.com/components/page/home/Hero.vue?vue&type=template&id=37cda760&scoped=true&
+// CONCATENATED MODULE: ./apps/upfordomain.com/components/page/home/Hero.vue?vue&type=template&id=03e52228&scoped=true&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./apps/upfordomain.com/components/page/home/Hero.vue?vue&type=script&lang=js&
+//
 //
 //
 //
@@ -139,7 +140,7 @@ var componentNormalizer = __webpack_require__(1);
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(132)
+  var style0 = __webpack_require__(133)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -148,22 +149,22 @@ if (style0.__inject__) style0.__inject__(context)
 
 var component = Object(componentNormalizer["a" /* default */])(
   home_Herovue_type_script_lang_js_,
-  Herovue_type_template_id_37cda760_scoped_true_render,
-  Herovue_type_template_id_37cda760_scoped_true_staticRenderFns,
+  Herovue_type_template_id_03e52228_scoped_true_render,
+  Herovue_type_template_id_03e52228_scoped_true_staticRenderFns,
   false,
   injectStyles,
-  "37cda760",
+  "03e52228",
   "4dd8ef69"
   
 )
 
 /* harmony default export */ var Hero = (component.exports);
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/upfordomain.com/components/page/home/More.vue?vue&type=template&id=75c75d88&scoped=true&
-var Morevue_type_template_id_75c75d88_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component"},[_vm._ssrNode("<div class=\"container-narrow\" data-v-75c75d88><div class=\"grid md-col-2 align-items-start justify-content-start gap-60\" data-v-75c75d88><div class=\"box grid gap-10\" data-v-75c75d88><h3 data-v-75c75d88>Add your domain.</h3> <p data-v-75c75d88>Do you have a spare domain name left after a failed project? Don't despair. Create your own portfolio of domains and make money from selling it.</p></div> <div class=\"box grid gap-10\" data-v-75c75d88><h3 data-v-75c75d88>Receive offers.</h3> <p data-v-75c75d88>If the buyer likes any of your domains, he can contact you via Upfordomain and offer the price to buy the domain. Price negotiations can thus begin.</p></div> <div class=\"box grid gap-10\" data-v-75c75d88><h3 data-v-75c75d88>Be confident.</h3> <p data-v-75c75d88>Take advantage of the &quot;Domain Addicts&quot; community and Upfordomain experts who are ready to help you and answer all of your questions about domain trading and domain appraisals.</p></div> <div class=\"box grid gap-10\" data-v-75c75d88><h3 data-v-75c75d88>Join the community.</h3> <p data-v-75c75d88>Join the free community &quot;Domain Addicts&quot; and learn more about domain trading from community members or share your experience and help others.</p> <p data-v-75c75d88>The best of all is that it's FREE. <a href=\"https://discord.gg/5TmNWAQJbF\" class=\"button cta small\" data-v-75c75d88>Click here to join</a>.</p></div></div></div>")])}
-var Morevue_type_template_id_75c75d88_scoped_true_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/upfordomain.com/components/page/home/More.vue?vue&type=template&id=7f8b9fa9&scoped=true&
+var Morevue_type_template_id_7f8b9fa9_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component"},[_vm._ssrNode("<div class=\"container-narrow\" data-v-7f8b9fa9><div class=\"grid md-col-2 align-items-start justify-content-start gap-60\" data-v-7f8b9fa9><div class=\"box grid gap-10\" data-v-7f8b9fa9><h3 data-v-7f8b9fa9>Add your domain.</h3> <p data-v-7f8b9fa9>Do you have a spare domain name left after a failed project? Don't despair. Create your own portfolio of domains and make money from selling it.</p></div> <div class=\"box grid gap-10\" data-v-7f8b9fa9><h3 data-v-7f8b9fa9>Receive offers.</h3> <p data-v-7f8b9fa9>If the buyer likes any of your domains, he can contact you via Upfordomain and offer the price to buy the domain. Price negotiations can thus begin.</p></div> <div class=\"box grid gap-10\" data-v-7f8b9fa9><h3 data-v-7f8b9fa9>Be confident.</h3> <p data-v-7f8b9fa9>Take advantage of Upfordomain experts who are ready to help you and answer all of your questions about domain trading and domain appraisals.</p></div> <div class=\"box grid gap-10\" data-v-7f8b9fa9><h3 data-v-7f8b9fa9>Join the community.</h3> <p data-v-7f8b9fa9>Join the free community &quot;Domain Addicts&quot; and learn more about domain trading from community members or share your experience and help others.</p> <p data-v-7f8b9fa9>The best of all is that it's FREE. <a href=\"https://discord.gg/5TmNWAQJbF\" class=\"button cta small\" data-v-7f8b9fa9>Click here to join</a>.</p></div></div></div>")])}
+var Morevue_type_template_id_7f8b9fa9_scoped_true_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./apps/upfordomain.com/components/page/home/More.vue?vue&type=template&id=75c75d88&scoped=true&
+// CONCATENATED MODULE: ./apps/upfordomain.com/components/page/home/More.vue?vue&type=template&id=7f8b9fa9&scoped=true&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./apps/upfordomain.com/components/page/home/More.vue?vue&type=script&lang=js&
 //
@@ -205,7 +206,7 @@ var Morevue_type_template_id_75c75d88_scoped_true_staticRenderFns = []
 
 function More_injectStyles (context) {
   
-  var style0 = __webpack_require__(134)
+  var style0 = __webpack_require__(135)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -214,11 +215,11 @@ if (style0.__inject__) style0.__inject__(context)
 
 var More_component = Object(componentNormalizer["a" /* default */])(
   home_Morevue_type_script_lang_js_,
-  Morevue_type_template_id_75c75d88_scoped_true_render,
-  Morevue_type_template_id_75c75d88_scoped_true_staticRenderFns,
+  Morevue_type_template_id_7f8b9fa9_scoped_true_render,
+  Morevue_type_template_id_7f8b9fa9_scoped_true_staticRenderFns,
   false,
   More_injectStyles,
-  "75c75d88",
+  "7f8b9fa9",
   "65b03544"
   
 )
@@ -296,7 +297,7 @@ var Listvue_type_template_id_d6ff145c_scoped_true_staticRenderFns = []
 
 function List_injectStyles (context) {
   
-  var style0 = __webpack_require__(136)
+  var style0 = __webpack_require__(137)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -841,36 +842,19 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 89:
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(133);
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add CSS to SSR context
-var add = __webpack_require__(3).default
-module.exports.__inject__ = function (context) {
-  add("237cd4ca", content, true, context)
-};
-
-/***/ }),
-
 /***/ 90:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(135);
+var content = __webpack_require__(134);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
 var add = __webpack_require__(3).default
 module.exports.__inject__ = function (context) {
-  add("3cc67a14", content, true, context)
+  add("844a2ff4", content, true, context)
 };
 
 /***/ }),
@@ -881,7 +865,24 @@ module.exports.__inject__ = function (context) {
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(137);
+var content = __webpack_require__(136);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add CSS to SSR context
+var add = __webpack_require__(3).default
+module.exports.__inject__ = function (context) {
+  add("def1d1d2", content, true, context)
+};
+
+/***/ }),
+
+/***/ 92:
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(138);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context

@@ -2,8 +2,8 @@
     <div class='page'>
         <Header />
         <Hero />
-        <Pricing />
         <!-- <Expert /> -->
+        <Pricing />
         <Footer />
     </div>
 </template>

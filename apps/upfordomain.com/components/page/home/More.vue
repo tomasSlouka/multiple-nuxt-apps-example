@@ -14,7 +14,7 @@
                 </div>
                 <div class="box grid gap-10">
                     <h3>Be confident.</h3>
-                    <p>Take advantage of the "Domain Addicts" community and Upfordomain experts who are ready to help you and answer all of your questions about domain trading and domain appraisals.</p>
+                    <p>Take advantage of Upfordomain experts who are ready to help you and answer all of your questions about domain trading and domain appraisals.</p>
                 </div>
                 <div class="box grid gap-10">
                     <h3>Join the community.</h3>

@@ -1,103 +1,103 @@
 exports.ids = [4];
 exports.modules = {
 
-/***/ 122:
+/***/ 123:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Hero_vue_vue_type_style_index_0_id_28998afc_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(84);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Hero_vue_vue_type_style_index_0_id_28998afc_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Hero_vue_vue_type_style_index_0_id_28998afc_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Hero_vue_vue_type_style_index_0_id_28998afc_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Hero_vue_vue_type_style_index_0_id_28998afc_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-
-
-/***/ }),
-
-/***/ 123:
-/***/ (function(module, exports, __webpack_require__) {
-
-// Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(2);
-exports = ___CSS_LOADER_API_IMPORT___(false);
-// Module
-exports.push([module.i, ".box[data-v-28998afc]{padding:40px;border-radius:4px;border:1px solid #e3f2e1;width:100%}.testimonial[data-v-28998afc]{padding:30px;border-radius:4px;background-color:#fbf7ed;width:100%}img[data-v-28998afc]{width:320px;max-width:100%}", ""]);
-// Exports
-module.exports = exports;
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Hero_vue_vue_type_style_index_0_id_7f5e7bdf_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(84);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Hero_vue_vue_type_style_index_0_id_7f5e7bdf_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Hero_vue_vue_type_style_index_0_id_7f5e7bdf_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Hero_vue_vue_type_style_index_0_id_7f5e7bdf_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Hero_vue_vue_type_style_index_0_id_7f5e7bdf_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
 
 /***/ 124:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Pricing_vue_vue_type_style_index_0_id_b649ff3c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(85);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Pricing_vue_vue_type_style_index_0_id_b649ff3c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Pricing_vue_vue_type_style_index_0_id_b649ff3c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Pricing_vue_vue_type_style_index_0_id_b649ff3c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Pricing_vue_vue_type_style_index_0_id_b649ff3c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(2);
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".box[data-v-7f5e7bdf]{padding:40px;border-radius:4px;border:1px solid #e3f2e1;width:100%}.testimonial[data-v-7f5e7bdf]{padding:30px;border-radius:4px;background-color:#fbf7ed;width:100%}img[data-v-7f5e7bdf]{width:320px;max-width:100%}", ""]);
+// Exports
+module.exports = exports;
 
 
 /***/ }),
 
 /***/ 125:
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(2);
-exports = ___CSS_LOADER_API_IMPORT___(false);
-// Module
-exports.push([module.i, ".box[data-v-b649ff3c]{padding:40px;border-radius:4px;border:1px solid #e3f2e1;width:100%}.testimonial[data-v-b649ff3c]{padding:30px;border-radius:4px;background-color:#fbf7ed;width:100%}.testimonial.best[data-v-b649ff3c]{border:1px solid rgb(231 136 48/59%);position:relative}img[data-v-b649ff3c]{width:320px;max-width:100%}.best>div.popular[data-v-b649ff3c]{position:absolute;top:-31px;background-color:rgb(231 136 48/59%);border-radius:4px 4px 0 0;padding:2px 10px;font-size:14px}", ""]);
-// Exports
-module.exports = exports;
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Pricing_vue_vue_type_style_index_0_id_4dba82ec_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(86);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Pricing_vue_vue_type_style_index_0_id_4dba82ec_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Pricing_vue_vue_type_style_index_0_id_4dba82ec_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Pricing_vue_vue_type_style_index_0_id_4dba82ec_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Pricing_vue_vue_type_style_index_0_id_4dba82ec_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
 
 /***/ 126:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Expert_vue_vue_type_style_index_0_id_44cffa9e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(86);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Expert_vue_vue_type_style_index_0_id_44cffa9e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Expert_vue_vue_type_style_index_0_id_44cffa9e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Expert_vue_vue_type_style_index_0_id_44cffa9e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Expert_vue_vue_type_style_index_0_id_44cffa9e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-
-
-/***/ }),
-
-/***/ 127:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(2);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".box[data-v-44cffa9e]{padding:40px;border-radius:4px;border:1px solid #e3f2e1;width:100%}.testimonial[data-v-44cffa9e]{padding:30px;border-radius:4px;background-color:#fbf7ed;width:100%}.testimonial.best[data-v-44cffa9e]{border:1px solid rgb(231 136 48/59%);position:relative}img[data-v-44cffa9e]{width:320px;max-width:100%}.best>div.popular[data-v-44cffa9e]{position:absolute;top:-31px;background-color:rgb(231 136 48/59%);border-radius:4px 4px 0 0;padding:2px 10px;font-size:14px}", ""]);
+exports.push([module.i, ".box[data-v-4dba82ec]{padding:40px;border-radius:4px;border:1px solid #e3f2e1;width:100%}.testimonial[data-v-4dba82ec]{padding:30px;border-radius:4px;background-color:#fbf7ed;width:100%}.testimonial.best[data-v-4dba82ec]{position:relative}img[data-v-4dba82ec]{width:320px;max-width:100%}.best[data-v-4dba82ec]{border:1px solid rgb(231 136 48/0)}.best>div.popular[data-v-4dba82ec]{position:absolute;top:-8px;left:4px;background-color:rgb(231 136 48/59%);border-radius:4px 4px 0 0;padding:1px 8px;font-size:12px;color:#79491c;z-index:-1;transition:all .3s}.best:hover>div.popular[data-v-4dba82ec]{top:-29px}.best[data-v-4dba82ec]:hover{border:1px solid rgb(231 136 48/59%)}.expert[data-v-4dba82ec]{padding:0 20px;border-left:1px solid rgba(59,172,55,.31)}.expert>div.avatar>img[data-v-4dba82ec]{max-width:50px;border-radius:100px}", ""]);
 // Exports
 module.exports = exports;
 
 
 /***/ }),
 
-/***/ 138:
+/***/ 127:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Expert_vue_vue_type_style_index_0_id_72973830_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(87);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Expert_vue_vue_type_style_index_0_id_72973830_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Expert_vue_vue_type_style_index_0_id_72973830_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Expert_vue_vue_type_style_index_0_id_72973830_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Expert_vue_vue_type_style_index_0_id_72973830_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+
+
+/***/ }),
+
+/***/ 128:
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(2);
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".box[data-v-72973830]{padding:40px;border-radius:4px;border:1px solid #e3f2e1;width:100%}.testimonial[data-v-72973830]{padding:30px;border-radius:4px;background-color:#fbf7ed;width:100%}.testimonial.best[data-v-72973830]{border:1px solid rgb(231 136 48/59%);position:relative}img[data-v-72973830]{width:320px;max-width:100%}.best>div.popular[data-v-72973830]{position:absolute;top:-31px;background-color:rgb(231 136 48/59%);border-radius:4px 4px 0 0;padding:2px 10px;font-size:14px}.expert[data-v-72973830]{background-color:#ebf5e8;padding:30px}.expert>div.avatar>img[data-v-72973830]{max-width:50px;border-radius:100px}", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ 139:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/upfordomain.com/pages/domain/appraisal/add/index.vue?vue&type=template&id=687be9b0&
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/upfordomain.com/pages/domain/appraisal/add/index.vue?vue&type=template&id=35ec6430&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"page"},[_c('Header'),_vm._ssrNode(" "),_c('Hero'),_vm._ssrNode(" "),_c('Pricing'),_vm._ssrNode(" "),_c('Footer')],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./apps/upfordomain.com/pages/domain/appraisal/add/index.vue?vue&type=template&id=687be9b0&
+// CONCATENATED MODULE: ./apps/upfordomain.com/pages/domain/appraisal/add/index.vue?vue&type=template&id=35ec6430&
 
 // EXTERNAL MODULE: ./apps/upfordomain.com/components/page/_common/Header.vue + 14 modules
 var Header = __webpack_require__(60);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/upfordomain.com/components/page/domain/appraisal/add/Hero.vue?vue&type=template&id=28998afc&scoped=true&
-var Herovue_type_template_id_28998afc_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component"},[_vm._ssrNode("<div class=\"container-narrow mt80\" data-v-28998afc>","</div>",[_vm._ssrNode("<div class=\"grid md-col-2 gap-80\" data-v-28998afc>","</div>",[_vm._ssrNode("<div class=\"grid gap-20 align-content-start align-items-start\" data-v-28998afc>","</div>",[_vm._ssrNode("<h1 class=\"maxw500\" data-v-28998afc>Domain appraisal.</h1> <h2 class=\"maxw500 h3\" data-v-28998afc>Be confident about the right domain price.</h2> <p class=\"maxw500\" data-v-28998afc>There are millions of domain names on the internet. Some are more valuable than others. Let me appraise your domain name for you, so you can list your domain up for sale with confidence.</p> "),_vm._ssrNode("<p data-v-28998afc>","</p>",[_c('a',{directives:[{name:"scroll-to",rawName:"v-scroll-to",value:({
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/upfordomain.com/components/page/domain/appraisal/add/Hero.vue?vue&type=template&id=7f5e7bdf&scoped=true&
+var Herovue_type_template_id_7f5e7bdf_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component"},[_vm._ssrNode("<div class=\"container-narrow mt80\" data-v-7f5e7bdf>","</div>",[_vm._ssrNode("<div class=\"grid md-col-2 gap-80\" data-v-7f5e7bdf>","</div>",[_vm._ssrNode("<div class=\"grid gap-20 align-content-start align-items-start\" data-v-7f5e7bdf>","</div>",[_vm._ssrNode("<h1 class=\"maxw500\" data-v-7f5e7bdf>Domain appraisal.</h1> <h2 class=\"maxw500 h3\" data-v-7f5e7bdf>Be confident about the right domain price.</h2> <p class=\"maxw500\" data-v-7f5e7bdf>There are millions of domain names on the internet. Some are more valuable than others. Let me appraise your domain name for you, so you can list your domain up for sale with confidence.</p> "),_vm._ssrNode("<p data-v-7f5e7bdf>","</p>",[_c('a',{directives:[{name:"scroll-to",rawName:"v-scroll-to",value:({
 								el: '#pricing',
 								easing: 'ease-in',
 								offset: 0,
@@ -108,11 +108,11 @@ var Herovue_type_template_id_28998afc_scoped_true_render = function () {var _vm=
 								//onCancel: onCancel,
 								x: false,
 								y: true
-						}),expression:"{\n\t\t\t\t\t\t\t\tel: '#pricing',\n\t\t\t\t\t\t\t\teasing: 'ease-in',\n\t\t\t\t\t\t\t\toffset: 0,\n\t\t\t\t\t\t\t\tforce: true,\n\t\t\t\t\t\t\t\tcancelable: true,\n\t\t\t\t\t\t\t\t//onStart: onStart,\n\t\t\t\t\t\t\t\t//onDone: onDone,\n\t\t\t\t\t\t\t\t//onCancel: onCancel,\n\t\t\t\t\t\t\t\tx: false,\n\t\t\t\t\t\t\t\ty: true\n\t\t\t\t\t\t}"}],attrs:{"href":""}},[_vm._ssrNode("&gt;&gt; See the pricing ")])])],2),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"box grid gap-20 align-content-start align-self-start justify-self-center\" data-v-28998afc>","</div>",[_vm._ssrNode("<h3 data-v-28998afc>Send me your domain for appraisal.</h3> "),_vm._ssrNode("<form data-v-28998afc>","</form>",[_vm._ssrNode("<div class=\"grid gap-20\" data-v-28998afc>","</div>",[_vm._ssrNode("<div data-v-28998afc><label for=\"domain_name\" data-v-28998afc>Domain name</label> <input name=\"domain_name\" type=\"text\" placeholder=\"eg. example.com\" autocomplete=\"off\""+(_vm._ssrAttr("value",(_vm.domain_name)))+" data-v-28998afc></div> <div data-v-28998afc><label for=\"email\" data-v-28998afc>Your email</label> <input name=\"email\" type=\"text\" placeholder=\"eg. yourname@email.com\" autocomplete=\"on\""+(_vm._ssrAttr("value",(_vm.email)))+" data-v-28998afc></div> "),_vm._ssrNode("<div data-v-28998afc>","</div>",[_vm._ssrNode("<label for=\"domain_name\" data-v-28998afc>Appraisal type</label> "),_c('select',{directives:[{name:"model",rawName:"v-model",value:(_vm.appraisal_type),expression:"appraisal_type"}],attrs:{"name":"appraisal_type","id":"appraisal_type","placeholder":"Choose one"},on:{"change":function($event){var $$selectedVal = Array.prototype.filter.call($event.target.options,function(o){return o.selected}).map(function(o){var val = "_value" in o ? o._value : o.value;return val}); _vm.appraisal_type=$event.target.multiple ? $$selectedVal : $$selectedVal[0]}}},[_c('option',{attrs:{"value":"fast"}},[_vm._v("Domain appraisal for coffee / $3.99")]),_vm._v(" "),_c('option',{attrs:{"value":"standard"}},[_vm._v("Standard domain appraisal / $7.99")]),_vm._v(" "),_c('option',{attrs:{"value":"expert"}},[_vm._v("Expert domain appraisal / $69.99")])])],2),_vm._ssrNode(" <p class=\"info p0\""+(_vm._ssrStyle(null,null, { display: (_vm.submitSuccess) ? '' : 'none' }))+" data-v-28998afc>"+_vm._ssrEscape(" "+_vm._s(_vm.submitText)+" ")+"</p> <p class=\"error p0\""+(_vm._ssrStyle(null,null, { display: (_vm.submitError) ? '' : 'none' }))+" data-v-28998afc>"+_vm._ssrEscape(" "+_vm._s(_vm.submitText)+" ")+"</p> <button type=\"submit\" class=\"cta justify-self-start align-self-start\" data-v-28998afc>Appraise my domain</button> <p class=\"small\" data-v-28998afc>No credit card required. I will contact you with payment options.</p>")],2)])],2)],2)])])}
-var Herovue_type_template_id_28998afc_scoped_true_staticRenderFns = []
+						}),expression:"{\n\t\t\t\t\t\t\t\tel: '#pricing',\n\t\t\t\t\t\t\t\teasing: 'ease-in',\n\t\t\t\t\t\t\t\toffset: 0,\n\t\t\t\t\t\t\t\tforce: true,\n\t\t\t\t\t\t\t\tcancelable: true,\n\t\t\t\t\t\t\t\t//onStart: onStart,\n\t\t\t\t\t\t\t\t//onDone: onDone,\n\t\t\t\t\t\t\t\t//onCancel: onCancel,\n\t\t\t\t\t\t\t\tx: false,\n\t\t\t\t\t\t\t\ty: true\n\t\t\t\t\t\t}"}],attrs:{"href":""}},[_vm._ssrNode("&gt;&gt; See the pricing ")])])],2),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"box grid gap-20 align-content-start align-self-start justify-self-center\" data-v-7f5e7bdf>","</div>",[_vm._ssrNode("<h3 data-v-7f5e7bdf>Send me your domain for appraisal.</h3> "),_vm._ssrNode("<form data-v-7f5e7bdf>","</form>",[_vm._ssrNode("<div class=\"grid gap-20\" data-v-7f5e7bdf>","</div>",[_vm._ssrNode("<div data-v-7f5e7bdf><label for=\"domain_name\" data-v-7f5e7bdf>Domain name</label> <input name=\"domain_name\" type=\"text\" placeholder=\"eg. example.com\" autocomplete=\"off\""+(_vm._ssrAttr("value",(_vm.domain_name)))+" data-v-7f5e7bdf></div> <div data-v-7f5e7bdf><label for=\"email\" data-v-7f5e7bdf>Your email</label> <input name=\"email\" type=\"text\" placeholder=\"eg. yourname@email.com\" autocomplete=\"on\""+(_vm._ssrAttr("value",(_vm.email)))+" data-v-7f5e7bdf></div> "),_vm._ssrNode("<div data-v-7f5e7bdf>","</div>",[_vm._ssrNode("<label for=\"domain_name\" data-v-7f5e7bdf>Appraisal type</label> "),_c('select',{directives:[{name:"model",rawName:"v-model",value:(_vm.appraisal_type),expression:"appraisal_type"}],attrs:{"name":"appraisal_type","id":"appraisal_type","placeholder":"Choose one"},on:{"change":function($event){var $$selectedVal = Array.prototype.filter.call($event.target.options,function(o){return o.selected}).map(function(o){var val = "_value" in o ? o._value : o.value;return val}); _vm.appraisal_type=$event.target.multiple ? $$selectedVal : $$selectedVal[0]}}},[_c('option',{attrs:{"value":"fast"}},[_vm._v("Fast domain appraisal / $3.99")]),_vm._v(" "),_c('option',{attrs:{"value":"standard"}},[_vm._v("Standard domain appraisal / $15.99")])])],2),_vm._ssrNode(" <p class=\"info p0\""+(_vm._ssrStyle(null,null, { display: (_vm.submitSuccess) ? '' : 'none' }))+" data-v-7f5e7bdf>"+_vm._ssrEscape(" "+_vm._s(_vm.submitText)+" ")+"</p> <p class=\"error p0\""+(_vm._ssrStyle(null,null, { display: (_vm.submitError) ? '' : 'none' }))+" data-v-7f5e7bdf>"+_vm._ssrEscape(" "+_vm._s(_vm.submitText)+" ")+"</p> <button type=\"submit\" class=\"cta justify-self-start align-self-start\" data-v-7f5e7bdf>Appraise my domain</button> <p class=\"small\" data-v-7f5e7bdf>No credit card required. I will contact you with payment options.</p>")],2)])],2)],2)])])}
+var Herovue_type_template_id_7f5e7bdf_scoped_true_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./apps/upfordomain.com/components/page/domain/appraisal/add/Hero.vue?vue&type=template&id=28998afc&scoped=true&
+// CONCATENATED MODULE: ./apps/upfordomain.com/components/page/domain/appraisal/add/Hero.vue?vue&type=template&id=7f5e7bdf&scoped=true&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./apps/upfordomain.com/components/page/domain/appraisal/add/Hero.vue?vue&type=script&lang=js&
 //
@@ -229,7 +229,7 @@ var componentNormalizer = __webpack_require__(1);
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(122)
+  var style0 = __webpack_require__(123)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -238,24 +238,50 @@ if (style0.__inject__) style0.__inject__(context)
 
 var component = Object(componentNormalizer["a" /* default */])(
   add_Herovue_type_script_lang_js_,
-  Herovue_type_template_id_28998afc_scoped_true_render,
-  Herovue_type_template_id_28998afc_scoped_true_staticRenderFns,
+  Herovue_type_template_id_7f5e7bdf_scoped_true_render,
+  Herovue_type_template_id_7f5e7bdf_scoped_true_staticRenderFns,
   false,
   injectStyles,
-  "28998afc",
+  "7f5e7bdf",
   "a17f98d4"
   
 )
 
 /* harmony default export */ var Hero = (component.exports);
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/upfordomain.com/components/page/domain/appraisal/add/Pricing.vue?vue&type=template&id=b649ff3c&scoped=true&
-var Pricingvue_type_template_id_b649ff3c_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component",attrs:{"id":"pricing"}},[_vm._ssrNode("<div class=\"container-narrow\" data-v-b649ff3c><div class=\"grid gap-30\" data-v-b649ff3c><h3 data-v-b649ff3c>Appraisal pricing plans.</h3> <p data-v-b649ff3c>Increase your chance to get an offer from a buyer with expert domain name appraisal.</p> <div class=\"mt20 grid md-col-3 auto gap-30\" data-v-b649ff3c><div class=\"testimonial best grid gap-20 justify-self-start align-content-start md-order-2\" data-v-b649ff3c><div class=\"popular\" data-v-b649ff3c>Most popular</div> <h4 data-v-b649ff3c><span class=\"font20\" data-v-b649ff3c>🤝</span> Standard appraisal</h4> <h3 data-v-b649ff3c>$7.99 <span class=\"font12\" data-v-b649ff3c>/ domain</span></h3> <div class=\"grid gap-5\" data-v-b649ff3c><p class=\"small\" data-v-b649ff3c>\n                            Domain appraisal sent to you by email within <span class=\"strong\" data-v-b649ff3c>2 business days</span> includes:\n                        </p> <p class=\"small\" data-v-b649ff3c><ul class=\"ml20 grid gap-5\" data-v-b649ff3c><li data-v-b649ff3c><span class=\"strong\" data-v-b649ff3c>simple analysis</span></li> <li data-v-b649ff3c><span class=\"strong\" data-v-b649ff3c>certificate</span> of domain appraisal for further negotiation about the price with potential buyers.</li></ul></p></div></div> <div class=\"testimonial grid gap-20 justify-self-start align-content-start md-order-1\" data-v-b649ff3c><h4 data-v-b649ff3c><span class=\"font20\" data-v-b649ff3c>🔥</span> Appraisal for coffee</h4> <h3 data-v-b649ff3c>$3.99 <span class=\"font12\" data-v-b649ff3c>/ domain</span></h3> <p class=\"small\" data-v-b649ff3c>\n                        Fast individual appraisal for single domain or domains portfolio sent to you by email within <span class=\"strong\" data-v-b649ff3c>1 business day</span>.\n                    </p></div> <div class=\"testimonial grid gap-20 justify-self-start md-order-3\" data-v-b649ff3c><h4 data-v-b649ff3c><span class=\"font20\" data-v-b649ff3c>🎯</span> Expert appraisal</h4> <h3 data-v-b649ff3c>$69.99 <span class=\"font12\" data-v-b649ff3c>/ domain</span></h3> <div class=\"grid gap-5\" data-v-b649ff3c><p class=\"small\" data-v-b649ff3c>\n                            Domain appraisal sent to you by email within <span class=\"strong\" data-v-b649ff3c>5 business days</span> includes:\n                        </p> <p class=\"small\" data-v-b649ff3c><ul class=\"ml20 grid gap-5\" data-v-b649ff3c><li data-v-b649ff3c>all from the Standard plan</li> <li data-v-b649ff3c><span class=\"strong\" data-v-b649ff3c>expert analysis</span> based on 5 factors such as search engine suitability, advertising, selling/buying prospects.</li></ul></p></div></div></div></div></div>")])}
-var Pricingvue_type_template_id_b649ff3c_scoped_true_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/upfordomain.com/components/page/domain/appraisal/add/Pricing.vue?vue&type=template&id=4dba82ec&scoped=true&
+var Pricingvue_type_template_id_4dba82ec_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component",attrs:{"id":"pricing"}},[_vm._ssrNode("<div class=\"container-narrow\" data-v-4dba82ec><div class=\"grid gap-30\" data-v-4dba82ec><h3 data-v-4dba82ec>Appraisal pricing plans.</h3> <p data-v-4dba82ec>Increase your chance to get an offer from a buyer with expert domain name appraisal.</p> <div class=\"mt20 grid md-col-3 gap-30\" data-v-4dba82ec><div class=\"testimonial best grid gap-20 justify-self-start align-content-start md-order-2\" data-v-4dba82ec><div class=\"popular\" data-v-4dba82ec>Recomended</div> <h4 data-v-4dba82ec><span class=\"font20\" data-v-4dba82ec>🤝</span> Standard appraisal</h4> <h3 data-v-4dba82ec>$15.99 <span class=\"font12\" data-v-4dba82ec>/ domain</span></h3> <div class=\"grid gap-5\" data-v-4dba82ec><p class=\"small\" data-v-4dba82ec>\n                            With standard appraisal you will get a more precise analysis of a domain name you want to sell or buy:\n                        </p> <p class=\"small\" data-v-4dba82ec><ul class=\"ml20 grid gap-5\" data-v-4dba82ec><li data-v-4dba82ec><span class=\"strong\" data-v-4dba82ec>simple analysis</span></li> <li data-v-4dba82ec><span class=\"strong\" data-v-4dba82ec>badge and certificate</span> of domain appraisal for further negotiation about the price with potential buyers.</li></ul></p></div></div> <div class=\"testimonial best grid gap-20 justify-self-start align-content-start md-order-1\" data-v-4dba82ec><div class=\"popular\" data-v-4dba82ec>Most popular</div> <h4 data-v-4dba82ec><span class=\"font20\" data-v-4dba82ec>🔥</span> Fast appraisal</h4> <h3 data-v-4dba82ec>$3.99 <span class=\"font12\" data-v-4dba82ec>/ domain</span></h3> <p class=\"small\" data-v-4dba82ec>\n                        If you are not sure about the right price of your domain name, a fast appraisal is ideal for you. \n                        </p> <p class=\"small\" data-v-4dba82ec><ul class=\"ml20 grid gap-5\" data-v-4dba82ec><li data-v-4dba82ec><span class=\"strong\" data-v-4dba82ec>get a raw estimation</span></li> <li data-v-4dba82ec><span class=\"strong\" data-v-4dba82ec>badge</span> of domain appraisal for your domain profile on Upfordomain.</li></ul></p></div> <div class=\"expert grid gap-20 align-self-center justify-content-start align-items-center md-order-3\" data-v-4dba82ec><div class=\"text grid gap-10 align-content-start\" data-v-4dba82ec><p class=\"small\" data-v-4dba82ec>I'm helping my customers with domain trading and investing for more than 2 years. Domain name appraisal is just the first step in domain trading, but very important because if the first price is too high, no one will send you an offer. On the other side, if the price is too low, you lose money.</p></div> <div class=\"avatar grid col-2 auto gap-10 justify-self-start\" data-v-4dba82ec><img"+(_vm._ssrAttr("src",__webpack_require__(85)))+" alt=\"avatar\" data-v-4dba82ec> <div data-v-4dba82ec><p class=\"strong\" data-v-4dba82ec>Tomas Slouka</p> <p class=\"small\" data-v-4dba82ec>CEO Upfordomain</p></div></div></div></div></div></div>")])}
+var Pricingvue_type_template_id_4dba82ec_scoped_true_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./apps/upfordomain.com/components/page/domain/appraisal/add/Pricing.vue?vue&type=template&id=b649ff3c&scoped=true&
+// CONCATENATED MODULE: ./apps/upfordomain.com/components/page/domain/appraisal/add/Pricing.vue?vue&type=template&id=4dba82ec&scoped=true&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./apps/upfordomain.com/components/page/domain/appraisal/add/Pricing.vue?vue&type=script&lang=js&
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -324,7 +350,7 @@ var Pricingvue_type_template_id_b649ff3c_scoped_true_staticRenderFns = []
 
 function Pricing_injectStyles (context) {
   
-  var style0 = __webpack_require__(124)
+  var style0 = __webpack_require__(125)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -333,50 +359,24 @@ if (style0.__inject__) style0.__inject__(context)
 
 var Pricing_component = Object(componentNormalizer["a" /* default */])(
   add_Pricingvue_type_script_lang_js_,
-  Pricingvue_type_template_id_b649ff3c_scoped_true_render,
-  Pricingvue_type_template_id_b649ff3c_scoped_true_staticRenderFns,
+  Pricingvue_type_template_id_4dba82ec_scoped_true_render,
+  Pricingvue_type_template_id_4dba82ec_scoped_true_staticRenderFns,
   false,
   Pricing_injectStyles,
-  "b649ff3c",
+  "4dba82ec",
   "3ca9d2da"
   
 )
 
 /* harmony default export */ var Pricing = (Pricing_component.exports);
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/upfordomain.com/components/page/domain/appraisal/add/Expert.vue?vue&type=template&id=44cffa9e&scoped=true&
-var Expertvue_type_template_id_44cffa9e_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component",attrs:{"id":"pricing"}},[_vm._ssrNode("<div class=\"container-narrow\" data-v-44cffa9e><div class=\"grid gap-30\" data-v-44cffa9e><h3 data-v-44cffa9e>Who is behind appraisal.</h3> <p data-v-44cffa9e>Increase your chance to get an offer from a buyer with expert domain name appraisal.</p> <div class=\"mt20 grid md-col-3 auto gap-30\" data-v-44cffa9e><div class=\"testimonial best grid gap-20 justify-self-start align-content-start md-order-2\" data-v-44cffa9e><div class=\"popular\" data-v-44cffa9e>Most popular</div> <h4 data-v-44cffa9e><span class=\"font20\" data-v-44cffa9e>🤝</span> Standard appraisal</h4> <h3 data-v-44cffa9e>$7.99 <span class=\"font12\" data-v-44cffa9e>/ domain</span></h3> <div class=\"grid gap-5\" data-v-44cffa9e><p class=\"small\" data-v-44cffa9e>\n                            Domain appraisal sent to you by email within <span class=\"strong\" data-v-44cffa9e>2 business days</span> includes:\n                        </p> <p class=\"small\" data-v-44cffa9e><ul class=\"ml20 grid gap-5\" data-v-44cffa9e><li data-v-44cffa9e><span class=\"strong\" data-v-44cffa9e>simple analysis</span></li> <li data-v-44cffa9e><span class=\"strong\" data-v-44cffa9e>certificate</span> of domain appraisal for further negotiation about the price with potential buyers.</li></ul></p></div></div> <div class=\"testimonial grid gap-20 justify-self-start align-content-start md-order-1\" data-v-44cffa9e><h4 data-v-44cffa9e><span class=\"font20\" data-v-44cffa9e>🔥</span> Coffee appraisal</h4> <h3 data-v-44cffa9e>$3.99 <span class=\"font12\" data-v-44cffa9e>/ domain</span></h3> <p class=\"small\" data-v-44cffa9e>\n                        Fast individual appraisal for single domain or domains portfolio sent to you by email within <span class=\"strong\" data-v-44cffa9e>1 business day</span>.\n                    </p></div> <div class=\"testimonial grid gap-20 justify-self-start md-order-3\" data-v-44cffa9e><h4 data-v-44cffa9e><span class=\"font20\" data-v-44cffa9e>🎯</span> Expert appraisal</h4> <h3 data-v-44cffa9e>$69.99 <span class=\"font12\" data-v-44cffa9e>/ domain</span></h3> <div class=\"grid gap-5\" data-v-44cffa9e><p class=\"small\" data-v-44cffa9e>\n                            Domain appraisal sent to you by email within <span class=\"strong\" data-v-44cffa9e>5 business days</span> includes:\n                        </p> <p class=\"small\" data-v-44cffa9e><ul class=\"ml20 grid gap-5\" data-v-44cffa9e><li data-v-44cffa9e>all from the Standard plan</li> <li data-v-44cffa9e><span class=\"strong\" data-v-44cffa9e>expert analysis</span> based on 5 factors such as search engine suitability, advertising, selling/buying prospects.</li></ul></p></div></div></div></div></div>")])}
-var Expertvue_type_template_id_44cffa9e_scoped_true_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/upfordomain.com/components/page/domain/appraisal/add/Expert.vue?vue&type=template&id=72973830&scoped=true&
+var Expertvue_type_template_id_72973830_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component",attrs:{"id":"pricing"}},[_vm._ssrNode("<div class=\"container-narrow\" data-v-72973830><div class=\"grid gap-30\" data-v-72973830><h3 data-v-72973830>Who is appraising your domains?</h3> <div class=\"mt20 expert grid gap-20 justify-content-start align-items-center maxw550\" data-v-72973830><div class=\"text grid gap-10 align-content-start\" data-v-72973830><p class=\"small\" data-v-72973830>For more than 2 years, I'm helping my customers with domain trading and investing. Domain name appraisal is just the first step in domain trading, but very important because if the first price is too high, no one will send you an offer. On the other side, if the price is too low, you lose money.</p></div> <div class=\"avatar grid col-2 auto gap-10 justify-self-start\" data-v-72973830><img"+(_vm._ssrAttr("src",__webpack_require__(85)))+" alt=\"avatar\" data-v-72973830> <div data-v-72973830><p class=\"strong\" data-v-72973830>Tomas Slouka</p> <p class=\"small\" data-v-72973830>CEO Upfordomain</p></div></div></div></div></div>")])}
+var Expertvue_type_template_id_72973830_scoped_true_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./apps/upfordomain.com/components/page/domain/appraisal/add/Expert.vue?vue&type=template&id=44cffa9e&scoped=true&
+// CONCATENATED MODULE: ./apps/upfordomain.com/components/page/domain/appraisal/add/Expert.vue?vue&type=template&id=72973830&scoped=true&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./apps/upfordomain.com/components/page/domain/appraisal/add/Expert.vue?vue&type=script&lang=js&
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -419,7 +419,7 @@ var Expertvue_type_template_id_44cffa9e_scoped_true_staticRenderFns = []
 
 function Expert_injectStyles (context) {
   
-  var style0 = __webpack_require__(126)
+  var style0 = __webpack_require__(127)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -428,11 +428,11 @@ if (style0.__inject__) style0.__inject__(context)
 
 var Expert_component = Object(componentNormalizer["a" /* default */])(
   add_Expertvue_type_script_lang_js_,
-  Expertvue_type_template_id_44cffa9e_scoped_true_render,
-  Expertvue_type_template_id_44cffa9e_scoped_true_staticRenderFns,
+  Expertvue_type_template_id_72973830_scoped_true_render,
+  Expertvue_type_template_id_72973830_scoped_true_staticRenderFns,
   false,
   Expert_injectStyles,
-  "44cffa9e",
+  "72973830",
   "d1736e74"
   
 )
@@ -964,13 +964,13 @@ var component = Object(componentNormalizer["a" /* default */])(
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(123);
+var content = __webpack_require__(124);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
 var add = __webpack_require__(3).default
 module.exports.__inject__ = function (context) {
-  add("7c8f35e6", content, true, context)
+  add("0d09dd06", content, true, context)
 };
 
 /***/ }),
@@ -978,17 +978,7 @@ module.exports.__inject__ = function (context) {
 /***/ 85:
 /***/ (function(module, exports, __webpack_require__) {
 
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(125);
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add CSS to SSR context
-var add = __webpack_require__(3).default
-module.exports.__inject__ = function (context) {
-  add("2fe91e5b", content, true, context)
-};
+module.exports = __webpack_require__.p + "img/avatar_2.94a98f8.png";
 
 /***/ }),
 
@@ -998,13 +988,30 @@ module.exports.__inject__ = function (context) {
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(127);
+var content = __webpack_require__(126);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
 var add = __webpack_require__(3).default
 module.exports.__inject__ = function (context) {
-  add("19fee4e8", content, true, context)
+  add("159f2ef9", content, true, context)
+};
+
+/***/ }),
+
+/***/ 87:
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(128);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add CSS to SSR context
+var add = __webpack_require__(3).default
+module.exports.__inject__ = function (context) {
+  add("8e861112", content, true, context)
 };
 
 /***/ })

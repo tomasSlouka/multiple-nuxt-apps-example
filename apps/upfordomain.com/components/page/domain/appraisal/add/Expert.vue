@@ -4,47 +4,21 @@
         <div class="container-narrow">
 
             <div class='grid gap-30'>
-                <h3>Who is behind appraisal.</h3>
-                <p>Increase your chance to get an offer from a buyer with expert domain name appraisal.</p>
-                <div class='mt20 grid md-col-3 auto gap-30'>
-
-                    <div class='testimonial best grid gap-20 justify-self-start align-content-start md-order-2'>
-                        <div class='popular'>Most popular</div>
-                        <h4><span class='font20'>🤝</span> Standard appraisal</h4>
-                        <h3>$7.99 <span class='font12'>/ domain</span></h3>
-                        <div class='grid gap-5'>
-                            <p class="small">
-                                Domain appraisal sent to you by email within <span class='strong'>2 business days</span> includes:
-                            </p>
-                            <p class='small'>
-                                <ul class='ml20 grid gap-5'>
-                                    <li><span class='strong'>simple analysis</span></li>
-                                    <li><span class='strong'>certificate</span> of domain appraisal for further negotiation about the price with potential buyers.</li>
-                                </ul> 
-                            </p>
-                        </div>
-                    </div>
-                    <div class='testimonial grid gap-20 justify-self-start align-content-start md-order-1'>
-                        <h4><span class='font20'>🔥</span> Coffee appraisal</h4>
-                        <h3>$3.99 <span class='font12'>/ domain</span></h3>
-                        <p class='small'>
-                            Fast individual appraisal for single domain or domains portfolio sent to you by email within <span class='strong'>1 business day</span>.
-                        </p>
+                <h3>Who is appraising your domains?</h3>
+                
+                <div class='mt20 expert grid gap-20 justify-content-start align-items-center maxw550'>
+                    
+                    <div class='text grid gap-10 align-content-start'>
+                        <!-- <p>Hi there. </p> -->
+                        <!-- <p>My name is Tomas, and domain names are my passion.</p> -->
+                        <p class='small'>For more than 2 years, I'm helping my customers with domain trading and investing. Domain name appraisal is just the first step in domain trading, but very important because if the first price is too high, no one will send you an offer. On the other side, if the price is too low, you lose money.</p> 
                     </div>
 
-                    <div class='testimonial grid gap-20 justify-self-start md-order-3'>
-                        <h4><span class='font20'>🎯</span> Expert appraisal</h4>
-                        <h3>$69.99 <span class='font12'>/ domain</span></h3>
-                        <div class='grid gap-5'>
-                            <p class="small">
-                                Domain appraisal sent to you by email within <span class='strong'>5 business days</span> includes:
-                            </p>
-                            <p class='small'>
-                                <ul class='ml20 grid gap-5'>
-                                    <li>all from the Standard plan</li>
-                                    <li><span class='strong'>expert analysis</span> based on 5 factors such as search engine suitability, advertising, selling/buying prospects.</li>
-                                </ul> 
-                            </p>
+                    <div class='avatar grid col-2 auto gap-10 justify-self-start'>
+                        <img src="@/assets/img/upfordomain/avatar_2.png" alt="avatar" />
+                        <div>
+                            <p class='strong'>Tomas Slouka</p>
+                            <p class="small">CEO Upfordomain</p>
                         </div>
                     </div>
                 </div>
@@ -98,5 +72,22 @@ img {
     border-radius: 4px 4px 0px 0px;
     padding: 2px 10px;
     font-size: 14px;
+}
+
+.expert {
+    background-color: #ebf5e8;
+    padding: 30px;
+}
+.expert > div.text {
+    /* padding: 30px; */
+    /* border-right: 1px solid #ccc; */
+}
+.expert > div.avatar {
+    /* padding: 30px; */
+    /* border-right: 1px solid #ccc; */
+}
+.expert > div.avatar > img {
+    max-width: 50px;
+    border-radius: 100px;
 }
 </style>
