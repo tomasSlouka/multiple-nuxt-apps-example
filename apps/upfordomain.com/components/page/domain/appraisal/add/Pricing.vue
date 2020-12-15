@@ -18,7 +18,7 @@
                             </p>
                             <p class='small'>
                                 <ul class='ml20 grid gap-5'>
-                                    <li><span class='strong'>simple analysis</span></li>
+                                    <li><span class='strong'>deeper analysis of domain name</span> based on factors such as search engine suitability, advertising, selling/buying prospects.</li>
                                     <li><span class='strong'>badge and certificate</span> of domain appraisal for further negotiation about the price with potential buyers.</li>
                                 </ul> 
                             </p>
@@ -35,7 +35,7 @@
                         </p>
                         <p class='small'>
                             <ul class='ml20 grid gap-5'>
-                                <li><span class='strong'>get a raw estimation</span></li>
+                                <li><span class='strong'>get a raw estimation</span> without analysis (less accurate)</li>
                                 <li><span class='strong'>badge</span> of domain appraisal for your domain profile on Upfordomain.</li>
                             </ul> 
                         </p>
