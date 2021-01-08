@@ -4,9 +4,9 @@
             <div class="container-standard">
                 <div class='flex wrap align-items-center justify-content-space-between'>
                     <div class='logo'>
-                        <nuxt-link to="/">
+                        <a href="https://upfordomain.com/">
                             upfordomain
-                        </nuxt-link>
+                        </a>
                     </div>
                     <div class='nav'>
                         <ul class='flex wrap show-md align-items-center'>
