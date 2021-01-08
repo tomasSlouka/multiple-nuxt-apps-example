@@ -19,8 +19,9 @@
     "app.manyletter.com:dev": "nuxt --config-file apps/app.manyletter.com/nuxt.config.js",
     "upforweb.com:dev": "nuxt --config-file apps/upforweb.com/nuxt.config.js",
     "howtonewsletter.com:dev": "nuxt --config-file apps/howtonewsletter.com/nuxt.config.js",
+    "tulaveknizky.sk:dev": "nuxt --config-file apps/tulaveknizky.sk/nuxt.config.js",
     
-    "dev": "concurrently \"npm run upfordomain.com:dev\" \"npm run app.upfordomain.com:dev\" \"npm run manyletter.com:dev\" \"npm run app.manyletter.com:dev\" \"npm run upforweb.com:dev\" \"npm run howtonewsletter.com:dev\"",
+    "dev": "concurrently \"npm run upfordomain.com:dev\" \"npm run app.upfordomain.com:dev\" \"npm run manyletter.com:dev\" \"npm run app.manyletter.com:dev\" \"npm run upforweb.com:dev\" \"npm run howtonewsletter.com:dev\" \"npm run tulaveknizky.sk:dev\"",
     
     "upfordomain.com:build": "nuxt build --config-file apps/upfordomain.com/nuxt.config.js",
     "app.upfordomain.com:build": "nuxt build --config-file apps/app.upfordomain.com/nuxt.config.js",

@@ -17,7 +17,7 @@
                             </p>
                         </div>
                         <div>
-                            <label>Rering price</label>
+                            <label>Renting price</label>
                             <p>${{item.price_renting}}/month</p>
                         </div>
                         <div>
