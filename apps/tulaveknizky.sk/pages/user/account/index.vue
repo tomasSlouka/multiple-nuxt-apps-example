@@ -1,0 +1,26 @@
+<template>
+    <div class='page'>
+        <SubNav />
+        <Hero 
+            h1='Môj účet'
+            h2='Nastavenia'
+        />
+    </div>
+</template>
+
+<script>
+import Hero from '@/components/page/user/account/_common/Hero.vue'
+import SubNav from '@/components/page/user/account/_common/SubNav.vue'
+
+export default {
+    middleware: ['check-userdata'],
+    layout: 'defaultPage',
+        components: {
+            SubNav, Hero
+    },
+}
+</script>
+
+<style>
+
+</style>

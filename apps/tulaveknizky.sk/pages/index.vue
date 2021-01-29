@@ -1,7 +1,9 @@
 <template>
     <div class='page'>
         <!-- <Header /> -->
+        <SubNav />
         <Hero />
+        <More />
         <Books />
         <Newsletter />
         <!-- <Testimonials /> -->
@@ -12,17 +14,17 @@
 </template>
 
 <script>
-import Header from '@/components/page/_common/Header.vue'
+import SubNav from '@/components/page/home/SubNav.vue'
 import Hero from '@/components/page/home/Hero.vue'
+import More from '@/components/page/home/More.vue'
 import Books from '@/components/page/home/Books.vue'
 import Newsletter from '@/components/page/home/Newsletter.vue'
-import Footer from '@/components/page/_common/Footer.vue'
 
 export default {
     middleware: ['check-userdata'],
     layout: 'defaultPage',
         components: {
-            Header, Hero, Books, Newsletter, Footer,
+            SubNav, Hero, More, Books, Newsletter,
     },
     // async asyncData({ $axios, params }) {
     //     const [domainListNewest, domainListPremium] = await Promise.all ([

@@ -18,7 +18,7 @@
                 <div>
                     <!-- <p class='gray text-center small'>  By clicking the button above you agree to our Terms and Privacy Policy. </p> -->
                     <p class='gray text-center small'>  Kliknutím na "pokračovať" súhlasiš s podmienkami poskytovania služby a spracovaním osobných údajov. </p>
-                    <p class='gray text-center small mt20'>Máš už účet? <nuxt-link to='/log-in'>Prihlás sa</nuxt-link>.</p>
+                    <p class='gray text-center small mt20'>Máš už účet? <nuxt-link to='/prihlasenie'>Prihlás sa</nuxt-link>.</p>
                     <!-- <p class='gray text-center small'>You will get verification code to your email.</p> -->
                     <!-- <p class='gray text-center small'>No spam ever.</p> -->
                 </div>

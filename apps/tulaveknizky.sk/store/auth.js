@@ -40,7 +40,7 @@ export const actions = {
             password: authData.password,
         })
         .then((response) => {
-            // console.log(response);
+            console.log(response);
             vuexContext.commit('setToken', response.auth_token)
             localStorage.setItem("userData", JSON.stringify(response.data.data))
             localStorage.setItem("auth_token", JSON.stringify(response.auth_token))

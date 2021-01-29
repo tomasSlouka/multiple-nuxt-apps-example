@@ -1,6 +1,6 @@
 <template>
     <div id='layout_default_admin' class='admin-layout'>
-        <div id='used-layout'> Layout - default_admin_home </div>
+        <div id='used-layout'> Layout - default_admin </div>
         <Header />
         <nuxt />
         <Footer />
@@ -8,12 +8,11 @@
 </template>
 
 <script>
-import Header from '@/components/admin/_common/Header.vue'
-import Footer from '@/components/admin/_common/Footer.vue'
+import Header from '@/components/page/_common/Header.vue'
+import Footer from '@/components/page/_common/Footer.vue'
 
 export default {
   middleware: ['log', 'check-auth', 'auth'],
-  // middleware: ['auth'],
   components: {
     Header, Footer
   }
@@ -21,10 +20,10 @@ export default {
 </script>
 
 <style>
-#layout_default_admin {
-    margin-top: 68px;
+#layout_default_page {
+    /* margin-top: 68px; */
     /* background-color: #39ac370d; */
-    background-color: #f5f8fc;
+    /* background-color: #f5f8fc; */
     /* background-color: #f0f2f5; */
     /* background-color: rgb(251 251 251); */
 }

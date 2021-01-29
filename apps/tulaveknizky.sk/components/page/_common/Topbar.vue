@@ -1,9 +1,9 @@
 <template>
     <div>
         <div id="topbar">
-             <div class="container-standard">
+             <div class="container-standard grid align-items-center">
                 <div class='flex wrap align-items-center justify-content-space-between'>
-                    <div class='logo mt10'>
+                    <div class='logo justify-self-start'>
                         <nuxt-link class='grid gap-10 col-2 auto align-items-center' to="/">
                             <img src="@/assets/img/logo-icon.svg" alt="" class='logo-icon' />
                             <img src="@/assets/img/logo.svg" alt="" class='logo-text' />
@@ -12,16 +12,18 @@
                     <div class='nav'>
                         <ul v-if="$store.getters['auth/isUserLoggedIn']" class='flex wrap show-md align-items-center'>
                             <!-- <li><nuxt-link to='/admin'>{{$store.state.auth.userData.name}}</nuxt-link></li> -->
-                            <li><nuxt-link to='/knihy'>Všetky knižky</nuxt-link></li>
+                            <li><nuxt-link to='/knihy'>Knižnica</nuxt-link></li>
+                            <!-- <li><nuxt-link to='/knihy'>Blog</nuxt-link></li> -->
+                            <!-- <li><nuxt-link to='/knihy'>Newsletter</nuxt-link></li> -->
                             <li>|</li>
+                            <li v-if="$store.state.auth.userData.level == 104"><nuxt-link to='/admin'>Administrácia</nuxt-link></li>
                             <li><nuxt-link to='/user/books/basket'>Moje knižky</nuxt-link></li>
-                            <li><nuxt-link to='/user/account/settings'>Môj účet</nuxt-link></li>
-                            <li v-if="$store.state.auth.userData.level == 104"><nuxt-link to='/admin'>Admin</nuxt-link></li>
-                            <li><a @click.prevent='logout()'>Odhlásiť sa</a></li>
+                            <li><nuxt-link to='/user/account/'>Môj účet</nuxt-link></li>
+                            <!-- <li><a @click.prevent='logout()'>Odhlásiť sa</a></li> -->
 
                         </ul>
                         <ul v-else class='flex wrap show-md align-items-center'>
-                            <li><nuxt-link to='/knihy'>Všetky knižky</nuxt-link></li>
+                            <li><nuxt-link to='/knihy'>Knižnica</nuxt-link></li>
                             <li>|</li>
                             <li><nuxt-link to='/prihlasenie'>Prihlásenie</nuxt-link></li>
                             <li><nuxt-link to="/registracia">Registrácia</nuxt-link></li>
@@ -36,7 +38,7 @@
                     </div>
                     <!-- <div class='nav'>
                         <ul class='flex wrap show-md align-items-center'>
-                            <li><a @click.prevent='logout()'>Log out</a></li>
+                            <li><a @click.prevent='logout()'>Odhlásiť</a></li>
                         </ul>
                     </div> -->
                 </div>
@@ -61,7 +63,7 @@ export default {
             console.log('logout')
             this.$store.dispatch('auth/logout')
             .then(() => {
-                this.$router.push('/log-out')
+                this.$router.push('/odhlasenie')
             })
         }
     } 
@@ -76,6 +78,7 @@ export default {
     left: 0px;
     width: 100%;
     background-color: #fff;
+    /* background-color: #ffd401; */
     z-index: 100;
     height: 80px;
 }
@@ -90,17 +93,14 @@ export default {
     padding: 0px 20px;
     height: 100%;
 }
-#topbar > .container-standard > div.flex {
-    height: 100%;
-}
 
 .logo-text {
-    max-height: 60px;
+    max-height: 45px;
     border: 0px;
     border-radius: 0px;
 }
 .logo-icon {
-    max-height: 40px;
+    max-height: 35px;
     border: 0px;
     border-radius: 0px;
 }
@@ -114,20 +114,24 @@ export default {
     padding: 0px;
 }
 .nav > ul > li > a {
-    padding: 22px 22px;
+    padding: 16px 22px;
     border-bottom: 1px solid transparent;
     position: relative;
-    transition: 0.3s;
-    transition: transform .2s;
+    top: 0px;
+    transition: 0.2s;
+    /* transition: left .2s; */
+    display: inline-block;
 }
 .nav > ul > li > a:hover {
     color: #000;
     text-decoration: none;
-    transform: scale(1.5);
+    position: relative;
+    top: 2px;
 }
-.nav > ul > li > a.nuxt-link-exact-active {
+.nav > ul > li > a.nuxt-link-active {
     color: #000;
     text-decoration: none;
+    font-weight: 600;
 }
 /* .nav > ul > li > a.nuxt-link-active.no-active {
     color: initial;

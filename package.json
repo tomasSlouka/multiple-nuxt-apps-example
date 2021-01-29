@@ -29,8 +29,9 @@
     "app.manyletter.com:build": "nuxt build --config-file apps/app.manyletter.com/nuxt.config.js",
     "upforweb.com:build": "nuxt build --config-file apps/upforweb.com/nuxt.config.js",
     "howtonewsletter.com:build": "nuxt build --config-file apps/howtonewsletter.com/nuxt.config.js",
+    "tulaveknizky.sk:build": "nuxt build --config-file apps/tulaveknizky.sk/nuxt.config.js",
     
-    "build": "concurrently \"npm run upfordomain.com:build\" \"npm run app.upfordomain.com:build\" \"npm run manyletter.com:build\" \"npm run app.manyletter.com:build\" \"npm run upforweb.com:build\" \"npm run howtonewsletter.com:build\"",
+    "build": "concurrently \"npm run upfordomain.com:build\" \"npm run app.upfordomain.com:build\" \"npm run manyletter.com:build\" \"npm run app.manyletter.com:build\" \"npm run upforweb.com:build\" \"npm run howtonewsletter.com:build\" \"npm run tulaveknizky.sk:build\"",
     
     "upfordomain.com:start": "nuxt start --config-file apps/upfordomain.com/nuxt.config.js",
     "app.upfordomain.com:start": "nuxt start --config-file apps/app.upfordomain.com/nuxt.config.js",
@@ -38,8 +39,9 @@
     "app.manyletter.com:start": "nuxt start --config-file apps/app.manyletter.com/nuxt.config.js",
     "upforweb.com:start": "nuxt start --config-file apps/upforweb.com/nuxt.config.js",
     "howtonewsletter.com:start": "nuxt start --config-file apps/howtonewsletter.com/nuxt.config.js",
+    "tulaveknizky.sk:start": "nuxt start --config-file apps/tulaveknizky.sk/nuxt.config.js",
     
-    "start": "concurrently \"npm run upfordomain.com:start\" \"npm run app.upfordomain.com:start\" \"npm run manyletter.com:start\" \"npm run app.manyletter.com:start\" \"npm run upforweb.com:start\" \"npm run howtonewsletter.com:start\"",
+    "start": "concurrently \"npm run upfordomain.com:start\" \"npm run app.upfordomain.com:start\" \"npm run manyletter.com:start\" \"npm run app.manyletter.com:start\" \"npm run upforweb.com:start\" \"npm run howtonewsletter.com:start\" \"npm run tulaveknizky.sk:start\"",
     
     "generate": "nuxt generate"
   }

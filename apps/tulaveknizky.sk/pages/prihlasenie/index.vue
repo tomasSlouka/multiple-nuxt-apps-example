@@ -1,18 +1,16 @@
 <template>
     <div class='page'>
-        <!-- <Header /> -->
         <LogIn />
     </div>
 </template>
 
 <script>
-import Header from '@/components/page/_common/Header.vue'
 import LogIn from '@/components/page/log-in/LogIn.vue'
 
 export default {
     layout: 'defaultClean',
         components: {
-        Header, LogIn,
+            LogIn
     },
 }
 </script>

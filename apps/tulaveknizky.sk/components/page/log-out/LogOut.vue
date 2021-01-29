@@ -8,7 +8,7 @@
             </div>
             <!-- <div class="hr"></div> -->
             <p>”Odhlásením to nekončí. Odhlásenie sa je len ďalšia cesta, ktorú každý musí prejsť, aby objavil nové cesty k opätovnému prihláseniu sa.”</p>
-            <nuxt-link to='/log-in' tag='button' class='cta black'>Opäť sa prihlásiť</nuxt-link>
+            <nuxt-link to='/prihlasenie' tag='button' class='cta black'>Opäť sa prihlásiť</nuxt-link>
         </div>
 
     </div>

@@ -12,25 +12,25 @@ const _0af076c5 = () => interopDefault(import('..\\..\\pages\\knihy\\index.vue' 
 const _f99f9130 = () => interopDefault(import('..\\..\\pages\\odhlasenie\\index.vue' /* webpackChunkName: "pages/odhlasenie/index" */))
 const _d179b20c = () => interopDefault(import('..\\..\\pages\\prihlasenie\\index.vue' /* webpackChunkName: "pages/prihlasenie/index" */))
 const _3f3bbc66 = () => interopDefault(import('..\\..\\pages\\registracia\\index.vue' /* webpackChunkName: "pages/registracia/index" */))
+const _6ff934e8 = () => interopDefault(import('..\\..\\pages\\admin\\orders\\index.vue' /* webpackChunkName: "pages/admin/orders/index" */))
+const _0bec57ec = () => interopDefault(import('..\\..\\pages\\admin\\storage\\index.vue' /* webpackChunkName: "pages/admin/storage/index" */))
+const _796cde1c = () => interopDefault(import('..\\..\\pages\\admin\\titles\\index.vue' /* webpackChunkName: "pages/admin/titles/index" */))
+const _65e19502 = () => interopDefault(import('..\\..\\pages\\admin\\users\\index.vue' /* webpackChunkName: "pages/admin/users/index" */))
 const _99c45d44 = () => interopDefault(import('..\\..\\pages\\knihy\\najnovsie\\index.vue' /* webpackChunkName: "pages/knihy/najnovsie/index" */))
 const _74d31b1d = () => interopDefault(import('..\\..\\pages\\knihy\\najoblubenejsie\\index.vue' /* webpackChunkName: "pages/knihy/najoblubenejsie/index" */))
 const _4fe2f96b = () => interopDefault(import('..\\..\\pages\\knihy\\vsetky\\index.vue' /* webpackChunkName: "pages/knihy/vsetky/index" */))
 const _5abc6916 = () => interopDefault(import('..\\..\\pages\\prihlasenie\\code.vue' /* webpackChunkName: "pages/prihlasenie/code" */))
 const _606a4eee = () => interopDefault(import('..\\..\\pages\\registracia\\code.vue' /* webpackChunkName: "pages/registracia/code" */))
-const _7263a580 = () => interopDefault(import('..\\..\\pages\\admin\\account\\credits\\index.vue' /* webpackChunkName: "pages/admin/account/credits/index" */))
-const _3459fd77 = () => interopDefault(import('..\\..\\pages\\admin\\account\\settings\\index.vue' /* webpackChunkName: "pages/admin/account/settings/index" */))
-const _01887fa2 = () => interopDefault(import('..\\..\\pages\\admin\\maker\\details\\index.vue' /* webpackChunkName: "pages/admin/maker/details/index" */))
-const _6cf897a9 = () => interopDefault(import('..\\..\\pages\\admin\\maker\\portfolio\\index.vue' /* webpackChunkName: "pages/admin/maker/portfolio/index" */))
-const _97f90d3c = () => interopDefault(import('..\\..\\pages\\admin\\team\\details\\index.vue' /* webpackChunkName: "pages/admin/team/details/index" */))
-const _48c473aa = () => interopDefault(import('..\\..\\pages\\admin\\team\\members\\index.vue' /* webpackChunkName: "pages/admin/team/members/index" */))
-const _4c5c11d3 = () => interopDefault(import('..\\..\\pages\\pouzivatel\\knihy\\kosik\\index.vue' /* webpackChunkName: "pages/pouzivatel/knihy/kosik/index" */))
-const _124e0a5e = () => interopDefault(import('..\\..\\pages\\user\\knihy\\hodnotene\\index.vue' /* webpackChunkName: "pages/user/knihy/hodnotene/index" */))
-const _2eb0dd9a = () => interopDefault(import('..\\..\\pages\\user\\knihy\\kosik\\index.vue' /* webpackChunkName: "pages/user/knihy/kosik/index" */))
-const _4308ef75 = () => interopDefault(import('..\\..\\pages\\user\\knihy\\rezervovane\\index.vue' /* webpackChunkName: "pages/user/knihy/rezervovane/index" */))
-const _0ef41eca = () => interopDefault(import('..\\..\\pages\\user\\knihy\\vypozicane\\index.vue' /* webpackChunkName: "pages/user/knihy/vypozicane/index" */))
-const _3306cdeb = () => interopDefault(import('..\\..\\pages\\user\\knihy\\wishlist\\index.vue' /* webpackChunkName: "pages/user/knihy/wishlist/index" */))
-const _6bb0e53c = () => interopDefault(import('..\\..\\pages\\user\\ucet\\kredity\\index.vue' /* webpackChunkName: "pages/user/ucet/kredity/index" */))
-const _d02d7a34 = () => interopDefault(import('..\\..\\pages\\user\\ucet\\nastavenia\\index.vue' /* webpackChunkName: "pages/user/ucet/nastavenia/index" */))
+const _e7ce68cc = () => interopDefault(import('..\\..\\pages\\user\\account\\index.vue' /* webpackChunkName: "pages/user/account/index" */))
+const _5529f621 = () => interopDefault(import('..\\..\\pages\\admin\\titles\\add\\index.vue' /* webpackChunkName: "pages/admin/titles/add/index" */))
+const _fb420a40 = () => interopDefault(import('..\\..\\pages\\user\\account\\credits\\index.vue' /* webpackChunkName: "pages/user/account/credits/index" */))
+const _23c95417 = () => interopDefault(import('..\\..\\pages\\user\\account\\settings\\index.vue' /* webpackChunkName: "pages/user/account/settings/index" */))
+const _b96e0392 = () => interopDefault(import('..\\..\\pages\\user\\books\\basket\\index.vue' /* webpackChunkName: "pages/user/books/basket/index" */))
+const _62f79d29 = () => interopDefault(import('..\\..\\pages\\user\\books\\borrowed\\index.vue' /* webpackChunkName: "pages/user/books/borrowed/index" */))
+const _36df4db3 = () => interopDefault(import('..\\..\\pages\\user\\books\\rated\\index.vue' /* webpackChunkName: "pages/user/books/rated/index" */))
+const _d03e1a56 = () => interopDefault(import('..\\..\\pages\\user\\books\\reserved\\index.vue' /* webpackChunkName: "pages/user/books/reserved/index" */))
+const _460ef418 = () => interopDefault(import('..\\..\\pages\\user\\books\\wishlist\\index.vue' /* webpackChunkName: "pages/user/books/wishlist/index" */))
+const _0d8acd39 = () => interopDefault(import('..\\..\\pages\\admin\\titles\\detail\\_id\\index.vue' /* webpackChunkName: "pages/admin/titles/detail/_id/index" */))
 const _35182910 = () => interopDefault(import('..\\..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 // TODO: remove in Nuxt 3
@@ -86,6 +86,22 @@ export const routerOptions = {
     component: _3f3bbc66,
     name: "registracia"
   }, {
+    path: "/admin/orders",
+    component: _6ff934e8,
+    name: "admin-orders"
+  }, {
+    path: "/admin/storage",
+    component: _0bec57ec,
+    name: "admin-storage"
+  }, {
+    path: "/admin/titles",
+    component: _796cde1c,
+    name: "admin-titles"
+  }, {
+    path: "/admin/users",
+    component: _65e19502,
+    name: "admin-users"
+  }, {
     path: "/knihy/najnovsie",
     component: _99c45d44,
     name: "knihy-najnovsie"
@@ -106,61 +122,45 @@ export const routerOptions = {
     component: _606a4eee,
     name: "registracia-code"
   }, {
-    path: "/admin/account/credits",
-    component: _7263a580,
-    name: "admin-account-credits"
+    path: "/user/account",
+    component: _e7ce68cc,
+    name: "user-account"
   }, {
-    path: "/admin/account/settings",
-    component: _3459fd77,
-    name: "admin-account-settings"
+    path: "/admin/titles/add",
+    component: _5529f621,
+    name: "admin-titles-add"
   }, {
-    path: "/admin/maker/details",
-    component: _01887fa2,
-    name: "admin-maker-details"
+    path: "/user/account/credits",
+    component: _fb420a40,
+    name: "user-account-credits"
   }, {
-    path: "/admin/maker/portfolio",
-    component: _6cf897a9,
-    name: "admin-maker-portfolio"
+    path: "/user/account/settings",
+    component: _23c95417,
+    name: "user-account-settings"
   }, {
-    path: "/admin/team/details",
-    component: _97f90d3c,
-    name: "admin-team-details"
+    path: "/user/books/basket",
+    component: _b96e0392,
+    name: "user-books-basket"
   }, {
-    path: "/admin/team/members",
-    component: _48c473aa,
-    name: "admin-team-members"
+    path: "/user/books/borrowed",
+    component: _62f79d29,
+    name: "user-books-borrowed"
   }, {
-    path: "/pouzivatel/knihy/kosik",
-    component: _4c5c11d3,
-    name: "pouzivatel-knihy-kosik"
+    path: "/user/books/rated",
+    component: _36df4db3,
+    name: "user-books-rated"
   }, {
-    path: "/user/knihy/hodnotene",
-    component: _124e0a5e,
-    name: "user-knihy-hodnotene"
+    path: "/user/books/reserved",
+    component: _d03e1a56,
+    name: "user-books-reserved"
   }, {
-    path: "/user/knihy/kosik",
-    component: _2eb0dd9a,
-    name: "user-knihy-kosik"
+    path: "/user/books/wishlist",
+    component: _460ef418,
+    name: "user-books-wishlist"
   }, {
-    path: "/user/knihy/rezervovane",
-    component: _4308ef75,
-    name: "user-knihy-rezervovane"
-  }, {
-    path: "/user/knihy/vypozicane",
-    component: _0ef41eca,
-    name: "user-knihy-vypozicane"
-  }, {
-    path: "/user/knihy/wishlist",
-    component: _3306cdeb,
-    name: "user-knihy-wishlist"
-  }, {
-    path: "/user/ucet/kredity",
-    component: _6bb0e53c,
-    name: "user-ucet-kredity"
-  }, {
-    path: "/user/ucet/nastavenia",
-    component: _d02d7a34,
-    name: "user-ucet-nastavenia"
+    path: "/admin/titles/detail/:id",
+    component: _0d8acd39,
+    name: "admin-titles-detail-id"
   }, {
     path: "/",
     component: _35182910,

@@ -16,7 +16,7 @@
                 <button class="cta black" type="submit">Pokračovať</button>
             </form>
             <!-- <div class="hr"></div> -->
-            <p class="small gray text-center">Nemáš ešte svoj účet? <nuxt-link to='/sign-up'>Zaregistruj sa</nuxt-link>.</p>
+            <p class="small gray text-center">Nemáš ešte svoj účet? <nuxt-link to='/registracia'>Zaregistruj sa</nuxt-link>.</p>
         </div>
 
     </div>
