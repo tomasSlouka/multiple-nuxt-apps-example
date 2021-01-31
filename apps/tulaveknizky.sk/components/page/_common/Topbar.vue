@@ -17,8 +17,8 @@
                             <!-- <li><nuxt-link to='/knihy'>Newsletter</nuxt-link></li> -->
                             <li>|</li>
                             <li v-if="$store.state.auth.userData.level == 104"><nuxt-link to='/admin'>Administrácia</nuxt-link></li>
-                            <li><nuxt-link to='/user/books/basket'>Moje knižky</nuxt-link></li>
-                            <li><nuxt-link to='/user/account/'>Môj účet</nuxt-link></li>
+                            <li><nuxt-link to='/user/books'>Moje knižky</nuxt-link></li>
+                            <li><nuxt-link to='/user/account'>Môj účet</nuxt-link></li>
                             <!-- <li><a @click.prevent='logout()'>Odhlásiť sa</a></li> -->
 
                         </ul>

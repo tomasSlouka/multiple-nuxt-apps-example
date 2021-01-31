@@ -5,6 +5,8 @@
                 <div class='nav'>
                     <ul class='flex wrap show-md align-items-center'>
                         <li><nuxt-link to='/admin/orders' class='small'>Objednávky</nuxt-link></li>
+                        <li><nuxt-link to='/admin/categories' class='small'>Kategórie</nuxt-link></li>
+                        <li><nuxt-link to='/admin/tags' class='small'>Značky</nuxt-link></li>
                         <li><nuxt-link to='/admin/titles' class='small'>Knižné tituly</nuxt-link></li>
                         <li><nuxt-link to='/admin/storage' class='small'>Sklad</nuxt-link></li>
                         <li><nuxt-link to='/admin/users' class='small'>Používatelia</nuxt-link></li>
@@ -72,7 +74,8 @@ export default {
     position: relative;
     top: 2px;
 }
-.nav > ul > li > a.nuxt-link-exact-active {
+.nav > ul > li > a.nuxt-link-exact-active,
+.nav > ul > li > a.nuxt-link-active {
     color: #000;
     text-decoration: none;
     font-weight: 600;

@@ -72,7 +72,8 @@ export default {
     position: relative;
     top: 2px;
 }
-.nav > ul > li > a.nuxt-link-exact-active {
+.nav > ul > li > a.nuxt-link-exact-active,
+.nav > ul > li > a.nuxt-link-active {
     color: #000;
     text-decoration: none;
     font-weight: 600;

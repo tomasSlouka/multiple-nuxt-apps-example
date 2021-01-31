@@ -12,8 +12,7 @@ import Header from '@/components/page/_common/Header.vue'
 import Footer from '@/components/page/_common/Footer.vue'
 
 export default {
-  middleware: ['log', 'check-auth', 'auth'],
-  // middleware: ['auth'],
+  middleware: ['log', 'check-auth', 'auth', 'check-userdata'],
   components: {
     Header, Footer
   }
@@ -22,7 +21,7 @@ export default {
 
 <style>
 #layout_default_user {
-    margin-top: 68px;
+    /* margin-top: 68px; */
     /* background-color: #39ac370d; */
     background-color: #f5f8fc;
     /* background-color: #f0f2f5; */

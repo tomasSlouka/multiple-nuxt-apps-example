@@ -21,7 +21,6 @@ import Books from '@/components/page/home/Books.vue'
 import Newsletter from '@/components/page/home/Newsletter.vue'
 
 export default {
-    middleware: ['check-userdata'],
     layout: 'defaultPage',
         components: {
             SubNav, Hero, More, Books, Newsletter,

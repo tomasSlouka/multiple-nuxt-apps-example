@@ -7,14 +7,17 @@
                     <nuxt-link to="/admin/titles/add" class='button cta black justify-self-end'>Pridať nový knižný titul</nuxt-link>
                 </div>
 
+                <!-- {{bookList.data}} -->
                 <div class='grid gap-5 auto '>
                     <div class='table-wrapper justify-content-start'>
-                        <div class='table grid auto col-4'>
+                        <div class='table grid auto col-6'>
                             <div class="table-head">
                                 <!-- <div>ID</div> -->
                                 <div>Názov</div>
                                 <div>Autor</div>
                                 <div>Cena</div>
+                                <div>Kategórie</div>
+                                <div>Značky</div>
                                 <!-- <div>Krátky popis</div> -->
                                 <!-- <div>Dlhý popis</div> -->
                                 <div>Akcia</div>
@@ -25,8 +28,8 @@
                                 <div><p class='strong'>{{item.name}}</p></div>
                                 <div><p class='italic'>{{item.author}}</p></div>
                                 <div class='grid justify-items-start'><span class='tag gray'>{{item.price}}</span></div>
-                                <!-- <div>{{item.short_text}}</div> -->
-                                <!-- <div>{{item.long_text}}</div> -->
+                                <div><div class='flex wrap'><span class='tag gray' v-for="(cat) in item.categories == null ? [] : item.categories.split(',')" :key='cat'>{{cat}}</span></div></div>
+                                 <div><div class='flex wrap'><span class='tag gray' v-for="(tag) in item.tags == null ? [] : item.tags.split(',')" :key='tag'>{{tag}}</span></div></div>
                                 <div class='grid col-2 auto gap-5 justify-content-start justify-items-start'>
                                     <nuxt-link :to='"/admin/titles/detail/" + item.id' class='button cta small white' >Upraviť</nuxt-link>
                                     <button class='button cta small red' @click='deleteButton({id: item.id, index: index })'>Vymazať</button>
@@ -47,7 +50,8 @@ export default {
     props: ['bookList'],
     data() {
         return {
-
+            // categories: this.bookList.data.categories === null ? [] : this.bookList.data.categories.split(","),
+            // tags: this.bookList.data.tags === null ? [] : this.bookList.data.tags.split(","),
         }
     },
     methods: {
@@ -61,7 +65,7 @@ export default {
         //     });
         // }
         async deleteButton(data) {
-            await this.$store.dispatch("books/deleteBook", data)
+            await this.$store.dispatch("book/deleteItem", data)
         }
     },
 }

@@ -29,6 +29,21 @@
                             </div>
                             <!-- Price -->
 
+                            <!-- Category -->
+                            <label for="long_text">Vyber kategórie</label>
+                            <div class='flex wrap tags'>
+                                <!-- <div  v-for="item in categoryList.data" :key="item.id" @click.prevent="updateCategory(item.id)" class='tag'>{{item.name}}</div> -->
+                                <div  v-for="item in categoryList.data" :key="item.id" @click.prevent="updateCategory(item.id)" class='tag' :class="(categories.includes(item.id)) ? 'active' : ''">{{item.name}}</div>
+                            </div>
+                            <!-- Category -->
+
+                            <!-- Tag -->
+                            <label for="long_text">Vyber značky</label>
+                            <div class='flex wrap tags'>
+                                <!-- <div  v-for="item in tagList.data" :key="item.id" @click.prevent="updateTag(item.id)" class='tag'>{{item.name}}</div> -->
+                                <div  v-for="item in tagList.data" :key="item.id" @click.prevent="updateTag(item.id)" class='tag' :class="(tags.includes(item.id)) ? 'active' : ''">{{item.name}}</div>
+                            </div>
+                            <!-- Tag -->
                         </div>
 
                         <div class='grid gap-20'>
@@ -68,15 +83,58 @@
 <script>
 
 export default {
-    props: ['dataDetail'],
+    props: ['dataDetail', 'tagList', 'categoryList'],
     data() {
         return {
             submitSuccess: false,
             submitError: false,
             submitText: 'Uložené!',
+
+            categories: this.dataDetail.data.categories === null ? [] : this.dataDetail.data.categories.split(","),
+            tags: this.dataDetail.data.tags === null ? [] : this.dataDetail.data.tags.split(","),
         }
     },
     methods: {
+        async updateCategory(category_id) {
+            await this.$axios.$put('/book/category', {
+                "id": this.$route.params.id,
+                "category_id": category_id
+            })
+            .then((response) => {
+                console.log(response.message)
+                if(response.message === "added") {this.categories.push(category_id)}
+                if(response.message === "removed") {
+                    this.categories = this.categories.filter(function(item) {
+                        return item !== category_id
+                    })
+                }
+                console.log(this.categories)
+                
+            }, (error) => {
+                console.log(error);
+                //this.res = error.response.data.message
+            });
+        },
+        async updateTag(tag_id) {
+            await this.$axios.$put('/book/tag', {
+                "id": this.$route.params.id,
+                "tag_id": tag_id
+            })
+            .then((response) => {
+                console.log(response.message)
+                if(response.message === "added") {this.tags.push(tag_id)}
+                if(response.message === "removed") {
+                    this.tags = this.tags.filter(function(item) {
+                        return item !== tag_id
+                    })
+                }
+                console.log(this.tags)
+                
+            }, (error) => {
+                console.log(error);
+                //this.res = error.response.data.message
+            });
+        },
         async submitForm() {
             // if(this.password_1 === this.password_2) {
                 await this.$axios.$put('/book', {
@@ -98,6 +156,7 @@ export default {
                     // if(this.password_1 === '') { this.password_locked = 0 } else { this.password_locked = 1 }
                     setTimeout(() => this.submitSuccess = false, 4000)
                     // this.$router.push('/admin/subscriber/settings')
+                    this.$router.push('/admin/titles')
                 }, (error) => {
                     console.log(error);
                     //this.res = error.response.data.message
@@ -133,9 +192,5 @@ export default {
 </script>
 
 <style scoped>
-.component {
-    padding: 1px;
-    /* background-color: #ffd40140; */
-    /* border-bottom: 10px solid #ffd401; */
-}
+
 </style>

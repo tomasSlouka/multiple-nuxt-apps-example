@@ -13,8 +13,7 @@ import Hero from '@/components/admin/_common/Hero.vue'
 import SubNav from '@/components/admin/_common/SubNav.vue'
 
 export default {
-    middleware: ['check-userdata'],
-    layout: 'defaultPage',
+    layout: 'defaultAdmin',
         components: {
             SubNav, Hero
     },

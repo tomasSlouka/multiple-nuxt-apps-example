@@ -108,7 +108,8 @@ export default {
                     this.submitText = 'Uložené!';
                     // if(this.password_1 === '') { this.password_locked = 0 } else { this.password_locked = 1 }
                     setTimeout(() => this.submitSuccess = false, 4000)
-                    this.$router.push('/admin/titles/detail/'+ response.id)
+                    // this.$router.push('/admin/titles/detail/'+ response.id)
+                    this.$router.push('/admin/titles')
                 }, (error) => {
                     console.log(error);
                     //this.res = error.response.data.message
@@ -144,9 +145,5 @@ export default {
 </script>
 
 <style scoped>
-.component {
-    padding: 1px;
-    /* background-color: #f7f7f7; */
-    /* border-bottom: 10px solid #ffd401; */
-}
+
 </style>

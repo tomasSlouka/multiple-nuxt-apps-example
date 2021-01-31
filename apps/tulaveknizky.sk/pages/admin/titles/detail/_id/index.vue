@@ -7,6 +7,7 @@
         />
         <FormEdit
             :dataDetail='dataDetail'    
+            :categoryList='categoryList'    
             :tagList='tagList'    
         />
     </div>
@@ -28,11 +29,12 @@ export default {
         }
     },
     async asyncData({ $axios, params }) {
-        const [dataDetail, tagList] = await Promise.all ([
+        const [dataDetail, categoryList, tagList] = await Promise.all ([
             $axios.$get('/book/' + params.id),
+            $axios.$get('/category/all'),
             $axios.$get('/tag/all'),
         ])
-        return { dataDetail, tagList }
+        return { dataDetail, categoryList, tagList }
     },
 }
 </script>

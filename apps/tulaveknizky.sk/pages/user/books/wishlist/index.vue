@@ -1,17 +1,21 @@
 <template>
     <div class='page'>
-        <Hero />
+        <SubNav />
+        <Hero 
+            h1='Moje knižky'
+            h2='Wishlist'
+        />
     </div>
 </template>
 
 <script>
-import Hero from '@/components/page/user/books/wishlist/Hero.vue'
+import Hero from '@/components/page/user/books/_common/Hero.vue'
+import SubNav from '@/components/page/user/books/_common/SubNav.vue'
 
 export default {
-    middleware: ['check-userdata'],
-    layout: 'defaultPage',
+    layout: 'defaultUser',
         components: {
-            Hero,
+            SubNav, Hero
     },
 }
 </script>

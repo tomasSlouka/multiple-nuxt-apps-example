@@ -16,8 +16,9 @@ let store = {};
   store.modules = store.modules || {}
 
   resolveStoreModules(require('..\\..\\store\\auth.js'), 'auth.js')
-  resolveStoreModules(require('..\\..\\store\\books.js'), 'books.js')
-  resolveStoreModules(require('..\\..\\store\\tags.js'), 'tags.js')
+  resolveStoreModules(require('..\\..\\store\\book.js'), 'book.js')
+  resolveStoreModules(require('..\\..\\store\\category.js'), 'category.js')
+  resolveStoreModules(require('..\\..\\store\\tag.js'), 'tag.js')
 
   // If the environment supports hot reloading...
 })()

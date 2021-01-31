@@ -8,7 +8,6 @@
 import Hero from '@/components/page/knihy/najnovsie/Hero.vue'
 
 export default {
-    middleware: ['check-userdata'],
     layout: 'defaultPage',
         components: {
             Hero
