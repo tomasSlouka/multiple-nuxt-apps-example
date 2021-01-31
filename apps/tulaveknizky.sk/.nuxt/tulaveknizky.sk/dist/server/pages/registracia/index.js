@@ -13,7 +13,7 @@ if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
 var add = __webpack_require__(3).default
 module.exports.__inject__ = function (context) {
-  add("22d6ca8c", content, true, context)
+  add("7f8ba809", content, true, context)
 };
 
 /***/ }),
@@ -40,9 +40,9 @@ module.exports.__inject__ = function (context) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SignUp_vue_vue_type_style_index_0_id_f400b57c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(119);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SignUp_vue_vue_type_style_index_0_id_f400b57c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SignUp_vue_vue_type_style_index_0_id_f400b57c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SignUp_vue_vue_type_style_index_0_id_f400b57c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SignUp_vue_vue_type_style_index_0_id_f400b57c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SignUp_vue_vue_type_style_index_0_id_6c7c69c1_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(119);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SignUp_vue_vue_type_style_index_0_id_6c7c69c1_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SignUp_vue_vue_type_style_index_0_id_6c7c69c1_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SignUp_vue_vue_type_style_index_0_id_6c7c69c1_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SignUp_vue_vue_type_style_index_0_id_6c7c69c1_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
@@ -54,7 +54,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(2);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".component[data-v-f400b57c]{height:100%;padding:40px 20px}.box[data-v-f400b57c]{margin:0 auto;width:320px;max-width:100%;background-color:#fff;border-bottom:6px solid #eee;padding:20px;border-radius:4px}.logo[data-v-f400b57c]{width:32px;height:32px}", ""]);
+exports.push([module.i, ".component[data-v-6c7c69c1]{height:100%;padding:40px 20px}.box[data-v-6c7c69c1]{margin:0 auto;max-width:320px;background-color:#fff;border-bottom:6px solid #eee;padding:20px;border-radius:4px}.logo[data-v-6c7c69c1]{width:32px;height:32px}", ""]);
 // Exports
 module.exports = exports;
 
@@ -101,12 +101,12 @@ var staticRenderFns = []
 
 // CONCATENATED MODULE: ./apps/tulaveknizky.sk/pages/registracia/index.vue?vue&type=template&id=7b18f0d1&scoped=true&
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/page/sign-up/SignUp.vue?vue&type=template&id=f400b57c&scoped=true&
-var SignUpvue_type_template_id_f400b57c_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component grid"},[_vm._ssrNode("<div class=\"box grid auto align-self-start gap-20\" data-v-f400b57c>","</div>",[_vm._ssrNode("<div class=\"grid col-2 auto align-items-center\" data-v-f400b57c>","</div>",[_vm._ssrNode("<h3 data-v-f400b57c>Registrácia</h3> "),_c('nuxt-link',{staticClass:"justify-self-end",attrs:{"to":"/"}},[_c('img',{staticClass:"logo",attrs:{"src":__webpack_require__(29),"alt":""}})])],2),_vm._ssrNode(" "),_vm._ssrNode("<form class=\"grid gap-10\" data-v-f400b57c>","</form>",[_vm._ssrNode(((_vm.error)?("<p class=\"error small\" data-v-f400b57c>"+_vm._ssrEscape(_vm._s(_vm.error))+"</p>"):"<!---->")+" <div data-v-f400b57c><label for=\"email\" class=\"small gray\" data-v-f400b57c>Email</label> <input id=\"email\" name=\"email\" type=\"text\" placeholder=\"napr. john@snow.sk\""+(_vm._ssrAttr("value",(_vm.email)))+" data-v-f400b57c></div> <button type=\"submit\" class=\"cta black\" data-v-f400b57c>Pokračovať</button> "),_vm._ssrNode("<div data-v-f400b57c>","</div>",[_vm._ssrNode("<p class=\"gray text-center small\" data-v-f400b57c>  Kliknutím na &quot;pokračovať&quot; súhlasiš s podmienkami poskytovania služby a spracovaním osobných údajov. </p> "),_vm._ssrNode("<p class=\"gray text-center small mt20\" data-v-f400b57c>","</p>",[_vm._ssrNode("Máš už účet? "),_c('nuxt-link',{attrs:{"to":"/prihlasenie"}},[_vm._v("Prihlás sa")]),_vm._ssrNode(".")],2)],2)],2)],2)])}
-var SignUpvue_type_template_id_f400b57c_scoped_true_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/page/sign-up/SignUp.vue?vue&type=template&id=6c7c69c1&scoped=true&
+var SignUpvue_type_template_id_6c7c69c1_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component grid"},[_vm._ssrNode("<div class=\"box grid auto align-self-start gap-20\" data-v-6c7c69c1>","</div>",[_vm._ssrNode("<div class=\"grid col-2 auto align-items-center\" data-v-6c7c69c1>","</div>",[_vm._ssrNode("<h3 data-v-6c7c69c1>Registrácia</h3> "),_c('nuxt-link',{staticClass:"justify-self-end",attrs:{"to":"/"}},[_c('img',{staticClass:"logo",attrs:{"src":__webpack_require__(10),"alt":""}})])],2),_vm._ssrNode(" "),_vm._ssrNode("<form class=\"grid gap-10\" data-v-6c7c69c1>","</form>",[_vm._ssrNode(((_vm.error)?("<p class=\"error small\" data-v-6c7c69c1>"+_vm._ssrEscape(_vm._s(_vm.error))+"</p>"):"<!---->")+" <div data-v-6c7c69c1><label for=\"email\" class=\"small gray\" data-v-6c7c69c1>Email</label> <input id=\"email\" name=\"email\" type=\"text\" placeholder=\"napr. john@snow.sk\""+(_vm._ssrAttr("value",(_vm.email)))+" data-v-6c7c69c1></div> <button type=\"submit\" class=\"cta black\" data-v-6c7c69c1>Pokračovať</button> "),_vm._ssrNode("<div data-v-6c7c69c1>","</div>",[_vm._ssrNode("<p class=\"gray text-center small\" data-v-6c7c69c1>  Kliknutím na &quot;pokračovať&quot; súhlasiš s podmienkami poskytovania služby a spracovaním osobných údajov. </p> "),_vm._ssrNode("<p class=\"gray text-center small mt20\" data-v-6c7c69c1>","</p>",[_vm._ssrNode("Máš už účet? "),_c('nuxt-link',{attrs:{"to":"/prihlasenie"}},[_vm._v("Prihlás sa")]),_vm._ssrNode(".")],2)],2)],2)],2)])}
+var SignUpvue_type_template_id_6c7c69c1_scoped_true_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/page/sign-up/SignUp.vue?vue&type=template&id=f400b57c&scoped=true&
+// CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/page/sign-up/SignUp.vue?vue&type=template&id=6c7c69c1&scoped=true&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/page/sign-up/SignUp.vue?vue&type=script&lang=js&
 //
@@ -186,11 +186,11 @@ if (style0.__inject__) style0.__inject__(context)
 
 var component = Object(componentNormalizer["a" /* default */])(
   sign_up_SignUpvue_type_script_lang_js_,
-  SignUpvue_type_template_id_f400b57c_scoped_true_render,
-  SignUpvue_type_template_id_f400b57c_scoped_true_staticRenderFns,
+  SignUpvue_type_template_id_6c7c69c1_scoped_true_render,
+  SignUpvue_type_template_id_6c7c69c1_scoped_true_staticRenderFns,
   false,
   injectStyles,
-  "f400b57c",
+  "6c7c69c1",
   "688d004d"
   
 )

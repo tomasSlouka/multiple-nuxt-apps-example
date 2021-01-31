@@ -5,7 +5,7 @@
                 <div class='nav'>
                     <ul class='flex wrap show-md align-items-center'>
                         <li><nuxt-link to='/ako-to-funguje' class='small'>Ako to funguje?</nuxt-link></li>
-                        <li><nuxt-link to='/ako-to-funguje' class='small'>Náš príbeh</nuxt-link></li>
+                        <li><nuxt-link to='/nas-pribeh' class='small'>Náš príbeh</nuxt-link></li>
                         <li><nuxt-link to='/blog' class='small'>Náš blog</nuxt-link></li>
                         <li><nuxt-link to='/newsletter' class='small'>Novinky emailom</nuxt-link></li>
                     </ul>

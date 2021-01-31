@@ -1,7 +1,7 @@
 <template>
     <div class="component">
 
-        <div class='container-standard grid gap-30 col-2 auto align-items-start'>
+        <div class='container-standard grid gap-30 md-col-2 auto align-items-start'>
             
             <div class='grid gap-10'>
                 <h4>Filtruj, <span class='font14'>filtruj,</span> <span class='font12'>vykrúcaj...</span></h4>
@@ -17,7 +17,7 @@
 
                 <h4>Najnovšie knižky</h4>
                 <div class='grid gap-30'>
-                    <div class="box grid gap-20 align-content-start align-items-start col-3 auto">
+                    <div class="box grid gap-20 align-content-start align-items-start md-col-3 auto">
                         <div>
                             <img src="@/assets/img/testbook.jpg" alt="" class='testbook' />
                         </div>
@@ -44,7 +44,7 @@
                         </div>
                     </div>
 
-                    <div class="box grid gap-20 align-content-start align-items-start col-3 auto">
+                    <div class="box grid gap-20 align-content-start align-items-start md-col-3 auto">
                         <div>
                             <img src="@/assets/img/testbook2.jpg" alt="" class='testbook' />
                         </div>
@@ -68,7 +68,7 @@
                         </div>
                     </div>
 
-                    <div class="box grid gap-20 align-content-start align-items-start col-3 auto">
+                    <div class="box grid gap-20 align-content-start align-items-start md-col-3 auto">
                         <div>
                             <img src="@/assets/img/testbook3.jpg" alt="" class='testbook' />
                         </div>

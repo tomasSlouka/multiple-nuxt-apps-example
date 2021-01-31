@@ -57,8 +57,8 @@ export default {
 .box {
     padding: 30px;
     margin: 0px auto;
-    width: 320px;
-    max-width: 100%;
+    max-width: 320px;
+    /* max-width: 100%; */
 
     background-color: #fff;
     border-bottom: 6px solid #eee;
