@@ -35,7 +35,7 @@
                 <li v-if="showLevel === 'admin'" @click="$emit('close')"><nuxt-link to='/admin/categories' class='small'>Kategórie</nuxt-link></li>
                 <li v-if="showLevel === 'admin'" @click="$emit('close')"><nuxt-link to='/admin/tags' class='small'>Značky</nuxt-link></li>
                 <li v-if="showLevel === 'admin'" @click="$emit('close')"><nuxt-link to='/admin/titles' class='small'>Knižné tituly</nuxt-link></li>
-                <li v-if="showLevel === 'admin'" @click="$emit('close')"><nuxt-link to='/admin/storage' class='small'>Sklad</nuxt-link></li>
+                <li v-if="showLevel === 'admin'" @click="$emit('close')"><nuxt-link to='/admin/stock' class='small'>Sklad</nuxt-link></li>
                 <li v-if="showLevel === 'admin'" @click="$emit('close')"><nuxt-link to='/admin/users' class='small'>Používatelia</nuxt-link></li>
                 <!-- ADMINISTRACIA -->
                 
@@ -54,7 +54,7 @@
                 <li v-if="showLevel === 'mojucet'" @click="$emit('close')"><nuxt-link to='/user/account/credits' class='small'>Kredity</nuxt-link></li>
                 <!-- MOJ UCET -->
 
-                <li v-if="showLevel === null" @click='changeLinkLevel("viac")'>viac ...</li>
+                <li v-if="showLevel === null" @click='changeLinkLevel("viac")'>...viac</li>
                 <li v-if="showLevel === 'viac'" @click="$emit('close')"><nuxt-link to='/ako-to-funguje' class='small'>Ako to funguje?</nuxt-link></li>
                 <li v-if="showLevel === 'viac'" @click="$emit('close')"><nuxt-link to='/nas-pribeh' class='small'>Náš príbeh</nuxt-link></li>
                 <li v-if="showLevel === 'viac'" @click="$emit('close')"><nuxt-link to='/blog' class='small'>Náš blog</nuxt-link></li>

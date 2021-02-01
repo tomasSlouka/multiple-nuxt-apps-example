@@ -43,7 +43,7 @@ module.exports =
 /******/
 /******/ 		// "0" is the signal for "already loaded"
 /******/ 		if(installedChunks[chunkId] !== 0) {
-/******/ 			var chunk = require("./" + ({"1":"pages/200","2":"pages/403","3":"pages/404","4":"pages/500","5":"pages/admin/categories/add/index","6":"pages/admin/categories/detail/_id/index","7":"pages/admin/categories/index","8":"pages/admin/index","9":"pages/admin/orders/index","10":"pages/admin/storage/add/index","11":"pages/admin/storage/detail/_id/index","12":"pages/admin/storage/index","13":"pages/admin/tags/add/index","14":"pages/admin/tags/detail/_id/index","15":"pages/admin/tags/index","16":"pages/admin/titles/add/index","17":"pages/admin/titles/detail/_id/index","18":"pages/admin/titles/index","19":"pages/admin/users/index","20":"pages/index","21":"pages/knihy/index","22":"pages/knihy/najnovsie/index","23":"pages/knihy/najoblubenejsie/index","24":"pages/knihy/vsetky/index","25":"pages/odhlasenie/index","26":"pages/prihlasenie/code","27":"pages/prihlasenie/index","28":"pages/registracia/code","29":"pages/registracia/index","30":"pages/user/account/credits/index","31":"pages/user/account/index","32":"pages/user/account/settings/index","33":"pages/user/books/basket/index","34":"pages/user/books/borrowed/index","35":"pages/user/books/index","36":"pages/user/books/rated/index","37":"pages/user/books/reserved/index","38":"pages/user/books/wishlist/index"}[chunkId]||chunkId) + ".js");
+/******/ 			var chunk = require("./" + ({"1":"pages/200","2":"pages/403","3":"pages/404","4":"pages/500","5":"pages/admin/categories/add/index","6":"pages/admin/categories/detail/_id/index","7":"pages/admin/categories/index","8":"pages/admin/index","9":"pages/admin/orders/index","10":"pages/admin/stock/add/index","11":"pages/admin/stock/detail/_id/index","12":"pages/admin/stock/index","13":"pages/admin/tags/add/index","14":"pages/admin/tags/detail/_id/index","15":"pages/admin/tags/index","16":"pages/admin/titles/add/index","17":"pages/admin/titles/detail/_id/index","18":"pages/admin/titles/index","19":"pages/admin/users/index","20":"pages/index","21":"pages/knihy/index","22":"pages/knihy/najnovsie/index","23":"pages/knihy/najoblubenejsie/index","24":"pages/knihy/vsetky/index","25":"pages/odhlasenie/index","26":"pages/prihlasenie/code","27":"pages/prihlasenie/index","28":"pages/registracia/code","29":"pages/registracia/index","30":"pages/user/account/credits/index","31":"pages/user/account/index","32":"pages/user/account/settings/index","33":"pages/user/books/basket/index","34":"pages/user/books/borrowed/index","35":"pages/user/books/index","36":"pages/user/books/rated/index","37":"pages/user/books/reserved/index","38":"pages/user/books/wishlist/index"}[chunkId]||chunkId) + ".js");
 /******/ 			var moreModules = chunk.modules, chunkIds = chunk.ids;
 /******/ 			for(var moduleId in moreModules) {
 /******/ 				modules[moduleId] = moreModules[moduleId];
@@ -578,7 +578,7 @@ if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
 var add = __webpack_require__(3).default
 module.exports.__inject__ = function (context) {
-  add("19d07a5e", content, true, context)
+  add("be5755b8", content, true, context)
 };
 
 /***/ }),
@@ -733,7 +733,7 @@ module.exports = require("defu");
 /* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(75);
+module.exports = __webpack_require__(76);
 
 
 /***/ }),
@@ -1009,9 +1009,9 @@ module.exports = exports;
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Sidebar_vue_vue_type_style_index_0_id_78b9440b_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(16);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Sidebar_vue_vue_type_style_index_0_id_78b9440b_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Sidebar_vue_vue_type_style_index_0_id_78b9440b_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Sidebar_vue_vue_type_style_index_0_id_78b9440b_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Sidebar_vue_vue_type_style_index_0_id_78b9440b_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Sidebar_vue_vue_type_style_index_0_id_a66878d0_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(16);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Sidebar_vue_vue_type_style_index_0_id_a66878d0_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Sidebar_vue_vue_type_style_index_0_id_a66878d0_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Sidebar_vue_vue_type_style_index_0_id_a66878d0_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Sidebar_vue_vue_type_style_index_0_id_a66878d0_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
@@ -1022,7 +1022,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(2);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".sidenav-backdrop[data-v-78b9440b],.sidenav-container[data-v-78b9440b]{height:100%;width:100%}.sidenav-backdrop[data-v-78b9440b]{background-color:hsla(0,0%,90.6%,.7);z-index:1000;position:fixed;top:0;left:0}.sidenav>ul[data-v-78b9440b]{list-style:none;margin:0;padding:0}.sidenav>ul>li>a[data-v-78b9440b]{color:#000;font-size:16px;line-height:23px;font-weight:500;text-decoration:none;transition:.3s}.sidenav[data-v-78b9440b]{height:100%;width:300px;background-color:#fff;z-index:10000;position:fixed;top:0;right:0;box-sizing:border-box;padding:30px}.slide-side-enter-active[data-v-78b9440b],.slide-side-leave-active[data-v-78b9440b]{transition:all .3s ease-out}.slide-side-enter[data-v-78b9440b],.slide-side-leave-to[data-v-78b9440b]{transform:translateX(100%)}.logo-text[data-v-78b9440b]{max-height:45px}.logo-icon[data-v-78b9440b],.logo-text[data-v-78b9440b]{border:0;border-radius:0}.logo-icon[data-v-78b9440b]{max-height:35px}.logo a[data-v-78b9440b]{text-decoration:none}", ""]);
+exports.push([module.i, ".sidenav-backdrop[data-v-a66878d0],.sidenav-container[data-v-a66878d0]{height:100%;width:100%}.sidenav-backdrop[data-v-a66878d0]{background-color:hsla(0,0%,90.6%,.7);z-index:1000;position:fixed;top:0;left:0}.sidenav>ul[data-v-a66878d0]{list-style:none;margin:0;padding:0}.sidenav>ul>li>a[data-v-a66878d0]{color:#000;font-size:16px;line-height:23px;font-weight:500;text-decoration:none;transition:.3s}.sidenav[data-v-a66878d0]{height:100%;width:300px;background-color:#fff;z-index:10000;position:fixed;top:0;right:0;box-sizing:border-box;padding:30px}.slide-side-enter-active[data-v-a66878d0],.slide-side-leave-active[data-v-a66878d0]{transition:all .3s ease-out}.slide-side-enter[data-v-a66878d0],.slide-side-leave-to[data-v-a66878d0]{transform:translateX(100%)}.logo-text[data-v-a66878d0]{max-height:45px}.logo-icon[data-v-a66878d0],.logo-text[data-v-a66878d0]{border:0;border-radius:0}.logo-icon[data-v-a66878d0]{max-height:35px}.logo a[data-v-a66878d0]{text-decoration:none}", ""]);
 // Exports
 module.exports = exports;
 
@@ -1738,6 +1738,104 @@ const mutations = {
   },
 
   deleteItem(state, data) {
+    // state.dataList.data.splice(data.index, 1)
+    state.dataListFiltered.data.splice(data.index, 1);
+  }
+
+};
+const actions = {
+  async getDataList({
+    commit,
+    state,
+    dispatch
+  }) {
+    if (Object.keys(state.dataListFiltered).length == 0) {
+      const [dataList] = await Promise.all([this.$axios.$get('/stock/all')]);
+      commit('setDataList', dataList);
+      commit('setDataListFiltered', null);
+    } else {
+      dispatch('getDataListFiltered');
+    } // console.log("Su dataListFilterd?")
+    // console.log(Object.keys(state.dataListFiltered).length)
+    // if(Object.keys(state.dataListFiltered).length == 0) {
+    // console.log("NIE dataListFilterd?")
+    // commit('setDataList', dataList)
+    // commit('setDataListFiltered', null)
+    // } else {
+    // console.log("ANO dataListFilterd?")
+    // dispatch('getDataListFiltered')
+    // commit('setFilteredDealsList', state.filteredList)
+    // }
+
+  },
+
+  // async getTagList({ commit }) {
+  //     const [tagList] = await Promise.all ([
+  //         this.$axios.$get('/tag/all'),
+  //     ])
+  //     commit('setTagList', tagList)
+  // },
+  async deleteItem(vuexContext, data) {
+    return await this.$axios.$delete('/stock/' + data.id).then(response => {
+      console.log(response);
+      vuexContext.commit('deleteItem', data);
+    }, error => {
+      console.log(error); //this.res = error.response.data.message
+    });
+  },
+
+  async getDataListFiltered(vuexContext, state) {
+    return await this.$axios.$post('/stock/all', {
+      "filters": vuexContext.state.filters
+    }).then(response => {
+      console.log(response);
+      vuexContext.commit('setDataListFiltered', response);
+    }, error => {
+      console.log(error); //this.res = error.response.data.message
+    });
+  }
+
+};
+
+/***/ }),
+/* 75 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "state", function() { return state; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getters", function() { return getters; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "mutations", function() { return mutations; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "actions", function() { return actions; });
+const state = () => ({
+  dataList: {},
+  dataListFiltered: {},
+  filters: {
+    search: "",
+    name: "",
+    sort: "id_asc"
+  }
+});
+const getters = {
+  getDataList(state) {
+    return state.dataList;
+  }
+
+};
+const mutations = {
+  setDataList(state, response) {
+    state.dataList = response;
+  },
+
+  setDataListFiltered(state, response) {
+    state.dataListFiltered = response === null ? state.dataList : response;
+  },
+
+  setFilters(state, filters) {
+    state.filters.search = filters.search, state.filters.name = filters.name, state.filters.author = filters.author, state.filters.price = filters.price, state.filters.sort = filters.sort;
+  },
+
+  deleteItem(state, data) {
     state.dataListFiltered.data.splice(data.index, 1);
   }
 
@@ -1789,7 +1887,7 @@ const actions = {
 };
 
 /***/ }),
-/* 75 */
+/* 76 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2620,57 +2718,57 @@ if (false) {}
 
 
 
-const _ee460050 = () => interopDefault(__webpack_require__.e(/* import() | pages/200 */ 1).then(__webpack_require__.bind(null, 211)));
+const _ee460050 = () => interopDefault(__webpack_require__.e(/* import() | pages/200 */ 1).then(__webpack_require__.bind(null, 209)));
 
-const _1a588646 = () => interopDefault(__webpack_require__.e(/* import() | pages/403 */ 2).then(__webpack_require__.bind(null, 212)));
+const _1a588646 = () => interopDefault(__webpack_require__.e(/* import() | pages/403 */ 2).then(__webpack_require__.bind(null, 210)));
 
-const _1a3c5744 = () => interopDefault(__webpack_require__.e(/* import() | pages/404 */ 3).then(__webpack_require__.bind(null, 213)));
+const _1a3c5744 = () => interopDefault(__webpack_require__.e(/* import() | pages/404 */ 3).then(__webpack_require__.bind(null, 211)));
 
-const _278fb19b = () => interopDefault(__webpack_require__.e(/* import() | pages/500 */ 4).then(__webpack_require__.bind(null, 214)));
+const _278fb19b = () => interopDefault(__webpack_require__.e(/* import() | pages/500 */ 4).then(__webpack_require__.bind(null, 212)));
 
-const _4bf89126 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/index */ 8).then(__webpack_require__.bind(null, 191)));
+const _4bf89126 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/index */ 8).then(__webpack_require__.bind(null, 195)));
 
-const _0af076c5 = () => interopDefault(__webpack_require__.e(/* import() | pages/knihy/index */ 21).then(__webpack_require__.bind(null, 192)));
+const _0af076c5 = () => interopDefault(__webpack_require__.e(/* import() | pages/knihy/index */ 21).then(__webpack_require__.bind(null, 196)));
 
-const _f99f9130 = () => interopDefault(__webpack_require__.e(/* import() | pages/odhlasenie/index */ 25).then(__webpack_require__.bind(null, 178)));
+const _f99f9130 = () => interopDefault(__webpack_require__.e(/* import() | pages/odhlasenie/index */ 25).then(__webpack_require__.bind(null, 176)));
 
-const _d179b20c = () => interopDefault(__webpack_require__.e(/* import() | pages/prihlasenie/index */ 27).then(__webpack_require__.bind(null, 179)));
+const _d179b20c = () => interopDefault(__webpack_require__.e(/* import() | pages/prihlasenie/index */ 27).then(__webpack_require__.bind(null, 177)));
 
-const _3f3bbc66 = () => interopDefault(__webpack_require__.e(/* import() | pages/registracia/index */ 29).then(__webpack_require__.bind(null, 180)));
+const _3f3bbc66 = () => interopDefault(__webpack_require__.e(/* import() | pages/registracia/index */ 29).then(__webpack_require__.bind(null, 178)));
 
-const _6ee93fd1 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/categories/index */ 7).then(__webpack_require__.bind(null, 181)));
+const _6ee93fd1 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/categories/index */ 7).then(__webpack_require__.bind(null, 179)));
 
-const _6ff934e8 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/orders/index */ 9).then(__webpack_require__.bind(null, 193)));
+const _6ff934e8 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/orders/index */ 9).then(__webpack_require__.bind(null, 197)));
 
-const _0bec57ec = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/storage/index */ 12).then(__webpack_require__.bind(null, 194)));
+const _0193909e = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/stock/index */ 12).then(__webpack_require__.bind(null, 180)));
 
-const _7d41fff4 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/tags/index */ 15).then(__webpack_require__.bind(null, 182)));
+const _7d41fff4 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/tags/index */ 15).then(__webpack_require__.bind(null, 181)));
 
-const _796cde1c = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/titles/index */ 18).then(__webpack_require__.bind(null, 195)));
+const _796cde1c = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/titles/index */ 18).then(__webpack_require__.bind(null, 182)));
 
-const _65e19502 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/users/index */ 19).then(__webpack_require__.bind(null, 196)));
+const _65e19502 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/users/index */ 19).then(__webpack_require__.bind(null, 198)));
 
 const _99c45d44 = () => interopDefault(__webpack_require__.e(/* import() | pages/knihy/najnovsie/index */ 22).then(__webpack_require__.bind(null, 183)));
 
 const _74d31b1d = () => interopDefault(__webpack_require__.e(/* import() | pages/knihy/najoblubenejsie/index */ 23).then(__webpack_require__.bind(null, 184)));
 
-const _4fe2f96b = () => interopDefault(__webpack_require__.e(/* import() | pages/knihy/vsetky/index */ 24).then(__webpack_require__.bind(null, 197)));
+const _4fe2f96b = () => interopDefault(__webpack_require__.e(/* import() | pages/knihy/vsetky/index */ 24).then(__webpack_require__.bind(null, 199)));
 
 const _5abc6916 = () => interopDefault(__webpack_require__.e(/* import() | pages/prihlasenie/code */ 26).then(__webpack_require__.bind(null, 185)));
 
 const _606a4eee = () => interopDefault(__webpack_require__.e(/* import() | pages/registracia/code */ 28).then(__webpack_require__.bind(null, 186)));
 
-const _e7ce68cc = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/index */ 31).then(__webpack_require__.bind(null, 198)));
+const _e7ce68cc = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/index */ 31).then(__webpack_require__.bind(null, 200)));
 
-const _f6b1e386 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/index */ 35).then(__webpack_require__.bind(null, 199)));
+const _f6b1e386 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/index */ 35).then(__webpack_require__.bind(null, 201)));
 
 const _7cafbaa2 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/categories/add/index */ 5).then(__webpack_require__.bind(null, 187)));
 
-const _a8230932 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/storage/add/index */ 10).then(__webpack_require__.bind(null, 200)));
+const _3722aec2 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/stock/add/index */ 10).then(__webpack_require__.bind(null, 188)));
 
-const _f8eecf42 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/tags/add/index */ 13).then(__webpack_require__.bind(null, 188)));
+const _f8eecf42 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/tags/add/index */ 13).then(__webpack_require__.bind(null, 189)));
 
-const _5529f621 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/titles/add/index */ 16).then(__webpack_require__.bind(null, 201)));
+const _5529f621 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/titles/add/index */ 16).then(__webpack_require__.bind(null, 190)));
 
 const _fb420a40 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/credits/index */ 30).then(__webpack_require__.bind(null, 202)));
 
@@ -2686,15 +2784,15 @@ const _d03e1a56 = () => interopDefault(__webpack_require__.e(/* import() | pages
 
 const _460ef418 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/wishlist/index */ 38).then(__webpack_require__.bind(null, 208)));
 
-const _08eefe8c = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/categories/detail/_id/index */ 6).then(__webpack_require__.bind(null, 189)));
+const _08eefe8c = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/categories/detail/_id/index */ 6).then(__webpack_require__.bind(null, 191)));
 
-const _78b0ac7f = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/storage/detail/_id/index */ 11).then(__webpack_require__.bind(null, 209)));
+const _3355564c = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/stock/detail/_id/index */ 11).then(__webpack_require__.bind(null, 192)));
 
-const _34ba5177 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/tags/detail/_id/index */ 14).then(__webpack_require__.bind(null, 190)));
+const _34ba5177 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/tags/detail/_id/index */ 14).then(__webpack_require__.bind(null, 193)));
 
-const _0d8acd39 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/titles/detail/_id/index */ 17).then(__webpack_require__.bind(null, 210)));
+const _0d8acd39 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/titles/detail/_id/index */ 17).then(__webpack_require__.bind(null, 194)));
 
-const _35182910 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 20).then(__webpack_require__.bind(null, 177))); // TODO: remove in Nuxt 3
+const _35182910 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 20).then(__webpack_require__.bind(null, 175))); // TODO: remove in Nuxt 3
 
 
 const emptyFn = () => {};
@@ -2757,9 +2855,9 @@ const routerOptions = {
     component: _6ff934e8,
     name: "admin-orders"
   }, {
-    path: "/admin/storage",
-    component: _0bec57ec,
-    name: "admin-storage"
+    path: "/admin/stock",
+    component: _0193909e,
+    name: "admin-stock"
   }, {
     path: "/admin/tags",
     component: _7d41fff4,
@@ -2805,9 +2903,9 @@ const routerOptions = {
     component: _7cafbaa2,
     name: "admin-categories-add"
   }, {
-    path: "/admin/storage/add",
-    component: _a8230932,
-    name: "admin-storage-add"
+    path: "/admin/stock/add",
+    component: _3722aec2,
+    name: "admin-stock-add"
   }, {
     path: "/admin/tags/add",
     component: _f8eecf42,
@@ -2849,9 +2947,9 @@ const routerOptions = {
     component: _08eefe8c,
     name: "admin-categories-detail-id"
   }, {
-    path: "/admin/storage/detail/:id",
-    component: _78b0ac7f,
-    name: "admin-storage-detail-id"
+    path: "/admin/stock/detail/:id",
+    component: _3355564c,
+    name: "admin-stock-detail-id"
   }, {
     path: "/admin/tags/detail/:id",
     component: _34ba5177,
@@ -3521,12 +3619,12 @@ var Topbar_component = Object(componentNormalizer["a" /* default */])(
 )
 
 /* harmony default export */ var Topbar = (Topbar_component.exports);
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/page/_common/Sidebar.vue?vue&type=template&id=78b9440b&scoped=true&
-var Sidebarvue_type_template_id_78b9440b_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"sidenav-container"},[_vm._ssrNode("<div class=\"sidenav-backdrop\""+(_vm._ssrStyle(null,null, { display: (_vm.show) ? '' : 'none' }))+" data-v-78b9440b></div> "),_c('transition',{attrs:{"name":"slide-side"}},[_c('div',{directives:[{name:"show",rawName:"v-show",value:(_vm.show),expression:"show"}],staticClass:"sidenav grid gap-20 align-content-start"},[_c('div',{staticClass:"logo justify-self-start"},[_c('nuxt-link',{staticClass:"grid gap-10 col-2 auto align-items-center",attrs:{"to":"/"}},[_c('img',{staticClass:"logo-icon",attrs:{"src":__webpack_require__(10),"alt":""}}),_vm._v(" "),_c('img',{staticClass:"logo-text",attrs:{"src":__webpack_require__(14),"alt":""}})])],1),_vm._v(" "),_c('div',{staticClass:"hr"}),_vm._v(" "),(_vm.$store.getters['auth/isUserLoggedIn'])?_c('ul',{staticClass:"grid col-1 gap-20"},[(_vm.showLevel)?_c('li',{on:{"click":function($event){return _vm.changeLinkLevel(null)}}},[_vm._v("Späť")]):_vm._e(),_vm._v(" "),(_vm.showLevel)?_c('div',{staticClass:"hr"}):_vm._e(),_vm._v(" "),(_vm.showLevel === null)?_c('li',{on:{"click":function($event){return _vm.changeLinkLevel("knihy")}}},[_vm._v("Knižnica")]):_vm._e(),_vm._v(" "),(_vm.showLevel === 'knihy')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{attrs:{"to":"/knihy/vsetky"}},[_vm._v("Všetky knižky")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'knihy')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{attrs:{"to":"/knihy/najnovsie"}},[_vm._v("Najnovšie knižky")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'knihy')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{attrs:{"to":"/knihy/najoblubenejsie"}},[_vm._v("Najobľúbenejšie knižky")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === null && _vm.$store.state.auth.userData.level == 104)?_c('li',{on:{"click":function($event){return _vm.changeLinkLevel("admin")}}},[_vm._v("Administrácia")]):_vm._e(),_vm._v(" "),(_vm.showLevel === 'admin')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/admin/orders"}},[_vm._v("Objednávky")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'admin')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/admin/categories"}},[_vm._v("Kategórie")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'admin')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/admin/tags"}},[_vm._v("Značky")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'admin')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/admin/titles"}},[_vm._v("Knižné tituly")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'admin')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/admin/storage"}},[_vm._v("Sklad")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'admin')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/admin/users"}},[_vm._v("Používatelia")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === null)?_c('li',{on:{"click":function($event){return _vm.changeLinkLevel("mojeknizky")}}},[_vm._v("Moje knižky")]):_vm._e(),_vm._v(" "),(_vm.showLevel === 'mojeknizky')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/user/books/basket"}},[_vm._v("Košík")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'mojeknizky')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/user/books/borrowed"}},[_vm._v("Požičané knižky")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'mojeknizky')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/user/books/rated"}},[_vm._v("Hodnotené knižky")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'mojeknizky')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/user/books/reserved"}},[_vm._v("Rezervované knižky")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'mojeknizky')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/user/books/wishlist"}},[_vm._v("Wishlist")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === null)?_c('li',{on:{"click":function($event){return _vm.changeLinkLevel("mojucet")}}},[_vm._v("Môj účet")]):_vm._e(),_vm._v(" "),(_vm.showLevel === 'mojucet')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/user/account/settings"}},[_vm._v("Nastavenia")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'mojucet')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/user/account/credits"}},[_vm._v("Kredity")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === null)?_c('li',{on:{"click":function($event){return _vm.changeLinkLevel("viac")}}},[_vm._v("viac ...")]):_vm._e(),_vm._v(" "),(_vm.showLevel === 'viac')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/ako-to-funguje"}},[_vm._v("Ako to funguje?")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'viac')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/nas-pribeh"}},[_vm._v("Náš príbeh")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'viac')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/blog"}},[_vm._v("Náš blog")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'viac')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/newsletter"}},[_vm._v("Novinky emailom")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === null)?_c('div',{staticClass:"hr"}):_vm._e(),_vm._v(" "),(_vm.showLevel === null)?_c('li',[_c('a',{on:{"click":function($event){$event.preventDefault();return _vm.logout()}}},[_vm._v("Odhlásiť sa")])]):_vm._e()]):_c('ul',{staticClass:"grid col-1 gap-20"},[_c('li',[_c('nuxt-link',{attrs:{"to":"/knihy"}},[_vm._v("Knižnica")])],1),_vm._v(" "),_c('div',{staticClass:"hr"}),_vm._v(" "),_c('li',[_c('nuxt-link',{attrs:{"to":"/prihlasenie"}},[_vm._v("Prihlásenie")])],1),_vm._v(" "),_c('li',[_c('nuxt-link',{attrs:{"to":"/registracia"}},[_vm._v("Registrácia")])],1)]),_vm._v(" "),_c('div',{staticClass:"hr"}),_vm._v(" "),_c('p',{staticClass:"small"},[_vm._v("© "+_vm._s(new Date().getFullYear())+" tulaveknizky.sk")])])])],2)}
-var Sidebarvue_type_template_id_78b9440b_scoped_true_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/page/_common/Sidebar.vue?vue&type=template&id=a66878d0&scoped=true&
+var Sidebarvue_type_template_id_a66878d0_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"sidenav-container"},[_vm._ssrNode("<div class=\"sidenav-backdrop\""+(_vm._ssrStyle(null,null, { display: (_vm.show) ? '' : 'none' }))+" data-v-a66878d0></div> "),_c('transition',{attrs:{"name":"slide-side"}},[_c('div',{directives:[{name:"show",rawName:"v-show",value:(_vm.show),expression:"show"}],staticClass:"sidenav grid gap-20 align-content-start"},[_c('div',{staticClass:"logo justify-self-start"},[_c('nuxt-link',{staticClass:"grid gap-10 col-2 auto align-items-center",attrs:{"to":"/"}},[_c('img',{staticClass:"logo-icon",attrs:{"src":__webpack_require__(10),"alt":""}}),_vm._v(" "),_c('img',{staticClass:"logo-text",attrs:{"src":__webpack_require__(14),"alt":""}})])],1),_vm._v(" "),_c('div',{staticClass:"hr"}),_vm._v(" "),(_vm.$store.getters['auth/isUserLoggedIn'])?_c('ul',{staticClass:"grid col-1 gap-20"},[(_vm.showLevel)?_c('li',{on:{"click":function($event){return _vm.changeLinkLevel(null)}}},[_vm._v("Späť")]):_vm._e(),_vm._v(" "),(_vm.showLevel)?_c('div',{staticClass:"hr"}):_vm._e(),_vm._v(" "),(_vm.showLevel === null)?_c('li',{on:{"click":function($event){return _vm.changeLinkLevel("knihy")}}},[_vm._v("Knižnica")]):_vm._e(),_vm._v(" "),(_vm.showLevel === 'knihy')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{attrs:{"to":"/knihy/vsetky"}},[_vm._v("Všetky knižky")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'knihy')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{attrs:{"to":"/knihy/najnovsie"}},[_vm._v("Najnovšie knižky")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'knihy')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{attrs:{"to":"/knihy/najoblubenejsie"}},[_vm._v("Najobľúbenejšie knižky")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === null && _vm.$store.state.auth.userData.level == 104)?_c('li',{on:{"click":function($event){return _vm.changeLinkLevel("admin")}}},[_vm._v("Administrácia")]):_vm._e(),_vm._v(" "),(_vm.showLevel === 'admin')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/admin/orders"}},[_vm._v("Objednávky")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'admin')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/admin/categories"}},[_vm._v("Kategórie")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'admin')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/admin/tags"}},[_vm._v("Značky")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'admin')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/admin/titles"}},[_vm._v("Knižné tituly")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'admin')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/admin/stock"}},[_vm._v("Sklad")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'admin')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/admin/users"}},[_vm._v("Používatelia")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === null)?_c('li',{on:{"click":function($event){return _vm.changeLinkLevel("mojeknizky")}}},[_vm._v("Moje knižky")]):_vm._e(),_vm._v(" "),(_vm.showLevel === 'mojeknizky')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/user/books/basket"}},[_vm._v("Košík")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'mojeknizky')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/user/books/borrowed"}},[_vm._v("Požičané knižky")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'mojeknizky')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/user/books/rated"}},[_vm._v("Hodnotené knižky")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'mojeknizky')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/user/books/reserved"}},[_vm._v("Rezervované knižky")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'mojeknizky')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/user/books/wishlist"}},[_vm._v("Wishlist")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === null)?_c('li',{on:{"click":function($event){return _vm.changeLinkLevel("mojucet")}}},[_vm._v("Môj účet")]):_vm._e(),_vm._v(" "),(_vm.showLevel === 'mojucet')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/user/account/settings"}},[_vm._v("Nastavenia")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'mojucet')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/user/account/credits"}},[_vm._v("Kredity")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === null)?_c('li',{on:{"click":function($event){return _vm.changeLinkLevel("viac")}}},[_vm._v("...viac")]):_vm._e(),_vm._v(" "),(_vm.showLevel === 'viac')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/ako-to-funguje"}},[_vm._v("Ako to funguje?")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'viac')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/nas-pribeh"}},[_vm._v("Náš príbeh")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'viac')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/blog"}},[_vm._v("Náš blog")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'viac')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/newsletter"}},[_vm._v("Novinky emailom")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === null)?_c('div',{staticClass:"hr"}):_vm._e(),_vm._v(" "),(_vm.showLevel === null)?_c('li',[_c('a',{on:{"click":function($event){$event.preventDefault();return _vm.logout()}}},[_vm._v("Odhlásiť sa")])]):_vm._e()]):_c('ul',{staticClass:"grid col-1 gap-20"},[_c('li',[_c('nuxt-link',{attrs:{"to":"/knihy"}},[_vm._v("Knižnica")])],1),_vm._v(" "),_c('div',{staticClass:"hr"}),_vm._v(" "),_c('li',[_c('nuxt-link',{attrs:{"to":"/prihlasenie"}},[_vm._v("Prihlásenie")])],1),_vm._v(" "),_c('li',[_c('nuxt-link',{attrs:{"to":"/registracia"}},[_vm._v("Registrácia")])],1)]),_vm._v(" "),_c('div',{staticClass:"hr"}),_vm._v(" "),_c('p',{staticClass:"small"},[_vm._v("© "+_vm._s(new Date().getFullYear())+" tulaveknizky.sk")])])])],2)}
+var Sidebarvue_type_template_id_a66878d0_scoped_true_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/page/_common/Sidebar.vue?vue&type=template&id=78b9440b&scoped=true&
+// CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/page/_common/Sidebar.vue?vue&type=template&id=a66878d0&scoped=true&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/page/_common/Sidebar.vue?vue&type=script&lang=js&
 //
@@ -3674,11 +3772,11 @@ if (style0.__inject__) style0.__inject__(context)
 
 var Sidebar_component = Object(componentNormalizer["a" /* default */])(
   _common_Sidebarvue_type_script_lang_js_,
-  Sidebarvue_type_template_id_78b9440b_scoped_true_render,
-  Sidebarvue_type_template_id_78b9440b_scoped_true_staticRenderFns,
+  Sidebarvue_type_template_id_a66878d0_scoped_true_render,
+  Sidebarvue_type_template_id_a66878d0_scoped_true_staticRenderFns,
   false,
   Sidebar_injectStyles,
-  "78b9440b",
+  "a66878d0",
   "24b4eef6"
   
 )
@@ -4234,7 +4332,8 @@ let store_store = {};
   resolveStoreModules(__webpack_require__(71), 'auth.js');
   resolveStoreModules(__webpack_require__(72), 'book.js');
   resolveStoreModules(__webpack_require__(73), 'category.js');
-  resolveStoreModules(__webpack_require__(74), 'tag.js'); // If the environment supports hot reloading...
+  resolveStoreModules(__webpack_require__(74), 'stock.js');
+  resolveStoreModules(__webpack_require__(75), 'tag.js'); // If the environment supports hot reloading...
 })(); // createStore
 
 

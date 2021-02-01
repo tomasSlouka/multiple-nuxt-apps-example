@@ -10,7 +10,7 @@
                         <div class='grid gap-20'>
                             <!-- Name -->
                             <div>
-                                <label for="name">Názov knihy</label>
+                                <label for="name">Názov značky</label>
                                 <input type="text" placeholder="Názov knihy" name="name" v-model="dataDetail.data.name">
                             </div>
                             <!-- Name -->

@@ -8,7 +8,7 @@
                         <li><nuxt-link to='/admin/categories' class='small'>Kategórie</nuxt-link></li>
                         <li><nuxt-link to='/admin/tags' class='small'>Značky</nuxt-link></li>
                         <li><nuxt-link to='/admin/titles' class='small'>Knižné tituly</nuxt-link></li>
-                        <li><nuxt-link to='/admin/storage' class='small'>Sklad</nuxt-link></li>
+                        <li><nuxt-link to='/admin/stock' class='small'>Sklad</nuxt-link></li>
                         <li><nuxt-link to='/admin/users' class='small'>Používatelia</nuxt-link></li>
                     </ul>
                 </div>

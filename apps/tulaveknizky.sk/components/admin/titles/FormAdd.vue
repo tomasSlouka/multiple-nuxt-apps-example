@@ -108,8 +108,8 @@ export default {
                     this.submitText = 'Uložené!';
                     // if(this.password_1 === '') { this.password_locked = 0 } else { this.password_locked = 1 }
                     setTimeout(() => this.submitSuccess = false, 4000)
-                    // this.$router.push('/admin/titles/detail/'+ response.id)
-                    this.$router.push('/admin/titles')
+                    this.$router.push('/admin/titles/detail/'+ response.id)
+                    // this.$router.push('/admin/titles')
                 }, (error) => {
                     console.log(error);
                     //this.res = error.response.data.message

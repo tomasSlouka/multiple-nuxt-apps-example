@@ -119,9 +119,6 @@ export default {
     border-radius: 4px;
 }
 
-.box > div.body {
-}
-
 img {
     border-radius: 20px;
     max-height: 220px;
