@@ -3,10 +3,14 @@
         <div class="container-standard grid">
             <div class='grid gap-40'>
                 <div class='grid md-col-2 align-items-center'>
-                    <h2>Zoznam</h2>
+                    <h2>Zoznam </h2>
                     <nuxt-link to="/admin/titles/add" class='button cta black justify-self-end'>Pridať nový knižný titul</nuxt-link>
                 </div>
-
+                <div>
+                    <p class='small'>
+                        Zobrazujem <strong>{{bookList.count}}</strong> knižných titulov.
+                    </p>
+                </div>
                 <!-- {{bookList.data}} -->
                 <div class='grid gap-5 auto '>
                     <div class='table-wrapper justify-content-start'>
