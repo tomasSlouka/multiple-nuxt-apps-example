@@ -23,7 +23,7 @@
                             <div>
                                 <p class='success' v-if='submitSuccess'>{{submitText}}</p>
                             </div>
-                            <nuxt-link to='/admin/tags' class="button cta red">Zrušiť</nuxt-link>
+                            <nuxt-link to='/admin/stock' class="button cta red">Zrušiť</nuxt-link>
                             <button type="submit" class="button cta black">Uložiť</button>
                         </div>
                     </form>
@@ -47,7 +47,7 @@ export default {
     },
     methods: {
         async submitForm() {
-                await this.$axios.$put('/storage', {
+                await this.$axios.$put('/stock', {
                     "id": this.$route.params.id,
                     "name": this.dataDetail.data.name,
                 })
@@ -56,7 +56,7 @@ export default {
                     this.submitSuccess = true;
                     this.submitText = 'Uložené!';
                     setTimeout(() => this.submitSuccess = false, 4000)
-                    this.$router.push('/admin/storage')
+                    this.$router.push('/admin/stock')
                 }, (error) => {
                     console.log(error);
                 });

@@ -26,9 +26,11 @@ const _606a4eee = () => interopDefault(import('..\\..\\pages\\registracia\\code.
 const _e7ce68cc = () => interopDefault(import('..\\..\\pages\\user\\account\\index.vue' /* webpackChunkName: "pages/user/account/index" */))
 const _f6b1e386 = () => interopDefault(import('..\\..\\pages\\user\\books\\index.vue' /* webpackChunkName: "pages/user/books/index" */))
 const _7cafbaa2 = () => interopDefault(import('..\\..\\pages\\admin\\categories\\add\\index.vue' /* webpackChunkName: "pages/admin/categories/add/index" */))
+const _07905beb = () => interopDefault(import('..\\..\\pages\\admin\\orders\\add\\index.vue' /* webpackChunkName: "pages/admin/orders/add/index" */))
 const _3722aec2 = () => interopDefault(import('..\\..\\pages\\admin\\stock\\add\\index.vue' /* webpackChunkName: "pages/admin/stock/add/index" */))
 const _f8eecf42 = () => interopDefault(import('..\\..\\pages\\admin\\tags\\add\\index.vue' /* webpackChunkName: "pages/admin/tags/add/index" */))
 const _5529f621 = () => interopDefault(import('..\\..\\pages\\admin\\titles\\add\\index.vue' /* webpackChunkName: "pages/admin/titles/add/index" */))
+const _69e621b4 = () => interopDefault(import('..\\..\\pages\\admin\\users\\add\\index.vue' /* webpackChunkName: "pages/admin/users/add/index" */))
 const _fb420a40 = () => interopDefault(import('..\\..\\pages\\user\\account\\credits\\index.vue' /* webpackChunkName: "pages/user/account/credits/index" */))
 const _23c95417 = () => interopDefault(import('..\\..\\pages\\user\\account\\settings\\index.vue' /* webpackChunkName: "pages/user/account/settings/index" */))
 const _b96e0392 = () => interopDefault(import('..\\..\\pages\\user\\books\\basket\\index.vue' /* webpackChunkName: "pages/user/books/basket/index" */))
@@ -37,9 +39,11 @@ const _36df4db3 = () => interopDefault(import('..\\..\\pages\\user\\books\\rated
 const _d03e1a56 = () => interopDefault(import('..\\..\\pages\\user\\books\\reserved\\index.vue' /* webpackChunkName: "pages/user/books/reserved/index" */))
 const _460ef418 = () => interopDefault(import('..\\..\\pages\\user\\books\\wishlist\\index.vue' /* webpackChunkName: "pages/user/books/wishlist/index" */))
 const _08eefe8c = () => interopDefault(import('..\\..\\pages\\admin\\categories\\detail\\_id\\index.vue' /* webpackChunkName: "pages/admin/categories/detail/_id/index" */))
+const _10886dfa = () => interopDefault(import('..\\..\\pages\\admin\\orders\\detail\\_id\\index.vue' /* webpackChunkName: "pages/admin/orders/detail/_id/index" */))
 const _3355564c = () => interopDefault(import('..\\..\\pages\\admin\\stock\\detail\\_id\\index.vue' /* webpackChunkName: "pages/admin/stock/detail/_id/index" */))
 const _34ba5177 = () => interopDefault(import('..\\..\\pages\\admin\\tags\\detail\\_id\\index.vue' /* webpackChunkName: "pages/admin/tags/detail/_id/index" */))
 const _0d8acd39 = () => interopDefault(import('..\\..\\pages\\admin\\titles\\detail\\_id\\index.vue' /* webpackChunkName: "pages/admin/titles/detail/_id/index" */))
+const _4837b5cc = () => interopDefault(import('..\\..\\pages\\admin\\users\\detail\\_id\\index.vue' /* webpackChunkName: "pages/admin/users/detail/_id/index" */))
 const _35182910 = () => interopDefault(import('..\\..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 // TODO: remove in Nuxt 3
@@ -151,6 +155,10 @@ export const routerOptions = {
     component: _7cafbaa2,
     name: "admin-categories-add"
   }, {
+    path: "/admin/orders/add",
+    component: _07905beb,
+    name: "admin-orders-add"
+  }, {
     path: "/admin/stock/add",
     component: _3722aec2,
     name: "admin-stock-add"
@@ -162,6 +170,10 @@ export const routerOptions = {
     path: "/admin/titles/add",
     component: _5529f621,
     name: "admin-titles-add"
+  }, {
+    path: "/admin/users/add",
+    component: _69e621b4,
+    name: "admin-users-add"
   }, {
     path: "/user/account/credits",
     component: _fb420a40,
@@ -195,6 +207,10 @@ export const routerOptions = {
     component: _08eefe8c,
     name: "admin-categories-detail-id"
   }, {
+    path: "/admin/orders/detail/:id",
+    component: _10886dfa,
+    name: "admin-orders-detail-id"
+  }, {
     path: "/admin/stock/detail/:id",
     component: _3355564c,
     name: "admin-stock-detail-id"
@@ -206,6 +222,10 @@ export const routerOptions = {
     path: "/admin/titles/detail/:id",
     component: _0d8acd39,
     name: "admin-titles-detail-id"
+  }, {
+    path: "/admin/users/detail/:id",
+    component: _4837b5cc,
+    name: "admin-users-detail-id"
   }, {
     path: "/",
     component: _35182910,

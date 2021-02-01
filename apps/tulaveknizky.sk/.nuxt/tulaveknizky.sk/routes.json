@@ -161,6 +161,13 @@
     "_name": "_7cafbaa2"
   },
   {
+    "name": "admin-orders-add",
+    "path": "/admin/orders/add",
+    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\admin\\\\orders\\\\add\\\\index.vue",
+    "chunkName": "pages/admin/orders/add/index",
+    "_name": "_07905beb"
+  },
+  {
     "name": "admin-stock-add",
     "path": "/admin/stock/add",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\admin\\\\stock\\\\add\\\\index.vue",
@@ -180,6 +187,13 @@
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\admin\\\\titles\\\\add\\\\index.vue",
     "chunkName": "pages/admin/titles/add/index",
     "_name": "_5529f621"
+  },
+  {
+    "name": "admin-users-add",
+    "path": "/admin/users/add",
+    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\admin\\\\users\\\\add\\\\index.vue",
+    "chunkName": "pages/admin/users/add/index",
+    "_name": "_69e621b4"
   },
   {
     "name": "user-account-credits",
@@ -238,6 +252,13 @@
     "_name": "_08eefe8c"
   },
   {
+    "name": "admin-orders-detail-id",
+    "path": "/admin/orders/detail/:id",
+    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\admin\\\\orders\\\\detail\\\\_id\\\\index.vue",
+    "chunkName": "pages/admin/orders/detail/_id/index",
+    "_name": "_10886dfa"
+  },
+  {
     "name": "admin-stock-detail-id",
     "path": "/admin/stock/detail/:id",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\admin\\\\stock\\\\detail\\\\_id\\\\index.vue",
@@ -257,6 +278,13 @@
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\admin\\\\titles\\\\detail\\\\_id\\\\index.vue",
     "chunkName": "pages/admin/titles/detail/_id/index",
     "_name": "_0d8acd39"
+  },
+  {
+    "name": "admin-users-detail-id",
+    "path": "/admin/users/detail/:id",
+    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\admin\\\\users\\\\detail\\\\_id\\\\index.vue",
+    "chunkName": "pages/admin/users/detail/_id/index",
+    "_name": "_4837b5cc"
   },
   {
     "name": "index",

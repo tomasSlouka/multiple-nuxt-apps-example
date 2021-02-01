@@ -18,8 +18,10 @@ let store = {};
   resolveStoreModules(require('..\\..\\store\\auth.js'), 'auth.js')
   resolveStoreModules(require('..\\..\\store\\book.js'), 'book.js')
   resolveStoreModules(require('..\\..\\store\\category.js'), 'category.js')
+  resolveStoreModules(require('..\\..\\store\\order.js'), 'order.js')
   resolveStoreModules(require('..\\..\\store\\stock.js'), 'stock.js')
   resolveStoreModules(require('..\\..\\store\\tag.js'), 'tag.js')
+  resolveStoreModules(require('..\\..\\store\\user.js'), 'user.js')
 
   // If the environment supports hot reloading...
 })()
