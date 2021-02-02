@@ -29,6 +29,23 @@
                             </div>
                             <!-- Price -->
 
+                            <!-- Short text -->
+                            <div>
+                                <label for="short_text">Krátky popis</label>
+                                <textarea type="text" placeholder="Krátky popis" name="short_text" v-model="dataDetail.data.short_text"></textarea>
+                            </div>
+                            <!-- Short text -->
+
+                            <!-- Long text -->
+                            <div>
+                                <label for="long_text">Celý popis</label>
+                                <textarea class='long' type="text" placeholder="Celý popis" name="long_text" v-model="dataDetail.data.long_text"></textarea>
+                            </div>
+                            <!-- Long text -->
+
+                        </div>
+
+                        <div class='grid gap-20'>
                             <!-- Category -->
                             <label for="long_text">Vyber kategórie</label>
                             <div class='flex wrap tags'>
@@ -44,22 +61,6 @@
                                 <div  v-for="item in tagList.data" :key="item.id" @click.prevent="updateTag(item.id)" class='tag' :class="(tags.includes(item.id)) ? 'active' : ''">{{item.name}}</div>
                             </div>
                             <!-- Tag -->
-                        </div>
-
-                        <div class='grid gap-20'>
-                            <!-- Short text -->
-                            <div>
-                                <label for="short_text">Krátky popis</label>
-                                <textarea type="text" placeholder="Krátky popis" name="short_text" v-model="dataDetail.data.short_text"></textarea>
-                            </div>
-                            <!-- Short text -->
-
-                            <!-- Long text -->
-                            <div>
-                                <label for="long_text">Celý popis</label>
-                                <textarea class='long' type="text" placeholder="Celý popis" name="long_text" v-model="dataDetail.data.long_text"></textarea>
-                            </div>
-                            <!-- Long text -->
                         </div>
 
                         <div class="md-span-2 hr">

@@ -39,6 +39,7 @@
                                 <select name="level" v-model='dataDetail.data.level'>
                                     <option value="100">User</option>
                                     <option value="104">Admin</option>
+                                    <option value="105">Sklad</option>
                                 </select>
                             </div>
                             <!-- Level -->
