@@ -162,7 +162,7 @@ button.cta, .button.cta {
     background: #39ac37;
     border: 1px solid #39ac37;
     color: #fff;
-    border-radius: 4px;
+    border-radius: 2px;
     padding: 10px 30px;
     font-weight: 600;
     outline: none;
@@ -417,8 +417,8 @@ span.tag.blue {
     color: rgba(11, 53, 87, 0.75);
 }
 span.tag.yellow {
-    background-color: #e7d53099;
-    color: rgb(102, 94, 23);
+    background-color: #fff4bf;
+    color: #000;
 }
 span.tag.green {
     background-color: #30e7b69e;
@@ -426,7 +426,7 @@ span.tag.green {
 }
 span.tag.gray {
     background-color: #eaeaea90;
-    color: #aaa;
+    color: #000;
 }
 
 /* info */
