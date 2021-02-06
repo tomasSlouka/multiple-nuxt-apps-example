@@ -8,17 +8,19 @@
                         <img :src='"http://api.qrserver.com/v1/create-qr-code/?data=https://tulaveknizky.sk/qr/"+ dataDetail.data.id +"&size=200x200&margin=20"' alt="">
                     </div>
 
-                    <div class='p20 grid gap-20'>
+                    <div class='p20 grid gap-20 align-content-start'>
                         <div>
                             <h3>{{ dataDetail.data.name }}</h3>
                             <p class="small italic">{{ dataDetail.data.author }}</p>
+                            <div class="hr mt10"></div>
                         </div>
                         <div class='grid col-2 auto gap-20 align-items-center justify-content-start'>
                             <p>Identifikačný kód:</p> 
-                            <h2>{{ dataDetail.data.id }}/2021</h2>
+                            <h4>{{ dataDetail.data.code }}</h4>
                         </div>
-                        <div>
+                        <div class='grid col-2 auto gap-20 align-items-center justify-content-start'>
                             <p>Stav:</p>
+                            <h4>{{ dataDetail.data.status_name }}</h4>
                         </div>
                     </div>
                 </div>

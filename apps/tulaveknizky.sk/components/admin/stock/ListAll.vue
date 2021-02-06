@@ -4,21 +4,26 @@
             <div class='grid gap-40'>
                 <div class='grid md-col-2 align-items-center'>
                     <h2>Zoznam</h2>
-                    <nuxt-link to="/admin/stock/add" class='button cta black justify-self-end'>Pridať novú knižku</nuxt-link>
+                    <!-- Knizky do skladu je mozne pridat cez knizne tituly aby sa zabezpecila konzistencia dat. -->
+                    <!-- <nuxt-link to="/admin/stock/add" class='button cta black justify-self-end'>Pridať novú knižku</nuxt-link> -->
                 </div>
 
                 <div class='grid gap-5 auto '>
                     <div class='table-wrapper justify-content-start'>
-                        <div class='table grid auto col-2'>
+                        <div class='table grid auto col-4'>
                             <div class="table-head">
                                 <div>Názov</div>
+                                <div>Identifikačný kód</div>
+                                <div>Stav</div>
                                 <div>Akcia</div>
                             </div>
 
                             <div class='table-row' v-for='(item, index) in stockList.data' :key='item.id'> 
                                 <div><p class='strong'>{{item.name}}</p></div>
+                                <div><p>{{item.code}}</p></div>
+                                <div><p>{{item.status_name}}</p></div>
                                 <div class='grid col-2 auto gap-5 justify-content-start justify-items-start'>
-                                    <nuxt-link :to='"/admin/stock/detail/" + item.id' class='button cta small white' >Upraviť</nuxt-link>
+                                    <nuxt-link :to='"/admin/stock/detail/" + item.id' class='button cta small white' >Detail</nuxt-link>
                                     <button class='button cta small red' @click='deleteButton({id: item.id, index: index })'>Vymazať</button>
                                 </div>
                             </div>

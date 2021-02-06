@@ -21,14 +21,19 @@ var SubNav = __webpack_require__(86);
 // EXTERNAL MODULE: ./apps/tulaveknizky.sk/components/admin/_common/Hero.vue + 4 modules
 var Hero = __webpack_require__(85);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/admin/stock/ListAll.vue?vue&type=template&id=f8af988e&scoped=true&
-var ListAllvue_type_template_id_f8af988e_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component"},[_vm._ssrNode("<div class=\"container-standard grid\" data-v-f8af988e>","</div>",[_vm._ssrNode("<div class=\"grid gap-40\" data-v-f8af988e>","</div>",[_vm._ssrNode("<div class=\"grid md-col-2 align-items-center\" data-v-f8af988e>","</div>",[_vm._ssrNode("<h2 data-v-f8af988e>Zoznam</h2> "),_c('nuxt-link',{staticClass:"button cta black justify-self-end",attrs:{"to":"/admin/stock/add"}},[_vm._v("Pridať novú knižku")])],2),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"grid gap-5 auto \" data-v-f8af988e>","</div>",[_vm._ssrNode("<div class=\"table-wrapper justify-content-start\" data-v-f8af988e>","</div>",[_vm._ssrNode("<div class=\"table grid auto col-2\" data-v-f8af988e>","</div>",[_vm._ssrNode("<div class=\"table-head\" data-v-f8af988e><div data-v-f8af988e>Názov</div> <div data-v-f8af988e>Akcia</div></div> "),_vm._l((_vm.stockList.data),function(item,index){return _vm._ssrNode("<div class=\"table-row\" data-v-f8af988e>","</div>",[_vm._ssrNode("<div data-v-f8af988e><p class=\"strong\" data-v-f8af988e>"+_vm._ssrEscape(_vm._s(item.name))+"</p></div> "),_vm._ssrNode("<div class=\"grid col-2 auto gap-5 justify-content-start justify-items-start\" data-v-f8af988e>","</div>",[_c('nuxt-link',{staticClass:"button cta small white",attrs:{"to":"/admin/stock/detail/" + item.id}},[_vm._v("Upraviť")]),_vm._ssrNode(" <button class=\"button cta small red\" data-v-f8af988e>Vymazať</button>")],2)],2)})],2)])])],2)])])}
-var ListAllvue_type_template_id_f8af988e_scoped_true_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/admin/stock/ListAll.vue?vue&type=template&id=6887a535&scoped=true&
+var ListAllvue_type_template_id_6887a535_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component"},[_vm._ssrNode("<div class=\"container-standard grid\" data-v-6887a535>","</div>",[_vm._ssrNode("<div class=\"grid gap-40\" data-v-6887a535>","</div>",[_vm._ssrNode("<div class=\"grid md-col-2 align-items-center\" data-v-6887a535><h2 data-v-6887a535>Zoznam</h2></div> "),_vm._ssrNode("<div class=\"grid gap-5 auto \" data-v-6887a535>","</div>",[_vm._ssrNode("<div class=\"table-wrapper justify-content-start\" data-v-6887a535>","</div>",[_vm._ssrNode("<div class=\"table grid auto col-4\" data-v-6887a535>","</div>",[_vm._ssrNode("<div class=\"table-head\" data-v-6887a535><div data-v-6887a535>Názov</div> <div data-v-6887a535>Identifikačný kód</div> <div data-v-6887a535>Stav</div> <div data-v-6887a535>Akcia</div></div> "),_vm._l((_vm.stockList.data),function(item,index){return _vm._ssrNode("<div class=\"table-row\" data-v-6887a535>","</div>",[_vm._ssrNode("<div data-v-6887a535><p class=\"strong\" data-v-6887a535>"+_vm._ssrEscape(_vm._s(item.name))+"</p></div> <div data-v-6887a535><p data-v-6887a535>"+_vm._ssrEscape(_vm._s(item.code))+"</p></div> <div data-v-6887a535><p data-v-6887a535>"+_vm._ssrEscape(_vm._s(item.status_name))+"</p></div> "),_vm._ssrNode("<div class=\"grid col-2 auto gap-5 justify-content-start justify-items-start\" data-v-6887a535>","</div>",[_c('nuxt-link',{staticClass:"button cta small white",attrs:{"to":"/admin/stock/detail/" + item.id}},[_vm._v("Detail")]),_vm._ssrNode(" <button class=\"button cta small red\" data-v-6887a535>Vymazať</button>")],2)],2)})],2)])])],2)])])}
+var ListAllvue_type_template_id_6887a535_scoped_true_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/admin/stock/ListAll.vue?vue&type=template&id=f8af988e&scoped=true&
+// CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/admin/stock/ListAll.vue?vue&type=template&id=6887a535&scoped=true&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/admin/stock/ListAll.vue?vue&type=script&lang=js&
+//
+//
+//
+//
+//
 //
 //
 //
@@ -94,11 +99,11 @@ function injectStyles (context) {
 
 var component = Object(componentNormalizer["a" /* default */])(
   stock_ListAllvue_type_script_lang_js_,
-  ListAllvue_type_template_id_f8af988e_scoped_true_render,
-  ListAllvue_type_template_id_f8af988e_scoped_true_staticRenderFns,
+  ListAllvue_type_template_id_6887a535_scoped_true_render,
+  ListAllvue_type_template_id_6887a535_scoped_true_staticRenderFns,
   false,
   injectStyles,
-  "f8af988e",
+  "6887a535",
   "b6dd27b2"
   
 )

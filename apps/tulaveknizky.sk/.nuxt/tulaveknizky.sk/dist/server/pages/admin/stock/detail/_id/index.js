@@ -21,14 +21,16 @@ var Hero = __webpack_require__(85);
 // EXTERNAL MODULE: ./apps/tulaveknizky.sk/components/admin/_common/SubNav.vue + 4 modules
 var SubNav = __webpack_require__(86);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/admin/stock/Detail.vue?vue&type=template&id=401d7de2&scoped=true&
-var Detailvue_type_template_id_401d7de2_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component"},[_vm._ssrNode("<div class=\"container-standard grid\" data-v-401d7de2><div class=\"grid gap-40\" data-v-401d7de2><h2 data-v-401d7de2>Detail knižky</h2> <div class=\"grid md-col-2 auto gap-40 justify-content-start\" data-v-401d7de2><div data-v-401d7de2><img"+(_vm._ssrAttr("src","http://api.qrserver.com/v1/create-qr-code/?data=https://tulaveknizky.sk/qr/"+ _vm.dataDetail.data.id +"&size=200x200&margin=20"))+" alt data-v-401d7de2></div> <div class=\"p20 grid gap-20\" data-v-401d7de2><div data-v-401d7de2><h3 data-v-401d7de2>"+_vm._ssrEscape(_vm._s(_vm.dataDetail.data.name))+"</h3> <p class=\"small italic\" data-v-401d7de2>"+_vm._ssrEscape(_vm._s(_vm.dataDetail.data.author))+"</p></div> <div class=\"grid col-2 auto gap-20 align-items-center justify-content-start\" data-v-401d7de2><p data-v-401d7de2>Identifikačný kód:</p> <h2 data-v-401d7de2>"+_vm._ssrEscape(_vm._s(_vm.dataDetail.data.id)+"/2021")+"</h2></div> <div data-v-401d7de2><p data-v-401d7de2>Stav:</p></div></div></div></div></div>")])}
-var Detailvue_type_template_id_401d7de2_scoped_true_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/admin/stock/Detail.vue?vue&type=template&id=53a1a6d1&scoped=true&
+var Detailvue_type_template_id_53a1a6d1_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component"},[_vm._ssrNode("<div class=\"container-standard grid\" data-v-53a1a6d1><div class=\"grid gap-40\" data-v-53a1a6d1><h2 data-v-53a1a6d1>Detail knižky</h2> <div class=\"grid md-col-2 auto gap-40 justify-content-start\" data-v-53a1a6d1><div data-v-53a1a6d1><img"+(_vm._ssrAttr("src","http://api.qrserver.com/v1/create-qr-code/?data=https://tulaveknizky.sk/qr/"+ _vm.dataDetail.data.id +"&size=200x200&margin=20"))+" alt data-v-53a1a6d1></div> <div class=\"p20 grid gap-20 align-content-start\" data-v-53a1a6d1><div data-v-53a1a6d1><h3 data-v-53a1a6d1>"+_vm._ssrEscape(_vm._s(_vm.dataDetail.data.name))+"</h3> <p class=\"small italic\" data-v-53a1a6d1>"+_vm._ssrEscape(_vm._s(_vm.dataDetail.data.author))+"</p> <div class=\"hr mt10\" data-v-53a1a6d1></div></div> <div class=\"grid col-2 auto gap-20 align-items-center justify-content-start\" data-v-53a1a6d1><p data-v-53a1a6d1>Identifikačný kód:</p> <h4 data-v-53a1a6d1>"+_vm._ssrEscape(_vm._s(_vm.dataDetail.data.code))+"</h4></div> <div class=\"grid col-2 auto gap-20 align-items-center justify-content-start\" data-v-53a1a6d1><p data-v-53a1a6d1>Stav:</p> <h4 data-v-53a1a6d1>"+_vm._ssrEscape(_vm._s(_vm.dataDetail.data.status_name))+"</h4></div></div></div></div></div>")])}
+var Detailvue_type_template_id_53a1a6d1_scoped_true_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/admin/stock/Detail.vue?vue&type=template&id=401d7de2&scoped=true&
+// CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/admin/stock/Detail.vue?vue&type=template&id=53a1a6d1&scoped=true&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/admin/stock/Detail.vue?vue&type=script&lang=js&
+//
+//
 //
 //
 //
@@ -108,11 +110,11 @@ function injectStyles (context) {
 
 var component = Object(componentNormalizer["a" /* default */])(
   stock_Detailvue_type_script_lang_js_,
-  Detailvue_type_template_id_401d7de2_scoped_true_render,
-  Detailvue_type_template_id_401d7de2_scoped_true_staticRenderFns,
+  Detailvue_type_template_id_53a1a6d1_scoped_true_render,
+  Detailvue_type_template_id_53a1a6d1_scoped_true_staticRenderFns,
   false,
   injectStyles,
-  "401d7de2",
+  "53a1a6d1",
   "4db56406"
   
 )
