@@ -3,252 +3,294 @@
     "name": "200",
     "path": "/200",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\200.vue",
-    "chunkName": "pages/200"
+    "chunkName": "pages/200",
+    "_name": "_ee460050"
   },
   {
     "name": "403",
     "path": "/403",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\403.vue",
-    "chunkName": "pages/403"
+    "chunkName": "pages/403",
+    "_name": "_1a588646"
   },
   {
     "name": "404",
     "path": "/404",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\404.vue",
-    "chunkName": "pages/404"
+    "chunkName": "pages/404",
+    "_name": "_1a3c5744"
   },
   {
     "name": "500",
     "path": "/500",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\500.vue",
-    "chunkName": "pages/500"
+    "chunkName": "pages/500",
+    "_name": "_278fb19b"
   },
   {
     "name": "admin",
     "path": "/admin",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\admin\\\\index.vue",
-    "chunkName": "pages/admin/index"
+    "chunkName": "pages/admin/index",
+    "_name": "_4bf89126"
   },
   {
     "name": "knihy",
     "path": "/knihy",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\knihy\\\\index.vue",
-    "chunkName": "pages/knihy/index"
+    "chunkName": "pages/knihy/index",
+    "_name": "_0af076c5"
   },
   {
     "name": "odhlasenie",
     "path": "/odhlasenie",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\odhlasenie\\\\index.vue",
-    "chunkName": "pages/odhlasenie/index"
+    "chunkName": "pages/odhlasenie/index",
+    "_name": "_f99f9130"
   },
   {
     "name": "prihlasenie",
     "path": "/prihlasenie",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\prihlasenie\\\\index.vue",
-    "chunkName": "pages/prihlasenie/index"
+    "chunkName": "pages/prihlasenie/index",
+    "_name": "_d179b20c"
   },
   {
     "name": "registracia",
     "path": "/registracia",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\registracia\\\\index.vue",
-    "chunkName": "pages/registracia/index"
+    "chunkName": "pages/registracia/index",
+    "_name": "_3f3bbc66"
   },
   {
     "name": "admin-categories",
     "path": "/admin/categories",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\admin\\\\categories\\\\index.vue",
-    "chunkName": "pages/admin/categories/index"
+    "chunkName": "pages/admin/categories/index",
+    "_name": "_6ee93fd1"
   },
   {
     "name": "admin-orders",
     "path": "/admin/orders",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\admin\\\\orders\\\\index.vue",
-    "chunkName": "pages/admin/orders/index"
+    "chunkName": "pages/admin/orders/index",
+    "_name": "_6ff934e8"
   },
   {
     "name": "admin-stock",
     "path": "/admin/stock",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\admin\\\\stock\\\\index.vue",
-    "chunkName": "pages/admin/stock/index"
+    "chunkName": "pages/admin/stock/index",
+    "_name": "_0193909e"
   },
   {
     "name": "admin-tags",
     "path": "/admin/tags",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\admin\\\\tags\\\\index.vue",
-    "chunkName": "pages/admin/tags/index"
+    "chunkName": "pages/admin/tags/index",
+    "_name": "_7d41fff4"
   },
   {
     "name": "admin-titles",
     "path": "/admin/titles",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\admin\\\\titles\\\\index.vue",
-    "chunkName": "pages/admin/titles/index"
+    "chunkName": "pages/admin/titles/index",
+    "_name": "_796cde1c"
   },
   {
     "name": "admin-users",
     "path": "/admin/users",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\admin\\\\users\\\\index.vue",
-    "chunkName": "pages/admin/users/index"
+    "chunkName": "pages/admin/users/index",
+    "_name": "_65e19502"
   },
   {
     "name": "knihy-najnovsie",
     "path": "/knihy/najnovsie",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\knihy\\\\najnovsie\\\\index.vue",
-    "chunkName": "pages/knihy/najnovsie/index"
+    "chunkName": "pages/knihy/najnovsie/index",
+    "_name": "_99c45d44"
   },
   {
     "name": "knihy-najoblubenejsie",
     "path": "/knihy/najoblubenejsie",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\knihy\\\\najoblubenejsie\\\\index.vue",
-    "chunkName": "pages/knihy/najoblubenejsie/index"
+    "chunkName": "pages/knihy/najoblubenejsie/index",
+    "_name": "_74d31b1d"
   },
   {
     "name": "knihy-vsetky",
     "path": "/knihy/vsetky",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\knihy\\\\vsetky\\\\index.vue",
-    "chunkName": "pages/knihy/vsetky/index"
+    "chunkName": "pages/knihy/vsetky/index",
+    "_name": "_4fe2f96b"
   },
   {
     "name": "prihlasenie-code",
     "path": "/prihlasenie/code",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\prihlasenie\\\\code.vue",
-    "chunkName": "pages/prihlasenie/code"
+    "chunkName": "pages/prihlasenie/code",
+    "_name": "_5abc6916"
   },
   {
     "name": "registracia-code",
     "path": "/registracia/code",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\registracia\\\\code.vue",
-    "chunkName": "pages/registracia/code"
+    "chunkName": "pages/registracia/code",
+    "_name": "_606a4eee"
   },
   {
     "name": "user-account",
     "path": "/user/account",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\user\\\\account\\\\index.vue",
-    "chunkName": "pages/user/account/index"
+    "chunkName": "pages/user/account/index",
+    "_name": "_e7ce68cc"
   },
   {
     "name": "user-books",
     "path": "/user/books",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\user\\\\books\\\\index.vue",
-    "chunkName": "pages/user/books/index"
+    "chunkName": "pages/user/books/index",
+    "_name": "_f6b1e386"
   },
   {
     "name": "admin-categories-add",
     "path": "/admin/categories/add",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\admin\\\\categories\\\\add\\\\index.vue",
-    "chunkName": "pages/admin/categories/add/index"
+    "chunkName": "pages/admin/categories/add/index",
+    "_name": "_7cafbaa2"
   },
   {
     "name": "admin-orders-add",
     "path": "/admin/orders/add",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\admin\\\\orders\\\\add\\\\index.vue",
-    "chunkName": "pages/admin/orders/add/index"
+    "chunkName": "pages/admin/orders/add/index",
+    "_name": "_07905beb"
   },
   {
     "name": "admin-stock-add",
     "path": "/admin/stock/add",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\admin\\\\stock\\\\add\\\\index.vue",
-    "chunkName": "pages/admin/stock/add/index"
+    "chunkName": "pages/admin/stock/add/index",
+    "_name": "_3722aec2"
   },
   {
     "name": "admin-tags-add",
     "path": "/admin/tags/add",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\admin\\\\tags\\\\add\\\\index.vue",
-    "chunkName": "pages/admin/tags/add/index"
+    "chunkName": "pages/admin/tags/add/index",
+    "_name": "_f8eecf42"
   },
   {
     "name": "admin-titles-add",
     "path": "/admin/titles/add",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\admin\\\\titles\\\\add\\\\index.vue",
-    "chunkName": "pages/admin/titles/add/index"
+    "chunkName": "pages/admin/titles/add/index",
+    "_name": "_5529f621"
   },
   {
     "name": "admin-users-add",
     "path": "/admin/users/add",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\admin\\\\users\\\\add\\\\index.vue",
-    "chunkName": "pages/admin/users/add/index"
+    "chunkName": "pages/admin/users/add/index",
+    "_name": "_69e621b4"
   },
   {
     "name": "user-account-credits",
     "path": "/user/account/credits",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\user\\\\account\\\\credits\\\\index.vue",
-    "chunkName": "pages/user/account/credits/index"
+    "chunkName": "pages/user/account/credits/index",
+    "_name": "_fb420a40"
   },
   {
     "name": "user-account-settings",
     "path": "/user/account/settings",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\user\\\\account\\\\settings\\\\index.vue",
-    "chunkName": "pages/user/account/settings/index"
+    "chunkName": "pages/user/account/settings/index",
+    "_name": "_23c95417"
   },
   {
     "name": "user-books-basket",
     "path": "/user/books/basket",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\user\\\\books\\\\basket\\\\index.vue",
-    "chunkName": "pages/user/books/basket/index"
+    "chunkName": "pages/user/books/basket/index",
+    "_name": "_b96e0392"
   },
   {
     "name": "user-books-borrowed",
     "path": "/user/books/borrowed",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\user\\\\books\\\\borrowed\\\\index.vue",
-    "chunkName": "pages/user/books/borrowed/index"
+    "chunkName": "pages/user/books/borrowed/index",
+    "_name": "_62f79d29"
   },
   {
     "name": "user-books-rated",
     "path": "/user/books/rated",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\user\\\\books\\\\rated\\\\index.vue",
-    "chunkName": "pages/user/books/rated/index"
+    "chunkName": "pages/user/books/rated/index",
+    "_name": "_36df4db3"
   },
   {
     "name": "user-books-reserved",
     "path": "/user/books/reserved",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\user\\\\books\\\\reserved\\\\index.vue",
-    "chunkName": "pages/user/books/reserved/index"
+    "chunkName": "pages/user/books/reserved/index",
+    "_name": "_d03e1a56"
   },
   {
     "name": "user-books-wishlist",
     "path": "/user/books/wishlist",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\user\\\\books\\\\wishlist\\\\index.vue",
-    "chunkName": "pages/user/books/wishlist/index"
+    "chunkName": "pages/user/books/wishlist/index",
+    "_name": "_460ef418"
   },
   {
     "name": "admin-categories-detail-id",
     "path": "/admin/categories/detail/:id",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\admin\\\\categories\\\\detail\\\\_id\\\\index.vue",
-    "chunkName": "pages/admin/categories/detail/_id/index"
+    "chunkName": "pages/admin/categories/detail/_id/index",
+    "_name": "_08eefe8c"
   },
   {
     "name": "admin-orders-detail-id",
     "path": "/admin/orders/detail/:id",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\admin\\\\orders\\\\detail\\\\_id\\\\index.vue",
-    "chunkName": "pages/admin/orders/detail/_id/index"
+    "chunkName": "pages/admin/orders/detail/_id/index",
+    "_name": "_10886dfa"
   },
   {
     "name": "admin-stock-detail-id",
     "path": "/admin/stock/detail/:id",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\admin\\\\stock\\\\detail\\\\_id\\\\index.vue",
-    "chunkName": "pages/admin/stock/detail/_id/index"
+    "chunkName": "pages/admin/stock/detail/_id/index",
+    "_name": "_3355564c"
   },
   {
     "name": "admin-tags-detail-id",
     "path": "/admin/tags/detail/:id",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\admin\\\\tags\\\\detail\\\\_id\\\\index.vue",
-    "chunkName": "pages/admin/tags/detail/_id/index"
+    "chunkName": "pages/admin/tags/detail/_id/index",
+    "_name": "_34ba5177"
   },
   {
     "name": "admin-titles-detail-id",
     "path": "/admin/titles/detail/:id",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\admin\\\\titles\\\\detail\\\\_id\\\\index.vue",
-    "chunkName": "pages/admin/titles/detail/_id/index"
+    "chunkName": "pages/admin/titles/detail/_id/index",
+    "_name": "_0d8acd39"
   },
   {
     "name": "admin-users-detail-id",
     "path": "/admin/users/detail/:id",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\admin\\\\users\\\\detail\\\\_id\\\\index.vue",
-    "chunkName": "pages/admin/users/detail/_id/index"
+    "chunkName": "pages/admin/users/detail/_id/index",
+    "_name": "_4837b5cc"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_35182910"
   }
 ]

@@ -131,7 +131,9 @@ p.smaller, a.smaller {font-size: 0.713em; line-height: 1.569em;}
 p.small, a.small {font-size: 0.813em; line-height: 1.769em;}
 p, p.normal, a, a.normal {font-size: 1em; line-height: 1.688em;}
 p.big, a.big {font-size: 1.25em; line-height: 1.65em;}
-p.gray, .gray {color: #bbb;}
+p.gray, .gray {color: #545454;}
+p.green, .green {color: #39ac37;}
+p.red, .red {color: #dc0016;}
 
 /* Buttons */
 p > a, a {
@@ -427,6 +429,11 @@ span.tag.green {
 span.tag.gray {
     background-color: #eaeaea90;
     color: #000;
+}
+span.tag.white {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #e8e8e8;
 }
 
 /* info */

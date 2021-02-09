@@ -26,11 +26,17 @@
                         </div>
                         <div class='grid gap-10'>
                             <h3>{{item.name}}</h3>
-                            <p class="small gray">{{item.author}}</p>
+                            <div class='grid col-2 auto justify-content-start align-items-center gap-20'>
+                                <p class="small strong">{{item.author}}</p>
+                                <!-- <div class='flex wrap'><span class='tag white' v-for="(cat) in item.categories == null ? [] : item.categories.split(',')" :key='cat'>{{cat}}</span></div> -->
+                            </div>
                             <p>{{item.short_text == "" ? item.long_text.slice(0,180) + "..." : item.short_text }}</p>
-                            <p><nuxt-link :to='"/kniha/" + item.id'>Viac o knihe</nuxt-link></p>
+                            <p class='small'><nuxt-link :to='"/kniha/" + item.id' class='strong'>Viac o knihe</nuxt-link></p>
                         </div>
                         <div class='align-self-end grid gap-10 justify-items-end justify-self-end'>
+
+                            
+                            <div class='flex wrap'><span class='tag white' v-for="(cat) in item.categories == null ? [] : item.categories.split(',')" :key='cat'>{{cat}}</span></div>
 
                             <div class='grid col-3 auto'>
                                 <h2>{{item.price}}</h2>
@@ -42,9 +48,9 @@
                                 <!-- {{item.stock_count_all}}
                                 {{item.stock_count_available}}
                                 {{item.stock_count_borrowed}} -->
-                                <p v-if="item.stock_count_available == 0 && item.stock_count_borrowed > 0" class="small gray">Všetko sme vypožičali</p>
-                                <p v-if="item.stock_count_available == 0 && item.stock_count_all == 0" class="small gray">Knižka je dočasne nedostupná</p>
-                                <p v-if="item.stock_count_available >= 1" class="small gray">Dostupné ihneď</p>
+                                <p v-if="item.stock_count_available == 0 && item.stock_count_borrowed > 0" class="small strong red">Všetko sme vypožičali</p>
+                                <p v-if="item.stock_count_available == 0 && item.stock_count_all == 0" class="small strong red">Dočasne nedostupná</p>
+                                <p v-if="item.stock_count_available >= 1" class="small strong green">Dostupné ihneď</p>
                                 <!-- <p v-if="item.stock_count_available == 1" class="small gray">Dostupný {{item.stock_count_available}} exemplár</p> -->
                                 <!-- <p v-if="item.stock_count_available >= 2 && item.stock_count_available <= 4" class="small gray">Dostupné {{item.stock_count_available}} exempláre</p> -->
                                 <!-- <p v-if="item.stock_count_available > 4" class="small gray">Dostupných {{item.stock_count_available}} exemplárov</p> -->
@@ -52,7 +58,7 @@
                             <div class='align-self-end grid align-items-center col-2 auto gap-20'>
                                 <img src="@/assets/img/icon-love.svg" alt="" class='love' />
                                 <button v-if="item.stock_count_available >= 1" class='button cta black'>Požičať</button>
-                                <button v-if="item.stock_count_available == 0 && item.stock_count_borrowed > 0" class='button cta white'>Sledovať dostupnosť</button>
+                                <button v-if="item.stock_count_available == 0 && item.stock_count_borrowed > 0" class='button cta white small'>Sledovať dostupnosť</button>
                                 <button v-if="item.stock_count_available == 0 && item.stock_count_all == 0" class='button cta red'>Nedostupné</button>
                             </div>
                         </div>
@@ -103,6 +109,10 @@ img {
 
 #filter li {
     list-style: none;
+}
+
+.readmore {
+    text-decoration: none;
 }
 /* @media only screen and (min-width: 768px) {
     .box {
