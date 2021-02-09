@@ -3,174 +3,203 @@
     "name": "200",
     "path": "/200",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.manyletter.com\\\\pages\\\\200.vue",
-    "chunkName": "pages/200"
+    "chunkName": "pages/200",
+    "_name": "_0fa24f50"
   },
   {
     "name": "403",
     "path": "/403",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.manyletter.com\\\\pages\\\\403.vue",
-    "chunkName": "pages/403"
+    "chunkName": "pages/403",
+    "_name": "_6225955d"
   },
   {
     "name": "404",
     "path": "/404",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.manyletter.com\\\\pages\\\\404.vue",
-    "chunkName": "pages/404"
+    "chunkName": "pages/404",
+    "_name": "_6233acde"
   },
   {
     "name": "500",
     "path": "/500",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.manyletter.com\\\\pages\\\\500.vue",
-    "chunkName": "pages/500"
+    "chunkName": "pages/500",
+    "_name": "_d23cebca"
   },
   {
     "name": "log-in",
     "path": "/log-in",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.manyletter.com\\\\pages\\\\log-in\\\\index.vue",
-    "chunkName": "pages/log-in/index"
+    "chunkName": "pages/log-in/index",
+    "_name": "_7d6ae16a"
   },
   {
     "name": "log-out",
     "path": "/log-out",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.manyletter.com\\\\pages\\\\log-out\\\\index.vue",
-    "chunkName": "pages/log-out/index"
+    "chunkName": "pages/log-out/index",
+    "_name": "_29bb52b7"
   },
   {
     "name": "sign-up",
     "path": "/sign-up",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.manyletter.com\\\\pages\\\\sign-up\\\\index.vue",
-    "chunkName": "pages/sign-up/index"
+    "chunkName": "pages/sign-up/index",
+    "_name": "_1c7eb791"
   },
   {
     "name": "log-in-code",
     "path": "/log-in/code",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.manyletter.com\\\\pages\\\\log-in\\\\code.vue",
-    "chunkName": "pages/log-in/code"
+    "chunkName": "pages/log-in/code",
+    "_name": "_24610305"
   },
   {
     "name": "sign-up-code",
     "path": "/sign-up/code",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.manyletter.com\\\\pages\\\\sign-up\\\\code.vue",
-    "chunkName": "pages/sign-up/code"
+    "chunkName": "pages/sign-up/code",
+    "_name": "_10136804"
   },
   {
     "name": "admin-account-credits",
     "path": "/admin/account/credits",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.manyletter.com\\\\pages\\\\admin\\\\account\\\\credits\\\\index.vue",
-    "chunkName": "pages/admin/account/credits/index"
+    "chunkName": "pages/admin/account/credits/index",
+    "_name": "_81a30600"
   },
   {
     "name": "admin-account-settings",
     "path": "/admin/account/settings",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.manyletter.com\\\\pages\\\\admin\\\\account\\\\settings\\\\index.vue",
-    "chunkName": "pages/admin/account/settings/index"
+    "chunkName": "pages/admin/account/settings/index",
+    "_name": "_fe2bd412"
   },
   {
     "name": "admin-newsletter-automation",
     "path": "/admin/newsletter/automation",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.manyletter.com\\\\pages\\\\admin\\\\newsletter\\\\automation\\\\index.vue",
-    "chunkName": "pages/admin/newsletter/automation/index"
+    "chunkName": "pages/admin/newsletter/automation/index",
+    "_name": "_532e409d"
   },
   {
     "name": "admin-newsletter-avatar",
     "path": "/admin/newsletter/avatar",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.manyletter.com\\\\pages\\\\admin\\\\newsletter\\\\avatar\\\\index.vue",
-    "chunkName": "pages/admin/newsletter/avatar/index"
+    "chunkName": "pages/admin/newsletter/avatar/index",
+    "_name": "_6e1647ca"
   },
   {
     "name": "admin-newsletter-messages",
     "path": "/admin/newsletter/messages",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.manyletter.com\\\\pages\\\\admin\\\\newsletter\\\\messages\\\\index.vue",
-    "chunkName": "pages/admin/newsletter/messages/index"
+    "chunkName": "pages/admin/newsletter/messages/index",
+    "_name": "_2a37d3c8"
   },
   {
     "name": "admin-newsletter-overview",
     "path": "/admin/newsletter/overview",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.manyletter.com\\\\pages\\\\admin\\\\newsletter\\\\overview\\\\index.vue",
-    "chunkName": "pages/admin/newsletter/overview/index"
+    "chunkName": "pages/admin/newsletter/overview/index",
+    "_name": "_6c3b0d0a"
   },
   {
     "name": "admin-newsletter-settings",
     "path": "/admin/newsletter/settings",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.manyletter.com\\\\pages\\\\admin\\\\newsletter\\\\settings\\\\index.vue",
-    "chunkName": "pages/admin/newsletter/settings/index"
+    "chunkName": "pages/admin/newsletter/settings/index",
+    "_name": "_0763bc91"
   },
   {
     "name": "admin-newsletter-subscribers",
     "path": "/admin/newsletter/subscribers",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.manyletter.com\\\\pages\\\\admin\\\\newsletter\\\\subscribers\\\\index.vue",
-    "chunkName": "pages/admin/newsletter/subscribers/index"
+    "chunkName": "pages/admin/newsletter/subscribers/index",
+    "_name": "_054c9315"
   },
   {
     "name": "admin-website-domain",
     "path": "/admin/website/domain",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.manyletter.com\\\\pages\\\\admin\\\\website\\\\domain\\\\index.vue",
-    "chunkName": "pages/admin/website/domain/index"
+    "chunkName": "pages/admin/website/domain/index",
+    "_name": "_32bb8988"
   },
   {
     "name": "admin-website-integrations",
     "path": "/admin/website/integrations",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.manyletter.com\\\\pages\\\\admin\\\\website\\\\integrations\\\\index.vue",
-    "chunkName": "pages/admin/website/integrations/index"
+    "chunkName": "pages/admin/website/integrations/index",
+    "_name": "_90031e66"
   },
   {
     "name": "admin-website-navigation",
     "path": "/admin/website/navigation",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.manyletter.com\\\\pages\\\\admin\\\\website\\\\navigation\\\\index.vue",
-    "chunkName": "pages/admin/website/navigation/index"
+    "chunkName": "pages/admin/website/navigation/index",
+    "_name": "_7f53bd90"
   },
   {
     "name": "admin-website-settings",
     "path": "/admin/website/settings",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.manyletter.com\\\\pages\\\\admin\\\\website\\\\settings\\\\index.vue",
-    "chunkName": "pages/admin/website/settings/index"
+    "chunkName": "pages/admin/website/settings/index",
+    "_name": "_80a89f6e"
   },
   {
     "name": "admin-website-social",
     "path": "/admin/website/social",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.manyletter.com\\\\pages\\\\admin\\\\website\\\\social\\\\index.vue",
-    "chunkName": "pages/admin/website/social/index"
+    "chunkName": "pages/admin/website/social/index",
+    "_name": "_14df9982"
   },
   {
     "name": "admin-website-templates",
     "path": "/admin/website/templates",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.manyletter.com\\\\pages\\\\admin\\\\website\\\\templates\\\\index.vue",
-    "chunkName": "pages/admin/website/templates/index"
+    "chunkName": "pages/admin/website/templates/index",
+    "_name": "_1dc218ef"
   },
   {
     "name": "admin-newsletter-messages-create",
     "path": "/admin/newsletter/messages/create",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.manyletter.com\\\\pages\\\\admin\\\\newsletter\\\\messages\\\\create\\\\index.vue",
-    "chunkName": "pages/admin/newsletter/messages/create/index"
+    "chunkName": "pages/admin/newsletter/messages/create/index",
+    "_name": "_0f3cb868"
   },
   {
     "name": "admin-website-page-editor",
     "path": "/admin/website/page/editor",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.manyletter.com\\\\pages\\\\admin\\\\website\\\\page\\\\editor\\\\index.vue",
-    "chunkName": "pages/admin/website/page/editor/index"
+    "chunkName": "pages/admin/website/page/editor/index",
+    "_name": "_059ef950"
   },
   {
     "name": "admin-website-page-settings",
     "path": "/admin/website/page/settings",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.manyletter.com\\\\pages\\\\admin\\\\website\\\\page\\\\settings\\\\index.vue",
-    "chunkName": "pages/admin/website/page/settings/index"
+    "chunkName": "pages/admin/website/page/settings/index",
+    "_name": "_2375ffcc"
   },
   {
     "name": "admin-website-navigation-lvl2",
     "path": "/admin/website/navigation/:lvl2",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.manyletter.com\\\\pages\\\\admin\\\\website\\\\navigation\\\\_lvl2\\\\index.vue",
-    "chunkName": "pages/admin/website/navigation/_lvl2/index"
+    "chunkName": "pages/admin/website/navigation/_lvl2/index",
+    "_name": "_4310f066"
   },
   {
     "name": "admin-website-navigation-lvl2-lvl3",
     "path": "/admin/website/navigation/:lvl2/:lvl3",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.manyletter.com\\\\pages\\\\admin\\\\website\\\\navigation\\\\_lvl2\\\\_lvl3\\\\index.vue",
-    "chunkName": "pages/admin/website/navigation/_lvl2/_lvl3/index"
+    "chunkName": "pages/admin/website/navigation/_lvl2/_lvl3/index",
+    "_name": "_024fb612"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\app.manyletter.com\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_709cb810"
   }
 ]
