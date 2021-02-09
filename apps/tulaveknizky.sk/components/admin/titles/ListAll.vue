@@ -71,7 +71,7 @@ export default {
                     e.target.innerText = 'Knižka pridaná!'
                     setTimeout(() => this.submitSuccess = false, 4000)
                     // console.log(e.target.innerText)
-                    this.$router.push('/admin/stock/detail/'+ response.id)
+                    // this.$router.push('/admin/stock/detail/'+ response.id)
                 }, (error) => {
                     console.log(error);
                 });

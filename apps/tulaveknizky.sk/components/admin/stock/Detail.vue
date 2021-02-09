@@ -12,8 +12,8 @@
                         <div>
                             <h3>{{ dataDetail.data.name }}</h3>
                             <p class="small italic">{{ dataDetail.data.author }}</p>
-                            <div class="hr mt10"></div>
                         </div>
+                        <div class="hr"></div>
                         <div class='grid col-2 auto gap-20 align-items-center justify-content-start'>
                             <p>Identifikačný kód:</p> 
                             <h4>{{ dataDetail.data.code }}</h4>
@@ -21,6 +21,19 @@
                         <div class='grid col-2 auto gap-20 align-items-center justify-content-start'>
                             <p>Stav:</p>
                             <h4>{{ dataDetail.data.status_name }}</h4>
+                        </div>
+                        <div class="hr"></div>
+                        <div class='grid gap-10 align-items-center justify-content-start'>
+                            <p>Zmeniť stav:</p>
+                            <div class='tags flex wrap'>
+                                <!-- <div v-for='(item) in statusList.data' :key='item.id' class='tags'> -->
+                                    <div @click='updateStatus({status_id: item.id, status_name: item.name})' v-for='(item) in statusList.data' :key='item.id' :class='dataDetail.data.status_id != item.id ? "tag" : "tag active"'>{{item.name}}</div>
+                                <!-- </div> -->
+                            </div>
+                            <!-- <button class='cta white m2' v-if='dataDetail.data.status_id != 2'>Objednaná</button>
+                            <button class='cta white m2' v-if='dataDetail.data.status_id != 3'>Pripravená na odoslanie</button>
+                            <button class='cta white m2' v-if='dataDetail.data.status_id != 4'>V preprave</button>
+                            <button class='cta white m2' v-if='dataDetail.data.status_id != 5'>Vypožičaná</button> -->
                         </div>
                     </div>
                 </div>
@@ -35,7 +48,7 @@
 <script>
 
 export default {
-    props: ['dataDetail'],
+    props: ['dataDetail', 'statusList'],
     data() {
         return {
             submitSuccess: false,
@@ -58,6 +71,18 @@ export default {
                 }, (error) => {
                     console.log(error);
                 });
+        },
+        async updateStatus(data) {
+            await this.$axios.$put('/stock', {
+                "id": this.$route.params.id,
+                "status_id": data.status_id
+            })
+            .then((response) => {
+                this.dataDetail.data.status_id = data.status_id
+                this.dataDetail.data.status_name = data.status_name
+            }, (error) => {
+                console.log(error);
+            });
         },
     },
 }

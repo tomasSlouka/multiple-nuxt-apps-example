@@ -7,6 +7,7 @@
         />
         <Detail
             :dataDetail='dataDetail'    
+            :statusList='statusList'    
         />
         <!-- <FormEdit
             :dataDetail='dataDetail'    
@@ -31,10 +32,11 @@ export default {
         }
     },
     async asyncData({ $axios, params }) {
-        const [dataDetail] = await Promise.all ([
+        const [dataDetail, statusList] = await Promise.all ([
             $axios.$get('/stock/' + params.id),
+            $axios.$get('/stockstatus/all'),
         ])
-        return { dataDetail }
+        return { dataDetail, statusList }
     },
 }
 </script>

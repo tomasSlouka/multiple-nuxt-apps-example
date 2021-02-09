@@ -4,7 +4,9 @@
         <SubNav />
         <Hero />
         <More />
-        <Books />
+        <Books 
+            :bookList='bookList'
+        />
         <Newsletter />
         <!-- <Testimonials /> -->
         <!-- <More /> -->
@@ -25,6 +27,20 @@ export default {
         components: {
             SubNav, Hero, More, Books, Newsletter,
     },
+    data() {
+        return {
+            bookList: this.$store.state.book.dataListFiltered,
+        }
+    },
+    async fetch({store}) {
+        await store.dispatch("book/getDataList")
+    },
+    methods: {
+        filterChange() {
+            this.bookList = this.$store.state.book.dataListFiltered
+        }
+    }
+
     // async asyncData({ $axios, params }) {
     //     const [domainListNewest, domainListPremium] = await Promise.all ([
     //         $axios.$get('/open/newest'),

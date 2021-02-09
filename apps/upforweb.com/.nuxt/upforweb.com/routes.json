@@ -3,12 +3,14 @@
     "name": "sk",
     "path": "/sk",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\upforweb.com\\\\pages\\\\sk\\\\index.vue",
-    "chunkName": "pages/sk/index"
+    "chunkName": "pages/sk/index",
+    "_name": "_80d71018"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\upforweb.com\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_0f6bec68"
   }
 ]

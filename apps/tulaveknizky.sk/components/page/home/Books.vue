@@ -17,77 +17,47 @@
 
                 <h4>Najnovšie knižky</h4>
                 <div class='grid gap-30'>
-                    <div class="box grid gap-20 align-content-start align-items-start md-col-3 auto">
+                    
+                    
+                    
+                    <div v-for='(item) in bookList.data' :key='item.id' class="box grid gap-20 align-content-start align-items-start md-col-3 auto">
                         <div>
-                            <img src="@/assets/img/testbook.jpg" alt="" class='testbook' />
+                            <img src="https://fakeimg.pl/130x220" alt="" class='testbook' />
                         </div>
                         <div class='grid gap-10'>
-                            <h3>Búrka mečou 2: Krv a zlato</h3>
-                            <p class="small gray">George R.R. Martin</p>
-                            <p>Búrka mečov je geniálne premyslený a rozsiahly príbeh o neuveriteľnom svete plnom drsnej krásy a mocných kúziel, ktorý kvári zrada, krutosť ho trhá na kusy a pohlcuje ho ctibažnosť a nenásytnosť...</p>
+                            <h3>{{item.name}}</h3>
+                            <p class="small gray">{{item.author}}</p>
+                            <p>{{item.short_text == "" ? item.long_text.slice(0,180) + "..." : item.short_text }}</p>
+                            <p><nuxt-link :to='"/kniha/" + item.id'>Viac o knihe</nuxt-link></p>
                         </div>
-                        <div class='align-self-end grid gap-10 justify-items-end'>
+                        <div class='align-self-end grid gap-10 justify-items-end justify-self-end'>
 
                             <div class='grid col-3 auto'>
-                                <h2>16,39 </h2>
+                                <h2>{{item.price}}</h2>
                                 <p class="small align-self-center mt5 ml5">kreditov</p>
                                 <!-- <img src="@/assets/img/icon-eur.svg" alt="" class='eur' /> -->
                             </div>
 
                             <div>
-                                <p class="small gray">Dostupné 4 exempláre</p>
+                                <!-- {{item.stock_count_all}}
+                                {{item.stock_count_available}}
+                                {{item.stock_count_borrowed}} -->
+                                <p v-if="item.stock_count_available == 0 && item.stock_count_borrowed > 0" class="small gray">Všetko sme vypožičali</p>
+                                <p v-if="item.stock_count_available == 0 && item.stock_count_all == 0" class="small gray">Knižka je dočasne nedostupná</p>
+                                <p v-if="item.stock_count_available >= 1" class="small gray">Dostupné ihneď</p>
+                                <!-- <p v-if="item.stock_count_available == 1" class="small gray">Dostupný {{item.stock_count_available}} exemplár</p> -->
+                                <!-- <p v-if="item.stock_count_available >= 2 && item.stock_count_available <= 4" class="small gray">Dostupné {{item.stock_count_available}} exempláre</p> -->
+                                <!-- <p v-if="item.stock_count_available > 4" class="small gray">Dostupných {{item.stock_count_available}} exemplárov</p> -->
                             </div>
                             <div class='align-self-end grid align-items-center col-2 auto gap-20'>
                                 <img src="@/assets/img/icon-love.svg" alt="" class='love' />
-                                <button class='button cta black'>Vypožičať</button>
+                                <button v-if="item.stock_count_available >= 1" class='button cta black'>Požičať</button>
+                                <button v-if="item.stock_count_available == 0 && item.stock_count_borrowed > 0" class='button cta white'>Sledovať dostupnosť</button>
+                                <button v-if="item.stock_count_available == 0 && item.stock_count_all == 0" class='button cta red'>Nedostupné</button>
                             </div>
                         </div>
                     </div>
 
-                    <div class="box grid gap-20 align-content-start align-items-start md-col-3 auto">
-                        <div>
-                            <img src="@/assets/img/testbook2.jpg" alt="" class='testbook' />
-                        </div>
-                        <div class='grid gap-10'>
-                            <h3>Búrka mečou 2: Krv a zlato</h3>
-                            <p class="small gray">George R.R. Martin</p>
-                            <p>Búrka mečov je geniálne premyslený a rozsiahly príbeh o neuveriteľnom svete plnom drsnej krásy a mocných kúziel, ktorý kvári zrada, krutosť ho trhá na kusy a pohlcuje ho ctibažnosť a nenásytnosť...</p>
-                        </div>
-                        <div class='align-self-end grid gap-10 justify-items-end'>
-                            <div class='grid col-3 auto'>
-                                <h2>9,49 </h2>
-                                <p class="small align-self-center mt5 ml5">kreditov</p>
-                            </div>
-                            <div>
-                                <p class="small gray">Všetko sme vypožičali</p>
-                            </div>
-                            <div class='align-self-end grid align-items-center col-2 auto gap-20'>
-                                <img src="@/assets/img/icon-love.svg" alt="" class='love' />
-                                <button class='button cta black'>Rezervovať</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="box grid gap-20 align-content-start align-items-start md-col-3 auto">
-                        <div>
-                            <img src="@/assets/img/testbook3.jpg" alt="" class='testbook' />
-                        </div>
-                        <div class='grid gap-10'>
-                            <h3>Búrka mečou 2: Krv a zlato</h3>
-                            <p class="small gray">George R.R. Martin</p>
-                            <p>Búrka mečov je geniálne premyslený a rozsiahly príbeh o neuveriteľnom svete plnom drsnej krásy a mocných kúziel, ktorý kvári zrada, krutosť ho trhá na kusy a pohlcuje ho ctibažnosť a nenásytnosť...</p>
-                        </div>
-                        <div class='align-self-end grid gap-20 justify-items-end'>
-                            <div class='grid col-3 auto'>
-                                <h2>25,29 </h2>
-                                <p class="small align-self-center mt5 ml5">kreditov</p>
-                            </div>
-                            <div class='align-self-end grid align-items-center col-2 auto gap-20'>
-                                <img src="@/assets/img/icon-love.svg" alt="" class='love' />
-                                <button class='button cta black'>Nedostupné</button>
-                            </div>
-                        </div>
-                    </div>
                 </div>
                 
             </div>
@@ -101,7 +71,7 @@
 <script>
 export default {
 
-    // props: ['domainList'],
+    props: ['bookList'],
 
 }
 </script>
