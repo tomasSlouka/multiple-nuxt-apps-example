@@ -29,15 +29,15 @@ export default {
     },
     data() {
         return {
-            bookList: this.$store.state.book.dataListFiltered,
+            bookList: this.$store.state.openbook.dataListFiltered,
         }
     },
     async fetch({store}) {
-        await store.dispatch("book/getDataList")
+        await store.dispatch("openbook/getDataList")
     },
     methods: {
         filterChange() {
-            this.bookList = this.$store.state.book.dataListFiltered
+            this.bookList = this.$store.state.openbook.dataListFiltered
         }
     }
 

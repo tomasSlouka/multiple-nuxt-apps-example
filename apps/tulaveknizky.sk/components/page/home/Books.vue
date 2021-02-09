@@ -22,7 +22,7 @@
                     
                     <div v-for='(item) in bookList.data' :key='item.id' class="box grid gap-20 align-content-start align-items-start md-col-3 auto">
                         <div>
-                            <!-- <img src="https://fakeimg.pl/130x220" alt="" class='testbook' /> -->
+                            <img src="https://fakeimg.pl/130x220" alt="" class='testbook' />
                         </div>
                         <div class='grid gap-10'>
                             <h3>{{item.name}}</h3>

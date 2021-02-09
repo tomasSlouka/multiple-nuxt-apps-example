@@ -733,7 +733,7 @@ module.exports = require("defu");
 /* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(79);
+module.exports = __webpack_require__(80);
 
 
 /***/ }),
@@ -1715,6 +1715,105 @@ const state = () => ({
   filters: {
     search: "",
     name: "",
+    sort: "id_asc",
+    limit: 25
+  }
+});
+const getters = {
+  getDataList(state) {
+    return state.dataList;
+  }
+
+};
+const mutations = {
+  setDataList(state, response) {
+    state.dataList = response;
+  },
+
+  setDataListFiltered(state, response) {
+    state.dataListFiltered = response === null ? state.dataList : response;
+  },
+
+  setFilters(state, filters) {
+    state.filters.search = filters.search, state.filters.name = filters.name, state.filters.author = filters.author, state.filters.price = filters.price, state.filters.sort = filters.sort;
+  },
+
+  deleteItem(state, data) {
+    // state.dataList.data.splice(data.index, 1)
+    state.dataListFiltered.data.splice(data.index, 1);
+  }
+
+};
+const actions = {
+  async getDataList({
+    commit,
+    state,
+    dispatch
+  }) {
+    if (Object.keys(state.dataListFiltered).length == 0) {
+      const [dataList] = await Promise.all([this.$axios.$get('/openbook/all')]);
+      commit('setDataList', dataList);
+      commit('setDataListFiltered', null);
+    } else {
+      dispatch('getDataListFiltered');
+    } // console.log("Su dataListFilterd?")
+    // console.log(Object.keys(state.dataListFiltered).length)
+    // if(Object.keys(state.dataListFiltered).length == 0) {
+    // console.log("NIE dataListFilterd?")
+    // commit('setDataList', dataList)
+    // commit('setDataListFiltered', null)
+    // } else {
+    // console.log("ANO dataListFilterd?")
+    // dispatch('getDataListFiltered')
+    // commit('setFilteredDealsList', state.filteredList)
+    // }
+
+  },
+
+  // async getTagList({ commit }) {
+  //     const [tagList] = await Promise.all ([
+  //         this.$axios.$get('/tag/all'),
+  //     ])
+  //     commit('setTagList', tagList)
+  // },
+  async deleteItem(vuexContext, data) {
+    return await this.$axios.$delete('/openbook/' + data.id).then(response => {
+      console.log(response);
+      vuexContext.commit('deleteItem', data);
+    }, error => {
+      console.log(error); //this.res = error.response.data.message
+    });
+  },
+
+  async getDataListFiltered(vuexContext, state) {
+    return await this.$axios.$post('/openbook/all', {
+      "filters": vuexContext.state.filters
+    }).then(response => {
+      console.log(response);
+      vuexContext.commit('setDataListFiltered', response);
+    }, error => {
+      console.log(error); //this.res = error.response.data.message
+    });
+  }
+
+};
+
+/***/ }),
+/* 75 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "state", function() { return state; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getters", function() { return getters; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "mutations", function() { return mutations; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "actions", function() { return actions; });
+const state = () => ({
+  dataList: {},
+  dataListFiltered: {},
+  filters: {
+    search: "",
+    name: "",
     sort: "id_asc"
   }
 });
@@ -1798,7 +1897,7 @@ const actions = {
 };
 
 /***/ }),
-/* 75 */
+/* 76 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1896,7 +1995,7 @@ const actions = {
 };
 
 /***/ }),
-/* 76 */
+/* 77 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1994,7 +2093,7 @@ const actions = {
 };
 
 /***/ }),
-/* 77 */
+/* 78 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2083,7 +2182,7 @@ const actions = {
 };
 
 /***/ }),
-/* 78 */
+/* 79 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2181,7 +2280,7 @@ const actions = {
 };
 
 /***/ }),
-/* 79 */
+/* 80 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3012,89 +3111,89 @@ if (false) {}
 
 
 
-const _ee460050 = () => interopDefault(__webpack_require__.e(/* import() | pages/200 */ 1).then(__webpack_require__.bind(null, 213)));
+const _ee460050 = () => interopDefault(__webpack_require__.e(/* import() | pages/200 */ 1).then(__webpack_require__.bind(null, 214)));
 
-const _1a588646 = () => interopDefault(__webpack_require__.e(/* import() | pages/403 */ 2).then(__webpack_require__.bind(null, 214)));
+const _1a588646 = () => interopDefault(__webpack_require__.e(/* import() | pages/403 */ 2).then(__webpack_require__.bind(null, 215)));
 
-const _1a3c5744 = () => interopDefault(__webpack_require__.e(/* import() | pages/404 */ 3).then(__webpack_require__.bind(null, 215)));
+const _1a3c5744 = () => interopDefault(__webpack_require__.e(/* import() | pages/404 */ 3).then(__webpack_require__.bind(null, 216)));
 
-const _278fb19b = () => interopDefault(__webpack_require__.e(/* import() | pages/500 */ 4).then(__webpack_require__.bind(null, 216)));
+const _278fb19b = () => interopDefault(__webpack_require__.e(/* import() | pages/500 */ 4).then(__webpack_require__.bind(null, 217)));
 
-const _4bf89126 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/index */ 8).then(__webpack_require__.bind(null, 201)));
+const _4bf89126 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/index */ 8).then(__webpack_require__.bind(null, 202)));
 
-const _0af076c5 = () => interopDefault(__webpack_require__.e(/* import() | pages/knihy/index */ 25).then(__webpack_require__.bind(null, 202)));
+const _0af076c5 = () => interopDefault(__webpack_require__.e(/* import() | pages/knihy/index */ 25).then(__webpack_require__.bind(null, 203)));
 
-const _f99f9130 = () => interopDefault(__webpack_require__.e(/* import() | pages/odhlasenie/index */ 29).then(__webpack_require__.bind(null, 177)));
+const _f99f9130 = () => interopDefault(__webpack_require__.e(/* import() | pages/odhlasenie/index */ 29).then(__webpack_require__.bind(null, 178)));
 
-const _d179b20c = () => interopDefault(__webpack_require__.e(/* import() | pages/prihlasenie/index */ 31).then(__webpack_require__.bind(null, 178)));
+const _d179b20c = () => interopDefault(__webpack_require__.e(/* import() | pages/prihlasenie/index */ 31).then(__webpack_require__.bind(null, 179)));
 
-const _3f3bbc66 = () => interopDefault(__webpack_require__.e(/* import() | pages/registracia/index */ 33).then(__webpack_require__.bind(null, 179)));
+const _3f3bbc66 = () => interopDefault(__webpack_require__.e(/* import() | pages/registracia/index */ 33).then(__webpack_require__.bind(null, 180)));
 
-const _6ee93fd1 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/categories/index */ 7).then(__webpack_require__.bind(null, 180)));
+const _6ee93fd1 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/categories/index */ 7).then(__webpack_require__.bind(null, 181)));
 
-const _6ff934e8 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/orders/index */ 11).then(__webpack_require__.bind(null, 181)));
+const _6ff934e8 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/orders/index */ 11).then(__webpack_require__.bind(null, 182)));
 
-const _0193909e = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/stock/index */ 14).then(__webpack_require__.bind(null, 182)));
+const _0193909e = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/stock/index */ 14).then(__webpack_require__.bind(null, 183)));
 
-const _7d41fff4 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/tags/index */ 17).then(__webpack_require__.bind(null, 183)));
+const _7d41fff4 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/tags/index */ 17).then(__webpack_require__.bind(null, 184)));
 
-const _796cde1c = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/titles/index */ 20).then(__webpack_require__.bind(null, 184)));
+const _796cde1c = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/titles/index */ 20).then(__webpack_require__.bind(null, 185)));
 
-const _65e19502 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/users/index */ 23).then(__webpack_require__.bind(null, 176)));
+const _65e19502 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/users/index */ 23).then(__webpack_require__.bind(null, 177)));
 
-const _99c45d44 = () => interopDefault(__webpack_require__.e(/* import() | pages/knihy/najnovsie/index */ 26).then(__webpack_require__.bind(null, 185)));
+const _99c45d44 = () => interopDefault(__webpack_require__.e(/* import() | pages/knihy/najnovsie/index */ 26).then(__webpack_require__.bind(null, 186)));
 
-const _74d31b1d = () => interopDefault(__webpack_require__.e(/* import() | pages/knihy/najoblubenejsie/index */ 27).then(__webpack_require__.bind(null, 186)));
+const _74d31b1d = () => interopDefault(__webpack_require__.e(/* import() | pages/knihy/najoblubenejsie/index */ 27).then(__webpack_require__.bind(null, 187)));
 
-const _4fe2f96b = () => interopDefault(__webpack_require__.e(/* import() | pages/knihy/vsetky/index */ 28).then(__webpack_require__.bind(null, 203)));
+const _4fe2f96b = () => interopDefault(__webpack_require__.e(/* import() | pages/knihy/vsetky/index */ 28).then(__webpack_require__.bind(null, 204)));
 
-const _5abc6916 = () => interopDefault(__webpack_require__.e(/* import() | pages/prihlasenie/code */ 30).then(__webpack_require__.bind(null, 187)));
+const _5abc6916 = () => interopDefault(__webpack_require__.e(/* import() | pages/prihlasenie/code */ 30).then(__webpack_require__.bind(null, 188)));
 
-const _606a4eee = () => interopDefault(__webpack_require__.e(/* import() | pages/registracia/code */ 32).then(__webpack_require__.bind(null, 188)));
+const _606a4eee = () => interopDefault(__webpack_require__.e(/* import() | pages/registracia/code */ 32).then(__webpack_require__.bind(null, 189)));
 
-const _e7ce68cc = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/index */ 35).then(__webpack_require__.bind(null, 204)));
+const _e7ce68cc = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/index */ 35).then(__webpack_require__.bind(null, 205)));
 
-const _f6b1e386 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/index */ 39).then(__webpack_require__.bind(null, 205)));
+const _f6b1e386 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/index */ 39).then(__webpack_require__.bind(null, 206)));
 
-const _7cafbaa2 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/categories/add/index */ 5).then(__webpack_require__.bind(null, 189)));
+const _7cafbaa2 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/categories/add/index */ 5).then(__webpack_require__.bind(null, 190)));
 
-const _07905beb = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/orders/add/index */ 9).then(__webpack_require__.bind(null, 190)));
+const _07905beb = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/orders/add/index */ 9).then(__webpack_require__.bind(null, 191)));
 
-const _3722aec2 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/stock/add/index */ 12).then(__webpack_require__.bind(null, 191)));
+const _3722aec2 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/stock/add/index */ 12).then(__webpack_require__.bind(null, 192)));
 
-const _f8eecf42 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/tags/add/index */ 15).then(__webpack_require__.bind(null, 192)));
+const _f8eecf42 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/tags/add/index */ 15).then(__webpack_require__.bind(null, 193)));
 
-const _5529f621 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/titles/add/index */ 18).then(__webpack_require__.bind(null, 193)));
+const _5529f621 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/titles/add/index */ 18).then(__webpack_require__.bind(null, 194)));
 
-const _69e621b4 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/users/add/index */ 21).then(__webpack_require__.bind(null, 194)));
+const _69e621b4 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/users/add/index */ 21).then(__webpack_require__.bind(null, 195)));
 
-const _fb420a40 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/credits/index */ 34).then(__webpack_require__.bind(null, 206)));
+const _fb420a40 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/credits/index */ 34).then(__webpack_require__.bind(null, 207)));
 
-const _23c95417 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/settings/index */ 36).then(__webpack_require__.bind(null, 207)));
+const _23c95417 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/settings/index */ 36).then(__webpack_require__.bind(null, 208)));
 
-const _b96e0392 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/basket/index */ 37).then(__webpack_require__.bind(null, 208)));
+const _b96e0392 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/basket/index */ 37).then(__webpack_require__.bind(null, 209)));
 
-const _62f79d29 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/borrowed/index */ 38).then(__webpack_require__.bind(null, 209)));
+const _62f79d29 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/borrowed/index */ 38).then(__webpack_require__.bind(null, 210)));
 
-const _36df4db3 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/rated/index */ 40).then(__webpack_require__.bind(null, 210)));
+const _36df4db3 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/rated/index */ 40).then(__webpack_require__.bind(null, 211)));
 
-const _d03e1a56 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/reserved/index */ 41).then(__webpack_require__.bind(null, 211)));
+const _d03e1a56 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/reserved/index */ 41).then(__webpack_require__.bind(null, 212)));
 
-const _460ef418 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/wishlist/index */ 42).then(__webpack_require__.bind(null, 212)));
+const _460ef418 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/wishlist/index */ 42).then(__webpack_require__.bind(null, 213)));
 
-const _08eefe8c = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/categories/detail/_id/index */ 6).then(__webpack_require__.bind(null, 195)));
+const _08eefe8c = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/categories/detail/_id/index */ 6).then(__webpack_require__.bind(null, 196)));
 
-const _10886dfa = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/orders/detail/_id/index */ 10).then(__webpack_require__.bind(null, 196)));
+const _10886dfa = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/orders/detail/_id/index */ 10).then(__webpack_require__.bind(null, 197)));
 
-const _3355564c = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/stock/detail/_id/index */ 13).then(__webpack_require__.bind(null, 197)));
+const _3355564c = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/stock/detail/_id/index */ 13).then(__webpack_require__.bind(null, 198)));
 
-const _34ba5177 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/tags/detail/_id/index */ 16).then(__webpack_require__.bind(null, 198)));
+const _34ba5177 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/tags/detail/_id/index */ 16).then(__webpack_require__.bind(null, 199)));
 
-const _0d8acd39 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/titles/detail/_id/index */ 19).then(__webpack_require__.bind(null, 199)));
+const _0d8acd39 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/titles/detail/_id/index */ 19).then(__webpack_require__.bind(null, 200)));
 
-const _4837b5cc = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/users/detail/_id/index */ 22).then(__webpack_require__.bind(null, 200)));
+const _4837b5cc = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/users/detail/_id/index */ 22).then(__webpack_require__.bind(null, 201)));
 
-const _35182910 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 24).then(__webpack_require__.bind(null, 175))); // TODO: remove in Nuxt 3
+const _35182910 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 24).then(__webpack_require__.bind(null, 176))); // TODO: remove in Nuxt 3
 
 
 const emptyFn = () => {};
@@ -4650,11 +4749,12 @@ let store_store = {};
   resolveStoreModules(__webpack_require__(71), 'auth.js');
   resolveStoreModules(__webpack_require__(72), 'book.js');
   resolveStoreModules(__webpack_require__(73), 'category.js');
-  resolveStoreModules(__webpack_require__(74), 'order.js');
-  resolveStoreModules(__webpack_require__(75), 'stock.js');
-  resolveStoreModules(__webpack_require__(76), 'stockStatus.js');
-  resolveStoreModules(__webpack_require__(77), 'tag.js');
-  resolveStoreModules(__webpack_require__(78), 'user.js'); // If the environment supports hot reloading...
+  resolveStoreModules(__webpack_require__(74), 'openbook.js');
+  resolveStoreModules(__webpack_require__(75), 'order.js');
+  resolveStoreModules(__webpack_require__(76), 'stock.js');
+  resolveStoreModules(__webpack_require__(77), 'stockStatus.js');
+  resolveStoreModules(__webpack_require__(78), 'tag.js');
+  resolveStoreModules(__webpack_require__(79), 'user.js'); // If the environment supports hot reloading...
 })(); // createStore
 
 
