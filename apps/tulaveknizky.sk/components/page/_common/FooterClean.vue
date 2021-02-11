@@ -1,8 +1,8 @@
 <template>
     <div id='footer_clean' class='grid align-items-center'>
-        <div class='container grid justify-items-center'>
+        <div class='container grid col-2 auto justify-items-center'>
 
-            <p class='small'>© {{ new Date().getFullYear() }} tulaveknizky.sk</p>
+            <p class='small'>© {{ new Date().getFullYear() }} <nuxt-link to='/'>tulaveknizky.sk</nuxt-link></p>
 
         </div>
     </div>

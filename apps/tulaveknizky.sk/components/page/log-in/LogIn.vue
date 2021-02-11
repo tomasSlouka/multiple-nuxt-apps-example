@@ -1,11 +1,11 @@
 <template>
     <div class='component grid'>
-
         <div class="box grid auto align-self-start gap-20">
             <div class='grid col-2 auto align-items-center'>
                 <h3>Prihlásenie</h3>
                 <nuxt-link to='/' class='justify-self-end'><img src="@/assets/img/logo-icon.svg" alt="" class='logo' /></nuxt-link>
             </div>
+            <p v-if='from == "kniznica"' class='small'>Ahoj neznámy človek. Veľmi nás teší tvoj záujem o vypožičanie si knižky. Ešte pred tým ako ti ju pošleme, radi by sme vedeli kto si. Prihlás sa alebo si vytvor nový účet a ziskaj prístup k celej knižnej kolekcií.</p>
             <!-- <div class="hr"></div> -->
             <form class="grid gap-10" @submit.prevent='submitForm'>
                 <div>
@@ -28,6 +28,7 @@ export default {
     data() {
         return {
             email: '',
+            from: this.$route.query.from || '',
         }
     },
     methods: {
@@ -37,7 +38,7 @@ export default {
             })
             .then((response) => {
                 console.log(response);
-                this.$router.push('/prihlasenie/code?email=' + encodeURIComponent(this.email))
+                this.$router.push('/prihlasenie/code?email=' + encodeURIComponent(this.email) + '&method=' + response.verification_method)
             }, (error) => {
                 console.log(error);
                 //this.res = error.response.data.message

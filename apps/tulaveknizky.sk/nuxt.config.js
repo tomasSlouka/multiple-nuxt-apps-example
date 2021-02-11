@@ -80,7 +80,7 @@ export default {
         "~assets/css/_system/webbase.css",
         "~assets/css/_system/animations.css",
 	],
-	loading: { color: '#999', height: '2px', width: '100%' },
+	loading: { color: '#ffd401', height: '2px', width: '100%' },
 	pageTransition: {
         name: 'layout',
         mode: 'out-in'

@@ -43,7 +43,7 @@ module.exports =
 /******/
 /******/ 		// "0" is the signal for "already loaded"
 /******/ 		if(installedChunks[chunkId] !== 0) {
-/******/ 			var chunk = require("./" + ({"1":"pages/200","2":"pages/403","3":"pages/404","4":"pages/500","5":"pages/admin/categories/add/index","6":"pages/admin/categories/detail/_id/index","7":"pages/admin/categories/index","8":"pages/admin/index","9":"pages/admin/orders/add/index","10":"pages/admin/orders/detail/_id/index","11":"pages/admin/orders/index","12":"pages/admin/stock/add/index","13":"pages/admin/stock/detail/_id/index","14":"pages/admin/stock/index","15":"pages/admin/tags/add/index","16":"pages/admin/tags/detail/_id/index","17":"pages/admin/tags/index","18":"pages/admin/titles/add/index","19":"pages/admin/titles/detail/_id/index","20":"pages/admin/titles/index","21":"pages/admin/users/add/index","22":"pages/admin/users/detail/_id/index","23":"pages/admin/users/index","24":"pages/index","25":"pages/knihy/index","26":"pages/knihy/najnovsie/index","27":"pages/knihy/najoblubenejsie/index","28":"pages/knihy/vsetky/index","29":"pages/odhlasenie/index","30":"pages/prihlasenie/code","31":"pages/prihlasenie/index","32":"pages/registracia/code","33":"pages/registracia/index","34":"pages/user/account/credits/index","35":"pages/user/account/index","36":"pages/user/account/settings/index","37":"pages/user/books/basket/index","38":"pages/user/books/borrowed/index","39":"pages/user/books/index","40":"pages/user/books/rated/index","41":"pages/user/books/reserved/index","42":"pages/user/books/wishlist/index"}[chunkId]||chunkId) + ".js");
+/******/ 			var chunk = require("./" + ({"1":"pages/200","2":"pages/403","3":"pages/404","4":"pages/500","5":"pages/admin/categories/add/index","6":"pages/admin/categories/detail/_id/index","7":"pages/admin/categories/index","8":"pages/admin/index","9":"pages/admin/orders/add/index","10":"pages/admin/orders/detail/_id/index","11":"pages/admin/orders/index","12":"pages/admin/stock/add/index","13":"pages/admin/stock/detail/_id/index","14":"pages/admin/stock/index","15":"pages/admin/tags/add/index","16":"pages/admin/tags/detail/_id/index","17":"pages/admin/tags/index","18":"pages/admin/titles/add/index","19":"pages/admin/titles/detail/_id/index","20":"pages/admin/titles/index","21":"pages/admin/users/add/index","22":"pages/admin/users/detail/_id/index","23":"pages/admin/users/index","24":"pages/index","25":"pages/knihy/index","26":"pages/knihy/najnovsie/index","27":"pages/knihy/najoblubenejsie/index","28":"pages/knihy/vsetky/index","29":"pages/kniznica/_id/_name/index","30":"pages/odhlasenie/index","31":"pages/prihlasenie/code","32":"pages/prihlasenie/index","33":"pages/registracia/code","34":"pages/registracia/index","35":"pages/user/account/credits/index","36":"pages/user/account/index","37":"pages/user/account/settings/index","38":"pages/user/books/basket/index","39":"pages/user/books/borrowed/index","40":"pages/user/books/index","41":"pages/user/books/rated/index","42":"pages/user/books/reserved/index","43":"pages/user/books/wishlist/index"}[chunkId]||chunkId) + ".js");
 /******/ 			var moreModules = chunk.modules, chunkIds = chunk.ids;
 /******/ 			for(var moduleId in moreModules) {
 /******/ 				modules[moduleId] = moreModules[moduleId];
@@ -642,7 +642,7 @@ if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
 var add = __webpack_require__(3).default
 module.exports.__inject__ = function (context) {
-  add("311485dc", content, true, context)
+  add("246ff273", content, true, context)
 };
 
 /***/ }),
@@ -824,7 +824,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(2);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".nuxt-progress{position:fixed;top:0;left:0;right:0;height:2px;width:0;opacity:1;transition:width .1s,opacity .4s;background-color:#999;z-index:999999}.nuxt-progress.nuxt-progress-notransition{transition:none}.nuxt-progress-failed{background-color:red}", ""]);
+exports.push([module.i, ".nuxt-progress{position:fixed;top:0;left:0;right:0;height:2px;width:0;opacity:1;transition:width .1s,opacity .4s;background-color:#ffd401;z-index:999999}.nuxt-progress.nuxt-progress-notransition{transition:none}.nuxt-progress-failed{background-color:red}", ""]);
 // Exports
 module.exports = exports;
 
@@ -1111,9 +1111,9 @@ module.exports = exports;
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_FooterClean_vue_vue_type_style_index_0_id_e6c6f958_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(20);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_FooterClean_vue_vue_type_style_index_0_id_e6c6f958_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_FooterClean_vue_vue_type_style_index_0_id_e6c6f958_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_FooterClean_vue_vue_type_style_index_0_id_e6c6f958_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_FooterClean_vue_vue_type_style_index_0_id_e6c6f958_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_FooterClean_vue_vue_type_style_index_0_id_9addb124_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(20);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_FooterClean_vue_vue_type_style_index_0_id_9addb124_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_FooterClean_vue_vue_type_style_index_0_id_9addb124_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_FooterClean_vue_vue_type_style_index_0_id_9addb124_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_FooterClean_vue_vue_type_style_index_0_id_9addb124_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
@@ -1124,7 +1124,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(2);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "#footer_clean[data-v-e6c6f958]{position:fixed;bottom:0;left:0;height:50px;background-color:hsla(0,0%,100%,.7);width:100%}.container[data-v-e6c6f958]{max-width:976px;margin:0 auto}", ""]);
+exports.push([module.i, "#footer_clean[data-v-9addb124]{position:fixed;bottom:0;left:0;height:50px;background-color:hsla(0,0%,100%,.7);width:100%}.container[data-v-9addb124]{max-width:976px;margin:0 auto}", ""]);
 // Exports
 module.exports = exports;
 
@@ -3111,89 +3111,91 @@ if (false) {}
 
 
 
-const _ee460050 = () => interopDefault(__webpack_require__.e(/* import() | pages/200 */ 1).then(__webpack_require__.bind(null, 214)));
+const _ee460050 = () => interopDefault(__webpack_require__.e(/* import() | pages/200 */ 1).then(__webpack_require__.bind(null, 228)));
 
-const _1a588646 = () => interopDefault(__webpack_require__.e(/* import() | pages/403 */ 2).then(__webpack_require__.bind(null, 215)));
+const _1a588646 = () => interopDefault(__webpack_require__.e(/* import() | pages/403 */ 2).then(__webpack_require__.bind(null, 229)));
 
-const _1a3c5744 = () => interopDefault(__webpack_require__.e(/* import() | pages/404 */ 3).then(__webpack_require__.bind(null, 216)));
+const _1a3c5744 = () => interopDefault(__webpack_require__.e(/* import() | pages/404 */ 3).then(__webpack_require__.bind(null, 230)));
 
-const _278fb19b = () => interopDefault(__webpack_require__.e(/* import() | pages/500 */ 4).then(__webpack_require__.bind(null, 217)));
+const _278fb19b = () => interopDefault(__webpack_require__.e(/* import() | pages/500 */ 4).then(__webpack_require__.bind(null, 231)));
 
-const _4bf89126 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/index */ 8).then(__webpack_require__.bind(null, 202)));
+const _4bf89126 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/index */ 8).then(__webpack_require__.bind(null, 216)));
 
-const _0af076c5 = () => interopDefault(__webpack_require__.e(/* import() | pages/knihy/index */ 25).then(__webpack_require__.bind(null, 203)));
+const _0af076c5 = () => interopDefault(__webpack_require__.e(/* import() | pages/knihy/index */ 25).then(__webpack_require__.bind(null, 217)));
 
-const _f99f9130 = () => interopDefault(__webpack_require__.e(/* import() | pages/odhlasenie/index */ 29).then(__webpack_require__.bind(null, 178)));
+const _f99f9130 = () => interopDefault(__webpack_require__.e(/* import() | pages/odhlasenie/index */ 30).then(__webpack_require__.bind(null, 192)));
 
-const _d179b20c = () => interopDefault(__webpack_require__.e(/* import() | pages/prihlasenie/index */ 31).then(__webpack_require__.bind(null, 179)));
+const _d179b20c = () => interopDefault(__webpack_require__.e(/* import() | pages/prihlasenie/index */ 32).then(__webpack_require__.bind(null, 193)));
 
-const _3f3bbc66 = () => interopDefault(__webpack_require__.e(/* import() | pages/registracia/index */ 33).then(__webpack_require__.bind(null, 180)));
+const _3f3bbc66 = () => interopDefault(__webpack_require__.e(/* import() | pages/registracia/index */ 34).then(__webpack_require__.bind(null, 194)));
 
-const _6ee93fd1 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/categories/index */ 7).then(__webpack_require__.bind(null, 181)));
+const _6ee93fd1 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/categories/index */ 7).then(__webpack_require__.bind(null, 195)));
 
-const _6ff934e8 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/orders/index */ 11).then(__webpack_require__.bind(null, 182)));
+const _6ff934e8 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/orders/index */ 11).then(__webpack_require__.bind(null, 196)));
 
-const _0193909e = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/stock/index */ 14).then(__webpack_require__.bind(null, 183)));
+const _0193909e = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/stock/index */ 14).then(__webpack_require__.bind(null, 197)));
 
-const _7d41fff4 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/tags/index */ 17).then(__webpack_require__.bind(null, 184)));
+const _7d41fff4 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/tags/index */ 17).then(__webpack_require__.bind(null, 198)));
 
-const _796cde1c = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/titles/index */ 20).then(__webpack_require__.bind(null, 185)));
+const _796cde1c = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/titles/index */ 20).then(__webpack_require__.bind(null, 199)));
 
-const _65e19502 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/users/index */ 23).then(__webpack_require__.bind(null, 177)));
+const _65e19502 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/users/index */ 23).then(__webpack_require__.bind(null, 191)));
 
-const _99c45d44 = () => interopDefault(__webpack_require__.e(/* import() | pages/knihy/najnovsie/index */ 26).then(__webpack_require__.bind(null, 186)));
+const _99c45d44 = () => interopDefault(__webpack_require__.e(/* import() | pages/knihy/najnovsie/index */ 26).then(__webpack_require__.bind(null, 200)));
 
-const _74d31b1d = () => interopDefault(__webpack_require__.e(/* import() | pages/knihy/najoblubenejsie/index */ 27).then(__webpack_require__.bind(null, 187)));
+const _74d31b1d = () => interopDefault(__webpack_require__.e(/* import() | pages/knihy/najoblubenejsie/index */ 27).then(__webpack_require__.bind(null, 201)));
 
-const _4fe2f96b = () => interopDefault(__webpack_require__.e(/* import() | pages/knihy/vsetky/index */ 28).then(__webpack_require__.bind(null, 204)));
+const _4fe2f96b = () => interopDefault(__webpack_require__.e(/* import() | pages/knihy/vsetky/index */ 28).then(__webpack_require__.bind(null, 218)));
 
-const _5abc6916 = () => interopDefault(__webpack_require__.e(/* import() | pages/prihlasenie/code */ 30).then(__webpack_require__.bind(null, 188)));
+const _5abc6916 = () => interopDefault(__webpack_require__.e(/* import() | pages/prihlasenie/code */ 31).then(__webpack_require__.bind(null, 202)));
 
-const _606a4eee = () => interopDefault(__webpack_require__.e(/* import() | pages/registracia/code */ 32).then(__webpack_require__.bind(null, 189)));
+const _606a4eee = () => interopDefault(__webpack_require__.e(/* import() | pages/registracia/code */ 33).then(__webpack_require__.bind(null, 203)));
 
-const _e7ce68cc = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/index */ 35).then(__webpack_require__.bind(null, 205)));
+const _e7ce68cc = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/index */ 36).then(__webpack_require__.bind(null, 219)));
 
-const _f6b1e386 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/index */ 39).then(__webpack_require__.bind(null, 206)));
+const _f6b1e386 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/index */ 40).then(__webpack_require__.bind(null, 220)));
 
-const _7cafbaa2 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/categories/add/index */ 5).then(__webpack_require__.bind(null, 190)));
+const _7cafbaa2 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/categories/add/index */ 5).then(__webpack_require__.bind(null, 204)));
 
-const _07905beb = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/orders/add/index */ 9).then(__webpack_require__.bind(null, 191)));
+const _07905beb = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/orders/add/index */ 9).then(__webpack_require__.bind(null, 205)));
 
-const _3722aec2 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/stock/add/index */ 12).then(__webpack_require__.bind(null, 192)));
+const _3722aec2 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/stock/add/index */ 12).then(__webpack_require__.bind(null, 206)));
 
-const _f8eecf42 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/tags/add/index */ 15).then(__webpack_require__.bind(null, 193)));
+const _f8eecf42 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/tags/add/index */ 15).then(__webpack_require__.bind(null, 207)));
 
-const _5529f621 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/titles/add/index */ 18).then(__webpack_require__.bind(null, 194)));
+const _5529f621 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/titles/add/index */ 18).then(__webpack_require__.bind(null, 208)));
 
-const _69e621b4 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/users/add/index */ 21).then(__webpack_require__.bind(null, 195)));
+const _69e621b4 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/users/add/index */ 21).then(__webpack_require__.bind(null, 209)));
 
-const _fb420a40 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/credits/index */ 34).then(__webpack_require__.bind(null, 207)));
+const _fb420a40 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/credits/index */ 35).then(__webpack_require__.bind(null, 221)));
 
-const _23c95417 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/settings/index */ 36).then(__webpack_require__.bind(null, 208)));
+const _23c95417 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/settings/index */ 37).then(__webpack_require__.bind(null, 222)));
 
-const _b96e0392 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/basket/index */ 37).then(__webpack_require__.bind(null, 209)));
+const _b96e0392 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/basket/index */ 38).then(__webpack_require__.bind(null, 223)));
 
-const _62f79d29 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/borrowed/index */ 38).then(__webpack_require__.bind(null, 210)));
+const _62f79d29 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/borrowed/index */ 39).then(__webpack_require__.bind(null, 224)));
 
-const _36df4db3 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/rated/index */ 40).then(__webpack_require__.bind(null, 211)));
+const _36df4db3 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/rated/index */ 41).then(__webpack_require__.bind(null, 225)));
 
-const _d03e1a56 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/reserved/index */ 41).then(__webpack_require__.bind(null, 212)));
+const _d03e1a56 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/reserved/index */ 42).then(__webpack_require__.bind(null, 226)));
 
-const _460ef418 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/wishlist/index */ 42).then(__webpack_require__.bind(null, 213)));
+const _460ef418 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/wishlist/index */ 43).then(__webpack_require__.bind(null, 227)));
 
-const _08eefe8c = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/categories/detail/_id/index */ 6).then(__webpack_require__.bind(null, 196)));
+const _08eefe8c = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/categories/detail/_id/index */ 6).then(__webpack_require__.bind(null, 210)));
 
-const _10886dfa = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/orders/detail/_id/index */ 10).then(__webpack_require__.bind(null, 197)));
+const _10886dfa = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/orders/detail/_id/index */ 10).then(__webpack_require__.bind(null, 211)));
 
-const _3355564c = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/stock/detail/_id/index */ 13).then(__webpack_require__.bind(null, 198)));
+const _3355564c = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/stock/detail/_id/index */ 13).then(__webpack_require__.bind(null, 212)));
 
-const _34ba5177 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/tags/detail/_id/index */ 16).then(__webpack_require__.bind(null, 199)));
+const _34ba5177 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/tags/detail/_id/index */ 16).then(__webpack_require__.bind(null, 213)));
 
-const _0d8acd39 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/titles/detail/_id/index */ 19).then(__webpack_require__.bind(null, 200)));
+const _0d8acd39 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/titles/detail/_id/index */ 19).then(__webpack_require__.bind(null, 214)));
 
-const _4837b5cc = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/users/detail/_id/index */ 22).then(__webpack_require__.bind(null, 201)));
+const _4837b5cc = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/users/detail/_id/index */ 22).then(__webpack_require__.bind(null, 215)));
 
-const _35182910 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 24).then(__webpack_require__.bind(null, 176))); // TODO: remove in Nuxt 3
+const _9be1bd8a = () => interopDefault(__webpack_require__.e(/* import() | pages/kniznica/_id/_name/index */ 29).then(__webpack_require__.bind(null, 189)));
+
+const _35182910 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 24).then(__webpack_require__.bind(null, 190))); // TODO: remove in Nuxt 3
 
 
 const emptyFn = () => {};
@@ -3375,6 +3377,10 @@ const routerOptions = {
     path: "/admin/users/detail/:id",
     component: _4837b5cc,
     name: "admin-users-detail-id"
+  }, {
+    path: "/kniznica/:id?/:name",
+    component: _9be1bd8a,
+    name: "kniznica-id-name"
   }, {
     path: "/",
     component: _35182910,
@@ -4335,12 +4341,12 @@ var defaultCleanvue_type_template_id_fc67ec2c_scoped_true_staticRenderFns = []
 
 // CONCATENATED MODULE: ./apps/tulaveknizky.sk/layouts/defaultClean.vue?vue&type=template&id=fc67ec2c&scoped=true&
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/page/_common/FooterClean.vue?vue&type=template&id=e6c6f958&scoped=true&
-var FooterCleanvue_type_template_id_e6c6f958_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"grid align-items-center",attrs:{"id":"footer_clean"}},[_vm._ssrNode("<div class=\"container grid justify-items-center\" data-v-e6c6f958><p class=\"small\" data-v-e6c6f958>"+_vm._ssrEscape("© "+_vm._s(new Date().getFullYear())+" tulaveknizky.sk")+"</p></div>")])}
-var FooterCleanvue_type_template_id_e6c6f958_scoped_true_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/page/_common/FooterClean.vue?vue&type=template&id=9addb124&scoped=true&
+var FooterCleanvue_type_template_id_9addb124_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"grid align-items-center",attrs:{"id":"footer_clean"}},[_vm._ssrNode("<div class=\"container grid col-2 auto justify-items-center\" data-v-9addb124>","</div>",[_vm._ssrNode("<p class=\"small\" data-v-9addb124>","</p>",[_vm._ssrNode(_vm._ssrEscape("© "+_vm._s(new Date().getFullYear())+" ")),_c('nuxt-link',{attrs:{"to":"/"}},[_vm._v("tulaveknizky.sk")])],2)])])}
+var FooterCleanvue_type_template_id_9addb124_scoped_true_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/page/_common/FooterClean.vue?vue&type=template&id=e6c6f958&scoped=true&
+// CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/page/_common/FooterClean.vue?vue&type=template&id=9addb124&scoped=true&
 
 // CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/page/_common/FooterClean.vue
 
@@ -4356,11 +4362,11 @@ if (style0.__inject__) style0.__inject__(context)
 
 var FooterClean_component = Object(componentNormalizer["a" /* default */])(
   FooterClean_script,
-  FooterCleanvue_type_template_id_e6c6f958_scoped_true_render,
-  FooterCleanvue_type_template_id_e6c6f958_scoped_true_staticRenderFns,
+  FooterCleanvue_type_template_id_9addb124_scoped_true_render,
+  FooterCleanvue_type_template_id_9addb124_scoped_true_staticRenderFns,
   false,
   FooterClean_injectStyles,
-  "e6c6f958",
+  "9addb124",
   "fa3ad9f0"
   
 )

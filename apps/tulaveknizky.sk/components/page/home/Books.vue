@@ -31,12 +31,12 @@
                                 <!-- <div class='flex wrap'><span class='tag white' v-for="(cat) in item.categories == null ? [] : item.categories.split(',')" :key='cat'>{{cat}}</span></div> -->
                             </div>
                             <p>{{item.short_text == "" ? item.long_text.slice(0,180) + "..." : item.short_text }}</p>
-                            <p class='small'><nuxt-link :to='"/kniha/" + item.id' class='strong'>Viac o knihe</nuxt-link></p>
+                            <p class='small'><nuxt-link :to='"/kniznica/" + item.id + "/" + item.url' class='strong'>Viac o knihe &#187;</nuxt-link></p>
                         </div>
                         <div class='align-self-end grid gap-10 justify-items-end justify-self-end'>
 
                             
-                            <div class='flex wrap'><span class='tag white' v-for="(cat) in item.categories == null ? [] : item.categories.split(',')" :key='cat'>{{cat}}</span></div>
+                            <div class='flex wrap justify-content-end maxw160'><span class='tag white' v-for="(cat) in item.categories == null ? [] : item.categories.split(',')" :key='cat'>{{cat}}</span></div>
 
                             <div class='grid col-3 auto'>
                                 <h2>{{item.price}}</h2>
@@ -45,9 +45,6 @@
                             </div>
 
                             <div>
-                                <!-- {{item.stock_count_all}}
-                                {{item.stock_count_available}}
-                                {{item.stock_count_borrowed}} -->
                                 <p v-if="item.stock_count_available == 0 && item.stock_count_borrowed > 0" class="small strong red">Všetko sme vypožičali</p>
                                 <p v-if="item.stock_count_available == 0 && item.stock_count_all == 0" class="small strong red">Dočasne nedostupná</p>
                                 <p v-if="item.stock_count_available >= 1" class="small strong green">Dostupné ihneď</p>
@@ -55,10 +52,18 @@
                                 <!-- <p v-if="item.stock_count_available >= 2 && item.stock_count_available <= 4" class="small gray">Dostupné {{item.stock_count_available}} exempláre</p> -->
                                 <!-- <p v-if="item.stock_count_available > 4" class="small gray">Dostupných {{item.stock_count_available}} exemplárov</p> -->
                             </div>
-                            <div class='align-self-end grid align-items-center col-2 auto gap-20'>
+
+                            <div v-if="$store.getters['auth/isUserLoggedIn']" class='align-self-end grid align-items-center col-2 auto gap-20'>
                                 <img src="@/assets/img/icon-love.svg" alt="" class='love' />
-                                <button v-if="item.stock_count_available >= 1" class='button cta black'>Požičať</button>
-                                <button v-if="item.stock_count_available == 0 && item.stock_count_borrowed > 0" class='button cta white small'>Sledovať dostupnosť</button>
+                                <button v-if="item.stock_count_available >= 1" class='button cta black' @click='borrowBook({id: item.id}, $event)'>Požičať</button>
+                                <button v-if="item.stock_count_available == 0 && item.stock_count_borrowed > 0" class='button cta white small' @click='setNotification({id: item.id}, $event)'>Sledovať dostupnosť</button>
+                                <button v-if="item.stock_count_available == 0 && item.stock_count_all == 0" class='button cta red'>Nedostupné</button>
+                            </div>
+
+                            <div v-else class='align-self-end grid align-items-center'>
+                                <!-- <img src="@/assets/img/icon-love.svg" alt="" class='love' /> -->
+                                <nuxt-link v-if="item.stock_count_available >= 1" class='button cta black' to='/prihlasenie?from=kniznica'>Požičať</nuxt-link>
+                                <nuxt-link v-if="item.stock_count_available == 0 && item.stock_count_borrowed > 0" class='button cta white small' to='/prihlasenie'>Sledovať dostupnosť</nuxt-link>
                                 <button v-if="item.stock_count_available == 0 && item.stock_count_all == 0" class='button cta red'>Nedostupné</button>
                             </div>
                         </div>
@@ -78,7 +83,22 @@
 export default {
 
     props: ['bookList'],
-
+    methods: {
+        async borrowBook(data, e) {
+            await this.$axios.$post('/order/additem', {
+                    "book_id": book_id,
+                })
+                .then((response) => {
+                    console.log(response);
+                    e.target.innerText = 'Knižka pridaná!'
+                    setTimeout(() => this.submitSuccess = false, 4000)
+                    // console.log(e.target.innerText)
+                    // this.$router.push('/admin/stock/detail/'+ response.id)
+                }, (error) => {
+                    console.log(error);
+                });
+        },
+    },
 }
 </script>
 

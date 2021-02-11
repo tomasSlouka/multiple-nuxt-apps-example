@@ -1,4 +1,4 @@
-exports.ids = [36];
+exports.ids = [37];
 exports.modules = {
 
 /***/ 100:
@@ -53,7 +53,7 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ 104:
+/***/ 105:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -117,7 +117,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 105:
+/***/ 106:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -196,7 +196,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 208:
+/***/ 222:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -211,10 +211,10 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./apps/tulaveknizky.sk/pages/user/account/settings/index.vue?vue&type=template&id=39ce0cce&
 
 // EXTERNAL MODULE: ./apps/tulaveknizky.sk/components/page/user/account/_common/Hero.vue + 4 modules
-var Hero = __webpack_require__(104);
+var Hero = __webpack_require__(105);
 
 // EXTERNAL MODULE: ./apps/tulaveknizky.sk/components/page/user/account/_common/SubNav.vue + 4 modules
-var SubNav = __webpack_require__(105);
+var SubNav = __webpack_require__(106);
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/pages/user/account/settings/index.vue?vue&type=script&lang=js&
 //

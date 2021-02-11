@@ -3,7 +3,8 @@
 
         <div class="box grid auto align-self-start gap-20">
             <div class='grid col-2 auto align-items-center'>
-                <h3>Verifikačný kód</h3>
+                <h3 v-if='method == "code"'>Verifikačný kód</h3>
+                <h3 v-if='method == "password"'>Tvoje heslo</h3>
                 <nuxt-link to='/' class='justify-self-end'><img src="@/assets/img/logo-icon.svg" alt="" class='logo' /></nuxt-link>
             </div>
             <!-- <div class="hr"></div> -->
@@ -26,6 +27,7 @@ export default {
         return {
             email: decodeURIComponent(this.$route.query.email),
             password: this.$route.query.code || '',
+            method: this.$route.query.method || 'code',
         }
     },
     methods: {

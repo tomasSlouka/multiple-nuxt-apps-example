@@ -44,6 +44,7 @@ const _3355564c = () => interopDefault(import('..\\..\\pages\\admin\\stock\\deta
 const _34ba5177 = () => interopDefault(import('..\\..\\pages\\admin\\tags\\detail\\_id\\index.vue' /* webpackChunkName: "pages/admin/tags/detail/_id/index" */))
 const _0d8acd39 = () => interopDefault(import('..\\..\\pages\\admin\\titles\\detail\\_id\\index.vue' /* webpackChunkName: "pages/admin/titles/detail/_id/index" */))
 const _4837b5cc = () => interopDefault(import('..\\..\\pages\\admin\\users\\detail\\_id\\index.vue' /* webpackChunkName: "pages/admin/users/detail/_id/index" */))
+const _9be1bd8a = () => interopDefault(import('..\\..\\pages\\kniznica\\_id\\_name\\index.vue' /* webpackChunkName: "pages/kniznica/_id/_name/index" */))
 const _35182910 = () => interopDefault(import('..\\..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 // TODO: remove in Nuxt 3
@@ -226,6 +227,10 @@ export const routerOptions = {
     path: "/admin/users/detail/:id",
     component: _4837b5cc,
     name: "admin-users-detail-id"
+  }, {
+    path: "/kniznica/:id?/:name",
+    component: _9be1bd8a,
+    name: "kniznica-id-name"
   }, {
     path: "/",
     component: _35182910,

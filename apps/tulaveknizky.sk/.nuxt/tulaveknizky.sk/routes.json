@@ -287,6 +287,13 @@
     "_name": "_4837b5cc"
   },
   {
+    "name": "kniznica-id-name",
+    "path": "/kniznica/:id?/:name",
+    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\kniznica\\\\_id\\\\_name\\\\index.vue",
+    "chunkName": "pages/kniznica/_id/_name/index",
+    "_name": "_9be1bd8a"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\index.vue",
