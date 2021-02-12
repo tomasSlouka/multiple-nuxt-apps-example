@@ -159,6 +159,7 @@ button, .button {
     font-size: 1em; 
     line-height: 1.688em;
     text-align: center;
+    display: inline-block;
 }
 button.cta, .button.cta {
     background: #39ac37;

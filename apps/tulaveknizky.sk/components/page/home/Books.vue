@@ -55,7 +55,7 @@
 
                             <div v-if="$store.getters['auth/isUserLoggedIn']" class='align-self-end grid align-items-center col-2 auto gap-20'>
                                 <img src="@/assets/img/icon-love.svg" alt="" class='love' />
-                                <button v-if="item.stock_count_available >= 1" class='button cta black' @click='borrowBook({id: item.id}, $event)'>Požičať</button>
+                                <button v-if="item.stock_count_available >= 1" class='button cta black' @click='addItem({book_id: item.id}, $event)'>Požičať</button>
                                 <button v-if="item.stock_count_available == 0 && item.stock_count_borrowed > 0" class='button cta white small' @click='setNotification({id: item.id}, $event)'>Sledovať dostupnosť</button>
                                 <button v-if="item.stock_count_available == 0 && item.stock_count_all == 0" class='button cta red'>Nedostupné</button>
                             </div>
@@ -84,19 +84,19 @@ export default {
 
     props: ['bookList'],
     methods: {
-        async borrowBook(data, e) {
+        async addItem(data, e) {
             await this.$axios.$post('/order/additem', {
-                    "book_id": book_id,
-                })
-                .then((response) => {
-                    console.log(response);
-                    e.target.innerText = 'Knižka pridaná!'
-                    setTimeout(() => this.submitSuccess = false, 4000)
-                    // console.log(e.target.innerText)
-                    // this.$router.push('/admin/stock/detail/'+ response.id)
-                }, (error) => {
-                    console.log(error);
-                });
+                "book_id": data.book_id,
+            })
+            .then((response) => {
+                console.log(response);
+                e.target.innerText = 'Knižka pridaná!'
+                setTimeout(() => this.submitSuccess = false, 4000)
+                // console.log(e.target.innerText)
+                this.$router.push('/user/books/basket')
+            }, (error) => {
+                console.log(error);
+            });
         },
     },
 }

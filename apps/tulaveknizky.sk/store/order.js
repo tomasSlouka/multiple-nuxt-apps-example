@@ -1,5 +1,6 @@
 export const state = () => ({
     dataList: {},
+    dataBasket: {},
     dataListFiltered: {},
     filters: {
         search: "",
@@ -12,11 +13,17 @@ export const getters = {
     getDataList(state) {
         return state.dataList;
     },
+    getDataBasket(state) {
+        return state.dataList;
+    },
 }
   
 export const mutations = {
     setDataList (state, response) {
         state.dataList = response
+    },
+    setDataBasket (state, response) {
+        state.dataBasket = response
     },
     setDataListFiltered (state, response) {
         state.dataListFiltered = (response === null) ? state.dataList : response;
@@ -31,6 +38,10 @@ export const mutations = {
     deleteItem (state, data) {
         // state.dataList.data.splice(data.index, 1)
         state.dataListFiltered.data.splice(data.index, 1)
+    },
+    deleteItemBasket (state, data_items) {
+        // state.dataList.data.splice(data.index, 1)
+        state.dataBasket.data_items.splice(data_items.index, 1)
     },
 }
 
@@ -60,18 +71,29 @@ export const actions = {
         // }
     },
 
-    // async getTagList({ commit }) {
-    //     const [tagList] = await Promise.all ([
-    //         this.$axios.$get('/tag/all'),
-    //     ])
-    //     commit('setTagList', tagList)
-    // },
+    async getDataBasket({ commit, state, dispatch }) {
+        const [dataBasket] = await Promise.all ([
+            this.$axios.$get('/order/basket'),
+        ])
+        commit('setDataBasket', dataBasket)
+    },
 
     async deleteItem( vuexContext, data) {
         return await this.$axios.$delete('/order/'+ data.id)
         .then((response) => {
             console.log(response);
             vuexContext.commit('deleteItem', data)
+        }, (error) => {
+            console.log(error);
+            //this.res = error.response.data.message
+        });
+    },
+
+    async deleteItemBasket( vuexContext, data) {
+        return await this.$axios.$delete('/order/removeitem/'+ data.id)
+        .then((response) => {
+            console.log(response);
+            vuexContext.commit('deleteItemBasket', data)
         }, (error) => {
             console.log(error);
             //this.res = error.response.data.message

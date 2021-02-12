@@ -23,9 +23,7 @@
 
                 <!-- KNIZNICA -->
                 <li v-if="showLevel === null" @click='changeLinkLevel("knihy")'>Knižnica</li>
-                <li v-if="showLevel === 'knihy'" @click="$emit('close')"><nuxt-link to='/knihy/vsetky'>Všetky knižky</nuxt-link></li>
-                <li v-if="showLevel === 'knihy'" @click="$emit('close')"><nuxt-link to='/knihy/najnovsie'>Najnovšie knižky</nuxt-link></li>
-                <li v-if="showLevel === 'knihy'" @click="$emit('close')"><nuxt-link to='/knihy/najoblubenejsie'>Najobľúbenejšie knižky</nuxt-link></li>
+                <li v-if="showLevel === 'knihy'" @click="$emit('close')"><nuxt-link to='/kniznica'>Všetky knižky</nuxt-link></li>
                 <!-- <div class='hr' v-if="showLevel === null"></div> -->
                 <!-- KNIZNICA -->
 
@@ -41,10 +39,10 @@
                 
                 <!-- MOJE KNIZKY -->
                 <li v-if="showLevel === null" @click='changeLinkLevel("mojeknizky")'>Moje knižky</li>
-                <li v-if="showLevel === 'mojeknizky'" @click="$emit('close')"><nuxt-link to='/user/books/basket' class='small'>Košík</nuxt-link></li>
+                <li v-if="showLevel === 'mojeknizky'" @click="$emit('close')"><nuxt-link to='/user/books/basket' class='small'>Batôžtek (košík)</nuxt-link></li>
                 <li v-if="showLevel === 'mojeknizky'" @click="$emit('close')"><nuxt-link to='/user/books/borrowed' class='small'>Požičané knižky</nuxt-link></li>
                 <li v-if="showLevel === 'mojeknizky'" @click="$emit('close')"><nuxt-link to='/user/books/rated' class='small'>Hodnotené knižky</nuxt-link></li>
-                <li v-if="showLevel === 'mojeknizky'" @click="$emit('close')"><nuxt-link to='/user/books/reserved' class='small'>Rezervované knižky</nuxt-link></li>
+                <!-- <li v-if="showLevel === 'mojeknizky'" @click="$emit('close')"><nuxt-link to='/user/books/reserved' class='small'>Rezervované knižky</nuxt-link></li> -->
                 <li v-if="showLevel === 'mojeknizky'" @click="$emit('close')"><nuxt-link to='/user/books/wishlist' class='small'>Wishlist</nuxt-link></li>
                 <!-- MOJE KNIZKY -->
 

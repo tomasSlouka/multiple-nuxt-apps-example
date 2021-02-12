@@ -12,7 +12,7 @@
                     <div class='nav'>
                         <ul v-if="$store.getters['auth/isUserLoggedIn']" class='flex wrap show-md align-items-center'>
                             <!-- <li><nuxt-link to='/admin'>{{$store.state.auth.userData.name}}</nuxt-link></li> -->
-                            <li><nuxt-link to='/knihy'>Knižnica</nuxt-link></li>
+                            <li><nuxt-link to='/kniznica'>Knižnica</nuxt-link></li>
                             <!-- <li><nuxt-link to='/knihy'>Blog</nuxt-link></li> -->
                             <!-- <li><nuxt-link to='/knihy'>Newsletter</nuxt-link></li> -->
                             <li>|</li>

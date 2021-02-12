@@ -35,11 +35,11 @@
     "_name": "_4bf89126"
   },
   {
-    "name": "knihy",
-    "path": "/knihy",
-    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\knihy\\\\index.vue",
-    "chunkName": "pages/knihy/index",
-    "_name": "_0af076c5"
+    "name": "kniznica",
+    "path": "/kniznica",
+    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\kniznica\\\\index.vue",
+    "chunkName": "pages/kniznica/index",
+    "_name": "_0e98a5aa"
   },
   {
     "name": "odhlasenie",
@@ -103,27 +103,6 @@
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\admin\\\\users\\\\index.vue",
     "chunkName": "pages/admin/users/index",
     "_name": "_65e19502"
-  },
-  {
-    "name": "knihy-najnovsie",
-    "path": "/knihy/najnovsie",
-    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\knihy\\\\najnovsie\\\\index.vue",
-    "chunkName": "pages/knihy/najnovsie/index",
-    "_name": "_99c45d44"
-  },
-  {
-    "name": "knihy-najoblubenejsie",
-    "path": "/knihy/najoblubenejsie",
-    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\knihy\\\\najoblubenejsie\\\\index.vue",
-    "chunkName": "pages/knihy/najoblubenejsie/index",
-    "_name": "_74d31b1d"
-  },
-  {
-    "name": "knihy-vsetky",
-    "path": "/knihy/vsetky",
-    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\knihy\\\\vsetky\\\\index.vue",
-    "chunkName": "pages/knihy/vsetky/index",
-    "_name": "_4fe2f96b"
   },
   {
     "name": "prihlasenie-code",
@@ -288,7 +267,7 @@
   },
   {
     "name": "kniznica-id-name",
-    "path": "/kniznica/:id?/:name",
+    "path": "/kniznica/:id/:name",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\kniznica\\\\_id\\\\_name\\\\index.vue",
     "chunkName": "pages/kniznica/_id/_name/index",
     "_name": "_9be1bd8a"

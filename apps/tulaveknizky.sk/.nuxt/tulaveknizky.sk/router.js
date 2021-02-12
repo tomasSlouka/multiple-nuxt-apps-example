@@ -8,7 +8,7 @@ const _1a588646 = () => interopDefault(import('..\\..\\pages\\403.vue' /* webpac
 const _1a3c5744 = () => interopDefault(import('..\\..\\pages\\404.vue' /* webpackChunkName: "pages/404" */))
 const _278fb19b = () => interopDefault(import('..\\..\\pages\\500.vue' /* webpackChunkName: "pages/500" */))
 const _4bf89126 = () => interopDefault(import('..\\..\\pages\\admin\\index.vue' /* webpackChunkName: "pages/admin/index" */))
-const _0af076c5 = () => interopDefault(import('..\\..\\pages\\knihy\\index.vue' /* webpackChunkName: "pages/knihy/index" */))
+const _0e98a5aa = () => interopDefault(import('..\\..\\pages\\kniznica\\index.vue' /* webpackChunkName: "pages/kniznica/index" */))
 const _f99f9130 = () => interopDefault(import('..\\..\\pages\\odhlasenie\\index.vue' /* webpackChunkName: "pages/odhlasenie/index" */))
 const _d179b20c = () => interopDefault(import('..\\..\\pages\\prihlasenie\\index.vue' /* webpackChunkName: "pages/prihlasenie/index" */))
 const _3f3bbc66 = () => interopDefault(import('..\\..\\pages\\registracia\\index.vue' /* webpackChunkName: "pages/registracia/index" */))
@@ -18,9 +18,6 @@ const _0193909e = () => interopDefault(import('..\\..\\pages\\admin\\stock\\inde
 const _7d41fff4 = () => interopDefault(import('..\\..\\pages\\admin\\tags\\index.vue' /* webpackChunkName: "pages/admin/tags/index" */))
 const _796cde1c = () => interopDefault(import('..\\..\\pages\\admin\\titles\\index.vue' /* webpackChunkName: "pages/admin/titles/index" */))
 const _65e19502 = () => interopDefault(import('..\\..\\pages\\admin\\users\\index.vue' /* webpackChunkName: "pages/admin/users/index" */))
-const _99c45d44 = () => interopDefault(import('..\\..\\pages\\knihy\\najnovsie\\index.vue' /* webpackChunkName: "pages/knihy/najnovsie/index" */))
-const _74d31b1d = () => interopDefault(import('..\\..\\pages\\knihy\\najoblubenejsie\\index.vue' /* webpackChunkName: "pages/knihy/najoblubenejsie/index" */))
-const _4fe2f96b = () => interopDefault(import('..\\..\\pages\\knihy\\vsetky\\index.vue' /* webpackChunkName: "pages/knihy/vsetky/index" */))
 const _5abc6916 = () => interopDefault(import('..\\..\\pages\\prihlasenie\\code.vue' /* webpackChunkName: "pages/prihlasenie/code" */))
 const _606a4eee = () => interopDefault(import('..\\..\\pages\\registracia\\code.vue' /* webpackChunkName: "pages/registracia/code" */))
 const _e7ce68cc = () => interopDefault(import('..\\..\\pages\\user\\account\\index.vue' /* webpackChunkName: "pages/user/account/index" */))
@@ -84,9 +81,9 @@ export const routerOptions = {
     component: _4bf89126,
     name: "admin"
   }, {
-    path: "/knihy",
-    component: _0af076c5,
-    name: "knihy"
+    path: "/kniznica",
+    component: _0e98a5aa,
+    name: "kniznica"
   }, {
     path: "/odhlasenie",
     component: _f99f9130,
@@ -123,18 +120,6 @@ export const routerOptions = {
     path: "/admin/users",
     component: _65e19502,
     name: "admin-users"
-  }, {
-    path: "/knihy/najnovsie",
-    component: _99c45d44,
-    name: "knihy-najnovsie"
-  }, {
-    path: "/knihy/najoblubenejsie",
-    component: _74d31b1d,
-    name: "knihy-najoblubenejsie"
-  }, {
-    path: "/knihy/vsetky",
-    component: _4fe2f96b,
-    name: "knihy-vsetky"
   }, {
     path: "/prihlasenie/code",
     component: _5abc6916,
@@ -228,7 +213,7 @@ export const routerOptions = {
     component: _4837b5cc,
     name: "admin-users-detail-id"
   }, {
-    path: "/kniznica/:id?/:name",
+    path: "/kniznica/:id/:name",
     component: _9be1bd8a,
     name: "kniznica-id-name"
   }, {

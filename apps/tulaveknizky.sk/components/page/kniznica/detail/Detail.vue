@@ -38,7 +38,7 @@
                             </div>
                             <div v-if="$store.getters['auth/isUserLoggedIn']" class='align-self-end grid align-items-center col-2 auto gap-20'>
                                 <img src="@/assets/img/icon-love.svg" alt="" class='love' />
-                                <button v-if="dataDetail.data.stock_count_available >= 1" class='button cta black' @click='borrowBook({id: dataDetail.data.id}, $event)'>Požičať</button>
+                                <button v-if="dataDetail.data.stock_count_available >= 1" class='button cta black' @click='addItem({book_id: dataDetail.data.id}, $event)'>Požičať</button>
                                 <button v-if="dataDetail.data.stock_count_available == 0 && dataDetail.data.stock_count_borrowed > 0" class='button cta white small' @click='setNotification({id: dataDetail.data.id}, $event)'>Sledovať dostupnosť</button>
                                 <button v-if="dataDetail.data.stock_count_available == 0 && dataDetail.data.stock_count_all == 0" class='button cta red'>Nedostupné</button>
                             </div>
@@ -67,7 +67,20 @@ export default {
         }
     },
     methods: {
-        
+        async addItem(data, e) {
+            await this.$axios.$post('/order/additem', {
+                "book_id": data.book_id,
+            })
+            .then((response) => {
+                console.log(response);
+                e.target.innerText = 'Knižka pridaná!'
+                setTimeout(() => this.submitSuccess = false, 4000)
+                // console.log(e.target.innerText)
+                this.$router.push('/user/books/basket')
+            }, (error) => {
+                console.log(error);
+            });
+        },
     },
 }
 </script>

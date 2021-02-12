@@ -4,10 +4,10 @@
             <div class='flex wrap align-items-center justify-content-space-between'>
                 <div class='nav'>
                     <ul class='flex wrap show-md align-items-center'>
-                        <li><nuxt-link to='/user/books/basket' class='small'>Košík</nuxt-link></li>
+                        <li><nuxt-link to='/user/books/basket' class='small'>Batôžtek (košík)</nuxt-link></li>
                         <li><nuxt-link to='/user/books/borrowed' class='small'>Požičané knižky</nuxt-link></li>
                         <li><nuxt-link to='/user/books/rated' class='small'>Hodnotené knižky</nuxt-link></li>
-                        <li><nuxt-link to='/user/books/reserved' class='small'>Rezervované knižky</nuxt-link></li>
+                        <!-- <li><nuxt-link to='/user/books/reserved' class='small'>Rezervované knižky</nuxt-link></li> -->
                         <li><nuxt-link to='/user/books/wishlist' class='small'>Wishlist</nuxt-link></li>
                         <!-- <li><a @click.prevent='logout()' class='small'>Odhlásiť sa</a></li> -->
                     </ul>
