@@ -63,7 +63,7 @@
 
               </ul>
               <ul v-else class='grid col-1 gap-20'>
-                <li><nuxt-link to='/knihy'>Knižnica</nuxt-link></li>
+                <li><nuxt-link to='/kniznica'>Knižnica</nuxt-link></li>
                 <div class="hr"></div>
                 <li><nuxt-link to='/prihlasenie'>Prihlásenie</nuxt-link></li>
                 <li><nuxt-link to="/registracia">Registrácia</nuxt-link></li>

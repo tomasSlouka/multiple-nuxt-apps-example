@@ -23,7 +23,7 @@
 
                         </ul>
                         <ul v-else class='flex wrap show-md align-items-center'>
-                            <li><nuxt-link to='/knihy'>Knižnica</nuxt-link></li>
+                            <li><nuxt-link to='/kniznica'>Knižnica</nuxt-link></li>
                             <li>|</li>
                             <li><nuxt-link to='/prihlasenie'>Prihlásenie</nuxt-link></li>
                             <li><nuxt-link to="/registracia">Registrácia</nuxt-link></li>
