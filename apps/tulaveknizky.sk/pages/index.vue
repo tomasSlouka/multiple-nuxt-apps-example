@@ -4,9 +4,9 @@
         <SubNav />
         <Hero />
         <More />
-        <Books 
+        <!-- <Books 
             :bookList='bookList'
-        />
+        /> -->
         <Newsletter />
         <!-- <Testimonials /> -->
         <!-- <More /> -->

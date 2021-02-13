@@ -22,7 +22,7 @@
 </template>
 
 <script>
-import Hero from '@/components/page/kniznica/detail/Hero.vue'
+import Hero from '@/components/page/_common/Hero.vue'
 import SubNav from '@/components/page/home/SubNav.vue'
 import Detail from '@/components/page/kniznica/detail/Detail.vue'
 import Comments from '@/components/page/kniznica/detail/Comments.vue'

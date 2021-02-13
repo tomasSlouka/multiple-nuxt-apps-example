@@ -21,7 +21,7 @@
                     Čitaš veľa, no v bežných knižniciach nedostať najnovšie tituly? S Túlavými knižkami tento problém mať nebudeš. Vypožičaj si z dostupných titulov a ušetri nielen peňiažky ale aj čas.
                 </p>
                 <div class='mt30'>
-                    <nuxt-link to='/categories' class='button black cta big'>Chcem si požičať knižku</nuxt-link>
+                    <nuxt-link to='/kniznica' class='button black cta big'>Chcem si požičať knižku</nuxt-link>
                     <!-- <nuxt-link to='/categories' class='button black cta big'>Vstupiť do knižnice</nuxt-link> -->
                 </div>
             </div>

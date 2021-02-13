@@ -35,11 +35,39 @@
     "_name": "_4bf89126"
   },
   {
+    "name": "ako-to-funguje",
+    "path": "/ako-to-funguje",
+    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\ako-to-funguje\\\\index.vue",
+    "chunkName": "pages/ako-to-funguje/index",
+    "_name": "_811b96cc"
+  },
+  {
+    "name": "blog",
+    "path": "/blog",
+    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\blog\\\\index.vue",
+    "chunkName": "pages/blog/index",
+    "_name": "_8d0336d4"
+  },
+  {
     "name": "kniznica",
     "path": "/kniznica",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\kniznica\\\\index.vue",
     "chunkName": "pages/kniznica/index",
     "_name": "_0e98a5aa"
+  },
+  {
+    "name": "nas-pribeh",
+    "path": "/nas-pribeh",
+    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\nas-pribeh\\\\index.vue",
+    "chunkName": "pages/nas-pribeh/index",
+    "_name": "_3c907c4d"
+  },
+  {
+    "name": "newsletter",
+    "path": "/newsletter",
+    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\newsletter\\\\index.vue",
+    "chunkName": "pages/newsletter/index",
+    "_name": "_258ba89f"
   },
   {
     "name": "odhlasenie",

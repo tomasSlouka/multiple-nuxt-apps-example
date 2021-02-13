@@ -3,7 +3,7 @@
         <SubNav />
         <Hero 
             h1='Knižnica'
-            h2='Všetky knihy'
+            h2='Požičaj si knižku z online knižnice'
         />
         <Books 
             :bookList='bookList'
@@ -12,14 +12,14 @@
 </template>
 
 <script>
-import Hero from '@/components/page/kniznica/detail/Hero.vue'
+import Hero from '@/components/page/_common/Hero.vue'
 import SubNav from '@/components/page/home/SubNav.vue'
 import Books from '@/components/page/home/Books.vue'
 
 export default {
     layout: 'defaultPage',
         components: {
-            Hero, Books
+            Hero, SubNav, Books
     },
     data() {
         return {

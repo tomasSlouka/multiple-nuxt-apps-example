@@ -27,7 +27,8 @@ export default {
 
 .component {
     padding: 1px;
-    background-color: #f5f8fc;
+    background-color: #f7f7f7;
+    /* background-color: #f5f8fc; */
 }
 input {
     background-color: #fff;

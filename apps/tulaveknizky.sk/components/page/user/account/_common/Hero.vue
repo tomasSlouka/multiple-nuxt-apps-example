@@ -2,8 +2,8 @@
     <div class="component">
         <div class="container-hero grid">
             <div class='grid justify-items-start'>
-                <h1 class='h3'>{{h1}}</h1>
-                <h3 class='h1' v-if='h2'>{{h2}}</h3>
+                <h3 class='h3'>{{h1}}</h3>
+                <h1 class='h1' v-if='h2'>{{h2}}</h1>
             </div>
             
         </div>

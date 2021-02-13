@@ -8,7 +8,11 @@ const _1a588646 = () => interopDefault(import('..\\..\\pages\\403.vue' /* webpac
 const _1a3c5744 = () => interopDefault(import('..\\..\\pages\\404.vue' /* webpackChunkName: "pages/404" */))
 const _278fb19b = () => interopDefault(import('..\\..\\pages\\500.vue' /* webpackChunkName: "pages/500" */))
 const _4bf89126 = () => interopDefault(import('..\\..\\pages\\admin\\index.vue' /* webpackChunkName: "pages/admin/index" */))
+const _811b96cc = () => interopDefault(import('..\\..\\pages\\ako-to-funguje\\index.vue' /* webpackChunkName: "pages/ako-to-funguje/index" */))
+const _8d0336d4 = () => interopDefault(import('..\\..\\pages\\blog\\index.vue' /* webpackChunkName: "pages/blog/index" */))
 const _0e98a5aa = () => interopDefault(import('..\\..\\pages\\kniznica\\index.vue' /* webpackChunkName: "pages/kniznica/index" */))
+const _3c907c4d = () => interopDefault(import('..\\..\\pages\\nas-pribeh\\index.vue' /* webpackChunkName: "pages/nas-pribeh/index" */))
+const _258ba89f = () => interopDefault(import('..\\..\\pages\\newsletter\\index.vue' /* webpackChunkName: "pages/newsletter/index" */))
 const _f99f9130 = () => interopDefault(import('..\\..\\pages\\odhlasenie\\index.vue' /* webpackChunkName: "pages/odhlasenie/index" */))
 const _d179b20c = () => interopDefault(import('..\\..\\pages\\prihlasenie\\index.vue' /* webpackChunkName: "pages/prihlasenie/index" */))
 const _3f3bbc66 = () => interopDefault(import('..\\..\\pages\\registracia\\index.vue' /* webpackChunkName: "pages/registracia/index" */))
@@ -81,9 +85,25 @@ export const routerOptions = {
     component: _4bf89126,
     name: "admin"
   }, {
+    path: "/ako-to-funguje",
+    component: _811b96cc,
+    name: "ako-to-funguje"
+  }, {
+    path: "/blog",
+    component: _8d0336d4,
+    name: "blog"
+  }, {
     path: "/kniznica",
     component: _0e98a5aa,
     name: "kniznica"
+  }, {
+    path: "/nas-pribeh",
+    component: _3c907c4d,
+    name: "nas-pribeh"
+  }, {
+    path: "/newsletter",
+    component: _258ba89f,
+    name: "newsletter"
   }, {
     path: "/odhlasenie",
     component: _f99f9130,

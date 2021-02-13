@@ -26,9 +26,9 @@
                             </div>
                         </div>
 
-                        <div class='box-2 grid col-2 p10 auto justify-items-end justify-content-end gap-10 align-items-end'>
-                            <div><p class='small mb2'>Spolu:</p></div>
-                            <div class='grid col-2 auto align-items-end gap-5'><h3 class='p0 m0'>{{dataBasket.sum_price}}</h3> <p class='small mb2'>kreditov</p></div>
+                        <div class='box-2 grid col-2 p10 auto justify-items-end justify-content-end gap-10 align-items-center'>
+                            <div><p class='small'>Spolu:</p></div>
+                            <div class='grid col-2 auto align-items-center gap-5'><p class='big strong'>{{dataBasket.sum_price}}</p> <p class='small'>kreditov</p></div>
                         </div>
                     </div>
 
@@ -56,7 +56,7 @@ export default {
         async deleteButton(data) {
             await this.$store.dispatch("order/deleteItemBasket", data)
             this.dataBasket.count_items--
-            this.dataBasket.sum_price = this.dataBasket.sum_price - data.price
+            this.dataBasket.sum_price = this.dataBasket.sum_price - data.price + ".00"
         }
     },
 }
