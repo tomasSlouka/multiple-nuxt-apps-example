@@ -6,7 +6,7 @@
                     <!-- <h2>Tvoja objednávka bola úspešne odoslaná!</h2> -->
                     <h2>Ojoj! V tvojom batôžku nie su žiadne knižky</h2>
                 </div>
-                <div class='grid col-2 auto justify-content-start gap-10'>
+                <div class='grid md-col-2 auto justify-content-start gap-10'>
                     
                     <div><nuxt-link to='/kniznica' class='button cta white'>Pridať knižky z knižnice</nuxt-link></div>
                     <div><nuxt-link to='/user/books/wishlist' class='button cta black'>Pridať knižky z wishlistu</nuxt-link></div>

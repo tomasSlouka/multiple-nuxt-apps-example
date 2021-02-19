@@ -523,7 +523,42 @@ grid-template-columns: repeat(10,auto);
 
 /* media queries */
 @media only screen and (max-width : 576px) {
- 
+
+    /* ALIGNMENT FOR SPECIFIC ITEM IN GRID CONTAINER */
+    /* along x axis */
+    .grid > .xs-justify-self-start,
+    .grid > .xs-x-self-start,
+    .grid > .xs-xs-start {justify-self: start;}
+
+    .grid > .xs-justify-self-center,
+    .grid > .xs-x-self-center,
+    .grid > .xs-xs-center {justify-self: center;}
+
+    .grid > .xs-justify-self-stretch,
+    .grid > .xs-x-self-stretch,
+    .grid > .xs-xs-stretch {justify-self: stretch;}
+
+    .grid > .xs-justify-self-end,
+    .grid > .xs-x-self-end,
+    .grid > .xs-xs-end {justify-self: end;}
+
+    /* along y axis */
+    .grid > .xs-align-self-start,
+    .grid > .xs-y-self-start,
+    .grid > .xs-ys-start {align-self: start;}
+
+    .grid > .xs-align-self-center,
+    .grid > .xs-y-self-center,
+    .grid > .xs-ys-center {align-self: center;}
+
+    .grid > .xs-align-self-stretch,
+    .grid > .xs-y-self-stretch,
+    .grid > .xs-ys-stretch {align-self: stretch;}
+
+    .grid > .xs-align-self-end,
+    .grid > .xs-y-self-end,
+    .grid > .xs-ys-end {align-self: end;}
+
     /* gaps */
     .grid.xs-gap-1 {grid-column-gap: 1px; grid-row-gap: 1px;}
     .grid.xs-gap-2 {grid-column-gap: 2px; grid-row-gap: 2px;}
@@ -723,6 +758,41 @@ grid-template-columns: repeat(10,auto);
 }
 
 @media only screen and (min-width : 576px) {
+
+        /* ALIGNMENT FOR SPECIFIC ITEM IN GRID CONTAINER */
+    /* along x axis */
+    .grid > .sm-justify-self-start,
+    .grid > .sm-x-self-start,
+    .grid > .sm-xs-start {justify-self: start;}
+
+    .grid > .sm-justify-self-center,
+    .grid > .sm-x-self-center,
+    .grid > .sm-xs-center {justify-self: center;}
+
+    .grid > .sm-justify-self-stretch,
+    .grid > .sm-x-self-stretch,
+    .grid > .sm-xs-stretch {justify-self: stretch;}
+
+    .grid > .sm-justify-self-end,
+    .grid > .sm-x-self-end,
+    .grid > .sm-xs-end {justify-self: end;}
+
+    /* along y axis */
+    .grid > .sm-align-self-start,
+    .grid > .sm-y-self-start,
+    .grid > .sm-ys-start {align-self: start;}
+
+    .grid > .sm-align-self-center,
+    .grid > .sm-y-self-center,
+    .grid > .sm-ys-center {align-self: center;}
+
+    .grid > .sm-align-self-stretch,
+    .grid > .sm-y-self-stretch,
+    .grid > .sm-ys-stretch {align-self: stretch;}
+
+    .grid > .sm-align-self-end,
+    .grid > .sm-y-self-end,
+    .grid > .sm-ys-end {align-self: end;}
 
     /* gaps */
     .grid.sm-gap-1 {grid-column-gap: 1px; grid-row-gap: 1px;}
@@ -924,6 +994,41 @@ grid-template-columns: repeat(10,auto);
 
 @media only screen and (min-width : 768px) {
 
+        /* ALIGNMENT FOR SPECIFIC ITEM IN GRID CONTAINER */
+    /* along x axis */
+    .grid > .md-justify-self-start,
+    .grid > .md-x-self-start,
+    .grid > .md-xs-start {justify-self: start;}
+
+    .grid > .md-justify-self-center,
+    .grid > .md-x-self-center,
+    .grid > .md-xs-center {justify-self: center;}
+
+    .grid > .md-justify-self-stretch,
+    .grid > .md-x-self-stretch,
+    .grid > .md-xs-stretch {justify-self: stretch;}
+
+    .grid > .md-justify-self-end,
+    .grid > .md-x-self-end,
+    .grid > .md-xs-end {justify-self: end;}
+
+    /* along y axis */
+    .grid > .md-align-self-start,
+    .grid > .md-y-self-start,
+    .grid > .md-ys-start {align-self: start;}
+
+    .grid > .md-align-self-center,
+    .grid > .md-y-self-center,
+    .grid > .md-ys-center {align-self: center;}
+
+    .grid > .md-align-self-stretch,
+    .grid > .md-y-self-stretch,
+    .grid > .md-ys-stretch {align-self: stretch;}
+
+    .grid > .md-align-self-end,
+    .grid > .md-y-self-end,
+    .grid > .md-ys-end {align-self: end;}
+
     /* gaps */
     .grid.md-gap-1 {grid-column-gap: 1px; grid-row-gap: 1px;}
     .grid.md-gap-2 {grid-column-gap: 2px; grid-row-gap: 2px;}
@@ -1122,6 +1227,41 @@ grid-template-columns: repeat(10,auto);
 }
 
 @media only screen and (min-width : 992px) {
+
+        /* ALIGNMENT FOR SPECIFIC ITEM IN GRID CONTAINER */
+    /* along x axis */
+    .grid > .lg-justify-self-start,
+    .grid > .lg-x-self-start,
+    .grid > .lg-xs-start {justify-self: start;}
+
+    .grid > .lg-justify-self-center,
+    .grid > .lg-x-self-center,
+    .grid > .lg-xs-center {justify-self: center;}
+
+    .grid > .lg-justify-self-stretch,
+    .grid > .lg-x-self-stretch,
+    .grid > .lg-xs-stretch {justify-self: stretch;}
+
+    .grid > .lg-justify-self-end,
+    .grid > .lg-x-self-end,
+    .grid > .lg-xs-end {justify-self: end;}
+
+    /* along y axis */
+    .grid > .lg-align-self-start,
+    .grid > .lg-y-self-start,
+    .grid > .lg-ys-start {align-self: start;}
+
+    .grid > .lg-align-self-center,
+    .grid > .lg-y-self-center,
+    .grid > .lg-ys-center {align-self: center;}
+
+    .grid > .lg-align-self-stretch,
+    .grid > .lg-y-self-stretch,
+    .grid > .lg-ys-stretch {align-self: stretch;}
+
+    .grid > .lg-align-self-end,
+    .grid > .lg-y-self-end,
+    .grid > .lg-ys-end {align-self: end;}
 
     /* gaps */
     .grid.lg-gap-1 {grid-column-gap: 1px; grid-row-gap: 1px;}
@@ -1323,6 +1463,41 @@ grid-template-columns: repeat(10,auto);
 }
 
 @media only screen and (min-width : 1200px) {
+    /* ALIGNMENT FOR SPECIFIC ITEM IN GRID CONTAINER */
+    /* along x axis */
+    .grid > .xl-justify-self-start,
+    .grid > .xl-x-self-start,
+    .grid > .xl-xs-start {justify-self: start;}
+
+    .grid > .xl-justify-self-center,
+    .grid > .xl-x-self-center,
+    .grid > .xl-xs-center {justify-self: center;}
+
+    .grid > .xl-justify-self-stretch,
+    .grid > .xl-x-self-stretch,
+    .grid > .xl-xs-stretch {justify-self: stretch;}
+
+    .grid > .xl-justify-self-end,
+    .grid > .xl-x-self-end,
+    .grid > .xl-xs-end {justify-self: end;}
+
+    /* along y axis */
+    .grid > .xl-align-self-start,
+    .grid > .xl-y-self-start,
+    .grid > .xl-ys-start {align-self: start;}
+
+    .grid > .xl-align-self-center,
+    .grid > .xl-y-self-center,
+    .grid > .xl-ys-center {align-self: center;}
+
+    .grid > .xl-align-self-stretch,
+    .grid > .xl-y-self-stretch,
+    .grid > .xl-ys-stretch {align-self: stretch;}
+
+    .grid > .xl-align-self-end,
+    .grid > .xl-y-self-end,
+    .grid > .xl-ys-end {align-self: end;}
+
     /* gaps */
     .grid.xl-gap-1 {grid-column-gap: 1px; grid-row-gap: 1px;}
     .grid.xl-gap-2 {grid-column-gap: 2px; grid-row-gap: 2px;}

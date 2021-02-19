@@ -8,13 +8,11 @@
                 <div class='grid gap-60'>
                     <div class='grid gap-20 auto'>
                         
-                        <div class='table-wrapper justify-content-start'>
-                            <div class='table grid auto col-2'>
-                                <div class="table-head">
-                                </div>
+                        <!-- <div class='table-wrapper justify-content-start'> -->
+                            <div class='grid md-col-2 gap-10'>
 
                                 <!-- Zasielkovna -->
-                                <div class='table-row' > 
+                                <div class='box-form bb1'> 
                                     <div class='grid col-3 gap-20 auto align-items-center justify-content-start'>
                                         <input type='radio' id='zasielkovna' name='delivery_option' @click="packeta()" v-model='delivery_option' value='zasielkovna' class='m10 p10 block' />
                                         <!-- <label class='normal' for="zasielkovna">Zasielkovňa</label> -->
@@ -28,7 +26,7 @@
                                 <!-- Zasielkovna -->
 
                                 <!-- Slovenska posta -->
-                                <div class='table-row'> 
+                                <div class='box-form bb1'> 
                                     <div class='grid col-2 gap-20 auto align-items-center justify-content-start'>
                                         <input type='radio' id='sk_posta' name='delivery_option' @click="sk_posta()" v-model="delivery_option" value='sk_posta' class='m10 p10 block' />
                                         <label class='pointer normal grid col-2 auto gap-10 align-items-center ml10' for="sk_posta">
@@ -40,7 +38,7 @@
                                 <!-- Slovenska posta -->
 
                             </div>
-                        </div>
+                        <!-- </div> -->
                         
                         <div v-if='delivery_option == "zasielkovna"'>
                             <div class='box-form grid gap-20'>
@@ -183,9 +181,9 @@
                         </div> -->
                     </div>
 
-                    <div class='box grid col-2'>
-                        <div class='justify-self-start'><nuxt-link to='/user/books/basket' class='button cta white'>Späť na knižky v batôžku</nuxt-link></div>
-                        <div class='justify-self-end'><button class='button cta black' @click.once='submitForm()'>Pokračovať na rekapituláciu</button></div>
+                    <div class='box grid md-col-2 gap-10'>
+                        <div class='md-justify-self-start grid'><nuxt-link to='/user/books/basket' class='button cta white'>Späť na knižky v batôžku</nuxt-link></div>
+                        <div class='md-justify-self-end grid'><button class='button cta black' @click.once='submitForm()'>Pokračovať na rekapituláciu</button></div>
                     </div>
                 </div>
             </div>

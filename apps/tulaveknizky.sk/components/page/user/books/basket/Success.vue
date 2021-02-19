@@ -16,7 +16,7 @@
                         <li>Ak sa rozhodneš túto výpravu zmeniť alebo zrušiť, prosím kontaktuj nás na <a href='mailto:ahoj@tulaveknizky.sk'>ahoj@tulaveknizky.sk</a>.<br>Knižkám sa to pokúsime ľudsky vysvetliť tak, aby sa neurazili.</li>
                     </ul>
                 </div>
-                <div class='grid col-2 auto justify-content-start gap-10'>
+                <div class='grid md-col-2 auto justify-content-start gap-10'>
                     
                     <div><nuxt-link to='/kniznica' class='button cta white'>Späť do knižnice</nuxt-link></div>
                     <div><nuxt-link to='/user/books/borrowed' class='button cta black'>Moje požičané knižky</nuxt-link></div>

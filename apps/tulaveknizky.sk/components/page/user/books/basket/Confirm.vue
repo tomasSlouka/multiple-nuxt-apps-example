@@ -54,9 +54,9 @@
                             </p>
                         </li>
                     </ul>
-                    <div class='box grid col-2'>
-                        <div class='justify-self-start'><nuxt-link to='/user/books/basket/delivery' class='button cta white'>Späť na výber dopravy</nuxt-link></div>
-                        <div class='justify-self-end'><button class='button cta black' @click.once='complete()'>Potvrdiť objednávku</button></div>
+                    <div class='box grid md-col-2 gap-10'>
+                        <div class='md-justify-self-start grid'><nuxt-link to='/user/books/basket/delivery' class='button cta white'>Späť na výber dopravy</nuxt-link></div>
+                        <div class='md-justify-self-end grid'><button class='button cta black' @click.once='complete()'>Potvrdiť objednávku</button></div>
                     </div>
 
                 </div>
