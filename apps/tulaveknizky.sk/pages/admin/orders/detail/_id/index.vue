@@ -5,7 +5,7 @@
             h1='Administrácia'
             h2='Objednávky'
         />
-        <FormEdit
+        <Detail
             :dataDetail='dataDetail'    
         />
     </div>
@@ -14,12 +14,12 @@
 <script>
 import Hero from '@/components/admin/_common/Hero.vue'
 import SubNav from '@/components/admin/_common/SubNav.vue'
-import FormEdit from '@/components/admin/orders/FormEdit.vue'
+import Detail from '@/components/admin/orders/Detail.vue'
 
 export default {
     layout: 'defaultAdmin',
         components: {
-            SubNav, Hero, FormEdit,
+            SubNav, Hero, Detail,
     },
     data() {
         return {

@@ -39,12 +39,16 @@ const _62f79d29 = () => interopDefault(import('..\\..\\pages\\user\\books\\borro
 const _36df4db3 = () => interopDefault(import('..\\..\\pages\\user\\books\\rated\\index.vue' /* webpackChunkName: "pages/user/books/rated/index" */))
 const _d03e1a56 = () => interopDefault(import('..\\..\\pages\\user\\books\\reserved\\index.vue' /* webpackChunkName: "pages/user/books/reserved/index" */))
 const _460ef418 = () => interopDefault(import('..\\..\\pages\\user\\books\\wishlist\\index.vue' /* webpackChunkName: "pages/user/books/wishlist/index" */))
+const _0f2b5436 = () => interopDefault(import('..\\..\\pages\\user\\books\\basket\\confirm.vue' /* webpackChunkName: "pages/user/books/basket/confirm" */))
+const _79b7acc2 = () => interopDefault(import('..\\..\\pages\\user\\books\\basket\\delivery.vue' /* webpackChunkName: "pages/user/books/basket/delivery" */))
+const _cf6b54b0 = () => interopDefault(import('..\\..\\pages\\user\\books\\basket\\success.vue' /* webpackChunkName: "pages/user/books/basket/success" */))
 const _08eefe8c = () => interopDefault(import('..\\..\\pages\\admin\\categories\\detail\\_id\\index.vue' /* webpackChunkName: "pages/admin/categories/detail/_id/index" */))
 const _10886dfa = () => interopDefault(import('..\\..\\pages\\admin\\orders\\detail\\_id\\index.vue' /* webpackChunkName: "pages/admin/orders/detail/_id/index" */))
 const _3355564c = () => interopDefault(import('..\\..\\pages\\admin\\stock\\detail\\_id\\index.vue' /* webpackChunkName: "pages/admin/stock/detail/_id/index" */))
 const _34ba5177 = () => interopDefault(import('..\\..\\pages\\admin\\tags\\detail\\_id\\index.vue' /* webpackChunkName: "pages/admin/tags/detail/_id/index" */))
 const _0d8acd39 = () => interopDefault(import('..\\..\\pages\\admin\\titles\\detail\\_id\\index.vue' /* webpackChunkName: "pages/admin/titles/detail/_id/index" */))
 const _4837b5cc = () => interopDefault(import('..\\..\\pages\\admin\\users\\detail\\_id\\index.vue' /* webpackChunkName: "pages/admin/users/detail/_id/index" */))
+const _5031ade9 = () => interopDefault(import('..\\..\\pages\\admin\\orders\\detail\\_id\\edit.vue' /* webpackChunkName: "pages/admin/orders/detail/_id/edit" */))
 const _9be1bd8a = () => interopDefault(import('..\\..\\pages\\kniznica\\_id\\_name\\index.vue' /* webpackChunkName: "pages/kniznica/_id/_name/index" */))
 const _35182910 = () => interopDefault(import('..\\..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
@@ -209,6 +213,18 @@ export const routerOptions = {
     component: _460ef418,
     name: "user-books-wishlist"
   }, {
+    path: "/user/books/basket/confirm",
+    component: _0f2b5436,
+    name: "user-books-basket-confirm"
+  }, {
+    path: "/user/books/basket/delivery",
+    component: _79b7acc2,
+    name: "user-books-basket-delivery"
+  }, {
+    path: "/user/books/basket/success",
+    component: _cf6b54b0,
+    name: "user-books-basket-success"
+  }, {
     path: "/admin/categories/detail/:id",
     component: _08eefe8c,
     name: "admin-categories-detail-id"
@@ -232,6 +248,10 @@ export const routerOptions = {
     path: "/admin/users/detail/:id",
     component: _4837b5cc,
     name: "admin-users-detail-id"
+  }, {
+    path: "/admin/orders/detail/:id?/edit",
+    component: _5031ade9,
+    name: "admin-orders-detail-id-edit"
   }, {
     path: "/kniznica/:id/:name",
     component: _9be1bd8a,

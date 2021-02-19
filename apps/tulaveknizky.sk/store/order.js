@@ -14,7 +14,7 @@ export const getters = {
         return state.dataList;
     },
     getDataBasket(state) {
-        return state.dataList;
+        return state.dataBasket;
     },
 }
   

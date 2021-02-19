@@ -43,7 +43,7 @@ module.exports =
 /******/
 /******/ 		// "0" is the signal for "already loaded"
 /******/ 		if(installedChunks[chunkId] !== 0) {
-/******/ 			var chunk = require("./" + ({"1":"pages/200","2":"pages/403","3":"pages/404","4":"pages/500","5":"pages/admin/categories/add/index","6":"pages/admin/categories/detail/_id/index","7":"pages/admin/categories/index","8":"pages/admin/index","9":"pages/admin/orders/add/index","10":"pages/admin/orders/detail/_id/index","11":"pages/admin/orders/index","12":"pages/admin/stock/add/index","13":"pages/admin/stock/detail/_id/index","14":"pages/admin/stock/index","15":"pages/admin/tags/add/index","16":"pages/admin/tags/detail/_id/index","17":"pages/admin/tags/index","18":"pages/admin/titles/add/index","19":"pages/admin/titles/detail/_id/index","20":"pages/admin/titles/index","21":"pages/admin/users/add/index","22":"pages/admin/users/detail/_id/index","23":"pages/admin/users/index","24":"pages/ako-to-funguje/index","25":"pages/blog/index","26":"pages/index","27":"pages/kniznica/_id/_name/index","28":"pages/kniznica/index","29":"pages/nas-pribeh/index","30":"pages/newsletter/index","31":"pages/odhlasenie/index","32":"pages/prihlasenie/code","33":"pages/prihlasenie/index","34":"pages/registracia/code","35":"pages/registracia/index","36":"pages/user/account/credits/index","37":"pages/user/account/index","38":"pages/user/account/settings/index","39":"pages/user/books/basket/index","40":"pages/user/books/borrowed/index","41":"pages/user/books/index","42":"pages/user/books/rated/index","43":"pages/user/books/reserved/index","44":"pages/user/books/wishlist/index"}[chunkId]||chunkId) + ".js");
+/******/ 			var chunk = require("./" + ({"1":"pages/200","2":"pages/403","3":"pages/404","4":"pages/500","5":"pages/admin/categories/add/index","6":"pages/admin/categories/detail/_id/index","7":"pages/admin/categories/index","8":"pages/admin/index","9":"pages/admin/orders/add/index","10":"pages/admin/orders/detail/_id/edit","11":"pages/admin/orders/detail/_id/index","12":"pages/admin/orders/index","13":"pages/admin/stock/add/index","14":"pages/admin/stock/detail/_id/index","15":"pages/admin/stock/index","16":"pages/admin/tags/add/index","17":"pages/admin/tags/detail/_id/index","18":"pages/admin/tags/index","19":"pages/admin/titles/add/index","20":"pages/admin/titles/detail/_id/index","21":"pages/admin/titles/index","22":"pages/admin/users/add/index","23":"pages/admin/users/detail/_id/index","24":"pages/admin/users/index","25":"pages/ako-to-funguje/index","26":"pages/blog/index","27":"pages/index","28":"pages/kniznica/_id/_name/index","29":"pages/kniznica/index","30":"pages/nas-pribeh/index","31":"pages/newsletter/index","32":"pages/odhlasenie/index","33":"pages/prihlasenie/code","34":"pages/prihlasenie/index","35":"pages/registracia/code","36":"pages/registracia/index","37":"pages/user/account/credits/index","38":"pages/user/account/index","39":"pages/user/account/settings/index","40":"pages/user/books/basket/confirm","41":"pages/user/books/basket/delivery","42":"pages/user/books/basket/index","43":"pages/user/books/basket/success","44":"pages/user/books/borrowed/index","45":"pages/user/books/index","46":"pages/user/books/rated/index","47":"pages/user/books/reserved/index","48":"pages/user/books/wishlist/index"}[chunkId]||chunkId) + ".js");
 /******/ 			var moreModules = chunk.modules, chunkIds = chunk.ids;
 /******/ 			for(var moduleId in moreModules) {
 /******/ 				modules[moduleId] = moreModules[moduleId];
@@ -850,7 +850,7 @@ var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(2);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap);"]);
 // Module
-exports.push([module.i, "a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;vertical-align:baseline}div{box-sizing:border-box}#used-layout{background-color:#000;color:#fff;display:none}body{color:#333;font-size:16px;line-height:1.688em;font-weight:400}body,h1,h2,h3,h4,h5,h6{font-family:\"Open sans\",sans-serif}h1,h2,h3,h4,h5,h6{line-height:1.4em}.h1,h1{font-size:2.063em;line-height:1.576em}.h1,.h2,h1,h2{font-weight:700}.h2,h2{font-size:1.625em;line-height:1.615em}.h3,h3{font-size:1.25em;line-height:1.65em}.h3,.h4,h3,h4{font-weight:600}.h4,h4{font-size:1em;line-height:1.688em}.h5,h5{font-size:.813em;font-weight:600;line-height:1.769em}.container-wide{max-width:100%;padding:20px;margin:80px auto}.container-standard{max-width:1200px;padding:20px;margin:80px auto}.container-hero{max-width:1200px;padding:20px;margin:40px auto}.container-narrow{max-width:976px;padding:20px;margin:80px auto}p{color:rgba(0,0,0,.72)}a.smaller,p.smaller{font-size:.713em;line-height:1.569em}a.small,p.small{font-size:.813em;line-height:1.769em}a,a.normal,p,p.normal{font-size:1em;line-height:1.688em}a.big,p.big{font-size:1.25em;line-height:1.65em}.gray,p.gray{color:#545454}.green,p.green{color:#39ac37}.red,p.red{color:#dc0016}a,p>a{color:#333;text-decoration:underline;font-weight:400;transition:.3s}a:hover,p>a:hover{text-decoration:none}a.white,p>a.white{color:#fff;text-decoration:underline}a.white:hover,p>a.white:hover{text-decoration:none}.button,button{font-family:\"Open sans\",sans-serif;cursor:pointer;transition:.3s;font-size:1em;line-height:1.688em;text-align:center;display:inline-block}.button.cta,button.cta{background:#39ac37;border:1px solid #39ac37;color:#fff;border-radius:2px;padding:10px 30px;font-weight:600;outline:none;text-decoration:none}.button.cta.white,button.cta.white{background:#fff;color:#000}.button.cta.black,.button.cta.white,button.cta.black,button.cta.white{border:1px solid #000;border-radius:2px;padding:10px 30px;font-weight:600;outline:none;text-decoration:none}.button.cta.black,button.cta.black{background:#000;color:#fff}.button.cta.red,button.cta.red{background:#fff;border:1px solid rgba(215,58,74,.48627);color:rgba(215,58,74,.48627);border-radius:2px;padding:10px 30px;font-weight:600;outline:none;text-decoration:none}.button.cta:hover,button.cta:hover{background:#000;border:1px solid #000}.button.cta.white:hover,button.cta.white:hover{background:#000;border:1px solid #000;color:#fff}.button.cta.black:hover,button.cta.black:hover{background:#333;border:1px solid #333;color:#fff}.button.cta.red:hover,button.cta.red:hover{background:#d73a4a;border:1px solid rgba(215,58,74,.48627);color:#fff}.button.small,button.small{padding:2px 8px!important;font-size:12px!important;font-weight:600!important;text-decoration:none}.button.big,button.big{padding:15px 50px!important;font-size:18px!important;font-weight:600!important;text-decoration:none}input,select{height:45px}.textarea,input,select,textarea{background:#fff;color:#000;border:1px solid #eee;border-left:2px solid #ffd401;border-radius:2px;padding:10px;font-size:1em;line-height:1.688em;font-weight:400;outline:none;display:block;width:100%;max-width:100%;font-family:\"Open sans\",sans-serif;box-sizing:border-box;transition:all .2s cubic-bezier(.165,.84,.44,1)}.textarea,textarea{position:relative;min-height:136.3px;word-wrap:break-word}.textarea.long,textarea.long{min-height:408.9px}input::-moz-placeholder,select::-moz-placeholder,textarea::-moz-placeholder{color:#ccc;font-size:14px;font-weight:400;font-family:\"Open sans\",sans-serif}input:-ms-input-placeholder,select:-ms-input-placeholder,textarea:-ms-input-placeholder{color:#ccc;font-size:14px;font-weight:400;font-family:\"Open sans\",sans-serif}input::placeholder,select::placeholder,textarea::placeholder{color:#ccc;font-size:14px;font-weight:400;font-family:\"Open sans\",sans-serif}input:focus,select:focus,textarea:focus{font-weight:400;font-family:\"Open sans\",sans-serif;background:#fff;color:#000;box-shadow:0 .125rem .125rem rgba(245,239,189,.1);border-left:4px solid #ffd401}label{font-size:12px;line-height:18px;color:#000}img{border-radius:9px;width:auto;max-width:100%}.hr{width:100%;border-bottom:1px solid #f5f5f5}a{cursor:pointer}.table-wrapper{max-width:1160px;min-width:auto;overflow:auto}.table-wrapper>div.table{min-width:1160px}.table{box-shadow:0 0 20px -14px hsla(0,0%,88.6%,.63922);background-color:rgba(249,249,250,0);border-radius:4px;border:1px solid #eaeaea}.table>div.table-head{font-weight:600}.table>div.table-head>div{border-bottom:1px solid #eaeaea;background-color:hsla(0,0%,91.8%,.18824)}.table>div.table-head,.table>div.table-row{display:contents!important}.table>div.table-head>div,.table>div.table-row>div{padding:10px 15px;border-right:1px solid #eaeaea;height:100%;display:grid;align-items:center}.table>div.table-head>div:last-child,.table>div.table-row>div:last-child{border-right:0}.table>div.table-head:hover>div,.table>div.table-row:hover>div{background-color:hsla(0,0%,91.8%,.18824)}@media only screen and (max-width:576px){.table{justify-content:stretch}}@media only screen and (min-width:768px){.table-wrapper{min-width:100%;max-width:100%}.table-wrapper>div.table{min-width:100%}}span.tag{font-size:12px;line-height:18px;font-weight:400;border-radius:2px;padding:4px 8px;margin:2px}span.tag.orange{background-color:rgba(231,136,48,.47451);color:rgba(87,47,11,.75)}span.tag.red{background-color:rgba(231,60,48,.47451);color:rgba(87,20,11,.75)}span.tag.blue{background-color:rgba(48,158,231,.47451);color:rgba(11,53,87,.75)}span.tag.yellow{background-color:#fff4bf;color:#000}span.tag.green{background-color:rgba(48,231,182,.61961);color:#167159}span.tag.gray{background-color:hsla(0,0%,91.8%,.56471);color:#000}span.tag.white{background-color:#fff;color:#000;border:1px solid #e8e8e8}p.success{color:#000;color:#39ac37;padding:6px 15px;border-radius:4px}p.success>a{color:#000;text-decoration:none;font-weight:600}p.error{color:#d73a4a;padding:6px 15px}p.error>a{color:#000;text-decoration:none;font-weight:600}p.note{background-color:#f9f9fa;color:#bbb;padding:6px 15px;border-radius:4px;display:inline-block}p.note>a{color:#30e7b6;text-decoration:none}.box-form{border:1px solid #eaeaea;border-bottom:6px solid #eee;padding:30px;border-radius:4px}.tags>div.tag{margin:3px;border:1px solid #eee;background-color:#fff;padding:10px 15px;color:#000;border-radius:2px;cursor:pointer}.tags>div.tag.active{border:1px solid #ffd401;background-color:#fff4bf;color:#333}.tags>div.tag.active:hover,.tags>div.tag:hover{border:1px solid #000;background-color:#000;color:#fff}", ""]);
+exports.push([module.i, "a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;vertical-align:baseline}div{box-sizing:border-box}#used-layout{background-color:#000;color:#fff;display:none}body{color:#333;font-size:16px;line-height:1.688em;font-weight:400}body,h1,h2,h3,h4,h5,h6{font-family:\"Open sans\",sans-serif}h1,h2,h3,h4,h5,h6{line-height:1.4em}.h1,h1{font-size:2.063em;line-height:1.576em}.h1,.h2,h1,h2{font-weight:700}.h2,h2{font-size:1.625em;line-height:1.615em}.h3,h3{font-size:1.25em;line-height:1.65em}.h3,.h4,h3,h4{font-weight:600}.h4,h4{font-size:1em;line-height:1.688em}.h5,h5{font-size:.813em;font-weight:600;line-height:1.769em}.container-wide{max-width:100%;padding:20px;margin:80px auto}.container-standard{max-width:1200px;padding:20px;margin:80px auto}.container-hero{max-width:1200px;padding:20px;margin:40px auto}.container-narrow{max-width:976px;padding:20px;margin:80px auto}p{color:rgba(0,0,0,.72)}a.smaller,p.smaller{font-size:.713em;line-height:1.569em}a.small,p.small{font-size:.813em;line-height:1.769em}a,a.normal,p,p.normal{font-size:1em;line-height:1.688em}a.big,p.big{font-size:1.25em;line-height:1.65em}.gray,p.gray{color:#545454}.green,p.green{color:#39ac37}.red,p.red{color:#dc0016}a,p>a{color:#333;text-decoration:underline;font-weight:400;transition:.3s}a:hover,p>a:hover{text-decoration:none}a.white,p>a.white{color:#fff;text-decoration:underline}a.white:hover,p>a.white:hover{text-decoration:none}.button,button{font-family:\"Open sans\",sans-serif;cursor:pointer;transition:.3s;font-size:1em;line-height:1.688em;text-align:center;display:inline-block}.button.cta,button.cta{background:#39ac37;border:1px solid #39ac37;color:#fff;border-radius:2px;padding:10px 30px;font-weight:600;outline:none;text-decoration:none}.button.cta.white,button.cta.white{background:#fff;color:#000}.button.cta.black,.button.cta.white,button.cta.black,button.cta.white{border:1px solid #000;border-radius:2px;padding:10px 30px;font-weight:600;outline:none;text-decoration:none}.button.cta.black,button.cta.black{background:#000;color:#fff}.button.cta.red,button.cta.red{background:#fff;border:1px solid rgba(215,58,74,.48627);color:rgba(215,58,74,.48627);border-radius:2px;padding:10px 30px;font-weight:600;outline:none;text-decoration:none}.button.cta:hover,button.cta:hover{background:#000;border:1px solid #000}.button.cta.white:hover,button.cta.white:hover{background:#000;border:1px solid #000;color:#fff}.button.cta.black:hover,button.cta.black:hover{background:#333;border:1px solid #333;color:#fff}.button.cta.red:hover,button.cta.red:hover{background:#d73a4a;border:1px solid rgba(215,58,74,.48627);color:#fff}.button.small,button.small{padding:2px 8px!important;font-size:12px!important;font-weight:600!important;text-decoration:none}.button.big,button.big{padding:15px 50px!important;font-size:18px!important;font-weight:600!important;text-decoration:none}input,select{height:45px}.textarea,input,select,textarea{background:#fff;color:#000;border:1px solid #eee;border-left:2px solid #ffd401;border-radius:2px;padding:10px;font-size:1em;line-height:1.688em;font-weight:400;outline:none;display:block;width:100%;max-width:100%;font-family:\"Open sans\",sans-serif;box-sizing:border-box;transition:all .2s cubic-bezier(.165,.84,.44,1)}.textarea,textarea{position:relative;min-height:136.3px;word-wrap:break-word}.textarea.long,textarea.long{min-height:408.9px}input::-moz-placeholder,select::-moz-placeholder,textarea::-moz-placeholder{color:#ccc;font-size:14px;font-weight:400;font-family:\"Open sans\",sans-serif}input:-ms-input-placeholder,select:-ms-input-placeholder,textarea:-ms-input-placeholder{color:#ccc;font-size:14px;font-weight:400;font-family:\"Open sans\",sans-serif}input::placeholder,select::placeholder,textarea::placeholder{color:#ccc;font-size:14px;font-weight:400;font-family:\"Open sans\",sans-serif}input:focus,select:focus,textarea:focus{font-weight:400;font-family:\"Open sans\",sans-serif;background:#fff;color:#000;box-shadow:0 .125rem .125rem rgba(245,239,189,.1);border-left:4px solid #ffd401}label{font-size:.813em;line-height:1.769em;color:#000}label.normal{font-size:1em;line-height:1.688em;color:#000}img{border-radius:9px;width:auto;max-width:100%}.hr{width:100%;border-bottom:1px solid #f5f5f5}a{cursor:pointer}.table-wrapper{max-width:1160px;min-width:auto;overflow:auto}.table-wrapper>div.table{min-width:1160px}.table{box-shadow:0 0 20px -14px hsla(0,0%,88.6%,.63922);background-color:rgba(249,249,250,0);border-radius:4px;border:1px solid #eaeaea}.table>div.table-head{font-weight:600}.table>div.table-head>div{border-bottom:1px solid #eaeaea;background-color:hsla(0,0%,91.8%,.18824)}.table>div.table-head,.table>div.table-row{display:contents!important}.table>div.table-head>div,.table>div.table-row>div{padding:10px 15px;border-right:1px solid #eaeaea;height:100%;display:grid;align-items:center}.table>div.table-head>div:last-child,.table>div.table-row>div:last-child{border-right:0}.table>div.table-head:hover>div,.table>div.table-row:hover>div{background-color:hsla(0,0%,91.8%,.18824)}@media only screen and (max-width:576px){.table{justify-content:stretch}}@media only screen and (min-width:768px){.table-wrapper{min-width:100%;max-width:100%}.table-wrapper>div.table{min-width:100%}}span.status,span.tag{font-size:12px;line-height:18px;font-weight:400;border-radius:2px;padding:4px 8px;margin:2px;border:1px solid #e8e8e8;display:inline-block;text-align:center}span.status{border:0;border-left:5px solid #e8e8e8;text-align:left;border-radius:0}span.tag.yellow{background-color:#fff4bf;color:#000}span.tag.gray{background-color:hsla(0,0%,91.8%,.56471);color:#000}span.tag.white{background-color:#fff;color:#000}span.status.orange{border-left-color:orange;color:orange}span.status.red{border-left-color:red;color:red}span.status.yellow{border-left-color:gold;color:gold}span.status.green{border-left-color:green;color:green}span.status.gray{border-left-color:grey;color:grey}p.success{color:#000;color:#39ac37;padding:6px 15px;border-radius:4px}p.success>a{color:#000;text-decoration:none;font-weight:600}p.error{color:#d73a4a;padding:6px 15px}p.error>a{color:#000;text-decoration:none;font-weight:600}p.note{background-color:#f9f9fa;color:#bbb;padding:6px 15px;border-radius:4px;display:inline-block}p.note>a{color:#30e7b6;text-decoration:none}.box-form{border:1px solid #eaeaea;border-bottom:6px solid #eee;padding:30px;border-radius:4px}.tags>div.tag{margin:3px;border:1px solid #eee;background-color:#fff;padding:10px 15px;color:#000;border-radius:2px;cursor:pointer}.tags>div.tag.active{border:1px solid #ffd401;background-color:#fff4bf;color:#333}.tags>div.tag.active:hover,.tags>div.tag:hover{border:1px solid #000;background-color:#000;color:#fff}", ""]);
 // Exports
 module.exports = exports;
 
@@ -1824,7 +1824,7 @@ const getters = {
   },
 
   getDataBasket(state) {
-    return state.dataList;
+    return state.dataBasket;
   }
 
 };
@@ -3137,93 +3137,101 @@ if (false) {}
 
 
 
-const _ee460050 = () => interopDefault(__webpack_require__.e(/* import() | pages/200 */ 1).then(__webpack_require__.bind(null, 230)));
+const _ee460050 = () => interopDefault(__webpack_require__.e(/* import() | pages/200 */ 1).then(__webpack_require__.bind(null, 254)));
 
-const _1a588646 = () => interopDefault(__webpack_require__.e(/* import() | pages/403 */ 2).then(__webpack_require__.bind(null, 231)));
+const _1a588646 = () => interopDefault(__webpack_require__.e(/* import() | pages/403 */ 2).then(__webpack_require__.bind(null, 255)));
 
-const _1a3c5744 = () => interopDefault(__webpack_require__.e(/* import() | pages/404 */ 3).then(__webpack_require__.bind(null, 232)));
+const _1a3c5744 = () => interopDefault(__webpack_require__.e(/* import() | pages/404 */ 3).then(__webpack_require__.bind(null, 256)));
 
-const _278fb19b = () => interopDefault(__webpack_require__.e(/* import() | pages/500 */ 4).then(__webpack_require__.bind(null, 233)));
+const _278fb19b = () => interopDefault(__webpack_require__.e(/* import() | pages/500 */ 4).then(__webpack_require__.bind(null, 257)));
 
-const _4bf89126 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/index */ 8).then(__webpack_require__.bind(null, 215)));
+const _4bf89126 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/index */ 8).then(__webpack_require__.bind(null, 239)));
 
-const _811b96cc = () => interopDefault(__webpack_require__.e(/* import() | pages/ako-to-funguje/index */ 24).then(__webpack_require__.bind(null, 216)));
+const _811b96cc = () => interopDefault(__webpack_require__.e(/* import() | pages/ako-to-funguje/index */ 25).then(__webpack_require__.bind(null, 240)));
 
-const _8d0336d4 = () => interopDefault(__webpack_require__.e(/* import() | pages/blog/index */ 25).then(__webpack_require__.bind(null, 217)));
+const _8d0336d4 = () => interopDefault(__webpack_require__.e(/* import() | pages/blog/index */ 26).then(__webpack_require__.bind(null, 241)));
 
-const _0e98a5aa = () => interopDefault(__webpack_require__.e(/* import() | pages/kniznica/index */ 28).then(__webpack_require__.bind(null, 218)));
+const _0e98a5aa = () => interopDefault(__webpack_require__.e(/* import() | pages/kniznica/index */ 29).then(__webpack_require__.bind(null, 242)));
 
-const _3c907c4d = () => interopDefault(__webpack_require__.e(/* import() | pages/nas-pribeh/index */ 29).then(__webpack_require__.bind(null, 219)));
+const _3c907c4d = () => interopDefault(__webpack_require__.e(/* import() | pages/nas-pribeh/index */ 30).then(__webpack_require__.bind(null, 243)));
 
-const _258ba89f = () => interopDefault(__webpack_require__.e(/* import() | pages/newsletter/index */ 30).then(__webpack_require__.bind(null, 220)));
+const _258ba89f = () => interopDefault(__webpack_require__.e(/* import() | pages/newsletter/index */ 31).then(__webpack_require__.bind(null, 244)));
 
-const _f99f9130 = () => interopDefault(__webpack_require__.e(/* import() | pages/odhlasenie/index */ 31).then(__webpack_require__.bind(null, 193)));
+const _f99f9130 = () => interopDefault(__webpack_require__.e(/* import() | pages/odhlasenie/index */ 32).then(__webpack_require__.bind(null, 212)));
 
-const _d179b20c = () => interopDefault(__webpack_require__.e(/* import() | pages/prihlasenie/index */ 33).then(__webpack_require__.bind(null, 194)));
+const _d179b20c = () => interopDefault(__webpack_require__.e(/* import() | pages/prihlasenie/index */ 34).then(__webpack_require__.bind(null, 213)));
 
-const _3f3bbc66 = () => interopDefault(__webpack_require__.e(/* import() | pages/registracia/index */ 35).then(__webpack_require__.bind(null, 195)));
+const _3f3bbc66 = () => interopDefault(__webpack_require__.e(/* import() | pages/registracia/index */ 36).then(__webpack_require__.bind(null, 214)));
 
-const _6ee93fd1 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/categories/index */ 7).then(__webpack_require__.bind(null, 196)));
+const _6ee93fd1 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/categories/index */ 7).then(__webpack_require__.bind(null, 215)));
 
-const _6ff934e8 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/orders/index */ 11).then(__webpack_require__.bind(null, 197)));
+const _6ff934e8 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/orders/index */ 12).then(__webpack_require__.bind(null, 216)));
 
-const _0193909e = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/stock/index */ 14).then(__webpack_require__.bind(null, 198)));
+const _0193909e = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/stock/index */ 15).then(__webpack_require__.bind(null, 217)));
 
-const _7d41fff4 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/tags/index */ 17).then(__webpack_require__.bind(null, 199)));
+const _7d41fff4 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/tags/index */ 18).then(__webpack_require__.bind(null, 218)));
 
-const _796cde1c = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/titles/index */ 20).then(__webpack_require__.bind(null, 200)));
+const _796cde1c = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/titles/index */ 21).then(__webpack_require__.bind(null, 219)));
 
-const _65e19502 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/users/index */ 23).then(__webpack_require__.bind(null, 191)));
+const _65e19502 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/users/index */ 24).then(__webpack_require__.bind(null, 220)));
 
-const _5abc6916 = () => interopDefault(__webpack_require__.e(/* import() | pages/prihlasenie/code */ 32).then(__webpack_require__.bind(null, 201)));
+const _5abc6916 = () => interopDefault(__webpack_require__.e(/* import() | pages/prihlasenie/code */ 33).then(__webpack_require__.bind(null, 221)));
 
-const _606a4eee = () => interopDefault(__webpack_require__.e(/* import() | pages/registracia/code */ 34).then(__webpack_require__.bind(null, 202)));
+const _606a4eee = () => interopDefault(__webpack_require__.e(/* import() | pages/registracia/code */ 35).then(__webpack_require__.bind(null, 222)));
 
-const _e7ce68cc = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/index */ 37).then(__webpack_require__.bind(null, 221)));
+const _e7ce68cc = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/index */ 38).then(__webpack_require__.bind(null, 245)));
 
-const _f6b1e386 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/index */ 41).then(__webpack_require__.bind(null, 222)));
+const _f6b1e386 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/index */ 45).then(__webpack_require__.bind(null, 246)));
 
-const _7cafbaa2 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/categories/add/index */ 5).then(__webpack_require__.bind(null, 203)));
+const _7cafbaa2 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/categories/add/index */ 5).then(__webpack_require__.bind(null, 223)));
 
-const _07905beb = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/orders/add/index */ 9).then(__webpack_require__.bind(null, 204)));
+const _07905beb = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/orders/add/index */ 9).then(__webpack_require__.bind(null, 224)));
 
-const _3722aec2 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/stock/add/index */ 12).then(__webpack_require__.bind(null, 205)));
+const _3722aec2 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/stock/add/index */ 13).then(__webpack_require__.bind(null, 225)));
 
-const _f8eecf42 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/tags/add/index */ 15).then(__webpack_require__.bind(null, 206)));
+const _f8eecf42 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/tags/add/index */ 16).then(__webpack_require__.bind(null, 226)));
 
-const _5529f621 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/titles/add/index */ 18).then(__webpack_require__.bind(null, 207)));
+const _5529f621 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/titles/add/index */ 19).then(__webpack_require__.bind(null, 227)));
 
-const _69e621b4 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/users/add/index */ 21).then(__webpack_require__.bind(null, 208)));
+const _69e621b4 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/users/add/index */ 22).then(__webpack_require__.bind(null, 228)));
 
-const _fb420a40 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/credits/index */ 36).then(__webpack_require__.bind(null, 223)));
+const _fb420a40 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/credits/index */ 37).then(__webpack_require__.bind(null, 247)));
 
-const _23c95417 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/settings/index */ 38).then(__webpack_require__.bind(null, 224)));
+const _23c95417 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/settings/index */ 39).then(__webpack_require__.bind(null, 248)));
 
-const _b96e0392 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/basket/index */ 39).then(__webpack_require__.bind(null, 225)));
+const _b96e0392 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/basket/index */ 42).then(__webpack_require__.bind(null, 249)));
 
-const _62f79d29 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/borrowed/index */ 40).then(__webpack_require__.bind(null, 226)));
+const _62f79d29 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/borrowed/index */ 44).then(__webpack_require__.bind(null, 250)));
 
-const _36df4db3 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/rated/index */ 42).then(__webpack_require__.bind(null, 227)));
+const _36df4db3 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/rated/index */ 46).then(__webpack_require__.bind(null, 251)));
 
-const _d03e1a56 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/reserved/index */ 43).then(__webpack_require__.bind(null, 228)));
+const _d03e1a56 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/reserved/index */ 47).then(__webpack_require__.bind(null, 252)));
 
-const _460ef418 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/wishlist/index */ 44).then(__webpack_require__.bind(null, 229)));
+const _460ef418 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/wishlist/index */ 48).then(__webpack_require__.bind(null, 253)));
 
-const _08eefe8c = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/categories/detail/_id/index */ 6).then(__webpack_require__.bind(null, 209)));
+const _0f2b5436 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/basket/confirm */ 40).then(__webpack_require__.bind(null, 229)));
 
-const _10886dfa = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/orders/detail/_id/index */ 10).then(__webpack_require__.bind(null, 210)));
+const _79b7acc2 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/basket/delivery */ 41).then(__webpack_require__.bind(null, 230)));
 
-const _3355564c = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/stock/detail/_id/index */ 13).then(__webpack_require__.bind(null, 211)));
+const _cf6b54b0 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/basket/success */ 43).then(__webpack_require__.bind(null, 231)));
 
-const _34ba5177 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/tags/detail/_id/index */ 16).then(__webpack_require__.bind(null, 212)));
+const _08eefe8c = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/categories/detail/_id/index */ 6).then(__webpack_require__.bind(null, 232)));
 
-const _0d8acd39 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/titles/detail/_id/index */ 19).then(__webpack_require__.bind(null, 213)));
+const _10886dfa = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/orders/detail/_id/index */ 11).then(__webpack_require__.bind(null, 233)));
 
-const _4837b5cc = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/users/detail/_id/index */ 22).then(__webpack_require__.bind(null, 214)));
+const _3355564c = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/stock/detail/_id/index */ 14).then(__webpack_require__.bind(null, 234)));
 
-const _9be1bd8a = () => interopDefault(__webpack_require__.e(/* import() | pages/kniznica/_id/_name/index */ 27).then(__webpack_require__.bind(null, 190)));
+const _34ba5177 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/tags/detail/_id/index */ 17).then(__webpack_require__.bind(null, 235)));
 
-const _35182910 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 26).then(__webpack_require__.bind(null, 192))); // TODO: remove in Nuxt 3
+const _0d8acd39 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/titles/detail/_id/index */ 20).then(__webpack_require__.bind(null, 236)));
+
+const _4837b5cc = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/users/detail/_id/index */ 23).then(__webpack_require__.bind(null, 237)));
+
+const _5031ade9 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/orders/detail/_id/edit */ 10).then(__webpack_require__.bind(null, 238)));
+
+const _9be1bd8a = () => interopDefault(__webpack_require__.e(/* import() | pages/kniznica/_id/_name/index */ 28).then(__webpack_require__.bind(null, 210)));
+
+const _35182910 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 27).then(__webpack_require__.bind(null, 211))); // TODO: remove in Nuxt 3
 
 
 const emptyFn = () => {};
@@ -3386,6 +3394,18 @@ const routerOptions = {
     component: _460ef418,
     name: "user-books-wishlist"
   }, {
+    path: "/user/books/basket/confirm",
+    component: _0f2b5436,
+    name: "user-books-basket-confirm"
+  }, {
+    path: "/user/books/basket/delivery",
+    component: _79b7acc2,
+    name: "user-books-basket-delivery"
+  }, {
+    path: "/user/books/basket/success",
+    component: _cf6b54b0,
+    name: "user-books-basket-success"
+  }, {
     path: "/admin/categories/detail/:id",
     component: _08eefe8c,
     name: "admin-categories-detail-id"
@@ -3409,6 +3429,10 @@ const routerOptions = {
     path: "/admin/users/detail/:id",
     component: _4837b5cc,
     name: "admin-users-detail-id"
+  }, {
+    path: "/admin/orders/detail/:id?/edit",
+    component: _5031ade9,
+    name: "admin-orders-detail-id-edit"
   }, {
     path: "/kniznica/:id/:name",
     component: _9be1bd8a,

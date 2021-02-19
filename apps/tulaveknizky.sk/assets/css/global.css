@@ -307,7 +307,8 @@ input:focus, textarea:focus, select:focus {
 
 
 /* form labels */
-label {font-size: 12px; line-height: 18px; color: #000;}
+label {font-size: 0.813em; line-height: 1.769em; color: #000;}
+label.normal {font-size: 1em; line-height: 1.688em; color: #000;}
 
 /* Images */
 img {
@@ -399,33 +400,28 @@ a {
 /* Tables */
 
 /* tags */
-span.tag {
+span.tag,
+span.status {
     font-size: 12px;
     line-height: 18px;
     font-weight: 400;
     border-radius: 2px;
     padding: 4px 8px;
     margin: 2px;
+    border: 1px solid #e8e8e8;
+    display: inline-block;
+    text-align: center;
 }
-span.tag.orange {
-    background-color: #E7883079;
-    color: rgba(87, 47, 11, 0.75);
+span.status {
+    border: 0px;
+    border-left: 5px solid #e8e8e8;
+    text-align: left;
+    border-radius: 0px;
 }
-span.tag.red {
-    background-color: #e73c3079;
-    color: rgba(87, 20, 11, 0.75);
-}
-span.tag.blue {
-    background-color: #309ee779;
-    color: rgba(11, 53, 87, 0.75);
-}
+
 span.tag.yellow {
     background-color: #fff4bf;
     color: #000;
-}
-span.tag.green {
-    background-color: #30e7b69e;
-    color: #167159;
 }
 span.tag.gray {
     background-color: #eaeaea90;
@@ -434,7 +430,29 @@ span.tag.gray {
 span.tag.white {
     background-color: #fff;
     color: #000;
-    border: 1px solid #e8e8e8;
+}
+
+span.status.orange {
+    border-left-color: orange;
+    color: orange;
+    /* border: 1px solid #ffc56e; */
+}
+span.status.red {
+    border-left-color: red;
+    color: red;
+    /* border: 1px solid #fda8a896; */
+}
+span.status.yellow {
+    border-left-color: gold;
+    color: gold;
+}
+span.status.green {
+    border-left-color: green;
+    color: green;
+}
+span.status.gray {
+    border-left-color: gray;
+    color: gray;
 }
 
 /* info */

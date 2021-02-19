@@ -34,7 +34,7 @@
 
                     <div class='box grid col-2'>
                         <div class='justify-self-start'><nuxt-link to='/kniznica' class='button cta white'>Späť do knižnice</nuxt-link></div>
-                        <div class='justify-self-end'><nuxt-link to='/user/books/basket/address' class='button cta black'>Pokračovať na spôsob doručenia</nuxt-link></div>
+                        <div class='justify-self-end'><nuxt-link to='/user/books/basket/delivery' class='button cta black'>Pokračovať na spôsob doručenia</nuxt-link></div>
                     </div>
                 </div>
             </div>

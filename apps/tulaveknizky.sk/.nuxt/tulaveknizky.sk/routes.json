@@ -252,6 +252,27 @@
     "_name": "_460ef418"
   },
   {
+    "name": "user-books-basket-confirm",
+    "path": "/user/books/basket/confirm",
+    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\user\\\\books\\\\basket\\\\confirm.vue",
+    "chunkName": "pages/user/books/basket/confirm",
+    "_name": "_0f2b5436"
+  },
+  {
+    "name": "user-books-basket-delivery",
+    "path": "/user/books/basket/delivery",
+    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\user\\\\books\\\\basket\\\\delivery.vue",
+    "chunkName": "pages/user/books/basket/delivery",
+    "_name": "_79b7acc2"
+  },
+  {
+    "name": "user-books-basket-success",
+    "path": "/user/books/basket/success",
+    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\user\\\\books\\\\basket\\\\success.vue",
+    "chunkName": "pages/user/books/basket/success",
+    "_name": "_cf6b54b0"
+  },
+  {
     "name": "admin-categories-detail-id",
     "path": "/admin/categories/detail/:id",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\admin\\\\categories\\\\detail\\\\_id\\\\index.vue",
@@ -292,6 +313,13 @@
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\admin\\\\users\\\\detail\\\\_id\\\\index.vue",
     "chunkName": "pages/admin/users/detail/_id/index",
     "_name": "_4837b5cc"
+  },
+  {
+    "name": "admin-orders-detail-id-edit",
+    "path": "/admin/orders/detail/:id?/edit",
+    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\admin\\\\orders\\\\detail\\\\_id\\\\edit.vue",
+    "chunkName": "pages/admin/orders/detail/_id/edit",
+    "_name": "_5031ade9"
   },
   {
     "name": "kniznica-id-name",
