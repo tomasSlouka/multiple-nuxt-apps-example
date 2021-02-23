@@ -578,7 +578,7 @@ if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
 var add = __webpack_require__(3).default
 module.exports.__inject__ = function (context) {
-  add("7cc0543a", content, true, context)
+  add("7d951e42", content, true, context)
 };
 
 /***/ }),
@@ -1009,9 +1009,9 @@ module.exports = exports;
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Sidebar_vue_vue_type_style_index_0_id_4623e8d3_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(16);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Sidebar_vue_vue_type_style_index_0_id_4623e8d3_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Sidebar_vue_vue_type_style_index_0_id_4623e8d3_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Sidebar_vue_vue_type_style_index_0_id_4623e8d3_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Sidebar_vue_vue_type_style_index_0_id_4623e8d3_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Sidebar_vue_vue_type_style_index_0_id_365cf1f3_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(16);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Sidebar_vue_vue_type_style_index_0_id_365cf1f3_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Sidebar_vue_vue_type_style_index_0_id_365cf1f3_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Sidebar_vue_vue_type_style_index_0_id_365cf1f3_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Sidebar_vue_vue_type_style_index_0_id_365cf1f3_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
@@ -1022,7 +1022,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(2);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".sidenav-backdrop[data-v-4623e8d3],.sidenav-container[data-v-4623e8d3]{height:100%;width:100%}.sidenav-backdrop[data-v-4623e8d3]{background-color:hsla(0,0%,90.6%,.7);z-index:1000;position:fixed;top:0;left:0}.sidenav>ul[data-v-4623e8d3]{list-style:none;margin:0;padding:0}.sidenav>ul>li>a[data-v-4623e8d3]{color:#000;font-size:16px;line-height:23px;font-weight:500;text-decoration:none;transition:.3s}.sidenav[data-v-4623e8d3]{height:100%;width:300px;background-color:#fff;z-index:10000;position:fixed;top:0;right:0;box-sizing:border-box;padding:30px}.slide-side-enter-active[data-v-4623e8d3],.slide-side-leave-active[data-v-4623e8d3]{transition:all .3s ease-out}.slide-side-enter[data-v-4623e8d3],.slide-side-leave-to[data-v-4623e8d3]{transform:translateX(100%)}.logo-text[data-v-4623e8d3]{max-height:45px}.logo-icon[data-v-4623e8d3],.logo-text[data-v-4623e8d3]{border:0;border-radius:0}.logo-icon[data-v-4623e8d3]{max-height:35px}.logo a[data-v-4623e8d3]{text-decoration:none}", ""]);
+exports.push([module.i, ".sidenav-backdrop[data-v-365cf1f3],.sidenav-container[data-v-365cf1f3]{height:100%;width:100%}.sidenav-backdrop[data-v-365cf1f3]{background-color:hsla(0,0%,90.6%,.7);z-index:1000;position:fixed;top:0;left:0}.sidenav>ul[data-v-365cf1f3]{list-style:none;margin:0;padding:0}.sidenav>ul>li>a[data-v-365cf1f3]{color:#000;font-size:16px;line-height:23px;font-weight:500;text-decoration:none;transition:.3s}.sidenav[data-v-365cf1f3]{height:100%;width:300px;background-color:#fff;z-index:10000;position:fixed;top:0;right:0;box-sizing:border-box;padding:30px}.slide-side-enter-active[data-v-365cf1f3],.slide-side-leave-active[data-v-365cf1f3]{transition:all .3s ease-out}.slide-side-enter[data-v-365cf1f3],.slide-side-leave-to[data-v-365cf1f3]{transform:translateX(100%)}.logo-text[data-v-365cf1f3]{max-height:45px}.logo-icon[data-v-365cf1f3],.logo-text[data-v-365cf1f3]{border:0;border-radius:0}.logo-icon[data-v-365cf1f3]{max-height:35px}.logo a[data-v-365cf1f3]{text-decoration:none}", ""]);
 // Exports
 module.exports = exports;
 
@@ -4098,14 +4098,19 @@ var Topbar_component = Object(componentNormalizer["a" /* default */])(
 )
 
 /* harmony default export */ var Topbar = (Topbar_component.exports);
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/page/_common/Sidebar.vue?vue&type=template&id=4623e8d3&scoped=true&
-var Sidebarvue_type_template_id_4623e8d3_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"sidenav-container"},[_vm._ssrNode("<div class=\"sidenav-backdrop\""+(_vm._ssrStyle(null,null, { display: (_vm.show) ? '' : 'none' }))+" data-v-4623e8d3></div> "),_c('transition',{attrs:{"name":"slide-side"}},[_c('div',{directives:[{name:"show",rawName:"v-show",value:(_vm.show),expression:"show"}],staticClass:"sidenav grid gap-20 align-content-start"},[_c('div',{staticClass:"logo justify-self-start"},[_c('nuxt-link',{staticClass:"grid gap-10 col-2 auto align-items-center",attrs:{"to":"/"}},[_c('img',{staticClass:"logo-icon",attrs:{"src":__webpack_require__(10),"alt":""}}),_vm._v(" "),_c('img',{staticClass:"logo-text",attrs:{"src":__webpack_require__(14),"alt":""}})])],1),_vm._v(" "),_c('div',{staticClass:"hr"}),_vm._v(" "),(_vm.$store.getters['auth/isUserLoggedIn'])?_c('ul',{staticClass:"grid col-1 gap-20"},[(_vm.showLevel)?_c('li',{on:{"click":function($event){return _vm.changeLinkLevel(null)}}},[_vm._v("Späť")]):_vm._e(),_vm._v(" "),(_vm.showLevel)?_c('div',{staticClass:"hr"}):_vm._e(),_vm._v(" "),(_vm.showLevel === null)?_c('li',{on:{"click":function($event){return _vm.changeLinkLevel("knihy")}}},[_vm._v("Knižnica")]):_vm._e(),_vm._v(" "),(_vm.showLevel === 'knihy')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{attrs:{"to":"/kniznica"}},[_vm._v("Všetky knižky")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === null && _vm.$store.state.auth.userData.level == 104)?_c('li',{on:{"click":function($event){return _vm.changeLinkLevel("admin")}}},[_vm._v("Administrácia")]):_vm._e(),_vm._v(" "),(_vm.showLevel === 'admin')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/admin/orders"}},[_vm._v("Objednávky")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'admin')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/admin/categories"}},[_vm._v("Kategórie")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'admin')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/admin/tags"}},[_vm._v("Značky")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'admin')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/admin/titles"}},[_vm._v("Knižné tituly")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'admin')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/admin/stock"}},[_vm._v("Sklad")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'admin')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/admin/users"}},[_vm._v("Používatelia")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === null)?_c('li',{on:{"click":function($event){return _vm.changeLinkLevel("mojeknizky")}}},[_vm._v("Moje knižky")]):_vm._e(),_vm._v(" "),(_vm.showLevel === 'mojeknizky')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/user/books/basket"}},[_vm._v("Batôžtek (košík)")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'mojeknizky')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/user/books/borrowed"}},[_vm._v("Požičané knižky")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'mojeknizky')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/user/books/rated"}},[_vm._v("Hodnotené knižky")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'mojeknizky')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/user/books/wishlist"}},[_vm._v("Wishlist")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === null)?_c('li',{on:{"click":function($event){return _vm.changeLinkLevel("mojucet")}}},[_vm._v("Môj účet")]):_vm._e(),_vm._v(" "),(_vm.showLevel === 'mojucet')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/user/account/settings"}},[_vm._v("Nastavenia")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'mojucet')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/user/account/credits"}},[_vm._v("Kredity")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === null)?_c('li',{on:{"click":function($event){return _vm.changeLinkLevel("viac")}}},[_vm._v("...viac")]):_vm._e(),_vm._v(" "),(_vm.showLevel === 'viac')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/ako-to-funguje"}},[_vm._v("Ako to funguje?")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'viac')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/nas-pribeh"}},[_vm._v("Náš príbeh")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'viac')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/blog"}},[_vm._v("Náš blog")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'viac')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/newsletter"}},[_vm._v("Novinky emailom")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === null)?_c('div',{staticClass:"hr"}):_vm._e(),_vm._v(" "),(_vm.showLevel === null)?_c('li',[_c('a',{on:{"click":function($event){$event.preventDefault();return _vm.logout()}}},[_vm._v("Odhlásiť sa")])]):_vm._e()]):_c('ul',{staticClass:"grid col-1 gap-20"},[_c('li',[_c('nuxt-link',{attrs:{"to":"/kniznica"}},[_vm._v("Knižnica")])],1),_vm._v(" "),_c('div',{staticClass:"hr"}),_vm._v(" "),_c('li',[_c('nuxt-link',{attrs:{"to":"/prihlasenie"}},[_vm._v("Prihlásenie")])],1),_vm._v(" "),_c('li',[_c('nuxt-link',{attrs:{"to":"/registracia"}},[_vm._v("Registrácia")])],1)]),_vm._v(" "),_c('div',{staticClass:"hr"}),_vm._v(" "),_c('p',{staticClass:"small"},[_vm._v("© "+_vm._s(new Date().getFullYear())+" tulaveknizky.sk")])])])],2)}
-var Sidebarvue_type_template_id_4623e8d3_scoped_true_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/page/_common/Sidebar.vue?vue&type=template&id=365cf1f3&scoped=true&
+var Sidebarvue_type_template_id_365cf1f3_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"sidenav-container"},[_vm._ssrNode("<div class=\"sidenav-backdrop\""+(_vm._ssrStyle(null,null, { display: (_vm.show) ? '' : 'none' }))+" data-v-365cf1f3></div> "),_c('transition',{attrs:{"name":"slide-side"}},[_c('div',{directives:[{name:"show",rawName:"v-show",value:(_vm.show),expression:"show"}],staticClass:"sidenav grid gap-20 align-content-start"},[_c('div',{staticClass:"logo justify-self-start"},[_c('nuxt-link',{staticClass:"grid gap-10 col-2 auto align-items-center",attrs:{"to":"/"}},[_c('img',{staticClass:"logo-icon",attrs:{"src":__webpack_require__(10),"alt":""}}),_vm._v(" "),_c('img',{staticClass:"logo-text",attrs:{"src":__webpack_require__(14),"alt":""}})])],1),_vm._v(" "),_c('div',{staticClass:"hr"}),_vm._v(" "),(_vm.$store.getters['auth/isUserLoggedIn'])?_c('ul',{staticClass:"grid col-1 gap-20"},[(_vm.showLevel)?_c('li',{on:{"click":function($event){return _vm.changeLinkLevel(null)}}},[_vm._v("Späť")]):_vm._e(),_vm._v(" "),(_vm.showLevel)?_c('div',{staticClass:"hr"}):_vm._e(),_vm._v(" "),(_vm.showLevel === null)?_c('li',{on:{"click":function($event){return _vm.changeLinkLevel("knihy")}}},[_vm._v("Knižnica")]):_vm._e(),_vm._v(" "),(_vm.showLevel === 'knihy')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{attrs:{"to":"/kniznica"}},[_vm._v("Všetky knižky")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === null && _vm.$store.state.auth.userData.level == 104)?_c('li',{on:{"click":function($event){return _vm.changeLinkLevel("admin")}}},[_vm._v("Administrácia")]):_vm._e(),_vm._v(" "),(_vm.showLevel === 'admin')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/admin/orders"}},[_vm._v("Objednávky")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'admin')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/admin/categories"}},[_vm._v("Kategórie")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'admin')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/admin/tags"}},[_vm._v("Značky")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'admin')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/admin/titles"}},[_vm._v("Knižné tituly")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'admin')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/admin/stock"}},[_vm._v("Sklad")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'admin')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/admin/users"}},[_vm._v("Používatelia")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === null)?_c('li',{on:{"click":function($event){return _vm.changeLinkLevel("mojeknizky")}}},[_vm._v("Moje knižky")]):_vm._e(),_vm._v(" "),(_vm.showLevel === 'mojeknizky')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/user/books/basket"}},[_vm._v("Batôžtek (košík)")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'mojeknizky')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/user/books/borrowed"}},[_vm._v("Požičané knižky")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'mojeknizky')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/user/books/rated"}},[_vm._v("Hodnotené knižky")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'mojeknizky')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/user/books/wishlist"}},[_vm._v("Wishlist")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === null)?_c('li',{on:{"click":function($event){return _vm.changeLinkLevel("mojucet")}}},[_vm._v("Môj účet")]):_vm._e(),_vm._v(" "),(_vm.showLevel === 'mojucet')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/user/account/settings"}},[_vm._v("Nastavenia")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'mojucet')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/user/account/credits"}},[_vm._v("Kredity")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === null)?_c('li',{on:{"click":function($event){return _vm.changeLinkLevel("viac")}}},[_vm._v("...viac")]):_vm._e(),_vm._v(" "),(_vm.showLevel === 'viac')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/ako-to-funguje"}},[_vm._v("Ako to funguje?")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'viac')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/nas-pribeh"}},[_vm._v("Náš príbeh")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'viac')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/blog"}},[_vm._v("Náš blog")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'viac')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/newsletter"}},[_vm._v("Novinky emailom")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === null)?_c('div',{staticClass:"hr"}):_vm._e(),_vm._v(" "),(_vm.showLevel === null)?_c('li',[_c('a',{on:{"click":function($event){$event.preventDefault();return _vm.logout()}}},[_vm._v("Odhlásiť sa")])]):_vm._e()]):_c('ul',{staticClass:"grid col-1 gap-20"},[_c('li',[_c('nuxt-link',{attrs:{"to":"/kniznica"},on:{"click":function($event){return _vm.$emit('close')}}},[_vm._v("Knižnica")])],1),_vm._v(" "),_c('div',{staticClass:"hr"}),_vm._v(" "),_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/ako-to-funguje"}},[_vm._v("Ako to funguje?")])],1),_vm._v(" "),_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/nas-pribeh"}},[_vm._v("Náš príbeh")])],1),_vm._v(" "),_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/blog"}},[_vm._v("Náš blog")])],1),_vm._v(" "),_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/newsletter"}},[_vm._v("Novinky emailom")])],1),_vm._v(" "),_c('div',{staticClass:"hr"}),_vm._v(" "),_c('li',[_c('nuxt-link',{attrs:{"to":"/prihlasenie"}},[_vm._v("Prihlásenie")])],1),_vm._v(" "),_c('li',[_c('nuxt-link',{attrs:{"to":"/registracia"}},[_vm._v("Registrácia")])],1)]),_vm._v(" "),_c('div',{staticClass:"hr"}),_vm._v(" "),_c('p',{staticClass:"small"},[_vm._v("© "+_vm._s(new Date().getFullYear())+" tulaveknizky.sk")])])])],2)}
+var Sidebarvue_type_template_id_365cf1f3_scoped_true_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/page/_common/Sidebar.vue?vue&type=template&id=4623e8d3&scoped=true&
+// CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/page/_common/Sidebar.vue?vue&type=template&id=365cf1f3&scoped=true&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/page/_common/Sidebar.vue?vue&type=script&lang=js&
+//
+//
+//
+//
+//
 //
 //
 //
@@ -4249,11 +4254,11 @@ if (style0.__inject__) style0.__inject__(context)
 
 var Sidebar_component = Object(componentNormalizer["a" /* default */])(
   _common_Sidebarvue_type_script_lang_js_,
-  Sidebarvue_type_template_id_4623e8d3_scoped_true_render,
-  Sidebarvue_type_template_id_4623e8d3_scoped_true_staticRenderFns,
+  Sidebarvue_type_template_id_365cf1f3_scoped_true_render,
+  Sidebarvue_type_template_id_365cf1f3_scoped_true_staticRenderFns,
   false,
   Sidebar_injectStyles,
-  "4623e8d3",
+  "365cf1f3",
   "24b4eef6"
   
 )
@@ -5304,11 +5309,11 @@ async function createApp(ssrContext, config = {}) {
       }, {
         "hid": "title",
         "name": "title",
-        "content": "How to Newsletter | Actionable tips for your newsletter."
+        "content": "Túlavé knižky | Online požičovňa kníh."
       }, {
         "hid": "description",
         "name": "description",
-        "content": "Learn how to create, manage and grow your newsletter ffrom other newsletter creators Learn tabout ools they use and how to use them—all in one place."
+        "content": "Požičaj si najnovšie knižné tituly, bez navštevy knižnice."
       }, {
         "hid": "og-type",
         "property": "og:type",
@@ -5320,11 +5325,11 @@ async function createApp(ssrContext, config = {}) {
       }, {
         "hid": "og-title",
         "property": "og:title",
-        "content": "How to Newsletter | Actionable tips for your newsletter."
+        "content": "Túlavé knižky | Online požičovňa kníh."
       }, {
         "hid": "og-description",
         "property": "og:description",
-        "content": "Learn how to create, manage and grow your newsletter from other newsletter creators. Learn about tools they use and how to use them—all in one place."
+        "content": "Požičaj si najnovšie knižné tituly, bez navštevy knižnice."
       }, {
         "hid": "og-image",
         "property": "og:image",
@@ -5352,11 +5357,11 @@ async function createApp(ssrContext, config = {}) {
       }, {
         "hid": "twitter-title",
         "property": "twitter:title",
-        "content": "How to Newsletter | Actionable tips for your newsletter."
+        "content": "Túlavé knižky | Online požičovňa kníh."
       }, {
         "hid": "twitter-description",
         "property": "twitter:description",
-        "content": "Learn how to sueate a, nage n and grow yourewsletters rom other newsletter creators. Learn about tools they use and how to use them—all in one place."
+        "content": "Požičaj si najnovšie knižné tituly, bez navštevy knižnice."
       }, {
         "hid": "twitter-image",
         "property": "twitter:image",
@@ -5364,58 +5369,97 @@ async function createApp(ssrContext, config = {}) {
       }, {
         "hid": "apple-mobile-web-app-title",
         "name": "apple-mobile-web-app-title",
-        "content": "How to Newsletter"
+        "content": "Túlavé knižky | Online požičovňa kníh."
       }, {
         "hid": "application-name",
         "name": "application-name",
-        "content": "How to Newsletter"
+        "content": "Túlavé knižky | Online požičovňa kníh."
       }, {
         "hid": "msapplication-TileColor",
         "name": "msapplication-TileColor",
-        "content": "#00a300"
+        "content": "#ffffff"
+      }, {
+        "hid": "msapplication-TileImage",
+        "name": "msapplication-TileImage",
+        "content": "\u002F_static\u002Ftulaveknizky\u002Fms-icon-144x144.png"
       }, {
         "hid": "theme-color",
         "name": "theme-color",
         "content": "#ffffff"
       }],
       "link": [{
-        "hid": "apple-touch-icon",
+        "hid": "apple-touch-icon-57x57",
+        "rel": "apple-touch-icon",
+        "sizes": "57x57",
+        "href": "\u002F_static\u002Ftulaveknizky\u002Fapple-icon-57x57.png"
+      }, {
+        "hid": "apple-touch-icon-60x60",
+        "rel": "apple-touch-icon",
+        "sizes": "60x60",
+        "href": "\u002F_static\u002Ftulaveknizky\u002Fapple-icon-60x60.png"
+      }, {
+        "hid": "apple-touch-icon-72x72",
+        "rel": "apple-touch-icon",
+        "sizes": "72x72",
+        "href": "\u002F_static\u002Ftulaveknizky\u002Fapple-icon-72x72.png"
+      }, {
+        "hid": "apple-touch-icon-76x76",
+        "rel": "apple-touch-icon",
+        "sizes": "76x76",
+        "href": "\u002F_static\u002Ftulaveknizky\u002Fapple-icon-76x76.png"
+      }, {
+        "hid": "apple-touch-icon-114x114",
+        "rel": "apple-touch-icon",
+        "sizes": "114x114",
+        "href": "\u002F_static\u002Ftulaveknizky\u002Fapple-icon-114x114.png"
+      }, {
+        "hid": "apple-touch-icon-120x120",
+        "rel": "apple-touch-icon",
+        "sizes": "120x120",
+        "href": "\u002F_static\u002Ftulaveknizky\u002Fapple-icon-120x120.png"
+      }, {
+        "hid": "apple-touch-icon-144x144",
+        "rel": "apple-touch-icon",
+        "sizes": "144x144",
+        "href": "\u002F_static\u002Ftulaveknizky\u002Fapple-icon-144x144.png"
+      }, {
+        "hid": "apple-touch-icon-152x152",
+        "rel": "apple-touch-icon",
+        "sizes": "152x152",
+        "href": "\u002F_static\u002Ftulaveknizky\u002Fapple-icon-152x152.png"
+      }, {
+        "hid": "apple-touch-icon-180x180",
         "rel": "apple-touch-icon",
         "sizes": "180x180",
         "href": "\u002F_static\u002Ftulaveknizky\u002Fapple-icon-180x180.png"
       }, {
-        "hid": "android-chrome-192x192",
+        "hid": "icon-192x192",
         "rel": "icon",
         "type": "image\u002Fpng",
         "sizes": "192x192",
         "href": "\u002F_static\u002Ftulaveknizky\u002Fandroid-icon-192x192.png"
       }, {
-        "hid": "favicon-16x16",
-        "rel": "icon",
-        "type": "image\u002Fpng",
-        "sizes": "16x16",
-        "href": "\u002F_static\u002Ftulaveknizky\u002Ffavicon-16x16.png"
-      }, {
-        "hid": "favicon-32x32",
+        "hid": "icon-32x32",
         "rel": "icon",
         "type": "image\u002Fpng",
         "sizes": "32x32",
         "href": "\u002F_static\u002Ftulaveknizky\u002Ffavicon-32x32.png"
       }, {
-        "hid": "favicon-96x96",
+        "hid": "icon-96x96",
         "rel": "icon",
         "type": "image\u002Fpng",
         "sizes": "96x96",
         "href": "\u002F_static\u002Ftulaveknizky\u002Ffavicon-96x96.png"
       }, {
+        "hid": "icon-16x16",
+        "rel": "icon",
+        "type": "image\u002Fpng",
+        "sizes": "16x16",
+        "href": "\u002F_static\u002Ftulaveknizky\u002Ffavicon-16x16.png"
+      }, {
         "hid": "manifest",
         "rel": "manifest",
-        "href": "\u002F_static\u002Ftulaveknizky\u002Fsite.webmanifest"
-      }, {
-        "hid": "mask-icon",
-        "rel": "mask-icon",
-        "href": "\u002F_static\u002Ftulaveknizky\u002Fsafari-pinned-tab.svg",
-        "color": "#39ac37"
+        "href": "\u002F_static\u002Ftulaveknizky\u002Fmanifest.json"
       }],
       "script": [],
       "style": []

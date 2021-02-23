@@ -28,47 +28,48 @@ export default {
         meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1, shrink-to-fit=no' },
-            { hid: 'title', name: "title", content: "How to Newsletter | Actionable tips for your newsletter." },
-            { hid: 'description', name: "description", content: "Learn how to create, manage and grow your newsletter ffrom other newsletter creators Learn tabout ools they use and how to use them—all in one place." },
+            { hid: 'title', name: "title", content: "Túlavé knižky | Online požičovňa kníh." },
+            { hid: 'description', name: "description", content: "Požičaj si najnovšie knižné tituly, bez navštevy knižnice." },
             { hid: 'og-type', property: "og:type", content: "website" },
             { hid: 'og-url', property: "og:url", content: "https://tulaveknizky.sk/" },
-            { hid: 'og-title', property: "og:title", content: "How to Newsletter | Actionable tips for your newsletter." },
-            { hid: 'og-description', property: "og:description", content: "Learn how to create, manage and grow your newsletter from other newsletter creators. Learn about tools they use and how to use them—all in one place." },
+            { hid: 'og-title', property: "og:title", content: "Túlavé knižky | Online požičovňa kníh." },
+            { hid: 'og-description', property: "og:description", content: "Požičaj si najnovšie knižné tituly, bez navštevy knižnice." },
             { hid: 'og-image', property: "og:image", content: "https://tulaveknizky.sk/_static/tulaveknizky/cover-twitter.png" },
             { hid: 'og-image:type', property: 'og:image:type', content: 'image/png' },
             { hid: 'og-image:width', property: 'og:image:width', content: '1200' },
             { hid: 'og-image:height', property: 'og:image:height', content: '628' },
             { hid: 'twitter-card', property: "twitter:card", content: "summary_large_image" },
             { hid: 'twitter-url', property: "twitter:url", content: "https://tulaveknizky.sk/" },
-            { hid: 'twitter-title', property: "twitter:title", content: "How to Newsletter | Actionable tips for your newsletter." },
-            { hid: 'twitter-description', property: "twitter:description", content: "Learn how to sueate a, nage n and grow yourewsletters rom other newsletter creators. Learn about tools they use and how to use them—all in one place." },
+            { hid: 'twitter-title', property: "twitter:title", content: "Túlavé knižky | Online požičovňa kníh." },
+            { hid: 'twitter-description', property: "twitter:description", content: "Požičaj si najnovšie knižné tituly, bez navštevy knižnice." },
             { hid: 'twitter-image', property: "twitter:image", content: "https://tulaveknizky.sk/_static/tulaveknizky/cover-twitter.png" },
 
-            { hid: 'apple-mobile-web-app-title', name: "apple-mobile-web-app-title", content: "How to Newsletter" },
-            { hid: 'application-name', name: "application-name", content: "How to Newsletter" },
-            { hid: 'msapplication-TileColor', name: "msapplication-TileColor", content: "#00a300" },
+            { hid: 'apple-mobile-web-app-title', name: "apple-mobile-web-app-title", content: "Túlavé knižky | Online požičovňa kníh." },
+            { hid: 'application-name', name: "application-name", content: "Túlavé knižky | Online požičovňa kníh." },
+            
+			{ hid: 'msapplication-TileColor', name: "msapplication-TileColor", content: "#ffffff" },
+			{ hid: 'msapplication-TileImage', name: "msapplication-TileImage", content: "/_static/tulaveknizky/ms-icon-144x144.png" },
             { hid: 'theme-color', name: "theme-color", content: "#ffffff" }
         ],
         link: [
-            { hid: 'apple-touch-icon', rel: "apple-touch-icon", sizes: "180x180", href: "/_static/tulaveknizky/apple-icon-180x180.png" },
-            { hid: 'android-chrome-192x192', rel: 'icon', type: 'image/png', sizes: '192x192', href: '/_static/tulaveknizky/android-icon-192x192.png' },
-            { hid: 'favicon-16x16', rel: "icon", type: "image/png", sizes: "16x16", href: "/_static/tulaveknizky/favicon-16x16.png" },
-            { hid: 'favicon-32x32', rel: "icon", type: "image/png", sizes: "32x32", href: "/_static/tulaveknizky/favicon-32x32.png" },
-            { hid: 'favicon-96x96', rel: "icon", type: "image/png", sizes: "96x96", href: "/_static/tulaveknizky/favicon-96x96.png" },
-            { hid: 'manifest', rel: "manifest", href: "/_static/tulaveknizky/site.webmanifest" },
-            { hid: 'mask-icon', rel: "mask-icon", href: "/_static/tulaveknizky/safari-pinned-tab.svg", color: "#39ac37" }
+			{ hid: 'apple-touch-icon-57x57', rel: "apple-touch-icon", sizes: "57x57", href: "/_static/tulaveknizky/apple-icon-57x57.png" },
+			{ hid: 'apple-touch-icon-60x60', rel: "apple-touch-icon", sizes: "60x60", href: "/_static/tulaveknizky/apple-icon-60x60.png" },
+			{ hid: 'apple-touch-icon-72x72', rel: "apple-touch-icon", sizes: "72x72", href: "/_static/tulaveknizky/apple-icon-72x72.png" },
+			{ hid: 'apple-touch-icon-76x76', rel: "apple-touch-icon", sizes: "76x76", href: "/_static/tulaveknizky/apple-icon-76x76.png" },
+			{ hid: 'apple-touch-icon-114x114', rel: "apple-touch-icon", sizes: "114x114", href: "/_static/tulaveknizky/apple-icon-114x114.png" },
+			{ hid: 'apple-touch-icon-120x120', rel: "apple-touch-icon", sizes: "120x120", href: "/_static/tulaveknizky/apple-icon-120x120.png" },
+			{ hid: 'apple-touch-icon-144x144', rel: "apple-touch-icon", sizes: "144x144", href: "/_static/tulaveknizky/apple-icon-144x144.png" },
+			{ hid: 'apple-touch-icon-152x152', rel: "apple-touch-icon", sizes: "152x152", href: "/_static/tulaveknizky/apple-icon-152x152.png" },
+			{ hid: 'apple-touch-icon-180x180', rel: "apple-touch-icon", sizes: "180x180", href: "/_static/tulaveknizky/apple-icon-180x180.png" },
+			{ hid: 'icon-192x192', rel: "icon", type: "image/png", sizes: "192x192" , href: "/_static/tulaveknizky/android-icon-192x192.png" },
+			{ hid: 'icon-32x32', rel: "icon", type: "image/png", sizes: "32x32", href: "/_static/tulaveknizky/favicon-32x32.png" },
+			{ hid: 'icon-96x96', rel: "icon", type: "image/png", sizes: "96x96", href: "/_static/tulaveknizky/favicon-96x96.png" },
+			{ hid: 'icon-16x16', rel: "icon", type: "image/png", sizes: "16x16", href: "/_static/tulaveknizky/favicon-16x16.png" },
+			{ hid: 'manifest', rel: "manifest", href: "/_static/tulaveknizky/manifest.json" },
         ],
         script: [
             // { src: 'https://unpkg.com/ionicons@5.0.0/dist/ionicons.js' }
 		],
-		
-		// <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-		// <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-		// <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-		// <link rel="manifest" href="/site.webmanifest">
-		// <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#999999">
-		// <meta name="msapplication-TileColor" content="#000000">
-		// <meta name="theme-color" content="#ffffff"></meta>
     },
 	/*
 	** Global CSS

@@ -73,7 +73,7 @@
                     <div class='grid gap-10 align-content-start'>
                         <h3>Vráť knižky späť</h3>
                         <div class='grid gap-5'>
-                            <p>Po uplynutí vypožičnej doby nám jednoducho a zadarmo pošleš knižky späť pomocou služby Zásielkovňa alebo Slovenskou poštou.</p>
+                            <p>Po uplynutí výpožičnej doby nám jednoducho a zadarmo pošleš knižky späť pomocou služby Zásielkovňa alebo Slovenskou poštou.</p>
                             <p>Ak knižky nevrátiš včas, za každý deň omeškania ti odpočítame 0.2 kreditu.</p>
                         </div>
                     </div>
