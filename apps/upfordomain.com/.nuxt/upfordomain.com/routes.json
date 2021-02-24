@@ -3,126 +3,108 @@
     "name": "blog",
     "path": "/blog",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\upfordomain.com\\\\pages\\\\blog\\\\index.vue",
-    "chunkName": "pages/blog/index",
-    "_name": "_32ccfc7c"
+    "chunkName": "pages/blog/index"
   },
   {
     "name": "faq",
     "path": "/faq",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\upfordomain.com\\\\pages\\\\faq\\\\index.vue",
-    "chunkName": "pages/faq/index",
-    "_name": "_f7e355c0"
+    "chunkName": "pages/faq/index"
   },
   {
     "name": "log-in",
     "path": "/log-in",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\upfordomain.com\\\\pages\\\\log-in\\\\index.vue",
-    "chunkName": "pages/log-in/index",
-    "_name": "_3635df50"
+    "chunkName": "pages/log-in/index"
   },
   {
     "name": "log-out",
     "path": "/log-out",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\upfordomain.com\\\\pages\\\\log-out\\\\index.vue",
-    "chunkName": "pages/log-out/index",
-    "_name": "_eb5fdcde"
+    "chunkName": "pages/log-out/index"
   },
   {
     "name": "sign-up",
     "path": "/sign-up",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\upfordomain.com\\\\pages\\\\sign-up\\\\index.vue",
-    "chunkName": "pages/sign-up/index",
-    "_name": "_7d13766b"
+    "chunkName": "pages/sign-up/index"
   },
   {
     "name": "domain-add",
     "path": "/domain/add",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\upfordomain.com\\\\pages\\\\domain\\\\add\\\\index.vue",
-    "chunkName": "pages/domain/add/index",
-    "_name": "_df42020e"
+    "chunkName": "pages/domain/add/index"
   },
   {
     "name": "domain-browse",
     "path": "/domain/browse",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\upfordomain.com\\\\pages\\\\domain\\\\browse\\\\index.vue",
-    "chunkName": "pages/domain/browse/index",
-    "_name": "_76c554d0"
+    "chunkName": "pages/domain/browse/index"
   },
   {
     "name": "domains-browse",
     "path": "/domains/browse",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\upfordomain.com\\\\pages\\\\domains\\\\browse\\\\index.vue",
-    "chunkName": "pages/domains/browse/index",
-    "_name": "_ad08d9c6"
+    "chunkName": "pages/domains/browse/index"
   },
   {
     "name": "faq-buyer",
     "path": "/faq/buyer",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\upfordomain.com\\\\pages\\\\faq\\\\buyer\\\\index.vue",
-    "chunkName": "pages/faq/buyer/index",
-    "_name": "_54cb083e"
+    "chunkName": "pages/faq/buyer/index"
   },
   {
     "name": "faq-owner",
     "path": "/faq/owner",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\upfordomain.com\\\\pages\\\\faq\\\\owner\\\\index.vue",
-    "chunkName": "pages/faq/owner/index",
-    "_name": "_4931eae1"
+    "chunkName": "pages/faq/owner/index"
   },
   {
     "name": "log-in-code",
     "path": "/log-in/code",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\upfordomain.com\\\\pages\\\\log-in\\\\code.vue",
-    "chunkName": "pages/log-in/code",
-    "_name": "_7cebb05f"
+    "chunkName": "pages/log-in/code"
   },
   {
     "name": "sign-up-code",
     "path": "/sign-up/code",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\upfordomain.com\\\\pages\\\\sign-up\\\\code.vue",
-    "chunkName": "pages/sign-up/code",
-    "_name": "_9e7d6c38"
+    "chunkName": "pages/sign-up/code"
   },
   {
     "name": "domain-add-success",
     "path": "/domain/add/success",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\upfordomain.com\\\\pages\\\\domain\\\\add\\\\success.vue",
-    "chunkName": "pages/domain/add/success",
-    "_name": "_d039a42c"
+    "chunkName": "pages/domain/add/success"
   },
   {
     "name": "domain-appraisal-add",
     "path": "/domain/appraisal/add",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\upfordomain.com\\\\pages\\\\domain\\\\appraisal\\\\add\\\\index.vue",
-    "chunkName": "pages/domain/appraisal/add/index",
-    "_name": "_1b2862be"
+    "chunkName": "pages/domain/appraisal/add/index"
   },
   {
     "name": "domain-appraisal-add-success",
     "path": "/domain/appraisal/add/success",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\upfordomain.com\\\\pages\\\\domain\\\\appraisal\\\\add\\\\success.vue",
-    "chunkName": "pages/domain/appraisal/add/success",
-    "_name": "_d43a9722"
+    "chunkName": "pages/domain/appraisal/add/success"
   },
   {
     "name": "domain-detail-message-success",
     "path": "/domain/detail/message/success",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\upfordomain.com\\\\pages\\\\domain\\\\detail\\\\message\\\\success.vue",
-    "chunkName": "pages/domain/detail/message/success",
-    "_name": "_c1647556"
+    "chunkName": "pages/domain/detail/message/success"
   },
   {
     "name": "domain-detail-name",
     "path": "/domain/detail/:name",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\upfordomain.com\\\\pages\\\\domain\\\\detail\\\\_name\\\\index.vue",
-    "chunkName": "pages/domain/detail/_name/index",
-    "_name": "_5c840a21"
+    "chunkName": "pages/domain/detail/_name/index"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\upfordomain.com\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_78183044"
+    "chunkName": "pages/index"
   }
 ]

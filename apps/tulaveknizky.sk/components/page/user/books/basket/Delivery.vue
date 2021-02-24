@@ -51,20 +51,20 @@
                                 <div class="hr"></div>
                                 
                                 <form class='grid gap-20 md-col-2 align-items-start'>
-                                    
-                                    <!-- phone -->
-                                    <div>
-                                        <label for="phone">Telefón</label>
-                                        <input type="text" placeholder="Telefón" name="phone" v-model="phone">
-                                    </div>
-                                    <!-- phone -->
 
                                     <!-- email -->
                                     <div>
-                                        <label for="email">Kontaktný email</label>
+                                        <label for="email">Kontaktný email *</label>
                                         <input type="text" placeholder="Kontaktný email" name="email" v-model="email">
                                     </div>
                                     <!-- email -->
+                                    
+                                    <!-- phone -->
+                                    <div>
+                                        <label for="phone">Telefón *</label>
+                                        <input type="text" placeholder="Telefón" name="phone" v-model="phone">
+                                    </div>
+                                    <!-- phone -->
 
                                     <!-- <div class="md-span-2 hr">
 
@@ -93,54 +93,55 @@
                                     <div class='grid gap-20'>
                                         <!-- Name -->
                                         <div>
-                                            <label for="name">Meno</label>
+                                            <label for="name">Meno *</label>
                                             <input type="text" placeholder="Meno" name="name" v-model="name">
                                         </div>
                                         <!-- Name -->
 
                                         <!-- Surname -->
                                         <div>
-                                            <label for="surname">Priezvisko</label>
+                                            <label for="surname">Priezvisko *</label>
                                             <input type="text" placeholder="Priezvisko" name="surname" v-model="surname">
                                         </div>
                                         <!-- Surname -->
 
                                         <!-- street -->
                                         <div>
-                                            <label for="street">Ulica a popisné číslo</label>
+                                            <label for="street">Ulica a popisné číslo *</label>
                                             <input type="text" placeholder="Ulica" name="street" v-model="street">
                                         </div>
                                         <!-- street -->
 
                                         <!-- city -->
                                         <div>
-                                            <label for="city">Mesto</label>
+                                            <label for="city">Mesto *</label>
                                             <input type="text" placeholder="Mesto" name="city" v-model="city">
                                         </div>
                                         <!-- city -->
 
                                         <!-- psc -->
                                         <div>
-                                            <label for="psc">PSČ</label>
+                                            <label for="psc">PSČ *</label>
                                             <input type="text" placeholder="PSČ" name="psc" v-model="zip">
                                         </div>
                                         <!-- psc -->
                                     </div>
 
                                     <div class='grid gap-20'>
-                                        <!-- phone -->
-                                        <div>
-                                            <label for="phone">Telefón</label>
-                                            <input type="text" placeholder="Telefón" name="phone" v-model="phone">
-                                        </div>
-                                        <!-- phone -->
 
                                         <!-- email -->
                                         <div>
-                                            <label for="email">Kontaktný email</label>
+                                            <label for="email">Kontaktný email *</label>
                                             <input type="text" placeholder="Kontaktný email" name="email" v-model="email">
                                         </div>
                                         <!-- email -->
+
+                                        <!-- phone -->
+                                        <div>
+                                            <label for="phone">Telefón *</label>
+                                            <input type="text" placeholder="Telefón" name="phone" v-model="phone">
+                                        </div>
+                                        <!-- phone -->
                                     </div>
 
                                     <!-- <div class="md-span-2 hr">
@@ -183,7 +184,7 @@
 
                     <div class='box grid md-col-2 gap-10'>
                         <div class='md-justify-self-start grid'><nuxt-link to='/user/books/basket' class='button cta white'>Späť na knižky v batôžku</nuxt-link></div>
-                        <div class='md-justify-self-end grid'><button class='button cta black' @click.once='submitForm()'>Pokračovať na rekapituláciu</button></div>
+                        <div class='md-justify-self-end grid'><button class='button cta black' @click='submitForm()'>Pokračovať na rekapituláciu</button></div>
                     </div>
                 </div>
             </div>

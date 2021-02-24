@@ -1,6 +1,14 @@
 <template>
     <div class="component">
-        <div class="container-standard grid justify-items-end">
+        <div class="container-standard grid align-items-center justify-items-end">
+            
+            <!-- <div class='show-md justify-self-start'>
+                <p class='small'>
+                    {{$store.state.auth.userData.nickname}} | 
+                    {{$store.state.auth.userData.credit ? $store.state.auth.userData.credit : "0"}}
+                </p>
+            </div> -->
+            
             <div class='flex wrap align-items-center justify-content-space-between'>
                 <div class='nav'>
                     <ul class='flex wrap show-md align-items-center'>

@@ -9,6 +9,7 @@
                             <img src="@/assets/img/logo.svg" alt="" class='logo-text' />
                         </nuxt-link>
                     </div>
+                    
                     <div class='nav'>
                         <ul v-if="$store.getters['auth/isUserLoggedIn']" class='flex wrap show-md align-items-center'>
                             <!-- <li><nuxt-link to='/admin'>{{$store.state.auth.userData.name}}</nuxt-link></li> -->
@@ -19,8 +20,23 @@
                             <li v-if="$store.state.auth.userData.level == 104"><nuxt-link to='/admin'>Administrácia</nuxt-link></li>
                             <li><nuxt-link to='/user/books'>Moje knižky</nuxt-link></li>
                             <li><nuxt-link to='/user/account'>Môj účet</nuxt-link></li>
+                            <li>|</li>
+                            <!-- {{$store.state.auth.userData.nickname}} |  -->
+                            <!-- {{$store.state.auth.userData.credit ? $store.state.auth.userData.credit : "0"}} -->
                             <!-- <li><a @click.prevent='logout()'>Odhlásiť sa</a></li> -->
-
+                            <li>
+                                <div class='grid col-2 auto gap-20 align-items-center ml20'>
+                                    <nuxt-link tag='div' to='/user/account/credits' class='grid col-2 auto gap-10 align-items-center credit pointer'>
+                                        <p class='small'>
+                                            {{$store.state.auth.userData.credit ? $store.state.auth.userData.credit-$store.state.auth.userData.credit_blocked + '.00' : "0.00"}}
+                                        </p>
+                                        <img src="@/assets/img/icon-coin.svg" alt="" class='icon-coin' />
+                                    </nuxt-link>
+                                    <nuxt-link tag='div' to='/user/books/basket' class='grid col-1 auto gap-10 align-items-center basket pointer'>
+                                        <img src="@/assets/img/icon-basket.svg" alt="" class='icon-basket' />
+                                    </nuxt-link>
+                                </div>
+                            </li>
                         </ul>
                         <ul v-else class='flex wrap show-md align-items-center'>
                             <li><nuxt-link to='/kniznica'>Knižnica</nuxt-link></li>
@@ -158,4 +174,22 @@ export default {
     text-decoration: none;
 }
 
+.icon-coin, .icon-basket {
+    height: 1em;
+    border-radius: 0;
+}
+.credit {
+    padding: 3px 10px;
+    border-radius: 40px;
+    border: 2px solid #ffd401;
+    background-color: #fbf7ed;
+    height: 33px;
+}
+.basket {
+    padding: 3px 10px;
+    border-radius: 40px;
+    border: 2px solid #ffd401;
+    background-color: #fbf7ed;
+    height: 33px;
+}
 </style>
