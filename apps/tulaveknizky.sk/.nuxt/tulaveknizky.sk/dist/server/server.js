@@ -475,19 +475,19 @@ module.exports = require("axios");
 /* 7 */
 /***/ (function(module, exports) {
 
-module.exports = require("vue-no-ssr");
+module.exports = require("js-cookie");
 
 /***/ }),
 /* 8 */
 /***/ (function(module, exports) {
 
-module.exports = require("vue-client-only");
+module.exports = require("vue-no-ssr");
 
 /***/ }),
 /* 9 */
 /***/ (function(module, exports) {
 
-module.exports = require("js-cookie");
+module.exports = require("vue-client-only");
 
 /***/ }),
 /* 10 */
@@ -767,8 +767,13 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7);
+/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(js_cookie__WEBPACK_IMPORTED_MODULE_0__);
+
 /* harmony default export */ __webpack_exports__["default"] = (function (context) {
-  console.log('[Middleware] The check-userdata Middleware is running');
+  console.log('[Middleware] The check-userdata Middleware is running'); // if (!req.headers.cookie) { return; }
+  // auth_token = Cookie.get('app.auth_token')
+  // console.log(Cookie.get('app.auth_token'))
 
   if (false) {}
 
@@ -1382,7 +1387,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "mutations", function() { return mutations; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getters", function() { return getters; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "actions", function() { return actions; });
-/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(9);
+/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7);
 /* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(js_cookie__WEBPACK_IMPORTED_MODULE_0__);
 
 const state = () => ({
@@ -3075,11 +3080,11 @@ var external_vue_meta_ = __webpack_require__(27);
 var external_vue_meta_default = /*#__PURE__*/__webpack_require__.n(external_vue_meta_);
 
 // EXTERNAL MODULE: external "vue-client-only"
-var external_vue_client_only_ = __webpack_require__(8);
+var external_vue_client_only_ = __webpack_require__(9);
 var external_vue_client_only_default = /*#__PURE__*/__webpack_require__.n(external_vue_client_only_);
 
 // EXTERNAL MODULE: external "vue-no-ssr"
-var external_vue_no_ssr_ = __webpack_require__(7);
+var external_vue_no_ssr_ = __webpack_require__(8);
 var external_vue_no_ssr_default = /*#__PURE__*/__webpack_require__.n(external_vue_no_ssr_);
 
 // EXTERNAL MODULE: external "vue-router"
