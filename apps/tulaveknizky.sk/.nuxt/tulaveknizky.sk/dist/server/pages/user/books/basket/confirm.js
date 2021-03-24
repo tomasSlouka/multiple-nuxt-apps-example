@@ -1,7 +1,71 @@
-exports.ids = [40];
+exports.ids = [42];
 exports.modules = {
 
 /***/ 100:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/page/user/books/_common/Hero.vue?vue&type=template&id=e51d787c&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component"},[_vm._ssrNode("<div class=\"container-hero grid\" data-v-e51d787c><div class=\"grid justify-items-start\" data-v-e51d787c><h3 class=\"h3\" data-v-e51d787c>"+_vm._ssrEscape(_vm._s(_vm.h1))+"</h3> "+((_vm.h2)?("<h1 class=\"h1\" data-v-e51d787c>"+_vm._ssrEscape(_vm._s(_vm.h2))+"</h1>"):"<!---->")+"</div></div>")])}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/page/user/books/_common/Hero.vue?vue&type=template&id=e51d787c&scoped=true&
+
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/page/user/books/_common/Hero.vue?vue&type=script&lang=js&
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ var Herovue_type_script_lang_js_ = ({
+  props: {
+    h1: String,
+    h2: String
+  }
+});
+// CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/page/user/books/_common/Hero.vue?vue&type=script&lang=js&
+ /* harmony default export */ var _common_Herovue_type_script_lang_js_ = (Herovue_type_script_lang_js_); 
+// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
+var componentNormalizer = __webpack_require__(1);
+
+// CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/page/user/books/_common/Hero.vue
+
+
+
+function injectStyles (context) {
+  
+  var style0 = __webpack_require__(96)
+if (style0.__inject__) style0.__inject__(context)
+
+}
+
+/* normalize component */
+
+var component = Object(componentNormalizer["a" /* default */])(
+  _common_Herovue_type_script_lang_js_,
+  render,
+  staticRenderFns,
+  false,
+  injectStyles,
+  "e51d787c",
+  "dd9add4a"
+  
+)
+
+/* harmony default export */ var Hero = __webpack_exports__["a"] = (component.exports);
+
+/***/ }),
+
+/***/ 101:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -61,7 +125,7 @@ var componentNormalizer = __webpack_require__(1);
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(97)
+  var style0 = __webpack_require__(98)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -83,13 +147,13 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 108:
+/***/ 113:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(118);
+var content = __webpack_require__(124);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
@@ -100,19 +164,19 @@ module.exports.__inject__ = function (context) {
 
 /***/ }),
 
-/***/ 117:
+/***/ 123:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Empty_vue_vue_type_style_index_0_id_cc21330a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(108);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Empty_vue_vue_type_style_index_0_id_cc21330a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(113);
 /* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Empty_vue_vue_type_style_index_0_id_cc21330a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Empty_vue_vue_type_style_index_0_id_cc21330a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
 /* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Empty_vue_vue_type_style_index_0_id_cc21330a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Empty_vue_vue_type_style_index_0_id_cc21330a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
 
-/***/ 118:
+/***/ 124:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -126,7 +190,7 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ 120:
+/***/ 128:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -177,7 +241,7 @@ var componentNormalizer = __webpack_require__(1);
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(117)
+  var style0 = __webpack_require__(123)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -199,50 +263,50 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 155:
+/***/ 161:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(195);
+var content = __webpack_require__(209);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
 var add = __webpack_require__(3).default
 module.exports.__inject__ = function (context) {
-  add("cd72345c", content, true, context)
+  add("4ea4624e", content, true, context)
 };
 
 /***/ }),
 
-/***/ 194:
+/***/ 208:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Confirm_vue_vue_type_style_index_0_id_439b93bc_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(155);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Confirm_vue_vue_type_style_index_0_id_439b93bc_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Confirm_vue_vue_type_style_index_0_id_439b93bc_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Confirm_vue_vue_type_style_index_0_id_439b93bc_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Confirm_vue_vue_type_style_index_0_id_439b93bc_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Confirm_vue_vue_type_style_index_0_id_89bda406_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(161);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Confirm_vue_vue_type_style_index_0_id_89bda406_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Confirm_vue_vue_type_style_index_0_id_89bda406_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Confirm_vue_vue_type_style_index_0_id_89bda406_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Confirm_vue_vue_type_style_index_0_id_89bda406_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
 
-/***/ 195:
+/***/ 209:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(2);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".box[data-v-439b93bc]{border-bottom:6px solid #eee}.box[data-v-439b93bc],.box-2[data-v-439b93bc]{background-color:#f7f7f7;padding:40px;border-radius:4px}.box-2[data-v-439b93bc]{border-bottom:6px solid rgba(255,212,1,.32157)}.delivery-img[data-v-439b93bc]{height:25px;border-radius:0}", ""]);
+exports.push([module.i, ".box[data-v-89bda406]{border-bottom:6px solid #eee}.box[data-v-89bda406],.box-2[data-v-89bda406]{background-color:#f7f7f7;padding:40px;border-radius:4px}.box-2[data-v-89bda406]{border-bottom:6px solid rgba(255,212,1,.32157)}.delivery-img[data-v-89bda406]{height:25px;border-radius:0}", ""]);
 // Exports
 module.exports = exports;
 
 
 /***/ }),
 
-/***/ 231:
+/***/ 248:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -257,19 +321,23 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./apps/tulaveknizky.sk/pages/user/books/basket/confirm.vue?vue&type=template&id=4bbc913c&
 
 // EXTERNAL MODULE: ./apps/tulaveknizky.sk/components/page/user/books/_common/Hero.vue + 4 modules
-var Hero = __webpack_require__(99);
+var Hero = __webpack_require__(100);
 
 // EXTERNAL MODULE: ./apps/tulaveknizky.sk/components/page/user/books/_common/SubNav.vue + 4 modules
-var SubNav = __webpack_require__(100);
+var SubNav = __webpack_require__(101);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/page/user/books/basket/Confirm.vue?vue&type=template&id=439b93bc&scoped=true&
-var Confirmvue_type_template_id_439b93bc_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component"},[_vm._ssrNode("<div class=\"container-standard grid\" data-v-439b93bc>","</div>",[_vm._ssrNode("<div class=\"grid gap-40\" data-v-439b93bc>","</div>",[_vm._ssrNode("<h2 data-v-439b93bc>Rekapitulácia objednávky</h2> "),_vm._ssrNode("<div class=\"grid gap-60\" data-v-439b93bc>","</div>",[_vm._ssrNode("<div class=\"grid gap-20 auto\" data-v-439b93bc><div class=\"table-wrapper justify-content-start\" data-v-439b93bc><div class=\"table grid auto col-2\" data-v-439b93bc><div class=\"table-head\" data-v-439b93bc><div data-v-439b93bc>Názov</div> <div data-v-439b93bc>Kredity</div></div> "+(_vm._ssrList((_vm.dataBasket.data_items),function(item){return ("<div class=\"table-row\" data-v-439b93bc><div data-v-439b93bc><p class=\"strong\" data-v-439b93bc>"+_vm._ssrEscape(_vm._s(item.name))+"</p><p class=\"italic small\" data-v-439b93bc>"+_vm._ssrEscape(_vm._s(item.author))+"</p></div> <div class=\"grid justify-items-start\" data-v-439b93bc><span class=\"tag yellow\" data-v-439b93bc>"+_vm._ssrEscape(_vm._s(item.price)+" kreditov")+"</span></div></div>")}))+" <div class=\"table-row\" data-v-439b93bc><div class=\"bt1 grid col-2 auto gap-20 justify-content-start align-content-center\" data-v-439b93bc><div data-v-439b93bc><p class=\"strong\" data-v-439b93bc>Doručenie</p> "+((_vm.dataBasket.data.delivery_option == "zasielkovna")?("<p class=\"italic small\" data-v-439b93bc>"+_vm._ssrEscape(_vm._s(_vm.dataBasket.data.place)+", "+_vm._s(_vm.dataBasket.data.street)+", "+_vm._s(_vm.dataBasket.data.zip)+", "+_vm._s(_vm.dataBasket.data.city))+"</p>"):"<!---->")+" "+((_vm.dataBasket.data.delivery_option == "sk_posta")?("<p class=\"italic small\" data-v-439b93bc>"+_vm._ssrEscape(_vm._s(_vm.dataBasket.data.name)+" "+_vm._s(_vm.dataBasket.data.surname)+", "+_vm._s(_vm.dataBasket.data.street)+", "+_vm._s(_vm.dataBasket.data.zip)+", "+_vm._s(_vm.dataBasket.data.city))+"</p>"):"<!---->")+"</div> <div class=\"grid\" data-v-439b93bc>"+((_vm.dataBasket.data.delivery_option == "zasielkovna")?("<img src=\"https://widget.packeta.com/v5/static/media/logoSK.a6779253.svg\" alt=\"zasielkovna-logo\" class=\"delivery-img align-self-center\" data-v-439b93bc>"):"<!---->")+" "+((_vm.dataBasket.data.delivery_option == "sk_posta")?("<img src=\"https://www.posta.sk/images/site/sl-posta-logo.svg\" alt=\"sk-posta-logo\" class=\"delivery-img align-self-center\" data-v-439b93bc>"):"<!---->")+"</div></div> <div class=\"bt1 grid justify-items-start\" data-v-439b93bc><span class=\"tag yellow\" data-v-439b93bc>ZADARMO</span></div></div></div></div> <div class=\"box-2 grid col-2 p10 auto justify-items-end justify-content-end gap-10 align-items-center\" data-v-439b93bc><div data-v-439b93bc><p class=\"small\" data-v-439b93bc>Spolu:</p></div> <div class=\"grid col-2 auto align-items-center gap-5\" data-v-439b93bc><p class=\"big strong\" data-v-439b93bc>"+_vm._ssrEscape(_vm._s(_vm.dataBasket.sum_price))+"</p> <p class=\"small\" data-v-439b93bc>kreditov</p></div></div></div> <ul class=\"maxw600 ml20\" data-v-439b93bc><li data-v-439b93bc><p class=\"small\" data-v-439b93bc>\n                            Ak potvrdíš objednavku, súhlasiš, že tvojú adresu a kontaktné údaje môžeme poskytnuté tretej strane pre účely doručenia.\n                        </p></li> <li data-v-439b93bc><p class=\"small\" data-v-439b93bc>\n                            Kredity slúžia ako záloha. Ak nám knižky vrátiš späť  a nebudú poškodené, tvoje kredity ti opätovne obnovíme a možno ti pripočítame aj niečo navyše 😀.\n                        </p></li></ul> "),_vm._ssrNode("<div class=\"box grid md-col-2 auto gap-10 align-items-start\" data-v-439b93bc>","</div>",[_vm._ssrNode("<div class=\"md-justify-self-start grid\" data-v-439b93bc>","</div>",[_c('nuxt-link',{staticClass:"button cta white",attrs:{"to":"/user/books/basket/delivery"}},[_vm._v("Späť na výber dopravy")])],1),_vm._ssrNode(" <div class=\"md-justify-self-end grid\" data-v-439b93bc><button class=\"button cta black md-justify-self-end\" data-v-439b93bc>Potvrdiť objednávku</button> "+((_vm.submitError)?("<p class=\"error justify-self-end\" data-v-439b93bc>"+_vm._ssrEscape(_vm._s(_vm.submitText))+"</p>"):"<!---->")+"</div>")],2)],2)],2)])])}
-var Confirmvue_type_template_id_439b93bc_scoped_true_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/page/user/books/basket/Confirm.vue?vue&type=template&id=89bda406&scoped=true&
+var Confirmvue_type_template_id_89bda406_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component"},[_vm._ssrNode("<div class=\"container-standard grid\" data-v-89bda406>","</div>",[_vm._ssrNode("<div class=\"grid gap-40\" data-v-89bda406>","</div>",[_vm._ssrNode("<h2 data-v-89bda406>Rekapitulácia objednávky</h2> "),_vm._ssrNode("<div class=\"grid gap-60\" data-v-89bda406>","</div>",[_vm._ssrNode("<div class=\"grid gap-20 auto\" data-v-89bda406><div class=\"table-wrapper justify-content-start\" data-v-89bda406><div class=\"table grid auto col-2\" data-v-89bda406><div class=\"table-head\" data-v-89bda406><div data-v-89bda406>Názov</div> <div data-v-89bda406>Kredity</div></div> "+(_vm._ssrList((_vm.dataBasket.data_items),function(item){return ("<div class=\"table-row\" data-v-89bda406><div data-v-89bda406><p class=\"strong\" data-v-89bda406>"+_vm._ssrEscape(_vm._s(item.name))+"</p><p class=\"italic small\" data-v-89bda406>"+_vm._ssrEscape(_vm._s(item.author))+"</p></div> <div class=\"grid justify-items-start\" data-v-89bda406><span class=\"tag yellow\" data-v-89bda406>"+_vm._ssrEscape(_vm._s(item.price)+" kreditov")+"</span></div></div>")}))+" <div class=\"table-row\" data-v-89bda406><div class=\"bt1 grid col-2 auto gap-20 justify-content-start align-content-center\" data-v-89bda406><div data-v-89bda406><p class=\"strong\" data-v-89bda406>Doručenie</p> "+((_vm.dataBasket.data.delivery_option == "zasielkovna")?("<p class=\"italic small\" data-v-89bda406>"+_vm._ssrEscape(_vm._s(_vm.dataBasket.data.place)+", "+_vm._s(_vm.dataBasket.data.street)+", "+_vm._s(_vm.dataBasket.data.zip)+", "+_vm._s(_vm.dataBasket.data.city))+"</p>"):"<!---->")+" "+((_vm.dataBasket.data.delivery_option == "sk_posta")?("<p class=\"italic small\" data-v-89bda406>"+_vm._ssrEscape(_vm._s(_vm.dataBasket.data.name)+" "+_vm._s(_vm.dataBasket.data.surname)+", "+_vm._s(_vm.dataBasket.data.street)+", "+_vm._s(_vm.dataBasket.data.zip)+", "+_vm._s(_vm.dataBasket.data.city))+"</p>"):"<!---->")+"</div> <div class=\"grid\" data-v-89bda406>"+((_vm.dataBasket.data.delivery_option == "zasielkovna")?("<img src=\"https://widget.packeta.com/v5/static/media/logoSK.a6779253.svg\" alt=\"zasielkovna-logo\" class=\"delivery-img align-self-center\" data-v-89bda406>"):"<!---->")+" "+((_vm.dataBasket.data.delivery_option == "sk_posta")?("<img src=\"https://www.posta.sk/images/site/sl-posta-logo.svg\" alt=\"sk-posta-logo\" class=\"delivery-img align-self-center\" data-v-89bda406>"):"<!---->")+"</div></div> <div class=\"bt1 grid justify-items-start\" data-v-89bda406><span class=\"tag yellow\" data-v-89bda406>ZADARMO</span></div></div></div></div> <div class=\"box-2 grid col-2 p10 auto justify-items-end justify-content-end gap-10 align-items-center\" data-v-89bda406><div data-v-89bda406><p class=\"small\" data-v-89bda406>Spolu:</p></div> <div class=\"grid col-2 auto align-items-center gap-5\" data-v-89bda406><p class=\"big strong\" data-v-89bda406>"+_vm._ssrEscape(_vm._s(_vm.dataBasket.sum_price))+"</p> <p class=\"small\" data-v-89bda406>kreditov</p></div></div></div> <ul class=\"maxw600 ml20\" data-v-89bda406><li data-v-89bda406><p class=\"small\" data-v-89bda406>\n                            Ak potvrdíš objednavku, súhlasiš, že tvojú adresu a kontaktné údaje môžeme poskytnuté tretej strane pre účely doručenia.\n                        </p></li> <li data-v-89bda406><p class=\"small\" data-v-89bda406>\n                            Kredity slúžia ako záloha. Ak nám knižky vrátiš späť  a nebudú poškodené, tvoje kredity ti opätovne obnovíme a možno ti pripočítame aj niečo navyše 😀.\n                        </p></li></ul> "),_vm._ssrNode("<p data-v-89bda406>","</p>",[_c('nuxt-link',{staticClass:"button cta black",attrs:{"to":"/user/account/credits"}},[_vm._v("Dobiť kredit")])],1),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"box grid md-col-2 auto gap-10 align-items-start\" data-v-89bda406>","</div>",[_vm._ssrNode("<div class=\"md-justify-self-start grid\" data-v-89bda406>","</div>",[_c('nuxt-link',{staticClass:"button cta white",attrs:{"to":"/user/books/basket/delivery"}},[_vm._v("Späť na výber dopravy")])],1),_vm._ssrNode(" <div class=\"md-justify-self-end grid\" data-v-89bda406><button class=\"button cta black md-justify-self-end\" data-v-89bda406>Potvrdiť objednávku</button> "+((_vm.submitError)?("<p class=\"error justify-self-end\" data-v-89bda406>"+_vm._ssrEscape(_vm._s(_vm.submitText))+"</p>"):"<!---->")+"</div>")],2)],2)],2)])])}
+var Confirmvue_type_template_id_89bda406_scoped_true_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/page/user/books/basket/Confirm.vue?vue&type=template&id=439b93bc&scoped=true&
+// CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/page/user/books/basket/Confirm.vue?vue&type=template&id=89bda406&scoped=true&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/page/user/books/basket/Confirm.vue?vue&type=script&lang=js&
+//
+//
+//
+//
 //
 //
 //
@@ -380,7 +448,7 @@ var componentNormalizer = __webpack_require__(1);
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(194)
+  var style0 = __webpack_require__(208)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -389,18 +457,18 @@ if (style0.__inject__) style0.__inject__(context)
 
 var component = Object(componentNormalizer["a" /* default */])(
   basket_Confirmvue_type_script_lang_js_,
-  Confirmvue_type_template_id_439b93bc_scoped_true_render,
-  Confirmvue_type_template_id_439b93bc_scoped_true_staticRenderFns,
+  Confirmvue_type_template_id_89bda406_scoped_true_render,
+  Confirmvue_type_template_id_89bda406_scoped_true_staticRenderFns,
   false,
   injectStyles,
-  "439b93bc",
+  "89bda406",
   "50b9550e"
   
 )
 
 /* harmony default export */ var Confirm = (component.exports);
 // EXTERNAL MODULE: ./apps/tulaveknizky.sk/components/page/user/books/basket/Empty.vue + 4 modules
-var Empty = __webpack_require__(120);
+var Empty = __webpack_require__(128);
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/pages/user/books/basket/confirm.vue?vue&type=script&lang=js&
 //
@@ -541,7 +609,7 @@ var confirm_component = Object(componentNormalizer["a" /* default */])(
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(96);
+var content = __webpack_require__(97);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
@@ -558,7 +626,7 @@ module.exports.__inject__ = function (context) {
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(98);
+var content = __webpack_require__(99);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
@@ -569,7 +637,7 @@ module.exports.__inject__ = function (context) {
 
 /***/ }),
 
-/***/ 95:
+/***/ 96:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -581,7 +649,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 96:
+/***/ 97:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -595,7 +663,7 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ 97:
+/***/ 98:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -607,7 +675,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 98:
+/***/ 99:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -618,70 +686,6 @@ exports.push([module.i, ".component[data-v-5960b3cc]{background-color:#fff;box-s
 // Exports
 module.exports = exports;
 
-
-/***/ }),
-
-/***/ 99:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/page/user/books/_common/Hero.vue?vue&type=template&id=e51d787c&scoped=true&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component"},[_vm._ssrNode("<div class=\"container-hero grid\" data-v-e51d787c><div class=\"grid justify-items-start\" data-v-e51d787c><h3 class=\"h3\" data-v-e51d787c>"+_vm._ssrEscape(_vm._s(_vm.h1))+"</h3> "+((_vm.h2)?("<h1 class=\"h1\" data-v-e51d787c>"+_vm._ssrEscape(_vm._s(_vm.h2))+"</h1>"):"<!---->")+"</div></div>")])}
-var staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/page/user/books/_common/Hero.vue?vue&type=template&id=e51d787c&scoped=true&
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/page/user/books/_common/Hero.vue?vue&type=script&lang=js&
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ var Herovue_type_script_lang_js_ = ({
-  props: {
-    h1: String,
-    h2: String
-  }
-});
-// CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/page/user/books/_common/Hero.vue?vue&type=script&lang=js&
- /* harmony default export */ var _common_Herovue_type_script_lang_js_ = (Herovue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(1);
-
-// CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/page/user/books/_common/Hero.vue
-
-
-
-function injectStyles (context) {
-  
-  var style0 = __webpack_require__(95)
-if (style0.__inject__) style0.__inject__(context)
-
-}
-
-/* normalize component */
-
-var component = Object(componentNormalizer["a" /* default */])(
-  _common_Herovue_type_script_lang_js_,
-  render,
-  staticRenderFns,
-  false,
-  injectStyles,
-  "e51d787c",
-  "dd9add4a"
-  
-)
-
-/* harmony default export */ var Hero = __webpack_exports__["a"] = (component.exports);
 
 /***/ })
 

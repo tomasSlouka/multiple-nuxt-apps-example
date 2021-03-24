@@ -4,7 +4,7 @@
             <div class='grid gap-40'>
                 <div class='grid md-col-2 align-items-center'>
                     <h2>Zoznam</h2>
-                    <nuxt-link to="/admin/orders/add" class='button cta black justify-self-end'>Vytvoriť novú objednávku</nuxt-link>
+                    <!-- <nuxt-link to="/admin/orders/add" class='button cta black justify-self-end'>Vytvoriť novú objednávku</nuxt-link> -->
                 </div>
 
                 <div class='grid gap-5 auto '>

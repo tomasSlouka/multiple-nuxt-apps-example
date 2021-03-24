@@ -574,3 +574,8 @@ p.note > a {
     background-color: #000;
     color: #fff;
 }
+
+.icon {
+    height: 10px;
+    border-radius: 0px;
+}

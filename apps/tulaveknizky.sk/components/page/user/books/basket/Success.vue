@@ -11,7 +11,7 @@
                     <ul class='ml20 grid gap-5'>
                         <!-- <li>Knižky odosielame zvyčajne do 3 pracovných dní.</li> -->
                         <li>Príprava na vandrovku zvyčajne trvá 3 pracovné dni.</li>
-                        <li>Samotná vandrovka trvá 33 dní a začína plynúť až po vyslaní knižiek z našeho hlavného stanu.</li>
+                        <li>Samotná vandrovka trvá 30 dní a začína plynúť až po vyslaní knižiek z našeho hlavného stanu.</li>
                         <li>Stav vandrovky si môžeš kontrolovať v sekcií "Moje požičané knižky" alebo naskenovaním QR kódu na zadnej strane knižky.</li>
                         <li>Ak sa rozhodneš túto výpravu zmeniť alebo zrušiť, prosím kontaktuj nás na <a href='mailto:ahoj@tulaveknizky.sk'>ahoj@tulaveknizky.sk</a>.<br>Knižkám sa to pokúsime ľudsky vysvetliť tak, aby sa neurazili.</li>
                     </ul>

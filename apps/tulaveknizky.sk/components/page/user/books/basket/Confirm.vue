@@ -54,6 +54,10 @@
                             </p>
                         </li>
                     </ul>
+
+                    <p>
+                        <nuxt-link to='/user/account/credits' class='button cta black'>Dobiť kredit</nuxt-link>
+                    </p>
                     <div class='box grid md-col-2 auto gap-10 align-items-start'>
                         <div class='md-justify-self-start grid'><nuxt-link to='/user/books/basket/delivery' class='button cta white'>Späť na výber dopravy</nuxt-link></div>
                         <div class='md-justify-self-end grid'>

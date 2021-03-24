@@ -56,6 +56,13 @@
     "_name": "_0e98a5aa"
   },
   {
+    "name": "najcastejsie-otazky",
+    "path": "/najcastejsie-otazky",
+    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\najcastejsie-otazky\\\\index.vue",
+    "chunkName": "pages/najcastejsie-otazky/index",
+    "_name": "_25a609b7"
+  },
+  {
     "name": "nas-pribeh",
     "path": "/nas-pribeh",
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\nas-pribeh\\\\index.vue",
@@ -215,6 +222,13 @@
     "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\user\\\\account\\\\settings\\\\index.vue",
     "chunkName": "pages/user/account/settings/index",
     "_name": "_23c95417"
+  },
+  {
+    "name": "user-account-subscription",
+    "path": "/user/account/subscription",
+    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\tulaveknizky.sk\\\\pages\\\\user\\\\account\\\\subscription\\\\index.vue",
+    "chunkName": "pages/user/account/subscription/index",
+    "_name": "_473d9edd"
   },
   {
     "name": "user-books-basket",

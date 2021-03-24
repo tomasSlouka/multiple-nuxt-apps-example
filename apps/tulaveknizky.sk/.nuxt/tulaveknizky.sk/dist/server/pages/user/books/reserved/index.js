@@ -1,7 +1,71 @@
-exports.ids = [47];
+exports.ids = [49];
 exports.modules = {
 
 /***/ 100:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/page/user/books/_common/Hero.vue?vue&type=template&id=e51d787c&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component"},[_vm._ssrNode("<div class=\"container-hero grid\" data-v-e51d787c><div class=\"grid justify-items-start\" data-v-e51d787c><h3 class=\"h3\" data-v-e51d787c>"+_vm._ssrEscape(_vm._s(_vm.h1))+"</h3> "+((_vm.h2)?("<h1 class=\"h1\" data-v-e51d787c>"+_vm._ssrEscape(_vm._s(_vm.h2))+"</h1>"):"<!---->")+"</div></div>")])}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/page/user/books/_common/Hero.vue?vue&type=template&id=e51d787c&scoped=true&
+
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/page/user/books/_common/Hero.vue?vue&type=script&lang=js&
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ var Herovue_type_script_lang_js_ = ({
+  props: {
+    h1: String,
+    h2: String
+  }
+});
+// CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/page/user/books/_common/Hero.vue?vue&type=script&lang=js&
+ /* harmony default export */ var _common_Herovue_type_script_lang_js_ = (Herovue_type_script_lang_js_); 
+// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
+var componentNormalizer = __webpack_require__(1);
+
+// CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/page/user/books/_common/Hero.vue
+
+
+
+function injectStyles (context) {
+  
+  var style0 = __webpack_require__(96)
+if (style0.__inject__) style0.__inject__(context)
+
+}
+
+/* normalize component */
+
+var component = Object(componentNormalizer["a" /* default */])(
+  _common_Herovue_type_script_lang_js_,
+  render,
+  staticRenderFns,
+  false,
+  injectStyles,
+  "e51d787c",
+  "dd9add4a"
+  
+)
+
+/* harmony default export */ var Hero = __webpack_exports__["a"] = (component.exports);
+
+/***/ }),
+
+/***/ 101:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -61,7 +125,7 @@ var componentNormalizer = __webpack_require__(1);
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(97)
+  var style0 = __webpack_require__(98)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -83,7 +147,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 254:
+/***/ 270:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -98,10 +162,10 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./apps/tulaveknizky.sk/pages/user/books/reserved/index.vue?vue&type=template&id=379ef8c8&
 
 // EXTERNAL MODULE: ./apps/tulaveknizky.sk/components/page/user/books/_common/Hero.vue + 4 modules
-var Hero = __webpack_require__(99);
+var Hero = __webpack_require__(100);
 
 // EXTERNAL MODULE: ./apps/tulaveknizky.sk/components/page/user/books/_common/SubNav.vue + 4 modules
-var SubNav = __webpack_require__(100);
+var SubNav = __webpack_require__(101);
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/pages/user/books/reserved/index.vue?vue&type=script&lang=js&
 //
@@ -160,7 +224,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(96);
+var content = __webpack_require__(97);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
@@ -177,7 +241,7 @@ module.exports.__inject__ = function (context) {
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(98);
+var content = __webpack_require__(99);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
@@ -188,7 +252,7 @@ module.exports.__inject__ = function (context) {
 
 /***/ }),
 
-/***/ 95:
+/***/ 96:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -200,7 +264,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 96:
+/***/ 97:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -214,7 +278,7 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ 97:
+/***/ 98:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -226,7 +290,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 98:
+/***/ 99:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -237,70 +301,6 @@ exports.push([module.i, ".component[data-v-5960b3cc]{background-color:#fff;box-s
 // Exports
 module.exports = exports;
 
-
-/***/ }),
-
-/***/ 99:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/page/user/books/_common/Hero.vue?vue&type=template&id=e51d787c&scoped=true&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component"},[_vm._ssrNode("<div class=\"container-hero grid\" data-v-e51d787c><div class=\"grid justify-items-start\" data-v-e51d787c><h3 class=\"h3\" data-v-e51d787c>"+_vm._ssrEscape(_vm._s(_vm.h1))+"</h3> "+((_vm.h2)?("<h1 class=\"h1\" data-v-e51d787c>"+_vm._ssrEscape(_vm._s(_vm.h2))+"</h1>"):"<!---->")+"</div></div>")])}
-var staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/page/user/books/_common/Hero.vue?vue&type=template&id=e51d787c&scoped=true&
-
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/page/user/books/_common/Hero.vue?vue&type=script&lang=js&
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ var Herovue_type_script_lang_js_ = ({
-  props: {
-    h1: String,
-    h2: String
-  }
-});
-// CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/page/user/books/_common/Hero.vue?vue&type=script&lang=js&
- /* harmony default export */ var _common_Herovue_type_script_lang_js_ = (Herovue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(1);
-
-// CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/page/user/books/_common/Hero.vue
-
-
-
-function injectStyles (context) {
-  
-  var style0 = __webpack_require__(95)
-if (style0.__inject__) style0.__inject__(context)
-
-}
-
-/* normalize component */
-
-var component = Object(componentNormalizer["a" /* default */])(
-  _common_Herovue_type_script_lang_js_,
-  render,
-  staticRenderFns,
-  false,
-  injectStyles,
-  "e51d787c",
-  "dd9add4a"
-  
-)
-
-/* harmony default export */ var Hero = __webpack_exports__["a"] = (component.exports);
 
 /***/ })
 

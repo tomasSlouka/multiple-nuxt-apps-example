@@ -1,60 +1,60 @@
 exports.ids = [24];
 exports.modules = {
 
-/***/ 123:
+/***/ 115:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(134);
+var content = __webpack_require__(132);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
 var add = __webpack_require__(3).default
 module.exports.__inject__ = function (context) {
-  add("7a09ffee", content, true, context)
+  add("ba6e792a", content, true, context)
 };
 
 /***/ }),
 
-/***/ 133:
+/***/ 131:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_DateFormat_vue_vue_type_style_index_0_id_33baf838_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(123);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_DateFormat_vue_vue_type_style_index_0_id_33baf838_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_DateFormat_vue_vue_type_style_index_0_id_33baf838_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_DateFormat_vue_vue_type_style_index_0_id_33baf838_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_DateFormat_vue_vue_type_style_index_0_id_33baf838_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_DateFormat_vue_vue_type_style_index_0_id_259a6f86_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(115);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_DateFormat_vue_vue_type_style_index_0_id_259a6f86_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_DateFormat_vue_vue_type_style_index_0_id_259a6f86_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_DateFormat_vue_vue_type_style_index_0_id_259a6f86_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_DateFormat_vue_vue_type_style_index_0_id_259a6f86_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
 
-/***/ 134:
+/***/ 132:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(2);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".tag[data-v-33baf838]{display:inline-block;text-align:center}", ""]);
+exports.push([module.i, ".tag[data-v-259a6f86]{display:inline-block;text-align:center}", ""]);
 // Exports
 module.exports = exports;
 
 
 /***/ }),
 
-/***/ 139:
+/***/ 134:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/_system/DateFormat.vue?vue&type=template&id=33baf838&scoped=true&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"dateformat"},[_vm._ssrNode("<span class=\"tag gray\" data-v-33baf838>"+_vm._ssrEscape("\n        "+_vm._s(_vm.dateFormat())+"\n    ")+"</span>")])}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/_system/DateFormat.vue?vue&type=template&id=259a6f86&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('span',{class:_vm.classes},[_vm._ssrNode(_vm._ssrEscape("\n        "+_vm._s(_vm.dateFormat())+"\n    "))])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/_system/DateFormat.vue?vue&type=template&id=33baf838&scoped=true&
+// CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/_system/DateFormat.vue?vue&type=template&id=259a6f86&scoped=true&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/_system/DateFormat.vue?vue&type=script&lang=js&
 //
@@ -68,7 +68,8 @@ var staticRenderFns = []
 /* harmony default export */ var DateFormatvue_type_script_lang_js_ = ({
   props: {
     date: String,
-    format: String
+    format: String,
+    classes: String
   },
 
   data() {
@@ -78,6 +79,7 @@ var staticRenderFns = []
 
   methods: {
     dateFormat() {
+      if (this.date === null || this.date === undefined) return "0";
       var date_array = this.date.split(' ');
       var date = date_array[0].split('-');
       var time = date_array[1];
@@ -105,7 +107,7 @@ var componentNormalizer = __webpack_require__(1);
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(133)
+  var style0 = __webpack_require__(131)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -118,7 +120,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   staticRenderFns,
   false,
   injectStyles,
-  "33baf838",
+  "259a6f86",
   "2dc8d5cc"
   
 )
@@ -127,7 +129,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 222:
+/***/ 237:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -147,15 +149,15 @@ var SubNav = __webpack_require__(90);
 // EXTERNAL MODULE: ./apps/tulaveknizky.sk/components/admin/_common/Hero.vue + 4 modules
 var Hero = __webpack_require__(89);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/admin/users/ListAll.vue?vue&type=template&id=6149538c&scoped=true&
-var ListAllvue_type_template_id_6149538c_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component"},[_vm._ssrNode("<div class=\"container-standard grid\" data-v-6149538c>","</div>",[_vm._ssrNode("<div class=\"grid gap-40\" data-v-6149538c>","</div>",[_vm._ssrNode("<div class=\"grid md-col-2 align-items-center\" data-v-6149538c>","</div>",[_vm._ssrNode("<h2 data-v-6149538c>Zoznam</h2> "),_c('nuxt-link',{staticClass:"button cta black justify-self-end",attrs:{"to":"/admin/users/add"}},[_vm._v("Nový používateľ")])],2),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"grid gap-5 auto \" data-v-6149538c>","</div>",[_vm._ssrNode("<div class=\"table-wrapper justify-content-start\" data-v-6149538c>","</div>",[_vm._ssrNode("<div class=\"table grid auto col-6\" data-v-6149538c>","</div>",[_vm._ssrNode("<div class=\"table-head\" data-v-6149538c><div data-v-6149538c>Názov</div> <div data-v-6149538c>Meno</div> <div data-v-6149538c>Priezvisko</div> <div data-v-6149538c>Dátum registrácie</div> <div data-v-6149538c>Posledné prihlásenie</div> <div data-v-6149538c>Akcia</div></div> "),_vm._l((_vm.userList.data),function(item){return _vm._ssrNode("<div class=\"table-row\" data-v-6149538c>","</div>",[_vm._ssrNode("<div data-v-6149538c><p class=\"strong\" data-v-6149538c>"+_vm._ssrEscape(_vm._s(item.email))+"</p></div> <div data-v-6149538c><p data-v-6149538c>"+_vm._ssrEscape(_vm._s(item.name))+"</p></div> <div data-v-6149538c><p data-v-6149538c>"+_vm._ssrEscape(_vm._s(item.surname))+"</p></div> "),_vm._ssrNode("<div data-v-6149538c>","</div>",[_c('DateFormat',{attrs:{"date":item.created_at,"format":"datetime"}})],1),_vm._ssrNode(" "),_vm._ssrNode("<div data-v-6149538c>","</div>",[_c('DateFormat',{attrs:{"date":item.last_online_at,"format":"datetime"}})],1),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"grid col-2 auto gap-5 justify-content-start justify-items-start\" data-v-6149538c>","</div>",[_c('nuxt-link',{staticClass:"button cta small white",attrs:{"to":"/admin/users/detail/" + item.id}},[_vm._v("Upraviť")])],1)],2)})],2)])])],2)])])}
-var ListAllvue_type_template_id_6149538c_scoped_true_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/admin/users/ListAll.vue?vue&type=template&id=fa38897c&scoped=true&
+var ListAllvue_type_template_id_fa38897c_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component"},[_vm._ssrNode("<div class=\"container-standard grid\" data-v-fa38897c>","</div>",[_vm._ssrNode("<div class=\"grid gap-40\" data-v-fa38897c>","</div>",[_vm._ssrNode("<div class=\"grid md-col-2 align-items-center\" data-v-fa38897c>","</div>",[_vm._ssrNode("<h2 data-v-fa38897c>Zoznam</h2> "),_c('nuxt-link',{staticClass:"button cta black justify-self-end",attrs:{"to":"/admin/users/add"}},[_vm._v("Nový používateľ")])],2),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"grid gap-5 auto \" data-v-fa38897c>","</div>",[_vm._ssrNode("<div class=\"table-wrapper justify-content-start\" data-v-fa38897c>","</div>",[_vm._ssrNode("<div class=\"table grid auto col-6\" data-v-fa38897c>","</div>",[_vm._ssrNode("<div class=\"table-head\" data-v-fa38897c><div data-v-fa38897c>Názov</div> <div data-v-fa38897c>Meno</div> <div data-v-fa38897c>Priezvisko</div> <div data-v-fa38897c>Dátum registrácie</div> <div data-v-fa38897c>Posledné prihlásenie</div> <div data-v-fa38897c>Akcia</div></div> "),_vm._l((_vm.userList.data),function(item){return _vm._ssrNode("<div class=\"table-row\" data-v-fa38897c>","</div>",[_vm._ssrNode("<div data-v-fa38897c><p class=\"strong\" data-v-fa38897c>"+_vm._ssrEscape(_vm._s(item.email))+"</p></div> <div data-v-fa38897c><p data-v-fa38897c>"+_vm._ssrEscape(_vm._s(item.name))+"</p></div> <div data-v-fa38897c><p data-v-fa38897c>"+_vm._ssrEscape(_vm._s(item.surname))+"</p></div> "),_vm._ssrNode("<div data-v-fa38897c>","</div>",[_c('DateFormat',{attrs:{"date":item.created_at,"format":"datetime","classes":"tag gray"}})],1),_vm._ssrNode(" "),_vm._ssrNode("<div data-v-fa38897c>","</div>",[_c('DateFormat',{attrs:{"date":item.last_online_at,"format":"datetime","classes":"tag gray"}})],1),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"grid col-2 auto gap-5 justify-content-start justify-items-start\" data-v-fa38897c>","</div>",[_c('nuxt-link',{staticClass:"button cta small white",attrs:{"to":"/admin/users/detail/" + item.id}},[_vm._v("Upraviť")])],1)],2)})],2)])])],2)])])}
+var ListAllvue_type_template_id_fa38897c_scoped_true_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/admin/users/ListAll.vue?vue&type=template&id=6149538c&scoped=true&
+// CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/admin/users/ListAll.vue?vue&type=template&id=fa38897c&scoped=true&
 
 // EXTERNAL MODULE: ./apps/tulaveknizky.sk/components/_system/DateFormat.vue + 4 modules
-var DateFormat = __webpack_require__(139);
+var DateFormat = __webpack_require__(134);
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/admin/users/ListAll.vue?vue&type=script&lang=js&
 //
@@ -235,11 +237,11 @@ function injectStyles (context) {
 
 var component = Object(componentNormalizer["a" /* default */])(
   users_ListAllvue_type_script_lang_js_,
-  ListAllvue_type_template_id_6149538c_scoped_true_render,
-  ListAllvue_type_template_id_6149538c_scoped_true_staticRenderFns,
+  ListAllvue_type_template_id_fa38897c_scoped_true_render,
+  ListAllvue_type_template_id_fa38897c_scoped_true_staticRenderFns,
   false,
   injectStyles,
-  "6149538c",
+  "fa38897c",
   "dc4fafce"
   
 )

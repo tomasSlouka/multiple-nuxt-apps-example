@@ -20,9 +20,11 @@
                 <div class='grid gap-10 xs-order-1'>
                     <h4>Odkazy</h4>
                     <ul>
-                        <li><nuxt-link to="/knihy">Knihy</nuxt-link></li>
-                        <li><nuxt-link to="/newletter">Newsletter</nuxt-link></li>
-                        <li><nuxt-link to="/blog">Blog</nuxt-link></li>
+                        <li><nuxt-link to="/kniznica">Knižnica</nuxt-link></li>
+                        <li><nuxt-link to="/ako-to-funguje">Ako to funguje?</nuxt-link></li>
+                        <li><nuxt-link to="/blog">Náš blog</nuxt-link></li>
+                        <li><nuxt-link to="/nas-pribeh">Náš príbeh</nuxt-link></li>
+                        <li><nuxt-link to="/newsletter">Novinky emailom</nuxt-link></li>
                     </ul>
                 </div>
 
@@ -30,11 +32,12 @@
                     <h4>Služba</h4>
                     <ul>
                         <!-- <li><nuxt-link to="/faq">FAQ</nuxt-link></li> -->
-                        <li><nuxt-link to="/ako-to-funguje">Ako to funguje?</nuxt-link></li>
-                        <li v-if="$store.getters['auth/isUserLoggedIn']"><nuxt-link to='/admin'>Môj účet</nuxt-link></li>
-                        <li v-else><nuxt-link to='/log-in'>Prihlásenie</nuxt-link></li>
+                        <li v-if="$store.getters['auth/isUserLoggedIn']"><nuxt-link to='/user/account'>Môj účet</nuxt-link></li>
+                        <li v-if="$store.getters['auth/isUserLoggedIn']"><nuxt-link to='/user/books'>Moje knižky</nuxt-link></li>
+                        <li v-if="$store.getters['auth/isUserLoggedIn'] && $store.state.auth.userData.level == 104"><nuxt-link to='/admin'>Administrácia</nuxt-link></li>
+                        <li v-else><nuxt-link to='/prihlasenie'>Prihlásenie</nuxt-link></li>
                         <li v-if="$store.getters['auth/isUserLoggedIn']"><a @click.prevent='logout()'>Odhlásiť sa</a></li>
-                        <li v-else><nuxt-link to="/sign-up">Registrácia</nuxt-link></li>
+                        <li v-else><nuxt-link to="/registracia">Registrácia</nuxt-link></li>
                         <!-- <li><nuxt-link to="/creator">For creator</nuxt-link></li> -->
                         <!-- <li><nuxt-link to="/subscriber">Subscriber</nuxt-link></li> -->
                         <!-- <li><nuxt-link to="/pricing">Pricing</nuxt-link></li> -->
@@ -72,6 +75,25 @@
         </div>
     </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+    }
+  },
+  methods: {
+
+      logout() {
+          console.log('logout')
+          this.$store.dispatch('auth/logout')
+          .then(() => {
+              this.$router.push('/odhlasenie')
+          })
+      }
+  } 
+};
+</script>
 
 <style scoped>
 .logo a {

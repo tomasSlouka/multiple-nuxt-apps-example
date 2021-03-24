@@ -43,7 +43,7 @@ module.exports =
 /******/
 /******/ 		// "0" is the signal for "already loaded"
 /******/ 		if(installedChunks[chunkId] !== 0) {
-/******/ 			var chunk = require("./" + ({"1":"pages/200","2":"pages/403","3":"pages/404","4":"pages/500","5":"pages/admin/categories/add/index","6":"pages/admin/categories/detail/_id/index","7":"pages/admin/categories/index","8":"pages/admin/index","9":"pages/admin/orders/add/index","10":"pages/admin/orders/detail/_id/edit","11":"pages/admin/orders/detail/_id/index","12":"pages/admin/orders/index","13":"pages/admin/stock/add/index","14":"pages/admin/stock/detail/_id/index","15":"pages/admin/stock/index","16":"pages/admin/tags/add/index","17":"pages/admin/tags/detail/_id/index","18":"pages/admin/tags/index","19":"pages/admin/titles/add/index","20":"pages/admin/titles/detail/_id/index","21":"pages/admin/titles/index","22":"pages/admin/users/add/index","23":"pages/admin/users/detail/_id/index","24":"pages/admin/users/index","25":"pages/ako-to-funguje/index","26":"pages/blog/index","27":"pages/index","28":"pages/kniznica/_id/_name/index","29":"pages/kniznica/index","30":"pages/nas-pribeh/index","31":"pages/newsletter/index","32":"pages/odhlasenie/index","33":"pages/prihlasenie/code","34":"pages/prihlasenie/index","35":"pages/registracia/code","36":"pages/registracia/index","37":"pages/user/account/credits/index","38":"pages/user/account/index","39":"pages/user/account/settings/index","40":"pages/user/books/basket/confirm","41":"pages/user/books/basket/delivery","42":"pages/user/books/basket/index","43":"pages/user/books/basket/success","44":"pages/user/books/borrowed/index","45":"pages/user/books/index","46":"pages/user/books/rated/index","47":"pages/user/books/reserved/index","48":"pages/user/books/wishlist/index"}[chunkId]||chunkId) + ".js");
+/******/ 			var chunk = require("./" + ({"1":"pages/200","2":"pages/403","3":"pages/404","4":"pages/500","5":"pages/admin/categories/add/index","6":"pages/admin/categories/detail/_id/index","7":"pages/admin/categories/index","8":"pages/admin/index","9":"pages/admin/orders/add/index","10":"pages/admin/orders/detail/_id/edit","11":"pages/admin/orders/detail/_id/index","12":"pages/admin/orders/index","13":"pages/admin/stock/add/index","14":"pages/admin/stock/detail/_id/index","15":"pages/admin/stock/index","16":"pages/admin/tags/add/index","17":"pages/admin/tags/detail/_id/index","18":"pages/admin/tags/index","19":"pages/admin/titles/add/index","20":"pages/admin/titles/detail/_id/index","21":"pages/admin/titles/index","22":"pages/admin/users/add/index","23":"pages/admin/users/detail/_id/index","24":"pages/admin/users/index","25":"pages/ako-to-funguje/index","26":"pages/blog/index","27":"pages/index","28":"pages/kniznica/_id/_name/index","29":"pages/kniznica/index","30":"pages/najcastejsie-otazky/index","31":"pages/nas-pribeh/index","32":"pages/newsletter/index","33":"pages/odhlasenie/index","34":"pages/prihlasenie/code","35":"pages/prihlasenie/index","36":"pages/registracia/code","37":"pages/registracia/index","38":"pages/user/account/credits/index","39":"pages/user/account/index","40":"pages/user/account/settings/index","41":"pages/user/account/subscription/index","42":"pages/user/books/basket/confirm","43":"pages/user/books/basket/delivery","44":"pages/user/books/basket/index","45":"pages/user/books/basket/success","46":"pages/user/books/borrowed/index","47":"pages/user/books/index","48":"pages/user/books/rated/index","49":"pages/user/books/reserved/index","50":"pages/user/books/wishlist/index"}[chunkId]||chunkId) + ".js");
 /******/ 			var moreModules = chunk.modules, chunkIds = chunk.ids;
 /******/ 			for(var moduleId in moreModules) {
 /******/ 				modules[moduleId] = moreModules[moduleId];
@@ -578,7 +578,7 @@ if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
 var add = __webpack_require__(3).default
 module.exports.__inject__ = function (context) {
-  add("7d951e42", content, true, context)
+  add("60cf93ee", content, true, context)
 };
 
 /***/ }),
@@ -610,7 +610,7 @@ if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
 var add = __webpack_require__(3).default
 module.exports.__inject__ = function (context) {
-  add("1baa2471", content, true, context)
+  add("28fe6bb6", content, true, context)
 };
 
 /***/ }),
@@ -771,9 +771,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(js_cookie__WEBPACK_IMPORTED_MODULE_0__);
 
 /* harmony default export */ __webpack_exports__["default"] = (function (context) {
-  console.log('[Middleware] The check-userdata Middleware is running'); // if (!req.headers.cookie) { return; }
-  // auth_token = Cookie.get('app.auth_token')
-  // console.log(Cookie.get('app.auth_token'))
+  console.log('[Middleware] The check-userdata Middleware is running');
 
   if (false) {}
 
@@ -858,7 +856,7 @@ var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(2);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap);"]);
 // Module
-exports.push([module.i, "a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;vertical-align:baseline}div{box-sizing:border-box}#used-layout{background-color:#000;color:#fff;display:none}body{color:#333;font-size:16px;line-height:1.688em;font-weight:400}body,h1,h2,h3,h4,h5,h6{font-family:\"Open sans\",sans-serif}h1,h2,h3,h4,h5,h6{line-height:1.4em}.h1,h1{font-size:2.063em;line-height:1.576em}.h1,.h2,h1,h2{font-weight:700}.h2,h2{font-size:1.625em;line-height:1.615em}.h3,h3{font-size:1.25em;line-height:1.65em}.h3,.h4,h3,h4{font-weight:600}.h4,h4{font-size:1em;line-height:1.688em}.h5,h5{font-size:.813em;font-weight:600;line-height:1.769em}.container-wide{max-width:100%;padding:20px;margin:80px auto}.container-standard{max-width:1200px;padding:20px;margin:80px auto}.container-hero{max-width:1200px;padding:20px;margin:40px auto}.container-narrow{max-width:976px;padding:20px;margin:80px auto}p{color:rgba(0,0,0,.72)}a.smaller,p.smaller{font-size:.713em;line-height:1.569em}a.small,p.small{font-size:.813em;line-height:1.769em}a,a.normal,p,p.normal{font-size:1em;line-height:1.688em}a.big,p.big{font-size:1.25em;line-height:1.65em}.gray,p.gray{color:#545454}.green,p.green{color:#39ac37}.red,p.red{color:#dc0016}a,p>a{color:#333;text-decoration:underline;font-weight:400;transition:.3s}a:hover,p>a:hover{text-decoration:none}a.white,p>a.white{color:#fff;text-decoration:underline}a.white:hover,p>a.white:hover{text-decoration:none}.button,button{font-family:\"Open sans\",sans-serif;cursor:pointer;transition:.3s;font-size:1em;line-height:1.688em;text-align:center;display:inline-block}.button.cta,button.cta{background:#39ac37;border:1px solid #39ac37;color:#fff;border-radius:2px;padding:10px 30px;font-weight:600;outline:none;text-decoration:none}.button.cta.white,button.cta.white{background:#fff;color:#000}.button.cta.black,.button.cta.white,button.cta.black,button.cta.white{border:1px solid #000;border-radius:2px;padding:10px 30px;font-weight:600;outline:none;text-decoration:none}.button.cta.black,button.cta.black{background:#000;color:#fff}.button.cta.red,button.cta.red{background:#fff;border:1px solid rgba(215,58,74,.48627);color:rgba(215,58,74,.48627);border-radius:2px;padding:10px 30px;font-weight:600;outline:none;text-decoration:none}.button.cta:hover,button.cta:hover{background:#000;border:1px solid #000}.button.cta.white:hover,button.cta.white:hover{background:#000;border:1px solid #000;color:#fff}.button.cta.black:hover,button.cta.black:hover{background:#333;border:1px solid #333;color:#fff}.button.cta.red:hover,button.cta.red:hover{background:#d73a4a;border:1px solid rgba(215,58,74,.48627);color:#fff}.button.small,button.small{padding:2px 8px!important;font-size:12px!important;font-weight:600!important;text-decoration:none}.button.big,button.big{padding:15px 50px!important;font-size:18px!important;font-weight:600!important;text-decoration:none}input,select{height:45px}.textarea,input,select,textarea{background:#fff;color:#000;border:1px solid #eee;border-left:2px solid #ffd401;border-radius:2px;padding:10px;font-size:1em;line-height:1.688em;font-weight:400;outline:none;display:block;width:100%;max-width:100%;font-family:\"Open sans\",sans-serif;box-sizing:border-box;transition:all .2s cubic-bezier(.165,.84,.44,1)}.textarea,textarea{position:relative;min-height:136.3px;word-wrap:break-word}.textarea.long,textarea.long{min-height:408.9px}input::-moz-placeholder,select::-moz-placeholder,textarea::-moz-placeholder{color:#ccc;font-size:14px;font-weight:400;font-family:\"Open sans\",sans-serif}input:-ms-input-placeholder,select:-ms-input-placeholder,textarea:-ms-input-placeholder{color:#ccc;font-size:14px;font-weight:400;font-family:\"Open sans\",sans-serif}input::placeholder,select::placeholder,textarea::placeholder{color:#ccc;font-size:14px;font-weight:400;font-family:\"Open sans\",sans-serif}input:focus,select:focus,textarea:focus{font-weight:400;font-family:\"Open sans\",sans-serif;background:#fff;color:#000;box-shadow:0 .125rem .125rem rgba(245,239,189,.1);border-left:4px solid #ffd401}label{font-size:.813em;line-height:1.769em;color:#000}label.normal{font-size:1em;line-height:1.688em;color:#000}img{border-radius:9px;width:auto;max-width:100%}.hr{width:100%;border-bottom:1px solid #f5f5f5}a{cursor:pointer}.table-wrapper{max-width:1160px;min-width:auto;overflow:auto}.table-wrapper>div.table{min-width:1160px}.table{box-shadow:0 0 20px -14px hsla(0,0%,88.6%,.63922);background-color:rgba(249,249,250,0);border-radius:4px;border:1px solid #eaeaea}.table>div.table-head{font-weight:600}.table>div.table-head>div{border-bottom:1px solid #eaeaea;background-color:hsla(0,0%,91.8%,.18824)}.table>div.table-head,.table>div.table-row{display:contents!important}.table>div.table-head>div,.table>div.table-row>div{padding:10px 15px;border-right:1px solid #eaeaea;height:100%;display:grid;align-items:center}.table>div.table-head>div:last-child,.table>div.table-row>div:last-child{border-right:0}.table>div.table-head:hover>div,.table>div.table-row:hover>div{background-color:hsla(0,0%,91.8%,.18824)}@media only screen and (max-width:576px){.table{justify-content:stretch}}@media only screen and (min-width:768px){.table-wrapper{min-width:100%;max-width:100%}.table-wrapper>div.table{min-width:100%}}span.status,span.tag{font-size:12px;line-height:18px;font-weight:400;border-radius:2px;padding:4px 8px;margin:2px;border:1px solid #e8e8e8;display:inline-block;text-align:center}span.status{border:0;border-left:5px solid #e8e8e8;text-align:left;border-radius:0}span.tag.yellow{background-color:#fff4bf;color:#000}span.tag.gray{background-color:hsla(0,0%,91.8%,.56471);color:#000}span.tag.white{background-color:#fff;color:#000}span.status.orange{border-left-color:orange;color:orange}span.status.red{border-left-color:red;color:red}span.status.yellow{border-left-color:gold;color:gold}span.status.green{border-left-color:green;color:green}span.status.gray{border-left-color:grey;color:grey}p.success{color:#000;color:#39ac37;padding:6px 15px;border-radius:4px}p.success>a{color:#000;text-decoration:none;font-weight:600}p.error{color:#d73a4a;padding:6px 15px}p.error>a{color:#000;text-decoration:none;font-weight:600}p.note{background-color:#f9f9fa;color:#bbb;padding:6px 15px;border-radius:4px;display:inline-block}p.note>a{color:#30e7b6;text-decoration:none}.box-form{border:1px solid #eaeaea;border-bottom:6px solid #eee;padding:30px;border-radius:4px}.tags>div.tag{margin:3px;border:1px solid #eee;background-color:#fff;padding:10px 15px;color:#000;border-radius:2px;cursor:pointer}.tags>div.tag.active{border:1px solid #ffd401;background-color:#fff4bf;color:#333}.tags>div.tag.active:hover,.tags>div.tag:hover{border:1px solid #000;background-color:#000;color:#fff}", ""]);
+exports.push([module.i, "a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;vertical-align:baseline}div{box-sizing:border-box}#used-layout{background-color:#000;color:#fff;display:none}body{color:#333;font-size:16px;line-height:1.688em;font-weight:400}body,h1,h2,h3,h4,h5,h6{font-family:\"Open sans\",sans-serif}h1,h2,h3,h4,h5,h6{line-height:1.4em}.h1,h1{font-size:2.063em;line-height:1.576em}.h1,.h2,h1,h2{font-weight:700}.h2,h2{font-size:1.625em;line-height:1.615em}.h3,h3{font-size:1.25em;line-height:1.65em}.h3,.h4,h3,h4{font-weight:600}.h4,h4{font-size:1em;line-height:1.688em}.h5,h5{font-size:.813em;font-weight:600;line-height:1.769em}.container-wide{max-width:100%;padding:20px;margin:80px auto}.container-standard{max-width:1200px;padding:20px;margin:80px auto}.container-hero{max-width:1200px;padding:20px;margin:40px auto}.container-narrow{max-width:976px;padding:20px;margin:80px auto}p{color:rgba(0,0,0,.72)}a.smaller,p.smaller{font-size:.713em;line-height:1.569em}a.small,p.small{font-size:.813em;line-height:1.769em}a,a.normal,p,p.normal{font-size:1em;line-height:1.688em}a.big,p.big{font-size:1.25em;line-height:1.65em}.gray,p.gray{color:#545454}.green,p.green{color:#39ac37}.red,p.red{color:#dc0016}a,p>a{color:#333;text-decoration:underline;font-weight:400;transition:.3s}a:hover,p>a:hover{text-decoration:none}a.white,p>a.white{color:#fff;text-decoration:underline}a.white:hover,p>a.white:hover{text-decoration:none}.button,button{font-family:\"Open sans\",sans-serif;cursor:pointer;transition:.3s;font-size:1em;line-height:1.688em;text-align:center;display:inline-block}.button.cta,button.cta{background:#39ac37;border:1px solid #39ac37;color:#fff;border-radius:2px;padding:10px 30px;font-weight:600;outline:none;text-decoration:none}.button.cta.white,button.cta.white{background:#fff;color:#000}.button.cta.black,.button.cta.white,button.cta.black,button.cta.white{border:1px solid #000;border-radius:2px;padding:10px 30px;font-weight:600;outline:none;text-decoration:none}.button.cta.black,button.cta.black{background:#000;color:#fff}.button.cta.red,button.cta.red{background:#fff;border:1px solid rgba(215,58,74,.48627);color:rgba(215,58,74,.48627);border-radius:2px;padding:10px 30px;font-weight:600;outline:none;text-decoration:none}.button.cta:hover,button.cta:hover{background:#000;border:1px solid #000}.button.cta.white:hover,button.cta.white:hover{background:#000;border:1px solid #000;color:#fff}.button.cta.black:hover,button.cta.black:hover{background:#333;border:1px solid #333;color:#fff}.button.cta.red:hover,button.cta.red:hover{background:#d73a4a;border:1px solid rgba(215,58,74,.48627);color:#fff}.button.small,button.small{padding:2px 8px!important;font-size:12px!important;font-weight:600!important;text-decoration:none}.button.big,button.big{padding:15px 50px!important;font-size:18px!important;font-weight:600!important;text-decoration:none}input,select{height:45px}.textarea,input,select,textarea{background:#fff;color:#000;border:1px solid #eee;border-left:2px solid #ffd401;border-radius:2px;padding:10px;font-size:1em;line-height:1.688em;font-weight:400;outline:none;display:block;width:100%;max-width:100%;font-family:\"Open sans\",sans-serif;box-sizing:border-box;transition:all .2s cubic-bezier(.165,.84,.44,1)}.textarea,textarea{position:relative;min-height:136.3px;word-wrap:break-word}.textarea.long,textarea.long{min-height:408.9px}input::-moz-placeholder,select::-moz-placeholder,textarea::-moz-placeholder{color:#ccc;font-size:14px;font-weight:400;font-family:\"Open sans\",sans-serif}input:-ms-input-placeholder,select:-ms-input-placeholder,textarea:-ms-input-placeholder{color:#ccc;font-size:14px;font-weight:400;font-family:\"Open sans\",sans-serif}input::placeholder,select::placeholder,textarea::placeholder{color:#ccc;font-size:14px;font-weight:400;font-family:\"Open sans\",sans-serif}input:focus,select:focus,textarea:focus{font-weight:400;font-family:\"Open sans\",sans-serif;background:#fff;color:#000;box-shadow:0 .125rem .125rem rgba(245,239,189,.1);border-left:4px solid #ffd401}label{font-size:.813em;line-height:1.769em;color:#000}label.normal{font-size:1em;line-height:1.688em;color:#000}img{border-radius:9px;width:auto;max-width:100%}.hr{width:100%;border-bottom:1px solid #f5f5f5}a{cursor:pointer}.table-wrapper{max-width:1160px;min-width:auto;overflow:auto}.table-wrapper>div.table{min-width:1160px}.table{box-shadow:0 0 20px -14px hsla(0,0%,88.6%,.63922);background-color:rgba(249,249,250,0);border-radius:4px;border:1px solid #eaeaea}.table>div.table-head{font-weight:600}.table>div.table-head>div{border-bottom:1px solid #eaeaea;background-color:hsla(0,0%,91.8%,.18824)}.table>div.table-head,.table>div.table-row{display:contents!important}.table>div.table-head>div,.table>div.table-row>div{padding:10px 15px;border-right:1px solid #eaeaea;height:100%;display:grid;align-items:center}.table>div.table-head>div:last-child,.table>div.table-row>div:last-child{border-right:0}.table>div.table-head:hover>div,.table>div.table-row:hover>div{background-color:hsla(0,0%,91.8%,.18824)}@media only screen and (max-width:576px){.table{justify-content:stretch}}@media only screen and (min-width:768px){.table-wrapper{min-width:100%;max-width:100%}.table-wrapper>div.table{min-width:100%}}span.status,span.tag{font-size:12px;line-height:18px;font-weight:400;border-radius:2px;padding:4px 8px;margin:2px;border:1px solid #e8e8e8;display:inline-block;text-align:center}span.status{border:0;border-left:5px solid #e8e8e8;text-align:left;border-radius:0}span.tag.yellow{background-color:#fff4bf;color:#000}span.tag.gray{background-color:hsla(0,0%,91.8%,.56471);color:#000}span.tag.white{background-color:#fff;color:#000}span.status.orange{border-left-color:orange;color:orange}span.status.red{border-left-color:red;color:red}span.status.yellow{border-left-color:gold;color:gold}span.status.green{border-left-color:green;color:green}span.status.gray{border-left-color:grey;color:grey}p.success{color:#000;color:#39ac37;padding:6px 15px;border-radius:4px}p.success>a{color:#000;text-decoration:none;font-weight:600}p.error{color:#d73a4a;padding:6px 15px}p.error>a{color:#000;text-decoration:none;font-weight:600}p.note{background-color:#f9f9fa;color:#bbb;padding:6px 15px;border-radius:4px;display:inline-block}p.note>a{color:#30e7b6;text-decoration:none}.box-form{border:1px solid #eaeaea;border-bottom:6px solid #eee;padding:30px;border-radius:4px}.tags>div.tag{margin:3px;border:1px solid #eee;background-color:#fff;padding:10px 15px;color:#000;border-radius:2px;cursor:pointer}.tags>div.tag.active{border:1px solid #ffd401;background-color:#fff4bf;color:#333}.tags>div.tag.active:hover,.tags>div.tag:hover{border:1px solid #000;background-color:#000;color:#fff}.icon{height:10px;border-radius:0}", ""]);
 // Exports
 module.exports = exports;
 
@@ -1029,9 +1027,9 @@ module.exports = exports;
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Sidebar_vue_vue_type_style_index_0_id_365cf1f3_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(16);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Sidebar_vue_vue_type_style_index_0_id_365cf1f3_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Sidebar_vue_vue_type_style_index_0_id_365cf1f3_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Sidebar_vue_vue_type_style_index_0_id_365cf1f3_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Sidebar_vue_vue_type_style_index_0_id_365cf1f3_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Sidebar_vue_vue_type_style_index_0_id_18003f16_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(16);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Sidebar_vue_vue_type_style_index_0_id_18003f16_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Sidebar_vue_vue_type_style_index_0_id_18003f16_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Sidebar_vue_vue_type_style_index_0_id_18003f16_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Sidebar_vue_vue_type_style_index_0_id_18003f16_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
@@ -1042,7 +1040,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(2);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".sidenav-backdrop[data-v-365cf1f3],.sidenav-container[data-v-365cf1f3]{height:100%;width:100%}.sidenav-backdrop[data-v-365cf1f3]{background-color:hsla(0,0%,90.6%,.7);z-index:1000;position:fixed;top:0;left:0}.sidenav>ul[data-v-365cf1f3]{list-style:none;margin:0;padding:0}.sidenav>ul>li>a[data-v-365cf1f3]{color:#000;font-size:16px;line-height:23px;font-weight:500;text-decoration:none;transition:.3s}.sidenav[data-v-365cf1f3]{height:100%;width:300px;background-color:#fff;z-index:10000;position:fixed;top:0;right:0;box-sizing:border-box;padding:30px}.slide-side-enter-active[data-v-365cf1f3],.slide-side-leave-active[data-v-365cf1f3]{transition:all .3s ease-out}.slide-side-enter[data-v-365cf1f3],.slide-side-leave-to[data-v-365cf1f3]{transform:translateX(100%)}.logo-text[data-v-365cf1f3]{max-height:45px}.logo-icon[data-v-365cf1f3],.logo-text[data-v-365cf1f3]{border:0;border-radius:0}.logo-icon[data-v-365cf1f3]{max-height:35px}.logo a[data-v-365cf1f3]{text-decoration:none}", ""]);
+exports.push([module.i, ".sidenav-backdrop[data-v-18003f16],.sidenav-container[data-v-18003f16]{height:100%;width:100%}.sidenav-backdrop[data-v-18003f16]{background-color:hsla(0,0%,90.6%,.7);z-index:1000;position:fixed;top:0;left:0}.sidenav>ul[data-v-18003f16]{list-style:none;margin:0;padding:0}.sidenav>ul>li>a[data-v-18003f16]{color:#000;font-size:16px;line-height:23px;font-weight:500;text-decoration:none;transition:.3s}.sidenav[data-v-18003f16]{height:100%;width:300px;background-color:#fff;z-index:10000;position:fixed;top:0;right:0;box-sizing:border-box;padding:30px}.slide-side-enter-active[data-v-18003f16],.slide-side-leave-active[data-v-18003f16]{transition:all .3s ease-out}.slide-side-enter[data-v-18003f16],.slide-side-leave-to[data-v-18003f16]{transform:translateX(100%)}.logo-text[data-v-18003f16]{max-height:45px}.logo-icon[data-v-18003f16],.logo-text[data-v-18003f16]{border:0;border-radius:0}.logo-icon[data-v-18003f16]{max-height:35px}.logo a[data-v-18003f16]{text-decoration:none}", ""]);
 // Exports
 module.exports = exports;
 
@@ -1083,9 +1081,9 @@ module.exports = __webpack_require__.p + "img/logo-white.f9e0f58.svg";
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Footer_vue_vue_type_style_index_0_id_6048e921_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(18);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Footer_vue_vue_type_style_index_0_id_6048e921_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Footer_vue_vue_type_style_index_0_id_6048e921_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Footer_vue_vue_type_style_index_0_id_6048e921_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Footer_vue_vue_type_style_index_0_id_6048e921_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Footer_vue_vue_type_style_index_0_id_2b2e03dc_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(18);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Footer_vue_vue_type_style_index_0_id_2b2e03dc_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Footer_vue_vue_type_style_index_0_id_2b2e03dc_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Footer_vue_vue_type_style_index_0_id_2b2e03dc_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Footer_vue_vue_type_style_index_0_id_2b2e03dc_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
@@ -1096,7 +1094,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(2);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".logo a[data-v-6048e921]{text-decoration:none}.logo img[data-v-6048e921]{max-height:60px}#footer[data-v-6048e921]{background-color:#000;padding-bottom:40px}#footer[data-v-6048e921],#footer p[data-v-6048e921]{color:hsla(0,0%,100%,.72157)}h4[data-v-6048e921]{color:#fff}#footer>.container-narrow[data-v-6048e921]{margin-bottom:0}ul[data-v-6048e921]{list-style-type:none}li[data-v-6048e921]{margin-bottom:5px}li>a[data-v-6048e921]{color:inherit;text-decoration:none;display:block;padding:5px;transition:.3s;left:0;color:hsla(0,0%,100%,.72157)}li>a[data-v-6048e921],li>a[data-v-6048e921]:hover{position:relative}li>a[data-v-6048e921]:hover{left:5px;color:#fff}p.contact[data-v-6048e921]{color:hsla(0,0%,100%,.72157)}p.contact a[data-v-6048e921]{color:#ffd401}", ""]);
+exports.push([module.i, ".logo a[data-v-2b2e03dc]{text-decoration:none}.logo img[data-v-2b2e03dc]{max-height:60px}#footer[data-v-2b2e03dc]{background-color:#000;padding-bottom:40px}#footer[data-v-2b2e03dc],#footer p[data-v-2b2e03dc]{color:hsla(0,0%,100%,.72157)}h4[data-v-2b2e03dc]{color:#fff}#footer>.container-narrow[data-v-2b2e03dc]{margin-bottom:0}ul[data-v-2b2e03dc]{list-style-type:none}li[data-v-2b2e03dc]{margin-bottom:5px}li>a[data-v-2b2e03dc]{color:inherit;text-decoration:none;display:block;padding:5px;transition:.3s;left:0;color:hsla(0,0%,100%,.72157)}li>a[data-v-2b2e03dc],li>a[data-v-2b2e03dc]:hover{position:relative}li>a[data-v-2b2e03dc]:hover{left:5px;color:#fff}p.contact[data-v-2b2e03dc]{color:hsla(0,0%,100%,.72157)}p.contact a[data-v-2b2e03dc]{color:#ffd401}", ""]);
 // Exports
 module.exports = exports;
 
@@ -3157,101 +3155,105 @@ if (false) {}
 
 
 
-const _ee460050 = () => interopDefault(__webpack_require__.e(/* import() | pages/200 */ 1).then(__webpack_require__.bind(null, 256)));
+const _ee460050 = () => interopDefault(__webpack_require__.e(/* import() | pages/200 */ 1).then(__webpack_require__.bind(null, 272)));
 
-const _1a588646 = () => interopDefault(__webpack_require__.e(/* import() | pages/403 */ 2).then(__webpack_require__.bind(null, 257)));
+const _1a588646 = () => interopDefault(__webpack_require__.e(/* import() | pages/403 */ 2).then(__webpack_require__.bind(null, 273)));
 
-const _1a3c5744 = () => interopDefault(__webpack_require__.e(/* import() | pages/404 */ 3).then(__webpack_require__.bind(null, 258)));
+const _1a3c5744 = () => interopDefault(__webpack_require__.e(/* import() | pages/404 */ 3).then(__webpack_require__.bind(null, 274)));
 
-const _278fb19b = () => interopDefault(__webpack_require__.e(/* import() | pages/500 */ 4).then(__webpack_require__.bind(null, 259)));
+const _278fb19b = () => interopDefault(__webpack_require__.e(/* import() | pages/500 */ 4).then(__webpack_require__.bind(null, 275)));
 
-const _4bf89126 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/index */ 8).then(__webpack_require__.bind(null, 241)));
+const _4bf89126 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/index */ 8).then(__webpack_require__.bind(null, 258)));
 
-const _811b96cc = () => interopDefault(__webpack_require__.e(/* import() | pages/ako-to-funguje/index */ 25).then(__webpack_require__.bind(null, 242)));
+const _811b96cc = () => interopDefault(__webpack_require__.e(/* import() | pages/ako-to-funguje/index */ 25).then(__webpack_require__.bind(null, 227)));
 
-const _8d0336d4 = () => interopDefault(__webpack_require__.e(/* import() | pages/blog/index */ 26).then(__webpack_require__.bind(null, 243)));
+const _8d0336d4 = () => interopDefault(__webpack_require__.e(/* import() | pages/blog/index */ 26).then(__webpack_require__.bind(null, 259)));
 
-const _0e98a5aa = () => interopDefault(__webpack_require__.e(/* import() | pages/kniznica/index */ 29).then(__webpack_require__.bind(null, 244)));
+const _0e98a5aa = () => interopDefault(__webpack_require__.e(/* import() | pages/kniznica/index */ 29).then(__webpack_require__.bind(null, 260)));
 
-const _3c907c4d = () => interopDefault(__webpack_require__.e(/* import() | pages/nas-pribeh/index */ 30).then(__webpack_require__.bind(null, 245)));
+const _25a609b7 = () => interopDefault(__webpack_require__.e(/* import() | pages/najcastejsie-otazky/index */ 30).then(__webpack_require__.bind(null, 261)));
 
-const _258ba89f = () => interopDefault(__webpack_require__.e(/* import() | pages/newsletter/index */ 31).then(__webpack_require__.bind(null, 246)));
+const _3c907c4d = () => interopDefault(__webpack_require__.e(/* import() | pages/nas-pribeh/index */ 31).then(__webpack_require__.bind(null, 262)));
 
-const _f99f9130 = () => interopDefault(__webpack_require__.e(/* import() | pages/odhlasenie/index */ 32).then(__webpack_require__.bind(null, 214)));
+const _258ba89f = () => interopDefault(__webpack_require__.e(/* import() | pages/newsletter/index */ 32).then(__webpack_require__.bind(null, 263)));
 
-const _d179b20c = () => interopDefault(__webpack_require__.e(/* import() | pages/prihlasenie/index */ 34).then(__webpack_require__.bind(null, 215)));
+const _f99f9130 = () => interopDefault(__webpack_require__.e(/* import() | pages/odhlasenie/index */ 33).then(__webpack_require__.bind(null, 229)));
 
-const _3f3bbc66 = () => interopDefault(__webpack_require__.e(/* import() | pages/registracia/index */ 36).then(__webpack_require__.bind(null, 216)));
+const _d179b20c = () => interopDefault(__webpack_require__.e(/* import() | pages/prihlasenie/index */ 35).then(__webpack_require__.bind(null, 230)));
 
-const _6ee93fd1 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/categories/index */ 7).then(__webpack_require__.bind(null, 217)));
+const _3f3bbc66 = () => interopDefault(__webpack_require__.e(/* import() | pages/registracia/index */ 37).then(__webpack_require__.bind(null, 231)));
 
-const _6ff934e8 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/orders/index */ 12).then(__webpack_require__.bind(null, 218)));
+const _6ee93fd1 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/categories/index */ 7).then(__webpack_require__.bind(null, 232)));
 
-const _0193909e = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/stock/index */ 15).then(__webpack_require__.bind(null, 219)));
+const _6ff934e8 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/orders/index */ 12).then(__webpack_require__.bind(null, 233)));
 
-const _7d41fff4 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/tags/index */ 18).then(__webpack_require__.bind(null, 220)));
+const _0193909e = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/stock/index */ 15).then(__webpack_require__.bind(null, 234)));
 
-const _796cde1c = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/titles/index */ 21).then(__webpack_require__.bind(null, 221)));
+const _7d41fff4 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/tags/index */ 18).then(__webpack_require__.bind(null, 235)));
 
-const _65e19502 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/users/index */ 24).then(__webpack_require__.bind(null, 222)));
+const _796cde1c = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/titles/index */ 21).then(__webpack_require__.bind(null, 236)));
 
-const _5abc6916 = () => interopDefault(__webpack_require__.e(/* import() | pages/prihlasenie/code */ 33).then(__webpack_require__.bind(null, 223)));
+const _65e19502 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/users/index */ 24).then(__webpack_require__.bind(null, 237)));
 
-const _606a4eee = () => interopDefault(__webpack_require__.e(/* import() | pages/registracia/code */ 35).then(__webpack_require__.bind(null, 224)));
+const _5abc6916 = () => interopDefault(__webpack_require__.e(/* import() | pages/prihlasenie/code */ 34).then(__webpack_require__.bind(null, 238)));
 
-const _e7ce68cc = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/index */ 38).then(__webpack_require__.bind(null, 247)));
+const _606a4eee = () => interopDefault(__webpack_require__.e(/* import() | pages/registracia/code */ 36).then(__webpack_require__.bind(null, 239)));
 
-const _f6b1e386 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/index */ 45).then(__webpack_require__.bind(null, 248)));
+const _e7ce68cc = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/index */ 39).then(__webpack_require__.bind(null, 264)));
 
-const _7cafbaa2 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/categories/add/index */ 5).then(__webpack_require__.bind(null, 225)));
+const _f6b1e386 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/index */ 47).then(__webpack_require__.bind(null, 265)));
 
-const _07905beb = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/orders/add/index */ 9).then(__webpack_require__.bind(null, 226)));
+const _7cafbaa2 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/categories/add/index */ 5).then(__webpack_require__.bind(null, 240)));
 
-const _3722aec2 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/stock/add/index */ 13).then(__webpack_require__.bind(null, 227)));
+const _07905beb = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/orders/add/index */ 9).then(__webpack_require__.bind(null, 241)));
 
-const _f8eecf42 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/tags/add/index */ 16).then(__webpack_require__.bind(null, 228)));
+const _3722aec2 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/stock/add/index */ 13).then(__webpack_require__.bind(null, 242)));
 
-const _5529f621 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/titles/add/index */ 19).then(__webpack_require__.bind(null, 229)));
+const _f8eecf42 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/tags/add/index */ 16).then(__webpack_require__.bind(null, 243)));
 
-const _69e621b4 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/users/add/index */ 22).then(__webpack_require__.bind(null, 230)));
+const _5529f621 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/titles/add/index */ 19).then(__webpack_require__.bind(null, 244)));
 
-const _fb420a40 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/credits/index */ 37).then(__webpack_require__.bind(null, 249)));
+const _69e621b4 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/users/add/index */ 22).then(__webpack_require__.bind(null, 245)));
 
-const _23c95417 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/settings/index */ 39).then(__webpack_require__.bind(null, 250)));
+const _fb420a40 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/credits/index */ 38).then(__webpack_require__.bind(null, 246)));
 
-const _b96e0392 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/basket/index */ 42).then(__webpack_require__.bind(null, 251)));
+const _23c95417 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/settings/index */ 40).then(__webpack_require__.bind(null, 266)));
 
-const _62f79d29 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/borrowed/index */ 44).then(__webpack_require__.bind(null, 252)));
+const _473d9edd = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/subscription/index */ 41).then(__webpack_require__.bind(null, 247)));
 
-const _36df4db3 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/rated/index */ 46).then(__webpack_require__.bind(null, 253)));
+const _b96e0392 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/basket/index */ 44).then(__webpack_require__.bind(null, 267)));
 
-const _d03e1a56 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/reserved/index */ 47).then(__webpack_require__.bind(null, 254)));
+const _62f79d29 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/borrowed/index */ 46).then(__webpack_require__.bind(null, 268)));
 
-const _460ef418 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/wishlist/index */ 48).then(__webpack_require__.bind(null, 255)));
+const _36df4db3 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/rated/index */ 48).then(__webpack_require__.bind(null, 269)));
 
-const _0f2b5436 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/basket/confirm */ 40).then(__webpack_require__.bind(null, 231)));
+const _d03e1a56 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/reserved/index */ 49).then(__webpack_require__.bind(null, 270)));
 
-const _79b7acc2 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/basket/delivery */ 41).then(__webpack_require__.bind(null, 232)));
+const _460ef418 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/wishlist/index */ 50).then(__webpack_require__.bind(null, 271)));
 
-const _cf6b54b0 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/basket/success */ 43).then(__webpack_require__.bind(null, 233)));
+const _0f2b5436 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/basket/confirm */ 42).then(__webpack_require__.bind(null, 248)));
 
-const _08eefe8c = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/categories/detail/_id/index */ 6).then(__webpack_require__.bind(null, 234)));
+const _79b7acc2 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/basket/delivery */ 43).then(__webpack_require__.bind(null, 249)));
 
-const _10886dfa = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/orders/detail/_id/index */ 11).then(__webpack_require__.bind(null, 235)));
+const _cf6b54b0 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/basket/success */ 45).then(__webpack_require__.bind(null, 250)));
 
-const _3355564c = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/stock/detail/_id/index */ 14).then(__webpack_require__.bind(null, 236)));
+const _08eefe8c = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/categories/detail/_id/index */ 6).then(__webpack_require__.bind(null, 251)));
 
-const _34ba5177 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/tags/detail/_id/index */ 17).then(__webpack_require__.bind(null, 237)));
+const _10886dfa = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/orders/detail/_id/index */ 11).then(__webpack_require__.bind(null, 252)));
 
-const _0d8acd39 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/titles/detail/_id/index */ 20).then(__webpack_require__.bind(null, 238)));
+const _3355564c = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/stock/detail/_id/index */ 14).then(__webpack_require__.bind(null, 253)));
 
-const _4837b5cc = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/users/detail/_id/index */ 23).then(__webpack_require__.bind(null, 239)));
+const _34ba5177 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/tags/detail/_id/index */ 17).then(__webpack_require__.bind(null, 254)));
 
-const _5031ade9 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/orders/detail/_id/edit */ 10).then(__webpack_require__.bind(null, 240)));
+const _0d8acd39 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/titles/detail/_id/index */ 20).then(__webpack_require__.bind(null, 255)));
 
-const _9be1bd8a = () => interopDefault(__webpack_require__.e(/* import() | pages/kniznica/_id/_name/index */ 28).then(__webpack_require__.bind(null, 212)));
+const _4837b5cc = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/users/detail/_id/index */ 23).then(__webpack_require__.bind(null, 256)));
 
-const _35182910 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 27).then(__webpack_require__.bind(null, 213))); // TODO: remove in Nuxt 3
+const _5031ade9 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/orders/detail/_id/edit */ 10).then(__webpack_require__.bind(null, 257)));
+
+const _9be1bd8a = () => interopDefault(__webpack_require__.e(/* import() | pages/kniznica/_id/_name/index */ 28).then(__webpack_require__.bind(null, 226)));
+
+const _35182910 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 27).then(__webpack_require__.bind(null, 228))); // TODO: remove in Nuxt 3
 
 
 const emptyFn = () => {};
@@ -3301,6 +3303,10 @@ const routerOptions = {
     path: "/kniznica",
     component: _0e98a5aa,
     name: "kniznica"
+  }, {
+    path: "/najcastejsie-otazky",
+    component: _25a609b7,
+    name: "najcastejsie-otazky"
   }, {
     path: "/nas-pribeh",
     component: _3c907c4d,
@@ -3393,6 +3399,10 @@ const routerOptions = {
     path: "/user/account/settings",
     component: _23c95417,
     name: "user-account-settings"
+  }, {
+    path: "/user/account/subscription",
+    component: _473d9edd,
+    name: "user-account-subscription"
   }, {
     path: "/user/books/basket",
     component: _b96e0392,
@@ -4134,14 +4144,15 @@ var Topbar_component = Object(componentNormalizer["a" /* default */])(
 )
 
 /* harmony default export */ var Topbar = (Topbar_component.exports);
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/page/_common/Sidebar.vue?vue&type=template&id=365cf1f3&scoped=true&
-var Sidebarvue_type_template_id_365cf1f3_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"sidenav-container"},[_vm._ssrNode("<div class=\"sidenav-backdrop\""+(_vm._ssrStyle(null,null, { display: (_vm.show) ? '' : 'none' }))+" data-v-365cf1f3></div> "),_c('transition',{attrs:{"name":"slide-side"}},[_c('div',{directives:[{name:"show",rawName:"v-show",value:(_vm.show),expression:"show"}],staticClass:"sidenav grid gap-20 align-content-start"},[_c('div',{staticClass:"logo justify-self-start"},[_c('nuxt-link',{staticClass:"grid gap-10 col-2 auto align-items-center",attrs:{"to":"/"}},[_c('img',{staticClass:"logo-icon",attrs:{"src":__webpack_require__(10),"alt":""}}),_vm._v(" "),_c('img',{staticClass:"logo-text",attrs:{"src":__webpack_require__(14),"alt":""}})])],1),_vm._v(" "),_c('div',{staticClass:"hr"}),_vm._v(" "),(_vm.$store.getters['auth/isUserLoggedIn'])?_c('ul',{staticClass:"grid col-1 gap-20"},[(_vm.showLevel)?_c('li',{on:{"click":function($event){return _vm.changeLinkLevel(null)}}},[_vm._v("Späť")]):_vm._e(),_vm._v(" "),(_vm.showLevel)?_c('div',{staticClass:"hr"}):_vm._e(),_vm._v(" "),(_vm.showLevel === null)?_c('li',{on:{"click":function($event){return _vm.changeLinkLevel("knihy")}}},[_vm._v("Knižnica")]):_vm._e(),_vm._v(" "),(_vm.showLevel === 'knihy')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{attrs:{"to":"/kniznica"}},[_vm._v("Všetky knižky")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === null && _vm.$store.state.auth.userData.level == 104)?_c('li',{on:{"click":function($event){return _vm.changeLinkLevel("admin")}}},[_vm._v("Administrácia")]):_vm._e(),_vm._v(" "),(_vm.showLevel === 'admin')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/admin/orders"}},[_vm._v("Objednávky")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'admin')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/admin/categories"}},[_vm._v("Kategórie")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'admin')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/admin/tags"}},[_vm._v("Značky")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'admin')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/admin/titles"}},[_vm._v("Knižné tituly")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'admin')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/admin/stock"}},[_vm._v("Sklad")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'admin')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/admin/users"}},[_vm._v("Používatelia")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === null)?_c('li',{on:{"click":function($event){return _vm.changeLinkLevel("mojeknizky")}}},[_vm._v("Moje knižky")]):_vm._e(),_vm._v(" "),(_vm.showLevel === 'mojeknizky')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/user/books/basket"}},[_vm._v("Batôžtek (košík)")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'mojeknizky')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/user/books/borrowed"}},[_vm._v("Požičané knižky")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'mojeknizky')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/user/books/rated"}},[_vm._v("Hodnotené knižky")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'mojeknizky')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/user/books/wishlist"}},[_vm._v("Wishlist")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === null)?_c('li',{on:{"click":function($event){return _vm.changeLinkLevel("mojucet")}}},[_vm._v("Môj účet")]):_vm._e(),_vm._v(" "),(_vm.showLevel === 'mojucet')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/user/account/settings"}},[_vm._v("Nastavenia")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'mojucet')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/user/account/credits"}},[_vm._v("Kredity")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === null)?_c('li',{on:{"click":function($event){return _vm.changeLinkLevel("viac")}}},[_vm._v("...viac")]):_vm._e(),_vm._v(" "),(_vm.showLevel === 'viac')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/ako-to-funguje"}},[_vm._v("Ako to funguje?")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'viac')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/nas-pribeh"}},[_vm._v("Náš príbeh")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'viac')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/blog"}},[_vm._v("Náš blog")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'viac')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/newsletter"}},[_vm._v("Novinky emailom")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === null)?_c('div',{staticClass:"hr"}):_vm._e(),_vm._v(" "),(_vm.showLevel === null)?_c('li',[_c('a',{on:{"click":function($event){$event.preventDefault();return _vm.logout()}}},[_vm._v("Odhlásiť sa")])]):_vm._e()]):_c('ul',{staticClass:"grid col-1 gap-20"},[_c('li',[_c('nuxt-link',{attrs:{"to":"/kniznica"},on:{"click":function($event){return _vm.$emit('close')}}},[_vm._v("Knižnica")])],1),_vm._v(" "),_c('div',{staticClass:"hr"}),_vm._v(" "),_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/ako-to-funguje"}},[_vm._v("Ako to funguje?")])],1),_vm._v(" "),_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/nas-pribeh"}},[_vm._v("Náš príbeh")])],1),_vm._v(" "),_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/blog"}},[_vm._v("Náš blog")])],1),_vm._v(" "),_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/newsletter"}},[_vm._v("Novinky emailom")])],1),_vm._v(" "),_c('div',{staticClass:"hr"}),_vm._v(" "),_c('li',[_c('nuxt-link',{attrs:{"to":"/prihlasenie"}},[_vm._v("Prihlásenie")])],1),_vm._v(" "),_c('li',[_c('nuxt-link',{attrs:{"to":"/registracia"}},[_vm._v("Registrácia")])],1)]),_vm._v(" "),_c('div',{staticClass:"hr"}),_vm._v(" "),_c('p',{staticClass:"small"},[_vm._v("© "+_vm._s(new Date().getFullYear())+" tulaveknizky.sk")])])])],2)}
-var Sidebarvue_type_template_id_365cf1f3_scoped_true_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/page/_common/Sidebar.vue?vue&type=template&id=18003f16&scoped=true&
+var Sidebarvue_type_template_id_18003f16_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"sidenav-container"},[_vm._ssrNode("<div class=\"sidenav-backdrop\""+(_vm._ssrStyle(null,null, { display: (_vm.show) ? '' : 'none' }))+" data-v-18003f16></div> "),_c('transition',{attrs:{"name":"slide-side"}},[_c('div',{directives:[{name:"show",rawName:"v-show",value:(_vm.show),expression:"show"}],staticClass:"sidenav grid gap-20 align-content-start"},[_c('div',{staticClass:"logo justify-self-start"},[_c('nuxt-link',{staticClass:"grid gap-10 col-2 auto align-items-center",attrs:{"to":"/"}},[_c('img',{staticClass:"logo-icon",attrs:{"src":__webpack_require__(10),"alt":""}}),_vm._v(" "),_c('img',{staticClass:"logo-text",attrs:{"src":__webpack_require__(14),"alt":""}})])],1),_vm._v(" "),_c('div',{staticClass:"hr"}),_vm._v(" "),(_vm.$store.getters['auth/isUserLoggedIn'])?_c('ul',{staticClass:"grid col-1 gap-20"},[(_vm.showLevel)?_c('li',{on:{"click":function($event){return _vm.changeLinkLevel(null)}}},[_vm._v("Späť")]):_vm._e(),_vm._v(" "),(_vm.showLevel)?_c('div',{staticClass:"hr"}):_vm._e(),_vm._v(" "),(_vm.showLevel === null)?_c('li',{on:{"click":function($event){return _vm.changeLinkLevel("knihy")}}},[_vm._v("Knižnica")]):_vm._e(),_vm._v(" "),(_vm.showLevel === 'knihy')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{attrs:{"to":"/kniznica"}},[_vm._v("Všetky knižky")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === null && _vm.$store.state.auth.userData.level == 104)?_c('li',{on:{"click":function($event){return _vm.changeLinkLevel("admin")}}},[_vm._v("Administrácia")]):_vm._e(),_vm._v(" "),(_vm.showLevel === 'admin')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/admin/orders"}},[_vm._v("Objednávky")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'admin')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/admin/categories"}},[_vm._v("Kategórie")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'admin')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/admin/tags"}},[_vm._v("Značky")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'admin')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/admin/titles"}},[_vm._v("Knižné tituly")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'admin')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/admin/stock"}},[_vm._v("Sklad")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'admin')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/admin/users"}},[_vm._v("Používatelia")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === null)?_c('li',{on:{"click":function($event){return _vm.changeLinkLevel("mojeknizky")}}},[_vm._v("Moje knižky")]):_vm._e(),_vm._v(" "),(_vm.showLevel === 'mojeknizky')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/user/books/basket"}},[_vm._v("Batôžtek (košík)")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'mojeknizky')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/user/books/borrowed"}},[_vm._v("Požičané knižky")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'mojeknizky')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/user/books/rated"}},[_vm._v("Hodnotené knižky")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'mojeknizky')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/user/books/wishlist"}},[_vm._v("Wishlist")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === null)?_c('li',{on:{"click":function($event){return _vm.changeLinkLevel("mojucet")}}},[_vm._v("Môj účet")]):_vm._e(),_vm._v(" "),(_vm.showLevel === 'mojucet')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/user/account/settings"}},[_vm._v("Nastavenia")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'mojucet')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/user/account/subscription"}},[_vm._v("Predplatné")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'mojucet')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/user/account/credits"}},[_vm._v("Kredity")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === null)?_c('li',{on:{"click":function($event){return _vm.changeLinkLevel("viac")}}},[_vm._v("...viac")]):_vm._e(),_vm._v(" "),(_vm.showLevel === 'viac')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/ako-to-funguje"}},[_vm._v("Ako to funguje?")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'viac')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/nas-pribeh"}},[_vm._v("Náš príbeh")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'viac')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/blog"}},[_vm._v("Náš blog")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === 'viac')?_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/newsletter"}},[_vm._v("Novinky emailom")])],1):_vm._e(),_vm._v(" "),(_vm.showLevel === null)?_c('div',{staticClass:"hr"}):_vm._e(),_vm._v(" "),(_vm.showLevel === null)?_c('li',[_c('a',{on:{"click":function($event){$event.preventDefault();return _vm.logout()}}},[_vm._v("Odhlásiť sa")])]):_vm._e()]):_c('ul',{staticClass:"grid col-1 gap-20"},[_c('li',[_c('nuxt-link',{attrs:{"to":"/kniznica"},on:{"click":function($event){return _vm.$emit('close')}}},[_vm._v("Knižnica")])],1),_vm._v(" "),_c('div',{staticClass:"hr"}),_vm._v(" "),_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/ako-to-funguje"}},[_vm._v("Ako to funguje?")])],1),_vm._v(" "),_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/nas-pribeh"}},[_vm._v("Náš príbeh")])],1),_vm._v(" "),_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/blog"}},[_vm._v("Náš blog")])],1),_vm._v(" "),_c('li',{on:{"click":function($event){return _vm.$emit('close')}}},[_c('nuxt-link',{staticClass:"small",attrs:{"to":"/newsletter"}},[_vm._v("Novinky emailom")])],1),_vm._v(" "),_c('div',{staticClass:"hr"}),_vm._v(" "),_c('li',[_c('nuxt-link',{attrs:{"to":"/prihlasenie"}},[_vm._v("Prihlásenie")])],1),_vm._v(" "),_c('li',[_c('nuxt-link',{attrs:{"to":"/registracia"}},[_vm._v("Registrácia")])],1)]),_vm._v(" "),_c('div',{staticClass:"hr"}),_vm._v(" "),_c('p',{staticClass:"small"},[_vm._v("© "+_vm._s(new Date().getFullYear())+" tulaveknizky.sk")])])])],2)}
+var Sidebarvue_type_template_id_18003f16_scoped_true_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/page/_common/Sidebar.vue?vue&type=template&id=365cf1f3&scoped=true&
+// CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/page/_common/Sidebar.vue?vue&type=template&id=18003f16&scoped=true&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/page/_common/Sidebar.vue?vue&type=script&lang=js&
+//
 //
 //
 //
@@ -4290,11 +4301,11 @@ if (style0.__inject__) style0.__inject__(context)
 
 var Sidebar_component = Object(componentNormalizer["a" /* default */])(
   _common_Sidebarvue_type_script_lang_js_,
-  Sidebarvue_type_template_id_365cf1f3_scoped_true_render,
-  Sidebarvue_type_template_id_365cf1f3_scoped_true_staticRenderFns,
+  Sidebarvue_type_template_id_18003f16_scoped_true_render,
+  Sidebarvue_type_template_id_18003f16_scoped_true_staticRenderFns,
   false,
   Sidebar_injectStyles,
-  "365cf1f3",
+  "18003f16",
   "24b4eef6"
   
 )
@@ -4352,16 +4363,113 @@ var Header_component = Object(componentNormalizer["a" /* default */])(
 )
 
 /* harmony default export */ var Header = (Header_component.exports);
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/page/_common/Footer.vue?vue&type=template&id=6048e921&scoped=true&
-var Footervue_type_template_id_6048e921_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"bt1",attrs:{"id":"footer"}},[_vm._ssrNode("<div class=\"container-standard mb40 mt40 pt40\" data-v-6048e921>","</div>",[_vm._ssrNode("<div class=\"grid xs-col-2 sm-col-2 md-col-4 lg-col-5 auto gap-30 align-items-start\" data-v-6048e921>","</div>",[_vm._ssrNode("<div class=\"grid gap-10 xs-order-5 xs-span-2\" data-v-6048e921>","</div>",[_vm._ssrNode("<div class=\"logo\" data-v-6048e921>","</div>",[_c('nuxt-link',{attrs:{"to":"/"}},[_c('img',{staticClass:"logo",attrs:{"src":__webpack_require__(59),"alt":""}})])],1),_vm._ssrNode(" <p class=\"small maxw200\" data-v-6048e921>\n                    “Kto sa chce stať vzdelaným, musí nad zlato vážiť si knihy.”<br data-v-6048e921>― Jan Amos Komenský\n                </p> <p class=\"small mt40\" data-v-6048e921>"+_vm._ssrEscape("© "+_vm._s(new Date().getFullYear())+" tulaveknizky.sk")+"</p>")],2),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"grid gap-10 xs-order-1\" data-v-6048e921>","</div>",[_vm._ssrNode("<h4 data-v-6048e921>Odkazy</h4> "),_vm._ssrNode("<ul data-v-6048e921>","</ul>",[_vm._ssrNode("<li data-v-6048e921>","</li>",[_c('nuxt-link',{attrs:{"to":"/knihy"}},[_vm._v("Knihy")])],1),_vm._ssrNode(" "),_vm._ssrNode("<li data-v-6048e921>","</li>",[_c('nuxt-link',{attrs:{"to":"/newletter"}},[_vm._v("Newsletter")])],1),_vm._ssrNode(" "),_vm._ssrNode("<li data-v-6048e921>","</li>",[_c('nuxt-link',{attrs:{"to":"/blog"}},[_vm._v("Blog")])],1)],2)],2),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"grid gap-10 xs-order-2\" data-v-6048e921>","</div>",[_vm._ssrNode("<h4 data-v-6048e921>Služba</h4> "),_vm._ssrNode("<ul data-v-6048e921>","</ul>",[_vm._ssrNode("<li data-v-6048e921>","</li>",[_c('nuxt-link',{attrs:{"to":"/ako-to-funguje"}},[_vm._v("Ako to funguje?")])],1),_vm._ssrNode(" "),(_vm.$store.getters['auth/isUserLoggedIn'])?_vm._ssrNode("<li data-v-6048e921>","</li>",[_c('nuxt-link',{attrs:{"to":"/admin"}},[_vm._v("Môj účet")])],1):_vm._ssrNode("<li data-v-6048e921>","</li>",[_c('nuxt-link',{attrs:{"to":"/log-in"}},[_vm._v("Prihlásenie")])],1),_vm._ssrNode(" "),(_vm.$store.getters['auth/isUserLoggedIn'])?_vm._ssrNode("<li data-v-6048e921>","</li>",[_vm._ssrNode("<a data-v-6048e921>Odhlásiť sa</a>")],2):_vm._ssrNode("<li data-v-6048e921>","</li>",[_c('nuxt-link',{attrs:{"to":"/sign-up"}},[_vm._v("Registrácia")])],1)],2)],2),_vm._ssrNode(" <div class=\"grid gap-10 xs-order-3\" data-v-6048e921><h4 data-v-6048e921>Socialne siete</h4> <ul data-v-6048e921><li data-v-6048e921><a href=\"https://www.facebook.com/manylettercom\" target=\"_blank\" data-v-6048e921>Facebook</a></li> <li data-v-6048e921><a href=\"https://twitter.com/manyletterHQ\" target=\"_blank\" data-v-6048e921>Instagram</a></li> <li data-v-6048e921><a href=\"https://twitter.com/manyletterHQ\" target=\"_blank\" data-v-6048e921>Twitter</a></li></ul></div> "),_vm._ssrNode("<div class=\"grid gap-10 xs-order-4\" data-v-6048e921>","</div>",[_vm._ssrNode("<h4 data-v-6048e921>Pomoc a kontakt</h4> "),_vm._ssrNode("<ul data-v-6048e921>","</ul>",[_vm._ssrNode("<li data-v-6048e921>","</li>",[_c('nuxt-link',{attrs:{"to":"/najcastejsie-otazky"}},[_vm._v("Najčastejsie otázky")])],1)]),_vm._ssrNode(" <p class=\"contact small\" data-v-6048e921>Nebola tvoja otázka zodpovedaná? <br data-v-6048e921>Napíš nám na <a href=\"mailto:ahoj@tulaveknizky.sk\" data-v-6048e921>ahoj@tulaveknizky.sk</a>.</p>")],2)],2)])])}
-var Footervue_type_template_id_6048e921_scoped_true_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/page/_common/Footer.vue?vue&type=template&id=2b2e03dc&scoped=true&
+var Footervue_type_template_id_2b2e03dc_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"bt1",attrs:{"id":"footer"}},[_vm._ssrNode("<div class=\"container-standard mb40 mt40 pt40\" data-v-2b2e03dc>","</div>",[_vm._ssrNode("<div class=\"grid xs-col-2 sm-col-2 md-col-4 lg-col-5 auto gap-30 align-items-start\" data-v-2b2e03dc>","</div>",[_vm._ssrNode("<div class=\"grid gap-10 xs-order-5 xs-span-2\" data-v-2b2e03dc>","</div>",[_vm._ssrNode("<div class=\"logo\" data-v-2b2e03dc>","</div>",[_c('nuxt-link',{attrs:{"to":"/"}},[_c('img',{staticClass:"logo",attrs:{"src":__webpack_require__(59),"alt":""}})])],1),_vm._ssrNode(" <p class=\"small maxw200\" data-v-2b2e03dc>\n                    “Kto sa chce stať vzdelaným, musí nad zlato vážiť si knihy.”<br data-v-2b2e03dc>― Jan Amos Komenský\n                </p> <p class=\"small mt40\" data-v-2b2e03dc>"+_vm._ssrEscape("© "+_vm._s(new Date().getFullYear())+" tulaveknizky.sk")+"</p>")],2),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"grid gap-10 xs-order-1\" data-v-2b2e03dc>","</div>",[_vm._ssrNode("<h4 data-v-2b2e03dc>Odkazy</h4> "),_vm._ssrNode("<ul data-v-2b2e03dc>","</ul>",[_vm._ssrNode("<li data-v-2b2e03dc>","</li>",[_c('nuxt-link',{attrs:{"to":"/kniznica"}},[_vm._v("Knižnica")])],1),_vm._ssrNode(" "),_vm._ssrNode("<li data-v-2b2e03dc>","</li>",[_c('nuxt-link',{attrs:{"to":"/ako-to-funguje"}},[_vm._v("Ako to funguje?")])],1),_vm._ssrNode(" "),_vm._ssrNode("<li data-v-2b2e03dc>","</li>",[_c('nuxt-link',{attrs:{"to":"/blog"}},[_vm._v("Náš blog")])],1),_vm._ssrNode(" "),_vm._ssrNode("<li data-v-2b2e03dc>","</li>",[_c('nuxt-link',{attrs:{"to":"/nas-pribeh"}},[_vm._v("Náš príbeh")])],1),_vm._ssrNode(" "),_vm._ssrNode("<li data-v-2b2e03dc>","</li>",[_c('nuxt-link',{attrs:{"to":"/newsletter"}},[_vm._v("Novinky emailom")])],1)],2)],2),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"grid gap-10 xs-order-2\" data-v-2b2e03dc>","</div>",[_vm._ssrNode("<h4 data-v-2b2e03dc>Služba</h4> "),_vm._ssrNode("<ul data-v-2b2e03dc>","</ul>",[(_vm.$store.getters['auth/isUserLoggedIn'])?_vm._ssrNode("<li data-v-2b2e03dc>","</li>",[_c('nuxt-link',{attrs:{"to":"/user/account"}},[_vm._v("Môj účet")])],1):_vm._e(),_vm._ssrNode(" "),(_vm.$store.getters['auth/isUserLoggedIn'])?_vm._ssrNode("<li data-v-2b2e03dc>","</li>",[_c('nuxt-link',{attrs:{"to":"/user/books"}},[_vm._v("Moje knižky")])],1):_vm._e(),_vm._ssrNode(" "),(_vm.$store.getters['auth/isUserLoggedIn'] && _vm.$store.state.auth.userData.level == 104)?_vm._ssrNode("<li data-v-2b2e03dc>","</li>",[_c('nuxt-link',{attrs:{"to":"/admin"}},[_vm._v("Administrácia")])],1):_vm._ssrNode("<li data-v-2b2e03dc>","</li>",[_c('nuxt-link',{attrs:{"to":"/prihlasenie"}},[_vm._v("Prihlásenie")])],1),_vm._ssrNode(" "),(_vm.$store.getters['auth/isUserLoggedIn'])?_vm._ssrNode("<li data-v-2b2e03dc>","</li>",[_vm._ssrNode("<a data-v-2b2e03dc>Odhlásiť sa</a>")],2):_vm._ssrNode("<li data-v-2b2e03dc>","</li>",[_c('nuxt-link',{attrs:{"to":"/registracia"}},[_vm._v("Registrácia")])],1)],2)],2),_vm._ssrNode(" <div class=\"grid gap-10 xs-order-3\" data-v-2b2e03dc><h4 data-v-2b2e03dc>Socialne siete</h4> <ul data-v-2b2e03dc><li data-v-2b2e03dc><a href=\"https://www.facebook.com/manylettercom\" target=\"_blank\" data-v-2b2e03dc>Facebook</a></li> <li data-v-2b2e03dc><a href=\"https://twitter.com/manyletterHQ\" target=\"_blank\" data-v-2b2e03dc>Instagram</a></li> <li data-v-2b2e03dc><a href=\"https://twitter.com/manyletterHQ\" target=\"_blank\" data-v-2b2e03dc>Twitter</a></li></ul></div> "),_vm._ssrNode("<div class=\"grid gap-10 xs-order-4\" data-v-2b2e03dc>","</div>",[_vm._ssrNode("<h4 data-v-2b2e03dc>Pomoc a kontakt</h4> "),_vm._ssrNode("<ul data-v-2b2e03dc>","</ul>",[_vm._ssrNode("<li data-v-2b2e03dc>","</li>",[_c('nuxt-link',{attrs:{"to":"/najcastejsie-otazky"}},[_vm._v("Najčastejsie otázky")])],1)]),_vm._ssrNode(" <p class=\"contact small\" data-v-2b2e03dc>Nebola tvoja otázka zodpovedaná? <br data-v-2b2e03dc>Napíš nám na <a href=\"mailto:ahoj@tulaveknizky.sk\" data-v-2b2e03dc>ahoj@tulaveknizky.sk</a>.</p>")],2)],2)])])}
+var Footervue_type_template_id_2b2e03dc_scoped_true_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/page/_common/Footer.vue?vue&type=template&id=6048e921&scoped=true&
+// CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/page/_common/Footer.vue?vue&type=template&id=2b2e03dc&scoped=true&
 
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/page/_common/Footer.vue?vue&type=script&lang=js&
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ var Footervue_type_script_lang_js_ = ({
+  data() {
+    return {};
+  },
+
+  methods: {
+    logout() {
+      console.log('logout');
+      this.$store.dispatch('auth/logout').then(() => {
+        this.$router.push('/odhlasenie');
+      });
+    }
+
+  }
+});
+// CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/page/_common/Footer.vue?vue&type=script&lang=js&
+ /* harmony default export */ var _common_Footervue_type_script_lang_js_ = (Footervue_type_script_lang_js_); 
 // CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/page/_common/Footer.vue
 
-var script = {}
+
+
 function Footer_injectStyles (context) {
   
   var style0 = __webpack_require__(60)
@@ -4372,12 +4480,12 @@ if (style0.__inject__) style0.__inject__(context)
 /* normalize component */
 
 var Footer_component = Object(componentNormalizer["a" /* default */])(
-  script,
-  Footervue_type_template_id_6048e921_scoped_true_render,
-  Footervue_type_template_id_6048e921_scoped_true_staticRenderFns,
+  _common_Footervue_type_script_lang_js_,
+  Footervue_type_template_id_2b2e03dc_scoped_true_render,
+  Footervue_type_template_id_2b2e03dc_scoped_true_staticRenderFns,
   false,
   Footer_injectStyles,
-  "6048e921",
+  "2b2e03dc",
   "5694fb71"
   
 )
@@ -4445,7 +4553,7 @@ var FooterCleanvue_type_template_id_9addb124_scoped_true_staticRenderFns = []
 
 // CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/page/_common/FooterClean.vue
 
-var FooterClean_script = {}
+var script = {}
 function FooterClean_injectStyles (context) {
   
   var style0 = __webpack_require__(64)
@@ -4456,7 +4564,7 @@ if (style0.__inject__) style0.__inject__(context)
 /* normalize component */
 
 var FooterClean_component = Object(componentNormalizer["a" /* default */])(
-  FooterClean_script,
+  script,
   FooterCleanvue_type_template_id_9addb124_scoped_true_render,
   FooterCleanvue_type_template_id_9addb124_scoped_true_staticRenderFns,
   false,
@@ -5497,7 +5605,9 @@ async function createApp(ssrContext, config = {}) {
         "rel": "manifest",
         "href": "\u002F_static\u002Ftulaveknizky\u002Fmanifest.json"
       }],
-      "script": [],
+      "script": [{
+        "src": "https:\u002F\u002Fjs.stripe.com\u002Fv3\u002F"
+      }],
       "style": []
     },
     store,

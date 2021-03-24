@@ -5,6 +5,7 @@
                 <div class='nav'>
                     <ul class='flex wrap show-md align-items-center'>
                         <li><nuxt-link to='/user/account/settings' class='small'>Nastavenia</nuxt-link></li>
+                        <li><nuxt-link to='/user/account/subscription' class='small'>Predplatné</nuxt-link></li>
                         <li><nuxt-link to='/user/account/credits' class='small'>Kredity</nuxt-link></li>
                         <li><a @click.prevent='logout()' class='small'>Odhlásiť sa</a></li>
                     </ul>

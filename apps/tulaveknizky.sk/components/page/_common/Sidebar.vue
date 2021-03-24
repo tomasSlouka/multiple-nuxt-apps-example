@@ -49,6 +49,7 @@
                 <!-- MOJ UCET -->
                 <li v-if="showLevel === null" @click='changeLinkLevel("mojucet")'>Môj účet</li>
                 <li v-if="showLevel === 'mojucet'" @click="$emit('close')"><nuxt-link to='/user/account/settings' class='small'>Nastavenia</nuxt-link></li>
+                <li v-if="showLevel === 'mojucet'" @click="$emit('close')"><nuxt-link to='/user/account/subscription' class='small'>Predplatné</nuxt-link></li>
                 <li v-if="showLevel === 'mojucet'" @click="$emit('close')"><nuxt-link to='/user/account/credits' class='small'>Kredity</nuxt-link></li>
                 <!-- MOJ UCET -->
 

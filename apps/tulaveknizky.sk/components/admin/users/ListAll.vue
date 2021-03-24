@@ -23,8 +23,8 @@
                                 <div><p class='strong'>{{item.email}}</p></div>
                                 <div><p>{{item.name}}</p></div>
                                 <div><p>{{item.surname}}</p></div>
-                                <div><DateFormat :date="item.created_at" format="datetime" /></div>
-                                <div><DateFormat :date="item.last_online_at" format="datetime" /></div>
+                                <div><DateFormat :date="item.created_at" format="datetime" classes="tag gray" /></div>
+                                <div><DateFormat :date="item.last_online_at" format="datetime" classes="tag gray" /></div>
                                 <div class='grid col-2 auto gap-5 justify-content-start justify-items-start'>
                                     <nuxt-link :to='"/admin/users/detail/" + item.id' class='button cta small white' >Upraviť</nuxt-link>
                                     <!-- <button class='button cta small red' @click='deleteButton({id: item.id, index: index })'>Vymazať</button> -->

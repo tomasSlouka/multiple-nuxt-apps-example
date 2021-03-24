@@ -6,7 +6,8 @@
             h2='Ako funguje požičiavanie knižiek?'
         />
         <About />
-        <Newsletter />
+        <Subscription />
+        <!-- <Newsletter /> -->
     </div>
 </template>
 
@@ -14,12 +15,13 @@
 import SubNav from '@/components/page/home/SubNav.vue'
 import Hero from '@/components/page/_common/Hero.vue'
 import About from '@/components/page/home/About.vue'
+import Subscription from '@/components/page/home/Subscription.vue'
 import Newsletter from '@/components/page/home/Newsletter.vue'
 
 export default {
     layout: 'defaultPage',
         components: {
-            SubNav, Hero, About, Newsletter,
+            SubNav, Hero, About, Subscription, Newsletter,
     },
 }
 </script>

@@ -68,7 +68,7 @@ export default {
 			{ hid: 'manifest', rel: "manifest", href: "/_static/tulaveknizky/manifest.json" },
         ],
         script: [
-            // { src: 'https://unpkg.com/ionicons@5.0.0/dist/ionicons.js' }
+            { src: 'https://js.stripe.com/v3/' }
 		],
     },
 	/*

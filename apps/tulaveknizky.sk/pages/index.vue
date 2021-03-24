@@ -7,7 +7,7 @@
         <!-- <Books 
             :bookList='bookList'
         /> -->
-        <Newsletter />
+        <!-- <Newsletter /> -->
         <!-- <Testimonials /> -->
         <!-- <More /> -->
         <!-- <Pricing /> -->

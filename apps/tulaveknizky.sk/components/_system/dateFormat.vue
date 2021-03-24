@@ -1,16 +1,17 @@
 <template>
-    <div class="dateformat">
-        <span class='tag gray'>
+    <!-- <div class="dateformat"> -->
+        <span :class='classes'>
             {{dateFormat()}}
         </span>
-    </div>
+    <!-- </div> -->
 </template>
 
 <script>
 export default {
     props: {
         date: String,
-        format: String
+        format: String,
+        classes: String
     },
     data() {
         return {
@@ -19,6 +20,8 @@ export default {
     },
     methods: {
         dateFormat() {
+            if(this.date === null || this.date === undefined) return "0"
+
             var date_array = this.date.split(' ')
             var date = date_array[0].split('-')
             var time = date_array[1]

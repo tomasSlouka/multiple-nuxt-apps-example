@@ -4,7 +4,7 @@
         <div class="container-narrow mt60 grid">
             <div class='grid gap-20'>
                 <!-- <h1 class='maxw500'>Do you subscribe to too many newsletters?</h1> -->
-                <h1 class=''>Upforweb. Webové riešenia pre vaše podnikanie.</h1>
+                <h1 class=''>Frontend je náš svet</h1>
                 <!-- <h2 class='strong big'>Start for free or go premium for $4.99/month</h2> -->
                 <p class="maxw600 big">
                     Vytvárame nádherné, rýchle predajné webové stránky a prispôsobené riešenia na vylepšenie vašich interných procesov. Veríme v dlhodobé vzťahy, vďaka ktorým zákazníkom prinášame kvalitné riešenia a spokojnosť.

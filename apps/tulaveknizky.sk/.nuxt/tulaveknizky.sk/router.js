@@ -11,6 +11,7 @@ const _4bf89126 = () => interopDefault(import('..\\..\\pages\\admin\\index.vue' 
 const _811b96cc = () => interopDefault(import('..\\..\\pages\\ako-to-funguje\\index.vue' /* webpackChunkName: "pages/ako-to-funguje/index" */))
 const _8d0336d4 = () => interopDefault(import('..\\..\\pages\\blog\\index.vue' /* webpackChunkName: "pages/blog/index" */))
 const _0e98a5aa = () => interopDefault(import('..\\..\\pages\\kniznica\\index.vue' /* webpackChunkName: "pages/kniznica/index" */))
+const _25a609b7 = () => interopDefault(import('..\\..\\pages\\najcastejsie-otazky\\index.vue' /* webpackChunkName: "pages/najcastejsie-otazky/index" */))
 const _3c907c4d = () => interopDefault(import('..\\..\\pages\\nas-pribeh\\index.vue' /* webpackChunkName: "pages/nas-pribeh/index" */))
 const _258ba89f = () => interopDefault(import('..\\..\\pages\\newsletter\\index.vue' /* webpackChunkName: "pages/newsletter/index" */))
 const _f99f9130 = () => interopDefault(import('..\\..\\pages\\odhlasenie\\index.vue' /* webpackChunkName: "pages/odhlasenie/index" */))
@@ -34,6 +35,7 @@ const _5529f621 = () => interopDefault(import('..\\..\\pages\\admin\\titles\\add
 const _69e621b4 = () => interopDefault(import('..\\..\\pages\\admin\\users\\add\\index.vue' /* webpackChunkName: "pages/admin/users/add/index" */))
 const _fb420a40 = () => interopDefault(import('..\\..\\pages\\user\\account\\credits\\index.vue' /* webpackChunkName: "pages/user/account/credits/index" */))
 const _23c95417 = () => interopDefault(import('..\\..\\pages\\user\\account\\settings\\index.vue' /* webpackChunkName: "pages/user/account/settings/index" */))
+const _473d9edd = () => interopDefault(import('..\\..\\pages\\user\\account\\subscription\\index.vue' /* webpackChunkName: "pages/user/account/subscription/index" */))
 const _b96e0392 = () => interopDefault(import('..\\..\\pages\\user\\books\\basket\\index.vue' /* webpackChunkName: "pages/user/books/basket/index" */))
 const _62f79d29 = () => interopDefault(import('..\\..\\pages\\user\\books\\borrowed\\index.vue' /* webpackChunkName: "pages/user/books/borrowed/index" */))
 const _36df4db3 = () => interopDefault(import('..\\..\\pages\\user\\books\\rated\\index.vue' /* webpackChunkName: "pages/user/books/rated/index" */))
@@ -100,6 +102,10 @@ export const routerOptions = {
     path: "/kniznica",
     component: _0e98a5aa,
     name: "kniznica"
+  }, {
+    path: "/najcastejsie-otazky",
+    component: _25a609b7,
+    name: "najcastejsie-otazky"
   }, {
     path: "/nas-pribeh",
     component: _3c907c4d,
@@ -192,6 +198,10 @@ export const routerOptions = {
     path: "/user/account/settings",
     component: _23c95417,
     name: "user-account-settings"
+  }, {
+    path: "/user/account/subscription",
+    component: _473d9edd,
+    name: "user-account-subscription"
   }, {
     path: "/user/books/basket",
     component: _b96e0392,
