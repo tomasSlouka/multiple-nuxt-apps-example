@@ -1,60 +1,19 @@
-exports.ids = [38];
+exports.ids = [39];
 exports.modules = {
 
-/***/ 111:
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(120);
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add CSS to SSR context
-var add = __webpack_require__(3).default
-module.exports.__inject__ = function (context) {
-  add("5cbcfdc4", content, true, context)
-};
-
-/***/ }),
-
-/***/ 112:
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(122);
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add CSS to SSR context
-var add = __webpack_require__(3).default
-module.exports.__inject__ = function (context) {
-  add("514adeb3", content, true, context)
-};
-
-/***/ }),
-
-/***/ 116:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/icon-money.a8e5e41.svg";
-
-/***/ }),
-
-/***/ 119:
+/***/ 109:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Hero_vue_vue_type_style_index_0_id_56dfa576_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(111);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Hero_vue_vue_type_style_index_0_id_56dfa576_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(95);
 /* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Hero_vue_vue_type_style_index_0_id_56dfa576_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Hero_vue_vue_type_style_index_0_id_56dfa576_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
 /* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Hero_vue_vue_type_style_index_0_id_56dfa576_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Hero_vue_vue_type_style_index_0_id_56dfa576_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
 
-/***/ 120:
+/***/ 110:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -68,19 +27,19 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ 121:
+/***/ 111:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SubNav_vue_vue_type_style_index_0_id_3a7b95ec_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(112);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SubNav_vue_vue_type_style_index_0_id_3a7b95ec_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(96);
 /* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SubNav_vue_vue_type_style_index_0_id_3a7b95ec_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SubNav_vue_vue_type_style_index_0_id_3a7b95ec_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
 /* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SubNav_vue_vue_type_style_index_0_id_3a7b95ec_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SubNav_vue_vue_type_style_index_0_id_3a7b95ec_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
 
-/***/ 122:
+/***/ 112:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -94,7 +53,7 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ 126:
+/***/ 114:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -136,7 +95,7 @@ var componentNormalizer = __webpack_require__(1);
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(119)
+  var style0 = __webpack_require__(109)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -158,7 +117,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 127:
+/***/ 115:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -216,7 +175,7 @@ var componentNormalizer = __webpack_require__(1);
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(121)
+  var style0 = __webpack_require__(111)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -251,44 +210,44 @@ module.exports = __webpack_require__.p + "img/icon-arrow-down.b2d248f.svg";
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(205);
+var content = __webpack_require__(208);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
 var add = __webpack_require__(3).default
 module.exports.__inject__ = function (context) {
-  add("61770dae", content, true, context)
+  add("885c20f6", content, true, context)
 };
 
 /***/ }),
 
-/***/ 204:
+/***/ 207:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Payment_vue_vue_type_style_index_0_id_ef79e050_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(159);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Payment_vue_vue_type_style_index_0_id_ef79e050_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Payment_vue_vue_type_style_index_0_id_ef79e050_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Payment_vue_vue_type_style_index_0_id_ef79e050_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Payment_vue_vue_type_style_index_0_id_ef79e050_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Payment_vue_vue_type_style_index_0_id_5dc7f2b8_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(159);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Payment_vue_vue_type_style_index_0_id_5dc7f2b8_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Payment_vue_vue_type_style_index_0_id_5dc7f2b8_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Payment_vue_vue_type_style_index_0_id_5dc7f2b8_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Payment_vue_vue_type_style_index_0_id_5dc7f2b8_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
 
-/***/ 205:
+/***/ 208:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(2);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".box[data-v-ef79e050]{border-bottom:6px solid #eee}.box[data-v-ef79e050],.box-2[data-v-ef79e050]{background-color:#f7f7f7;padding:40px;border-radius:4px}.box-2[data-v-ef79e050]{border-bottom:6px solid rgba(255,212,1,.32157)}.icon-money[data-v-ef79e050]{height:10px;border-radius:0}.showmore[data-v-ef79e050]:hover{background-color:#eee}", ""]);
+exports.push([module.i, ".box[data-v-5dc7f2b8]{border-bottom:6px solid #eee}.box[data-v-5dc7f2b8],.box-2[data-v-5dc7f2b8]{background-color:#f7f7f7;padding:40px;border-radius:4px}.box-2[data-v-5dc7f2b8]{border-bottom:6px solid rgba(255,212,1,.32157)}.icon-money[data-v-5dc7f2b8]{height:10px;border-radius:0}.showmore[data-v-5dc7f2b8]:hover{background-color:#eee}", ""]);
 // Exports
 module.exports = exports;
 
 
 /***/ }),
 
-/***/ 246:
+/***/ 255:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -303,30 +262,20 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./apps/tulaveknizky.sk/pages/user/account/credits/index.vue?vue&type=template&id=5e2b76b0&
 
 // EXTERNAL MODULE: ./apps/tulaveknizky.sk/components/page/user/account/_common/Hero.vue + 4 modules
-var Hero = __webpack_require__(126);
+var Hero = __webpack_require__(114);
 
 // EXTERNAL MODULE: ./apps/tulaveknizky.sk/components/page/user/account/_common/SubNav.vue + 4 modules
-var SubNav = __webpack_require__(127);
+var SubNav = __webpack_require__(115);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/page/user/account/credits/Payment.vue?vue&type=template&id=ef79e050&scoped=true&
-var Paymentvue_type_template_id_ef79e050_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component"},[_vm._ssrNode("<div class=\"container-standard grid\" data-v-ef79e050>","</div>",[_vm._ssrNode("<div class=\"grid col-1 gap-60 align-items-start\" data-v-ef79e050>","</div>",[_vm._ssrNode("<div class=\"grid gap-20 col-3\" data-v-ef79e050>","</div>",[_vm._ssrNode("<div class=\"grid gap-10 box-form align-content-start\" data-v-ef79e050>","</div>",[_vm._ssrNode("<p class=\"h4\" data-v-ef79e050>Celkový počet kreditov</p> <div class=\"grid gap-10 col-2 auto justify-content-start align-items-center\" data-v-ef79e050><p class=\"h1\" data-v-ef79e050>"+_vm._ssrEscape(_vm._s(_vm.$store.state.auth.userData.credit))+"</p> <p data-v-ef79e050>kreditov</p></div> <div class=\"hr mb10\" data-v-ef79e050></div> <p class=\"small\" data-v-ef79e050>Tvoj celkový počet kreditov, ktoré si si dobil/a.</p> "),_c('button',{directives:[{name:"scroll-to",rawName:"v-scroll-to",value:({
-								el: '#pay-for-credit',
-								easing: 'ease-in',
-								offset: 0,
-								force: true,
-								cancelable: true,
-								//onStart: onStart,
-								//onDone: onDone,
-								//onCancel: onCancel,
-								x: false,
-								y: true
-						}),expression:"{\n\t\t\t\t\t\t\t\tel: '#pay-for-credit',\n\t\t\t\t\t\t\t\teasing: 'ease-in',\n\t\t\t\t\t\t\t\toffset: 0,\n\t\t\t\t\t\t\t\tforce: true,\n\t\t\t\t\t\t\t\tcancelable: true,\n\t\t\t\t\t\t\t\t//onStart: onStart,\n\t\t\t\t\t\t\t\t//onDone: onDone,\n\t\t\t\t\t\t\t\t//onCancel: onCancel,\n\t\t\t\t\t\t\t\tx: false,\n\t\t\t\t\t\t\t\ty: true\n\t\t\t\t\t\t}"}],staticClass:"button cta white small justify-self-start"},[_vm._ssrNode("Dobiť kredit")])],2),_vm._ssrNode(" <div class=\"grid gap-10 box-form align-content-start\" data-v-ef79e050><p class=\"h4\" data-v-ef79e050>Zablokované kredity</p> <div class=\"grid gap-10 col-2 auto justify-content-start align-items-center\" data-v-ef79e050><p class=\"h1\" data-v-ef79e050>"+_vm._ssrEscape(_vm._s(_vm.$store.state.auth.userData.credit_blocked))+"</p> <p data-v-ef79e050>kreditov</p></div> <div class=\"hr mb10\" data-v-ef79e050></div> <p class=\"small\" data-v-ef79e050>Tieto kredity sa používaju ako záloha za knižky, ktoré máš aktuálne vypožičané. Odblokujú sa hneď ako knižky vrátiš.</p></div> <div class=\"grid gap-10 box-form align-content-start\" data-v-ef79e050><p class=\"h4\" data-v-ef79e050>Voľné kredity</p> <div class=\"grid gap-10 col-2 auto justify-content-start align-items-center\" data-v-ef79e050><p class=\"h1\" data-v-ef79e050>"+_vm._ssrEscape(_vm._s(_vm.$store.state.auth.userData.credit ? _vm.$store.state.auth.userData.credit-_vm.$store.state.auth.userData.credit_blocked + '.00' : "0.00"))+"</p> <p data-v-ef79e050>kreditov</p></div> <div class=\"hr mb10\" data-v-ef79e050></div> <p class=\"small\" data-v-ef79e050>Tieto kredity môžeš použiť na vypožičanie knižiek, prípadne ich môžeš poslať kamarátovi ako darček.</p></div>")],2),_vm._ssrNode(" <div class=\"box grid gap-10 showmore pointer\" data-v-ef79e050><div class=\"grid align-items-center col-2 auto justify-content-space-between gap-10\" data-v-ef79e050><h4 data-v-ef79e050>Ako fungujú kredity?</h4> <div class=\"grid align-items-center col-2 auto justify-content-space-between gap-10\" data-v-ef79e050><p class=\"small strong\""+(_vm._ssrStyle(null,null, { display: (!_vm.showMore) ? '' : 'none' }))+" data-v-ef79e050>viac</p> <p class=\"small strong\""+(_vm._ssrStyle(null,null, { display: (_vm.showMore) ? '' : 'none' }))+" data-v-ef79e050>menej</p> <img"+(_vm._ssrAttr("src",__webpack_require__(139)))+" alt class=\"icon\" data-v-ef79e050></div></div> <div class=\"grid gap-10 mt10\""+(_vm._ssrStyle(null,null, { display: (_vm.showMore) ? '' : 'none' }))+" data-v-ef79e050><p data-v-ef79e050>Ak si chceš požičiavať knižky, potrebuješ kredity.</p> <p data-v-ef79e050>Kredity slúžia ako záloha na požičané knižky. To znamená, že by sa nemali nikdy minúť. Ak si požičiaš knižky za 20 kreditov, systém zablokuje tieto kredity. Ak knižky vrátiš do konca výpožičnej doby, všetky kredity sa ti odblokujú a budeš ich môcť znova použiť na vypožičanie ďalších knižiek. Ak knižky nestihneš vrátiť do konca vypožičnej doby, za každú knižku a každý deň omeškania ti systém odpočíta 0.2 kreditu.</p> <p data-v-ef79e050>Kredity ti budú odpočítané aj v prípade, keď vratiš knižku v poškodenom stave (napr. chýbajúce strany). Tak sa o knižky prosím pekne staraj, aby si ich mohlo prečítať čo najviac knihomolov!</p> <p data-v-ef79e050>Kredity sa nedajú vrátiť alebo zameniť späť za peniaze.</p></div></div> <div class=\"grid gap-20\" data-v-ef79e050><div class=\"grid gap-10\" data-v-ef79e050><h2 id=\"pay-for-credit\" data-v-ef79e050>Dobi si nekonečné kredity</h2> <p data-v-ef79e050>Vyber si hodnotu kreditu, ktorú chceš dobiť.</p></div> <div class=\"grid col-4 gap-20\" data-v-ef79e050><div class=\"box-form grid\" data-v-ef79e050><button class=\"button cta black grid align-items-center col-2 auto justify-content-center gap-10\" data-v-ef79e050><img"+(_vm._ssrAttr("src",__webpack_require__(116)))+" alt class=\"icon icon-money\" data-v-ef79e050> 5 €</button></div> <div class=\"box-form grid\" data-v-ef79e050><button class=\"button cta black grid align-items-center col-2 auto justify-content-center gap-10\" data-v-ef79e050><img"+(_vm._ssrAttr("src",__webpack_require__(116)))+" alt class=\"icon icon-money\" data-v-ef79e050> 10 €</button></div> <div class=\"box-form grid\" data-v-ef79e050><button class=\"button cta black grid align-items-center col-2 auto justify-content-center gap-10\" data-v-ef79e050><img"+(_vm._ssrAttr("src",__webpack_require__(116)))+" alt class=\"icon icon-money\" data-v-ef79e050> 15 €</button></div> <div class=\"box-form grid\" data-v-ef79e050><button class=\"button cta black grid align-items-center col-2 auto justify-content-center gap-10\" data-v-ef79e050><img"+(_vm._ssrAttr("src",__webpack_require__(116)))+" alt class=\"icon icon-money\" data-v-ef79e050> 20 €</button></div></div> <div class=\"grid gap-10\" data-v-ef79e050><p class=\"small text-center\" data-v-ef79e050>Platba cez zabezpečenú platobnú bránu &quot;Stripe&quot;</p></div></div>")],2)])])}
-var Paymentvue_type_template_id_ef79e050_scoped_true_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/page/user/account/credits/Payment.vue?vue&type=template&id=5dc7f2b8&scoped=true&
+var Paymentvue_type_template_id_5dc7f2b8_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component"},[_vm._ssrNode("<div class=\"container-standard grid\" data-v-5dc7f2b8>","</div>",[_vm._ssrNode("<div class=\"grid col-1 gap-60 align-items-start\" data-v-5dc7f2b8>","</div>",[_vm._ssrNode("<div class=\"grid gap-20 col-3\" data-v-5dc7f2b8>","</div>",[_vm._ssrNode("<div class=\"grid gap-10 box-form align-content-start\" data-v-5dc7f2b8>","</div>",[_vm._ssrNode("<p class=\"h4\" data-v-5dc7f2b8>Celkový počet kreditov</p> <div class=\"grid gap-10 col-2 auto justify-content-start align-items-center\" data-v-5dc7f2b8><p class=\"h1\" data-v-5dc7f2b8>"+_vm._ssrEscape(_vm._s(_vm.$store.state.auth.userData.credit))+"</p> <p data-v-5dc7f2b8>kreditov</p></div> <div class=\"hr mb10\" data-v-5dc7f2b8></div> <p class=\"small\" data-v-5dc7f2b8>Tvoj celkový počet kreditov, ktoré si si dobil/a.</p> "),_c('nuxt-link',{staticClass:"button cta black justify-self-start",attrs:{"to":"/user/account/credits/add"}},[_vm._v("Dobiť kredit")])],2),_vm._ssrNode(" <div class=\"grid gap-10 box-form align-content-start\" data-v-5dc7f2b8><p class=\"h4\" data-v-5dc7f2b8>Zablokované kredity</p> <div class=\"grid gap-10 col-2 auto justify-content-start align-items-center\" data-v-5dc7f2b8><p class=\"h1\" data-v-5dc7f2b8>"+_vm._ssrEscape(_vm._s(_vm.$store.state.auth.userData.credit_blocked))+"</p> <p data-v-5dc7f2b8>kreditov</p></div> <div class=\"hr mb10\" data-v-5dc7f2b8></div> <p class=\"small\" data-v-5dc7f2b8>Tieto kredity sa používaju ako záloha za knižky, ktoré máš aktuálne vypožičané. Odblokujú sa hneď ako knižky vrátiš.</p></div> <div class=\"grid gap-10 box-form align-content-start\" data-v-5dc7f2b8><p class=\"h4\" data-v-5dc7f2b8>Voľné kredity</p> <div class=\"grid gap-10 col-2 auto justify-content-start align-items-center\" data-v-5dc7f2b8><p class=\"h1\" data-v-5dc7f2b8>"+_vm._ssrEscape(_vm._s(_vm.$store.state.auth.userData.credit ? _vm.$store.state.auth.userData.credit-_vm.$store.state.auth.userData.credit_blocked + '.00' : "0.00"))+"</p> <p data-v-5dc7f2b8>kreditov</p></div> <div class=\"hr mb10\" data-v-5dc7f2b8></div> <p class=\"small\" data-v-5dc7f2b8>Tieto kredity môžeš použiť na vypožičanie knižiek, prípadne ich môžeš poslať kamarátovi ako darček.</p></div>")],2),_vm._ssrNode(" <div class=\"box grid gap-10 showmore pointer\" data-v-5dc7f2b8><div class=\"grid align-items-center col-2 auto justify-content-space-between gap-10\" data-v-5dc7f2b8><h4 data-v-5dc7f2b8>Ako fungujú kredity?</h4> <div class=\"grid align-items-center col-2 auto justify-content-space-between gap-10\" data-v-5dc7f2b8><p class=\"small strong\""+(_vm._ssrStyle(null,null, { display: (!_vm.showMore) ? '' : 'none' }))+" data-v-5dc7f2b8>viac</p> <p class=\"small strong\""+(_vm._ssrStyle(null,null, { display: (_vm.showMore) ? '' : 'none' }))+" data-v-5dc7f2b8>menej</p> <img"+(_vm._ssrAttr("src",__webpack_require__(139)))+" alt class=\"icon\" data-v-5dc7f2b8></div></div> <div class=\"grid gap-10 mt10\""+(_vm._ssrStyle(null,null, { display: (_vm.showMore) ? '' : 'none' }))+" data-v-5dc7f2b8><p data-v-5dc7f2b8>Ak si chceš požičiavať knižky, potrebuješ kredity.</p> <p data-v-5dc7f2b8>Kredity slúžia ako záloha na požičané knižky. To znamená, že by sa nemali nikdy minúť. Ak si požičiaš knižky za 20 kreditov, systém zablokuje tieto kredity. Ak knižky vrátiš do konca výpožičnej doby, všetky kredity sa ti odblokujú a budeš ich môcť znova použiť na vypožičanie ďalších knižiek. Ak knižky nestihneš vrátiť do konca vypožičnej doby, za každú knižku a každý deň omeškania ti systém odpočíta 0.2 kreditu.</p> <p data-v-5dc7f2b8>Kredity ti budú odpočítané aj v prípade, keď vratiš knižku v poškodenom stave (napr. chýbajúce strany). Tak sa o knižky prosím pekne staraj, aby si ich mohlo prečítať čo najviac knihomolov!</p> <p data-v-5dc7f2b8>Kredity sa nedajú vrátiť alebo zameniť späť za peniaze.</p></div></div>")],2)])])}
+var Paymentvue_type_template_id_5dc7f2b8_scoped_true_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/page/user/account/credits/Payment.vue?vue&type=template&id=ef79e050&scoped=true&
+// CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/page/user/account/credits/Payment.vue?vue&type=template&id=5dc7f2b8&scoped=true&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/page/user/account/credits/Payment.vue?vue&type=script&lang=js&
+//
 //
 //
 //
@@ -468,7 +417,7 @@ var componentNormalizer = __webpack_require__(1);
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(204)
+  var style0 = __webpack_require__(207)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -477,11 +426,11 @@ if (style0.__inject__) style0.__inject__(context)
 
 var component = Object(componentNormalizer["a" /* default */])(
   credits_Paymentvue_type_script_lang_js_,
-  Paymentvue_type_template_id_ef79e050_scoped_true_render,
-  Paymentvue_type_template_id_ef79e050_scoped_true_staticRenderFns,
+  Paymentvue_type_template_id_5dc7f2b8_scoped_true_render,
+  Paymentvue_type_template_id_5dc7f2b8_scoped_true_staticRenderFns,
   false,
   injectStyles,
-  "ef79e050",
+  "5dc7f2b8",
   "33f21008"
   
 )
@@ -535,6 +484,40 @@ var credits_component = Object(componentNormalizer["a" /* default */])(
 )
 
 /* harmony default export */ var credits = __webpack_exports__["default"] = (credits_component.exports);
+
+/***/ }),
+
+/***/ 95:
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(110);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add CSS to SSR context
+var add = __webpack_require__(3).default
+module.exports.__inject__ = function (context) {
+  add("5cbcfdc4", content, true, context)
+};
+
+/***/ }),
+
+/***/ 96:
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(112);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add CSS to SSR context
+var add = __webpack_require__(3).default
+module.exports.__inject__ = function (context) {
+  add("514adeb3", content, true, context)
+};
 
 /***/ })
 

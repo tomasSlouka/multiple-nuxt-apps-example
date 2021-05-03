@@ -2,7 +2,7 @@
     <div>
         <div id="topbar">
              <div class="container-standard grid align-items-center">
-                <div class='flex wrap align-items-center justify-content-space-between'>
+                <div class='grid auto col-2 md-col-1 lg-col-2 align-items-center justify-content-space-between'>
                     <div class='logo justify-self-start'>
                         <nuxt-link class='grid gap-10 col-2 auto align-items-center' to="/">
                             <img src="@/assets/img/logo-icon.svg" alt="" class='logo-icon' />
@@ -10,14 +10,14 @@
                         </nuxt-link>
                     </div>
                     
-                    <div class='nav'>
+                    <div class='nav justify-self-end'>
                         <ul v-if="$store.getters['auth/isUserLoggedIn']" class='flex wrap show-md align-items-center'>
                             <!-- <li><nuxt-link to='/admin'>{{$store.state.auth.userData.name}}</nuxt-link></li> -->
                             <li><nuxt-link to='/kniznica'>Knižnica</nuxt-link></li>
                             <!-- <li><nuxt-link to='/knihy'>Blog</nuxt-link></li> -->
                             <!-- <li><nuxt-link to='/knihy'>Newsletter</nuxt-link></li> -->
                             <li>|</li>
-                            <li v-if="$store.state.auth.userData.level == 104"><nuxt-link to='/admin'>Administrácia</nuxt-link></li>
+                            <li v-if="$store.state.auth.userData.level == 104"><nuxt-link to='/admin/orders'>Administrácia</nuxt-link></li>
                             <li><nuxt-link to='/user/books'>Moje knižky</nuxt-link></li>
                             <li><nuxt-link to='/user/account'>Môj účet</nuxt-link></li>
                             <li>|</li>
@@ -96,7 +96,10 @@ export default {
     background-color: #fff;
     /* background-color: #ffd401; */
     z-index: 100;
-    height: 80px;
+    /* height: 80px; */
+    /* height: 80px; */
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 /* #setup {
     background-color: #30E7B6;

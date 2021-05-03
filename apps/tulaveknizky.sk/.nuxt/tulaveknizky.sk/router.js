@@ -41,6 +41,9 @@ const _62f79d29 = () => interopDefault(import('..\\..\\pages\\user\\books\\borro
 const _36df4db3 = () => interopDefault(import('..\\..\\pages\\user\\books\\rated\\index.vue' /* webpackChunkName: "pages/user/books/rated/index" */))
 const _d03e1a56 = () => interopDefault(import('..\\..\\pages\\user\\books\\reserved\\index.vue' /* webpackChunkName: "pages/user/books/reserved/index" */))
 const _460ef418 = () => interopDefault(import('..\\..\\pages\\user\\books\\wishlist\\index.vue' /* webpackChunkName: "pages/user/books/wishlist/index" */))
+const _7e2f90f3 = () => interopDefault(import('..\\..\\pages\\user\\account\\credits\\add\\index.vue' /* webpackChunkName: "pages/user/account/credits/add/index" */))
+const _09d3cc11 = () => interopDefault(import('..\\..\\pages\\user\\account\\credits\\success.vue' /* webpackChunkName: "pages/user/account/credits/success" */))
+const _119964ce = () => interopDefault(import('..\\..\\pages\\user\\account\\subscription\\success.vue' /* webpackChunkName: "pages/user/account/subscription/success" */))
 const _0f2b5436 = () => interopDefault(import('..\\..\\pages\\user\\books\\basket\\confirm.vue' /* webpackChunkName: "pages/user/books/basket/confirm" */))
 const _79b7acc2 = () => interopDefault(import('..\\..\\pages\\user\\books\\basket\\delivery.vue' /* webpackChunkName: "pages/user/books/basket/delivery" */))
 const _cf6b54b0 = () => interopDefault(import('..\\..\\pages\\user\\books\\basket\\success.vue' /* webpackChunkName: "pages/user/books/basket/success" */))
@@ -222,6 +225,18 @@ export const routerOptions = {
     path: "/user/books/wishlist",
     component: _460ef418,
     name: "user-books-wishlist"
+  }, {
+    path: "/user/account/credits/add",
+    component: _7e2f90f3,
+    name: "user-account-credits-add"
+  }, {
+    path: "/user/account/credits/success",
+    component: _09d3cc11,
+    name: "user-account-credits-success"
+  }, {
+    path: "/user/account/subscription/success",
+    component: _119964ce,
+    name: "user-account-subscription-success"
   }, {
     path: "/user/books/basket/confirm",
     component: _0f2b5436,

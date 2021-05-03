@@ -1,0 +1,16 @@
+[
+  {
+    "name": "sk",
+    "path": "/sk",
+    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\api.upforweb.com\\\\pages\\\\sk\\\\index.vue",
+    "chunkName": "pages/sk/index",
+    "_name": "_40674470"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\tomas\\\\Práca\\\\GitHub\\\\experiments\\\\multiple-nuxt-apps-example\\\\apps\\\\api.upforweb.com\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_6a65f9a0"
+  }
+]

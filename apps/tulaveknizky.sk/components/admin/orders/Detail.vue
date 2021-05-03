@@ -2,7 +2,8 @@
     <div class="component">
         <div class="container-standard grid">
             <div class='grid gap-40'>
-                <h2>Detail objednávky</h2>
+                <h2 class='grid col-2 auto justify-content-start gap-20 align-items-center'>Detail objednávky <span :class='"status " + statusTagClass(dataDetail.data.status)'>{{status(dataDetail.data.status)}}</span></h2>
+
 
                 <!-- {{dataDetail}} -->
                 <div class='grid gap-60'>
@@ -58,7 +59,13 @@
                         </li>
                     </ul> -->
                     <div class='box grid'>
-                        <div class='justify-self-end'><button class='button cta black' @click.once='ready()'>Objednávka je pripravená</button></div>
+                        <div class='justify-self-end grid auto col-2 gap-20 align-items-center'>
+                            <p>Zmeniť stav objednávky:</p>
+                            <div>
+                                <button v-if='dataDetail.data.status == 1' class='button cta black' @click.once='ready()'>Pripravená na odoslanie</button>
+                                <button v-if='dataDetail.data.status == 2' class='button cta black' @click.once='notready()'>Objednaná</button>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
@@ -90,6 +97,32 @@ export default {
                     //this.res = error.response.data.message
                 });
         },
+        async notready() {
+                await this.$axios.$put('/order/notready', {
+                    "id": this.dataDetail.data.id,
+                })
+                .then((response) => {
+                    console.log(response);
+                    this.$router.push('/admin/orders')
+                }, (error) => {
+                    console.log(error);
+                    //this.res = error.response.data.message
+                });
+        },
+        status(status) {
+            if(status == 0) {return "Nepotvrdená"}
+            if(status == 1) {return "Nová"}
+            if(status == 2) {return "Pripravená"}
+            if(status == 3) {return "Na ceste"}
+            if(status == 4) {return "Doručená"}
+        },
+        statusTagClass(status) {
+            if(status == 0) {return "gray"}
+            if(status == 1) {return "red"}
+            if(status == 2) {return "orange"}
+            if(status == 3) {return "yellow"}
+            if(status == 4) {return "green"}
+        }
     },
 }
 </script>

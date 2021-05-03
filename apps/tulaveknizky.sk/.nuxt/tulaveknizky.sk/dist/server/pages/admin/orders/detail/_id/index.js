@@ -1,50 +1,50 @@
 exports.ids = [11];
 exports.modules = {
 
-/***/ 164:
+/***/ 167:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(215);
+var content = __webpack_require__(224);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
 var add = __webpack_require__(3).default
 module.exports.__inject__ = function (context) {
-  add("4b0e3f1c", content, true, context)
+  add("4b894f62", content, true, context)
 };
 
 /***/ }),
 
-/***/ 214:
+/***/ 223:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Detail_vue_vue_type_style_index_0_id_959abfc2_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(164);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Detail_vue_vue_type_style_index_0_id_959abfc2_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Detail_vue_vue_type_style_index_0_id_959abfc2_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Detail_vue_vue_type_style_index_0_id_959abfc2_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Detail_vue_vue_type_style_index_0_id_959abfc2_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Detail_vue_vue_type_style_index_0_id_eefc5a78_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(167);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Detail_vue_vue_type_style_index_0_id_eefc5a78_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Detail_vue_vue_type_style_index_0_id_eefc5a78_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Detail_vue_vue_type_style_index_0_id_eefc5a78_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Detail_vue_vue_type_style_index_0_id_eefc5a78_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
 
-/***/ 215:
+/***/ 224:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(2);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".box[data-v-959abfc2]{border-bottom:6px solid #eee}.box[data-v-959abfc2],.box-2[data-v-959abfc2]{background-color:#f7f7f7;padding:40px;border-radius:4px}.box-2[data-v-959abfc2]{border-bottom:6px solid rgba(255,212,1,.32157)}.delivery-img[data-v-959abfc2]{height:25px;border-radius:0}", ""]);
+exports.push([module.i, ".box[data-v-eefc5a78]{border-bottom:6px solid #eee}.box[data-v-eefc5a78],.box-2[data-v-eefc5a78]{background-color:#f7f7f7;padding:40px;border-radius:4px}.box-2[data-v-eefc5a78]{border-bottom:6px solid rgba(255,212,1,.32157)}.delivery-img[data-v-eefc5a78]{height:25px;border-radius:0}", ""]);
 // Exports
 module.exports = exports;
 
 
 /***/ }),
 
-/***/ 252:
+/***/ 264:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -64,14 +64,21 @@ var Hero = __webpack_require__(89);
 // EXTERNAL MODULE: ./apps/tulaveknizky.sk/components/admin/_common/SubNav.vue + 4 modules
 var SubNav = __webpack_require__(90);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/admin/orders/Detail.vue?vue&type=template&id=959abfc2&scoped=true&
-var Detailvue_type_template_id_959abfc2_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component"},[_vm._ssrNode("<div class=\"container-standard grid\" data-v-959abfc2>","</div>",[_vm._ssrNode("<div class=\"grid gap-40\" data-v-959abfc2>","</div>",[_vm._ssrNode("<h2 data-v-959abfc2>Detail objednávky</h2> "),_vm._ssrNode("<div class=\"grid gap-60\" data-v-959abfc2>","</div>",[_vm._ssrNode("<div class=\"grid gap-20 auto\" data-v-959abfc2>","</div>",[_vm._ssrNode("<div class=\"table-wrapper justify-content-start\" data-v-959abfc2>","</div>",[_vm._ssrNode("<div class=\"table grid auto col-3\" data-v-959abfc2>","</div>",[_vm._ssrNode("<div class=\"table-head\" data-v-959abfc2><div data-v-959abfc2>Názov</div> <div data-v-959abfc2>Kredity</div> <div data-v-959abfc2>Sklad</div></div> "),_vm._l((_vm.dataDetail.data_items),function(item){return _vm._ssrNode("<div class=\"table-row\" data-v-959abfc2>","</div>",[_vm._ssrNode("<div data-v-959abfc2><p class=\"strong\" data-v-959abfc2>"+_vm._ssrEscape(_vm._s(item.name))+"</p><p class=\"italic small\" data-v-959abfc2>"+_vm._ssrEscape(_vm._s(item.author))+"</p></div> <div class=\"grid justify-items-start\" data-v-959abfc2><span class=\"tag yellow\" data-v-959abfc2>"+_vm._ssrEscape(_vm._s(item.price)+" kreditov")+"</span></div> "),_vm._ssrNode("<div data-v-959abfc2>","</div>",[_vm._ssrNode("<p data-v-959abfc2>","</p>",[_c('nuxt-link',{attrs:{"to":'/admin/stock/detail/' + item.stock_id}},[_vm._v(_vm._s(item.code))])],1)])],2)}),_vm._ssrNode(" <div class=\"table-row\" data-v-959abfc2><div class=\"bt1 grid col-2 auto gap-20 justify-content-start align-content-center\" data-v-959abfc2><div data-v-959abfc2><p class=\"strong\" data-v-959abfc2>Doručenie</p> "+((_vm.dataDetail.data.delivery_option == "zasielkovna")?("<p class=\"italic small\" data-v-959abfc2>"+_vm._ssrEscape(_vm._s(_vm.dataDetail.data.place)+", "+_vm._s(_vm.dataDetail.data.street)+", "+_vm._s(_vm.dataDetail.data.zip)+", "+_vm._s(_vm.dataDetail.data.city))+"</p>"):"<!---->")+" "+((_vm.dataDetail.data.delivery_option == "sk_posta")?("<p class=\"italic small\" data-v-959abfc2>"+_vm._ssrEscape(_vm._s(_vm.dataDetail.data.name)+" "+_vm._s(_vm.dataDetail.data.surname)+", "+_vm._s(_vm.dataDetail.data.street)+", "+_vm._s(_vm.dataDetail.data.zip)+", "+_vm._s(_vm.dataDetail.data.city))+"</p>"):"<!---->")+"</div> <div class=\"grid\" data-v-959abfc2>"+((_vm.dataDetail.data.delivery_option == "zasielkovna")?("<img src=\"https://widget.packeta.com/v5/static/media/logoSK.a6779253.svg\" alt=\"zasielkovna-logo\" class=\"delivery-img align-self-center\" data-v-959abfc2>"):"<!---->")+" "+((_vm.dataDetail.data.delivery_option == "sk_posta")?("<img src=\"https://www.posta.sk/images/site/sl-posta-logo.svg\" alt=\"sk-posta-logo\" class=\"delivery-img align-self-center\" data-v-959abfc2>"):"<!---->")+"</div></div> <div class=\"bt1 grid justify-items-start\" data-v-959abfc2><span class=\"tag yellow\" data-v-959abfc2>ZADARMO</span></div> <div class=\"bt1\" data-v-959abfc2><p data-v-959abfc2></p></div></div>")],2)]),_vm._ssrNode(" <div class=\"box-2 grid col-2 p10 auto justify-items-end justify-content-end gap-10 align-items-center\" data-v-959abfc2><div data-v-959abfc2><p class=\"small\" data-v-959abfc2>Spolu:</p></div> <div class=\"grid col-2 auto align-items-center gap-5\" data-v-959abfc2><p class=\"big strong\" data-v-959abfc2>"+_vm._ssrEscape(_vm._s(_vm.dataDetail.sum_price))+"</p> <p class=\"small\" data-v-959abfc2>kreditov</p></div></div>")],2),_vm._ssrNode(" <div class=\"box grid\" data-v-959abfc2><div class=\"justify-self-end\" data-v-959abfc2><button class=\"button cta black\" data-v-959abfc2>Objednávka je pripravená</button></div></div>")],2)],2)])])}
-var Detailvue_type_template_id_959abfc2_scoped_true_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/admin/orders/Detail.vue?vue&type=template&id=eefc5a78&scoped=true&
+var Detailvue_type_template_id_eefc5a78_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component"},[_vm._ssrNode("<div class=\"container-standard grid\" data-v-eefc5a78>","</div>",[_vm._ssrNode("<div class=\"grid gap-40\" data-v-eefc5a78>","</div>",[_vm._ssrNode("<h2 class=\"grid col-2 auto justify-content-start gap-20 align-items-center\" data-v-eefc5a78>Detail objednávky <span"+(_vm._ssrClass(null,"status " + _vm.statusTagClass(_vm.dataDetail.data.status)))+" data-v-eefc5a78>"+_vm._ssrEscape(_vm._s(_vm.status(_vm.dataDetail.data.status)))+"</span></h2> "),_vm._ssrNode("<div class=\"grid gap-60\" data-v-eefc5a78>","</div>",[_vm._ssrNode("<div class=\"grid gap-20 auto\" data-v-eefc5a78>","</div>",[_vm._ssrNode("<div class=\"table-wrapper justify-content-start\" data-v-eefc5a78>","</div>",[_vm._ssrNode("<div class=\"table grid auto col-3\" data-v-eefc5a78>","</div>",[_vm._ssrNode("<div class=\"table-head\" data-v-eefc5a78><div data-v-eefc5a78>Názov</div> <div data-v-eefc5a78>Kredity</div> <div data-v-eefc5a78>Sklad</div></div> "),_vm._l((_vm.dataDetail.data_items),function(item){return _vm._ssrNode("<div class=\"table-row\" data-v-eefc5a78>","</div>",[_vm._ssrNode("<div data-v-eefc5a78><p class=\"strong\" data-v-eefc5a78>"+_vm._ssrEscape(_vm._s(item.name))+"</p><p class=\"italic small\" data-v-eefc5a78>"+_vm._ssrEscape(_vm._s(item.author))+"</p></div> <div class=\"grid justify-items-start\" data-v-eefc5a78><span class=\"tag yellow\" data-v-eefc5a78>"+_vm._ssrEscape(_vm._s(item.price)+" kreditov")+"</span></div> "),_vm._ssrNode("<div data-v-eefc5a78>","</div>",[_vm._ssrNode("<p data-v-eefc5a78>","</p>",[_c('nuxt-link',{attrs:{"to":'/admin/stock/detail/' + item.stock_id}},[_vm._v(_vm._s(item.code))])],1)])],2)}),_vm._ssrNode(" <div class=\"table-row\" data-v-eefc5a78><div class=\"bt1 grid col-2 auto gap-20 justify-content-start align-content-center\" data-v-eefc5a78><div data-v-eefc5a78><p class=\"strong\" data-v-eefc5a78>Doručenie</p> "+((_vm.dataDetail.data.delivery_option == "zasielkovna")?("<p class=\"italic small\" data-v-eefc5a78>"+_vm._ssrEscape(_vm._s(_vm.dataDetail.data.place)+", "+_vm._s(_vm.dataDetail.data.street)+", "+_vm._s(_vm.dataDetail.data.zip)+", "+_vm._s(_vm.dataDetail.data.city))+"</p>"):"<!---->")+" "+((_vm.dataDetail.data.delivery_option == "sk_posta")?("<p class=\"italic small\" data-v-eefc5a78>"+_vm._ssrEscape(_vm._s(_vm.dataDetail.data.name)+" "+_vm._s(_vm.dataDetail.data.surname)+", "+_vm._s(_vm.dataDetail.data.street)+", "+_vm._s(_vm.dataDetail.data.zip)+", "+_vm._s(_vm.dataDetail.data.city))+"</p>"):"<!---->")+"</div> <div class=\"grid\" data-v-eefc5a78>"+((_vm.dataDetail.data.delivery_option == "zasielkovna")?("<img src=\"https://widget.packeta.com/v5/static/media/logoSK.a6779253.svg\" alt=\"zasielkovna-logo\" class=\"delivery-img align-self-center\" data-v-eefc5a78>"):"<!---->")+" "+((_vm.dataDetail.data.delivery_option == "sk_posta")?("<img src=\"https://www.posta.sk/images/site/sl-posta-logo.svg\" alt=\"sk-posta-logo\" class=\"delivery-img align-self-center\" data-v-eefc5a78>"):"<!---->")+"</div></div> <div class=\"bt1 grid justify-items-start\" data-v-eefc5a78><span class=\"tag yellow\" data-v-eefc5a78>ZADARMO</span></div> <div class=\"bt1\" data-v-eefc5a78><p data-v-eefc5a78></p></div></div>")],2)]),_vm._ssrNode(" <div class=\"box-2 grid col-2 p10 auto justify-items-end justify-content-end gap-10 align-items-center\" data-v-eefc5a78><div data-v-eefc5a78><p class=\"small\" data-v-eefc5a78>Spolu:</p></div> <div class=\"grid col-2 auto align-items-center gap-5\" data-v-eefc5a78><p class=\"big strong\" data-v-eefc5a78>"+_vm._ssrEscape(_vm._s(_vm.dataDetail.sum_price))+"</p> <p class=\"small\" data-v-eefc5a78>kreditov</p></div></div>")],2),_vm._ssrNode(" <div class=\"box grid\" data-v-eefc5a78><div class=\"justify-self-end grid auto col-2 gap-20 align-items-center\" data-v-eefc5a78><p data-v-eefc5a78>Zmeniť stav objednávky:</p> <div data-v-eefc5a78>"+((_vm.dataDetail.data.status == 1)?("<button class=\"button cta black\" data-v-eefc5a78>Pripravená na odoslanie</button>"):"<!---->")+" "+((_vm.dataDetail.data.status == 2)?("<button class=\"button cta black\" data-v-eefc5a78>Objednaná</button>"):"<!---->")+"</div></div></div>")],2)],2)])])}
+var Detailvue_type_template_id_eefc5a78_scoped_true_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/admin/orders/Detail.vue?vue&type=template&id=959abfc2&scoped=true&
+// CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/admin/orders/Detail.vue?vue&type=template&id=eefc5a78&scoped=true&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/admin/orders/Detail.vue?vue&type=script&lang=js&
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -159,6 +166,61 @@ var Detailvue_type_template_id_959abfc2_scoped_true_staticRenderFns = []
       }, error => {
         console.log(error); //this.res = error.response.data.message
       });
+    },
+
+    async notready() {
+      await this.$axios.$put('/order/notready', {
+        "id": this.dataDetail.data.id
+      }).then(response => {
+        console.log(response);
+        this.$router.push('/admin/orders');
+      }, error => {
+        console.log(error); //this.res = error.response.data.message
+      });
+    },
+
+    status(status) {
+      if (status == 0) {
+        return "Nepotvrdená";
+      }
+
+      if (status == 1) {
+        return "Nová";
+      }
+
+      if (status == 2) {
+        return "Pripravená";
+      }
+
+      if (status == 3) {
+        return "Na ceste";
+      }
+
+      if (status == 4) {
+        return "Doručená";
+      }
+    },
+
+    statusTagClass(status) {
+      if (status == 0) {
+        return "gray";
+      }
+
+      if (status == 1) {
+        return "red";
+      }
+
+      if (status == 2) {
+        return "orange";
+      }
+
+      if (status == 3) {
+        return "yellow";
+      }
+
+      if (status == 4) {
+        return "green";
+      }
     }
 
   }
@@ -174,7 +236,7 @@ var componentNormalizer = __webpack_require__(1);
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(214)
+  var style0 = __webpack_require__(223)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -183,11 +245,11 @@ if (style0.__inject__) style0.__inject__(context)
 
 var component = Object(componentNormalizer["a" /* default */])(
   orders_Detailvue_type_script_lang_js_,
-  Detailvue_type_template_id_959abfc2_scoped_true_render,
-  Detailvue_type_template_id_959abfc2_scoped_true_staticRenderFns,
+  Detailvue_type_template_id_eefc5a78_scoped_true_render,
+  Detailvue_type_template_id_eefc5a78_scoped_true_staticRenderFns,
   false,
   injectStyles,
-  "959abfc2",
+  "eefc5a78",
   "3837e2b2"
   
 )

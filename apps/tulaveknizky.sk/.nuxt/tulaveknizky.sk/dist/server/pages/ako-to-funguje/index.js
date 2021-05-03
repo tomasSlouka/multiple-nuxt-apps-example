@@ -1,7 +1,7 @@
 exports.ids = [25];
 exports.modules = {
 
-/***/ 102:
+/***/ 104:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13,7 +13,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 103:
+/***/ 105:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -27,7 +27,7 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ 104:
+/***/ 106:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -93,7 +93,7 @@ var componentNormalizer = __webpack_require__(1);
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(102)
+  var style0 = __webpack_require__(104)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -115,7 +115,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 105:
+/***/ 107:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -127,7 +127,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 106:
+/***/ 108:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -141,7 +141,7 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ 107:
+/***/ 113:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -183,7 +183,7 @@ var componentNormalizer = __webpack_require__(1);
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(105)
+  var style0 = __webpack_require__(107)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -205,19 +205,19 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 108:
+/***/ 116:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Newsletter_vue_vue_type_style_index_0_id_2564596a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(95);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Newsletter_vue_vue_type_style_index_0_id_2564596a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(97);
 /* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Newsletter_vue_vue_type_style_index_0_id_2564596a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Newsletter_vue_vue_type_style_index_0_id_2564596a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
 /* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Newsletter_vue_vue_type_style_index_0_id_2564596a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Newsletter_vue_vue_type_style_index_0_id_2564596a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
 
-/***/ 109:
+/***/ 117:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -231,7 +231,7 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ 114:
+/***/ 120:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -274,7 +274,7 @@ var componentNormalizer = __webpack_require__(1);
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(108)
+  var style0 = __webpack_require__(116)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -302,7 +302,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(179);
+var content = __webpack_require__(182);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
@@ -319,7 +319,7 @@ module.exports.__inject__ = function (context) {
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(181);
+var content = __webpack_require__(184);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
@@ -330,7 +330,7 @@ module.exports.__inject__ = function (context) {
 
 /***/ }),
 
-/***/ 178:
+/***/ 181:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -342,7 +342,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 179:
+/***/ 182:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -356,7 +356,7 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ 180:
+/***/ 183:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -368,7 +368,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 181:
+/***/ 184:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -382,7 +382,7 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ 227:
+/***/ 236:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -397,10 +397,10 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./apps/tulaveknizky.sk/pages/ako-to-funguje/index.vue?vue&type=template&id=792b7d82&
 
 // EXTERNAL MODULE: ./apps/tulaveknizky.sk/components/page/home/SubNav.vue + 4 modules
-var SubNav = __webpack_require__(104);
+var SubNav = __webpack_require__(106);
 
 // EXTERNAL MODULE: ./apps/tulaveknizky.sk/components/page/_common/Hero.vue + 4 modules
-var Hero = __webpack_require__(107);
+var Hero = __webpack_require__(113);
 
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/page/home/About.vue?vue&type=template&id=01e16662&scoped=true&
 var Aboutvue_type_template_id_01e16662_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component"},[_vm._ssrNode("<div class=\"container-standard grid gap-60\" data-v-01e16662><h2 data-v-01e16662>Požičiavanie kníh s Túlavými knižkami je jednoduché</h2> <div class=\"grid md-col-2 gap-60\" data-v-01e16662><div class=\"grid gap-20 col-2 auto justify-content-start \" data-v-01e16662><div data-v-01e16662><div class=\"number grid align-items-center justify-items-center\" data-v-01e16662><div data-v-01e16662>1.</div></div></div> <div class=\"grid gap-10 align-content-start\" data-v-01e16662><h3 data-v-01e16662>Vytvor si účet</h3> <div class=\"grid gap-5\" data-v-01e16662><p data-v-01e16662>Knižky si môžeš požičať len ak máš vytvorený svoj účet na Túlavých knižkách. Registrácia nového účtu je zadarmo.</p></div></div></div> <div data-v-01e16662></div> <div data-v-01e16662></div> <div class=\"grid gap-20 col-2 auto justify-content-start \" data-v-01e16662><div data-v-01e16662><div class=\"number grid align-items-center justify-items-center\" data-v-01e16662><div data-v-01e16662>2.</div></div></div> <div class=\"grid gap-10 align-content-start\" data-v-01e16662><h3 data-v-01e16662>Staň sa členom</h3> <div class=\"grid gap-5\" data-v-01e16662><p data-v-01e16662>Vieme, trocha to znie ako by si mal vstupiť do politickej strany, ale nie je to tak. Po registrácii si vyber plán predplatného, ktorý ti najviac vyhovuje a aktivovuj si tak všetky výhody online knižnice. Si zvedavec, pravidelný čitateľ alebo zarytý knihomoľ?</p></div></div></div> <div class=\"grid gap-20 col-2 auto justify-content-start \" data-v-01e16662><div data-v-01e16662><div class=\"number grid align-items-center justify-items-center\" data-v-01e16662><div data-v-01e16662>3.</div></div></div> <div class=\"grid gap-10 align-content-start\" data-v-01e16662><h3 data-v-01e16662>Dobi si jednorázový kredit</h3> <div class=\"grid gap-5\" data-v-01e16662><p data-v-01e16662>Podľa toho, ktorý plán predplatného si aktivuješ, možno budeš a možno nebudeš potrebovať si dobiť kredit. Kreditom sa za knižky neplatí, ale slúži iba ako záloha za požičané knižky. Po vrátení knižiek sa ti kredit automaticky odblokuje.</p></div></div></div> <div data-v-01e16662></div> <div data-v-01e16662></div> <div class=\"grid gap-20 col-2 auto justify-content-start \" data-v-01e16662><div data-v-01e16662><div class=\"number grid align-items-center justify-items-center\" data-v-01e16662><div data-v-01e16662>4.</div></div></div> <div class=\"grid gap-10 align-content-start\" data-v-01e16662><h3 data-v-01e16662>Požičaj si knižky na 60 dní</h3> <div class=\"grid gap-5\" data-v-01e16662><p data-v-01e16662>Ak si členom a máš dostupné kredity, môžeš si vypožičať knižky. Štandardná dĺžka vypožičnej doby je 30 dní od odoslania z našej centrály. </p> <p data-v-01e16662>Ak knižky nestíhaš prečítať, môžeš si predĺžiť výpožičnú dobu o ďalších 15 alebo 30 dní v závislosti od aktívneho plánu predplatného.</p></div></div></div> <div class=\"grid gap-20 col-2 auto justify-content-start \" data-v-01e16662><div data-v-01e16662><div class=\"number grid align-items-center justify-items-center\" data-v-01e16662><div data-v-01e16662>5.</div></div></div> <div class=\"grid gap-10 align-content-start\" data-v-01e16662><h3 data-v-01e16662>Počkaj na doručenie knižiek</h3> <div class=\"grid gap-5\" data-v-01e16662><p data-v-01e16662>Knižky posielame pomocou služby Zasielkovňa alebo Slovenskou poštou do 3 dní od objednania.</p></div></div></div> <div data-v-01e16662></div> <div data-v-01e16662></div> <div class=\"grid gap-20 col-2 auto justify-content-start \" data-v-01e16662><div data-v-01e16662><div class=\"number grid align-items-center justify-items-center\" data-v-01e16662><div data-v-01e16662>6.</div></div></div> <div class=\"grid gap-10 align-content-start\" data-v-01e16662><h3 data-v-01e16662>Prečítaj a vráť knižky späť</h3> <div class=\"grid gap-5\" data-v-01e16662><p data-v-01e16662>Po uplynutí výpožičnej doby nám jednoducho a zadarmo pošleš knižky späť pomocou služby Zásielkovňa alebo Slovenskou poštou.</p> <p data-v-01e16662>Pozor! Ak knižky nevrátiš včas, za každý deň omeškania sa ti odpočíta 0.2 kreditu.</p></div></div></div></div></div>")])}
@@ -538,7 +538,7 @@ var componentNormalizer = __webpack_require__(1);
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(178)
+  var style0 = __webpack_require__(181)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -656,7 +656,7 @@ var Subscriptionvue_type_template_id_306a2ff1_scoped_true_staticRenderFns = []
 
 function Subscription_injectStyles (context) {
   
-  var style0 = __webpack_require__(180)
+  var style0 = __webpack_require__(183)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -676,7 +676,7 @@ var Subscription_component = Object(componentNormalizer["a" /* default */])(
 
 /* harmony default export */ var Subscription = (Subscription_component.exports);
 // EXTERNAL MODULE: ./apps/tulaveknizky.sk/components/page/home/Newsletter.vue + 4 modules
-var Newsletter = __webpack_require__(114);
+var Newsletter = __webpack_require__(120);
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/pages/ako-to-funguje/index.vue?vue&type=script&lang=js&
 //
@@ -741,7 +741,7 @@ var ako_to_funguje_component = Object(componentNormalizer["a" /* default */])(
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(103);
+var content = __webpack_require__(105);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
@@ -758,7 +758,7 @@ module.exports.__inject__ = function (context) {
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(106);
+var content = __webpack_require__(108);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
@@ -769,13 +769,13 @@ module.exports.__inject__ = function (context) {
 
 /***/ }),
 
-/***/ 95:
+/***/ 97:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(109);
+var content = __webpack_require__(117);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context

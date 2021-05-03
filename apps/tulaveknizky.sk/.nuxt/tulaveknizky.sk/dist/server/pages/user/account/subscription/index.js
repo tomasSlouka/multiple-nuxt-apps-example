@@ -1,77 +1,19 @@
-exports.ids = [41];
+exports.ids = [43];
 exports.modules = {
 
-/***/ 111:
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(120);
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add CSS to SSR context
-var add = __webpack_require__(3).default
-module.exports.__inject__ = function (context) {
-  add("5cbcfdc4", content, true, context)
-};
-
-/***/ }),
-
-/***/ 112:
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(122);
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add CSS to SSR context
-var add = __webpack_require__(3).default
-module.exports.__inject__ = function (context) {
-  add("514adeb3", content, true, context)
-};
-
-/***/ }),
-
-/***/ 115:
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(132);
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add CSS to SSR context
-var add = __webpack_require__(3).default
-module.exports.__inject__ = function (context) {
-  add("ba6e792a", content, true, context)
-};
-
-/***/ }),
-
-/***/ 116:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/icon-money.a8e5e41.svg";
-
-/***/ }),
-
-/***/ 119:
+/***/ 109:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Hero_vue_vue_type_style_index_0_id_56dfa576_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(111);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Hero_vue_vue_type_style_index_0_id_56dfa576_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(95);
 /* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Hero_vue_vue_type_style_index_0_id_56dfa576_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Hero_vue_vue_type_style_index_0_id_56dfa576_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
 /* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Hero_vue_vue_type_style_index_0_id_56dfa576_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Hero_vue_vue_type_style_index_0_id_56dfa576_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
 
-/***/ 120:
+/***/ 110:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -85,19 +27,19 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ 121:
+/***/ 111:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SubNav_vue_vue_type_style_index_0_id_3a7b95ec_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(112);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SubNav_vue_vue_type_style_index_0_id_3a7b95ec_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(96);
 /* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SubNav_vue_vue_type_style_index_0_id_3a7b95ec_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SubNav_vue_vue_type_style_index_0_id_3a7b95ec_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
 /* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SubNav_vue_vue_type_style_index_0_id_3a7b95ec_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SubNav_vue_vue_type_style_index_0_id_3a7b95ec_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
 
-/***/ 122:
+/***/ 112:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -111,7 +53,7 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ 126:
+/***/ 114:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -153,7 +95,7 @@ var componentNormalizer = __webpack_require__(1);
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(119)
+  var style0 = __webpack_require__(109)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -175,7 +117,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 127:
+/***/ 115:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -233,7 +175,7 @@ var componentNormalizer = __webpack_require__(1);
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(121)
+  var style0 = __webpack_require__(111)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -255,12 +197,36 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
+/***/ 121:
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(132);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add CSS to SSR context
+var add = __webpack_require__(3).default
+module.exports.__inject__ = function (context) {
+  add("ba6e792a", content, true, context)
+};
+
+/***/ }),
+
+/***/ 122:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/icon-money.a8e5e41.svg";
+
+/***/ }),
+
 /***/ 131:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_DateFormat_vue_vue_type_style_index_0_id_259a6f86_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(115);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_DateFormat_vue_vue_type_style_index_0_id_259a6f86_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(121);
 /* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_DateFormat_vue_vue_type_style_index_0_id_259a6f86_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_DateFormat_vue_vue_type_style_index_0_id_259a6f86_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
 /* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_DateFormat_vue_vue_type_style_index_0_id_259a6f86_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_DateFormat_vue_vue_type_style_index_0_id_259a6f86_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
@@ -379,7 +345,7 @@ module.exports = __webpack_require__.p + "img/icon-arrow-down.b2d248f.svg";
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(207);
+var content = __webpack_require__(210);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
@@ -390,7 +356,7 @@ module.exports.__inject__ = function (context) {
 
 /***/ }),
 
-/***/ 206:
+/***/ 209:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -402,7 +368,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 207:
+/***/ 210:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -416,7 +382,7 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ 247:
+/***/ 256:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -431,10 +397,10 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./apps/tulaveknizky.sk/pages/user/account/subscription/index.vue?vue&type=template&id=7f873f80&
 
 // EXTERNAL MODULE: ./apps/tulaveknizky.sk/components/page/user/account/_common/Hero.vue + 4 modules
-var Hero = __webpack_require__(126);
+var Hero = __webpack_require__(114);
 
 // EXTERNAL MODULE: ./apps/tulaveknizky.sk/components/page/user/account/_common/SubNav.vue + 4 modules
-var SubNav = __webpack_require__(127);
+var SubNav = __webpack_require__(115);
 
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/page/user/account/subscription/Payment.vue?vue&type=template&id=68686dc7&scoped=true&
 var Paymentvue_type_template_id_68686dc7_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component"},[_vm._ssrNode("<div class=\"container-standard grid\" data-v-68686dc7>","</div>",[_vm._ssrNode("<div class=\"grid col-1 gap-60 align-items-start\" data-v-68686dc7>","</div>",[_vm._ssrNode("<div class=\"grid gap-20 md-col-3\" data-v-68686dc7>","</div>",[(_vm.$store.state.auth.userData.subscription_plan_name && _vm.$store.state.auth.userData.subscription_canceled_at === null)?_vm._ssrNode("<div class=\"grid gap-10 box-form align-content-start\" data-v-68686dc7>","</div>",[_vm._ssrNode("<p class=\"h4\" data-v-68686dc7>Aktívny plán</p> <p class=\"h1\" data-v-68686dc7>"+_vm._ssrEscape(_vm._s(_vm.$store.state.auth.userData.subscription_plan_name))+"</p> <div class=\"hr mb10\" data-v-68686dc7></div> <div class=\"grid gap-10 col-2 auto justify-content-start align-items-center\" data-v-68686dc7><p class=\"strong\" data-v-68686dc7>Platba:</p> "+((_vm.$store.state.auth.userData.subscription_plan_name == "Zvedavec")?("<p data-v-68686dc7>9.99 € / mesiac</p>"):"<!---->")+" "+((_vm.$store.state.auth.userData.subscription_plan_name == "Čitateľ")?("<p data-v-68686dc7>59.00 € / rok</p>"):"<!---->")+" "+((_vm.$store.state.auth.userData.subscription_plan_name == "Knihomoľ")?("<p data-v-68686dc7>99.00 € / rok</p>"):"<!---->")+"</div> "),_vm._ssrNode("<div class=\"grid gap-10 col-2 auto justify-content-start align-items-center\" data-v-68686dc7>","</div>",[_vm._ssrNode("<p class=\"strong\" data-v-68686dc7>Platí od:</p> "),_vm._ssrNode("<div data-v-68686dc7>","</div>",[_c('DateFormat',{attrs:{"date":_vm.$store.state.auth.userData.subscription_started_at,"format":"date"}})],1)],2),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"grid gap-10 col-2 auto justify-content-start align-items-center\" data-v-68686dc7>","</div>",[_vm._ssrNode("<p class=\"strong\" data-v-68686dc7>Koniec platnosti:</p> "),_vm._ssrNode("<div data-v-68686dc7>","</div>",[_c('DateFormat',{attrs:{"date":_vm.$store.state.auth.userData.subscription_expires_at,"format":"date"}})],1)],2),_vm._ssrNode(" "),(_vm.$store.state.auth.userData.subscription_canceled_at)?_vm._ssrNode("<div class=\"grid justify-content-start align-items-center\" data-v-68686dc7>","</div>",[_vm._ssrNode("<p class=\"strong error p0\" data-v-68686dc7>","</p>",[_vm._ssrNode("Predplatné si prerušil "),_c('DateFormat',{attrs:{"date":_vm.$store.state.auth.userData.subscription_canceled_at,"format":"date"}}),_vm._ssrNode(".")],2)]):_vm._e(),_vm._ssrNode(" <div class=\"hr\" data-v-68686dc7></div> <div data-v-68686dc7><button class=\"align-self-end button cta black\" data-v-68686dc7> Upraviť predplatné</button></div>")],2):_vm._e(),_vm._ssrNode(" "),(_vm.$store.state.auth.userData.subscription_plan_name === null)?_vm._ssrNode("<div class=\"grid gap-10 box-form align-content-start\" data-v-68686dc7>","</div>",[_vm._ssrNode("<p class=\"h4\" data-v-68686dc7>Aktívny plán</p> <p class=\"h1\" data-v-68686dc7>Bez plánu</p> <div class=\"hr mb10\" data-v-68686dc7></div> "),_vm._ssrNode("<div class=\"grid gap-10 justify-content-start align-items-center\" data-v-68686dc7>","</div>",[_vm._ssrNode("<p class=\"small\" data-v-68686dc7>Bez aktívneho plánu si nemôžeš požičiavať knižky.</p> "),_c('button',{directives:[{name:"scroll-to",rawName:"v-scroll-to",value:({
@@ -448,7 +414,7 @@ var Paymentvue_type_template_id_68686dc7_scoped_true_render = function () {var _
 								//onCancel: onCancel,
 								x: false,
 								y: true
-						}),expression:"{\n\t\t\t\t\t\t\t\tel: '#plans',\n\t\t\t\t\t\t\t\teasing: 'ease-in',\n\t\t\t\t\t\t\t\toffset: 0,\n\t\t\t\t\t\t\t\tforce: true,\n\t\t\t\t\t\t\t\tcancelable: true,\n\t\t\t\t\t\t\t\t//onStart: onStart,\n\t\t\t\t\t\t\t\t//onDone: onDone,\n\t\t\t\t\t\t\t\t//onCancel: onCancel,\n\t\t\t\t\t\t\t\tx: false,\n\t\t\t\t\t\t\t\ty: true\n\t\t\t\t\t\t}"}],staticClass:"button cta black justify-self-start"},[_vm._ssrNode("Vybrať plán predplatného")])],2)],2):_vm._e(),_vm._ssrNode(" "),(_vm.$store.state.auth.userData.subscription_canceled_at)?_vm._ssrNode("<div class=\"grid gap-10 box-form align-content-start\" data-v-68686dc7>","</div>",[_vm._ssrNode("<p class=\"h4\" data-v-68686dc7>Aktívny plán</p> <p class=\"h1\" data-v-68686dc7>"+_vm._ssrEscape(_vm._s(_vm.$store.state.auth.userData.subscription_plan_name))+"</p> <div class=\"hr mb10\" data-v-68686dc7></div> "),(_vm.$store.state.auth.userData.subscription_canceled_at)?_vm._ssrNode("<div class=\"grid justify-content-start align-items-center\" data-v-68686dc7>","</div>",[_vm._ssrNode("<p class=\"error p0\" data-v-68686dc7>","</p>",[_vm._ssrNode("Predplatné je zrušené. Plán môžeš využívať do "),_c('DateFormat',{attrs:{"date":_vm.$store.state.auth.userData.subscription_expires_at,"format":"date","classes":"strong"}}),_vm._ssrNode("kedy vyprší tvoje predplatené obdobie.")],2),_vm._ssrNode(" <p class=\"p0 mt20\" data-v-68686dc7>Predplatné a automatickú platbu môžeš kedykoľvek obnoviť.</p>")],2):_vm._e(),_vm._ssrNode(" <div class=\"hr\" data-v-68686dc7></div> <div data-v-68686dc7><button class=\"align-self-end button cta black\" data-v-68686dc7> Obnoviť predplatné</button></div>")],2):_vm._e()],2),_vm._ssrNode(" <div class=\"box grid gap-10 showmore pointer\" data-v-68686dc7><div class=\"grid align-items-center col-2 auto justify-content-space-between gap-10\" data-v-68686dc7><h4 data-v-68686dc7>Ako funguje predplatné?</h4> <div class=\"grid align-items-center col-2 auto justify-content-space-between gap-10\" data-v-68686dc7><p class=\"small strong\""+(_vm._ssrStyle(null,null, { display: (!_vm.showMore) ? '' : 'none' }))+" data-v-68686dc7>viac</p> <p class=\"small strong\""+(_vm._ssrStyle(null,null, { display: (_vm.showMore) ? '' : 'none' }))+" data-v-68686dc7>menej</p> <img"+(_vm._ssrAttr("src",__webpack_require__(139)))+" alt class=\"icon\" data-v-68686dc7></div></div> <div class=\"grid gap-10 mt10\""+(_vm._ssrStyle(null,null, { display: (_vm.showMore) ? '' : 'none' }))+" data-v-68686dc7><p data-v-68686dc7>Ak si chceš požičiavať knižky, potrebuješ mať aktívny jeden z plánov predplatného.</p> <p data-v-68686dc7>Aktivovaním ktoréhokoľvek plánu predplatného sa ti okamžite odomknú všetky benefity plynúce z popisu plánu. Ak si aktivuješ plán &quot;Čitateľ&quot; alebo plán &quot;Knihomoľ&quot; k dispozícií dostaneš kredity navyše, ktoré budeš môcť používať na vypožičanie knižiek po celú dobu predplatného. Ak sa rozhodneš predplatený plán zrušiť, tieto kredity už viac nebudeš mať k dispozícií.</p> <p data-v-68686dc7>Predplatné sa automaticky predlžuje. Predplatné a automatické predlžovanie, je možné kedykoľvek zrušiť. Benefity plánu predplatného budú deaktivované až po uplynutí posledného dňa predplatenej doby (tzn. ak zaplatíš za plán &quot;Knihomoľ&quot; a hneď po tom zrušíš predplatné, benefity tohto plánu sa deaktivujú až o 365 dní). </p></div></div> <div class=\"grid gap-20\" data-v-68686dc7><div class=\"grid gap-10\" data-v-68686dc7><h2 id=\"plans\" data-v-68686dc7>Plány predplatného</h2> <p data-v-68686dc7>Vyber si plán predplatného, ktorý ti najviac vyhovuje.</p></div> <div class=\"grid col-3 gap-20 justify-content-start auto\" data-v-68686dc7><div class=\"box-form grid gap-10\" data-v-68686dc7><div class=\"grid gap-20 align-content-start\" data-v-68686dc7><h3 data-v-68686dc7>Zvedavec</h3> <div class=\"grid gap-10 col-2 auto justify-content-start align-items-center\" data-v-68686dc7><p class=\"h1\" data-v-68686dc7>4.99 €</p> <p data-v-68686dc7> / mesiac</p></div> <div class=\"hr\" data-v-68686dc7></div> <p data-v-68686dc7>Ideálne, ak si chceš vyskúšať ako funguje online požičiavanie knižiek. </p> <ul class=\"ml20 mb40\" data-v-68686dc7><li data-v-68686dc7><p data-v-68686dc7>Doprava a vrátenie zadarmo</p></li> <li data-v-68686dc7><p data-v-68686dc7>Max. 1 objednávka za mesiac</p></li> <li data-v-68686dc7><p data-v-68686dc7>Max. 1 kniha v objednávke</p></li></ul></div> "+((!_vm.$store.state.auth.userData.subscription_plan_name)?("<button class=\"align-self-end button cta black grid align-items-center col-2 auto justify-content-center gap-10\" data-v-68686dc7><img"+(_vm._ssrAttr("src",__webpack_require__(116)))+" alt class=\"icon-money\" data-v-68686dc7> Predplatiť</button>"):"<!---->")+"</div> <div class=\"box-form grid gap-10\" data-v-68686dc7><div class=\"grid gap-20 align-content-start\" data-v-68686dc7><h3 data-v-68686dc7>Čitateľ</h3> <div class=\"grid gap-10 col-2 auto justify-content-start align-items-center\" data-v-68686dc7><p class=\"h1\" data-v-68686dc7>59.00 €</p> <p data-v-68686dc7> / rok</p></div> <div class=\"hr\" data-v-68686dc7></div> <p data-v-68686dc7>Predplať si Túlavé knižky na celý rok a získaj navyše 15 kreditov na vypožičanie knižiek.</p> <ul class=\"ml20\" data-v-68686dc7><li data-v-68686dc7><p data-v-68686dc7>Doprava a vrátenie zadarmo</p></li> <li data-v-68686dc7><p data-v-68686dc7>Max. 1 objednávka za mesiac</p></li> <li data-v-68686dc7><p data-v-68686dc7>Max. 2 knižky v objednávke</p></li> <li data-v-68686dc7><p data-v-68686dc7>+ 15 kreditov</p></li></ul> <ul class=\"ml20 mb40\" data-v-68686dc7><li data-v-68686dc7><p data-v-68686dc7>Hodnotenie knižiek a komentáre</p></li> <li data-v-68686dc7><p data-v-68686dc7>Možnosť predĺženia výpožičnej doby o ďalších 15 dní</p></li></ul></div> "+((!_vm.$store.state.auth.userData.subscription_plan_name)?("<button class=\"align-self-end button cta black grid align-items-center col-2 auto justify-content-center gap-10\" data-v-68686dc7><img"+(_vm._ssrAttr("src",__webpack_require__(116)))+" alt class=\"icon-money\" data-v-68686dc7> Predplatiť</button>"):"<!---->")+"</div> <div class=\"box-form grid gap-10\" data-v-68686dc7><div class=\"grid gap-20 align-content-start\" data-v-68686dc7><h3 data-v-68686dc7>Knihomoľ</h3> <div class=\"grid gap-10 col-2 auto justify-content-start align-items-center\" data-v-68686dc7><p class=\"h1\" data-v-68686dc7>99.00 €</p> <p data-v-68686dc7> / rok</p></div> <div class=\"hr\" data-v-68686dc7></div> <p data-v-68686dc7>Ak chceš mať neustály prísun kníh na čítanie, tak určite oceníš možnosť prednostnej rezervacie knižiek a automatického odoslania knižiek bez nutnosti objednania.</p> <ul class=\"ml20\" data-v-68686dc7><li data-v-68686dc7><p data-v-68686dc7>Doprava a vrátenie zadarmo</p></li> <li data-v-68686dc7><p data-v-68686dc7>Max. 2 objednávky za mesiac</p></li> <li data-v-68686dc7><p data-v-68686dc7>Max. 2 knižky v objednávke</p></li> <li data-v-68686dc7><p data-v-68686dc7>+ 20 kreditov</p></li></ul> <ul class=\"ml20 mb40\" data-v-68686dc7><li data-v-68686dc7><p data-v-68686dc7>Hodnotenie knižiek a komentáre</p></li> <li data-v-68686dc7><p data-v-68686dc7>Možnosť predĺženia výpožičnej doby o ďalších 30 dní</p></li> <li data-v-68686dc7><p data-v-68686dc7>Rezervácia knižiek a automatické odoslanie bez nutnosti objednania</p></li></ul></div> "+((!_vm.$store.state.auth.userData.subscription_plan_name)?("<button class=\"align-self-end button cta black grid align-items-center col-2 auto justify-content-center gap-10\" data-v-68686dc7><img"+(_vm._ssrAttr("src",__webpack_require__(116)))+" alt class=\"icon-money\" data-v-68686dc7> Predplatiť</button>"):"<!---->")+"</div></div> <div class=\"grid gap-10\" data-v-68686dc7><p class=\"small text-center\" data-v-68686dc7>Platba cez zabezpečenú platobnú bránu &quot;Stripe&quot;</p></div></div>")],2)])])}
+						}),expression:"{\n\t\t\t\t\t\t\t\tel: '#plans',\n\t\t\t\t\t\t\t\teasing: 'ease-in',\n\t\t\t\t\t\t\t\toffset: 0,\n\t\t\t\t\t\t\t\tforce: true,\n\t\t\t\t\t\t\t\tcancelable: true,\n\t\t\t\t\t\t\t\t//onStart: onStart,\n\t\t\t\t\t\t\t\t//onDone: onDone,\n\t\t\t\t\t\t\t\t//onCancel: onCancel,\n\t\t\t\t\t\t\t\tx: false,\n\t\t\t\t\t\t\t\ty: true\n\t\t\t\t\t\t}"}],staticClass:"button cta black justify-self-start"},[_vm._ssrNode("Vybrať plán predplatného")])],2)],2):_vm._e(),_vm._ssrNode(" "),(_vm.$store.state.auth.userData.subscription_canceled_at)?_vm._ssrNode("<div class=\"grid gap-10 box-form align-content-start\" data-v-68686dc7>","</div>",[_vm._ssrNode("<p class=\"h4\" data-v-68686dc7>Aktívny plán</p> <p class=\"h1\" data-v-68686dc7>"+_vm._ssrEscape(_vm._s(_vm.$store.state.auth.userData.subscription_plan_name))+"</p> <div class=\"hr mb10\" data-v-68686dc7></div> "),(_vm.$store.state.auth.userData.subscription_canceled_at)?_vm._ssrNode("<div class=\"grid justify-content-start align-items-center\" data-v-68686dc7>","</div>",[_vm._ssrNode("<p class=\"error p0\" data-v-68686dc7>","</p>",[_vm._ssrNode("Predplatné je zrušené. Plán môžeš využívať do "),_c('DateFormat',{attrs:{"date":_vm.$store.state.auth.userData.subscription_expires_at,"format":"date","classes":"strong"}}),_vm._ssrNode("kedy vyprší tvoje predplatené obdobie.")],2),_vm._ssrNode(" <p class=\"p0 mt20\" data-v-68686dc7>Predplatné a automatickú platbu môžeš kedykoľvek obnoviť.</p>")],2):_vm._e(),_vm._ssrNode(" <div class=\"hr\" data-v-68686dc7></div> <div data-v-68686dc7><button class=\"align-self-end button cta black\" data-v-68686dc7> Obnoviť predplatné</button></div>")],2):_vm._e()],2),_vm._ssrNode(" <div class=\"box grid gap-10 showmore pointer\" data-v-68686dc7><div class=\"grid align-items-center col-2 auto justify-content-space-between gap-10\" data-v-68686dc7><h4 data-v-68686dc7>Ako funguje predplatné?</h4> <div class=\"grid align-items-center col-2 auto justify-content-space-between gap-10\" data-v-68686dc7><p class=\"small strong\""+(_vm._ssrStyle(null,null, { display: (!_vm.showMore) ? '' : 'none' }))+" data-v-68686dc7>viac</p> <p class=\"small strong\""+(_vm._ssrStyle(null,null, { display: (_vm.showMore) ? '' : 'none' }))+" data-v-68686dc7>menej</p> <img"+(_vm._ssrAttr("src",__webpack_require__(139)))+" alt class=\"icon\" data-v-68686dc7></div></div> <div class=\"grid gap-10 mt10\""+(_vm._ssrStyle(null,null, { display: (_vm.showMore) ? '' : 'none' }))+" data-v-68686dc7><p data-v-68686dc7>Ak si chceš požičiavať knižky, potrebuješ mať aktívny jeden z plánov predplatného.</p> <p data-v-68686dc7>Aktivovaním ktoréhokoľvek plánu predplatného sa ti okamžite odomknú všetky benefity plynúce z popisu plánu. Ak si aktivuješ plán &quot;Čitateľ&quot; alebo plán &quot;Knihomoľ&quot; k dispozícií dostaneš kredity navyše, ktoré budeš môcť používať na vypožičanie knižiek po celú dobu predplatného. Ak sa rozhodneš predplatený plán zrušiť, tieto kredity už viac nebudeš mať k dispozícií.</p> <p data-v-68686dc7>Predplatné sa automaticky predlžuje. Predplatné a automatické predlžovanie, je možné kedykoľvek zrušiť. Benefity plánu predplatného budú deaktivované až po uplynutí posledného dňa predplatenej doby (tzn. ak zaplatíš za plán &quot;Knihomoľ&quot; a hneď po tom zrušíš predplatné, benefity tohto plánu sa deaktivujú až o 365 dní). </p></div></div> <div class=\"grid gap-20\" data-v-68686dc7><div class=\"grid gap-10\" data-v-68686dc7><h2 id=\"plans\" data-v-68686dc7>Plány predplatného</h2> <p data-v-68686dc7>Vyber si plán predplatného, ktorý ti najviac vyhovuje.</p></div> <div class=\"grid col-3 gap-20 justify-content-start auto\" data-v-68686dc7><div class=\"box-form grid gap-10\" data-v-68686dc7><div class=\"grid gap-20 align-content-start\" data-v-68686dc7><h3 data-v-68686dc7>Zvedavec</h3> <div class=\"grid gap-10 col-2 auto justify-content-start align-items-center\" data-v-68686dc7><p class=\"h1\" data-v-68686dc7>4.99 €</p> <p data-v-68686dc7> / mesiac</p></div> <div class=\"hr\" data-v-68686dc7></div> <p data-v-68686dc7>Ideálne, ak si chceš vyskúšať ako funguje online požičiavanie knižiek. </p> <ul class=\"ml20 mb40\" data-v-68686dc7><li data-v-68686dc7><p data-v-68686dc7>Doprava a vrátenie zadarmo</p></li> <li data-v-68686dc7><p data-v-68686dc7>Max. 1 objednávka za mesiac</p></li> <li data-v-68686dc7><p data-v-68686dc7>Max. 1 kniha v objednávke</p></li></ul></div> "+((!_vm.$store.state.auth.userData.subscription_plan_name)?("<button class=\"align-self-end button cta black grid align-items-center col-2 auto justify-content-center gap-10\" data-v-68686dc7><img"+(_vm._ssrAttr("src",__webpack_require__(122)))+" alt class=\"icon-money\" data-v-68686dc7> Predplatiť</button>"):"<!---->")+"</div> <div class=\"box-form grid gap-10\" data-v-68686dc7><div class=\"grid gap-20 align-content-start\" data-v-68686dc7><h3 data-v-68686dc7>Čitateľ</h3> <div class=\"grid gap-10 col-2 auto justify-content-start align-items-center\" data-v-68686dc7><p class=\"h1\" data-v-68686dc7>59.00 €</p> <p data-v-68686dc7> / rok</p></div> <div class=\"hr\" data-v-68686dc7></div> <p data-v-68686dc7>Predplať si Túlavé knižky na celý rok a získaj navyše 15 kreditov na vypožičanie knižiek.</p> <ul class=\"ml20\" data-v-68686dc7><li data-v-68686dc7><p data-v-68686dc7>Doprava a vrátenie zadarmo</p></li> <li data-v-68686dc7><p data-v-68686dc7>Max. 1 objednávka za mesiac</p></li> <li data-v-68686dc7><p data-v-68686dc7>Max. 2 knižky v objednávke</p></li> <li data-v-68686dc7><p data-v-68686dc7>+ 15 kreditov</p></li></ul> <ul class=\"ml20 mb40\" data-v-68686dc7><li data-v-68686dc7><p data-v-68686dc7>Hodnotenie knižiek a komentáre</p></li> <li data-v-68686dc7><p data-v-68686dc7>Možnosť predĺženia výpožičnej doby o ďalších 15 dní</p></li></ul></div> "+((!_vm.$store.state.auth.userData.subscription_plan_name)?("<button class=\"align-self-end button cta black grid align-items-center col-2 auto justify-content-center gap-10\" data-v-68686dc7><img"+(_vm._ssrAttr("src",__webpack_require__(122)))+" alt class=\"icon-money\" data-v-68686dc7> Predplatiť</button>"):"<!---->")+"</div> <div class=\"box-form grid gap-10\" data-v-68686dc7><div class=\"grid gap-20 align-content-start\" data-v-68686dc7><h3 data-v-68686dc7>Knihomoľ</h3> <div class=\"grid gap-10 col-2 auto justify-content-start align-items-center\" data-v-68686dc7><p class=\"h1\" data-v-68686dc7>99.00 €</p> <p data-v-68686dc7> / rok</p></div> <div class=\"hr\" data-v-68686dc7></div> <p data-v-68686dc7>Ak chceš mať neustály prísun kníh na čítanie, tak určite oceníš možnosť prednostnej rezervacie knižiek a automatického odoslania knižiek bez nutnosti objednania.</p> <ul class=\"ml20\" data-v-68686dc7><li data-v-68686dc7><p data-v-68686dc7>Doprava a vrátenie zadarmo</p></li> <li data-v-68686dc7><p data-v-68686dc7>Max. 2 objednávky za mesiac</p></li> <li data-v-68686dc7><p data-v-68686dc7>Max. 2 knižky v objednávke</p></li> <li data-v-68686dc7><p data-v-68686dc7>+ 20 kreditov</p></li></ul> <ul class=\"ml20 mb40\" data-v-68686dc7><li data-v-68686dc7><p data-v-68686dc7>Hodnotenie knižiek a komentáre</p></li> <li data-v-68686dc7><p data-v-68686dc7>Možnosť predĺženia výpožičnej doby o ďalších 30 dní</p></li> <li data-v-68686dc7><p data-v-68686dc7>Rezervácia knižiek a automatické odoslanie bez nutnosti objednania</p></li></ul></div> "+((!_vm.$store.state.auth.userData.subscription_plan_name)?("<button class=\"align-self-end button cta black grid align-items-center col-2 auto justify-content-center gap-10\" data-v-68686dc7><img"+(_vm._ssrAttr("src",__webpack_require__(122)))+" alt class=\"icon-money\" data-v-68686dc7> Predplatiť</button>"):"<!---->")+"</div></div> <div class=\"grid gap-10\" data-v-68686dc7><p class=\"small text-center\" data-v-68686dc7>Platba cez zabezpečenú platobnú bránu &quot;Stripe&quot;</p></div></div>")],2)])])}
 var Paymentvue_type_template_id_68686dc7_scoped_true_staticRenderFns = []
 
 
@@ -718,7 +684,7 @@ var componentNormalizer = __webpack_require__(1);
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(206)
+  var style0 = __webpack_require__(209)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -785,6 +751,40 @@ var subscription_component = Object(componentNormalizer["a" /* default */])(
 )
 
 /* harmony default export */ var subscription = __webpack_exports__["default"] = (subscription_component.exports);
+
+/***/ }),
+
+/***/ 95:
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(110);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add CSS to SSR context
+var add = __webpack_require__(3).default
+module.exports.__inject__ = function (context) {
+  add("5cbcfdc4", content, true, context)
+};
+
+/***/ }),
+
+/***/ 96:
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(112);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add CSS to SSR context
+var add = __webpack_require__(3).default
+module.exports.__inject__ = function (context) {
+  add("514adeb3", content, true, context)
+};
 
 /***/ })
 

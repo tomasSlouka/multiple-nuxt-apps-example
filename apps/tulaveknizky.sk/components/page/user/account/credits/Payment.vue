@@ -13,7 +13,7 @@
                         </div>
                         <div class="hr mb10"></div>
                         <p class='small'>Tvoj celkový počet kreditov, ktoré si si dobil/a.</p>
-                        <button class='button cta white small justify-self-start' v-scroll-to="{
+                        <!-- <button class='button cta white small justify-self-start' v-scroll-to="{
 								el: '#pay-for-credit',
 								easing: 'ease-in',
 								offset: 0,
@@ -24,7 +24,8 @@
 								//onCancel: onCancel,
 								x: false,
 								y: true
-						}">Dobiť kredit</button>
+						}">Dobiť kredit</button> -->
+                        <nuxt-link to='/user/account/credits/add' class='button cta black justify-self-start'>Dobiť kredit</nuxt-link>
                     </div>
 
                     <div class='grid gap-10 box-form align-content-start'>
@@ -67,7 +68,7 @@
 
 
                 <!-- Add credits -->
-                <div class='grid gap-20'>
+                <!-- <div class='grid gap-20'>
                     <div class='grid gap-10'>
                         <h2 id='pay-for-credit'>Dobi si nekonečné kredity</h2>
                         <p>Vyber si hodnotu kreditu, ktorú chceš dobiť.</p>
@@ -89,7 +90,7 @@
                     <div class='grid gap-10'>
                         <p class='small text-center'>Platba cez zabezpečenú platobnú bránu "Stripe"</p>
                     </div>
-                </div>
+                </div> -->
             </div>
             <!-- <button id="checkout-button" @click='checkout()'>Checkout</button> -->
             

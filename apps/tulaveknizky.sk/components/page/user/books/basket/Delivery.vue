@@ -182,9 +182,12 @@
                         </div> -->
                     </div>
 
-                    <div class='box grid md-col-2 gap-10'>
+                    <div class='box grid md-col-2 auto gap-10 align-items-start'>
                         <div class='md-justify-self-start grid'><nuxt-link to='/user/books/basket' class='button cta white'>Späť na knižky v batôžku</nuxt-link></div>
-                        <div class='md-justify-self-end grid'><button class='button cta black' @click='submitForm()'>Pokračovať na rekapituláciu</button></div>
+                        <div class='md-justify-self-end grid'>
+                            <button class='button cta black md-justify-self-end' @click='submitForm()'>Pokračovať na rekapituláciu</button>
+                            <p class='error justify-self-end' v-if='submitError'>{{submitText}}</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -219,6 +222,10 @@ export default {
             zip: "",
             phone: "",
             email: "",
+
+            submitSuccess: false,
+            submitError: false,
+            submitText: 'Uložené!',
 
             // id: this.dataBasket.data.id,
             // name: this.dataBasket.data.name ? this.dataBasket.data.name : this.$store.state.auth.userData.name,
@@ -339,6 +346,9 @@ export default {
                     this.$router.push('/user/books/basket/confirm')
                 }, (error) => {
                     console.log(error);
+                    this.submitError = true
+                    this.submitText = error.response.data.message
+                    setTimeout(() => this.submitError = false, 4000)
                     //this.res = error.response.data.message
                 });
             // } else {

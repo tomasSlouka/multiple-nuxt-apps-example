@@ -43,7 +43,7 @@ module.exports =
 /******/
 /******/ 		// "0" is the signal for "already loaded"
 /******/ 		if(installedChunks[chunkId] !== 0) {
-/******/ 			var chunk = require("./" + ({"1":"pages/200","2":"pages/403","3":"pages/404","4":"pages/500","5":"pages/admin/categories/add/index","6":"pages/admin/categories/detail/_id/index","7":"pages/admin/categories/index","8":"pages/admin/index","9":"pages/admin/orders/add/index","10":"pages/admin/orders/detail/_id/edit","11":"pages/admin/orders/detail/_id/index","12":"pages/admin/orders/index","13":"pages/admin/stock/add/index","14":"pages/admin/stock/detail/_id/index","15":"pages/admin/stock/index","16":"pages/admin/tags/add/index","17":"pages/admin/tags/detail/_id/index","18":"pages/admin/tags/index","19":"pages/admin/titles/add/index","20":"pages/admin/titles/detail/_id/index","21":"pages/admin/titles/index","22":"pages/admin/users/add/index","23":"pages/admin/users/detail/_id/index","24":"pages/admin/users/index","25":"pages/ako-to-funguje/index","26":"pages/blog/index","27":"pages/index","28":"pages/kniznica/_id/_name/index","29":"pages/kniznica/index","30":"pages/najcastejsie-otazky/index","31":"pages/nas-pribeh/index","32":"pages/newsletter/index","33":"pages/odhlasenie/index","34":"pages/prihlasenie/code","35":"pages/prihlasenie/index","36":"pages/registracia/code","37":"pages/registracia/index","38":"pages/user/account/credits/index","39":"pages/user/account/index","40":"pages/user/account/settings/index","41":"pages/user/account/subscription/index","42":"pages/user/books/basket/confirm","43":"pages/user/books/basket/delivery","44":"pages/user/books/basket/index","45":"pages/user/books/basket/success","46":"pages/user/books/borrowed/index","47":"pages/user/books/index","48":"pages/user/books/rated/index","49":"pages/user/books/reserved/index","50":"pages/user/books/wishlist/index"}[chunkId]||chunkId) + ".js");
+/******/ 			var chunk = require("./" + ({"1":"pages/200","2":"pages/403","3":"pages/404","4":"pages/500","5":"pages/admin/categories/add/index","6":"pages/admin/categories/detail/_id/index","7":"pages/admin/categories/index","8":"pages/admin/index","9":"pages/admin/orders/add/index","10":"pages/admin/orders/detail/_id/edit","11":"pages/admin/orders/detail/_id/index","12":"pages/admin/orders/index","13":"pages/admin/stock/add/index","14":"pages/admin/stock/detail/_id/index","15":"pages/admin/stock/index","16":"pages/admin/tags/add/index","17":"pages/admin/tags/detail/_id/index","18":"pages/admin/tags/index","19":"pages/admin/titles/add/index","20":"pages/admin/titles/detail/_id/index","21":"pages/admin/titles/index","22":"pages/admin/users/add/index","23":"pages/admin/users/detail/_id/index","24":"pages/admin/users/index","25":"pages/ako-to-funguje/index","26":"pages/blog/index","27":"pages/index","28":"pages/kniznica/_id/_name/index","29":"pages/kniznica/index","30":"pages/najcastejsie-otazky/index","31":"pages/nas-pribeh/index","32":"pages/newsletter/index","33":"pages/odhlasenie/index","34":"pages/prihlasenie/code","35":"pages/prihlasenie/index","36":"pages/registracia/code","37":"pages/registracia/index","38":"pages/user/account/credits/add/index","39":"pages/user/account/credits/index","40":"pages/user/account/credits/success","41":"pages/user/account/index","42":"pages/user/account/settings/index","43":"pages/user/account/subscription/index","44":"pages/user/account/subscription/success","45":"pages/user/books/basket/confirm","46":"pages/user/books/basket/delivery","47":"pages/user/books/basket/index","48":"pages/user/books/basket/success","49":"pages/user/books/borrowed/index","50":"pages/user/books/index","51":"pages/user/books/rated/index","52":"pages/user/books/reserved/index","53":"pages/user/books/wishlist/index"}[chunkId]||chunkId) + ".js");
 /******/ 			var moreModules = chunk.modules, chunkIds = chunk.ids;
 /******/ 			for(var moduleId in moreModules) {
 /******/ 				modules[moduleId] = moreModules[moduleId];
@@ -562,7 +562,7 @@ if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
 var add = __webpack_require__(3).default
 module.exports.__inject__ = function (context) {
-  add("20898b28", content, true, context)
+  add("76410e9b", content, true, context)
 };
 
 /***/ }),
@@ -1003,9 +1003,9 @@ module.exports = __webpack_require__.p + "img/icon-basket.f19e348.svg";
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Topbar_vue_vue_type_style_index_0_id_6c0a997a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(15);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Topbar_vue_vue_type_style_index_0_id_6c0a997a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Topbar_vue_vue_type_style_index_0_id_6c0a997a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Topbar_vue_vue_type_style_index_0_id_6c0a997a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Topbar_vue_vue_type_style_index_0_id_6c0a997a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Topbar_vue_vue_type_style_index_0_id_3d5b8995_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(15);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Topbar_vue_vue_type_style_index_0_id_3d5b8995_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Topbar_vue_vue_type_style_index_0_id_3d5b8995_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Topbar_vue_vue_type_style_index_0_id_3d5b8995_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Topbar_vue_vue_type_style_index_0_id_3d5b8995_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
@@ -1016,7 +1016,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(2);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "#topbar[data-v-6c0a997a]{position:relative;top:0;left:0;width:100%;background-color:#fff;z-index:100;height:80px}#topbar>.container-standard[data-v-6c0a997a]{margin-top:0;margin-bottom:0;padding:0 20px;height:100%}.logo-text[data-v-6c0a997a]{max-height:45px}.logo-icon[data-v-6c0a997a],.logo-text[data-v-6c0a997a]{border:0;border-radius:0}.logo-icon[data-v-6c0a997a]{max-height:35px}.logo a[data-v-6c0a997a]{text-decoration:none}.nav>ul[data-v-6c0a997a]{list-style:none;margin:0;padding:0}.nav>ul>li>a[data-v-6c0a997a]{padding:16px 22px;border-bottom:1px solid transparent;position:relative;top:0;transition:.2s;display:inline-block}.nav>ul>li>a[data-v-6c0a997a]:hover{color:#000;text-decoration:none;position:relative;top:2px}.nav>ul>li>a.nuxt-link-active[data-v-6c0a997a]{color:#000;text-decoration:none;font-weight:600}.nav>ul>li.sidenavtoggle[data-v-6c0a997a]{cursor:pointer}.nav>ul>li.sidenavtoggle>div[data-v-6c0a997a]{width:30px;height:3px;background-color:#000;margin:5px 0;border-radius:4px}.nav>ul>li>a[data-v-6c0a997a]{color:rgba(0,0,0,.72157);line-height:24px;font-weight:500;text-decoration:none}.icon-basket[data-v-6c0a997a],.icon-coin[data-v-6c0a997a]{height:1em;border-radius:0}.basket[data-v-6c0a997a],.credit[data-v-6c0a997a]{padding:3px 10px;border-radius:40px;border:2px solid #ffd401;background-color:#fbf7ed;height:33px}", ""]);
+exports.push([module.i, "#topbar[data-v-3d5b8995]{position:relative;top:0;left:0;width:100%;background-color:#fff;z-index:100;padding-top:12px;padding-bottom:12px}#topbar>.container-standard[data-v-3d5b8995]{margin-top:0;margin-bottom:0;padding:0 20px;height:100%}.logo-text[data-v-3d5b8995]{max-height:45px}.logo-icon[data-v-3d5b8995],.logo-text[data-v-3d5b8995]{border:0;border-radius:0}.logo-icon[data-v-3d5b8995]{max-height:35px}.logo a[data-v-3d5b8995]{text-decoration:none}.nav>ul[data-v-3d5b8995]{list-style:none;margin:0;padding:0}.nav>ul>li>a[data-v-3d5b8995]{padding:16px 22px;border-bottom:1px solid transparent;position:relative;top:0;transition:.2s;display:inline-block}.nav>ul>li>a[data-v-3d5b8995]:hover{color:#000;text-decoration:none;position:relative;top:2px}.nav>ul>li>a.nuxt-link-active[data-v-3d5b8995]{color:#000;text-decoration:none;font-weight:600}.nav>ul>li.sidenavtoggle[data-v-3d5b8995]{cursor:pointer}.nav>ul>li.sidenavtoggle>div[data-v-3d5b8995]{width:30px;height:3px;background-color:#000;margin:5px 0;border-radius:4px}.nav>ul>li>a[data-v-3d5b8995]{color:rgba(0,0,0,.72157);line-height:24px;font-weight:500;text-decoration:none}.icon-basket[data-v-3d5b8995],.icon-coin[data-v-3d5b8995]{height:1em;border-radius:0}.basket[data-v-3d5b8995],.credit[data-v-3d5b8995]{padding:3px 10px;border-radius:40px;border:2px solid #ffd401;background-color:#fbf7ed;height:33px}", ""]);
 // Exports
 module.exports = exports;
 
@@ -3155,105 +3155,111 @@ if (false) {}
 
 
 
-const _ee460050 = () => interopDefault(__webpack_require__.e(/* import() | pages/200 */ 1).then(__webpack_require__.bind(null, 272)));
+const _ee460050 = () => interopDefault(__webpack_require__.e(/* import() | pages/200 */ 1).then(__webpack_require__.bind(null, 284)));
 
-const _1a588646 = () => interopDefault(__webpack_require__.e(/* import() | pages/403 */ 2).then(__webpack_require__.bind(null, 273)));
+const _1a588646 = () => interopDefault(__webpack_require__.e(/* import() | pages/403 */ 2).then(__webpack_require__.bind(null, 285)));
 
-const _1a3c5744 = () => interopDefault(__webpack_require__.e(/* import() | pages/404 */ 3).then(__webpack_require__.bind(null, 274)));
+const _1a3c5744 = () => interopDefault(__webpack_require__.e(/* import() | pages/404 */ 3).then(__webpack_require__.bind(null, 286)));
 
-const _278fb19b = () => interopDefault(__webpack_require__.e(/* import() | pages/500 */ 4).then(__webpack_require__.bind(null, 275)));
+const _278fb19b = () => interopDefault(__webpack_require__.e(/* import() | pages/500 */ 4).then(__webpack_require__.bind(null, 287)));
 
-const _4bf89126 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/index */ 8).then(__webpack_require__.bind(null, 258)));
+const _4bf89126 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/index */ 8).then(__webpack_require__.bind(null, 270)));
 
-const _811b96cc = () => interopDefault(__webpack_require__.e(/* import() | pages/ako-to-funguje/index */ 25).then(__webpack_require__.bind(null, 227)));
+const _811b96cc = () => interopDefault(__webpack_require__.e(/* import() | pages/ako-to-funguje/index */ 25).then(__webpack_require__.bind(null, 236)));
 
-const _8d0336d4 = () => interopDefault(__webpack_require__.e(/* import() | pages/blog/index */ 26).then(__webpack_require__.bind(null, 259)));
+const _8d0336d4 = () => interopDefault(__webpack_require__.e(/* import() | pages/blog/index */ 26).then(__webpack_require__.bind(null, 271)));
 
-const _0e98a5aa = () => interopDefault(__webpack_require__.e(/* import() | pages/kniznica/index */ 29).then(__webpack_require__.bind(null, 260)));
+const _0e98a5aa = () => interopDefault(__webpack_require__.e(/* import() | pages/kniznica/index */ 29).then(__webpack_require__.bind(null, 272)));
 
-const _25a609b7 = () => interopDefault(__webpack_require__.e(/* import() | pages/najcastejsie-otazky/index */ 30).then(__webpack_require__.bind(null, 261)));
+const _25a609b7 = () => interopDefault(__webpack_require__.e(/* import() | pages/najcastejsie-otazky/index */ 30).then(__webpack_require__.bind(null, 273)));
 
-const _3c907c4d = () => interopDefault(__webpack_require__.e(/* import() | pages/nas-pribeh/index */ 31).then(__webpack_require__.bind(null, 262)));
+const _3c907c4d = () => interopDefault(__webpack_require__.e(/* import() | pages/nas-pribeh/index */ 31).then(__webpack_require__.bind(null, 274)));
 
-const _258ba89f = () => interopDefault(__webpack_require__.e(/* import() | pages/newsletter/index */ 32).then(__webpack_require__.bind(null, 263)));
+const _258ba89f = () => interopDefault(__webpack_require__.e(/* import() | pages/newsletter/index */ 32).then(__webpack_require__.bind(null, 275)));
 
-const _f99f9130 = () => interopDefault(__webpack_require__.e(/* import() | pages/odhlasenie/index */ 33).then(__webpack_require__.bind(null, 229)));
+const _f99f9130 = () => interopDefault(__webpack_require__.e(/* import() | pages/odhlasenie/index */ 33).then(__webpack_require__.bind(null, 238)));
 
-const _d179b20c = () => interopDefault(__webpack_require__.e(/* import() | pages/prihlasenie/index */ 35).then(__webpack_require__.bind(null, 230)));
+const _d179b20c = () => interopDefault(__webpack_require__.e(/* import() | pages/prihlasenie/index */ 35).then(__webpack_require__.bind(null, 239)));
 
-const _3f3bbc66 = () => interopDefault(__webpack_require__.e(/* import() | pages/registracia/index */ 37).then(__webpack_require__.bind(null, 231)));
+const _3f3bbc66 = () => interopDefault(__webpack_require__.e(/* import() | pages/registracia/index */ 37).then(__webpack_require__.bind(null, 240)));
 
-const _6ee93fd1 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/categories/index */ 7).then(__webpack_require__.bind(null, 232)));
+const _6ee93fd1 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/categories/index */ 7).then(__webpack_require__.bind(null, 241)));
 
-const _6ff934e8 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/orders/index */ 12).then(__webpack_require__.bind(null, 233)));
+const _6ff934e8 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/orders/index */ 12).then(__webpack_require__.bind(null, 242)));
 
-const _0193909e = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/stock/index */ 15).then(__webpack_require__.bind(null, 234)));
+const _0193909e = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/stock/index */ 15).then(__webpack_require__.bind(null, 243)));
 
-const _7d41fff4 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/tags/index */ 18).then(__webpack_require__.bind(null, 235)));
+const _7d41fff4 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/tags/index */ 18).then(__webpack_require__.bind(null, 244)));
 
-const _796cde1c = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/titles/index */ 21).then(__webpack_require__.bind(null, 236)));
+const _796cde1c = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/titles/index */ 21).then(__webpack_require__.bind(null, 245)));
 
-const _65e19502 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/users/index */ 24).then(__webpack_require__.bind(null, 237)));
+const _65e19502 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/users/index */ 24).then(__webpack_require__.bind(null, 246)));
 
-const _5abc6916 = () => interopDefault(__webpack_require__.e(/* import() | pages/prihlasenie/code */ 34).then(__webpack_require__.bind(null, 238)));
+const _5abc6916 = () => interopDefault(__webpack_require__.e(/* import() | pages/prihlasenie/code */ 34).then(__webpack_require__.bind(null, 247)));
 
-const _606a4eee = () => interopDefault(__webpack_require__.e(/* import() | pages/registracia/code */ 36).then(__webpack_require__.bind(null, 239)));
+const _606a4eee = () => interopDefault(__webpack_require__.e(/* import() | pages/registracia/code */ 36).then(__webpack_require__.bind(null, 248)));
 
-const _e7ce68cc = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/index */ 39).then(__webpack_require__.bind(null, 264)));
+const _e7ce68cc = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/index */ 41).then(__webpack_require__.bind(null, 276)));
 
-const _f6b1e386 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/index */ 47).then(__webpack_require__.bind(null, 265)));
+const _f6b1e386 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/index */ 50).then(__webpack_require__.bind(null, 277)));
 
-const _7cafbaa2 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/categories/add/index */ 5).then(__webpack_require__.bind(null, 240)));
+const _7cafbaa2 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/categories/add/index */ 5).then(__webpack_require__.bind(null, 249)));
 
-const _07905beb = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/orders/add/index */ 9).then(__webpack_require__.bind(null, 241)));
+const _07905beb = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/orders/add/index */ 9).then(__webpack_require__.bind(null, 250)));
 
-const _3722aec2 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/stock/add/index */ 13).then(__webpack_require__.bind(null, 242)));
+const _3722aec2 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/stock/add/index */ 13).then(__webpack_require__.bind(null, 251)));
 
-const _f8eecf42 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/tags/add/index */ 16).then(__webpack_require__.bind(null, 243)));
+const _f8eecf42 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/tags/add/index */ 16).then(__webpack_require__.bind(null, 252)));
 
-const _5529f621 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/titles/add/index */ 19).then(__webpack_require__.bind(null, 244)));
+const _5529f621 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/titles/add/index */ 19).then(__webpack_require__.bind(null, 253)));
 
-const _69e621b4 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/users/add/index */ 22).then(__webpack_require__.bind(null, 245)));
+const _69e621b4 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/users/add/index */ 22).then(__webpack_require__.bind(null, 254)));
 
-const _fb420a40 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/credits/index */ 38).then(__webpack_require__.bind(null, 246)));
+const _fb420a40 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/credits/index */ 39).then(__webpack_require__.bind(null, 255)));
 
-const _23c95417 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/settings/index */ 40).then(__webpack_require__.bind(null, 266)));
+const _23c95417 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/settings/index */ 42).then(__webpack_require__.bind(null, 278)));
 
-const _473d9edd = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/subscription/index */ 41).then(__webpack_require__.bind(null, 247)));
+const _473d9edd = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/subscription/index */ 43).then(__webpack_require__.bind(null, 256)));
 
-const _b96e0392 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/basket/index */ 44).then(__webpack_require__.bind(null, 267)));
+const _b96e0392 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/basket/index */ 47).then(__webpack_require__.bind(null, 279)));
 
-const _62f79d29 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/borrowed/index */ 46).then(__webpack_require__.bind(null, 268)));
+const _62f79d29 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/borrowed/index */ 49).then(__webpack_require__.bind(null, 280)));
 
-const _36df4db3 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/rated/index */ 48).then(__webpack_require__.bind(null, 269)));
+const _36df4db3 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/rated/index */ 51).then(__webpack_require__.bind(null, 281)));
 
-const _d03e1a56 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/reserved/index */ 49).then(__webpack_require__.bind(null, 270)));
+const _d03e1a56 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/reserved/index */ 52).then(__webpack_require__.bind(null, 282)));
 
-const _460ef418 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/wishlist/index */ 50).then(__webpack_require__.bind(null, 271)));
+const _460ef418 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/wishlist/index */ 53).then(__webpack_require__.bind(null, 283)));
 
-const _0f2b5436 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/basket/confirm */ 42).then(__webpack_require__.bind(null, 248)));
+const _7e2f90f3 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/credits/add/index */ 38).then(__webpack_require__.bind(null, 257)));
 
-const _79b7acc2 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/basket/delivery */ 43).then(__webpack_require__.bind(null, 249)));
+const _09d3cc11 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/credits/success */ 40).then(__webpack_require__.bind(null, 258)));
 
-const _cf6b54b0 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/basket/success */ 45).then(__webpack_require__.bind(null, 250)));
+const _119964ce = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/subscription/success */ 44).then(__webpack_require__.bind(null, 259)));
 
-const _08eefe8c = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/categories/detail/_id/index */ 6).then(__webpack_require__.bind(null, 251)));
+const _0f2b5436 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/basket/confirm */ 45).then(__webpack_require__.bind(null, 260)));
 
-const _10886dfa = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/orders/detail/_id/index */ 11).then(__webpack_require__.bind(null, 252)));
+const _79b7acc2 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/basket/delivery */ 46).then(__webpack_require__.bind(null, 261)));
 
-const _3355564c = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/stock/detail/_id/index */ 14).then(__webpack_require__.bind(null, 253)));
+const _cf6b54b0 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/basket/success */ 48).then(__webpack_require__.bind(null, 262)));
 
-const _34ba5177 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/tags/detail/_id/index */ 17).then(__webpack_require__.bind(null, 254)));
+const _08eefe8c = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/categories/detail/_id/index */ 6).then(__webpack_require__.bind(null, 263)));
 
-const _0d8acd39 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/titles/detail/_id/index */ 20).then(__webpack_require__.bind(null, 255)));
+const _10886dfa = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/orders/detail/_id/index */ 11).then(__webpack_require__.bind(null, 264)));
 
-const _4837b5cc = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/users/detail/_id/index */ 23).then(__webpack_require__.bind(null, 256)));
+const _3355564c = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/stock/detail/_id/index */ 14).then(__webpack_require__.bind(null, 265)));
 
-const _5031ade9 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/orders/detail/_id/edit */ 10).then(__webpack_require__.bind(null, 257)));
+const _34ba5177 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/tags/detail/_id/index */ 17).then(__webpack_require__.bind(null, 266)));
 
-const _9be1bd8a = () => interopDefault(__webpack_require__.e(/* import() | pages/kniznica/_id/_name/index */ 28).then(__webpack_require__.bind(null, 226)));
+const _0d8acd39 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/titles/detail/_id/index */ 20).then(__webpack_require__.bind(null, 267)));
 
-const _35182910 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 27).then(__webpack_require__.bind(null, 228))); // TODO: remove in Nuxt 3
+const _4837b5cc = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/users/detail/_id/index */ 23).then(__webpack_require__.bind(null, 268)));
+
+const _5031ade9 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/orders/detail/_id/edit */ 10).then(__webpack_require__.bind(null, 269)));
+
+const _9be1bd8a = () => interopDefault(__webpack_require__.e(/* import() | pages/kniznica/_id/_name/index */ 28).then(__webpack_require__.bind(null, 235)));
+
+const _35182910 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 27).then(__webpack_require__.bind(null, 237))); // TODO: remove in Nuxt 3
 
 
 const emptyFn = () => {};
@@ -3423,6 +3429,18 @@ const routerOptions = {
     path: "/user/books/wishlist",
     component: _460ef418,
     name: "user-books-wishlist"
+  }, {
+    path: "/user/account/credits/add",
+    component: _7e2f90f3,
+    name: "user-account-credits-add"
+  }, {
+    path: "/user/account/credits/success",
+    component: _09d3cc11,
+    name: "user-account-credits-success"
+  }, {
+    path: "/user/account/subscription/success",
+    component: _119964ce,
+    name: "user-account-subscription-success"
   }, {
     path: "/user/books/basket/confirm",
     component: _0f2b5436,
@@ -4024,12 +4042,12 @@ var Headervue_type_template_id_0bcab297_scoped_true_staticRenderFns = []
 
 // CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/page/_common/Header.vue?vue&type=template&id=0bcab297&scoped=true&
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/page/_common/Topbar.vue?vue&type=template&id=6c0a997a&scoped=true&
-var Topbarvue_type_template_id_6c0a997a_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_vm._ssrNode("<div id=\"topbar\" data-v-6c0a997a>","</div>",[_vm._ssrNode("<div class=\"container-standard grid align-items-center\" data-v-6c0a997a>","</div>",[_vm._ssrNode("<div class=\"flex wrap align-items-center justify-content-space-between\" data-v-6c0a997a>","</div>",[_vm._ssrNode("<div class=\"logo justify-self-start\" data-v-6c0a997a>","</div>",[_c('nuxt-link',{staticClass:"grid gap-10 col-2 auto align-items-center",attrs:{"to":"/"}},[_c('img',{staticClass:"logo-icon",attrs:{"src":__webpack_require__(10),"alt":""}}),_vm._v(" "),_c('img',{staticClass:"logo-text",attrs:{"src":__webpack_require__(14),"alt":""}})])],1),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"nav\" data-v-6c0a997a>","</div>",[(_vm.$store.getters['auth/isUserLoggedIn'])?_vm._ssrNode("<ul class=\"flex wrap show-md align-items-center\" data-v-6c0a997a>","</ul>",[_vm._ssrNode("<li data-v-6c0a997a>","</li>",[_c('nuxt-link',{attrs:{"to":"/kniznica"}},[_vm._v("Knižnica")])],1),_vm._ssrNode(" <li data-v-6c0a997a>|</li> "),(_vm.$store.state.auth.userData.level == 104)?_vm._ssrNode("<li data-v-6c0a997a>","</li>",[_c('nuxt-link',{attrs:{"to":"/admin"}},[_vm._v("Administrácia")])],1):_vm._e(),_vm._ssrNode(" "),_vm._ssrNode("<li data-v-6c0a997a>","</li>",[_c('nuxt-link',{attrs:{"to":"/user/books"}},[_vm._v("Moje knižky")])],1),_vm._ssrNode(" "),_vm._ssrNode("<li data-v-6c0a997a>","</li>",[_c('nuxt-link',{attrs:{"to":"/user/account"}},[_vm._v("Môj účet")])],1),_vm._ssrNode(" <li data-v-6c0a997a>|</li> "),_vm._ssrNode("<li data-v-6c0a997a>","</li>",[_vm._ssrNode("<div class=\"grid col-2 auto gap-20 align-items-center ml20\" data-v-6c0a997a>","</div>",[_c('nuxt-link',{staticClass:"grid col-2 auto gap-10 align-items-center credit pointer",attrs:{"tag":"div","to":"/user/account/credits"}},[_c('p',{staticClass:"small"},[_vm._v("\n                                        "+_vm._s(_vm.$store.state.auth.userData.credit ? _vm.$store.state.auth.userData.credit-_vm.$store.state.auth.userData.credit_blocked + '.00' : "0.00")+"\n                                    ")]),_vm._v(" "),_c('img',{staticClass:"icon-coin",attrs:{"src":__webpack_require__(51),"alt":""}})]),_vm._ssrNode(" "),_c('nuxt-link',{staticClass:"grid col-1 auto gap-10 align-items-center basket pointer",attrs:{"tag":"div","to":"/user/books/basket"}},[_c('img',{staticClass:"icon-basket",attrs:{"src":__webpack_require__(52),"alt":""}})])],2)])],2):_vm._ssrNode("<ul class=\"flex wrap show-md align-items-center\" data-v-6c0a997a>","</ul>",[_vm._ssrNode("<li data-v-6c0a997a>","</li>",[_c('nuxt-link',{attrs:{"to":"/kniznica"}},[_vm._v("Knižnica")])],1),_vm._ssrNode(" <li data-v-6c0a997a>|</li> "),_vm._ssrNode("<li data-v-6c0a997a>","</li>",[_c('nuxt-link',{attrs:{"to":"/prihlasenie"}},[_vm._v("Prihlásenie")])],1),_vm._ssrNode(" "),_vm._ssrNode("<li data-v-6c0a997a>","</li>",[_c('nuxt-link',{attrs:{"to":"/registracia"}},[_vm._v("Registrácia")])],1)],2),_vm._ssrNode(" <ul data-v-6c0a997a><li class=\"sidenavtoggle hidden-md\" data-v-6c0a997a><div data-v-6c0a997a></div> <div data-v-6c0a997a></div> <div data-v-6c0a997a></div></li></ul>")],2)],2)])])])}
-var Topbarvue_type_template_id_6c0a997a_scoped_true_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/page/_common/Topbar.vue?vue&type=template&id=3d5b8995&scoped=true&
+var Topbarvue_type_template_id_3d5b8995_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_vm._ssrNode("<div id=\"topbar\" data-v-3d5b8995>","</div>",[_vm._ssrNode("<div class=\"container-standard grid align-items-center\" data-v-3d5b8995>","</div>",[_vm._ssrNode("<div class=\"grid auto col-2 md-col-1 lg-col-2 align-items-center justify-content-space-between\" data-v-3d5b8995>","</div>",[_vm._ssrNode("<div class=\"logo justify-self-start\" data-v-3d5b8995>","</div>",[_c('nuxt-link',{staticClass:"grid gap-10 col-2 auto align-items-center",attrs:{"to":"/"}},[_c('img',{staticClass:"logo-icon",attrs:{"src":__webpack_require__(10),"alt":""}}),_vm._v(" "),_c('img',{staticClass:"logo-text",attrs:{"src":__webpack_require__(14),"alt":""}})])],1),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"nav justify-self-end\" data-v-3d5b8995>","</div>",[(_vm.$store.getters['auth/isUserLoggedIn'])?_vm._ssrNode("<ul class=\"flex wrap show-md align-items-center\" data-v-3d5b8995>","</ul>",[_vm._ssrNode("<li data-v-3d5b8995>","</li>",[_c('nuxt-link',{attrs:{"to":"/kniznica"}},[_vm._v("Knižnica")])],1),_vm._ssrNode(" <li data-v-3d5b8995>|</li> "),(_vm.$store.state.auth.userData.level == 104)?_vm._ssrNode("<li data-v-3d5b8995>","</li>",[_c('nuxt-link',{attrs:{"to":"/admin/orders"}},[_vm._v("Administrácia")])],1):_vm._e(),_vm._ssrNode(" "),_vm._ssrNode("<li data-v-3d5b8995>","</li>",[_c('nuxt-link',{attrs:{"to":"/user/books"}},[_vm._v("Moje knižky")])],1),_vm._ssrNode(" "),_vm._ssrNode("<li data-v-3d5b8995>","</li>",[_c('nuxt-link',{attrs:{"to":"/user/account"}},[_vm._v("Môj účet")])],1),_vm._ssrNode(" <li data-v-3d5b8995>|</li> "),_vm._ssrNode("<li data-v-3d5b8995>","</li>",[_vm._ssrNode("<div class=\"grid col-2 auto gap-20 align-items-center ml20\" data-v-3d5b8995>","</div>",[_c('nuxt-link',{staticClass:"grid col-2 auto gap-10 align-items-center credit pointer",attrs:{"tag":"div","to":"/user/account/credits"}},[_c('p',{staticClass:"small"},[_vm._v("\n                                        "+_vm._s(_vm.$store.state.auth.userData.credit ? _vm.$store.state.auth.userData.credit-_vm.$store.state.auth.userData.credit_blocked + '.00' : "0.00")+"\n                                    ")]),_vm._v(" "),_c('img',{staticClass:"icon-coin",attrs:{"src":__webpack_require__(51),"alt":""}})]),_vm._ssrNode(" "),_c('nuxt-link',{staticClass:"grid col-1 auto gap-10 align-items-center basket pointer",attrs:{"tag":"div","to":"/user/books/basket"}},[_c('img',{staticClass:"icon-basket",attrs:{"src":__webpack_require__(52),"alt":""}})])],2)])],2):_vm._ssrNode("<ul class=\"flex wrap show-md align-items-center\" data-v-3d5b8995>","</ul>",[_vm._ssrNode("<li data-v-3d5b8995>","</li>",[_c('nuxt-link',{attrs:{"to":"/kniznica"}},[_vm._v("Knižnica")])],1),_vm._ssrNode(" <li data-v-3d5b8995>|</li> "),_vm._ssrNode("<li data-v-3d5b8995>","</li>",[_c('nuxt-link',{attrs:{"to":"/prihlasenie"}},[_vm._v("Prihlásenie")])],1),_vm._ssrNode(" "),_vm._ssrNode("<li data-v-3d5b8995>","</li>",[_c('nuxt-link',{attrs:{"to":"/registracia"}},[_vm._v("Registrácia")])],1)],2),_vm._ssrNode(" <ul data-v-3d5b8995><li class=\"sidenavtoggle hidden-md\" data-v-3d5b8995><div data-v-3d5b8995></div> <div data-v-3d5b8995></div> <div data-v-3d5b8995></div></li></ul>")],2)],2)])])])}
+var Topbarvue_type_template_id_3d5b8995_scoped_true_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/page/_common/Topbar.vue?vue&type=template&id=6c0a997a&scoped=true&
+// CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/page/_common/Topbar.vue?vue&type=template&id=3d5b8995&scoped=true&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/page/_common/Topbar.vue?vue&type=script&lang=js&
 //
@@ -4134,11 +4152,11 @@ if (style0.__inject__) style0.__inject__(context)
 
 var Topbar_component = Object(componentNormalizer["a" /* default */])(
   _common_Topbarvue_type_script_lang_js_,
-  Topbarvue_type_template_id_6c0a997a_scoped_true_render,
-  Topbarvue_type_template_id_6c0a997a_scoped_true_staticRenderFns,
+  Topbarvue_type_template_id_3d5b8995_scoped_true_render,
+  Topbarvue_type_template_id_3d5b8995_scoped_true_staticRenderFns,
   false,
   Topbar_injectStyles,
-  "6c0a997a",
+  "3d5b8995",
   "5b76caf4"
   
 )

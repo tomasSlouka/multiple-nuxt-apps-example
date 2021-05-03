@@ -55,12 +55,24 @@
                         </li>
                     </ul>
 
-                    <p>
-                        <nuxt-link to='/user/account/credits' class='button cta black'>Dobiť kredit</nuxt-link>
-                    </p>
+                    <!-- <div v-if='($store.state.auth.userData.credit-$store.state.auth.userData.credit_blocked) < dataBasket.sum_price' class='grid gap-10 justify-items-start justify-self-end more-credits-box'>
+                        <p class='error strong p0'>
+                            Na dokončenie objednávky potrebuješ viac kreditov.
+                        </p>
+                        <nuxt-link to='/user/account/credits/add' class='button cta black'>Dobiť kredit</nuxt-link>
+                    </div> -->
+                    
                     <div class='box grid md-col-2 auto gap-10 align-items-start'>
                         <div class='md-justify-self-start grid'><nuxt-link to='/user/books/basket/delivery' class='button cta white'>Späť na výber dopravy</nuxt-link></div>
-                        <div class='md-justify-self-end grid'>
+                        
+                        <div v-if='($store.state.auth.userData.credit-$store.state.auth.userData.credit_blocked) < dataBasket.sum_price' class='md-justify-self-end grid gap-10'>
+                            <nuxt-link to='/user/account/credits/add' class='button cta black md-justify-self-end'>Dobiť kredit</nuxt-link>
+                            <p class='error strong p0 md-justify-self-end'>
+                                Na dokončenie objednávky potrebuješ viac kreditov.
+                            </p>
+                        </div>
+                    
+                        <div v-else class='md-justify-self-end grid'>
                             <button class='button cta black md-justify-self-end' @click='complete()'>Potvrdiť objednávku</button>
                             <p class='error justify-self-end' v-if='submitError'>{{submitText}}</p>
                         </div>
@@ -121,5 +133,15 @@ export default {
 .delivery-img {
     height: 25px;
     border-radius: 0px;
+}
+
+.more-credits-box {
+    border: 1px solid #d73a4a;
+
+    /* border-bottom: 6px solid #d73a4a; */
+    /* border-bottom: 6px solid #eee; */
+    padding: 20px;
+    border-radius: 4px;
+
 }
 </style>
