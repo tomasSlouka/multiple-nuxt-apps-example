@@ -54,7 +54,7 @@ module.exports.__inject__ = function (context) {
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(63);
+var content = __webpack_require__(62);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
@@ -183,18 +183,12 @@ module.exports = function (url, options) {
 
 /***/ }),
 /* 60 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/plant.60d724f.svg";
-
-/***/ }),
-/* 61 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTQiIHZpZXdCb3g9IjAgMCAxNCAxNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3QgeD0iNSIgeT0iNSIgd2lkdGg9IjQiIGhlaWdodD0iNCIgcng9IjIiIGZpbGw9IiMzOUFDMzciIGZpbGwtb3BhY2l0eT0iMC4yNCIvPgo8L3N2Zz4K"
 
 /***/ }),
-/* 62 */
+/* 61 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -205,7 +199,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 /***/ }),
-/* 63 */
+/* 62 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -218,7 +212,7 @@ module.exports = exports;
 
 
 /***/ }),
-/* 64 */
+/* 63 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -443,7 +437,7 @@ var Header_component = Object(componentNormalizer["a" /* default */])(
 /* harmony default export */ var Header = __webpack_exports__["a"] = (Header_component.exports);
 
 /***/ }),
-/* 65 */
+/* 64 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -463,7 +457,7 @@ var componentNormalizer = __webpack_require__(1);
 var script = {}
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(62)
+  var style0 = __webpack_require__(61)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -484,7 +478,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 /* harmony default export */ var Footer = __webpack_exports__["a"] = (component.exports);
 
 /***/ }),
-/* 66 */
+/* 65 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
@@ -496,39 +490,45 @@ if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
 var add = __webpack_require__(3).default
 module.exports.__inject__ = function (context) {
-  add("cbf139fc", content, true, context)
+  add("2db487ee", content, true, context)
 };
 
 /***/ }),
-/* 67 */,
-/* 68 */
+/* 66 */,
+/* 67 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/logo-ttsk-simple.f46b2e8.svg";
 
 /***/ }),
-/* 69 */
+/* 68 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/logo-ugulky.86c2766.svg";
 
 /***/ }),
-/* 70 */
+/* 69 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/logo-svetrovnatek.733d237.svg";
+module.exports = __webpack_require__.p + "img/logo-svetrovnatek.4bd0e73.svg";
 
 /***/ }),
-/* 71 */
+/* 70 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/logo-logamic.0cfd8e5.svg";
 
 /***/ }),
+/* 71 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/logo-tulaveknizky.9f55293.svg";
+
+/***/ }),
 /* 72 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/logo-tulaveknizky.dd82bc7.svg";
+module.exports = __webpack_require__.p + "img/logo-stu.82fcfc0.svg";
 
 /***/ }),
 /* 73 */
@@ -536,9 +536,9 @@ module.exports = __webpack_require__.p + "img/logo-tulaveknizky.dd82bc7.svg";
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SKHero_vue_vue_type_style_index_0_id_257c83de_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(66);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SKHero_vue_vue_type_style_index_0_id_257c83de_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SKHero_vue_vue_type_style_index_0_id_257c83de_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SKHero_vue_vue_type_style_index_0_id_257c83de_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SKHero_vue_vue_type_style_index_0_id_257c83de_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SKHero_vue_vue_type_style_index_0_id_37152e40_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(65);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SKHero_vue_vue_type_style_index_0_id_37152e40_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SKHero_vue_vue_type_style_index_0_id_37152e40_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SKHero_vue_vue_type_style_index_0_id_37152e40_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SKHero_vue_vue_type_style_index_0_id_37152e40_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
@@ -549,12 +549,10 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(2);
 var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(59);
 var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(60);
-var ___CSS_LOADER_URL_IMPORT_1___ = __webpack_require__(61);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
-var ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);
 // Module
-exports.push([module.i, "h1[data-v-257c83de]{font-weight:700;font-size:2.4em}.typing[data-v-257c83de]{position:relative;display:inline-block;z-index:2}.typing[data-v-257c83de]:before{content:\" \";width:100%;height:5px;background:#0cf;position:absolute;left:5px;bottom:5px;transition:.2s ease;z-index:1}.container-wrapper[data-v-257c83de]{background-color:rgba(0,161,198,.05);padding:40px 0}.grayscale[data-v-257c83de]{filter:opacity(20%) grayscale(100%);max-height:60px;transition:filter .3s ease-in-out}.grayscale[data-v-257c83de]:hover{filter:opacity(100%) grayscale(0);max-height:60px}.divider[data-v-257c83de]{margin-top:20px}.divider[data-v-257c83de],.divider[data-v-257c83de]:after{margin-bottom:40px;line-height:6px}.divider[data-v-257c83de]:after{content:\">> 01110101 01110000 01100110 01101111 01110010 01110111 01100101 01100010 <<\";font-weight:700;font-size:6px;letter-spacing:0;margin-top:40px;color:#ccc}img.computer[data-v-257c83de]{width:135%;left:28px;max-width:-webkit-fit-content;max-width:-moz-fit-content;max-width:fit-content;z-index:5}div.plant-grow[data-v-257c83de],img.computer[data-v-257c83de]{position:absolute;bottom:-90px;filter:drop-shadow(0 0 10px #ccc)}div.plant-grow[data-v-257c83de]{right:-110px;z-index:6;background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");background-position:0 0;background-repeat:no-repeat;background-size:auto}p.johntheplant[data-v-257c83de]{position:absolute;right:-190px;top:-100px;filter:drop-shadow(0 0 2px #ccc);z-index:6;font-size:.7em;width:150px;background-color:#fff;padding:15px;border-radius:4px}.component[data-v-257c83de]{overflow:hidden}.dots[data-v-257c83de]{background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");background-position:0 0;background-repeat:repeat;background-size:auto}.dots1[data-v-257c83de]{height:400px;width:400px}.dots1[data-v-257c83de],.dots2[data-v-257c83de]{position:absolute;z-index:0}.dots2[data-v-257c83de]{bottom:40px;right:-160px;height:250px;width:150px}.blob[data-v-257c83de]{position:absolute;right:-58px;top:-62px;z-index:2;background:#39ac37;border-radius:50%;margin:45px;height:1px;width:1px;box-shadow:0 0 0 0 #009d63;transform:scale(4);-webkit-animation:pulse-data-v-257c83de 2s infinite;animation:pulse-data-v-257c83de 2s infinite}@-webkit-keyframes pulse-data-v-257c83de{0%{transform:scale(.95);box-shadow:0 0 0 0 rgba(0,157,99,.7)}70%{transform:scale(1.05);box-shadow:0 0 0 40px rgba(0,157,99,0)}to{transform:scale(.95);box-shadow:0 0 0 0 rgba(0,157,99,0)}}@keyframes pulse-data-v-257c83de{0%{transform:scale(.95);box-shadow:0 0 0 0 rgba(0,157,99,.7)}70%{transform:scale(1.05);box-shadow:0 0 0 40px rgba(0,157,99,0)}to{transform:scale(.95);box-shadow:0 0 0 0 rgba(0,157,99,0)}}", ""]);
+exports.push([module.i, "h1[data-v-37152e40]{font-weight:700;font-size:2.4em}.typing[data-v-37152e40]{position:relative;display:inline-block;z-index:2}.typing[data-v-37152e40]:before{content:\" \";width:90%;height:5px;background:rgba(0,204,255,.767);position:absolute;left:5px;bottom:5px;transition:.2s ease;z-index:1}.container-wrapper[data-v-37152e40]{background-color:rgba(0,161,198,.05);padding:40px 0}.grayscale[data-v-37152e40]{filter:opacity(20%) grayscale(100%);max-height:40px;transition:filter .3s ease-in-out}.grayscale[data-v-37152e40]:hover{filter:opacity(100%) grayscale(0)}.divider[data-v-37152e40]{margin-top:20px}.divider[data-v-37152e40],.divider[data-v-37152e40]:after{margin-bottom:40px;line-height:6px}.divider[data-v-37152e40]:after{content:\">> 01110101 01110000 01100110 01101111 01110010 01110111 01100101 01100010 <<\";font-weight:700;font-size:6px;letter-spacing:0;margin-top:40px;color:#ccc}.component[data-v-37152e40]{overflow:hidden}.dots[data-v-37152e40]{background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");background-position:0 0;background-repeat:repeat;background-size:auto}.dots1[data-v-37152e40]{height:400px;width:400px}.dots1[data-v-37152e40],.dots2[data-v-37152e40]{position:absolute;z-index:0}.dots2[data-v-37152e40]{bottom:40px;right:-160px;height:250px;width:150px}.blob[data-v-37152e40]{position:absolute;right:-58px;top:-62px;z-index:2;background:#39ac37;border-radius:50%;margin:45px;height:1px;width:1px;box-shadow:0 0 0 0 #009d63;transform:scale(4);-webkit-animation:pulse-data-v-37152e40 2s infinite;animation:pulse-data-v-37152e40 2s infinite}@-webkit-keyframes pulse-data-v-37152e40{0%{transform:scale(.95);box-shadow:0 0 0 0 rgba(0,157,99,.7)}70%{transform:scale(1.05);box-shadow:0 0 0 40px rgba(0,157,99,0)}to{transform:scale(.95);box-shadow:0 0 0 0 rgba(0,157,99,0)}}@keyframes pulse-data-v-37152e40{0%{transform:scale(.95);box-shadow:0 0 0 0 rgba(0,157,99,.7)}70%{transform:scale(1.05);box-shadow:0 0 0 40px rgba(0,157,99,0)}to{transform:scale(.95);box-shadow:0 0 0 0 rgba(0,157,99,0)}}", ""]);
 // Exports
 module.exports = exports;
 
@@ -562,7 +560,8 @@ module.exports = exports;
 /***/ }),
 /* 75 */,
 /* 76 */,
-/* 77 */
+/* 77 */,
+/* 78 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -577,16 +576,17 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./apps/upforweb.com/pages/sk/index.vue?vue&type=template&id=6208182d&
 
 // EXTERNAL MODULE: ./apps/upforweb.com/components/page/_common/Header.vue + 14 modules
-var Header = __webpack_require__(64);
+var Header = __webpack_require__(63);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/upforweb.com/components/page/home/SKHero.vue?vue&type=template&id=257c83de&scoped=true&
-var SKHerovue_type_template_id_257c83de_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component"},[_vm._ssrNode("<div class=\"container-narrow mt60 grid\" data-v-257c83de><div class=\"grid gap-20\" data-v-257c83de><div data-v-257c83de><h2 class=\"h3\" data-v-257c83de>Digitálne agentúry a podniky.</h2> <h1 data-v-257c83de>Vy navrhujete. My kódujeme.</h1></div> <p class=\"maxw600 text-justify\" data-v-257c83de>\n                Poskytujeme služby na mieru v oblasti analýzy, vývoja, správy a prevádzky webových aplikácii pre digitálne agentúry a podniky. Kódujeme HTML/CSS, VueJS &amp; NuxtJS a PHP webové aplikácie. Našim spokojným partnerom prinášame kvalitné riešenia, vďaka čomu sa nám darí budovať dlhodobé a priateľské vzťahy.\n            </p> <div class=\"mt20\" data-v-257c83de><div data-v-257c83de><a href=\"mailto:ahoj@upforweb.com\" class=\"button black cta\" data-v-257c83de>Spojme sa emailom</a></div></div> <p class=\"small\" data-v-257c83de>ahoj@upforweb.com | +421 907 371 480</p></div></div> <div class=\"container-narrow mt60 grid\" data-v-257c83de><div class=\"grid col-5 auto justify-content-start align-items-center gap-60\" data-v-257c83de><img"+(_vm._ssrAttr("src",__webpack_require__(68)))+" alt class=\"grayscale\" data-v-257c83de> <img"+(_vm._ssrAttr("src",__webpack_require__(69)))+" alt class=\"grayscale\" data-v-257c83de> <img"+(_vm._ssrAttr("src",__webpack_require__(70)))+" alt class=\"grayscale\" data-v-257c83de> <img"+(_vm._ssrAttr("src",__webpack_require__(71)))+" alt class=\"grayscale\" data-v-257c83de> <img"+(_vm._ssrAttr("src",__webpack_require__(72)))+" alt class=\"grayscale\" data-v-257c83de></div></div> <div class=\"container-wrapper mt60\" data-v-257c83de><div class=\"container-standard grid\" data-v-257c83de><div class=\"grid col-4 justify-content-start align-items-start gap-60\" data-v-257c83de><div class=\"grid gap-20 span-4\" data-v-257c83de><h2 class=\"maxw500\" data-v-257c83de>Nie sme dizajnéri. <br data-v-257c83de>My dizajnu vdychujeme <span class=\"typing\" data-v-257c83de>"+_vm._ssrEscape(_vm._s(_vm.typing))+"</span>.</h2> <p class=\"text-justify maxw500\" data-v-257c83de>Máte pripravený dizajn, ale nemá vám ho kto previesť do funkčného kódu? Dokážeme dizajn prepísať do pixel perfect kódu, ktorý vdýchne vašej webovej stránke alebo aplikácii život.</p></div> <div class=\"grid gap-20\" data-v-257c83de><h3 class=\"maxw300\" data-v-257c83de>Analýzujeme</h3> <p class=\"small\" data-v-257c83de>Nápad bez realizácie ostane len nápadom. Pripravíme vám detailnú funkčnú špecifikáciu a interaktívnu informačnú architektúru vašej novej webovej stránky/aplikácie - kvalitná príprava šetrí čas i peniaze.</p></div> <div class=\"grid gap-20\" data-v-257c83de><h3 class=\"maxw300\" data-v-257c83de>Nedizajnujeme</h3> <p class=\"small\" data-v-257c83de>Návrh a kreslenie dizajnu novej webovej stránky/aplikácie prenechávame skúseným dizajnérom v UX/UI štúdiách, s ktorými spolupracujeme. My sme experti na kód :)</p></div> <div class=\"grid gap-20\" data-v-257c83de><h3 class=\"maxw300\" data-v-257c83de>Vývíjame</h3> <p class=\"small\" data-v-257c83de>Pri vývoji webových stránok a webových aplikácii používame tie najmodernejšie postupy a technológie. U nás nebudete počuť slovo &quot;Wordpress&quot;. Veríme, že úspech sa skrýva práve v kvalitnom a flexibilnom kóde, ktorý je šitý na mieru požiadavkám vášho biznisu.</p></div> <div class=\"grid gap-20\" data-v-257c83de><h3 class=\"maxw300\" data-v-257c83de>Prevádzkujeme</h3> <p class=\"small\" data-v-257c83de>Prevádzka webovej stránky alebo aplikácie môže byť niekedy výzvou. Preto nenechávame nič na náhodu a aplikácie našich partnerov nasadzujeme na cloudovú infraštruktúru od Amazonu (AWS). Rýchlosť a stabilita kdekoľvek na svete, je zaručená.</p></div></div></div></div> <div class=\"container-narrow grid\" data-v-257c83de><p class=\"small gray\" data-v-257c83de>\n            upforweb s. r. o. | Hlavná 46/83 Zavar 919 26 | IČO: 53 086 228\n        </p></div>")])}
-var SKHerovue_type_template_id_257c83de_scoped_true_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/upforweb.com/components/page/home/SKHero.vue?vue&type=template&id=37152e40&scoped=true&
+var SKHerovue_type_template_id_37152e40_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component"},[_vm._ssrNode("<div class=\"container-narrow mt60 grid\" data-v-37152e40><div class=\"grid gap-20\" data-v-37152e40><div data-v-37152e40><h2 class=\"h3\" data-v-37152e40>Digitálne agentúry a podniky.</h2> <h1 data-v-37152e40>Vy navrhujete. My kódujeme.</h1></div> <p class=\"maxw600 text-justify\" data-v-37152e40>\n                Poskytujeme služby na mieru v oblasti analýzy, vývoja, správy a prevádzky webových aplikácii pre digitálne agentúry a podniky. Kódujeme HTML/CSS, VueJS &amp; NuxtJS a PHP webové aplikácie. Našim spokojným partnerom prinášame kvalitné riešenia, vďaka čomu sa nám darí budovať dlhodobé a priateľské vzťahy.\n            </p> <div class=\"mt20\" data-v-37152e40><div data-v-37152e40><a href=\"mailto:ahoj@upforweb.com\" class=\"button black cta\" data-v-37152e40>Spojme sa emailom</a></div></div> <p class=\"small\" data-v-37152e40>ahoj@upforweb.com | +421 907 371 480</p></div></div> <div class=\"container-standard mt60 grid\" data-v-37152e40><div class=\"grid col-2 sm-col-3 lg-col-6 justify-content-start justify-items-center align-items-center gap-60\" data-v-37152e40><img"+(_vm._ssrAttr("src",__webpack_require__(67)))+" alt class=\"grayscale\" data-v-37152e40> <img"+(_vm._ssrAttr("src",__webpack_require__(68)))+" alt class=\"grayscale\" data-v-37152e40> <img"+(_vm._ssrAttr("src",__webpack_require__(69)))+" alt class=\"grayscale\" data-v-37152e40> <img"+(_vm._ssrAttr("src",__webpack_require__(70)))+" alt class=\"grayscale\" data-v-37152e40> <img"+(_vm._ssrAttr("src",__webpack_require__(71)))+" alt class=\"grayscale\" data-v-37152e40> <img"+(_vm._ssrAttr("src",__webpack_require__(72)))+" alt class=\"grayscale\" data-v-37152e40></div></div> <div class=\"container-wrapper mt60\" data-v-37152e40><div class=\"container-standard grid\" data-v-37152e40><div class=\"grid md-col-2 lg-col-4 justify-content-start align-items-start gap-60\" data-v-37152e40><div class=\"grid gap-20 md-span-2 lg-span-4\" data-v-37152e40><h2 class=\"maxw500\" data-v-37152e40>Nie sme dizajnéri. <br data-v-37152e40>My dizajn <span class=\"typing\" data-v-37152e40>"+_vm._ssrEscape(_vm._s(_vm.typing))+"</span></h2> <p class=\"maxw500\" data-v-37152e40>Máte nakreslený dizajn, ale nemá vám ho kto previesť do funkčného kódu? Dokážeme dizajn prepísať do pixel perfect kódu, ktorý vdýchne vašej webovej stránke alebo aplikácii život.</p></div> <div class=\"grid gap-20\" data-v-37152e40><h3 class=\"maxw300\" data-v-37152e40>Analýzujeme</h3> <p class=\"small\" data-v-37152e40>Nápad bez realizácie ostane len nápadom. Pripravíme vám detailnú funkčnú špecifikáciu a interaktívnu informačnú architektúru vašej novej webovej stránky/aplikácie - kvalitná príprava šetrí čas i peniaze.</p></div> <div class=\"grid gap-20\" data-v-37152e40><h3 class=\"maxw300\" data-v-37152e40>Nedizajnujeme</h3> <p class=\"small\" data-v-37152e40>Návrh a kreslenie dizajnu novej webovej stránky/aplikácie prenechávame skúseným dizajnérom v UX/UI štúdiách, s ktorými spolupracujeme. My sme experti na kód :)</p></div> <div class=\"grid gap-20\" data-v-37152e40><h3 class=\"maxw300\" data-v-37152e40>Vývíjame</h3> <p class=\"small\" data-v-37152e40>Pri vývoji webových stránok a webových aplikácii používame tie najmodernejšie postupy a technológie. U nás nebudete počuť slovo &quot;Wordpress&quot;. Veríme, že úspech sa skrýva práve v kvalitnom a flexibilnom kóde, ktorý je šitý na mieru požiadavkám vášho biznisu.</p></div> <div class=\"grid gap-20\" data-v-37152e40><h3 class=\"maxw300\" data-v-37152e40>Prevádzkujeme</h3> <p class=\"small\" data-v-37152e40>Prevádzka webovej stránky alebo aplikácie môže byť niekedy výzvou. Preto nenechávame nič na náhodu a aplikácie našich partnerov nasadzujeme na cloudovú infraštruktúru od Amazonu (AWS). Rýchlosť a stabilita kdekoľvek na svete, je zaručená.</p></div></div></div></div> <div class=\"container-narrow grid\" data-v-37152e40><p class=\"small gray\" data-v-37152e40>\n            upforweb s. r. o. | Hlavná 46/83 Zavar 919 26 | IČO: 53 086 228\n        </p></div>")])}
+var SKHerovue_type_template_id_37152e40_scoped_true_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./apps/upforweb.com/components/page/home/SKHero.vue?vue&type=template&id=257c83de&scoped=true&
+// CONCATENATED MODULE: ./apps/upforweb.com/components/page/home/SKHero.vue?vue&type=template&id=37152e40&scoped=true&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./apps/upforweb.com/components/page/home/SKHero.vue?vue&type=script&lang=js&
+//
 //
 //
 //
@@ -680,7 +680,7 @@ var SKHerovue_type_template_id_257c83de_scoped_true_staticRenderFns = []
   // props: ['domainList'],
   data() {
     return {
-      typing: 'život',
+      typing: 'kódujeme.',
       t: 0,
       interval: null
     };
@@ -689,46 +689,90 @@ var SKHerovue_type_template_id_257c83de_scoped_true_staticRenderFns = []
   methods: {
     changeTyping() {
       this.interval = setInterval(() => {
-        if (this.typing == "život" && this.t == 0) {
-          this.typing = 'živo';
-        } else if (this.typing == "živo" && this.t == 0) {
-          this.typing = 'živ';
-        } else if (this.typing == "živ" && this.t == 0) {
-          this.typing = 'ži';
-        } else if (this.typing == "ži" && this.t == 0) {
-          this.typing = 'ž';
-        } else if (this.typing == "ž" && this.t == 0) {
-          this.typing = '';
-        } else if (this.typing == "" && this.t == 0) {
-          this.typing = 'k';
-        } else if (this.typing == "k" && this.t == 0) {
+        if (this.typing == "kódujeme." && this.t == 0) {
+          this.typing = 'kódujeme';
+        } else if (this.typing == "kódujeme" && this.t == 0) {
+          this.typing = 'kódujem';
+        } else if (this.typing == "kódujem" && this.t == 0) {
+          this.typing = 'kóduje';
+        } else if (this.typing == "kóduje" && this.t == 0) {
+          this.typing = 'kóduj';
+        } else if (this.typing == "kóduj" && this.t == 0) {
+          this.typing = 'kódu';
+        } else if (this.typing == "kódu" && this.t == 0) {
+          this.typing = 'kód';
+        } else if (this.typing == "kód" && this.t == 0) {
           this.typing = 'kó';
         } else if (this.typing == "kó" && this.t == 0) {
-          this.typing = 'kód';
+          this.typing = 'k';
+        } else if (this.typing == "k" && this.t == 0) {
+          this.typing = '';
+        } else if (this.typing == "" && this.t == 0) {
+          this.typing = 'o';
+        } else if (this.typing == "o" && this.t == 0) {
+          this.typing = 'ož';
+        } else if (this.typing == "ož" && this.t == 0) {
+          this.typing = 'oži';
+        } else if (this.typing == "oži" && this.t == 0) {
+          this.typing = 'oživ';
+        } else if (this.typing == "oživ" && this.t == 0) {
+          this.typing = 'oživu';
+        } else if (this.typing == "oživu" && this.t == 0) {
+          this.typing = 'oživuj';
+        } else if (this.typing == "oživuj" && this.t == 0) {
+          this.typing = 'oživuje';
+        } else if (this.typing == "oživuje" && this.t == 0) {
+          this.typing = 'oživujem';
+        } else if (this.typing == "oživujem" && this.t == 0) {
+          this.typing = 'oživujeme';
+        } else if (this.typing == "oživujeme" && this.t == 0) {
+          this.typing = 'oživujeme.';
           this.t = 1;
           clearInterval(this.interval);
           setTimeout(() => this.changeTyping(), 5000);
-        } else if (this.typing == "kód" && this.t == 1) {
-          this.typing = 'kó';
-        } else if (this.typing == "kó" && this.t == 1) {
-          this.typing = 'k';
-        } else if (this.typing == "k" && this.t == 1) {
+        } else if (this.typing == "oživujeme." && this.t == 1) {
+          this.typing = 'oživujeme';
+        } else if (this.typing == "oživujeme" && this.t == 1) {
+          this.typing = 'oživujem';
+        } else if (this.typing == "oživujem" && this.t == 1) {
+          this.typing = 'oživuje';
+        } else if (this.typing == "oživuje" && this.t == 1) {
+          this.typing = 'oživuj';
+        } else if (this.typing == "oživuj" && this.t == 1) {
+          this.typing = 'oživu';
+        } else if (this.typing == "oživu" && this.t == 1) {
+          this.typing = 'oživ';
+        } else if (this.typing == "oživ" && this.t == 1) {
+          this.typing = 'oži';
+        } else if (this.typing == "oži" && this.t == 1) {
+          this.typing = 'ož';
+        } else if (this.typing == "ož" && this.t == 1) {
+          this.typing = 'o';
+        } else if (this.typing == "o" && this.t == 1) {
           this.typing = '';
         } else if (this.typing == "" && this.t == 1) {
-          this.typing = 'ž';
-        } else if (this.typing == "ž" && this.t == 1) {
-          this.typing = 'ži';
-        } else if (this.typing == "ži" && this.t == 1) {
-          this.typing = 'živ';
-        } else if (this.typing == "živ" && this.t == 1) {
-          this.typing = 'živo';
-        } else if (this.typing == "živo" && this.t == 1) {
-          this.typing = 'život';
+          this.typing = 'k';
+        } else if (this.typing == "k" && this.t == 1) {
+          this.typing = 'kó';
+        } else if (this.typing == "kó" && this.t == 1) {
+          this.typing = 'kód';
+        } else if (this.typing == "kód" && this.t == 1) {
+          this.typing = 'kódu';
+        } else if (this.typing == "kódu" && this.t == 1) {
+          this.typing = 'kóduj';
+        } else if (this.typing == "kóduj" && this.t == 1) {
+          this.typing = 'kóduje';
+        } else if (this.typing == "kóduje" && this.t == 1) {
+          this.typing = 'kódujem';
+        } else if (this.typing == "kódujem" && this.t == 1) {
+          this.typing = 'kódujeme';
+        } else if (this.typing == "kódujeme" && this.t == 1) {
+          this.typing = 'kódujeme.';
           this.t = 0;
           clearInterval(this.interval);
           setTimeout(() => this.changeTyping(), 5000);
         } else {}
-      }, 200);
+      }, 100);
     }
 
   },
@@ -762,18 +806,18 @@ if (style0.__inject__) style0.__inject__(context)
 
 var component = Object(componentNormalizer["a" /* default */])(
   home_SKHerovue_type_script_lang_js_,
-  SKHerovue_type_template_id_257c83de_scoped_true_render,
-  SKHerovue_type_template_id_257c83de_scoped_true_staticRenderFns,
+  SKHerovue_type_template_id_37152e40_scoped_true_render,
+  SKHerovue_type_template_id_37152e40_scoped_true_staticRenderFns,
   false,
   injectStyles,
-  "257c83de",
+  "37152e40",
   "56022505"
   
 )
 
 /* harmony default export */ var SKHero = (component.exports);
 // EXTERNAL MODULE: ./apps/upforweb.com/components/page/_common/Footer.vue + 2 modules
-var Footer = __webpack_require__(65);
+var Footer = __webpack_require__(64);
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./apps/upforweb.com/pages/sk/index.vue?vue&type=script&lang=js&
 //

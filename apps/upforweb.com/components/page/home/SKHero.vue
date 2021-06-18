@@ -31,27 +31,28 @@
         </div>
 
 
-        <div class="container-narrow mt60 grid">
-            <div class='grid col-5 auto justify-content-start align-items-center gap-60'>
+        <div class="container-standard mt60 grid">
+            <div class='grid col-2 sm-col-3 lg-col-6 justify-content-start justify-items-center align-items-center gap-60'>
                 <!-- <h2 class=''>Naša práca<br> hovorí za nás.</h2> -->
                 <img src="@/assets/img/logo-ttsk-simple.svg" alt="" class='grayscale' />
                 <img src="@/assets/img/logo-ugulky.svg" alt="" class='grayscale' />
                 <img src="@/assets/img/logo-svetrovnatek.svg" alt="" class='grayscale' />
                 <img src="@/assets/img/logo-logamic.svg" alt="" class='grayscale' />
                 <img src="@/assets/img/logo-tulaveknizky.svg" alt="" class='grayscale' />
+                <img src="@/assets/img/logo-stu.svg" alt="" class='grayscale' />
             </div>
             
         </div>
 
         <div class='container-wrapper mt60'>
             <div class="container-standard grid">
-                <div class='grid col-4 justify-content-start align-items-start gap-60'>
+                <div class='grid md-col-2 lg-col-4 justify-content-start align-items-start gap-60'>
 
                     
 
-                    <div class='grid gap-20 span-4'>
-                        <h2 class='maxw500'>Nie sme dizajnéri. <br>My dizajnu vdychujeme <span class='typing'>{{typing}}</span>.</h2>
-                        <p class='text-justify maxw500'>Máte pripravený dizajn, ale nemá vám ho kto previesť do funkčného kódu? Dokážeme dizajn prepísať do pixel perfect kódu, ktorý vdýchne vašej webovej stránke alebo aplikácii život.</p>
+                    <div class='grid gap-20 md-span-2 lg-span-4'>
+                        <h2 class='maxw500'>Nie sme dizajnéri. <br>My dizajn <span class='typing'>{{typing}}</span></h2>
+                        <p class='maxw500'>Máte nakreslený dizajn, ale nemá vám ho kto previesť do funkčného kódu? Dokážeme dizajn prepísať do pixel perfect kódu, ktorý vdýchne vašej webovej stránke alebo aplikácii život.</p>
                     </div>
 
                     <div class='grid gap-20'>
@@ -93,7 +94,7 @@ export default {
     // props: ['domainList'],
     data() {
         return {
-            typing: 'život',
+            typing: 'kódujeme.',
             t: 0,
             interval: null
         }
@@ -101,34 +102,54 @@ export default {
     methods: {
         changeTyping() {
             this.interval = setInterval(() => {
-                if(this.typing == "život" && this.t == 0) {this.typing ='živo'}
-                else if(this.typing == "živo" && this.t == 0) {this.typing ='živ'}
-                else if(this.typing == "živ" && this.t == 0) {this.typing ='ži'}
-                else if(this.typing == "ži" && this.t == 0) {this.typing ='ž'}
-                else if(this.typing == "ž" && this.t == 0) {this.typing =''}
-                else if(this.typing == "" && this.t == 0) {this.typing ='k'}
-                else if(this.typing == "k" && this.t == 0) {this.typing ='kó'}
-                else if(this.typing == "kó" && this.t == 0) {
-                    this.typing ='kód'
+                if(this.typing == "kódujeme." && this.t == 0) {this.typing ='kódujeme'}
+                else if(this.typing == "kódujeme" && this.t == 0) {this.typing ='kódujem'}
+                else if(this.typing == "kódujem" && this.t == 0) {this.typing ='kóduje'}
+                else if(this.typing == "kóduje" && this.t == 0) {this.typing ='kóduj'}
+                else if(this.typing == "kóduj" && this.t == 0) {this.typing ='kódu'}
+                else if(this.typing == "kódu" && this.t == 0) {this.typing ='kód'}
+                else if(this.typing == "kód" && this.t == 0) {this.typing ='kó'}
+                else if(this.typing == "kó" && this.t == 0) {this.typing ='k'}
+                else if(this.typing == "k" && this.t == 0) {this.typing =''}
+                else if(this.typing == "" && this.t == 0) {this.typing ='o'}
+                else if(this.typing == "o" && this.t == 0) {this.typing ='ož'}
+                else if(this.typing == "ož" && this.t == 0) {this.typing ='oži'}
+                else if(this.typing == "oži" && this.t == 0) {this.typing ='oživ'}
+                else if(this.typing == "oživ" && this.t == 0) {this.typing ='oživu'}
+                else if(this.typing == "oživu" && this.t == 0) {this.typing ='oživuj'}
+                else if(this.typing == "oživuj" && this.t == 0) {this.typing ='oživuje'}
+                else if(this.typing == "oživuje" && this.t == 0) {this.typing ='oživujem'}
+                else if(this.typing == "oživujem" && this.t == 0) {this.typing ='oživujeme'}
+                else if(this.typing == "oživujeme" && this.t == 0) {this.typing ='oživujeme.'
                     this.t = 1
                     clearInterval(this.interval)
                     setTimeout(() => this.changeTyping(), 5000)
                 }
-                else if(this.typing == "kód" && this.t == 1) {this.typing ='kó'; }
-                else if(this.typing == "kó" && this.t == 1) {this.typing ='k'}
-                else if(this.typing == "k" && this.t == 1) {this.typing =''}
-                else if(this.typing == "" && this.t == 1) {this.typing ='ž'}
-                else if(this.typing == "ž" && this.t == 1) {this.typing ='ži'}
-                else if(this.typing == "ži" && this.t == 1) {this.typing ='živ'}
-                else if(this.typing == "živ" && this.t == 1) {this.typing ='živo'}
-                else if(this.typing == "živo" && this.t == 1) {
-                    this.typing ='život'
+                else if(this.typing == "oživujeme." && this.t == 1) {this.typing ='oživujeme'; }
+                else if(this.typing == "oživujeme" && this.t == 1) {this.typing ='oživujem'; }
+                else if(this.typing == "oživujem" && this.t == 1) {this.typing ='oživuje'; }
+                else if(this.typing == "oživuje" && this.t == 1) {this.typing ='oživuj'; }
+                else if(this.typing == "oživuj" && this.t == 1) {this.typing ='oživu'; }
+                else if(this.typing == "oživu" && this.t == 1) {this.typing ='oživ'; }
+                else if(this.typing == "oživ" && this.t == 1) {this.typing ='oži'; }
+                else if(this.typing == "oži" && this.t == 1) {this.typing ='ož'; }
+                else if(this.typing == "ož" && this.t == 1) {this.typing ='o'; }
+                else if(this.typing == "o" && this.t == 1) {this.typing =''; }
+                else if(this.typing == "" && this.t == 1) {this.typing ='k'; }
+                else if(this.typing == "k" && this.t == 1) {this.typing ='kó'}
+                else if(this.typing == "kó" && this.t == 1) {this.typing ='kód'}
+                else if(this.typing == "kód" && this.t == 1) {this.typing ='kódu'}
+                else if(this.typing == "kódu" && this.t == 1) {this.typing ='kóduj'}
+                else if(this.typing == "kóduj" && this.t == 1) {this.typing ='kóduje'}
+                else if(this.typing == "kóduje" && this.t == 1) {this.typing ='kódujem'}
+                else if(this.typing == "kódujem" && this.t == 1) {this.typing ='kódujeme'}
+                else if(this.typing == "kódujeme" && this.t == 1) {this.typing ='kódujeme.'
                     this.t = 0
                     clearInterval(this.interval)
                     setTimeout(() => this.changeTyping(), 5000)
                 }
                 else {}
-            }, 200)
+            }, 100)
         }
     },
     beforeDestroy () {
@@ -159,10 +180,10 @@ h2 {
 }
 .typing:before {
     content: " ";
-    width: 100%;
+    width: 90%;
     height: 5px;
     /* background: #ffd401; */
-    background: #0cf;
+    background: rgba(0, 204, 255, 0.767);
     position: absolute;
     left: 5px;
     bottom: 5px;
@@ -180,12 +201,11 @@ h2 {
 
 .grayscale {
     filter:opacity(20%) grayscale(100%);
-    max-height: 60px;
+    max-height: 40px;
     transition: filter 0.3s ease-in-out;
 }
 .grayscale:hover {
     filter:opacity(100%) grayscale(0%);
-    max-height: 60px;
 }
 .divider {
     margin-top: 20px;
@@ -201,41 +221,6 @@ h2 {
     margin-top: 40px;
     margin-bottom: 40px;
     color: #ccc;
-}
-img.computer {
-    width: 135%;
-    position: absolute;
-    left: 28px;
-    bottom: -90px;
-    max-width: fit-content;
-    filter: drop-shadow(0px 0px 10px #ccc); 
-    z-index: 5;
-}
-
-div.plant-grow {
-    position: absolute;
-    right: -110px;
-    bottom: -90px;
-    filter: drop-shadow(0px 0px 10px #ccc); 
-    z-index: 6;
-
-    background-image:url('~assets/img/plant.svg');
-	background-position: top left;
-    background-repeat: no-repeat;
-    background-size: auto;
-}
-p.johntheplant {
-    position: absolute;
-    right: -190px;
-    top: -100px;
-    -webkit-filter: drop-shadow(0px 0px 2px #ccc);
-    filter: drop-shadow(0px 0px 2px #ccc);
-    z-index: 6;
-    font-size: .7em;
-    width: 150px;
-    background-color: #fff;
-    padding: 15px;
-    border-radius: 4px;
 }
 
 .component {
