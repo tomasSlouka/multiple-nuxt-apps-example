@@ -9,10 +9,10 @@
                             <!-- <p class='small'>forweb</p> -->
                         </nuxt-link>
                     </div>
-                    <div class='nav'>
-                        <ul class='flex wrap show-md align-items-center'>
-                            <li><nuxt-link to='/'>EN</nuxt-link> | <nuxt-link to='/sk'>SK</nuxt-link></li>
-                        </ul>
+                    <!-- <div class='nav'> -->
+                        <!-- <ul class='flex wrap show-md align-items-center'> -->
+                            <!-- <li><nuxt-link to='/'>EN</nuxt-link> | <nuxt-link to='/sk'>SK</nuxt-link></li> -->
+                        <!-- </ul> -->
                         <!-- <ul>
                             <li class='sidenavtoggle hidden-md' @click="$emit('sidenavtoggle')">
                                 <div></div>
@@ -20,7 +20,7 @@
                                 <div></div>
                             </li>
                         </ul> -->
-                    </div>
+                    <!-- </div> -->
                     <!-- <div class='nav'>
                         <ul class='flex wrap show-md align-items-center'>
                             <li><a @click.prevent='logout()'>Log out</a></li>

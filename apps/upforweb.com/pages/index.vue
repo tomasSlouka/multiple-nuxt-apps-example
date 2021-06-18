@@ -11,7 +11,7 @@
 
 <script>
 import Header from '@/components/page/_common/Header.vue'
-import Hero from '@/components/page/home/ENHero.vue'
+import Hero from '@/components/page/home/SKHero.vue'
 import Footer from '@/components/page/_common/Footer.vue'
 
 export default {
