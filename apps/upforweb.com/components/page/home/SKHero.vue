@@ -4,23 +4,84 @@
         <div class="container-narrow mt60 grid">
             <div class='grid gap-20'>
                 <!-- <h1 class='maxw500'>Do you subscribe to too many newsletters?</h1> -->
-                <h1 class=''>Frontend je náš svet</h1>
-                <!-- <h2 class='strong big'>Start for free or go premium for $4.99/month</h2> -->
-                <p class="maxw600 big">
-                    Vytvárame nádherné, rýchle predajné webové stránky a prispôsobené riešenia na vylepšenie vašich interných procesov. Veríme v dlhodobé vzťahy, vďaka ktorým zákazníkom prinášame kvalitné riešenia a spokojnosť.
+                <div>
+                    <h2 class='h3'>Digitálne agentúry a podniky.</h2>
+                    <h1 class=''>Vy navrhujete. My kódujeme.</h1>
+                </div>
+                <p class="maxw600 text-justify">
+                    Poskytujeme služby na mieru v oblasti analýzy, vývoja, správy a prevádzky webových aplikácii pre digitálne agentúry a podniky. Kódujeme HTML/CSS, VueJS & NuxtJS a PHP webové aplikácie. Našim spokojným partnerom prinášame kvalitné riešenia, vďaka čomu sa nám darí budovať dlhodobé a priateľské vzťahy.
                 </p>
+                <!-- <p class="maxw600">
+                    
+                </p> -->
                 
-                <div class='mt30'>
+                <!-- <div class='divider'></div> -->
+
+                <div class='mt20'>
                     <div>
                         <a href='mailto:ahoj@upforweb.com' class='button black cta'>Spojme sa emailom</a>
                     </div>
                 </div>
                 <p class="small">ahoj@upforweb.com | +421 907 371 480</p>
-                <p class='small gray'>
+                <!-- <p class='small gray'>
                     upforweb s. r. o. | Hlavná 46/83 Zavar 919 26 | IČO: 53 086 228
-                </p>
+                </p> -->
             </div>
             
+        </div>
+
+
+        <div class="container-narrow mt60 grid">
+            <div class='grid col-5 auto justify-content-start align-items-center gap-60'>
+                <!-- <h2 class=''>Naša práca<br> hovorí za nás.</h2> -->
+                <img src="@/assets/img/logo-ttsk-simple.svg" alt="" class='grayscale' />
+                <img src="@/assets/img/logo-ugulky.svg" alt="" class='grayscale' />
+                <img src="@/assets/img/logo-svetrovnatek.svg" alt="" class='grayscale' />
+                <img src="@/assets/img/logo-logamic.svg" alt="" class='grayscale' />
+                <img src="@/assets/img/logo-tulaveknizky.svg" alt="" class='grayscale' />
+            </div>
+            
+        </div>
+
+        <div class='container-wrapper mt60'>
+            <div class="container-standard grid">
+                <div class='grid col-4 justify-content-start align-items-start gap-60'>
+
+                    
+
+                    <div class='grid gap-20 span-4'>
+                        <h2 class='maxw500'>Nie sme dizajnéri. <br>My dizajnu vdychujeme <span class='typing'>{{typing}}</span>.</h2>
+                        <p class='text-justify maxw500'>Máte pripravený dizajn, ale nemá vám ho kto previesť do funkčného kódu? Dokážeme dizajn prepísať do pixel perfect kódu, ktorý vdýchne vašej webovej stránke alebo aplikácii život.</p>
+                    </div>
+
+                    <div class='grid gap-20'>
+                        <h3 class='maxw300'>Analýzujeme</h3>
+                        <p class='small'>Nápad bez realizácie ostane len nápadom. Pripravíme vám detailnú funkčnú špecifikáciu a interaktívnu informačnú architektúru vašej novej webovej stránky/aplikácie - kvalitná príprava šetrí čas i peniaze.</p>
+                    </div>
+
+                    <div class='grid gap-20'>
+                        <h3 class='maxw300'>Nedizajnujeme</h3>
+                        <p class='small'>Návrh a kreslenie dizajnu novej webovej stránky/aplikácie prenechávame skúseným dizajnérom v UX/UI štúdiách, s ktorými spolupracujeme. My sme experti na kód :)</p>
+                    </div>
+
+                    <div class='grid gap-20'>
+                        <h3 class='maxw300'>Vývíjame</h3>
+                        <p class='small'>Pri vývoji webových stránok a webových aplikácii používame tie najmodernejšie postupy a technológie. U nás nebudete počuť slovo "Wordpress". Veríme, že úspech sa skrýva práve v kvalitnom a flexibilnom kóde, ktorý je šitý na mieru požiadavkám vášho biznisu.</p>
+                    </div>
+
+                    <div class='grid gap-20'>
+                        <h3 class='maxw300'>Prevádzkujeme</h3>
+                        <p class='small'>Prevádzka webovej stránky alebo aplikácie môže byť niekedy výzvou. Preto nenechávame nič na náhodu a aplikácie našich partnerov nasadzujeme na cloudovú infraštruktúru od Amazonu (AWS). Rýchlosť a stabilita kdekoľvek na svete, je zaručená.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="container-narrow grid">
+            <p class='small gray'>
+                upforweb s. r. o. | Hlavná 46/83 Zavar 919 26 | IČO: 53 086 228
+            </p>
         </div>
 
     </div>
@@ -30,15 +91,117 @@
 export default {
 
     // props: ['domainList'],
+    data() {
+        return {
+            typing: 'život',
+            t: 0,
+            interval: null
+        }
+    },
+    methods: {
+        changeTyping() {
+            this.interval = setInterval(() => {
+                if(this.typing == "život" && this.t == 0) {this.typing ='živo'}
+                else if(this.typing == "živo" && this.t == 0) {this.typing ='živ'}
+                else if(this.typing == "živ" && this.t == 0) {this.typing ='ži'}
+                else if(this.typing == "ži" && this.t == 0) {this.typing ='ž'}
+                else if(this.typing == "ž" && this.t == 0) {this.typing =''}
+                else if(this.typing == "" && this.t == 0) {this.typing ='k'}
+                else if(this.typing == "k" && this.t == 0) {this.typing ='kó'}
+                else if(this.typing == "kó" && this.t == 0) {
+                    this.typing ='kód'
+                    this.t = 1
+                    clearInterval(this.interval)
+                    setTimeout(() => this.changeTyping(), 5000)
+                }
+                else if(this.typing == "kód" && this.t == 1) {this.typing ='kó'; }
+                else if(this.typing == "kó" && this.t == 1) {this.typing ='k'}
+                else if(this.typing == "k" && this.t == 1) {this.typing =''}
+                else if(this.typing == "" && this.t == 1) {this.typing ='ž'}
+                else if(this.typing == "ž" && this.t == 1) {this.typing ='ži'}
+                else if(this.typing == "ži" && this.t == 1) {this.typing ='živ'}
+                else if(this.typing == "živ" && this.t == 1) {this.typing ='živo'}
+                else if(this.typing == "živo" && this.t == 1) {
+                    this.typing ='život'
+                    this.t = 0
+                    clearInterval(this.interval)
+                    setTimeout(() => this.changeTyping(), 5000)
+                }
+                else {}
+            }, 200)
+        }
+    },
+    beforeDestroy () {
+        clearInterval(this.interval)
+    },
+    created () {
+        this.changeTyping()
+    }
 
 }
 </script>
 
 <style scoped>
 h1 {
+    /* font-size: 3em; */
+    font-weight: 700;
     font-size: 2.4em;
 }
 
+h2 {
+    /* font-weight: 500; */
+    /* color: gold; */
+}
+.typing {
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+}
+.typing:before {
+    content: " ";
+    width: 100%;
+    height: 5px;
+    /* background: #ffd401; */
+    background: #0cf;
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    /* filter: opacity(20%); */
+    transition: .2s ease;
+    z-index: 1;
+}
+
+.container-wrapper {
+    /* background-color: #fbf7ed; */
+    background-color: rgba(0,161,198,0.05);
+    padding: 40px 0px;
+}
+
+
+.grayscale {
+    filter:opacity(20%) grayscale(100%);
+    max-height: 60px;
+    transition: filter 0.3s ease-in-out;
+}
+.grayscale:hover {
+    filter:opacity(100%) grayscale(0%);
+    max-height: 60px;
+}
+.divider {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    line-height: 6px;
+}
+.divider:after {
+    content: '>> 01110101 01110000 01100110 01101111 01110010 01110111 01100101 01100010 <<';
+    font-weight: 700;
+    font-size: 6px;
+    line-height: 6px;
+    letter-spacing: 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #ccc;
+}
 img.computer {
     width: 135%;
     position: absolute;

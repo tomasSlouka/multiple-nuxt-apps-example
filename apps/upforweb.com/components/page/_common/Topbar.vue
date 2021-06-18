@@ -4,8 +4,9 @@
             <div class="container-narrow">
                 <div class='flex wrap align-items-center justify-content-space-between'>
                     <div class='logo'>
-                        <nuxt-link to="/">
-                            <img src="@/assets/img/logo.png" alt="" class='logo mt20' />
+                        <nuxt-link to="/" class='grid col-2 auto justify-content-start align-items-center'>
+                            <img src="@/assets/img/logo.svg" alt="" class='logo mt20' />
+                            <!-- <p class='small'>forweb</p> -->
                         </nuxt-link>
                     </div>
                     <div class='nav'>
@@ -57,7 +58,7 @@ export default {
     padding: 40px;
 } */
 .logo {
-    height: 50px;
+    height: 45px;
     /* width: 50px; */
     border-radius: 50px;
 }
@@ -73,12 +74,12 @@ export default {
 }
 
 .logo a {
-    font-size: 24px;
-    line-height: 30px;
-    font-weight: 700;
+    /* font-size: 5em; */
+    /* line-height: 30px; */
+    /* font-weight: 700; */
     /* font-family: 'Open sans', sans-serif; */
     /* font-family: 'Exo 2', sans-serif; */
-    font-family: 'Caveat', cursive;
+    /* font-family: 'Caveat', cursive; */
     /* font-family: 'Concert One', cursive; */
     /* font-family: 'Patrick Hand', cursive; */
     /* font-family: 'MuseoModerno', cursive; */

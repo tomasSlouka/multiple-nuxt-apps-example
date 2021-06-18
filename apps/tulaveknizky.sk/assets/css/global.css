@@ -237,7 +237,7 @@ button.big, .button.big {
 input, select {
     background: #fff;
     color: #000;
-    border: 1px solid #eee;
+    border: 1px solid #dadde3;
     /* border-bottom: 3px solid #eee; */
     border-left: 2px solid #ffd401;
     /* box-shadow: 0 0.125rem 0.125rem rgba(0,0,0,.1); */
@@ -261,7 +261,7 @@ textarea, .textarea {
     position: relative;
     background: #fff;
     color: #000;
-    border: 1px solid #eee;
+    border: 1px solid #dadde3;
     /* border-bottom: 3px solid #eee; */
     border-left: 2px solid #ffd401;
     /* box-shadow: 0 0.125rem 0.125rem rgba(0,0,0,.1); */
