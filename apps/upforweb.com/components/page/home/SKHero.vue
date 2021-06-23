@@ -104,7 +104,7 @@
                 <a href='mailto:ahoj@upforweb.com' class='button black cta'>Spojme sa emailom</a>
             </div>
             <p class='small'>
-                upforweb s. r. o. | Hlavná 46/83 Zavar 919 26 | IČO: 53 086 228
+                upforweb s. r. o. | Hlavná 46/83 Zavar 919 26 | IČO: 53 086 228 | DIČ: 2121259723
             </p>
         </div>
 
@@ -193,10 +193,10 @@ h1 {
     line-height: 1.276em;
 }
 
-h2 {
+/* h2 { */
     /* font-weight: 500; */
     /* color: gold; */
-}
+/* } */
 .typing {
     position: relative;
     display: inline-block;

@@ -3138,7 +3138,7 @@ async function createApp(ssrContext, config = {}) {
 
   const app = {
     head: {
-      "title": "Upforweb | Web solutions for your business",
+      "title": "Upforweb | Kódujeme webové služby",
       "meta": [{
         "charset": "utf-8"
       }, {
@@ -3147,11 +3147,11 @@ async function createApp(ssrContext, config = {}) {
       }, {
         "hid": "title",
         "name": "title",
-        "content": "Upforweb | Web solutions for your business"
+        "content": "Upforweb | Kódujeme webové stránky a aplikácie"
       }, {
         "hid": "description",
         "name": "description",
-        "content": "We create beautiful responsive business websites and custom solutions to enhance your internal processes."
+        "content": "Poskytujeme služby na mieru v oblasti analýzy, vývoja, správy a prevádzky webových aplikácii pre digitálne agentúry a podniky. Kódujeme HTML\u002FCSS, VueJS & NuxtJS a PHP webové aplikácie. Našim spokojným partnerom prinášame kvalitné riešenia, vďaka čomu sa nám darí budovať dlhodobé a priateľské vzťahy."
       }, {
         "hid": "og-type",
         "property": "og:type",
@@ -3163,11 +3163,11 @@ async function createApp(ssrContext, config = {}) {
       }, {
         "hid": "og-title",
         "property": "og:title",
-        "content": "Upforweb | Web solutions for your business"
+        "content": "Upforweb | Kódujeme webové stránky a aplikácie"
       }, {
         "hid": "og-description",
         "property": "og:description",
-        "content": "We create beautiful responsive business websites and custom solutions to enhance your internal processes."
+        "content": "Poskytujeme služby na mieru v oblasti analýzy, vývoja, správy a prevádzky webových aplikácii pre digitálne agentúry a podniky. Kódujeme HTML\u002FCSS, VueJS & NuxtJS a PHP webové aplikácie. Našim spokojným partnerom prinášame kvalitné riešenia, vďaka čomu sa nám darí budovať dlhodobé a priateľské vzťahy."
       }, {
         "hid": "og-image",
         "property": "og:image",
@@ -3195,11 +3195,11 @@ async function createApp(ssrContext, config = {}) {
       }, {
         "hid": "twitter-title",
         "property": "twitter:title",
-        "content": "Upforweb | Web solutions for your business"
+        "content": "Upforweb | Kódujeme webové stránky a aplikácie"
       }, {
         "hid": "twitter-description",
         "property": "twitter:description",
-        "content": "We create beautiful responsive business websites and custom solutions to enhance your internal processes."
+        "content": "Poskytujeme služby na mieru v oblasti analýzy, vývoja, správy a prevádzky webových aplikácii pre digitálne agentúry a podniky. Kódujeme HTML\u002FCSS, VueJS & NuxtJS a PHP webové aplikácie. Našim spokojným partnerom prinášame kvalitné riešenia, vďaka čomu sa nám darí budovať dlhodobé a priateľské vzťahy."
       }, {
         "hid": "twitter-image",
         "property": "twitter:image",

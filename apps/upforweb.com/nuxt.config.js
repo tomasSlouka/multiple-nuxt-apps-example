@@ -24,24 +24,24 @@ export default {
 	** See https://nuxtjs.org/api/configuration-head
 	*/
 	head: {
-        title: 'Upforweb | Web solutions for your business',
+        title: 'Upforweb | Kódujeme webové služby',
         meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1, shrink-to-fit=no' },
-            { hid: 'title', name: "title", content: "Upforweb | Web solutions for your business" },
-            { hid: 'description', name: "description", content: "We create beautiful responsive business websites and custom solutions to enhance your internal processes." },
+            { hid: 'title', name: "title", content: "Upforweb | Kódujeme webové stránky a aplikácie" },
+            { hid: 'description', name: "description", content: "Poskytujeme služby na mieru v oblasti analýzy, vývoja, správy a prevádzky webových aplikácii pre digitálne agentúry a podniky. Kódujeme HTML/CSS, VueJS & NuxtJS a PHP webové aplikácie. Našim spokojným partnerom prinášame kvalitné riešenia, vďaka čomu sa nám darí budovať dlhodobé a priateľské vzťahy." },
             { hid: 'og-type', property: "og:type", content: "website" },
             { hid: 'og-url', property: "og:url", content: "https://upforweb.com/" },
-            { hid: 'og-title', property: "og:title", content: "Upforweb | Web solutions for your business" },
-            { hid: 'og-description', property: "og:description", content: "We create beautiful responsive business websites and custom solutions to enhance your internal processes." },
+            { hid: 'og-title', property: "og:title", content: "Upforweb | Kódujeme webové stránky a aplikácie" },
+            { hid: 'og-description', property: "og:description", content: "Poskytujeme služby na mieru v oblasti analýzy, vývoja, správy a prevádzky webových aplikácii pre digitálne agentúry a podniky. Kódujeme HTML/CSS, VueJS & NuxtJS a PHP webové aplikácie. Našim spokojným partnerom prinášame kvalitné riešenia, vďaka čomu sa nám darí budovať dlhodobé a priateľské vzťahy." },
             { hid: 'og-image', property: "og:image", content: "https://upforweb.com/_static/upforweb/cover-twitter.png" },
             { hid: 'og-image:type', property: 'og:image:type', content: 'image/png' },
             { hid: 'og-image:width', property: 'og:image:width', content: '1200' },
             { hid: 'og-image:height', property: 'og:image:height', content: '628' },
             { hid: 'twitter-card', property: "twitter:card", content: "summary_large_image" },
             { hid: 'twitter-url', property: "twitter:url", content: "https://upforweb.com/" },
-            { hid: 'twitter-title', property: "twitter:title", content: "Upforweb | Web solutions for your business" },
-            { hid: 'twitter-description', property: "twitter:description", content: "We create beautiful responsive business websites and custom solutions to enhance your internal processes." },
+            { hid: 'twitter-title', property: "twitter:title", content: "Upforweb | Kódujeme webové stránky a aplikácie" },
+            { hid: 'twitter-description', property: "twitter:description", content: "Poskytujeme služby na mieru v oblasti analýzy, vývoja, správy a prevádzky webových aplikácii pre digitálne agentúry a podniky. Kódujeme HTML/CSS, VueJS & NuxtJS a PHP webové aplikácie. Našim spokojným partnerom prinášame kvalitné riešenia, vďaka čomu sa nám darí budovať dlhodobé a priateľské vzťahy." },
             { hid: 'twitter-image', property: "twitter:image", content: "https://upforweb.com/_static/upforweb/cover-twitter.png" },
 
             { hid: 'apple-mobile-web-app-title', name: "apple-mobile-web-app-title", content: "Upforweb" },
