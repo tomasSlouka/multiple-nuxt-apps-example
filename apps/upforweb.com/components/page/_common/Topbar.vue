@@ -1,7 +1,7 @@
 <template>
     <div>
         <div id="topbar">
-            <div class="container-narrow">
+            <div class="container-standard">
                 <div class='flex wrap align-items-center justify-content-space-between'>
                     <div class='logo'>
                         <nuxt-link to="/" class='grid col-2 auto justify-content-start align-items-center'>
@@ -63,13 +63,15 @@ export default {
     border-radius: 50px;
 }
 
-#topbar > .container-narrow {
+#topbar > .container-standard {
     margin-top: 0px;
     margin-bottom: 0px;
     padding: 0px 20px;
     height: 100%;
+
+    border-left: 0;
 }
-#topbar > .container-narrow > div.flex {
+#topbar > .container-standard > div.flex {
     height: 100%;
 }
 

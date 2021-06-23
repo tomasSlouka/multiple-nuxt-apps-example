@@ -107,6 +107,8 @@ h5, .h5 {
 
     margin-top: 80px;
     margin-bottom: 80px;
+
+    border-left: 2px dashed #eee;
 }
 .container-narrow {
     max-width: 976px;

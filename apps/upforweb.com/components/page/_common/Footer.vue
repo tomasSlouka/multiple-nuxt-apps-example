@@ -1,6 +1,6 @@
 <template>
     <div id='footer' class='bt1'>
-        <div class="container-narrow mb40 mt40 pt40">
+        <div class="container-standard mb40 mt40 pt40">
 
 
             <div class='grid xs-col-2 sm-col-2 md-col-4 lg-col-5 auto gap-30 align-items-start'>
@@ -101,7 +101,7 @@
 h4 {
     color: #fff;
 }
-#footer > .container-narrow {
+#footer > .container-standard {
     margin-bottom: 0px;
 }
 ul {

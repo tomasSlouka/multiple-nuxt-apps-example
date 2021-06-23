@@ -1,12 +1,12 @@
 <template>
     <div class="component">
 
-        <div class="container-narrow mt60 grid">
+        <div class="container-standard mt60 grid">
             <div class='grid gap-20'>
                 <!-- <h1 class='maxw500'>Do you subscribe to too many newsletters?</h1> -->
                 <div>
                     <h2 class='h3'>Digitálne agentúry a podniky.</h2>
-                    <h1 class=''>Vy navrhujete. My kódujeme.</h1>
+                    <h1 class='maxw300'>Vy navrhujete. My kódujeme.</h1>
                 </div>
                 <p class="maxw600 text-justify">
                     Poskytujeme služby na mieru v oblasti analýzy, vývoja, správy a prevádzky webových aplikácii pre digitálne agentúry a podniky. Kódujeme HTML/CSS, VueJS & NuxtJS a PHP webové aplikácie. Našim spokojným partnerom prinášame kvalitné riešenia, vďaka čomu sa nám darí budovať dlhodobé a priateľské vzťahy.
@@ -44,43 +44,66 @@
             
         </div>
 
-        <div class='container-wrapper mt60'>
+        <div class='container-wrapper light mt60'>
             <div class="container-standard grid">
-                <div class='grid md-col-2 lg-col-4 justify-content-start align-items-start gap-60'>
+                <div class='grid md-col-2 lg-col-3 justify-content-start align-items-start gap-60'>
 
                     
 
-                    <div class='grid gap-20 md-span-2 lg-span-4'>
-                        <h2 class='maxw500'>Nie sme dizajnéri. <br>My dizajn <span class='typing'>{{typing}}</span></h2>
+                    <div class='grid gap-20 md-span-2 lg-span-3'>
+                        <h2 class='maxw500'>Nekreslíme dizajn. <br>My dizajn <span class='typing'>{{typing}}</span></h2>
                         <p class='maxw500'>Máte nakreslený dizajn, ale nemá vám ho kto previesť do funkčného kódu? Dokážeme dizajn prepísať do pixel perfect kódu, ktorý vdýchne vašej webovej stránke alebo aplikácii život.</p>
                     </div>
 
-                    <div class='grid gap-20'>
-                        <h3 class='maxw300'>Analýzujeme</h3>
-                        <p class='small'>Nápad bez realizácie ostane len nápadom. Pripravíme vám detailnú funkčnú špecifikáciu a interaktívnu informačnú architektúru vašej novej webovej stránky/aplikácie - kvalitná príprava šetrí čas i peniaze.</p>
+                    <div class='grid gap-10'>
+                        <h3 class='maxw300'>Analýzujeme.</h3>
+                        <p class='small maxw400'>Nápad bez realizácie ostane len nápadom. Pripravíme vám detailnú funkčnú špecifikáciu a interaktívnu informačnú architektúru vašej novej webovej stránky, či aplikácie. Kvalitná príprava šetrí čas i peniaze.</p>
                     </div>
 
-                    <div class='grid gap-20'>
-                        <h3 class='maxw300'>Nedizajnujeme</h3>
-                        <p class='small'>Návrh a kreslenie dizajnu novej webovej stránky/aplikácie prenechávame skúseným dizajnérom v UX/UI štúdiách, s ktorými spolupracujeme. My sme experti na kód :)</p>
+                    <div class='grid gap-10'>
+                        <h3 class='maxw300'>Nedizajnujeme.</h3>
+                        <p class='small maxw400'>Návrh a kreslenie dizajnu novej webovej stránky alebo aplikácie prenechávame skúseným dizajnérom v UX/UI štúdiách, s ktorými spolupracujeme. My sme experti na kód :)</p>
                     </div>
 
-                    <div class='grid gap-20'>
-                        <h3 class='maxw300'>Vývíjame</h3>
-                        <p class='small'>Pri vývoji webových stránok a webových aplikácii používame tie najmodernejšie postupy a technológie. U nás nebudete počuť slovo "Wordpress". Veríme, že úspech sa skrýva práve v kvalitnom a flexibilnom kóde, ktorý je šitý na mieru požiadavkám vášho biznisu.</p>
+                    <div class='grid gap-10'>
+                        <h3 class='maxw300'>Vývíjame.</h3>
+                        <p class='small maxw400'>Pri vývoji webových stránok a webových aplikácii používame tie najmodernejšie postupy a technológie. U nás nebudete počuť slovo "Wordpress". Veríme, že úspech sa skrýva práve v detailoch a kvalitnom kóde, ktorý je šitý na mieru požiadavkám vášho biznisu.</p>
                     </div>
 
-                    <div class='grid gap-20'>
-                        <h3 class='maxw300'>Prevádzkujeme</h3>
-                        <p class='small'>Prevádzka webovej stránky alebo aplikácie môže byť niekedy výzvou. Preto nenechávame nič na náhodu a aplikácie našich partnerov nasadzujeme na cloudovú infraštruktúru od Amazonu (AWS). Rýchlosť a stabilita kdekoľvek na svete, je zaručená.</p>
+                    <div class='grid gap-10'>
+                        <h3 class='maxw300'>Prevádzkujeme.</h3>
+                        <p class='small maxw400'>Prevádzka webovej stránky alebo aplikácie môže byť niekedy výzvou. Preto nenechávame nič na náhodu a aplikácie našich partnerov nasadzujeme na cloudovú infraštruktúru od Amazonu (AWS). Rýchlosť a stabilita kdekoľvek na svete, je zaručená.</p>
+                    </div>
+
+                    <div class='grid gap-10'>
+                        <h3 class='maxw300'>Spravujeme.</h3>
+                        <p class='small maxw400'>Našim partnerom zabezpečujeme komplexnú správu obsahu webových stránok alebo aplikácií. Venujte sa svojmu biznisu a nie správe obsahu. </p>
                     </div>
                 </div>
                 
             </div>
         </div>
 
-        <div class="container-narrow grid">
-            <p class='small gray'>
+        <div class='container-wrapper dark'>
+            <div class="container-standard mt20 mb20 grid gap-20 col-1 justify-content-start justify-items-start">
+                <!-- <div class='justify-self-end grid justify-items-end'>
+                    <h2 class='h1'>Kódovaním to nekončí.</h2>
+                </div> -->
+                <!-- <div class='justify-self-end grid gap-20'> -->
+                    <div>
+                        <h3 class=''>Rozvoj a podpora zameraná na úspech.</h3>
+                        <h2 class='h1'>Kódovaním to nekončí.</h2>
+                    </div>
+                    <p class='maxw600 '>Našim cielom je spokojnosť používateľov webových stránok a aplikácií, ktoré sme pomohli vytvoriť. Preto s našimi partnermi ďalej spolupracujeme na ich rozvoji a zároveň poskytujeme dlhodobú podporu zameranú na úspech.</p>
+                <!-- </div> -->
+            </div>
+        </div>
+
+        <div class="container-standard grid gap-20">
+            <div>
+                <a href='mailto:ahoj@upforweb.com' class='button black cta'>Spojme sa emailom</a>
+            </div>
+            <p class='small'>
                 upforweb s. r. o. | Hlavná 46/83 Zavar 919 26 | IČO: 53 086 228
             </p>
         </div>
@@ -167,6 +190,7 @@ h1 {
     /* font-size: 3em; */
     font-weight: 700;
     font-size: 2.4em;
+    line-height: 1.276em;
 }
 
 h2 {
@@ -192,10 +216,34 @@ h2 {
     z-index: 1;
 }
 
-.container-wrapper {
+.container-wrapper.light {
     /* background-color: #fbf7ed; */
     background-color: rgba(0,161,198,0.05);
     padding: 40px 0px;
+}
+.container-wrapper.light .container-standard {
+    border-left: 2px dashed rgba(0, 204, 255, 0.089);
+}
+
+.container-wrapper.dark {
+    /* background-color: #fbf7ed; */
+    background-color: rgb(0, 0, 0);
+    /* background-color: rgb(0, 56, 68); */
+    padding: 40px 0px;
+}
+.container-wrapper.dark .container-standard {
+    border-left: 2px dashed rgba(255, 255, 255, 0.13);
+}
+.container-wrapper.dark h2 {
+    color: #fff;
+    /* font-size: 3em; */
+    /* text-align: right; */
+}
+.container-wrapper.dark h3 {
+    color: #fff;
+}
+.container-wrapper.dark p {
+    color: #ffffffba;
 }
 
 
