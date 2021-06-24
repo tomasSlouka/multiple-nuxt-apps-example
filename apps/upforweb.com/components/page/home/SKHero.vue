@@ -91,8 +91,8 @@
                 </div> -->
                 <!-- <div class='justify-self-end grid gap-20'> -->
                     <div>
-                        <h3 class=''>Rozvoj a podpora zameraná na úspech.</h3>
-                        <h2 class='h1'>Kódovaním to nekončí.</h2>
+                        <h3 class=''>Kódovaním to nekončí.</h3>
+                        <h2 class='h1'>Rozvoj a podpora zameraná na úspech.</h2>
                     </div>
                     <p class='maxw600 '>Našim cielom je spokojnosť používateľov webových stránok a aplikácií, ktoré sme pomohli vytvoriť. Preto s našimi partnermi ďalej spolupracujeme na ich rozvoji a zároveň poskytujeme dlhodobú podporu zameranú na úspech.</p>
                 <!-- </div> -->
