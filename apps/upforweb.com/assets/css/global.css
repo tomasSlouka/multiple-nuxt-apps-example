@@ -426,9 +426,14 @@ span.tag.blue {
     background-color: #309ee779;
     color: rgba(11, 53, 87, 0.75);
 }
+span.tag.purple {
+    background-color: rgb(201 201 255);
+    color: #000;
+}
 span.tag.yellow {
-    background-color: #e7d53099;
-    color: rgb(102, 94, 23);
+    background-color: rgb(255 212 1);
+    color: rgb(67 60 0);
+
 }
 span.tag.green {
     background-color: #30e7b69e;

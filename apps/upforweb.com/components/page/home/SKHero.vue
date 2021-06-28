@@ -104,21 +104,44 @@
                 <h3 class=''>Toto sme kódovali.</h3>
                 <h2 class='h1'>Naše úspešné projekty.</h2>
             </div>
-            
-            <div class='grid col-2 gap-60 mt60 align-items-start'>
-                <div class='grid gap-10'>
+            <div class='grid md-col-2 gap-60 mt60 align-items-start'>
+                <div class='grid gap-20'>
                     <div class='img-wrapper'>
                         <img src="@/assets/img/tulaveknizky_projekt.png" alt="" class='' />
                     </div>
-                    <h3>Túlavé knižky</h3>
-                    <p class=''>Analýza a návrh, kódovanie frontend (HTML, CSS, VueJS + NuxtJS) + backend API (PHP, MySQL), správa obsahu.</p>
+                    <div class='grid col-2 auto justify-content-start align-items-center gap-10'>
+                        <img src="@/assets/img/tulaveknizky_logo.svg" alt="" class='maxh30' />
+                        <h3>Túlavé knižky</h3>
+                    </div>
+                    <p class='small'>Komplexná analýza a návrh, kódovanie frontend (HTML, CSS, VueJS + NuxtJS) + backend API (PHP, MySQL), správa obsahu.</p>
+                    <div class='flex wrap'>
+                        <span class='inline-block tag yellow m2'>V príprave</span>
+                        <span class='inline-block tag gray m2'>Analýza</span>
+                        <span class='inline-block tag gray m2'>Návrh</span>
+                        <span class='inline-block tag gray m2'>Frontend</span>
+                        <span class='inline-block tag gray m2'>Backend</span>
+                        <span class='inline-block tag gray m2'>Správa obsahu</span>
+                        <span class='inline-block tag gray m2'>Správa infraštruktúry</span>
+                    </div>
                 </div>
-                <div class='grid gap-10 mt60'>
+                <div class='grid gap-20 mt60'>
                     <div class='img-wrapper'>
                         <img src="@/assets/img/ymello_project.png" alt="" class='' />
                     </div>
-                    <h3>Ymello</h3>
-                    <p class=''>Analýza, kódovanie frontend (HTML, CSS, jQuery) + backend (PHP, MySQL), správa infraštruktúry AWS.</p>
+                    <div class='grid col-2 auto justify-content-start align-items-center gap-10'>
+                        <img src="@/assets/img/ymello_logo.svg" alt="" class='maxh30' />
+                        <h3>Ymello</h3>
+                    </div>
+                    <p class='small'>Analýza, návrh, kódovanie frontend (HTML, CSS, jQuery) + backend (PHP, MySQL), správa infraštruktúry AWS.</p>
+                    <div class='flex wrap'>
+                        <span class="inline-block tag purple m2">V produkcií</span>
+                        <span class='inline-block tag gray m2'>Analýza</span>
+                        <span class='inline-block tag gray m2'>Návrh</span>
+                        <span class='inline-block tag gray m2'>Frontend</span>
+                        <span class='inline-block tag gray m2'>Backend</span>
+                        <span class='inline-block tag gray m2'>Správa obsahu</span>
+                        <span class='inline-block tag gray m2'>Správa infraštruktúry</span>
+                    </div>
                 </div>
                 <!-- <div class='grid gap-10 mt-60'>
                     <div class='img-wrapper'>

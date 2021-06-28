@@ -54,13 +54,13 @@ module.exports.__inject__ = function (context) {
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(69);
+var content = __webpack_require__(71);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
 var add = __webpack_require__(3).default
 module.exports.__inject__ = function (context) {
-  add("1605d0b9", content, true, context)
+  add("7f7ff380", content, true, context)
 };
 
 /***/ }),
@@ -70,7 +70,7 @@ module.exports.__inject__ = function (context) {
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(73);
+var content = __webpack_require__(75);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
@@ -203,37 +203,49 @@ module.exports = __webpack_require__.p + "img/tulaveknizky_projekt.09d2275.png";
 /* 67 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/ymello_project.520e2bc.png";
+module.exports = __webpack_require__.p + "img/tulaveknizky_logo.bfaebac.svg";
 
 /***/ }),
 /* 68 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SKHero_vue_vue_type_style_index_0_id_41d4dd0e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(51);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SKHero_vue_vue_type_style_index_0_id_41d4dd0e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SKHero_vue_vue_type_style_index_0_id_41d4dd0e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SKHero_vue_vue_type_style_index_0_id_41d4dd0e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SKHero_vue_vue_type_style_index_0_id_41d4dd0e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-
+module.exports = __webpack_require__.p + "img/ymello_project.520e2bc.png";
 
 /***/ }),
 /* 69 */
 /***/ (function(module, exports, __webpack_require__) {
 
+module.exports = __webpack_require__.p + "img/ymello_logo.08fdbbf.svg";
+
+/***/ }),
+/* 70 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SKHero_vue_vue_type_style_index_0_id_6c1b11e0_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(51);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SKHero_vue_vue_type_style_index_0_id_6c1b11e0_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SKHero_vue_vue_type_style_index_0_id_6c1b11e0_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SKHero_vue_vue_type_style_index_0_id_6c1b11e0_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SKHero_vue_vue_type_style_index_0_id_6c1b11e0_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+
+
+/***/ }),
+/* 71 */
+/***/ (function(module, exports, __webpack_require__) {
+
 // Imports
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(2);
-var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(70);
-var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(71);
+var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(72);
+var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(73);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-exports.push([module.i, "h1[data-v-41d4dd0e]{font-weight:700;font-size:2.4em;line-height:1.276em}.typing[data-v-41d4dd0e]{position:relative;display:inline-block;z-index:2}.typing[data-v-41d4dd0e]:before{content:\" \";width:90%;height:5px;background:rgba(0,204,255,.767);position:absolute;left:5px;bottom:5px;transition:.2s ease;z-index:1}.container-wrapper.light[data-v-41d4dd0e]{background-color:rgba(0,161,198,.05);padding:40px 0}.container-wrapper.light .container-standard[data-v-41d4dd0e]{border-left:2px dashed rgba(0,204,255,.089)}.container-wrapper.dark[data-v-41d4dd0e]{background-color:#000;padding:40px 0}.container-wrapper.dark .container-standard[data-v-41d4dd0e]{border-left:2px dashed hsla(0,0%,100%,.13)}.container-wrapper.dark h2[data-v-41d4dd0e],.container-wrapper.dark h3[data-v-41d4dd0e]{color:#fff}.container-wrapper.dark p[data-v-41d4dd0e]{color:hsla(0,0%,100%,.72941)}.grayscale[data-v-41d4dd0e]{filter:opacity(20%) grayscale(100%);max-height:40px;transition:filter .3s ease-in-out}.grayscale[data-v-41d4dd0e]:hover{filter:opacity(100%) grayscale(0)}.divider[data-v-41d4dd0e]{margin-top:20px}.divider[data-v-41d4dd0e],.divider[data-v-41d4dd0e]:after{margin-bottom:40px;line-height:6px}.divider[data-v-41d4dd0e]:after{content:\">> 01110101 01110000 01100110 01101111 01110010 01110111 01100101 01100010 <<\";font-weight:700;font-size:6px;letter-spacing:0;margin-top:40px;color:#ccc}.mt-60[data-v-41d4dd0e]{margin-top:-60px}.img-wrapper[data-v-41d4dd0e]{overflow:hidden}.img-wrapper>img[data-v-41d4dd0e]{transition:transform .6s}.img-wrapper>img[data-v-41d4dd0e]:hover{transform:scale(1.1)}.component[data-v-41d4dd0e]{overflow:hidden}.dots[data-v-41d4dd0e]{background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");background-position:0 0;background-repeat:repeat;background-size:auto}.dots1[data-v-41d4dd0e]{height:400px;width:400px}.dots1[data-v-41d4dd0e],.dots2[data-v-41d4dd0e]{position:absolute;z-index:0}.dots2[data-v-41d4dd0e]{bottom:40px;right:-160px;height:250px;width:150px}.blob[data-v-41d4dd0e]{position:absolute;right:-58px;top:-62px;z-index:2;background:#39ac37;border-radius:50%;margin:45px;height:1px;width:1px;box-shadow:0 0 0 0 #009d63;transform:scale(4);-webkit-animation:pulse-data-v-41d4dd0e 2s infinite;animation:pulse-data-v-41d4dd0e 2s infinite}@-webkit-keyframes pulse-data-v-41d4dd0e{0%{transform:scale(.95);box-shadow:0 0 0 0 rgba(0,157,99,.7)}70%{transform:scale(1.05);box-shadow:0 0 0 40px rgba(0,157,99,0)}to{transform:scale(.95);box-shadow:0 0 0 0 rgba(0,157,99,0)}}@keyframes pulse-data-v-41d4dd0e{0%{transform:scale(.95);box-shadow:0 0 0 0 rgba(0,157,99,.7)}70%{transform:scale(1.05);box-shadow:0 0 0 40px rgba(0,157,99,0)}to{transform:scale(.95);box-shadow:0 0 0 0 rgba(0,157,99,0)}}", ""]);
+exports.push([module.i, "h1[data-v-6c1b11e0]{font-weight:700;font-size:2.4em;line-height:1.276em}.typing[data-v-6c1b11e0]{position:relative;display:inline-block;z-index:2}.typing[data-v-6c1b11e0]:before{content:\" \";width:90%;height:5px;background:rgba(0,204,255,.767);position:absolute;left:5px;bottom:5px;transition:.2s ease;z-index:1}.container-wrapper.light[data-v-6c1b11e0]{background-color:rgba(0,161,198,.05);padding:40px 0}.container-wrapper.light .container-standard[data-v-6c1b11e0]{border-left:2px dashed rgba(0,204,255,.089)}.container-wrapper.dark[data-v-6c1b11e0]{background-color:#000;padding:40px 0}.container-wrapper.dark .container-standard[data-v-6c1b11e0]{border-left:2px dashed hsla(0,0%,100%,.13)}.container-wrapper.dark h2[data-v-6c1b11e0],.container-wrapper.dark h3[data-v-6c1b11e0]{color:#fff}.container-wrapper.dark p[data-v-6c1b11e0]{color:hsla(0,0%,100%,.72941)}.grayscale[data-v-6c1b11e0]{filter:opacity(20%) grayscale(100%);max-height:40px;transition:filter .3s ease-in-out}.grayscale[data-v-6c1b11e0]:hover{filter:opacity(100%) grayscale(0)}.divider[data-v-6c1b11e0]{margin-top:20px}.divider[data-v-6c1b11e0],.divider[data-v-6c1b11e0]:after{margin-bottom:40px;line-height:6px}.divider[data-v-6c1b11e0]:after{content:\">> 01110101 01110000 01100110 01101111 01110010 01110111 01100101 01100010 <<\";font-weight:700;font-size:6px;letter-spacing:0;margin-top:40px;color:#ccc}.mt-60[data-v-6c1b11e0]{margin-top:-60px}.img-wrapper[data-v-6c1b11e0]{overflow:hidden}.img-wrapper>img[data-v-6c1b11e0]{transition:transform .6s}.img-wrapper>img[data-v-6c1b11e0]:hover{transform:scale(1.1)}.component[data-v-6c1b11e0]{overflow:hidden}.dots[data-v-6c1b11e0]{background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");background-position:0 0;background-repeat:repeat;background-size:auto}.dots1[data-v-6c1b11e0]{height:400px;width:400px}.dots1[data-v-6c1b11e0],.dots2[data-v-6c1b11e0]{position:absolute;z-index:0}.dots2[data-v-6c1b11e0]{bottom:40px;right:-160px;height:250px;width:150px}.blob[data-v-6c1b11e0]{position:absolute;right:-58px;top:-62px;z-index:2;background:#39ac37;border-radius:50%;margin:45px;height:1px;width:1px;box-shadow:0 0 0 0 #009d63;transform:scale(4);-webkit-animation:pulse-data-v-6c1b11e0 2s infinite;animation:pulse-data-v-6c1b11e0 2s infinite}@-webkit-keyframes pulse-data-v-6c1b11e0{0%{transform:scale(.95);box-shadow:0 0 0 0 rgba(0,157,99,.7)}70%{transform:scale(1.05);box-shadow:0 0 0 40px rgba(0,157,99,0)}to{transform:scale(.95);box-shadow:0 0 0 0 rgba(0,157,99,0)}}@keyframes pulse-data-v-6c1b11e0{0%{transform:scale(.95);box-shadow:0 0 0 0 rgba(0,157,99,.7)}70%{transform:scale(1.05);box-shadow:0 0 0 40px rgba(0,157,99,0)}to{transform:scale(.95);box-shadow:0 0 0 0 rgba(0,157,99,0)}}", ""]);
 // Exports
 module.exports = exports;
 
 
 /***/ }),
-/* 70 */
+/* 72 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -273,13 +285,13 @@ module.exports = function (url, options) {
 };
 
 /***/ }),
-/* 71 */
+/* 73 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTQiIHZpZXdCb3g9IjAgMCAxNCAxNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3QgeD0iNSIgeT0iNSIgd2lkdGg9IjQiIGhlaWdodD0iNCIgcng9IjIiIGZpbGw9IiMzOUFDMzciIGZpbGwtb3BhY2l0eT0iMC4yNCIvPgo8L3N2Zz4K"
 
 /***/ }),
-/* 72 */
+/* 74 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -290,7 +302,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 /***/ }),
-/* 73 */
+/* 75 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -303,7 +315,7 @@ module.exports = exports;
 
 
 /***/ }),
-/* 74 */
+/* 76 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -528,19 +540,42 @@ var Header_component = Object(componentNormalizer["a" /* default */])(
 /* harmony default export */ var Header = __webpack_exports__["a"] = (Header_component.exports);
 
 /***/ }),
-/* 75 */
+/* 77 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/upforweb.com/components/page/home/SKHero.vue?vue&type=template&id=41d4dd0e&scoped=true&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component"},[_vm._ssrNode("<div class=\"container-standard mt60 grid\" data-v-41d4dd0e><div class=\"grid gap-20\" data-v-41d4dd0e><div data-v-41d4dd0e><h2 class=\"h3\" data-v-41d4dd0e>Digitálne agentúry a podniky.</h2> <h1 class=\"maxw300\" data-v-41d4dd0e>Vy navrhujete. My kódujeme.</h1></div> <p class=\"maxw600 text-justify\" data-v-41d4dd0e>\n                Poskytujeme služby na mieru v oblasti analýzy, vývoja, správy a prevádzky webových aplikácii pre digitálne agentúry a podniky. Kódujeme HTML/CSS, VueJS &amp; NuxtJS a PHP webové aplikácie. Našim spokojným partnerom prinášame kvalitné riešenia, vďaka čomu sa nám darí budovať dlhodobé a priateľské vzťahy.\n            </p> <div class=\"mt20\" data-v-41d4dd0e><div data-v-41d4dd0e><a href=\"mailto:ahoj@upforweb.com\" class=\"button black cta\" data-v-41d4dd0e>Spojme sa emailom</a></div></div> <p class=\"small\" data-v-41d4dd0e>ahoj@upforweb.com | +421 907 371 480</p></div></div> <div class=\"container-standard mt60 grid\" data-v-41d4dd0e><div class=\"grid col-2 sm-col-3 lg-col-6 justify-content-start justify-items-center align-items-center gap-60\" data-v-41d4dd0e><img"+(_vm._ssrAttr("src",__webpack_require__(60)))+" alt class=\"grayscale\" data-v-41d4dd0e> <img"+(_vm._ssrAttr("src",__webpack_require__(61)))+" alt class=\"grayscale\" data-v-41d4dd0e> <img"+(_vm._ssrAttr("src",__webpack_require__(62)))+" alt class=\"grayscale\" data-v-41d4dd0e> <img"+(_vm._ssrAttr("src",__webpack_require__(63)))+" alt class=\"grayscale\" data-v-41d4dd0e> <img"+(_vm._ssrAttr("src",__webpack_require__(64)))+" alt class=\"grayscale\" data-v-41d4dd0e> <img"+(_vm._ssrAttr("src",__webpack_require__(65)))+" alt class=\"grayscale\" data-v-41d4dd0e></div></div> <div class=\"container-wrapper light mt60\" data-v-41d4dd0e><div class=\"container-standard grid\" data-v-41d4dd0e><div class=\"grid md-col-2 lg-col-3 justify-content-start align-items-start gap-60\" data-v-41d4dd0e><div class=\"grid gap-20 md-span-2 lg-span-3\" data-v-41d4dd0e><h2 class=\"maxw500\" data-v-41d4dd0e>Nekreslíme dizajn. <br data-v-41d4dd0e>My dizajn <span class=\"typing\" data-v-41d4dd0e>"+_vm._ssrEscape(_vm._s(_vm.typing))+"</span></h2> <p class=\"maxw500\" data-v-41d4dd0e>Máte nakreslený dizajn, ale nemá vám ho kto previesť do funkčného kódu? Dokážeme dizajn prepísať do pixel perfect kódu, ktorý vdýchne vašej webovej stránke alebo aplikácii život.</p></div> <div class=\"grid gap-10\" data-v-41d4dd0e><h3 class=\"maxw300\" data-v-41d4dd0e>Analýzujeme.</h3> <p class=\"small maxw400\" data-v-41d4dd0e>Nápad bez realizácie ostane len nápadom. Pripravíme vám detailnú funkčnú špecifikáciu a interaktívnu informačnú architektúru vašej novej webovej stránky, či aplikácie. Kvalitná príprava šetrí čas i peniaze.</p></div> <div class=\"grid gap-10\" data-v-41d4dd0e><h3 class=\"maxw300\" data-v-41d4dd0e>Nedizajnujeme.</h3> <p class=\"small maxw400\" data-v-41d4dd0e>Návrh a kreslenie dizajnu novej webovej stránky alebo aplikácie prenechávame skúseným dizajnérom v UX/UI štúdiách, s ktorými spolupracujeme. My sme experti na kód :)</p></div> <div class=\"grid gap-10\" data-v-41d4dd0e><h3 class=\"maxw300\" data-v-41d4dd0e>Vývíjame.</h3> <p class=\"small maxw400\" data-v-41d4dd0e>Pri vývoji webových stránok a webových aplikácii používame tie najmodernejšie postupy a technológie. U nás nebudete počuť slovo &quot;Wordpress&quot;. Veríme, že úspech sa skrýva práve v detailoch a kvalitnom kóde, ktorý je šitý na mieru požiadavkám vášho biznisu.</p></div> <div class=\"grid gap-10\" data-v-41d4dd0e><h3 class=\"maxw300\" data-v-41d4dd0e>Prevádzkujeme.</h3> <p class=\"small maxw400\" data-v-41d4dd0e>Prevádzka webovej stránky alebo aplikácie môže byť niekedy výzvou. Preto nenechávame nič na náhodu a aplikácie našich partnerov nasadzujeme na cloudovú infraštruktúru od Amazonu (AWS). Rýchlosť a stabilita kdekoľvek na svete, je zaručená.</p></div> <div class=\"grid gap-10\" data-v-41d4dd0e><h3 class=\"maxw300\" data-v-41d4dd0e>Spravujeme.</h3> <p class=\"small maxw400\" data-v-41d4dd0e>Našim partnerom zabezpečujeme komplexnú správu obsahu webových stránok alebo aplikácií. Venujte sa svojmu biznisu a nie správe obsahu. </p></div></div></div></div> <div class=\"container-wrapper dark\" data-v-41d4dd0e><div class=\"container-standard mt20 mb20 grid gap-20 col-1 justify-content-start justify-items-start\" data-v-41d4dd0e><div data-v-41d4dd0e><h3 data-v-41d4dd0e>Kódovaním to nekončí.</h3> <h2 class=\"h1\" data-v-41d4dd0e>Rozvoj a podpora zameraná na úspech.</h2></div> <p class=\"maxw600 \" data-v-41d4dd0e>Našim cielom je spokojnosť používateľov webových stránok a aplikácií, ktoré sme pomohli vytvoriť. Preto s našimi partnermi ďalej spolupracujeme na ich rozvoji a zároveň poskytujeme dlhodobú podporu zameranú na úspech.</p></div></div> <div class=\"container-standard grid gap-20\" data-v-41d4dd0e><div data-v-41d4dd0e><h3 data-v-41d4dd0e>Toto sme kódovali.</h3> <h2 class=\"h1\" data-v-41d4dd0e>Naše úspešné projekty.</h2></div> <div class=\"grid col-2 gap-60 mt60 align-items-start\" data-v-41d4dd0e><div class=\"grid gap-10\" data-v-41d4dd0e><div class=\"img-wrapper\" data-v-41d4dd0e><img"+(_vm._ssrAttr("src",__webpack_require__(66)))+" alt data-v-41d4dd0e></div> <h3 data-v-41d4dd0e>Túlavé knižky</h3> <p data-v-41d4dd0e>Analýza a návrh, kódovanie frontend (HTML, CSS, VueJS + NuxtJS) + backend API (PHP, MySQL), správa obsahu.</p></div> <div class=\"grid gap-10 mt60\" data-v-41d4dd0e><div class=\"img-wrapper\" data-v-41d4dd0e><img"+(_vm._ssrAttr("src",__webpack_require__(67)))+" alt data-v-41d4dd0e></div> <h3 data-v-41d4dd0e>Ymello</h3> <p data-v-41d4dd0e>Analýza, kódovanie frontend (HTML, CSS, jQuery) + backend (PHP, MySQL), správa infraštruktúry AWS.</p></div></div></div> <div class=\"container-standard grid gap-20\" data-v-41d4dd0e><div data-v-41d4dd0e><a href=\"mailto:ahoj@upforweb.com\" class=\"button black cta\" data-v-41d4dd0e>Spojme sa emailom</a></div> <p class=\"small\" data-v-41d4dd0e>\n            upforweb s. r. o. | Hlavná 46/83 Zavar 919 26 | IČO: 53 086 228 | DIČ: 2121259723\n        </p></div>")])}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/upforweb.com/components/page/home/SKHero.vue?vue&type=template&id=6c1b11e0&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component"},[_vm._ssrNode("<div class=\"container-standard mt60 grid\" data-v-6c1b11e0><div class=\"grid gap-20\" data-v-6c1b11e0><div data-v-6c1b11e0><h2 class=\"h3\" data-v-6c1b11e0>Digitálne agentúry a podniky.</h2> <h1 class=\"maxw300\" data-v-6c1b11e0>Vy navrhujete. My kódujeme.</h1></div> <p class=\"maxw600 text-justify\" data-v-6c1b11e0>\n                Poskytujeme služby na mieru v oblasti analýzy, vývoja, správy a prevádzky webových aplikácii pre digitálne agentúry a podniky. Kódujeme HTML/CSS, VueJS &amp; NuxtJS a PHP webové aplikácie. Našim spokojným partnerom prinášame kvalitné riešenia, vďaka čomu sa nám darí budovať dlhodobé a priateľské vzťahy.\n            </p> <div class=\"mt20\" data-v-6c1b11e0><div data-v-6c1b11e0><a href=\"mailto:ahoj@upforweb.com\" class=\"button black cta\" data-v-6c1b11e0>Spojme sa emailom</a></div></div> <p class=\"small\" data-v-6c1b11e0>ahoj@upforweb.com | +421 907 371 480</p></div></div> <div class=\"container-standard mt60 grid\" data-v-6c1b11e0><div class=\"grid col-2 sm-col-3 lg-col-6 justify-content-start justify-items-center align-items-center gap-60\" data-v-6c1b11e0><img"+(_vm._ssrAttr("src",__webpack_require__(60)))+" alt class=\"grayscale\" data-v-6c1b11e0> <img"+(_vm._ssrAttr("src",__webpack_require__(61)))+" alt class=\"grayscale\" data-v-6c1b11e0> <img"+(_vm._ssrAttr("src",__webpack_require__(62)))+" alt class=\"grayscale\" data-v-6c1b11e0> <img"+(_vm._ssrAttr("src",__webpack_require__(63)))+" alt class=\"grayscale\" data-v-6c1b11e0> <img"+(_vm._ssrAttr("src",__webpack_require__(64)))+" alt class=\"grayscale\" data-v-6c1b11e0> <img"+(_vm._ssrAttr("src",__webpack_require__(65)))+" alt class=\"grayscale\" data-v-6c1b11e0></div></div> <div class=\"container-wrapper light mt60\" data-v-6c1b11e0><div class=\"container-standard grid\" data-v-6c1b11e0><div class=\"grid md-col-2 lg-col-3 justify-content-start align-items-start gap-60\" data-v-6c1b11e0><div class=\"grid gap-20 md-span-2 lg-span-3\" data-v-6c1b11e0><h2 class=\"maxw500\" data-v-6c1b11e0>Nekreslíme dizajn. <br data-v-6c1b11e0>My dizajn <span class=\"typing\" data-v-6c1b11e0>"+_vm._ssrEscape(_vm._s(_vm.typing))+"</span></h2> <p class=\"maxw500\" data-v-6c1b11e0>Máte nakreslený dizajn, ale nemá vám ho kto previesť do funkčného kódu? Dokážeme dizajn prepísať do pixel perfect kódu, ktorý vdýchne vašej webovej stránke alebo aplikácii život.</p></div> <div class=\"grid gap-10\" data-v-6c1b11e0><h3 class=\"maxw300\" data-v-6c1b11e0>Analýzujeme.</h3> <p class=\"small maxw400\" data-v-6c1b11e0>Nápad bez realizácie ostane len nápadom. Pripravíme vám detailnú funkčnú špecifikáciu a interaktívnu informačnú architektúru vašej novej webovej stránky, či aplikácie. Kvalitná príprava šetrí čas i peniaze.</p></div> <div class=\"grid gap-10\" data-v-6c1b11e0><h3 class=\"maxw300\" data-v-6c1b11e0>Nedizajnujeme.</h3> <p class=\"small maxw400\" data-v-6c1b11e0>Návrh a kreslenie dizajnu novej webovej stránky alebo aplikácie prenechávame skúseným dizajnérom v UX/UI štúdiách, s ktorými spolupracujeme. My sme experti na kód :)</p></div> <div class=\"grid gap-10\" data-v-6c1b11e0><h3 class=\"maxw300\" data-v-6c1b11e0>Vývíjame.</h3> <p class=\"small maxw400\" data-v-6c1b11e0>Pri vývoji webových stránok a webových aplikácii používame tie najmodernejšie postupy a technológie. U nás nebudete počuť slovo &quot;Wordpress&quot;. Veríme, že úspech sa skrýva práve v detailoch a kvalitnom kóde, ktorý je šitý na mieru požiadavkám vášho biznisu.</p></div> <div class=\"grid gap-10\" data-v-6c1b11e0><h3 class=\"maxw300\" data-v-6c1b11e0>Prevádzkujeme.</h3> <p class=\"small maxw400\" data-v-6c1b11e0>Prevádzka webovej stránky alebo aplikácie môže byť niekedy výzvou. Preto nenechávame nič na náhodu a aplikácie našich partnerov nasadzujeme na cloudovú infraštruktúru od Amazonu (AWS). Rýchlosť a stabilita kdekoľvek na svete, je zaručená.</p></div> <div class=\"grid gap-10\" data-v-6c1b11e0><h3 class=\"maxw300\" data-v-6c1b11e0>Spravujeme.</h3> <p class=\"small maxw400\" data-v-6c1b11e0>Našim partnerom zabezpečujeme komplexnú správu obsahu webových stránok alebo aplikácií. Venujte sa svojmu biznisu a nie správe obsahu. </p></div></div></div></div> <div class=\"container-wrapper dark\" data-v-6c1b11e0><div class=\"container-standard mt20 mb20 grid gap-20 col-1 justify-content-start justify-items-start\" data-v-6c1b11e0><div data-v-6c1b11e0><h3 data-v-6c1b11e0>Kódovaním to nekončí.</h3> <h2 class=\"h1\" data-v-6c1b11e0>Rozvoj a podpora zameraná na úspech.</h2></div> <p class=\"maxw600 \" data-v-6c1b11e0>Našim cielom je spokojnosť používateľov webových stránok a aplikácií, ktoré sme pomohli vytvoriť. Preto s našimi partnermi ďalej spolupracujeme na ich rozvoji a zároveň poskytujeme dlhodobú podporu zameranú na úspech.</p></div></div> <div class=\"container-standard grid gap-20\" data-v-6c1b11e0><div data-v-6c1b11e0><h3 data-v-6c1b11e0>Toto sme kódovali.</h3> <h2 class=\"h1\" data-v-6c1b11e0>Naše úspešné projekty.</h2></div> <div class=\"grid md-col-2 gap-60 mt60 align-items-start\" data-v-6c1b11e0><div class=\"grid gap-20\" data-v-6c1b11e0><div class=\"img-wrapper\" data-v-6c1b11e0><img"+(_vm._ssrAttr("src",__webpack_require__(66)))+" alt data-v-6c1b11e0></div> <div class=\"grid col-2 auto justify-content-start align-items-center gap-10\" data-v-6c1b11e0><img"+(_vm._ssrAttr("src",__webpack_require__(67)))+" alt class=\"maxh30\" data-v-6c1b11e0> <h3 data-v-6c1b11e0>Túlavé knižky</h3></div> <p class=\"small\" data-v-6c1b11e0>Komplexná analýza a návrh, kódovanie frontend (HTML, CSS, VueJS + NuxtJS) + backend API (PHP, MySQL), správa obsahu.</p> <div class=\"flex wrap\" data-v-6c1b11e0><span class=\"inline-block tag yellow m2\" data-v-6c1b11e0>V príprave</span> <span class=\"inline-block tag gray m2\" data-v-6c1b11e0>Analýza</span> <span class=\"inline-block tag gray m2\" data-v-6c1b11e0>Návrh</span> <span class=\"inline-block tag gray m2\" data-v-6c1b11e0>Frontend</span> <span class=\"inline-block tag gray m2\" data-v-6c1b11e0>Backend</span> <span class=\"inline-block tag gray m2\" data-v-6c1b11e0>Správa obsahu</span> <span class=\"inline-block tag gray m2\" data-v-6c1b11e0>Správa infraštruktúry</span></div></div> <div class=\"grid gap-20 mt60\" data-v-6c1b11e0><div class=\"img-wrapper\" data-v-6c1b11e0><img"+(_vm._ssrAttr("src",__webpack_require__(68)))+" alt data-v-6c1b11e0></div> <div class=\"grid col-2 auto justify-content-start align-items-center gap-10\" data-v-6c1b11e0><img"+(_vm._ssrAttr("src",__webpack_require__(69)))+" alt class=\"maxh30\" data-v-6c1b11e0> <h3 data-v-6c1b11e0>Ymello</h3></div> <p class=\"small\" data-v-6c1b11e0>Analýza, návrh, kódovanie frontend (HTML, CSS, jQuery) + backend (PHP, MySQL), správa infraštruktúry AWS.</p> <div class=\"flex wrap\" data-v-6c1b11e0><span class=\"inline-block tag purple m2\" data-v-6c1b11e0>V produkcií</span> <span class=\"inline-block tag gray m2\" data-v-6c1b11e0>Analýza</span> <span class=\"inline-block tag gray m2\" data-v-6c1b11e0>Návrh</span> <span class=\"inline-block tag gray m2\" data-v-6c1b11e0>Frontend</span> <span class=\"inline-block tag gray m2\" data-v-6c1b11e0>Backend</span> <span class=\"inline-block tag gray m2\" data-v-6c1b11e0>Správa obsahu</span> <span class=\"inline-block tag gray m2\" data-v-6c1b11e0>Správa infraštruktúry</span></div></div></div></div> <div class=\"container-standard grid gap-20\" data-v-6c1b11e0><div data-v-6c1b11e0><a href=\"mailto:ahoj@upforweb.com\" class=\"button black cta\" data-v-6c1b11e0>Spojme sa emailom</a></div> <p class=\"small\" data-v-6c1b11e0>\n            upforweb s. r. o. | Hlavná 46/83 Zavar 919 26 | IČO: 53 086 228 | DIČ: 2121259723\n        </p></div>")])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./apps/upforweb.com/components/page/home/SKHero.vue?vue&type=template&id=41d4dd0e&scoped=true&
+// CONCATENATED MODULE: ./apps/upforweb.com/components/page/home/SKHero.vue?vue&type=template&id=6c1b11e0&scoped=true&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./apps/upforweb.com/components/page/home/SKHero.vue?vue&type=script&lang=js&
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -812,7 +847,7 @@ var componentNormalizer = __webpack_require__(1);
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(68)
+  var style0 = __webpack_require__(70)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -825,7 +860,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   staticRenderFns,
   false,
   injectStyles,
-  "41d4dd0e",
+  "6c1b11e0",
   "56022505"
   
 )
@@ -833,7 +868,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 /* harmony default export */ var SKHero = __webpack_exports__["a"] = (component.exports);
 
 /***/ }),
-/* 76 */
+/* 78 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -853,7 +888,7 @@ var componentNormalizer = __webpack_require__(1);
 var script = {}
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(72)
+  var style0 = __webpack_require__(74)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -874,8 +909,8 @@ var component = Object(componentNormalizer["a" /* default */])(
 /* harmony default export */ var Footer = __webpack_exports__["a"] = (component.exports);
 
 /***/ }),
-/* 77 */,
-/* 78 */
+/* 79 */,
+/* 80 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -890,13 +925,13 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./apps/upforweb.com/pages/index.vue?vue&type=template&id=2016b5b0&
 
 // EXTERNAL MODULE: ./apps/upforweb.com/components/page/_common/Header.vue + 14 modules
-var Header = __webpack_require__(74);
+var Header = __webpack_require__(76);
 
 // EXTERNAL MODULE: ./apps/upforweb.com/components/page/home/SKHero.vue + 4 modules
-var SKHero = __webpack_require__(75);
+var SKHero = __webpack_require__(77);
 
 // EXTERNAL MODULE: ./apps/upforweb.com/components/page/_common/Footer.vue + 2 modules
-var Footer = __webpack_require__(76);
+var Footer = __webpack_require__(78);
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./apps/upforweb.com/pages/index.vue?vue&type=script&lang=js&
 //

@@ -277,6 +277,7 @@
 .h500 {height: 500px;}
 /*min-height*/
 .minh30 {min-height: 30px;}
+.minh40 {min-height: 40px;}
 .minh50 {min-height: 50px;}
 .minh60 {min-height: 60px;}
 .minh75 {min-height: 75px;}
@@ -289,6 +290,7 @@
 .minh500 {min-height: 500px;}
 /*max-height*/
 .maxh30 {max-height: 30px;}
+.maxh40 {max-height: 40px;}
 .maxh50 {max-height: 50px;}
 .maxh60 {max-height: 60px;}
 .maxh75 {max-height: 75px;}
