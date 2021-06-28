@@ -1867,9 +1867,9 @@ if (false) {}
 
 
 
-const _80d71018 = () => interopDefault(__webpack_require__.e(/* import() | pages/sk/index */ 2).then(__webpack_require__.bind(null, 75)));
+const _80d71018 = () => interopDefault(__webpack_require__.e(/* import() | pages/sk/index */ 2).then(__webpack_require__.bind(null, 77)));
 
-const _0f6bec68 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 1).then(__webpack_require__.bind(null, 76))); // TODO: remove in Nuxt 3
+const _0f6bec68 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 1).then(__webpack_require__.bind(null, 78))); // TODO: remove in Nuxt 3
 
 
 const emptyFn = () => {};

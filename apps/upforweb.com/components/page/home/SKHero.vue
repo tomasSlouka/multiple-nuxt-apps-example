@@ -100,6 +100,43 @@
         </div>
 
         <div class="container-standard grid gap-20">
+             <div>
+                <h3 class=''>Toto sme kódovali.</h3>
+                <h2 class='h1'>Naše úspešné projekty.</h2>
+            </div>
+            
+            <div class='grid col-2 gap-60 mt60 align-items-start'>
+                <div class='grid gap-10'>
+                    <div class='img-wrapper'>
+                        <img src="@/assets/img/tulaveknizky_projekt.png" alt="" class='' />
+                    </div>
+                    <h3>Túlavé knižky</h3>
+                    <p class=''>Analýza a návrh, kódovanie frontend (HTML, CSS, VueJS + NuxtJS) + backend API (PHP, MySQL), správa obsahu.</p>
+                </div>
+                <div class='grid gap-10 mt60'>
+                    <div class='img-wrapper'>
+                        <img src="@/assets/img/ymello_project.png" alt="" class='' />
+                    </div>
+                    <h3>Ymello</h3>
+                    <p class=''>Analýza, kódovanie frontend (HTML, CSS, jQuery) + backend (PHP, MySQL), správa infraštruktúry AWS.</p>
+                </div>
+                <!-- <div class='grid gap-10 mt-60'>
+                    <div class='img-wrapper'>
+                        <img src="@/assets/img/famouscss_project.png" alt="" class='' />
+                    </div>
+                    <h3>FamousCSS</h3>
+                    <p>Vytvorili sme jednoduchy CSS framework, ktorý používame vo väčšine projektov, na ktorých pracujeme a je prístupny pre všetkých ako opensource projekt.</p>
+                </div> -->
+                <!-- <div class='grid gap-10 mt60'>
+                    <div class='img-wrapper'>
+                        <img src="@/assets/img/tulaveknizky_projekt.png" alt="" class='' />
+                    </div>
+                    <h3>Kira.sk (web)</h3>
+                </div> -->
+            </div>
+        </div>
+
+        <div class="container-standard grid gap-20">
             <div>
                 <a href='mailto:ahoj@upforweb.com' class='button black cta'>Spojme sa emailom</a>
             </div>
@@ -271,6 +308,19 @@ h1 {
     color: #ccc;
 }
 
+.mt-60 {
+    margin-top: -60px;
+}
+.img-wrapper {
+    overflow: hidden;
+}
+
+.img-wrapper > img {
+    transition: transform .6s;
+}
+.img-wrapper > img:hover {
+    transform: scale(1.1);
+}
 .component {
     overflow: hidden;
 }
