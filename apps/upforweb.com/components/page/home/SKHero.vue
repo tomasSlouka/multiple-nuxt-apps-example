@@ -5,11 +5,11 @@
             <div class='grid gap-20'>
                 <!-- <h1 class='maxw500'>Do you subscribe to too many newsletters?</h1> -->
                 <div>
-                    <h2 class='h3'>Digitálne agentúry a podniky.</h2>
+                    <h2 class='h3'>Digitálne agentúry a podnikatelia.</h2>
                     <h1 class='maxw300'>Vy navrhujete. My kódujeme.</h1>
                 </div>
-                <p class="maxw600 text-justify">
-                    Poskytujeme služby na mieru v oblasti analýzy, vývoja, správy a prevádzky webových aplikácii pre digitálne agentúry a podniky. Kódujeme HTML/CSS, VueJS & NuxtJS a PHP webové aplikácie. Našim spokojným partnerom prinášame kvalitné riešenia, vďaka čomu sa nám darí budovať dlhodobé a priateľské vzťahy.
+                <p class="maxw600 ">
+                    Poskytujeme služby na mieru v oblasti analýzy, vývoja, správy a prevádzky webových služieb pre digitálne agentúry a podnikateľov. Kódujeme moderné a rýchle webové stránky, eshopy a interné webové systémy. Našim spokojným partnerom prinášame kvalitné riešenia, vďaka čomu sa nám darí budovať dlhodobé a priateľské vzťahy.
                 </p>
                 <!-- <p class="maxw600">
                     
@@ -51,8 +51,8 @@
                     
 
                     <div class='grid gap-20 md-span-2 lg-span-3'>
-                        <h2 class='maxw500'>Nekreslíme dizajn. <br>My dizajn <span class='typing'>{{typing}}</span></h2>
-                        <p class='maxw500'>Máte nakreslený dizajn, ale nemá vám ho kto previesť do funkčného kódu? Dokážeme dizajn prepísať do pixel perfect kódu, ktorý vdýchne vašej webovej stránke alebo aplikácii život.</p>
+                        <h2 class='maxw500'>Nekreslíme weby. <br>My weby <span class='typing'>{{typing}}</span></h2>
+                        <p class='maxw500'>Máte nakreslený webový dizajn, ale nemá vám ho kto previesť do funkčného kódu? Dokážeme dizajn prepísať do pixel perfect kódu, ktorý vdýchne vašej webovej stránke alebo aplikácii život.</p>
                     </div>
 
                     <div class='grid gap-10'>
