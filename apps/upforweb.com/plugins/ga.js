@@ -15,9 +15,10 @@ export default ({ app }) => {
     /*
     ** Set the current page
     */
-    if(window.location.hostname === "manyletter.com") {ga('create', 'UA-164184972-1', 'auto')}
-    else if(window.location.hostname === "upfordomain.com") {ga('create', 'UA-164184972-2', 'auto')}
-    else { return }
+    // if(window.location.hostname === "manyletter.com") {ga('create', 'UA-164184972-1', 'auto')}
+    // else if(window.location.hostname === "upfordomain.com") {ga('create', 'UA-164184972-2', 'auto')}
+    // else { return }
+    ga('create', 'G-J6KTSB72ZS', 'auto')
     /*
     ** Every time the route changes (fired on initialization too)
     */
