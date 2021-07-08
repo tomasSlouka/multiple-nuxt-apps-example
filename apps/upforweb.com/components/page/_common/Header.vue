@@ -2,7 +2,7 @@
     <div id='header'>
         <div class='container'>
             <Topbar @sidenavtoggle="displaySidebar = !displaySidebar"/>
-            <Sidebar :show="displaySidebar" @close="displaySidebar = false"/>
+            <!-- <Sidebar :show="displaySidebar" @close="displaySidebar = false"/> -->
         </div>
     </div>
 </template>

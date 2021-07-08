@@ -1,6 +1,6 @@
 <template>
     <div id='layout_default_page'>
-        <div id='used-layout'> Layout - upfordomain </div>
+        <div id='used-layout'> Layout - default_page </div>
         <nuxt />
     </div>
 </template>

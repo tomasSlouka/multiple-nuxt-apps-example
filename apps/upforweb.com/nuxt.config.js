@@ -91,7 +91,7 @@ export default {
 	*/
 	plugins: [
 		{ src: '~/plugins/axios.js' },
-		{ src: '~/plugins/ga.js', ssr: false, defer: true },
+		{ src: '~/plugins/gtag.js', ssr: false, defer: true },
 	],
 	/*
 	** Auto import components

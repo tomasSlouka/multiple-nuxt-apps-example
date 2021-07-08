@@ -2,7 +2,7 @@
     <div id='layout_default_clean'>
         <div id='used-layout'> Layout - default_page_clean </div>
         <nuxt />
-        <Footer />
+        <!-- <Footer /> -->
     </div>
 </template>
 

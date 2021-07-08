@@ -3,7 +3,7 @@
         <div class='container grid justify-items-center'>
             <div class='logo'>
                 <nuxt-link to="/">
-                    Manyletter
+                    Upforweb
                 </nuxt-link>
             </div>
         </div>
