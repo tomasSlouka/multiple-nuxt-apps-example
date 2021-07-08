@@ -18,11 +18,11 @@ __webpack_require__.r(__webpack_exports__);
 
 // Imports
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(2);
-exports = ___CSS_LOADER_API_IMPORT___(false);
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".component[data-v-5960b3cc]{background-color:#fff;box-shadow:0 .125rem .125rem rgba(0,0,0,.1);border-top:1px solid #eee;position:relative}.container-standard[data-v-5960b3cc]{margin-top:0;margin-bottom:0;padding:0 20px;height:100%}.container-standard>div.flex[data-v-5960b3cc]{height:100%}.nav>ul[data-v-5960b3cc]{list-style:none;margin:0;padding:0}.nav>ul>li>a[data-v-5960b3cc]{padding:10px 16px;border-bottom:1px solid transparent;position:relative;top:0;transition:.2s;display:inline-block;color:#000}.nav>ul>li>a[data-v-5960b3cc]:hover{color:#000;text-decoration:none;position:relative;top:2px}.nav>ul>li>a.nuxt-link-active[data-v-5960b3cc],.nav>ul>li>a.nuxt-link-exact-active[data-v-5960b3cc]{color:#000;text-decoration:none;font-weight:600}.nav>ul>li>a[data-v-5960b3cc]{color:rgba(0,0,0,.72157);line-height:24px;text-decoration:none}", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, ".component[data-v-5960b3cc]{background-color:#fff;box-shadow:0 .125rem .125rem rgba(0,0,0,.1);border-top:1px solid #eee;position:relative}.container-standard[data-v-5960b3cc]{margin-top:0;margin-bottom:0;padding:0 20px;height:100%}.container-standard>div.flex[data-v-5960b3cc]{height:100%}.nav>ul[data-v-5960b3cc]{list-style:none;margin:0;padding:0}.nav>ul>li>a[data-v-5960b3cc]{padding:10px 16px;border-bottom:1px solid transparent;position:relative;top:0;transition:.2s;display:inline-block;color:#000}.nav>ul>li>a[data-v-5960b3cc]:hover{color:#000;text-decoration:none;position:relative;top:2px}.nav>ul>li>a.nuxt-link-active[data-v-5960b3cc],.nav>ul>li>a.nuxt-link-exact-active[data-v-5960b3cc]{color:#000;text-decoration:none;font-weight:600}.nav>ul>li>a[data-v-5960b3cc]{color:rgba(0,0,0,.72157);line-height:24px;text-decoration:none}", ""]);
 // Exports
-module.exports = exports;
+module.exports = ___CSS_LOADER_EXPORT___;
 
 
 /***/ }),
@@ -180,6 +180,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 // load the styles
 var content = __webpack_require__(126);
+if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
@@ -207,11 +208,11 @@ __webpack_require__.r(__webpack_exports__);
 
 // Imports
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(2);
-exports = ___CSS_LOADER_API_IMPORT___(false);
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".box[data-v-cc21330a]{border-bottom:6px solid #eee}.box[data-v-cc21330a],.box-2[data-v-cc21330a]{background-color:#f7f7f7;padding:40px;border-radius:4px}.box-2[data-v-cc21330a]{border-bottom:6px solid rgba(255,212,1,.32157)}.delivery-img[data-v-cc21330a]{height:25px;border-radius:0}", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, ".box[data-v-cc21330a]{border-bottom:6px solid #eee}.box[data-v-cc21330a],.box-2[data-v-cc21330a]{background-color:#f7f7f7;padding:40px;border-radius:4px}.box-2[data-v-cc21330a]{border-bottom:6px solid rgba(255,212,1,.32157)}.delivery-img[data-v-cc21330a]{height:25px;border-radius:0}", ""]);
 // Exports
-module.exports = exports;
+module.exports = ___CSS_LOADER_EXPORT___;
 
 
 /***/ }),
@@ -296,6 +297,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 // load the styles
 var content = __webpack_require__(138);
+if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
@@ -323,11 +325,11 @@ __webpack_require__.r(__webpack_exports__);
 
 // Imports
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(2);
-exports = ___CSS_LOADER_API_IMPORT___(false);
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".box[data-v-14afd609]{border-bottom:6px solid #eee}.box[data-v-14afd609],.box-2[data-v-14afd609]{background-color:#f7f7f7;padding:40px;border-radius:4px}.box-2[data-v-14afd609]{border-bottom:6px solid rgba(255,212,1,.32157)}", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, ".box[data-v-14afd609]{border-bottom:6px solid #eee}.box[data-v-14afd609],.box-2[data-v-14afd609]{background-color:#f7f7f7;padding:40px;border-radius:4px}.box-2[data-v-14afd609]{border-bottom:6px solid rgba(255,212,1,.32157)}", ""]);
 // Exports
-module.exports = exports;
+module.exports = ___CSS_LOADER_EXPORT___;
 
 
 /***/ }),
@@ -608,6 +610,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 // load the styles
 var content = __webpack_require__(99);
+if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
@@ -625,6 +628,7 @@ module.exports.__inject__ = function (context) {
 
 // load the styles
 var content = __webpack_require__(101);
+if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
@@ -652,11 +656,11 @@ __webpack_require__.r(__webpack_exports__);
 
 // Imports
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(2);
-exports = ___CSS_LOADER_API_IMPORT___(false);
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".component[data-v-e51d787c]{padding:1px;background-color:rgba(255,212,1,.25098);border-bottom:10px solid #ffd401}", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, ".component[data-v-e51d787c]{padding:1px;background-color:rgba(255,212,1,.25098);border-bottom:10px solid #ffd401}", ""]);
 // Exports
-module.exports = exports;
+module.exports = ___CSS_LOADER_EXPORT___;
 
 
 /***/ })

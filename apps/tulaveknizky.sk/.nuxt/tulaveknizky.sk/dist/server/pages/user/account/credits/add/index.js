@@ -18,11 +18,11 @@ __webpack_require__.r(__webpack_exports__);
 
 // Imports
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(2);
-exports = ___CSS_LOADER_API_IMPORT___(false);
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".component[data-v-56dfa576]{padding:1px;background-color:rgba(255,212,1,.25098);border-bottom:10px solid #ffd401}", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, ".component[data-v-56dfa576]{padding:1px;background-color:rgba(255,212,1,.25098);border-bottom:10px solid #ffd401}", ""]);
 // Exports
-module.exports = exports;
+module.exports = ___CSS_LOADER_EXPORT___;
 
 
 /***/ }),
@@ -44,11 +44,11 @@ __webpack_require__.r(__webpack_exports__);
 
 // Imports
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(2);
-exports = ___CSS_LOADER_API_IMPORT___(false);
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".component[data-v-3a7b95ec]{background-color:#fff;box-shadow:0 .125rem .125rem rgba(0,0,0,.1);border-top:1px solid #eee;position:relative}.container-standard[data-v-3a7b95ec]{margin-top:0;margin-bottom:0;padding:0 20px;height:100%}.container-standard>div.flex[data-v-3a7b95ec]{height:100%}.nav>ul[data-v-3a7b95ec]{list-style:none;margin:0;padding:0}.nav>ul>li>a[data-v-3a7b95ec]{padding:10px 16px;border-bottom:1px solid transparent;position:relative;top:0;transition:.2s;display:inline-block;color:#000}.nav>ul>li>a[data-v-3a7b95ec]:hover{color:#000;text-decoration:none;position:relative;top:2px}.nav>ul>li>a.nuxt-link-active[data-v-3a7b95ec],.nav>ul>li>a.nuxt-link-exact-active[data-v-3a7b95ec]{color:#000;text-decoration:none;font-weight:600}.nav>ul>li>a[data-v-3a7b95ec]{color:rgba(0,0,0,.72157);line-height:24px;text-decoration:none}", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, ".component[data-v-3a7b95ec]{background-color:#fff;box-shadow:0 .125rem .125rem rgba(0,0,0,.1);border-top:1px solid #eee;position:relative}.container-standard[data-v-3a7b95ec]{margin-top:0;margin-bottom:0;padding:0 20px;height:100%}.container-standard>div.flex[data-v-3a7b95ec]{height:100%}.nav>ul[data-v-3a7b95ec]{list-style:none;margin:0;padding:0}.nav>ul>li>a[data-v-3a7b95ec]{padding:10px 16px;border-bottom:1px solid transparent;position:relative;top:0;transition:.2s;display:inline-block;color:#000}.nav>ul>li>a[data-v-3a7b95ec]:hover{color:#000;text-decoration:none;position:relative;top:2px}.nav>ul>li>a.nuxt-link-active[data-v-3a7b95ec],.nav>ul>li>a.nuxt-link-exact-active[data-v-3a7b95ec]{color:#000;text-decoration:none;font-weight:600}.nav>ul>li>a[data-v-3a7b95ec]{color:rgba(0,0,0,.72157);line-height:24px;text-decoration:none}", ""]);
 // Exports
-module.exports = exports;
+module.exports = ___CSS_LOADER_EXPORT___;
 
 
 /***/ }),
@@ -200,7 +200,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 /***/ 122:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/icon-money.a8e5e41.svg";
+module.exports = __webpack_require__.p + "img/icon-money.13a62f1.svg";
 
 /***/ }),
 
@@ -211,6 +211,7 @@ module.exports = __webpack_require__.p + "img/icon-money.a8e5e41.svg";
 
 // load the styles
 var content = __webpack_require__(212);
+if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
@@ -238,11 +239,11 @@ __webpack_require__.r(__webpack_exports__);
 
 // Imports
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(2);
-exports = ___CSS_LOADER_API_IMPORT___(false);
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".box[data-v-52253b78]{border-bottom:6px solid #eee}.box[data-v-52253b78],.box-2[data-v-52253b78]{background-color:#f7f7f7;padding:40px;border-radius:4px}.box-2[data-v-52253b78]{border-bottom:6px solid rgba(255,212,1,.32157)}.icon-money[data-v-52253b78]{height:10px;border-radius:0}.showmore[data-v-52253b78]:hover{background-color:#eee}", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, ".box[data-v-52253b78]{border-bottom:6px solid #eee}.box[data-v-52253b78],.box-2[data-v-52253b78]{background-color:#f7f7f7;padding:40px;border-radius:4px}.box-2[data-v-52253b78]{border-bottom:6px solid rgba(255,212,1,.32157)}.icon-money[data-v-52253b78]{height:10px;border-radius:0}.showmore[data-v-52253b78]:hover{background-color:#eee}", ""]);
 // Exports
-module.exports = exports;
+module.exports = ___CSS_LOADER_EXPORT___;
 
 
 /***/ }),
@@ -493,6 +494,7 @@ var add_component = Object(componentNormalizer["a" /* default */])(
 
 // load the styles
 var content = __webpack_require__(110);
+if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
@@ -510,6 +512,7 @@ module.exports.__inject__ = function (context) {
 
 // load the styles
 var content = __webpack_require__(112);
+if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context

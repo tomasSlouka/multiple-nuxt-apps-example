@@ -18,11 +18,11 @@ __webpack_require__.r(__webpack_exports__);
 
 // Imports
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(2);
-exports = ___CSS_LOADER_API_IMPORT___(false);
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".component[data-v-14ba3ee4]{background-color:#fff;box-shadow:0 .125rem .125rem rgba(0,0,0,.1);border-top:1px solid #eee;position:relative}.container-standard[data-v-14ba3ee4]{margin-top:0;margin-bottom:0;padding:0 20px;height:100%}.container-standard>div.flex[data-v-14ba3ee4]{height:100%}.nav>ul[data-v-14ba3ee4]{list-style:none;margin:0;padding:0}.nav>ul>li>a[data-v-14ba3ee4]{padding:10px 16px;border-bottom:1px solid transparent;position:relative;top:0;transition:.2s;display:inline-block;color:#000}.nav>ul>li>a[data-v-14ba3ee4]:hover{color:#000;text-decoration:none;position:relative;top:2px}.nav>ul>li>a.nuxt-link-active[data-v-14ba3ee4],.nav>ul>li>a.nuxt-link-exact-active[data-v-14ba3ee4]{color:#000;text-decoration:none;font-weight:600}.nav>ul>li>a[data-v-14ba3ee4]{color:rgba(0,0,0,.72157);line-height:24px;text-decoration:none}", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, ".component[data-v-14ba3ee4]{background-color:#fff;box-shadow:0 .125rem .125rem rgba(0,0,0,.1);border-top:1px solid #eee;position:relative}.container-standard[data-v-14ba3ee4]{margin-top:0;margin-bottom:0;padding:0 20px;height:100%}.container-standard>div.flex[data-v-14ba3ee4]{height:100%}.nav>ul[data-v-14ba3ee4]{list-style:none;margin:0;padding:0}.nav>ul>li>a[data-v-14ba3ee4]{padding:10px 16px;border-bottom:1px solid transparent;position:relative;top:0;transition:.2s;display:inline-block;color:#000}.nav>ul>li>a[data-v-14ba3ee4]:hover{color:#000;text-decoration:none;position:relative;top:2px}.nav>ul>li>a.nuxt-link-active[data-v-14ba3ee4],.nav>ul>li>a.nuxt-link-exact-active[data-v-14ba3ee4]{color:#000;text-decoration:none;font-weight:600}.nav>ul>li>a[data-v-14ba3ee4]{color:rgba(0,0,0,.72157);line-height:24px;text-decoration:none}", ""]);
 // Exports
-module.exports = exports;
+module.exports = ___CSS_LOADER_EXPORT___;
 
 
 /***/ }),
@@ -132,11 +132,11 @@ __webpack_require__.r(__webpack_exports__);
 
 // Imports
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(2);
-exports = ___CSS_LOADER_API_IMPORT___(false);
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".component[data-v-c8edec22]{padding:1px;background-color:rgba(255,212,1,.25098);border-bottom:10px solid #ffd401}", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, ".component[data-v-c8edec22]{padding:1px;background-color:rgba(255,212,1,.25098);border-bottom:10px solid #ffd401}", ""]);
 // Exports
-module.exports = exports;
+module.exports = ___CSS_LOADER_EXPORT___;
 
 
 /***/ }),
@@ -222,11 +222,11 @@ __webpack_require__.r(__webpack_exports__);
 
 // Imports
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(2);
-exports = ___CSS_LOADER_API_IMPORT___(false);
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".component[data-v-2564596a]{padding:1px;background-color:#fbf7ed}input[data-v-2564596a]{background-color:#fff}form[data-v-2564596a]{width:100%;max-width:420px}", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, ".component[data-v-2564596a]{padding:1px;background-color:#fbf7ed}input[data-v-2564596a]{background-color:#fff}form[data-v-2564596a]{width:100%;max-width:420px}", ""]);
 // Exports
-module.exports = exports;
+module.exports = ___CSS_LOADER_EXPORT___;
 
 
 /***/ }),
@@ -303,6 +303,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 // load the styles
 var content = __webpack_require__(182);
+if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
@@ -320,6 +321,7 @@ module.exports.__inject__ = function (context) {
 
 // load the styles
 var content = __webpack_require__(184);
+if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
@@ -347,11 +349,11 @@ __webpack_require__.r(__webpack_exports__);
 
 // Imports
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(2);
-exports = ___CSS_LOADER_API_IMPORT___(false);
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".container-standard[data-v-01e16662]{padding:10px}.number[data-v-01e16662]{font-size:2em;color:#000;height:70px;width:70px;font-weight:700;border-radius:100px;background-color:#ffd401}", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, ".container-standard[data-v-01e16662]{padding:10px}.number[data-v-01e16662]{font-size:2em;color:#000;height:70px;width:70px;font-weight:700;border-radius:100px;background-color:#ffd401}", ""]);
 // Exports
-module.exports = exports;
+module.exports = ___CSS_LOADER_EXPORT___;
 
 
 /***/ }),
@@ -373,11 +375,11 @@ __webpack_require__.r(__webpack_exports__);
 
 // Imports
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(2);
-exports = ___CSS_LOADER_API_IMPORT___(false);
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".container-standard[data-v-306a2ff1]{padding:10px}.number[data-v-306a2ff1]{font-size:2em;color:#000;height:70px;width:70px;font-weight:700;border-radius:100px;background-color:#ffd401}", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, ".container-standard[data-v-306a2ff1]{padding:10px}.number[data-v-306a2ff1]{font-size:2em;color:#000;height:70px;width:70px;font-weight:700;border-radius:100px;background-color:#ffd401}", ""]);
 // Exports
-module.exports = exports;
+module.exports = ___CSS_LOADER_EXPORT___;
 
 
 /***/ }),
@@ -742,6 +744,7 @@ var ako_to_funguje_component = Object(componentNormalizer["a" /* default */])(
 
 // load the styles
 var content = __webpack_require__(105);
+if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
@@ -759,6 +762,7 @@ module.exports.__inject__ = function (context) {
 
 // load the styles
 var content = __webpack_require__(108);
+if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
@@ -776,6 +780,7 @@ module.exports.__inject__ = function (context) {
 
 // load the styles
 var content = __webpack_require__(117);
+if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context

@@ -8,6 +8,7 @@ exports.modules = {
 
 // load the styles
 var content = __webpack_require__(174);
+if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
@@ -35,11 +36,11 @@ __webpack_require__.r(__webpack_exports__);
 
 // Imports
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(2);
-exports = ___CSS_LOADER_API_IMPORT___(false);
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".container[data-v-0acbe120]{min-height:100vh;display:flex;justify-content:center;align-items:center;text-align:center}.links[data-v-0acbe120]{padding-top:36px;padding-bottom:24px}", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, ".container[data-v-0acbe120]{min-height:100vh;display:flex;justify-content:center;align-items:center;text-align:center}.links[data-v-0acbe120]{padding-top:36px;padding-bottom:24px}", ""]);
 // Exports
-module.exports = exports;
+module.exports = ___CSS_LOADER_EXPORT___;
 
 
 /***/ }),
