@@ -17,7 +17,7 @@ import nuxt_plugin_vuescrollto_16cdf8f4 from 'nuxt_plugin_vuescrollto_16cdf8f4' 
 import nuxt_plugin_cookieuniversalnuxt_2b29c51d from 'nuxt_plugin_cookieuniversalnuxt_2b29c51d' // Source: .\\cookie-universal-nuxt.js (mode: 'all')
 import nuxt_plugin_axios_a068a116 from 'nuxt_plugin_axios_a068a116' // Source: .\\axios.js (mode: 'all')
 import nuxt_plugin_axios_5659d192 from 'nuxt_plugin_axios_5659d192' // Source: ..\\..\\plugins\\axios.js (mode: 'all')
-import nuxt_plugin_ga_34d435b2 from 'nuxt_plugin_ga_34d435b2' // Source: ..\\..\\plugins\\ga.js (mode: 'client')
+import nuxt_plugin_gtag_0a2cb1e4 from 'nuxt_plugin_gtag_0a2cb1e4' // Source: ..\\..\\plugins\\gtag.js (mode: 'client')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -230,8 +230,8 @@ async function createApp(ssrContext, config = {}) {
     await nuxt_plugin_axios_5659d192(app.context, inject)
   }
 
-  if (process.client && typeof nuxt_plugin_ga_34d435b2 === 'function') {
-    await nuxt_plugin_ga_34d435b2(app.context, inject)
+  if (process.client && typeof nuxt_plugin_gtag_0a2cb1e4 === 'function') {
+    await nuxt_plugin_gtag_0a2cb1e4(app.context, inject)
   }
 
   // Lock enablePreview in context

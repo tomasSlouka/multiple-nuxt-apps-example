@@ -5401,7 +5401,7 @@ const setupProgress = axios => {
 
  // Source: ..\\..\\plugins\\axios.js (mode: 'all')
 
- // Source: ..\\..\\plugins\\ga.js (mode: 'client')
+ // Source: ..\\..\\plugins\\gtag.js (mode: 'client')
 // Component: <ClientOnly>
 
 external_vue_default.a.component(external_vue_client_only_default.a.name, external_vue_client_only_default.a); // TODO: Remove in Nuxt 3: <NoSsr>
