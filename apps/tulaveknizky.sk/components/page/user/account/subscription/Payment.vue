@@ -94,7 +94,7 @@
                         <h2 id='plans'>Plány predplatného</h2>
                         <p>Vyber si plán predplatného, ktorý ti najviac vyhovuje.</p>
                     </div>
-                    <div class='grid col-3 gap-20 justify-content-start auto'>
+                    <div class='grid md-col-3 gap-20 justify-content-start auto'>
                         <div class='box-form grid gap-10'>
                             <div class='grid gap-20 align-content-start'>
                                 <h3>Zvedavec</h3>

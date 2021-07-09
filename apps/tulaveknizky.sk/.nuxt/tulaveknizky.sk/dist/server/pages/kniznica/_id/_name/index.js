@@ -351,12 +351,12 @@ module.exports = ___CSS_LOADER_EXPORT___;
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/pages/kniznica/_id/_name/index.vue?vue&type=template&id=3a13451c&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"page"},[_c('SubNav'),_vm._ssrNode(" "),_c('Hero',{attrs:{"h1":"Knižnica","h2":"Detail knižky"}}),_vm._ssrNode(" "),_c('Detail',{attrs:{"dataDetail":_vm.dataDetail}}),_vm._ssrNode(" "),_c('Simmilar'),_vm._ssrNode(" "),_c('Comments')],2)}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/pages/kniznica/_id/_name/index.vue?vue&type=template&id=3f163187&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"page"},[_c('SubNav'),_vm._ssrNode(" "),_c('Hero',{attrs:{"h1":"Knižnica","h2":"Detail knižky"}}),_vm._ssrNode(" "),_c('Detail',{attrs:{"dataDetail":_vm.dataDetail}})],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./apps/tulaveknizky.sk/pages/kniznica/_id/_name/index.vue?vue&type=template&id=3a13451c&
+// CONCATENATED MODULE: ./apps/tulaveknizky.sk/pages/kniznica/_id/_name/index.vue?vue&type=template&id=3f163187&
 
 // EXTERNAL MODULE: ./apps/tulaveknizky.sk/components/page/_common/Hero.vue + 4 modules
 var Hero = __webpack_require__(113);

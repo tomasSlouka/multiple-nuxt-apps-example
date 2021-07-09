@@ -217,7 +217,7 @@ if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
 var add = __webpack_require__(3).default
 module.exports.__inject__ = function (context) {
-  add("160a04a0", content, true, context)
+  add("7df8ff52", content, true, context)
 };
 
 /***/ }),
@@ -227,9 +227,9 @@ module.exports.__inject__ = function (context) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_AddCredit_vue_vue_type_style_index_0_id_52253b78_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(161);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_AddCredit_vue_vue_type_style_index_0_id_52253b78_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_AddCredit_vue_vue_type_style_index_0_id_52253b78_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_AddCredit_vue_vue_type_style_index_0_id_52253b78_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_AddCredit_vue_vue_type_style_index_0_id_52253b78_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_AddCredit_vue_vue_type_style_index_0_id_14f97157_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(161);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_AddCredit_vue_vue_type_style_index_0_id_14f97157_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_AddCredit_vue_vue_type_style_index_0_id_14f97157_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_AddCredit_vue_vue_type_style_index_0_id_14f97157_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_vue_loader_lib_index_js_vue_loader_options_AddCredit_vue_vue_type_style_index_0_id_14f97157_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
@@ -241,7 +241,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(2);
 var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, ".box[data-v-52253b78]{border-bottom:6px solid #eee}.box[data-v-52253b78],.box-2[data-v-52253b78]{background-color:#f7f7f7;padding:40px;border-radius:4px}.box-2[data-v-52253b78]{border-bottom:6px solid rgba(255,212,1,.32157)}.icon-money[data-v-52253b78]{height:10px;border-radius:0}.showmore[data-v-52253b78]:hover{background-color:#eee}", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, ".box[data-v-14f97157]{border-bottom:6px solid #eee}.box[data-v-14f97157],.box-2[data-v-14f97157]{background-color:#f7f7f7;padding:40px;border-radius:4px}.box-2[data-v-14f97157]{border-bottom:6px solid rgba(255,212,1,.32157)}.box-3[data-v-14f97157]{padding:5px}.icon-money[data-v-14f97157]{height:10px;border-radius:0}.showmore[data-v-14f97157]:hover{background-color:#eee}", ""]);
 // Exports
 module.exports = ___CSS_LOADER_EXPORT___;
 
@@ -268,12 +268,12 @@ var Hero = __webpack_require__(114);
 // EXTERNAL MODULE: ./apps/tulaveknizky.sk/components/page/user/account/_common/SubNav.vue + 4 modules
 var SubNav = __webpack_require__(115);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/page/user/account/credits/AddCredit.vue?vue&type=template&id=52253b78&scoped=true&
-var AddCreditvue_type_template_id_52253b78_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component"},[_vm._ssrNode("<div class=\"container-standard grid\" data-v-52253b78><div class=\"grid gap-20\" data-v-52253b78><div class=\"grid gap-10\" data-v-52253b78><h2 id=\"pay-for-credit\" data-v-52253b78>Dobi si nekonečné kredity</h2> <p data-v-52253b78>Vyber si hodnotu kreditu, ktorú chceš dobiť.</p></div> <div class=\"grid col-4 gap-20\" data-v-52253b78><div class=\"box-form grid\" data-v-52253b78><button class=\"button cta black grid align-items-center col-2 auto justify-content-center gap-10\" data-v-52253b78><img"+(_vm._ssrAttr("src",__webpack_require__(122)))+" alt class=\"icon icon-money\" data-v-52253b78> 5 €</button></div> <div class=\"box-form grid\" data-v-52253b78><button class=\"button cta black grid align-items-center col-2 auto justify-content-center gap-10\" data-v-52253b78><img"+(_vm._ssrAttr("src",__webpack_require__(122)))+" alt class=\"icon icon-money\" data-v-52253b78> 10 €</button></div> <div class=\"box-form grid\" data-v-52253b78><button class=\"button cta black grid align-items-center col-2 auto justify-content-center gap-10\" data-v-52253b78><img"+(_vm._ssrAttr("src",__webpack_require__(122)))+" alt class=\"icon icon-money\" data-v-52253b78> 15 €</button></div> <div class=\"box-form grid\" data-v-52253b78><button class=\"button cta black grid align-items-center col-2 auto justify-content-center gap-10\" data-v-52253b78><img"+(_vm._ssrAttr("src",__webpack_require__(122)))+" alt class=\"icon icon-money\" data-v-52253b78> 20 €</button></div></div> <div class=\"grid gap-10\" data-v-52253b78><p class=\"small text-center\" data-v-52253b78>Platba cez zabezpečenú platobnú bránu &quot;Stripe&quot;</p></div></div></div>")])}
-var AddCreditvue_type_template_id_52253b78_scoped_true_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/page/user/account/credits/AddCredit.vue?vue&type=template&id=14f97157&scoped=true&
+var AddCreditvue_type_template_id_14f97157_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"component"},[_vm._ssrNode("<div class=\"container-standard grid\" data-v-14f97157><div class=\"grid gap-20\" data-v-14f97157><div class=\"grid gap-10\" data-v-14f97157><h2 id=\"pay-for-credit\" data-v-14f97157>Dobi si nekonečné kredity</h2> <p data-v-14f97157>Vyber si hodnotu kreditu, ktorú chceš dobiť.</p></div> <div class=\"grid col-2 md-col-4 gap-20\" data-v-14f97157><div class=\"box-3 grid\" data-v-14f97157><button class=\"button cta black grid align-items-center col-2 auto justify-content-center gap-10\" data-v-14f97157><img"+(_vm._ssrAttr("src",__webpack_require__(122)))+" alt class=\"icon icon-money\" data-v-14f97157> 5 €</button></div> <div class=\"box-3 grid\" data-v-14f97157><button class=\"button cta black grid align-items-center col-2 auto justify-content-center gap-10\" data-v-14f97157><img"+(_vm._ssrAttr("src",__webpack_require__(122)))+" alt class=\"icon icon-money\" data-v-14f97157> 10 €</button></div> <div class=\"box-3 grid\" data-v-14f97157><button class=\"button cta black grid align-items-center col-2 auto justify-content-center gap-10\" data-v-14f97157><img"+(_vm._ssrAttr("src",__webpack_require__(122)))+" alt class=\"icon icon-money\" data-v-14f97157> 15 €</button></div> <div class=\"box-3 grid\" data-v-14f97157><button class=\"button cta black grid align-items-center col-2 auto justify-content-center gap-10\" data-v-14f97157><img"+(_vm._ssrAttr("src",__webpack_require__(122)))+" alt class=\"icon icon-money\" data-v-14f97157> 20 €</button></div></div> <div class=\"grid gap-10\" data-v-14f97157><p class=\"small text-center\" data-v-14f97157>Platba cez zabezpečenú platobnú bránu &quot;Stripe&quot;</p></div></div></div>")])}
+var AddCreditvue_type_template_id_14f97157_scoped_true_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/page/user/account/credits/AddCredit.vue?vue&type=template&id=52253b78&scoped=true&
+// CONCATENATED MODULE: ./apps/tulaveknizky.sk/components/page/user/account/credits/AddCredit.vue?vue&type=template&id=14f97157&scoped=true&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./apps/tulaveknizky.sk/components/page/user/account/credits/AddCredit.vue?vue&type=script&lang=js&
 //
@@ -426,11 +426,11 @@ if (style0.__inject__) style0.__inject__(context)
 
 var component = Object(componentNormalizer["a" /* default */])(
   credits_AddCreditvue_type_script_lang_js_,
-  AddCreditvue_type_template_id_52253b78_scoped_true_render,
-  AddCreditvue_type_template_id_52253b78_scoped_true_staticRenderFns,
+  AddCreditvue_type_template_id_14f97157_scoped_true_render,
+  AddCreditvue_type_template_id_14f97157_scoped_true_staticRenderFns,
   false,
   injectStyles,
-  "52253b78",
+  "14f97157",
   "6e38b708"
   
 )

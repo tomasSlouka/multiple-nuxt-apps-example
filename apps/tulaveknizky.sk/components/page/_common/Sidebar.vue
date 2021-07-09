@@ -41,7 +41,7 @@
                 <li v-if="showLevel === null" @click='changeLinkLevel("mojeknizky")'>Moje knižky</li>
                 <li v-if="showLevel === 'mojeknizky'" @click="$emit('close')"><nuxt-link to='/user/books/basket' class='small'>Batôžtek (košík)</nuxt-link></li>
                 <li v-if="showLevel === 'mojeknizky'" @click="$emit('close')"><nuxt-link to='/user/books/borrowed' class='small'>Požičané knižky</nuxt-link></li>
-                <li v-if="showLevel === 'mojeknizky'" @click="$emit('close')"><nuxt-link to='/user/books/rated' class='small'>Hodnotené knižky</nuxt-link></li>
+                <!-- <li v-if="showLevel === 'mojeknizky'" @click="$emit('close')"><nuxt-link to='/user/books/rated' class='small'>Hodnotené knižky</nuxt-link></li> -->
                 <!-- <li v-if="showLevel === 'mojeknizky'" @click="$emit('close')"><nuxt-link to='/user/books/reserved' class='small'>Rezervované knižky</nuxt-link></li> -->
                 <li v-if="showLevel === 'mojeknizky'" @click="$emit('close')"><nuxt-link to='/user/books/wishlist' class='small'>Wishlist</nuxt-link></li>
                 <!-- MOJE KNIZKY -->

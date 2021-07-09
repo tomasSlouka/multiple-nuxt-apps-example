@@ -72,17 +72,17 @@
                         <h2 id='pay-for-credit'>Dobi si nekonečné kredity</h2>
                         <p>Vyber si hodnotu kreditu, ktorú chceš dobiť.</p>
                     </div>
-                    <div class='grid col-4 gap-20'>
-                        <div class='box-form grid'>
+                    <div class='grid col-2 md-col-4 gap-20'>
+                        <div class='box-3 grid'>
                             <button class='button cta black grid align-items-center col-2 auto justify-content-center gap-10' @click='checkout({price_id: "price_1IOtYyJ6MYnVMg48ONjz2XJc"})'><img src="@/assets/img/icon-money.svg" alt="" class='icon icon-money' /> 5 €</button>
                         </div>
-                        <div class='box-form grid'>
+                        <div class='box-3 grid'>
                             <button class='button cta black grid align-items-center col-2 auto justify-content-center gap-10' @click='checkout({price_id: "price_1IOtYyJ6MYnVMg48OjKeyfQu"})'><img src="@/assets/img/icon-money.svg" alt="" class='icon icon-money' /> 10 €</button>
                         </div>
-                        <div class='box-form grid'>
+                        <div class='box-3 grid'>
                             <button class='button cta black grid align-items-center col-2 auto justify-content-center gap-10' @click='checkout({price_id: "price_1IOtYyJ6MYnVMg48JT5vIrUP"})'><img src="@/assets/img/icon-money.svg" alt="" class='icon icon-money' /> 15 €</button>
                         </div>
-                        <div class='box-form grid'>
+                        <div class='box-3 grid'>
                             <button class='button cta black grid align-items-center col-2 auto justify-content-center gap-10' @click='checkout({price_id: "price_1IOtYyJ6MYnVMg48kVQglr8p"})'><img src="@/assets/img/icon-money.svg" alt="" class='icon icon-money' /> 20 €</button>
                         </div>
                     </div>
@@ -148,6 +148,9 @@ export default {
     /* border-bottom: 6px solid #eee; */
     padding: 40px;
     border-radius: 4px;
+}
+.box-3 {
+    padding: 5px;
 }
 .icon-money {
     height: 10px;

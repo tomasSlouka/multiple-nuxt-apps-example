@@ -4,7 +4,7 @@
             
             <div class="grid col-1 gap-60 align-items-start">
                 <!-- Total credits -->
-                <div class='grid gap-20 col-3'>
+                <div class='grid gap-20 md-col-3'>
                     <div class='grid gap-10 box-form align-content-start'>
                         <p class='h4'>Celkový počet kreditov</p>
                         <div class='grid gap-10 col-2 auto justify-content-start align-items-center'>

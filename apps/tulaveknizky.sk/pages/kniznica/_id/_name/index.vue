@@ -12,12 +12,12 @@
         <Detail
             :dataDetail='dataDetail'
         />
-        <Simmilar
+        <!-- <Simmilar
             
         />
         <Comments
             
-        />
+        /> -->
     </div>
 </template>
 
