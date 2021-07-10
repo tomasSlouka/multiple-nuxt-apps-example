@@ -5,75 +5,101 @@
                 <h2>Upravenie knižného titulu</h2>
 
                 <div class='box-form'>
-                    <form @submit.prevent='submitForm()' class='grid gap-30 md-col-2 align-items-start'>
-                        
+                    <div class='grid gap-60 md-col-2 align-items-start'>
+                        <form @submit.prevent='submitForm()' class=''>
+                            
+                            <div class='grid gap-20'>
+                                <!-- Name -->
+                                <div>
+                                    <label for="name">Názov knihy</label>
+                                    <input type="text" placeholder="Názov knihy" name="name" v-model="dataDetail.data.name">
+                                </div>
+                                <!-- Name -->
+
+                                <!-- Author -->
+                                <div>
+                                    <label for="author">Autor</label>
+                                    <input type="text" placeholder="Autor" name="author" v-model="dataDetail.data.author">
+                                </div>
+                                <!-- Author -->
+
+                                <!-- Price -->
+                                <div>
+                                    <label for="price">Cena</label>
+                                    <input type="text" placeholder="Cena" name="price" v-model="dataDetail.data.price">
+                                </div>
+                                <!-- Price -->
+
+                                <!-- Short text -->
+                                <div>
+                                    <label for="short_text">Krátky popis</label>
+                                    <textarea type="text" placeholder="Krátky popis" name="short_text" v-model="dataDetail.data.short_text"></textarea>
+                                </div>
+                                <!-- Short text -->
+
+                                <!-- Long text -->
+                                <div>
+                                    <label for="long_text">Celý popis</label>
+                                    <textarea class='long' type="text" placeholder="Celý popis" name="long_text" v-model="dataDetail.data.long_text"></textarea>
+                                </div>
+                                <!-- Long text -->
+
+                                <!-- <div class="hr"></div> -->
+
+                                <div class='justify-self-start grid col-3 auto gap-10 align-items-center'>
+                                    <button type="submit" class="button cta black">Uložiť</button>
+                                    <nuxt-link to='/admin/titles' class="button cta red">Zrušiť</nuxt-link>
+                                    <div>
+                                        <p class='success' v-if='submitSuccess'>{{submitText}}</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+                        </form>
+
                         <div class='grid gap-20'>
-                            <!-- Name -->
-                            <div>
-                                <label for="name">Názov knihy</label>
-                                <input type="text" placeholder="Názov knihy" name="name" v-model="dataDetail.data.name">
-                            </div>
-                            <!-- Name -->
+                            <!-- Obrazok -->
+                            <label for="long_text">Obrázok</label>
+                            <form @submit.prevent='onUploadCover()' >
+                                <div class='grid gap-20'>
+                                    <div v-if='selectedFileUrlCover === null' class='cover grid' @click.prevent='$refs.fileInputCover.click()' >
+                                        <img :src="'https://storage.tulaveknizky.sk/public/tulaveknizky/img/cover/' + cover" alt="">
+                                        <p class='align-self-start justify-self-end small'>Vybrať obrázok</p>
+                                    </div>
 
-                            <!-- Author -->
-                            <div>
-                                <label for="author">Autor</label>
-                                <input type="text" placeholder="Autor" name="author" v-model="dataDetail.data.author">
-                            </div>
-                            <!-- Author -->
+                                    <div v-else class='cover grid' @click.prevent='$refs.fileInputCover.click()' >
+                                         <img :src="selectedFileUrlCover" alt="">
+                                        <p class='align-self-start justify-self-end small'>Vybrať obrázok</p>
+                                    </div>
 
-                            <!-- Price -->
-                            <div>
-                                <label for="price">Cena</label>
-                                <input type="text" placeholder="Cena" name="price" v-model="dataDetail.data.price">
-                            </div>
-                            <!-- Price -->
+                                    <div class='grid gap-10 col-2 auto justify-content-end align-items-center'>
+                                        <button v-show='showSaveCover' @click.prevent='onCancelCover()' class="cta red">Zrušiť</button>
+                                        <button v-show='showSaveCover' class="cta black">{{saveTextCover}}</button>
+                                    </div>
+                                </div>
 
-                            <!-- Short text -->
-                            <div>
-                                <label for="short_text">Krátky popis</label>
-                                <textarea type="text" placeholder="Krátky popis" name="short_text" v-model="dataDetail.data.short_text"></textarea>
-                            </div>
-                            <!-- Short text -->
+                                <input class='hidden' name='myFile' ref='fileInputCover' type="file" @change='onFileSelectedCover($event)' />
 
-                            <!-- Long text -->
-                            <div>
-                                <label for="long_text">Celý popis</label>
-                                <textarea class='long' type="text" placeholder="Celý popis" name="long_text" v-model="dataDetail.data.long_text"></textarea>
-                            </div>
-                            <!-- Long text -->
-
-                        </div>
-
-                        <div class='grid gap-20'>
+                            </form>
+                            <!-- Obrazok -->
                             <!-- Category -->
-                            <label for="long_text">Vyber kategórie</label>
+                            <label for="long_text">Kategórie</label>
                             <div class='flex wrap tags'>
                                 <!-- <div  v-for="item in categoryList.data" :key="item.id" @click.prevent="updateCategory(item.id)" class='tag'>{{item.name}}</div> -->
-                                <div  v-for="item in categoryList.data" :key="item.id" @click.prevent="updateCategory(item.id)" class='tag' :class="(categories.includes(item.id)) ? 'active' : ''">{{item.name}}</div>
+                                <div  v-for="item in categoryList.data" :key="item.id" @click.prevent="updateCategory(item.id)" :class="(categories.includes(item.id)) ? 'tag active' : 'tag'">{{item.name}}</div>
                             </div>
                             <!-- Category -->
 
                             <!-- Tag -->
-                            <label for="long_text">Vyber značky</label>
+                            <label for="long_text">Značky</label>
                             <div class='flex wrap tags'>
                                 <!-- <div  v-for="item in tagList.data" :key="item.id" @click.prevent="updateTag(item.id)" class='tag'>{{item.name}}</div> -->
-                                <div  v-for="item in tagList.data" :key="item.id" @click.prevent="updateTag(item.id)" class='tag' :class="(tags.includes(item.id)) ? 'active' : ''">{{item.name}}</div>
+                                <div  v-for="item in tagList.data" :key="item.id" @click.prevent="updateTag(item.id)" :class="(tags.includes(item.id)) ? 'tag active' : 'tag'">{{item.name}}</div>
                             </div>
                             <!-- Tag -->
                         </div>
-
-                        <div class="md-span-2 hr">
-
-                        </div>
-                        <div class='justify-self-end md-span-2 grid col-3 auto gap-10 align-items-center'>
-                            <div>
-                                <p class='success' v-if='submitSuccess'>{{submitText}}</p>
-                            </div>
-                            <nuxt-link to='/admin/titles' class="button cta red">Zrušiť</nuxt-link>
-                            <button type="submit" class="button cta black">Uložiť</button>
-                        </div>
-                    </form>
+                    </div>
                 </div>
             </div>
             
@@ -91,8 +117,15 @@ export default {
             submitError: false,
             submitText: 'Uložené!',
 
-            categories: this.dataDetail.data.categories === null ? [] : this.dataDetail.data.categories.split(","),
-            tags: this.dataDetail.data.tags === null ? [] : this.dataDetail.data.tags.split(","),
+            categories: this.dataDetail.data.categoriesIds === null ? [] : this.dataDetail.data.categoriesIds.split(","),
+            tags: this.dataDetail.data.tagsIds === null ? [] : this.dataDetail.data.tagsIds.split(","),
+
+            cover: this.dataDetail.data.cover,
+
+            selectedFileCover: null,
+            selectedFileUrlCover: null,
+            showSaveCover: false,
+            saveTextCover: "Nahrať",
         }
     },
     methods: {
@@ -188,10 +221,65 @@ export default {
         //         //this.res = error.response.data.message
         //     });
         // }
+         // COVER
+        onFileSelectedCover(event) {
+            this.selectedFileCover = event.target.files[0]
+            this.selectedFileUrlCover = URL.createObjectURL(this.selectedFileCover)
+            this.showSaveCover = true
+        },
+        onCancelCover() {
+            this.selectedFileCover = null
+            this.selectedFileUrlCover = null
+            this.showSaveCover = false
+        },
+        onUploadCover() {
+            const formData = new FormData()
+            formData.append('myFile', this.selectedFileCover, this.selectedFileCover.name)
+            formData.append('book_id', this.$route.params.id)
+            this.$axios.$post('/upload/book-cover', formData, {
+                onUploadProgress: progressEvent => {
+                    this.saveTextCover = Math.round(progressEvent.loaded / progressEvent.total * 100) + '%'
+                }
+            })
+            .then((response) => {
+                // this.$store.dispatch('setUser');
+                this.showSaveCover = false
+                this.saveTextCover = "Nahrať"
+                console.log(response);
+            }, (error) => {
+                console.log(error);
+            });
+        },
+        // COVER END
     },
 }
 </script>
 
 <style scoped>
-
+.cover {
+    min-height: 180px;
+    border: 1px solid #eeeeee;
+    border-radius: 4px;
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size: cover;
+    cursor: pointer;
+    background-color: #eee;
+    position: relative;
+    padding: 5px;
+}
+.cover > img {
+    max-height: 180px;
+    min-height: 180px;
+    max-width: 100%;
+    border-radius: 0;
+}
+.cover > p.small {
+    background-color: #ffffff;
+    border: 1px solid #eeeeee;
+    border-radius: 4px;
+    padding: 4px 20px;
+    margin: 5px;
+    position: absolute;
+}
 </style>

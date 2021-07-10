@@ -6,13 +6,14 @@
 
                 <div class="box grid gap-60 align-content-start align-items-start md-col-3 auto">
                         <div>
-                            <img src="https://fakeimg.pl/260x440" alt="" class='testbook' />
+                            <img v-if="dataDetail.data.cover === null" src="https://fakeimg.pl/260x440" alt="" class='testbook' />
+                            <img v-else :src="'https://storage.tulaveknizky.sk/public/tulaveknizky/img/cover/' + dataDetail.data.cover" alt="">
                         </div>
                         <div class='grid gap-10'>
                             <h1>{{dataDetail.data.name}}</h1>
                             <h3>{{dataDetail.data.author}}</h3>
                             <p>{{dataDetail.data.short_text == "" ? dataDetail.data.long_text : dataDetail.data.short_text }}</p>
-                            <div class='flex wrap justify-content-start mt20'><span class='tag white' v-for="(cat) in dataDetail.data.categories == null ? [] : dataDetail.data.categories.split(',')" :key='cat'>{{cat}}</span></div>
+                            <div class='flex wrap justify-content-start mt20'><span class='tag white' v-for="(cat) in dataDetail.data.categoriesNames == null ? [] : dataDetail.data.categoriesNames.split(',')" :key='cat'>{{cat}}</span></div>
                         </div>
 
                         <div class='align-self-start grid gap-10 justify-items-end justify-self-end'>
@@ -101,5 +102,6 @@ export default {
 img {
     border-radius: 20px;
     max-height: 340px;
+    max-width: 211px;
 }
 </style>

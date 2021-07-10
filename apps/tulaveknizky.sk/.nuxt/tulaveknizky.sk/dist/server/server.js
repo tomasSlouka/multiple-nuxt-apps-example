@@ -3148,111 +3148,111 @@ function shouldScrollToTop(route) {
 
 
 
-const _ee460050 = () => interopDefault(__webpack_require__.e(/* import() | pages/200 */ 1).then(__webpack_require__.bind(null, 284)));
+const _ee460050 = () => interopDefault(__webpack_require__.e(/* import() | pages/200 */ 1).then(__webpack_require__.bind(null, 289)));
 
-const _1a588646 = () => interopDefault(__webpack_require__.e(/* import() | pages/403 */ 2).then(__webpack_require__.bind(null, 285)));
+const _1a588646 = () => interopDefault(__webpack_require__.e(/* import() | pages/403 */ 2).then(__webpack_require__.bind(null, 290)));
 
-const _1a3c5744 = () => interopDefault(__webpack_require__.e(/* import() | pages/404 */ 3).then(__webpack_require__.bind(null, 286)));
+const _1a3c5744 = () => interopDefault(__webpack_require__.e(/* import() | pages/404 */ 3).then(__webpack_require__.bind(null, 291)));
 
-const _278fb19b = () => interopDefault(__webpack_require__.e(/* import() | pages/500 */ 4).then(__webpack_require__.bind(null, 287)));
+const _278fb19b = () => interopDefault(__webpack_require__.e(/* import() | pages/500 */ 4).then(__webpack_require__.bind(null, 292)));
 
-const _4bf89126 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/index */ 8).then(__webpack_require__.bind(null, 270)));
+const _4bf89126 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/index */ 8).then(__webpack_require__.bind(null, 275)));
 
-const _811b96cc = () => interopDefault(__webpack_require__.e(/* import() | pages/ako-to-funguje/index */ 25).then(__webpack_require__.bind(null, 236)));
+const _811b96cc = () => interopDefault(__webpack_require__.e(/* import() | pages/ako-to-funguje/index */ 25).then(__webpack_require__.bind(null, 241)));
 
-const _8d0336d4 = () => interopDefault(__webpack_require__.e(/* import() | pages/blog/index */ 26).then(__webpack_require__.bind(null, 271)));
+const _8d0336d4 = () => interopDefault(__webpack_require__.e(/* import() | pages/blog/index */ 26).then(__webpack_require__.bind(null, 276)));
 
-const _0e98a5aa = () => interopDefault(__webpack_require__.e(/* import() | pages/kniznica/index */ 29).then(__webpack_require__.bind(null, 272)));
+const _0e98a5aa = () => interopDefault(__webpack_require__.e(/* import() | pages/kniznica/index */ 29).then(__webpack_require__.bind(null, 277)));
 
-const _25a609b7 = () => interopDefault(__webpack_require__.e(/* import() | pages/najcastejsie-otazky/index */ 30).then(__webpack_require__.bind(null, 273)));
+const _25a609b7 = () => interopDefault(__webpack_require__.e(/* import() | pages/najcastejsie-otazky/index */ 30).then(__webpack_require__.bind(null, 278)));
 
-const _3c907c4d = () => interopDefault(__webpack_require__.e(/* import() | pages/nas-pribeh/index */ 31).then(__webpack_require__.bind(null, 274)));
+const _3c907c4d = () => interopDefault(__webpack_require__.e(/* import() | pages/nas-pribeh/index */ 31).then(__webpack_require__.bind(null, 279)));
 
-const _258ba89f = () => interopDefault(__webpack_require__.e(/* import() | pages/newsletter/index */ 32).then(__webpack_require__.bind(null, 275)));
+const _258ba89f = () => interopDefault(__webpack_require__.e(/* import() | pages/newsletter/index */ 32).then(__webpack_require__.bind(null, 280)));
 
-const _f99f9130 = () => interopDefault(__webpack_require__.e(/* import() | pages/odhlasenie/index */ 33).then(__webpack_require__.bind(null, 238)));
+const _f99f9130 = () => interopDefault(__webpack_require__.e(/* import() | pages/odhlasenie/index */ 33).then(__webpack_require__.bind(null, 243)));
 
-const _d179b20c = () => interopDefault(__webpack_require__.e(/* import() | pages/prihlasenie/index */ 35).then(__webpack_require__.bind(null, 239)));
+const _d179b20c = () => interopDefault(__webpack_require__.e(/* import() | pages/prihlasenie/index */ 35).then(__webpack_require__.bind(null, 244)));
 
-const _3f3bbc66 = () => interopDefault(__webpack_require__.e(/* import() | pages/registracia/index */ 37).then(__webpack_require__.bind(null, 240)));
+const _3f3bbc66 = () => interopDefault(__webpack_require__.e(/* import() | pages/registracia/index */ 37).then(__webpack_require__.bind(null, 245)));
 
-const _6ee93fd1 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/categories/index */ 7).then(__webpack_require__.bind(null, 241)));
+const _6ee93fd1 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/categories/index */ 7).then(__webpack_require__.bind(null, 246)));
 
-const _6ff934e8 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/orders/index */ 12).then(__webpack_require__.bind(null, 242)));
+const _6ff934e8 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/orders/index */ 12).then(__webpack_require__.bind(null, 247)));
 
-const _0193909e = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/stock/index */ 15).then(__webpack_require__.bind(null, 243)));
+const _0193909e = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/stock/index */ 15).then(__webpack_require__.bind(null, 248)));
 
-const _7d41fff4 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/tags/index */ 18).then(__webpack_require__.bind(null, 244)));
+const _7d41fff4 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/tags/index */ 18).then(__webpack_require__.bind(null, 249)));
 
-const _796cde1c = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/titles/index */ 21).then(__webpack_require__.bind(null, 245)));
+const _796cde1c = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/titles/index */ 21).then(__webpack_require__.bind(null, 250)));
 
-const _65e19502 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/users/index */ 24).then(__webpack_require__.bind(null, 246)));
+const _65e19502 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/users/index */ 24).then(__webpack_require__.bind(null, 251)));
 
-const _5abc6916 = () => interopDefault(__webpack_require__.e(/* import() | pages/prihlasenie/code */ 34).then(__webpack_require__.bind(null, 247)));
+const _5abc6916 = () => interopDefault(__webpack_require__.e(/* import() | pages/prihlasenie/code */ 34).then(__webpack_require__.bind(null, 252)));
 
-const _606a4eee = () => interopDefault(__webpack_require__.e(/* import() | pages/registracia/code */ 36).then(__webpack_require__.bind(null, 248)));
+const _606a4eee = () => interopDefault(__webpack_require__.e(/* import() | pages/registracia/code */ 36).then(__webpack_require__.bind(null, 253)));
 
-const _e7ce68cc = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/index */ 41).then(__webpack_require__.bind(null, 276)));
+const _e7ce68cc = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/index */ 41).then(__webpack_require__.bind(null, 281)));
 
-const _f6b1e386 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/index */ 50).then(__webpack_require__.bind(null, 277)));
+const _f6b1e386 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/index */ 50).then(__webpack_require__.bind(null, 282)));
 
-const _7cafbaa2 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/categories/add/index */ 5).then(__webpack_require__.bind(null, 249)));
+const _7cafbaa2 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/categories/add/index */ 5).then(__webpack_require__.bind(null, 254)));
 
-const _07905beb = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/orders/add/index */ 9).then(__webpack_require__.bind(null, 250)));
+const _07905beb = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/orders/add/index */ 9).then(__webpack_require__.bind(null, 255)));
 
-const _3722aec2 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/stock/add/index */ 13).then(__webpack_require__.bind(null, 251)));
+const _3722aec2 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/stock/add/index */ 13).then(__webpack_require__.bind(null, 256)));
 
-const _f8eecf42 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/tags/add/index */ 16).then(__webpack_require__.bind(null, 252)));
+const _f8eecf42 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/tags/add/index */ 16).then(__webpack_require__.bind(null, 257)));
 
-const _5529f621 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/titles/add/index */ 19).then(__webpack_require__.bind(null, 253)));
+const _5529f621 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/titles/add/index */ 19).then(__webpack_require__.bind(null, 258)));
 
-const _69e621b4 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/users/add/index */ 22).then(__webpack_require__.bind(null, 254)));
+const _69e621b4 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/users/add/index */ 22).then(__webpack_require__.bind(null, 259)));
 
-const _fb420a40 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/credits/index */ 39).then(__webpack_require__.bind(null, 255)));
+const _fb420a40 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/credits/index */ 39).then(__webpack_require__.bind(null, 260)));
 
-const _23c95417 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/settings/index */ 42).then(__webpack_require__.bind(null, 278)));
+const _23c95417 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/settings/index */ 42).then(__webpack_require__.bind(null, 283)));
 
-const _473d9edd = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/subscription/index */ 43).then(__webpack_require__.bind(null, 256)));
+const _473d9edd = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/subscription/index */ 43).then(__webpack_require__.bind(null, 261)));
 
-const _b96e0392 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/basket/index */ 47).then(__webpack_require__.bind(null, 279)));
+const _b96e0392 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/basket/index */ 47).then(__webpack_require__.bind(null, 284)));
 
-const _62f79d29 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/borrowed/index */ 49).then(__webpack_require__.bind(null, 280)));
+const _62f79d29 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/borrowed/index */ 49).then(__webpack_require__.bind(null, 285)));
 
-const _36df4db3 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/rated/index */ 51).then(__webpack_require__.bind(null, 281)));
+const _36df4db3 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/rated/index */ 51).then(__webpack_require__.bind(null, 286)));
 
-const _d03e1a56 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/reserved/index */ 52).then(__webpack_require__.bind(null, 282)));
+const _d03e1a56 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/reserved/index */ 52).then(__webpack_require__.bind(null, 287)));
 
-const _460ef418 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/wishlist/index */ 53).then(__webpack_require__.bind(null, 283)));
+const _460ef418 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/wishlist/index */ 53).then(__webpack_require__.bind(null, 288)));
 
-const _7e2f90f3 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/credits/add/index */ 38).then(__webpack_require__.bind(null, 257)));
+const _7e2f90f3 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/credits/add/index */ 38).then(__webpack_require__.bind(null, 262)));
 
-const _09d3cc11 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/credits/success */ 40).then(__webpack_require__.bind(null, 258)));
+const _09d3cc11 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/credits/success */ 40).then(__webpack_require__.bind(null, 263)));
 
-const _119964ce = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/subscription/success */ 44).then(__webpack_require__.bind(null, 259)));
+const _119964ce = () => interopDefault(__webpack_require__.e(/* import() | pages/user/account/subscription/success */ 44).then(__webpack_require__.bind(null, 264)));
 
-const _0f2b5436 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/basket/confirm */ 45).then(__webpack_require__.bind(null, 260)));
+const _0f2b5436 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/basket/confirm */ 45).then(__webpack_require__.bind(null, 265)));
 
-const _79b7acc2 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/basket/delivery */ 46).then(__webpack_require__.bind(null, 261)));
+const _79b7acc2 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/basket/delivery */ 46).then(__webpack_require__.bind(null, 266)));
 
-const _cf6b54b0 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/basket/success */ 48).then(__webpack_require__.bind(null, 262)));
+const _cf6b54b0 = () => interopDefault(__webpack_require__.e(/* import() | pages/user/books/basket/success */ 48).then(__webpack_require__.bind(null, 267)));
 
-const _08eefe8c = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/categories/detail/_id/index */ 6).then(__webpack_require__.bind(null, 263)));
+const _08eefe8c = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/categories/detail/_id/index */ 6).then(__webpack_require__.bind(null, 268)));
 
-const _10886dfa = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/orders/detail/_id/index */ 11).then(__webpack_require__.bind(null, 264)));
+const _10886dfa = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/orders/detail/_id/index */ 11).then(__webpack_require__.bind(null, 269)));
 
-const _3355564c = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/stock/detail/_id/index */ 14).then(__webpack_require__.bind(null, 265)));
+const _3355564c = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/stock/detail/_id/index */ 14).then(__webpack_require__.bind(null, 270)));
 
-const _34ba5177 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/tags/detail/_id/index */ 17).then(__webpack_require__.bind(null, 266)));
+const _34ba5177 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/tags/detail/_id/index */ 17).then(__webpack_require__.bind(null, 271)));
 
-const _0d8acd39 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/titles/detail/_id/index */ 20).then(__webpack_require__.bind(null, 267)));
+const _0d8acd39 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/titles/detail/_id/index */ 20).then(__webpack_require__.bind(null, 274)));
 
-const _4837b5cc = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/users/detail/_id/index */ 23).then(__webpack_require__.bind(null, 268)));
+const _4837b5cc = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/users/detail/_id/index */ 23).then(__webpack_require__.bind(null, 272)));
 
-const _5031ade9 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/orders/detail/_id/edit */ 10).then(__webpack_require__.bind(null, 269)));
+const _5031ade9 = () => interopDefault(__webpack_require__.e(/* import() | pages/admin/orders/detail/_id/edit */ 10).then(__webpack_require__.bind(null, 273)));
 
-const _9be1bd8a = () => interopDefault(__webpack_require__.e(/* import() | pages/kniznica/_id/_name/index */ 28).then(__webpack_require__.bind(null, 235)));
+const _9be1bd8a = () => interopDefault(__webpack_require__.e(/* import() | pages/kniznica/_id/_name/index */ 28).then(__webpack_require__.bind(null, 240)));
 
-const _35182910 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 27).then(__webpack_require__.bind(null, 237)));
+const _35182910 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 27).then(__webpack_require__.bind(null, 242)));
 
 const emptyFn = () => {};
 
@@ -6174,6 +6174,12 @@ const createNext = ssrContext => opts => {
   await beforeRender();
   return _app;
 });
+
+/***/ }),
+/* 83 */
+/***/ (function(module, exports) {
+
+module.exports = require("url");
 
 /***/ })
 /******/ ]);

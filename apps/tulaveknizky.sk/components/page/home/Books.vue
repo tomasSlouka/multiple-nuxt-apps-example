@@ -22,7 +22,8 @@
                     
                     <div v-for='(item) in bookList.data' :key='item.id' class="box grid gap-20 align-content-start align-items-start md-col-3 auto">
                         <div>
-                            <img src="https://fakeimg.pl/130x220" alt="" class='testbook' />
+                            <img v-if="item.cover === null" src="https://fakeimg.pl/130x220" alt="" class='testbook' />
+                            <img v-else :src="'https://storage.tulaveknizky.sk/public/tulaveknizky/img/cover/' + item.cover" alt="">
                         </div>
                         <div class='grid gap-10'>
                             <h3>{{item.name}}</h3>
@@ -36,7 +37,7 @@
                         <div class='align-self-end grid gap-10 justify-items-end justify-self-end'>
 
                             
-                            <div class='flex wrap justify-content-end maxw160'><span class='tag white' v-for="(cat) in item.categories == null ? [] : item.categories.split(',')" :key='cat'>{{cat}}</span></div>
+                            <div class='flex wrap justify-content-end maxw160'><span class='tag white' v-for="(cat) in item.categoriesNames == null ? [] : item.categoriesNames.split(',')" :key='cat'>{{cat}}</span></div>
 
                             <div class='grid col-3 auto'>
                                 <h2>{{item.price}}</h2>
@@ -118,6 +119,7 @@ export default {
 img {
     border-radius: 20px;
     max-height: 220px;
+    max-width: 130px;
 }
 
 #filter {
