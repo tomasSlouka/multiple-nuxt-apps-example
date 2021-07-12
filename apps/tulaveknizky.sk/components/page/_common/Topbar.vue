@@ -1,8 +1,8 @@
 <template>
     <div>
         <div id="topbar">
-             <div class="container-standard grid align-items-center">
-                <div class='grid auto col-2 md-col-1 lg-col-2 align-items-center justify-content-space-between'>
+            <div class="container-standard grid gap-20 align-items-center">
+                <div class='grid auto col-2 md-col-1 lg-col-2 align-items-center gap-10'>
                     <div class='logo justify-self-start'>
                         <nuxt-link class='grid gap-10 col-2 auto align-items-center' to="/">
                             <img src="@/assets/img/logo-icon.svg" alt="" class='logo-icon' />
@@ -32,7 +32,10 @@
                                         </p>
                                         <img src="@/assets/img/icon-coin.svg" alt="" class='icon-coin' />
                                     </nuxt-link>
-                                    <nuxt-link tag='div' to='/user/books/basket' class='grid col-1 auto gap-10 align-items-center basket pointer'>
+                                    <nuxt-link tag='div' to='/user/books/basket' class='grid col-2 auto gap-10 align-items-center credit pointer'>
+                                    <p class='small'>
+                                            {{$store.state.order.dataBasket.count_items ? $store.state.order.dataBasket.count_items : "0"}}
+                                        </p>
                                         <img src="@/assets/img/icon-basket.svg" alt="" class='icon-basket' />
                                     </nuxt-link>
                                 </div>
@@ -44,8 +47,8 @@
                             <li><nuxt-link to='/prihlasenie'>Prihlásenie</nuxt-link></li>
                             <li><nuxt-link to="/registracia">Registrácia</nuxt-link></li>
                         </ul>
-                        <ul>
-                            <li class='sidenavtoggle hidden-md' @click="$emit('sidenavtoggle')">
+                        <ul>   
+                            <li class='sidenavtoggle hidden-md ml10' @click="$emit('sidenavtoggle')">
                                 <div></div>
                                 <div></div>
                                 <div></div>
@@ -57,6 +60,27 @@
                             <li><a @click.prevent='logout()'>Odhlásiť</a></li>
                         </ul>
                     </div> -->
+                </div>
+
+                <div v-if="$store.getters['auth/isUserLoggedIn']" class='nav justify-self-end hidden-md'>
+                    <ul class='flex wrap align-items-center '>
+                        <li>
+                            <div class='grid col-2 auto gap-20 align-items-center ml20'>
+                                <nuxt-link tag='div' to='/user/account/credits' class='grid col-2 auto gap-10 align-items-center credit pointer'>
+                                    <p class='small'>
+                                        {{$store.state.auth.userData.credit ? $store.state.auth.userData.credit-$store.state.auth.userData.credit_blocked + '.00' : "0.00"}}
+                                    </p>
+                                    <img src="@/assets/img/icon-coin.svg" alt="" class='icon-coin' />
+                                </nuxt-link>
+                                <nuxt-link tag='div' to='/user/books/basket' class='grid col-2 auto gap-10 align-items-center credit pointer'>
+                                <p class='small'>
+                                        {{$store.state.order.dataBasket.count_items ? $store.state.order.dataBasket.count_items : "0"}}
+                                    </p>
+                                    <img src="@/assets/img/icon-basket.svg" alt="" class='icon-basket' />
+                                </nuxt-link>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

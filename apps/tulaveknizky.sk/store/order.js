@@ -42,6 +42,8 @@ export const mutations = {
     deleteItemBasket (state, data_items) {
         // state.dataList.data.splice(data.index, 1)
         state.dataBasket.data_items.splice(data_items.index, 1)
+        state.dataBasket.count_items--
+        state.dataBasket.sum_price = state.dataBasket.sum_price - data_items.price + ".00"
     },
 }
 

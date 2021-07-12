@@ -29,8 +29,8 @@
                             <div class='table-row' v-for='(item, index) in bookList.data' :key='item.id'> 
                                 <div><p class='strong'>{{item.name}}</p><p class='italic small'>{{item.author}}</p></div>
                                 <div class='grid justify-items-start'><span class='tag yellow'>{{item.price}} kreditov</span></div>
-                                <div><div class='flex wrap'><span class='tag gray' v-for="(cat) in item.categories == null ? [] : item.categories.split(',')" :key='cat'>{{cat}}</span></div></div>
-                                <div><p>{{item.stock_count_all}}/{{item.stock_count_available}}/{{item.stock_count_borrowed}}</p></div>
+                                <div><div class='flex wrap'><span class='tag gray' v-for="(cat) in item.categoriesNames == null ? [] : item.categoriesNames.split(',')" :key='cat'>{{cat}}</span></div></div>
+                                <div><p title="Počet všetkých/dostupných/požičaných kníh">{{item.stock_count_all}}/{{item.stock_count_available}}/{{item.stock_count_borrowed}}</p></div>
                                  <!-- <div><div class='flex wrap'><span class='tag gray' v-for="(tag) in item.tags == null ? [] : item.tags.split(',')" :key='tag'>{{tag}}</span></div></div> -->
                                 <div class='grid col-3 auto gap-5 justify-content-start justify-items-start'>
                                     <nuxt-link :to='"/admin/titles/detail/" + item.id' class='button cta small black' >Upraviť</nuxt-link>

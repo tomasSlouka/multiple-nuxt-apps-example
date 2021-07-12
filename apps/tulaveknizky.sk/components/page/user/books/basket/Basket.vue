@@ -55,8 +55,8 @@ export default {
     methods: {
         async deleteButton(data) {
             await this.$store.dispatch("order/deleteItemBasket", data)
-            this.dataBasket.count_items--
-            this.dataBasket.sum_price = this.dataBasket.sum_price - data.price + ".00"
+            // this.dataBasket.count_items--
+            // this.dataBasket.sum_price = this.dataBasket.sum_price - data.price + ".00"
         }
     },
 }

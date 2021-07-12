@@ -316,7 +316,10 @@ img {
     width: auto;
     max-width: 100%;
 }
-
+.icon {
+    height: 1em;
+    border-radius: 0;
+}
 .hr {
     width: 100%;
     border-bottom: 1px solid #F5F5F5;

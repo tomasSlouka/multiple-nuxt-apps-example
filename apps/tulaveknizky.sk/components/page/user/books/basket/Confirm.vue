@@ -103,6 +103,7 @@ export default {
                 })
                 .then((response) => {
                     console.log(response);
+                    this.$store.dispatch("order/getDataBasket")
                     this.$router.push('/user/books/basket/success')
                 }, (error) => {
                     console.log(error);

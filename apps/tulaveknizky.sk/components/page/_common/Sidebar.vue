@@ -17,7 +17,7 @@
                 <!-- <li>{{showLevel}}</li> -->
 
                 <!-- SPAT -->
-                <li v-if="showLevel" @click='changeLinkLevel(null)'>Späť</li>
+                <li v-if="showLevel" @click='changeLinkLevel(null)'><img src="@/assets/img/icon-arrow-left.svg" alt="" class='icon icon-arrow-left' /> späť</li>
                 <div class='hr' v-if="showLevel"></div>
                 <!-- SPAT -->
 
@@ -53,7 +53,7 @@
                 <li v-if="showLevel === 'mojucet'" @click="$emit('close')"><nuxt-link to='/user/account/credits' class='small'>Kredity</nuxt-link></li>
                 <!-- MOJ UCET -->
 
-                <li v-if="showLevel === null" @click='changeLinkLevel("viac")'>...viac</li>
+                <li v-if="showLevel === null" @click='changeLinkLevel("viac")'>viac <img src="@/assets/img/icon-arrow-right.svg" alt="" class='icon icon-arrow-left' /></li>
                 <li v-if="showLevel === 'viac'" @click="$emit('close')"><nuxt-link to='/ako-to-funguje' class='small'>Ako to funguje?</nuxt-link></li>
                 <li v-if="showLevel === 'viac'" @click="$emit('close')"><nuxt-link to='/nas-pribeh' class='small'>Náš príbeh</nuxt-link></li>
                 <li v-if="showLevel === 'viac'" @click="$emit('close')"><nuxt-link to='/blog' class='small'>Náš blog</nuxt-link></li>
@@ -64,7 +64,7 @@
 
               </ul>
               <ul v-else class='grid col-1 gap-20'>
-                <li><nuxt-link to='/kniznica' @click="$emit('close')">Knižnica</nuxt-link></li>
+                <li @click="$emit('close')"><nuxt-link to='/kniznica'>Knižnica</nuxt-link></li>
                 <div class="hr"></div>
                 <li @click="$emit('close')"><nuxt-link to='/ako-to-funguje' class='small'>Ako to funguje?</nuxt-link></li>
                 <li @click="$emit('close')"><nuxt-link to='/nas-pribeh' class='small'>Náš príbeh</nuxt-link></li>
