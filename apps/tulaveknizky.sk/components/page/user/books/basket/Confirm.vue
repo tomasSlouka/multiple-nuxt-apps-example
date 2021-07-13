@@ -65,7 +65,13 @@
                     <div class='box grid md-col-2 auto gap-10 align-items-start'>
                         <div class='md-justify-self-start grid'><nuxt-link to='/user/books/basket/delivery' class='button cta white'>Späť na výber dopravy</nuxt-link></div>
                         
-                        <div v-if='($store.state.auth.userData.credit-$store.state.auth.userData.credit_blocked) < dataBasket.sum_price' class='md-justify-self-end grid gap-10'>
+                        <div v-if='($store.state.auth.userData.subscription_plan_id) === null' class='md-justify-self-end grid gap-10'>
+                            <nuxt-link to='/user/account/subscription' class='button cta black md-justify-self-end'>Aktivovať plán predplatného</nuxt-link>
+                            <p class='error strong p0 md-justify-self-end'>
+                                Na dokončenie objednávky musíš mať aktívny jeden z plánov predplatného.
+                            </p>
+                        </div>
+                        <div v-else-if='($store.state.auth.userData.credit-$store.state.auth.userData.credit_blocked) < dataBasket.sum_price' class='md-justify-self-end grid gap-10'>
                             <nuxt-link to='/user/account/credits/add' class='button cta black md-justify-self-end'>Dobiť kredit</nuxt-link>
                             <p class='error strong p0 md-justify-self-end'>
                                 Na dokončenie objednávky potrebuješ viac kreditov.
@@ -109,7 +115,7 @@ export default {
                     console.log(error);
                     this.submitError = true
                     this.submitText = error.response.data.message
-                    setTimeout(() => this.submitError = false, 4000)
+                    setTimeout(() => this.submitError = false, 8000)
                 });
         },
     },

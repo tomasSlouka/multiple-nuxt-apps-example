@@ -13,7 +13,7 @@
                         <div class="hr mb10"></div>
                         <div class='grid gap-10 col-2 auto justify-content-start align-items-center'>
                             <p class='strong'>Platba:</p>
-                            <p v-if='$store.state.auth.userData.subscription_plan_name == "Zvedavec"'>9.99 € / mesiac</p>
+                            <p v-if='$store.state.auth.userData.subscription_plan_name == "Zvedavec"'>4.99 € / mesiac</p>
                             <p v-if='$store.state.auth.userData.subscription_plan_name == "Čitateľ"'>59.00 € / rok</p>
                             <p v-if='$store.state.auth.userData.subscription_plan_name == "Knihomoľ"'>99.00 € / rok</p>
                         </div>
@@ -22,7 +22,7 @@
                             <div><DateFormat :date="$store.state.auth.userData.subscription_started_at" format="date" /></div>
                         </div>
                         <div class='grid gap-10 col-2 auto justify-content-start align-items-center'>
-                            <p class='strong'>Koniec platnosti:</p>
+                            <p class='strong'>Obnovenie platnosti:</p>
                             <div><DateFormat :date="$store.state.auth.userData.subscription_expires_at" format="date" /></div>
                         </div>
                         <div v-if='$store.state.auth.userData.subscription_canceled_at' class='grid justify-content-start align-items-center'>
